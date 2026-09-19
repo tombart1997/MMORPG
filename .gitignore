@@ -1,0 +1,18 @@
+# Godot caches (keep .uid files)
+**/.godot/
+**/export.cfg
+**/export_credentials.cfg
+game/builds/
+game/.local/
+# Blender backups and render/temp output
+*.blend1
+*.blend2
+*.blend@
+blender/tmp/
+blender/renders/
+*.tmp
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db
+.codex/
