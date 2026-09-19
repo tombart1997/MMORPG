@@ -14,6 +14,11 @@ func _ready() -> void:
 func is_alive() -> bool:
 	return current > 0.0
 
+func heal(amount: float) -> void:
+	if is_alive() and amount > 0:
+		current = minf(maximum, current + amount)
+		changed.emit(current, maximum)
+
 func apply_damage(amount: float, source: Node3D) -> bool:
 	if not is_alive() or amount <= 0.0:
 		return false

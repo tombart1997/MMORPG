@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3]
+[sub_resource type="BoxMesh" id="mesh"]
+size = Vector3(0.69, 0.36, 0.06)
+[sub_resource type="StandardMaterial3D" id="surface"]
+albedo_color = Color(0.46, 0.35, 0.2, 1)
+[node name="TravelerArmor" type="Node3D"]
+[node name="Chestplate" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.08, -0.23)
+mesh = SubResource("mesh")
+material_override = SubResource("surface")

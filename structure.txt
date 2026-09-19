@@ -1,13 +1,8 @@
 Metin2Clone/
-├── game/             ← Godot project
-├── assets/
-│   ├── characters/
-│   ├── mobs/
-│   ├── weapons/
-│   ├── environment/
-│   ├── animations/
-│   ├── audio/
-│   └── vfx/
-├── blender/
-├── docs/
-└── README.md
+  game/            Godot project (outdoor zone, visuals, gameplay, tests)
+  assets/          Original source art folders
+  blender/         Editable Blender sources
+  docs/            Design notes
+  tools/           Workspace-local launch and test scripts
+  PROJECT.md       Architecture, controls, conventions, verification
+  README.md        Quick start

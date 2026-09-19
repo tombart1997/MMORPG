@@ -5,9 +5,11 @@ var pack: AggroGroup
 var speed: float = 3.2
 var stagger: float = 0.0
 var cooldown: float = 0.0
+var home: Vector3
 
 func _ready() -> void:
 	actor = get_parent() as ActorBody
+	home = actor.global_position
 	actor.health.damaged.connect(_on_damaged)
 	cooldown = float(actor.get_index() % 6) * 0.13
 
@@ -40,6 +42,12 @@ func _physics_process(delta: float) -> void:
 				away.y = 0
 				if away.length() < 0.95 and away.length() > 0.001:
 					movement += away.normalized() * (0.95 - away.length()) * 3.0
+	if actor.health.is_alive() and not pack.has_target() and not actor.combat.is_attacking():
+		var offset := home - actor.global_position
+		offset.y = 0
+		if offset.length() > 0.15:
+			movement = offset.normalized() * speed
+			actor.rotation.y = atan2(-offset.x, -offset.z)
 	movement += actor.combat.consume_motion_velocity(delta)
 	actor.velocity.x = movement.x
 	actor.velocity.z = movement.z

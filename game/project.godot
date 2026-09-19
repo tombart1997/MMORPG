@@ -1,8 +1,8 @@
 config_version=5
 
 [application]
-config/name="Ironfield - Combat Prototype"
-run/main_scene="res://scenes/arena.tscn"
+config/name="Ironfield - Briarwood March"
+run/main_scene="res://scenes/outdoor_zone.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/use_custom_user_dir=true
 config/custom_user_dir_name="IronfieldPrototype"
