@@ -2,7 +2,7 @@ class_name EnemyBrain
 extends Node
 var actor: ActorBody
 var pack: AggroGroup
-var speed: float = 2.4
+var speed: float = 3.2
 var stagger: float = 0.0
 var cooldown: float = 0.0
 
@@ -12,8 +12,9 @@ func _ready() -> void:
 	cooldown = float(actor.get_index() % 6) * 0.13
 
 func _on_damaged(_amount: float, _source: Node3D) -> void:
-	stagger = 0.22
-	actor.combat.cancel()
+	# Ordinary hits react visually but cannot endlessly interrupt a committed strike.
+	if not actor.combat.is_attacking():
+		stagger = 0.08
 
 func _physics_process(delta: float) -> void:
 	stagger = maxf(0.0, stagger - delta)
@@ -25,7 +26,7 @@ func _physics_process(delta: float) -> void:
 		if not actor.combat.is_attacking():
 			if offset.length_squared() > 0.001:
 				actor.rotation.y = atan2(-offset.x, -offset.z)
-			if offset.length() > 1.35:
+			if offset.length() > 1.65:
 				movement = offset.normalized() * speed
 			elif cooldown <= 0.0:
 				actor.combat.request_attack()
@@ -39,6 +40,7 @@ func _physics_process(delta: float) -> void:
 				away.y = 0
 				if away.length() < 0.95 and away.length() > 0.001:
 					movement += away.normalized() * (0.95 - away.length()) * 3.0
+	movement += actor.combat.consume_motion_velocity(delta)
 	actor.velocity.x = movement.x
 	actor.velocity.z = movement.z
 	if not actor.is_on_floor():

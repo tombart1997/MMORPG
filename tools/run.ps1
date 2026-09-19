@@ -1,4 +1,5 @@
-param([switch]$Editor, [switch]$Test, [switch]$Headless, [switch]$Windowed)
+param([switch]$Editor, [switch]$Test, [switch]$Headless, [switch]$Windowed,
+    [ValidateSet('combat_smoke', 'melee_commitment', 'zone_loop')] [string]$Suite = 'combat_smoke')
 $projectRoot = Split-Path -Parent $PSScriptRoot
 $gamePath = Join-Path $projectRoot 'game'
 $localPath = Join-Path $gamePath '.local'
@@ -14,7 +15,7 @@ try {
     if ($Test) {
         & godot --headless --path $gamePath --log-file "$localPath/import.log" --editor --import --quit | Out-Host
         if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-        $godotArgs += @('--fixed-fps', '60', '--script', 'res://tests/combat_smoke.gd')
+        $godotArgs += @('--fixed-fps', '60', '--script', "res://tests/$Suite.gd")
     }
     & godot @godotArgs | Out-Host
     $result = $LASTEXITCODE

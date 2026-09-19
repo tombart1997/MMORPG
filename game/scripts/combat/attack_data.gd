@@ -9,4 +9,7 @@ extends Resource
 @export var reach: float = 2.8
 @export var cone_degrees: float = 115.0
 @export var height_tolerance: float = 1.5
-@export var movement_multiplier: float = 0.4
+@export_range(0.0, 1.0) var recovery_movement_unlock: float = 1.0
+@export var lunge_distance: float = 0.35
+@export var lunge_start: float = 0.12
+@export var lunge_duration: float = 0.22

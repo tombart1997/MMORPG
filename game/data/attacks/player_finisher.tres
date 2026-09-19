@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+display_name = "Heavy sweep"
+damage = 35.0
+windup = 0.25
+active = 0.18
+recovery = 0.38
+lunge_distance = 0.55
+lunge_start = 0.16
+lunge_duration = 0.27

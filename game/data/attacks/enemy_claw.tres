@@ -6,9 +6,11 @@
 script = ExtResource("1")
 display_name = "Claw swipe"
 damage = 8.0
-windup = 0.55
+windup = 0.32
 active = 0.12
 recovery = 0.85
-reach = 1.65
+reach = 1.95
 cone_degrees = 85.0
-movement_multiplier = 0.0
+lunge_distance = 0.3
+lunge_start = 0.18
+lunge_duration = 0.22

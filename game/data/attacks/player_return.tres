@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+display_name = "Returning cut"
+damage = 25.0
+windup = 0.15
+active = 0.16
+recovery = 0.28
+lunge_distance = 0.28
+lunge_start = 0.10
+lunge_duration = 0.20
