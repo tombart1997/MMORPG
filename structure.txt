@@ -1,0 +1,13 @@
+Metin2Clone/
+├── game/             ← Godot project
+├── assets/
+│   ├── characters/
+│   ├── mobs/
+│   ├── weapons/
+│   ├── environment/
+│   ├── animations/
+│   ├── audio/
+│   └── vfx/
+├── blender/
+├── docs/
+└── README.md
