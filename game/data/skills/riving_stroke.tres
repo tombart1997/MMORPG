@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://scripts/skills/skill_data.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/skills/skill_effect.gd" id="base"]
+[ext_resource type="Texture2D" path="res://assets/icons/skill_riving_stroke.svg" id="icon"]
+[ext_resource type="Script" path="res://scripts/skills/effects/damage_effect.gd" id="e0"]
+[ext_resource type="Script" path="res://scripts/skills/effects/status_effect.gd" id="e1"]
+
+[sub_resource type="Resource" id="Effect0"]
+script = ExtResource("e0")
+coefficient = 0.9
+
+[sub_resource type="Resource" id="Effect1"]
+script = ExtResource("e1")
+status = &"open"
+duration = 4.0
+
+[resource]
+script = ExtResource("1")
+id = &"riving_stroke"
+display_name = "Riving Stroke"
+description = "Open enemies for 4s: basic hits deal +25%. 0.9 x Attack, cleaves a narrow arc."
+targeting = "selected"
+shape = "arc"
+reach = 2.8
+radius = 2.8
+angle = 85
+windup = 0.28
+recovery = 0.3
+cooldown = 5
+animation = &"attack_01"
+color = Color(0.95, 0.65, 0.25, 1)
+icon = ExtResource("icon")
+consumes_answer = false
+effects = Array[ExtResource("base")]([SubResource("Effect0"), SubResource("Effect1")])

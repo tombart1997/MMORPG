@@ -1,0 +1,23 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/briarsteel_edge.tscn" id="2"]
+[ext_resource type="Resource" path="res://data/attacks/player_sword.tres" id="3"]
+[ext_resource type="Resource" path="res://data/attacks/player_return.tres" id="4"]
+[ext_resource type="Resource" path="res://data/attacks/player_finisher.tres" id="5"]
+[ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="6"]
+[ext_resource type="Texture2D" path="res://assets/icons/sword.svg" id="icon"]
+[ext_resource type="Resource" path="res://data/upgrades/weapon.tres" id="upgrade"]
+[resource]
+script = ExtResource("1")
+upgrade_profile = ExtResource("upgrade")
+icon = ExtResource("icon")
+id = &"briarsteel_edge"
+display_name = "Briarsteel Edge"
+description = "A keen blade recovered from the moss."
+item_type = "weapon"
+stackable = false
+equipment_slot = &"weapon"
+modifiers = {"attack": 18.0}
+value = 12
+visual = ExtResource("2")
+attacks = Array[ExtResource("6")]([ExtResource("3"), ExtResource("4"), ExtResource("5")])

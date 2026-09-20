@@ -3,6 +3,7 @@
 [resource]
 script = ExtResource("1")
 display_name = "Heavy sweep"
+animation_clip = &"attack_03"
 damage = 35.0
 windup = 0.25
 active = 0.18

@@ -1,9 +1,18 @@
 # Ironfield - Briarwood March
 
-A Godot 4.7.2 fantasy RPG prototype: explore an outdoor zone, commit to three-hit melee sequences, fight mossling camps, gain levels, and gather loot.
+A Godot 4.7.2 classic PC MMORPG prototype with a persistent cursor, navigable outdoor zone, quests, selective loot, equipment, Smith upgrades and local saves.
 
-Run `./tools/run.ps1` in PowerShell, or open `game/project.godot` and press F5.
+Run `./tools/run.ps1`, or open `game/project.godot` and press F5.
 
-WASD moves, mouse aims, left click attacks (click during recovery to chain), E gathers drops, Q drinks a tonic, and R revives after death. Rest at the starting waystone to heal. Progress lasts for the current session only.
+Play as **Ironvow / Turnwarden**: open foes with Riving Stroke, exploit them with basic attacks, guard a frontal hit to earn an Answer, then spend it on a sweeping push or a healing counter. Heelturn and Standard add movement and area control.
 
-Run all checks with `./tools/run.ps1 -Test`. See [PROJECT.md](PROJECT.md) for architecture, controls, and test details.
+- **Left click:** travel, interact, select/approach enemies or pick up chosen loot.
+- **Right drag / wheel:** orbit / zoom. **WASD:** move. **Space:** basic sword combo.
+- **1-6 or skill buttons:** six active skills. Skills 3 and 5 then need a ground click; Escape cancels placement.
+- **I:** inventory/equipment; drag items, Shift-drag half a stack. **J:** quests.
+- **E:** nearest interaction. **Q:** tonic. **R:** revive when dead.
+- **F5 / F9:** save / load. Autosave and save-on-close remain enabled. **F3:** debug. **F6:** reference specialization selection at the refuge.
+
+Visit Warden Elric for the introductory quests, Mara for trade and Smith Oren for upgrades. New and migrated characters receive the complete reference specialization; other classes are design-only.
+
+`./tools/run.ps1 -Test` runs all eight suites. Add `-Suite skill_combat -Windowed` to watch the specialization checks. See [PROJECT.md](PROJECT.md) for implementation and extension instructions, and [CLASS_DESIGN.md](CLASS_DESIGN.md) for the full original four-class, eight-specialization roster and all 48 skill concepts.

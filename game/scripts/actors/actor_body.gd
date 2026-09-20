@@ -14,6 +14,15 @@ var opponents: StringName = &"enemies"
 var title: String = "Player"
 var progression: PlayerProgression
 var inventory: PlayerInventory
+var equipment: PlayerEquipment
+var stats: CharacterStats
+var ui_open: bool = false
+var ui_session: UISession
+var navigation: PlayerNavigation
+var world_interaction: WorldInteraction
+var quests: PlayerQuests
+var skills: PlayerSkills
+var statuses: CombatStatuses
 
 func _ready() -> void:
 	add_to_group(faction)
@@ -29,6 +38,8 @@ func _ready() -> void:
 	health = HealthComponent.new()
 	health.maximum = maximum_health
 	add_child(health)
+	statuses = CombatStatuses.new()
+	add_child(statuses)
 	combat = MeleeCombat.new()
 	combat.attack = weapon
 	combat.sequence = attack_sequence
@@ -38,6 +49,7 @@ func _ready() -> void:
 		visual_scene = load("res://scenes/visuals/humanoid.tscn")
 	visual = visual_scene.instantiate() as ActorVisual
 	add_child(visual)
+	add_child(StatusVisual.new())
 	health.damaged.connect(_on_damaged)
 	health.died.connect(_on_died)
 
@@ -49,5 +61,7 @@ func _on_damaged(_amount: float, _source: Node3D) -> void:
 
 func _on_died(_source: Node3D) -> void:
 	combat.cancel()
+	statuses.clear()
+	if skills: skills.cancel_transient()
 	collision_layer = 0
 	collision_mask = 1

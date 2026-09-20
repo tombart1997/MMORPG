@@ -1,0 +1,17 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/ai/enemy_data.gd" id="1"]
+[ext_resource type="Resource" path="res://data/attacks/young_claw.tres" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/mossling.tscn" id="3"]
+[ext_resource type="Resource" path="res://data/drops/young.tres" id="4"]
+[resource]
+script = ExtResource("1")
+id = &"young"
+display_name = "Young Mossling"
+maximum_health = 60.0
+attack = ExtResource("2")
+visual = ExtResource("3")
+visual_scale = 0.85
+xp = 20
+gold_min = 4
+gold_max = 6
+drops = ExtResource("4")

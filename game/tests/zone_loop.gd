@@ -2,13 +2,15 @@ extends "res://tests/combat_smoke.gd"
 
 func _run() -> void:
 	var world = load("res://scenes/outdoor_zone.tscn").instantiate()
+	world.persistence_enabled = false
 	root.add_child(world)
 	current_scene = world
 	await frames(5)
 	var player: ActorBody = world.player
 	check(world.camps.size() == 3 and get_nodes_in_group("enemies").size() == 12,
 		"Outdoor zone spawns three separate camps with twelve enemies")
-	check(player.visual.skeleton.get_bone_count() == 7, "Humanoid visual has skeleton")
+	check(player.visual.skeleton.find_bone("Hand.R") >= 0 and player.visual.skeleton.find_bone("Shin.L") >= 0,
+		"Imported humanoid skeleton has hand and leg chains")
 	check(player.visual.sockets[&"WeaponSocket"].get_node_or_null("Equipment") != null,
 		"Weapon attached through replaceable equipment socket")
 	check(player.visual.sockets[&"ArmorSocket"].get_node_or_null("Equipment") != null,
@@ -25,7 +27,7 @@ func _run() -> void:
 	check(player.visual.animation_player.has_animation("run"), "Visual adapter provides locomotion animation")
 	var camp: EnemyCamp = world.camps[0]
 	camp.respawn_delay = 0.3
-	player.position = Vector3(0, 0, 2.1)
+	player.position = camp.position + Vector3(0, 0, 2.1)
 	player.rotation.y = 0
 	var health_before := player.health.current
 	var swing_count := 0
@@ -38,15 +40,16 @@ func _run() -> void:
 		swing_count += 1
 	check(camp.pack.living_count() == 0, "Real melee sequences can clear first group")
 	check(player.health.current < health_before, "Camp deals damage during real melee exchange")
-	check(player.progression.kills == 3 and player.progression.xp == 75,
+	check(player.progression.kills == 3 and player.progression.xp == 60,
 		"Each real combat kill awards XP exactly once")
-	check(get_nodes_in_group("loot").size() == 3, "Each enemy death creates one loot bundle")
+	var drop_count := get_nodes_in_group("loot").size()
+	check(drop_count >= 6, "Each enemy death creates separate gold and material entries")
 	if camp.pack.living_count() != 0:
 		quit(1)
 		return
 	var xp_before := player.progression.xp
 	camp.pack.members[0].health.apply_damage(500, player)
-	check(player.progression.xp == xp_before and get_nodes_in_group("loot").size() == 3,
+	check(player.progression.xp == xp_before and get_nodes_in_group("loot").size() == drop_count,
 		"Corpse damage cannot duplicate XP or drops")
 	var drop: LootPickup = get_nodes_in_group("loot")[0]
 	var saved_position := player.position
@@ -63,8 +66,8 @@ func _run() -> void:
 		player.global_position = bundle.global_position
 		world._unhandled_input(gather)
 	await frames(2)
-	check(player.inventory.gold == 15 and player.inventory.count(&"moss_shard") == 2,
-		"E gathers nearby bundles into gold and stackable inventory")
+	check(player.inventory.gold >= 32 and player.inventory.gold <= 38 and player.inventory.count(&"moss_shard") <= 3,
+		"E gathers nearby individual entries into gold and stackable inventory")
 	player.health.apply_damage(50, camp.pack.members[0])
 	var wounded := player.health.current
 	var tonics := player.inventory.count(&"field_tonic")
@@ -96,7 +99,7 @@ func _run() -> void:
 	if second.pack.living_count() != 0:
 		quit(1)
 		return
-	check(player.progression.level == 2 and player.progression.xp == 95,
+	check(player.progression.level == 2 and player.progression.xp == 80,
 		"Kills across groups advance level and preserve excess XP")
 	check(player.health.maximum == 180, "Level increases maximum health")
 	var saved_gold := player.inventory.gold

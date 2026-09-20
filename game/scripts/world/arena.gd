@@ -60,8 +60,8 @@ static func configure_inputs() -> void:
 			InputMap.action_add_event(action, event)
 	if not InputMap.has_action("attack"):
 		InputMap.add_action("attack")
-		var event := InputEventMouseButton.new()
-		event.button_index = MOUSE_BUTTON_LEFT
+		var event := InputEventKey.new()
+		event.physical_keycode = KEY_SPACE
 		InputMap.action_add_event("attack", event)
 
 func _build_world() -> void:

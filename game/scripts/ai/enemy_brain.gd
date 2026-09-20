@@ -19,6 +19,7 @@ func _on_damaged(_amount: float, _source: Node3D) -> void:
 		stagger = 0.08
 
 func _physics_process(delta: float) -> void:
+	if not pack.has_target() and actor.combat.is_attacking(): actor.combat.cancel()
 	stagger = maxf(0.0, stagger - delta)
 	cooldown = maxf(0.0, cooldown - delta)
 	var movement := Vector3.ZERO
@@ -48,7 +49,8 @@ func _physics_process(delta: float) -> void:
 		if offset.length() > 0.15:
 			movement = offset.normalized() * speed
 			actor.rotation.y = atan2(-offset.x, -offset.z)
-	movement += actor.combat.consume_motion_velocity(delta)
+	movement *= actor.statuses.movement_multiplier()
+	movement += actor.combat.consume_motion_velocity(delta) + actor.statuses.consume_push(delta)
 	actor.velocity.x = movement.x
 	actor.velocity.z = movement.z
 	if not actor.is_on_floor():

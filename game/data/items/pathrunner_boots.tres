@@ -1,0 +1,16 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/boots.svg" id="icon"]
+[ext_resource type="Resource" path="res://data/upgrades/armor.tres" id="upgrade"]
+[resource]
+script = ExtResource("1")
+upgrade_profile = ExtResource("upgrade")
+icon = ExtResource("icon")
+id = &"pathrunner_boots"
+display_name = "Pathrunner Boots"
+description = "Light boots for the March paths."
+item_type = "armor"
+stackable = false
+equipment_slot = &"feet"
+modifiers = {"defense": 1.0, "movement_speed": 0.5}
+value = 12

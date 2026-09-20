@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/traveler_armor.tscn" id="2"]
+[ext_resource type="Texture2D" path="res://assets/icons/armor.svg" id="icon"]
+[ext_resource type="Resource" path="res://data/upgrades/armor.tres" id="upgrade"]
+[resource]
+script = ExtResource("1")
+upgrade_profile = ExtResource("upgrade")
+icon = ExtResource("icon")
+id = &"travelers_vest"
+display_name = "Traveler's Vest"
+description = "A weathered outer vest."
+item_type = "armor"
+stackable = false
+equipment_slot = &"chest"
+modifiers = {}
+value = 2
+visual = ExtResource("2")

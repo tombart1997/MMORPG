@@ -1,0 +1,17 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/ai/enemy_data.gd" id="1"]
+[ext_resource type="Resource" path="res://data/attacks/ironback_claw.tres" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/ironback.tscn" id="3"]
+[ext_resource type="Resource" path="res://data/drops/ironback.tres" id="4"]
+[resource]
+script = ExtResource("1")
+id = &"ironback"
+display_name = "Cairn Ironback"
+maximum_health = 110.0
+attack = ExtResource("2")
+visual = ExtResource("3")
+visual_scale = 1.2
+xp = 40
+gold_min = 9
+gold_max = 12
+drops = ExtResource("4")

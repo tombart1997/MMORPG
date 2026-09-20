@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://scripts/skills/skill_data.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/skills/skill_effect.gd" id="base"]
+[ext_resource type="Texture2D" path="res://assets/icons/skill_held_line.svg" id="icon"]
+[ext_resource type="Script" path="res://scripts/skills/effects/status_effect.gd" id="e0"]
+
+[sub_resource type="Resource" id="Effect0"]
+script = ExtResource("e0")
+status = &"guard"
+duration = 1.2
+magnitude = 0.6
+
+[resource]
+script = ExtResource("1")
+id = &"held_line"
+display_name = "Held Line"
+description = "Guard one frontal blow for 1.2s: reduce it 60%, earn one Answer for 5s. Rear hits bypass guard."
+targeting = "self"
+shape = "self"
+reach = 0
+radius = 1
+angle = 120
+windup = 0.12
+recovery = 0.18
+cooldown = 10
+animation = &"skill_guard"
+color = Color(0.3, 0.7, 1, 1)
+icon = ExtResource("icon")
+consumes_answer = false
+effects = Array[ExtResource("base")]([SubResource("Effect0")])

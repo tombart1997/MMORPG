@@ -1,5 +1,5 @@
 param([switch]$Editor, [switch]$Test, [switch]$Headless, [switch]$Windowed,
-    [ValidateSet('all', 'combat_smoke', 'melee_commitment', 'zone_loop')] [string]$Suite = 'all')
+    [ValidateSet('all', 'combat_smoke', 'melee_commitment', 'zone_loop', 'character_pipeline', 'rpg_progression', 'settlement_loop', 'mmorpg_loop', 'skill_combat')] [string]$Suite = 'all')
 $projectRoot = Split-Path -Parent $PSScriptRoot
 $gamePath = Join-Path $projectRoot 'game'
 $localPath = Join-Path $gamePath '.local'
@@ -15,15 +15,15 @@ try {
     if ($Test) {
         & godot --headless --path $gamePath --log-file "$localPath/import.log" --editor --import --quit | Out-Host
         if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-        if (Select-String -Path "$localPath/import.log" -Pattern 'SCRIPT ERROR:' -Quiet) { exit 1 }
-        $testSuites = if ($Suite -eq 'all') { @('combat_smoke', 'melee_commitment', 'zone_loop') } else { @($Suite) }
+        if (Select-String -Path "$localPath/import.log" -Pattern 'SCRIPT ERROR:|ERROR: (?!Failed to read the root certificate store)' -Quiet) { exit 1 }
+        $testSuites = if ($Suite -eq 'all') { @('combat_smoke', 'melee_commitment', 'zone_loop', 'character_pipeline', 'rpg_progression', 'settlement_loop', 'mmorpg_loop', 'skill_combat') } else { @($Suite) }
         $result = 0
         foreach ($testSuite in $testSuites) {
             $testArgs = $godotArgs + @('--fixed-fps', '60', '--script', "res://tests/$testSuite.gd")
             & godot @testArgs | Out-Host
             $suiteResult = $LASTEXITCODE
             Copy-Item -LiteralPath "$localPath/godot.log" -Destination "$localPath/$testSuite.log" -Force
-            if ($suiteResult -ne 0 -or (Select-String -Path "$localPath/godot.log" -Pattern 'SCRIPT ERROR:' -Quiet)) { $result = 1; break }
+            if ($suiteResult -ne 0 -or (Select-String -Path "$localPath/godot.log" -Pattern 'SCRIPT ERROR:|ERROR: (?!Failed to read the root certificate store)' -Quiet)) { $result = 1; break }
         }
     } else {
         & godot @godotArgs | Out-Host

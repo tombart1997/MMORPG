@@ -1,0 +1,19 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/ai/enemy_data.gd" id="1"]
+[ext_resource type="Resource" path="res://data/attacks/grown_claw.tres" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/mossling.tscn" id="3"]
+[ext_resource type="Resource" path="res://data/drops/grown.tres" id="4"]
+[ext_resource type="Resource" path="res://data/items/briarsteel_edge.tres" id="5"]
+[resource]
+script = ExtResource("1")
+id = &"grown"
+display_name = "Mossling"
+maximum_health = 75.0
+attack = ExtResource("2")
+visual = ExtResource("3")
+visual_scale = 1.0
+xp = 25
+gold_min = 6
+gold_max = 8
+drops = ExtResource("4")
+leader_reward = ExtResource("5")

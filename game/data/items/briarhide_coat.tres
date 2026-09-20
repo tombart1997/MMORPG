@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/traveler_armor.tscn" id="2"]
+[ext_resource type="Texture2D" path="res://assets/icons/armor.svg" id="icon"]
+[ext_resource type="Resource" path="res://data/upgrades/armor.tres" id="upgrade"]
+[resource]
+script = ExtResource("1")
+upgrade_profile = ExtResource("upgrade")
+icon = ExtResource("icon")
+id = &"briarhide_coat"
+display_name = "Briarhide Coat"
+description = "Layered hide lined with soft moss."
+item_type = "armor"
+stackable = false
+equipment_slot = &"chest"
+modifiers = {"defense": 3.0, "max_hp": 25.0}
+value = 12
+visual = ExtResource("2")

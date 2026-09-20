@@ -2,6 +2,7 @@ class_name AttackData
 extends Resource
 ## Timings are seconds, distances are meters, cone angle is the full width.
 @export var display_name: String = "Sword sweep"
+@export var animation_clip: StringName = &"attack_01"
 @export var damage: float = 25.0
 @export var windup: float = 0.18
 @export var active: float = 0.16

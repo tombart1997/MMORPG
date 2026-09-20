@@ -1,0 +1,5 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/upgrades/upgrade_profile.gd" id="1"]
+[resource]
+script = ExtResource("1")
+steps = Array[Dictionary]([{"gold": 15, "chance": 1.0, "materials": {"moss_shard": 1}, "bonuses": {"attack": 2}}, {"gold": 30, "chance": 0.8, "materials": {"moss_shard": 2}, "bonuses": {"attack": 3}}, {"gold": 55, "chance": 0.6, "materials": {"moss_shard": 3}, "bonuses": {"attack": 4}}])

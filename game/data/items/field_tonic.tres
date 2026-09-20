@@ -1,8 +1,12 @@
 [gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
 [ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/consumable.svg" id="icon"]
 [resource]
 script = ExtResource("1")
+icon = ExtResource("icon")
 id = &"field_tonic"
 display_name = "Field tonic"
 color = Color(0.85, 0.3, 0.28, 1)
 healing = 45.0
+item_type = "consumable"
+description = "A bitter waystone remedy brewed for travelers."

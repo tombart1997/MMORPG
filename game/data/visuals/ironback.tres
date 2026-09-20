@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CharacterVisualProfile" load_steps=4 format=3]
+[ext_resource type="Script" path="res://scripts/visuals/character_visual_profile.gd" id="1"]
+[ext_resource type="PackedScene" path="res://assets/characters/briarling.glb" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/ironback_ridge.tscn" id="3"]
+[resource]
+script = ExtResource("1")
+armor = ExtResource("3")
+model = ExtResource("2")
+creature = true
+run_reference_speed = 3.2
+label_height = 1.95

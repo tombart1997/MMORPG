@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/quests/quest_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"briar_watch"
+title = "Briar at the Gate"
+description = "Thin the young mosslings and bring three shards back to the warden."
+giver = &"warden"
+turn_in = &"warden"
+prerequisites = Array[StringName]([&"welcome"])
+objectives = Array[Dictionary]([{"type":"kill","target":"young","amount":3,"label":"Defeat young mosslings"},{"type":"collect","target":"moss_shard","amount":3,"label":"Carry Moss shards"},{"type":"return","target":"warden","amount":1,"label":"Return to Elric"}])
+gold = 25
+xp = 40
+items = {"moss_shard":2}

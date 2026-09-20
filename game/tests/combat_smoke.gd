@@ -39,40 +39,29 @@ func _run() -> void:
 	Input.action_release("move_forward")
 	check(player.position.z < origin.z - 1.0, "W moves player forward through physics")
 	check(absf(player.position.y) < 0.05, "Player stands on arena floor")
+	# Reset camera baseline after window startup mouse events.
+	controller.rig.yaw = 0
+	controller.rig.pitch = -0.3
+	var orbit := InputEventMouseButton.new()
+	orbit.button_index = MOUSE_BUTTON_RIGHT
+	orbit.pressed = true
+	controller.rig._unhandled_input(orbit)
 	var motion := InputEventMouseMotion.new()
 	motion.relative = Vector2(100, 30)
-	if DisplayServer.get_name() == "headless":
-		controller.rig.apply_look_delta(motion.relative)
-	else:
-		controller.rig._unhandled_input(motion)
-	check(controller.rig.yaw < -0.2 and controller.rig.pitch < -0.3, "Camera look controls yaw and pitch")
-	if DisplayServer.get_name() != "headless":
-		var escape := InputEventKey.new()
-		escape.physical_keycode = KEY_ESCAPE
-		escape.pressed = true
-		Input.parse_input_event(escape)
-		await frames(2)
-		check(Input.mouse_mode == Input.MOUSE_MODE_VISIBLE, "Escape releases cursor")
-		var click := InputEventMouseButton.new()
-		click.button_index = MOUSE_BUTTON_LEFT
-		click.pressed = true
-		Input.parse_input_event(click)
-		await frames(2)
-		check(Input.mouse_mode == Input.MOUSE_MODE_CAPTURED and not player.combat.is_attacking(),
-			"Recapture click does not attack")
-		click = click.duplicate()
-		click.pressed = false
-		Input.parse_input_event(click)
-		await frames(2)
-		click = click.duplicate()
-		click.pressed = true
-		Input.parse_input_event(click)
-		await frames(2)
-		check(player.combat.is_attacking(), "Captured left click requests sword attack")
-		click = click.duplicate()
-		click.pressed = false
-		Input.parse_input_event(click)
-		await frames(42)
+	controller.rig._unhandled_input(motion)
+	check(controller.rig.yaw < -0.2 and controller.rig.pitch < -0.3, "Right drag controls camera yaw and pitch")
+	orbit.pressed = false
+	controller.rig._input(orbit)
+	check(not controller.rig.orbiting and Input.mouse_mode == Input.MOUSE_MODE_VISIBLE, "Orbit release preserves visible cursor")
+	var attack_key := InputEventKey.new()
+	attack_key.physical_keycode = KEY_SPACE
+	attack_key.pressed = true
+	Input.parse_input_event(attack_key)
+	await frames(2)
+	check(player.combat.is_attacking(), "Space attack action requests sword attack")
+	attack_key.pressed = false
+	Input.parse_input_event(attack_key)
+	await frames(42)
 	controller.set_physics_process(false)
 	for enemy in pack.members:
 		for child in enemy.get_children():

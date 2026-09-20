@@ -10,6 +10,8 @@ func _run() -> void:
 	for child in player.get_children():
 		if child is PlayerController:
 			controller = child
+	controller.rig.set_process_unhandled_input(false)
+	controller.rig.yaw = 0
 	player.position = Vector3(8, 0, 8)
 	player.rotation.y = 0
 	player.combat.sequence.assign([load("res://data/attacks/player_sword.tres"),

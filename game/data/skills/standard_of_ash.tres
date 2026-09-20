@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://scripts/skills/skill_data.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/skills/skill_effect.gd" id="base"]
+[ext_resource type="Texture2D" path="res://assets/icons/skill_standard_of_ash.svg" id="icon"]
+[ext_resource type="Script" path="res://scripts/skills/effects/area_effect.gd" id="e0"]
+
+[sub_resource type="Resource" id="Effect0"]
+script = ExtResource("e0")
+radius = 2.7
+duration = 5.0
+shelter = 0.2
+replace_previous = true
+
+[resource]
+script = ExtResource("1")
+id = &"standard_of_ash"
+display_name = "Standard of Ash"
+description = "5s area: take 20% less damage inside; enemies inside slowed 25%. One standard at a time."
+targeting = "ground"
+shape = "none"
+reach = 7
+radius = 2.7
+angle = 360
+windup = 0.4
+recovery = 0.25
+cooldown = 18
+animation = &"skill_plant"
+color = Color(0.5, 0.7, 0.85, 1)
+icon = ExtResource("icon")
+consumes_answer = false
+effects = Array[ExtResource("base")]([SubResource("Effect0")])

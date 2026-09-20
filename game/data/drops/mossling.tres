@@ -1,0 +1,40 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/rpg/drop_table.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/rpg/drop_entry.gd" id="2"]
+[ext_resource type="Resource" path="res://data/items/briarsteel_edge.tres" id="3"]
+[ext_resource type="Resource" path="res://data/items/briarhide_coat.tres" id="4"]
+[ext_resource type="Resource" path="res://data/items/cairnwarden_sword.tres" id="5"]
+[ext_resource type="Resource" path="res://data/items/cairn_cap.tres" id="6"]
+[ext_resource type="Resource" path="res://data/items/pathrunner_boots.tres" id="7"]
+[ext_resource type="Resource" path="res://data/items/moss_shard.tres" id="8"]
+[ext_resource type="Resource" path="res://data/items/field_tonic.tres" id="9"]
+[sub_resource type="Resource" id="shard"]
+script = ExtResource("2")
+item = ExtResource("8")
+[sub_resource type="Resource" id="tonic"]
+script = ExtResource("2")
+item = ExtResource("9")
+chance = 0.4
+[sub_resource type="Resource" id="edge"]
+script = ExtResource("2")
+item = ExtResource("3")
+chance = 0.4
+[sub_resource type="Resource" id="coat"]
+script = ExtResource("2")
+item = ExtResource("4")
+chance = 0.3
+[sub_resource type="Resource" id="sword"]
+script = ExtResource("2")
+item = ExtResource("5")
+chance = 0.12
+[sub_resource type="Resource" id="cap"]
+script = ExtResource("2")
+item = ExtResource("6")
+chance = 0.2
+[sub_resource type="Resource" id="boots"]
+script = ExtResource("2")
+item = ExtResource("7")
+chance = 0.2
+[resource]
+script = ExtResource("1")
+entries = Array[ExtResource("2")]([SubResource("shard"), SubResource("tonic"), SubResource("edge"), SubResource("coat"), SubResource("sword"), SubResource("cap"), SubResource("boots")])

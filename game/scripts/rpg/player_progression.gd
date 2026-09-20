@@ -1,6 +1,7 @@
 class_name PlayerProgression
 extends Node
 signal level_gained(level: int)
+signal changed
 var level: int = 1
 var xp: int = 0
 var kills: int = 0
@@ -14,3 +15,4 @@ func award_xp(amount: int) -> void:
 		xp -= xp_required()
 		level += 1
 		level_gained.emit(level)
+	changed.emit()

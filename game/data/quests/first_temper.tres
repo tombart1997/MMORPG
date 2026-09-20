@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/quests/quest_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"first_temper"
+title = "A Steadier Edge"
+description = "Speak with Smith Oren. Improve any piece of equipment, then report to him."
+giver = &"warden"
+turn_in = &"smith"
+prerequisites = Array[StringName]([&"briar_watch"])
+objectives = Array[Dictionary]([{"type":"talk","target":"smith","amount":1,"label":"Talk to Oren"},{"type":"upgrade","target":"equipment","amount":1,"label":"Successfully improve equipment"},{"type":"return","target":"smith","amount":1,"label":"Return to Oren"}])
+gold = 20
+xp = 30
+items = {"field_tonic":2}

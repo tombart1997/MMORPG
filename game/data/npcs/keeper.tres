@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/npc/npc_data.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/npc/dialogue_page.gd" id="2"]
+[sub_resource type="Resource" id="p0"]
+script = ExtResource("2")
+text = "The waystone keeps this little refuge quiet. Rest here between hunts. If you fall, its light will guide you home with your belongings."
+responses = Array[Dictionary]([{"text": "Tell me about the March.", "next": 1}, {"text": "May the light hold.", "action": "close"}])
+[sub_resource type="Resource" id="p1"]
+script = ExtResource("2")
+text = "We built around the old road, where the pines give way to briar. Mara keeps our tools sharp; Elric watches the gate. One day these paths may carry caravans again."
+responses = Array[Dictionary]([{"text": "Farewell.", "action": "close"}])
+[resource]
+script = ExtResource("1")
+id = &"keeper"
+display_name = "Keeper Sella"
+role = &"waystone keeper"
+clothing_color = Color(0.27, 0.30, 0.5, 1)
+pages = Array[ExtResource("2")]([SubResource("p0"), SubResource("p1")])

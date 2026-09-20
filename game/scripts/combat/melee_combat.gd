@@ -19,6 +19,9 @@ var idle_elapsed: float = 1.0
 var queued: bool = false
 var motion_elapsed: float = 0.0
 var attack_direction := Vector3.FORWARD
+var swing_serial: int = 0
+var swing_speed: float = 1.0
+var swing_damage: float = 0.0
 
 func _ready() -> void:
 	actor = get_parent() as CharacterBody3D
@@ -27,16 +30,19 @@ func is_attacking() -> bool:
 	return phase != Phase.IDLE
 
 func request_attack() -> bool:
-	if is_attacking() or not actor.health.is_alive() or attack == null:
+	if is_attacking() or not actor.health.is_alive() or attack == null or (actor.skills and actor.skills.busy()):
 		return false
 	if not sequence.is_empty():
 		sequence_index = 0 if idle_elapsed > combo_grace else (sequence_index + 1) % sequence.size()
 		attack = sequence[sequence_index]
+	swing_speed = actor.stats.value(&"attack_speed") if actor.stats else 1.0
+	swing_damage = attack.damage * actor.stats.value(&"attack") / 25.0 if actor.stats else attack.damage
 	idle_elapsed = 0.0
 	motion_elapsed = 0.0
 	attack_direction = -actor.global_basis.z
 	queued = false
 	hit_ids.clear()
+	swing_serial += 1
 	swing_hits = 0
 	_set_phase(Phase.WINDUP)
 	return true
@@ -60,7 +66,7 @@ func consume_motion_velocity(delta: float) -> Vector3:
 	if not is_attacking() or delta <= 0.0:
 		return Vector3.ZERO
 	var start := motion_elapsed
-	motion_elapsed += delta
+	motion_elapsed += delta * swing_speed
 	var overlap := maxf(0.0, minf(motion_elapsed, attack.lunge_start + attack.lunge_duration)
 		- maxf(start, attack.lunge_start))
 	return attack_direction * attack.lunge_distance * overlap / maxf(attack.lunge_duration * delta, 0.00001)
@@ -81,7 +87,7 @@ func _physics_process(delta: float) -> void:
 	if phase == Phase.IDLE:
 		idle_elapsed += delta
 		return
-	phase_elapsed += delta
+	phase_elapsed += delta * swing_speed
 	match phase:
 		Phase.WINDUP:
 			if phase_elapsed >= attack.windup:
@@ -120,7 +126,8 @@ func _resolve_hits() -> void:
 		if not actor.get_world_3d().direct_space_state.intersect_ray(ray).is_empty():
 			continue
 		hit_ids[id] = true
-		if target.health.apply_damage(attack.damage, actor):
+		var damage := swing_damage * (1.25 if target.statuses and target.statuses.has(&"open") else 1.0)
+		if target.health.apply_damage(damage, actor):
 			swing_hits += 1
 			total_hits += 1
 			hit_landed.emit(target)

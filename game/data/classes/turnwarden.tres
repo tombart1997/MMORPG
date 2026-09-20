@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="SpecializationData" load_steps=10 format=3]
+[ext_resource type="Script" path="res://scripts/skills/specialization_data.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/skills/skill_data.gd" id="2"]
+[ext_resource type="Resource" path="res://data/skills/riving_stroke.tres" id="s0"]
+[ext_resource type="Resource" path="res://data/skills/held_line.tres" id="s1"]
+[ext_resource type="Resource" path="res://data/skills/heelturn.tres" id="s2"]
+[ext_resource type="Resource" path="res://data/skills/gate_sweep.tres" id="s3"]
+[ext_resource type="Resource" path="res://data/skills/standard_of_ash.tres" id="s4"]
+[ext_resource type="Resource" path="res://data/skills/due_return.tres" id="s5"]
+
+[ext_resource type="Resource" path="res://data/classes/ironvow.tres" id="class"]
+
+[resource]
+script = ExtResource("1")
+base_class = ExtResource("class")
+id = &"turnwarden"
+display_name = "Ironvow / Turnwarden"
+skills = Array[ExtResource("2")]([ExtResource("s0"), ExtResource("s1"), ExtResource("s2"), ExtResource("s3"), ExtResource("s4"), ExtResource("s5")])

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/quests/quest_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"welcome"
+title = "A Place on the Road"
+description = "Meet Mara and learn where travelers prepare for the March."
+giver = &"warden"
+turn_in = &"warden"
+prerequisites = Array[StringName]([])
+objectives = Array[Dictionary]([{"type":"talk","target":"mara","amount":1,"label":"Talk to Mara"},{"type":"return","target":"warden","amount":1,"label":"Return to Elric"}])
+gold = 15
+xp = 20
+items = {}

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://scripts/skills/skill_data.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/skills/skill_effect.gd" id="base"]
+[ext_resource type="Texture2D" path="res://assets/icons/skill_heelturn.svg" id="icon"]
+[ext_resource type="Script" path="res://scripts/skills/effects/area_effect.gd" id="e0"]
+[ext_resource type="Script" path="res://scripts/skills/effects/movement_effect.gd" id="e1"]
+
+[sub_resource type="Resource" id="Effect0"]
+script = ExtResource("e0")
+radius = 1.6
+duration = 2.0
+at_origin = true
+
+[sub_resource type="Resource" id="Effect1"]
+script = ExtResource("e1")
+duration = 0.25
+
+[resource]
+script = ExtResource("1")
+id = &"heelturn"
+display_name = "Heelturn"
+description = "Move up to 3.5m with collision. Leave a 2s patch slowing enemies 25%. No invulnerability."
+targeting = "direction"
+shape = "none"
+reach = 3.5
+radius = 1.6
+angle = 360
+windup = 0.1
+recovery = 0.45
+cooldown = 8
+animation = &"skill_step"
+color = Color(0.6, 0.8, 0.6, 1)
+icon = ExtResource("icon")
+consumes_answer = false
+effects = Array[ExtResource("base")]([SubResource("Effect0"), SubResource("Effect1")])

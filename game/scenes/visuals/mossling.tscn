@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene load_steps=3 format=3]
 [ext_resource type="Script" path="res://scripts/visuals/actor_visual.gd" id="1"]
+[ext_resource type="Resource" path="res://data/visuals/briarling.tres" id="2"]
 [node name="MosslingVisual" type="Node3D"]
 script = ExtResource("1")
-creature = true
-tint = Color(0.36, 0.4, 0.2, 1)
+profile = ExtResource("2")
