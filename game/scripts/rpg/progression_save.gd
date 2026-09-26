@@ -1,7 +1,7 @@
 class_name ProgressionSave
 extends RefCounted
 ## Versioned, validated snapshots. Parse fully before mutating gameplay state.
-const VERSION = 3
+const VERSION = 5
 var path: String = "user://progression.json"
 var error: String = ""
 
@@ -17,6 +17,10 @@ func save_player(actor: ActorBody) -> bool:
 		"kills": actor.progression.kills, "gold": actor.inventory.gold, "hp": actor.health.current,
 		"inventory": bag, "equipment": gear, "quests": actor.quests.states if actor.quests else {}}
 	data["skills"] = actor.skills.snapshot() if actor.skills else PlayerSkills.default_snapshot()
+	data["farming"] = actor.farming.snapshot() if actor.farming else {}
+	data["actions"] = actor.actions.snapshot() if actor.actions else ["field_tonic", ""]
+	data["mounts"] = actor.mounts.snapshot() if actor.mounts else {"owned": [], "selected": ""}
+	data["map"] = actor.map_state.discoveries if actor.map_state else {}
 	var file := FileAccess.open(path + ".tmp", FileAccess.WRITE)
 	if file == null:
 		error = "Cannot write save"
@@ -61,13 +65,14 @@ func load_player(actor: ActorBody) -> bool:
 	return false
 
 func apply_snapshot(actor: ActorBody, data: Variant) -> bool:
-	if not data is Dictionary or (data.get("version") != 1 and data.get("version") != 2 and data.get("version") != VERSION): return false
+	if not data is Dictionary: return false
+	if not FarmingState.number(data.get("version"), 1, VERSION) or float(data.version) != floorf(float(data.version)): return false
 	for key in ["level", "xp", "kills", "gold", "hp"]:
 		if not data.get(key) is float and not data.get(key) is int: return false
 		if not is_finite(float(data[key])) or data[key] < 0 or data[key] > 100000000: return false
 	for key in ["level", "xp", "kills", "gold"]:
 		if float(data[key]) != floorf(float(data[key])): return false
-	if data.level < 1 or data.level > 10000 or data.xp >= 80 + (data.level - 1) * 40: return false
+	if data.level < 1 or data.level > 10000 or data.xp >= PlayerProgression.requirement_for(int(data.level)): return false
 	if not data.get("inventory") is Array or data.inventory.size() != PlayerInventory.CAPACITY: return false
 	if not data.get("equipment") is Dictionary: return false
 	var bag: Array[ItemStack] = []
@@ -86,6 +91,16 @@ func apply_snapshot(actor: ActorBody, data: Variant) -> bool:
 	if not PlayerQuests.valid_snapshot(quests): return false
 	var skill_state: Variant = data.get("skills", PlayerSkills.default_snapshot() if data.version < 3 else null)
 	if not PlayerSkills.valid_snapshot(skill_state): return false
+	var farming: Variant = data.get("farming", {} if data.version < 4 else null)
+	if not FarmingState.valid_snapshot(farming): return false
+	var actions: Variant = data.get("actions", ["field_tonic", ""] if data.version < 5 else null)
+	var mounts: Variant = data.get("mounts", {"owned": [], "selected": ""} if data.version < 5 else null)
+	var discoveries: Variant = data.get("map", {} if data.version < 5 else null)
+	if not PlayerActions.valid_snapshot(actions) or not PlayerMount.valid_snapshot(mounts) or not PlayerMap.valid_snapshot(discoveries): return false
+	if actor.actions: actor.actions.restore(actions)
+	if actor.mounts: actor.mounts.restore(mounts)
+	if actor.map_state: actor.map_state.discoveries = discoveries.duplicate(true)
+	if actor.farming: actor.farming.restore(farming)
 	if actor.skills: actor.skills.restore(skill_state)
 	if actor.quests: actor.quests.states = quests.duplicate(true)
 	actor.progression.level = int(data.level)

@@ -10,6 +10,7 @@ var repath_time: float = 0
 var ring: MeshInstance3D
 var selected_enemy: ActorBody
 var hover_text: String = ""
+var hover_clock: float = 0
 
 func _ready() -> void:
 	ring = MeshInstance3D.new()
@@ -100,6 +101,9 @@ func _process(_delta: float) -> void:
 	ring.visible = is_instance_valid(selected_enemy) and selected_enemy.health.is_alive()
 	if ring.visible: ring.global_position = selected_enemy.global_position + Vector3.UP * 0.07
 	if actor.ui_open: hover_text = ""; return
+	hover_clock -= _delta
+	if hover_clock > 0: return
+	hover_clock = 0.06
 	var hit := WorldPicker.pick(camera, get_viewport().get_mouse_position())
 	hover_text = ""
 	if not hit.is_empty():

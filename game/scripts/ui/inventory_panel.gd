@@ -146,7 +146,7 @@ func activate_selection() -> void:
 	if selected_gear != &"": success = player.equipment.unequip(selected_gear)
 	elif selected >= 0 and player.inventory.slots[selected]:
 		var item := player.inventory.slots[selected].definition()
-		success = player.equipment.equip(selected) if item.equipment_slot != &"" else player.inventory.use_slot(selected, player.health)
+		success = player.equipment.equip(selected) if item.equipment_slot != &"" else (player.actions.use_bag(selected) if player.actions else player.inventory.use_slot(selected, player.health))
 	var feedback := "Equipment / inventory updated" if success else "Cannot use: check bag space, required level or current health."
 	zone.announce(feedback)
 	refresh()
@@ -185,7 +185,7 @@ func refresh() -> void:
 	action.text = "Unequip" if selected_gear != &"" else ("Equip" if stack and stack.definition().equipment_slot != &"" else "Use")
 	discard.disabled = selected < 0 or stack == null
 	discard.text = "Confirm discard" if discard_armed else "Discard stack"
-	action.disabled = stack == null or (selected_gear == &"" and stack.definition().equipment_slot == &"" and stack.definition().healing <= 0)
+	action.disabled = stack == null or (selected_gear == &"" and stack.definition().equipment_slot == &"" and stack.definition().healing <= 0 and stack.definition().mount_unlock == &"")
 
 func discard_selection() -> void:
 	if selected < 0 or not player.equipment.can_change(): return

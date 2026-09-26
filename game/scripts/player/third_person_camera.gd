@@ -44,7 +44,8 @@ func apply_look_delta(relative: Vector2) -> void:
 	pitch = clampf(pitch - relative.y * 0.003, -1.05, 0.15)
 
 func _process(_delta: float) -> void:
-	global_position = subject.global_position + Vector3(0, 1.3, 0)
+	var lift: float = subject.mounts.definition.rider_height if subject is ActorBody and subject.mounts and subject.mounts.mounted else 0.0
+	global_position = subject.global_position + Vector3(0, 1.3 + lift, 0)
 	rotation = Vector3(pitch, yaw, 0)
 	arm.spring_length = distance
 

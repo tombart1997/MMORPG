@@ -4,10 +4,10 @@
 script = ExtResource("1")
 id = &"briar_watch"
 title = "Briar at the Gate"
-description = "Thin the young mosslings and bring three shards back to the warden."
+description = "Follow the north road to Briarwood Verge. Keep the young mosslings in front of your blade, collect three moss shards, and return to Elric. Your reward and the hunt gold can buy a better sword from Mara. Other hunts need no quest."
 giver = &"warden"
 turn_in = &"warden"
-prerequisites = Array[StringName]([&"welcome"])
+prerequisites = Array[StringName]([])
 objectives = Array[Dictionary]([{"type":"kill","target":"young","amount":3,"label":"Defeat young mosslings"},{"type":"collect","target":"moss_shard","amount":3,"label":"Carry Moss shards"},{"type":"return","target":"warden","amount":1,"label":"Return to Elric"}])
 gold = 25
 xp = 40

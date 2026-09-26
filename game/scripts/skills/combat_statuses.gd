@@ -27,6 +27,11 @@ func movement_multiplier() -> float:
 	for id in [&"slow", &"zone_slow"]:
 		if has(id): reduction = maxf(reduction, entries[id].magnitude)
 	return 1.0 - clampf(reduction, 0, 0.8)
+func modify_incoming_basic_damage(amount: float, _source: ActorBody) -> float:
+	# Basic combat asks the receiver for its modifier instead of knowing which
+	# specialization authored the status. Future policies belong in the status
+	# layer rather than in MeleeCombat.
+	return amount * (1.25 if has(&"open") else 1.0)
 func filter_damage(amount: float, source: Node3D) -> float:
 	var reduction := float(entries.get(&"shelter", {}).get("magnitude", 0))
 	if has(&"guard") and is_instance_valid(source) and source is ActorBody and source.faction != actor.faction:

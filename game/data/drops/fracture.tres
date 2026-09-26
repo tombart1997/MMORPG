@@ -1,0 +1,35 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/rpg/drop_table.gd" id="table"]
+[ext_resource type="Script" path="res://scripts/rpg/drop_entry.gd" id="entry"]
+[ext_resource type="Resource" path="res://data/items/wakeglass.tres" id="glass"]
+[ext_resource type="Resource" path="res://data/items/wakecleaver.tres" id="sword"]
+[ext_resource type="Resource" path="res://data/items/rootward_jack.tres" id="armor"]
+[ext_resource type="Resource" path="res://data/items/moss_shard.tres" id="shard"]
+[ext_resource type="Resource" path="res://data/items/field_tonic.tres" id="tonic"]
+[sub_resource type="Resource" id="glass"]
+script = ExtResource("entry")
+item = ExtResource("glass")
+chance = 0.18
+[sub_resource type="Resource" id="sword"]
+script = ExtResource("entry")
+item = ExtResource("sword")
+chance = 0.055
+[sub_resource type="Resource" id="armor"]
+script = ExtResource("entry")
+item = ExtResource("armor")
+chance = 0.075
+[sub_resource type="Resource" id="shard"]
+script = ExtResource("entry")
+item = ExtResource("shard")
+chance = 1.0
+minimum = 3
+maximum = 6
+[sub_resource type="Resource" id="tonic"]
+script = ExtResource("entry")
+item = ExtResource("tonic")
+chance = 1.0
+minimum = 1
+maximum = 2
+[resource]
+script = ExtResource("table")
+entries = Array[ExtResource("entry")]([SubResource("glass"), SubResource("sword"), SubResource("armor"), SubResource("shard"), SubResource("tonic")])

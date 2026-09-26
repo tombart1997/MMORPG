@@ -27,5 +27,6 @@ cooldown = 10
 animation = &"skill_guard"
 color = Color(0.3, 0.7, 1, 1)
 icon = ExtResource("icon")
+requirement_text = "Sword required."
 consumes_answer = false
 effects = Array[ExtResource("base")]([SubResource("Effect0")])

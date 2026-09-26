@@ -14,9 +14,13 @@ extends Resource
 @export var animation: StringName = &"attack_01"
 @export var color: Color = Color(0.95, 0.65, 0.25)
 @export var icon: Texture2D
+@export var requirement_text: String
 @export var consumes_answer: bool = false
 @export var effects: Array[SkillEffect] = []
 @export var maximum_rank: int = 1
 @export var rank_scaling: float = 0.05
 func tooltip() -> String:
-	return "%s\n%s\nRange %.1fm | Windup %.2fs | Cooldown %.0fs\nSword required. %s" % [display_name, description, reach, windup, cooldown, "Click ground to place; Esc cancels." if targeting in ["ground", "direction"] else ""]
+	var result := "%s\n%s\nRange %.1fm | Windup %.2fs | Cooldown %.0fs" % [display_name, description, reach, windup, cooldown]
+	if not requirement_text.is_empty(): result += "\n" + requirement_text
+	if targeting in ["ground", "direction"]: result += "\nClick ground to place; Esc cancels."
+	return result

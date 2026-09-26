@@ -7,6 +7,10 @@ extends Node3D
 var remaining: float = -1.0
 var pack: AggroGroup
 var generation: int = 0
+var spawn_points: Array[Vector3] = []
+var rewards_enabled: bool = true
+var respawn_enabled: bool = true
+var corpse_seconds: float = 0
 @export var enemy_data: EnemyData
 @export var leash_distance: float = 13.0
 @export var drop_table: DropTable = preload("res://data/drops/mossling.tres")
@@ -16,9 +20,12 @@ const CLAW = preload("res://data/attacks/enemy_claw.tres")
 @export var leader_reward: ItemData = preload("res://data/items/briarsteel_edge.tres")
 
 func _ready() -> void:
+	rng.randomize()
 	if enemy_data:
 		drop_table = enemy_data.drops
 		leader_reward = enemy_data.leader_reward
+		if enemy_data.tier <= 2: count = maxi(3, count)
+		else: count = 1
 	spawn_group()
 
 func spawn_group() -> void:
@@ -36,8 +43,10 @@ func spawn_group() -> void:
 	if SafeArea.protects(self): return
 	for i in range(count):
 		var enemy := ActorBody.new()
-		enemy.title = enemy_data.display_name if enemy_data else "Mossling"
+		enemy.enemy_definition = enemy_data
+		enemy.title = "%s  Lv.%d  T%d" % [enemy_data.display_name, enemy_data.level, enemy_data.tier] if enemy_data else "Mossling"
 		enemy.position = Vector3((i % 2) * 1.5 - 0.75, 0.1, -floorf(i / 2.0) * 1.5)
+		if i < spawn_points.size(): enemy.position = spawn_points[i]
 		enemy.rotation.y = PI
 		enemy.weapon = enemy_data.attack if enemy_data else CLAW
 		enemy.visual_scene = enemy_data.visual if enemy_data else ENEMY_VISUAL
@@ -49,14 +58,18 @@ func spawn_group() -> void:
 		WorldClickable.attach(enemy, &"enemy")
 		if enemy_data:
 			enemy.visual.scale = Vector3.ONE * enemy_data.visual_scale
+			enemy.health.defense = enemy_data.defense
+			if enemy.visual.has_method("apply_variant"): enemy.visual.apply_variant(enemy_data)
 		var brain := EnemyBrain.new()
 		brain.pack = pack
-		if enemy_data: brain.speed = enemy_data.speed
+		if enemy_data:
+			brain.speed = enemy_data.speed
+			brain.aggro_radius = enemy_data.aggro_radius if enemy_data.tier >= 3 else 0.0
 		enemy.add_child(brain)
 		enemy.health.died.connect(_reward.bind(enemy, i))
 
 func _reward(source: Node3D, enemy: ActorBody, index: int) -> void:
-	if source is ActorBody and source.progression:
+	if rewards_enabled and source is ActorBody and source.progression:
 		source.progression.kills += 1
 		source.progression.award_xp(enemy_data.xp if enemy_data else 25)
 		if source.quests: source.quests.record(&"kill", enemy_data.id if enemy_data else &"grown")
@@ -77,6 +90,11 @@ func _reward(source: Node3D, enemy: ActorBody, index: int) -> void:
 
 	if pack.living_count() == 0:
 		remaining = respawn_delay
+	if corpse_seconds > 0:
+		get_tree().create_timer(corpse_seconds).timeout.connect(func():
+			if is_instance_valid(enemy):
+				pack.members.erase(enemy)
+				enemy.queue_free())
 
 func _physics_process(delta: float) -> void:
 	if pack == null: return
@@ -88,7 +106,7 @@ func _physics_process(delta: float) -> void:
 				if member.health.is_alive() and (member.global_position.distance_to(global_position) > leash_distance or SafeArea.protects(member)):
 					pack.disengage()
 					break
-	if remaining < 0:
+	if remaining < 0 or not respawn_enabled:
 		return
 	remaining = maxf(0, remaining - delta)
 	if remaining == 0:

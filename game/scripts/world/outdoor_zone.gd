@@ -13,7 +13,7 @@ var notice_time: float = 0
 
 func _ready() -> void:
 	load("res://scripts/world/arena.gd").configure_inputs()
-	for binding in [["pickup", KEY_E], ["tonic", KEY_Q], ["inventory", KEY_I], ["save_game", KEY_F5], ["load_game", KEY_F9], ["journal", KEY_J]]:
+	for binding in [["pickup", KEY_E], ["tonic", KEY_Q], ["inventory", KEY_I], ["save_game", KEY_F5], ["load_game", KEY_F9], ["journal", KEY_J], ["world_map", KEY_M], ["quick_second", KEY_F], ["mount", KEY_H]]:
 		if not InputMap.has_action(binding[0]):
 			InputMap.add_action(binding[0])
 			var event := InputEventKey.new()
@@ -71,10 +71,19 @@ func _ready() -> void:
 	player.skills = PlayerSkills.new()
 	player.skills.actor = player
 	player.add_child(player.skills)
+	player.actions = PlayerActions.new()
+	player.actions.actor = player
+	player.add_child(player.actions)
+	player.mounts = PlayerMount.new()
+	player.mounts.actor = player
+	player.add_child(player.mounts)
+	player.map_state = PlayerMap.new()
+	player.map_state.actor = player
+	player.add_child(player.map_state)
 	var cone = load("res://scripts/combat/combat_cone.gd").new()
 	cone.enabled = false
 	player.add_child(cone)
-	var names := ["Briar Crossing", "Old Pine Hollow", "The Broken Cairn"]
+	var names := ["Briarwood Verge", "Old Pine Hollow", "The Broken Cairn"]
 	for i in range(3):
 		var camp := EnemyCamp.new()
 		camp.position = ZoneTerrain.CAMPS[i]
@@ -84,7 +93,9 @@ func _ready() -> void:
 		add_child(camp)
 		camps.append(camp)
 		_landmark(camp.position + Vector3(-3, 0, 1.5), names[i] + "\n" + ["Young mosslings - first hunt", "Mosslings - better gear advised", "Ironbacks - danger"][i])
-	_landmark(ZoneTerrain.START + Vector3(3, 0, 4), "Waystone Refuge\nRest here to heal")
+	_landmark(ZoneTerrain.START + Vector3(3, 0, 4), "Briar Crossing ? Waystone Refuge\nRest here to heal")
+	player.farming = FarmingState.new()
+	add_child(player.farming)
 	interaction = InteractionService.new()
 	interaction.player = player
 	add_child(interaction)
@@ -114,9 +125,9 @@ func _unhandled_input(event: InputEvent) -> void:
 		else: announce(persistence.error)
 	if event.is_action_pressed("pickup") and not interaction.interact():
 		pickup_nearby()
-	if event.is_action_pressed("tonic") and not player.combat.movement_locked() and not (player.skills and player.skills.busy()):
-		if player.inventory.use_item(TONIC, player.health):
-			announce("Field tonic: +45 health")
+	if event.is_action_pressed("tonic"): player.actions.activate(0)
+	if event.is_action_pressed("quick_second"): player.actions.activate(1)
+	if event.is_action_pressed("mount"): player.mounts.toggle()
 	if event.is_action_pressed("restart") and not player.health.is_alive():
 		respawn_player()
 
@@ -149,6 +160,7 @@ func _on_player_death(_source: Node3D) -> void:
 	announce("You fell. Press R to return to the waystone. XP and inventory are kept.")
 
 func respawn_player() -> void:
+	if player.mounts: player.mounts.dismount()
 	if player.skills: player.skills.cancel_transient()
 	if player.world_interaction: player.world_interaction.cancel()
 	for camp in camps: camp.pack.disengage()
@@ -158,7 +170,7 @@ func respawn_player() -> void:
 	player.health.current = player.health.maximum
 	player.health.changed.emit(player.health.current, player.health.maximum)
 	player.collision_layer = 2
-	player.collision_mask = 3
+	player.collision_mask = 11
 	player.combat.cancel()
 	announce("Recovered at the waystone")
 
@@ -205,10 +217,11 @@ func _lighting() -> void:
 func _landmark(point: Vector3, title: String) -> void:
 	var label := Label3D.new()
 	label.position = point + Vector3.UP * 2.6
-	label.text = title
-	label.font_size = 28
+	label.text = title.get_slice("\n", 0)
+	label.font_size = 18
 	label.visibility_range_end = 20
-	label.pixel_size = 0.008
+	label.pixel_size = 0.0013
+	label.fixed_size = true
 	label.modulate = Color(0.95, 0.82, 0.53)
 	label.billboard = BaseMaterial3D.BILLBOARD_ENABLED
 	add_child(label)

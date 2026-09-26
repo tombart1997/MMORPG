@@ -8,10 +8,12 @@ try {
     $blenderArgs = @('--background', '--factory-startup', '--python-exit-code', '1')
     if ($Asset) {
         $sourcePath = Join-Path $projectRoot "blender/characters/$Asset.blend"
+        $benchmarkSource = Join-Path $projectRoot "blender/benchmark/$Asset.blend"
+        if (Test-Path -LiteralPath $benchmarkSource) { $sourcePath = $benchmarkSource }
         if (-not (Test-Path -LiteralPath $sourcePath)) { throw "Missing source: $sourcePath" }
         $blenderArgs += @($sourcePath, '--python', "$projectRoot/blender/scripts/export_asset.py", '--', $Asset)
     } else {
-        $blenderArgs += @('--python', "$projectRoot/blender/scripts/build_characters.py")
+        $blenderArgs += @('--python', "$projectRoot/blender/scripts/build_benchmark.py")
     }
     & blender @blenderArgs 2>&1 |
         Tee-Object -FilePath "$localPath/asset_build.log"

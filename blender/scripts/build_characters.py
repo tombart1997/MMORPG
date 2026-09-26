@@ -444,6 +444,21 @@ def save_export(name, rig=None, save_source=True):
     bpy.context.scene.frame_end = 120
     if save_source:
         bpy.ops.wm.save_as_mainfile(filepath=str(SOURCE / (name + ".blend")))
+    if name == "briarling" and rig:
+        # Export optimization only: editable source keeps all authored body parts.
+        # Joining preserves vertex groups, armature weights and material slots,
+        # while collapsing 32 independently submitted skins into one shared skin.
+        parts = [obj for obj in bpy.context.scene.objects if obj.type == "MESH" and obj.parent == rig]
+        source_meshes = len(parts)
+        if len(parts) > 1:
+            bpy.ops.object.select_all(action="DESELECT")
+            for obj in parts:
+                obj.select_set(True)
+            bpy.context.view_layer.objects.active = parts[0]
+            bpy.ops.object.join()
+            bpy.context.object.name = "BriarlingSkin"
+        info = validate(rig)
+        info["source_meshes"] = source_meshes
     bpy.ops.export_scene.gltf(filepath=str(EXPORT / (name + ".glb")), export_format="GLB",
                              export_yup=True, export_skins=True, export_animations=bool(rig),
                              export_animation_mode="NLA_TRACKS", export_force_sampling=True,

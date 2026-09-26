@@ -7,8 +7,9 @@ func _run() -> void:
 	current_scene = world
 	await frames(5)
 	var player: ActorBody = world.player
-	check(world.camps.size() == 3 and get_nodes_in_group("enemies").size() == 12,
-		"Outdoor zone spawns three separate camps with twelve enemies")
+	check(world.camps.size() == 3 and world.camps[0].pack.members.size() + world.camps[1].pack.members.size() + world.camps[2].pack.members.size() == 12
+		and get_nodes_in_group("enemies").size() == 13,
+		"Outdoor zone preserves three camps with twelve mobs plus one attackable fracture")
 	check(player.visual.skeleton.find_bone("Hand.R") >= 0 and player.visual.skeleton.find_bone("Shin.L") >= 0,
 		"Imported humanoid skeleton has hand and leg chains")
 	check(player.visual.sockets[&"WeaponSocket"].get_node_or_null("Equipment") != null,

@@ -15,4 +15,6 @@ Play as **Ironvow / Turnwarden**: open foes with Riving Stroke, exploit them wit
 
 Visit Warden Elric for the introductory quests, Mara for trade and Smith Oren for upgrades. New and migrated characters receive the complete reference specialization; other classes are design-only.
 
-`./tools/run.ps1 -Test` runs all eight suites. Add `-Suite skill_combat -Windowed` to watch the specialization checks. See [PROJECT.md](PROJECT.md) for implementation and extension instructions, and [CLASS_DESIGN.md](CLASS_DESIGN.md) for the full original four-class, eight-specialization roster and all 48 skill concepts.
+`./tools/run.ps1 -Test` runs all nine gameplay suites. Add `-Suite skill_combat -Windowed` to watch the specialization checks. See [PROJECT.md](PROJECT.md) for implementation and extension instructions, and [CLASS_DESIGN.md](CLASS_DESIGN.md) for the full original four-class, eight-specialization roster and all 48 skill concepts.
+
+The **Amber Scar** art benchmark surrounds the existing Briarwake Fracture. Follow the branch east from Old Pine Hollow. `./tools/run.ps1 -Test -Windowed -Suite art_benchmark` captures its approach, real gameplay camera, damage, collapse and reward presentation. `./tools/build_art.ps1` rebuilds the original art; `./tools/build_assets.ps1 -Asset briarling` re-exports the editable creature source. Read [ART_DIRECTION.md](ART_DIRECTION.md) for the visual contract, asset budgets, review and measurements.

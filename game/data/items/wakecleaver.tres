@@ -1,0 +1,26 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/cairnwarden_sword.tscn" id="visual"]
+[ext_resource type="Texture2D" path="res://assets/icons/sword.svg" id="icon"]
+[ext_resource type="Resource" path="res://data/attacks/player_sword.tres" id="a"]
+[ext_resource type="Resource" path="res://data/attacks/player_return.tres" id="b"]
+[ext_resource type="Resource" path="res://data/attacks/player_finisher.tres" id="c"]
+[ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="attack"]
+[ext_resource type="Resource" path="res://data/upgrades/weapon.tres" id="upgrade"]
+[resource]
+script = ExtResource("1")
+id = &"wakecleaver"
+display_name = "Wakecleaver"
+description = "Root-tempered steel drawn from a collapsed fracture. A quick, heavy edge for returning to crowded hunting grounds."
+item_type = "weapon"
+rarity = &"rare"
+stackable = false
+equipment_slot = &"weapon"
+required_level = 4
+modifiers = {"attack": 34.0, "attack_speed": 0.16}
+value = 90
+color = Color(0.3, 0.8, 1, 1)
+icon = ExtResource("icon")
+visual = ExtResource("visual")
+upgrade_profile = ExtResource("upgrade")
+attacks = Array[ExtResource("attack")]([ExtResource("a"), ExtResource("b"), ExtResource("c")])

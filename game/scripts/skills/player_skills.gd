@@ -78,6 +78,7 @@ func request(skill: SkillData, target: ActorBody = null, point: Vector3 = Vector
 	context.attack = actor.stats.value(&"attack") * (1.0 + (context.rank - 1) * skill.rank_scaling)
 	error = SkillTargeting.validate(context)
 	if not error.is_empty(): return reject(error)
+	if actor.mounts: actor.mounts.dismount("Dismounted to fight")
 	if skill.targeting in ["selected", "direction"]:
 		var offset := context.point - context.origin
 		offset.y = 0

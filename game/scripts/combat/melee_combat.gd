@@ -36,6 +36,7 @@ func request_attack() -> bool:
 		sequence_index = 0 if idle_elapsed > combo_grace else (sequence_index + 1) % sequence.size()
 		attack = sequence[sequence_index]
 	swing_speed = actor.stats.value(&"attack_speed") if actor.stats else 1.0
+	if actor.mounts and actor.mounts.mounted: swing_speed *= PlayerMount.ATTACK_SPEED_MULTIPLIER
 	swing_damage = attack.damage * actor.stats.value(&"attack") / 25.0 if actor.stats else attack.damage
 	idle_elapsed = 0.0
 	motion_elapsed = 0.0
@@ -126,8 +127,10 @@ func _resolve_hits() -> void:
 		if not actor.get_world_3d().direct_space_state.intersect_ray(ray).is_empty():
 			continue
 		hit_ids[id] = true
-		var damage := swing_damage * (1.25 if target.statuses and target.statuses.has(&"open") else 1.0)
+		var damage: float = target.statuses.modify_incoming_basic_damage(swing_damage, actor) if target.statuses else swing_damage
 		if target.health.apply_damage(damage, actor):
 			swing_hits += 1
 			total_hits += 1
 			hit_landed.emit(target)
+			if actor.mounts and actor.mounts.mounted:
+				actor.mounts.record_hit(target, swing_serial, attack.reach)

@@ -10,6 +10,10 @@ func buy(npc: WorldNPC, player: ActorBody, offer_index: int, quantity: int) -> S
 	if offer_index < 0 or offer_index >= npc.data.shop.offers.size(): return "Offer no longer available."
 	var offer: ShopOffer = npc.data.shop.offers[offer_index]
 	if offer.item == null or offer.price < 1: return "Invalid merchant offer."
+	if offer.item.mount_unlock != &"" and player.mounts:
+		if player.progression.level < offer.item.required_level: return "Requires level %d." % offer.item.required_level
+		if quantity != 1: return "One bridle unlocks permanent ownership."
+		if player.mounts.owned.has(offer.item.mount_unlock) or player.inventory.count(offer.item.id) > 0: return "You already own this mount or its bridle."
 	var bag := player.inventory
 	if bag.transaction_busy: return "Transaction already in progress."
 	var cost := offer.price * quantity

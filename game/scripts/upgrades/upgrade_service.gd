@@ -12,19 +12,21 @@ func quote(stack: ItemStack) -> Dictionary:
 	rule["failure"] = profile.failure_policy
 	return rule
 
-func attempt(player: ActorBody, npc: WorldNPC, index: int, expected: ItemStack) -> Dictionary:
+func attempt(player: ActorBody, npc: WorldNPC, index: int, expected: ItemStack, use_wakeglass: bool = false) -> Dictionary:
 	if not is_instance_valid(npc) or npc.data.role != &"smith" or not npc.can_interact(player): return {"error": "Approach the Smith outside combat."}
 	var bag := player.inventory
 	if bag.transaction_busy or index < 0 or index >= bag.slots.size() or bag.slots[index] != expected or expected == null: return {"error": "Item changed. Select it again."}
 	var rule := quote(expected)
 	if rule.is_empty(): return {"error": "This item cannot be improved further."}
+	if use_wakeglass and (float(rule.chance) >= 1 or bag.count(&"wakeglass") < 1): return {"error": "Wakeglass requires an uncertain upgrade and one carried Ember."}
 	if bag.gold < int(rule.gold): return {"error": "Not enough gold."}
 	for id in rule.get("materials", {}):
 		if bag.count(StringName(id)) < int(rule.materials[id]): return {"error": "Missing materials."}
 	bag.transaction_busy = true
 	bag.gold -= int(rule.gold)
 	for id in rule.get("materials", {}): bag.remove_count(StringName(id), int(rule.materials[id]), false)
-	var success := rng.randf() < float(rule.chance)
+	if use_wakeglass: bag.remove_count(&"wakeglass", 1, false)
+	var success := use_wakeglass or rng.randf() < float(rule.chance)
 	if success: expected.properties["upgrade"] = int(rule.to)
 	elif rule.failure == "downgrade": expected.properties["upgrade"] = maxi(0, int(rule.from) - 1)
 	bag.changed.emit()

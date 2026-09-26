@@ -46,7 +46,7 @@ func _run() -> void:
 	var manifest = JSON.parse_string(FileAccess.get_file_as_string("res://assets/characters/manifest.json"))
 	for actor in [player, enemy]:
 		var visual: ActorVisual = actor.visual
-		var asset: String = "briarling" if visual.creature else "traveler"
+		var asset: String = "briarling" if visual.creature else "turnwarden_v2"
 		check(visual.skeleton.get_bone_count() == manifest.assets[asset].bones.size(), asset + " rig matches exported contract")
 		var skins := 0
 		for mesh in visual.model.find_children("*", "MeshInstance3D", true, false):

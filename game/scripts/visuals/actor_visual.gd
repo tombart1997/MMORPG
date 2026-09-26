@@ -21,6 +21,9 @@ var previous_key: String = ""
 var previous_rotations: Array[Quaternion] = []
 var previous_positions: Array[Vector3] = []
 var ready_for_animation: bool = false
+var nameplate_allowed: bool = true
+var trail: MeshInstance3D
+var trail_points: Array[Vector3] = []
 
 func _ready() -> void:
 	assert(profile != null and profile.model != null, "Visual profile must provide an imported model")
@@ -55,8 +58,8 @@ func _ready() -> void:
 	equip_visual(&"ArmorSocket", profile.armor)
 	label = Label3D.new()
 	label.position.y = profile.label_height
-	label.font_size = 26
-	label.pixel_size = 0.007
+	label.font_size = 22
+	label.pixel_size = 0.005
 	label.billboard = BaseMaterial3D.BILLBOARD_ENABLED
 	label.modulate = Color(0.9, 0.85, 0.68)
 	label.visibility_range_end = 14.0
@@ -64,6 +67,17 @@ func _ready() -> void:
 	add_child(label)
 	ready_for_animation = true
 	_sample(&"idle", 0)
+	if not creature:
+		trail=MeshInstance3D.new()
+		trail.top_level=true
+		trail.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+		var material:=StandardMaterial3D.new()
+		material.shading_mode=BaseMaterial3D.SHADING_MODE_UNSHADED
+		material.transparency=BaseMaterial3D.TRANSPARENCY_ALPHA
+		material.cull_mode=BaseMaterial3D.CULL_DISABLED
+		material.albedo_color=Color(.69,.82,.85,.24)
+		trail.material_override=material
+		add_child(trail)
 
 func equip_visual(slot: StringName, scene: PackedScene) -> void:
 	if not sockets.has(slot):
@@ -116,6 +130,7 @@ func present(velocity: Vector3, combat: MeleeCombat, health: HealthComponent, ti
 		clip = &"death"
 		key = "death"
 		if state != &"death":
+			if creature: ArtVFX.burst(self, Vector3(0,.65,0), Color(.48,.40,.19), 7, .6)
 			death_time = 0.0
 			hit_time = 1.0
 		death_time = minf(death_time + delta, animation_player.get_animation(clip).length)
@@ -185,12 +200,56 @@ func present(velocity: Vector3, combat: MeleeCombat, health: HealthComponent, ti
 		# A small additive recoil preserves leg cadence and the visible attacking arm.
 		var recoil: Quaternion = Quaternion.IDENTITY.slerp(hit_rotations[index], 0.65 if combat.is_attacking() else 1.0)
 		skeleton.set_bone_pose_rotation(index, skeleton.get_bone_pose_rotation(index) * recoil)
-	label.text = "%s  %d/%d" % [title, health.current, health.maximum]
+	if get_parent() is ActorBody and get_parent().mounts and get_parent().mounts.mounted:
+		if not combat.is_attacking(): _sample(&"idle", 0.0)
+		for side in ["L", "R"]:
+			var sign_value := -1.0 if side == "L" else 1.0
+			_rider_bone("Thigh." + side, Vector3(.55,0,sign_value*.52))
+			_rider_bone("Shin." + side, Vector3(-.75,0,0))
+			if not combat.is_attacking():
+				_rider_bone("UpperArm." + side, Vector3(.35,0,-sign_value*.12))
+				_rider_bone("Forearm." + side, Vector3(.7,0,0))
+	label.text = title
 	if get_parent() is ActorBody:
 		var statuses: CombatStatuses = get_parent().statuses
 		if statuses.has(&"open"): label.text += " | OPEN"
 		if statuses.movement_multiplier() < 1: label.text += " | SLOW"
-	label.visible = health.is_alive() and creature
+	label.visible = health.is_alive() and creature and nameplate_allowed
+	_update_trail(combat, health.is_alive())
+
+func _update_trail(combat: MeleeCombat, alive: bool) -> void:
+	if trail == null: return
+	var active:=alive and combat.phase==MeleeCombat.Phase.ACTIVE
+	var actor:=get_parent() as ActorBody
+	if alive and actor.skills and actor.skills.busy():
+		active=actor.skills.elapsed>=actor.skills.current.skill.windup and actor.skills.elapsed<actor.skills.current.skill.windup+.16
+	var equipment:Node3D=sockets[&"WeaponSocket"].get_node_or_null("Equipment")
+	if not active or equipment==null or equipment.get_node_or_null("Tip")==null:
+		trail.hide()
+		trail_points.clear()
+		return
+	var tip:Vector3=equipment.get_node("Tip").global_position
+	var grip:Vector3=equipment.get_node("Grip").global_position
+	trail_points.append(grip.lerp(tip,.45))
+	trail_points.append(tip)
+	while trail_points.size()>8:
+		trail_points.pop_front()
+		trail_points.pop_front()
+	if trail_points.size()<4: return
+	var surface:=SurfaceTool.new()
+	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
+	for i in range(0,trail_points.size()-2,2):
+		for index in [i,i+1,i+3,i,i+3,i+2]: surface.add_vertex(trail_points[index])
+	trail.mesh=surface.commit()
+	trail.show()
 
 func react_to_hit() -> void:
 	hit_time = 0.0
+	ArtVFX.burst(self, Vector3(0,.95,0), Color(.76,.64,.35) if creature else Color(.85,.78,.56), 4, .34)
+
+func _rider_bone(bone_name: String, angles: Vector3) -> void:
+	var index := skeleton.find_bone(bone_name)
+	if index < 0: return
+	var rest := skeleton.get_bone_global_rest(index).basis
+	var rotation_delta := rest.inverse() * Basis.from_euler(angles) * rest
+	skeleton.set_bone_pose_rotation(index, skeleton.get_bone_pose_rotation(index) * rotation_delta.get_rotation_quaternion())

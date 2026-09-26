@@ -8,7 +8,7 @@ text = "A sound edge and a stitched coat go farther than brave words. I buy moss
 responses = Array[Dictionary]([{"text": "Show me your wares.", "action": "shop"}, {"text": "Which gear should I choose?", "next": 1}, {"text": "Farewell.", "action": "close"}])
 [sub_resource type="Resource" id="p1"]
 script = ExtResource("2")
-text = "Try the Marchguard Sword first, then a Quilted Jack. Bring back what the mosslings leave behind; sell the spare pieces and save for boots."
+text = "Try the Marchguard Sword first, then a Quilted Jack. Keep some shards for Oren and some gold for tonics. At level three, my 240-gold bridle unlocks a horse: use it from your pack, then H to ride. Faster return trips mean more time hunting."
 responses = Array[Dictionary]([{"text": "Let us trade.", "action": "shop"}, {"text": "Thank you.", "action": "close"}])
 [resource]
 script = ExtResource("1")

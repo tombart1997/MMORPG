@@ -37,6 +37,7 @@ func _physics_process(delta: float) -> void:
 		direction = Vector3.ZERO
 	var motion := actor.combat.consume_motion_velocity(delta)
 	if actor.stats: speed = actor.stats.value(&"movement_speed")
+	if actor.mounts and actor.mounts.mounted: speed = actor.mounts.definition.speed
 	if actor.skills: motion += actor.skills.consume_motion(delta)
 	motion += actor.statuses.consume_push(delta)
 	speed *= actor.statuses.movement_multiplier()

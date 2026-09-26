@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://scripts/npc/dialogue_page.gd" id="2"]
 [sub_resource type="Resource" id="page"]
 script = ExtResource("2")
-text = "Good steel rewards patience. Bring a spare blade or coat and a little living moss. I will show the terms before the hammer falls."
+text = "The first temper is guaranteed. Later attempts spend gold and moss even when they fail, but keep your item and its level. Wakeglass can guarantee one uncertain attempt; you still pay the normal cost. Keep it for an upgrade that matters."
 [resource]
 script = ExtResource("1")
 id = &"smith"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/quests/quest_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"briarwake_heart"
+title = "A Heart Beneath the Roots"
+description = "Oren has heard amber roots breaking the earth beyond Old Pine Hollow. Follow the side trail and look for the scar yourself. Prepare layered armor, a tempered blade and tonics before striking it. Collapse the Briarwake, then return to Oren for one piece of Wakeglass. The remaining defenders do not vanish when it falls."
+giver = &"smith"
+turn_in = &"smith"
+prerequisites = Array[StringName]([&"first_temper"])
+objectives = Array[Dictionary]([{"type":"fracture","target":"briarwake","amount":1,"label":"Discover and collapse the Briarwake Fracture"},{"type":"return","target":"smith","amount":1,"label":"Return to Oren"}])
+gold = 65
+xp = 80
+items = {"wakeglass":1}

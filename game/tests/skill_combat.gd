@@ -36,8 +36,13 @@ func fresh_world() -> void:
 func _run() -> void:
 	await fresh_world()
 	check(abilities.size() == 6 and kit.specialization.class_id == &"ironvow", "One complete six-skill specialization selected; no unfinished kits")
+	var skill_ids: Dictionary = {}
 	for skill in abilities:
+		check(not skill.id.is_empty() and not skill_ids.has(String(skill.id)), skill.display_name + " has a unique stable skill ID")
+		skill_ids[String(skill.id)] = true
+		check(skill.windup >= 0 and skill.recovery >= 0 and skill.cooldown > 0 and skill.reach >= 0 and skill.radius >= 0 and skill.maximum_rank >= 1, skill.display_name + " has valid timing, geometry and rank bounds")
 		check(skill.icon != null and player.visual.animation_player.has_animation(skill.animation) and not skill.effects.is_empty(), skill.display_name + " has authored effects, icon and imported animation")
+	check(skill_ids.size() == 6, "The specialization exposes six unique persisted skill keys")
 	var bar: SkillBar
 	for control in hud.get_child(0).get_children():
 		if control is SkillBar: bar = control

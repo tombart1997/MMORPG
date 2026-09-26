@@ -6,6 +6,11 @@
 [ext_resource type="Resource" path="res://data/items/cairn_cap.tres" id="i2"]
 [ext_resource type="Resource" path="res://data/items/pathrunner_boots.tres" id="i3"]
 [ext_resource type="Resource" path="res://data/items/field_tonic.tres" id="i4"]
+[ext_resource type="Resource" path="res://data/items/trail_bridle.tres" id="i5"]
+[sub_resource type="Resource" id="o5"]
+script = ExtResource("2")
+item = ExtResource("i5")
+price = 240
 [sub_resource type="Resource" id="o0"]
 script = ExtResource("2")
 item = ExtResource("i0")
@@ -30,4 +35,4 @@ price = 6
 script = ExtResource("1")
 id = &"refuge_supplies"
 title = "Mara's Trail Supplies"
-offers = Array[ExtResource("2")]([SubResource("o0"), SubResource("o1"), SubResource("o2"), SubResource("o3"), SubResource("o4")])
+offers = Array[ExtResource("2")]([SubResource("o0"), SubResource("o1"), SubResource("o2"), SubResource("o3"), SubResource("o4"), SubResource("o5")])

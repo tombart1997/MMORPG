@@ -23,9 +23,13 @@ static func ring(radius: float, color: Color, angle: float = 360) -> MeshInstanc
 	return node
 static func flash(parent: Node, point: Vector3, radius: float, color: Color, angle: float = 360, yaw: float = 0) -> void:
 	var node := ring(radius, color, angle)
+	node.material_override.transparency=BaseMaterial3D.TRANSPARENCY_ALPHA
+	node.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 	parent.add_child(node)
 	node.global_position = point
 	node.rotation.y = yaw
-	var tween := node.create_tween()
-	tween.tween_property(node, "scale", Vector3.ONE * 1.15, 0.2)
+	var tween := node.create_tween().set_parallel(true)
+	tween.tween_property(node, "scale", Vector3.ONE * 1.12, 0.24)
+	tween.tween_property(node.material_override, "albedo_color:a", 0.0, 0.24)
+	tween.chain()
 	tween.tween_callback(node.queue_free)

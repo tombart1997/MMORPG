@@ -39,7 +39,8 @@ func direction(delta: float) -> Vector3:
 	while index < path.size():
 		var offset := path[index] - actor.global_position
 		offset.y = 0
-		if offset.length() > 0.35: break
+		var tolerance := 0.12 if actor.mounts and actor.mounts.mounted and index < path.size()-1 else 0.35
+		if offset.length() > tolerance: break
 		index += 1
 	if index >= path.size():
 		cancel()

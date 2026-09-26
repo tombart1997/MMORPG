@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://scripts/npc/dialogue_page.gd" id="2"]
 [sub_resource type="Resource" id="p0"]
 script = ExtResource("2")
-text = "Welcome to Waystone Refuge. Beyond the north gate, young mosslings gather at Briar Crossing. Keep the whole group in front of your blade."
+text = "Welcome to Briar Crossing. The waystone heals you for free. Take Briar at the Gate and follow the north road to Briarwood Verge. Click a mossling to approach and attack; keep the group in front of your blade. You can meet Mara before or after your first hunt."
 responses = Array[Dictionary]([{"text": "What lies farther out?", "next": 1}, {"text": "I will prepare.", "action": "close"}])
 [sub_resource type="Resource" id="p1"]
 script = ExtResource("2")

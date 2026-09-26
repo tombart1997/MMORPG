@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/material.svg" id="icon"]
+[resource]
+script = ExtResource("1")
+id = &"wakeglass"
+display_name = "Wakeglass Ember"
+description = "A cooled spark from a Briarwake Fracture. At Oren's forge, optionally spend one to guarantee an otherwise uncertain upgrade. Ordinary gold and material costs still apply."
+item_type = "material"
+rarity = &"rare"
+maximum_stack = 20
+value = 45
+color = Color(0.3, 0.8, 1, 1)
+icon = ExtResource("icon")

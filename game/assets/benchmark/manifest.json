@@ -1,0 +1,190 @@
+{
+  "tree_bent": {
+    "triangles": 18010,
+    "surfaces": 2,
+    "runtime_meshes": 1,
+    "skinned_meshes": 0,
+    "editable_meshes": 3285
+  },
+  "tree_fork": {
+    "triangles": 18010,
+    "surfaces": 2,
+    "runtime_meshes": 1,
+    "skinned_meshes": 0,
+    "editable_meshes": 3285
+  },
+  "tree_wide": {
+    "triangles": 18010,
+    "surfaces": 2,
+    "runtime_meshes": 1,
+    "skinned_meshes": 0,
+    "editable_meshes": 3285
+  },
+  "rock_0": {
+    "triangles": 570,
+    "surfaces": 2,
+    "runtime_meshes": 1,
+    "skinned_meshes": 0,
+    "editable_meshes": 2
+  },
+  "rock_1": {
+    "triangles": 846,
+    "surfaces": 2,
+    "runtime_meshes": 1,
+    "skinned_meshes": 0,
+    "editable_meshes": 3
+  },
+  "rock_2": {
+    "triangles": 540,
+    "surfaces": 2,
+    "runtime_meshes": 1,
+    "skinned_meshes": 0,
+    "editable_meshes": 2
+  },
+  "shrub_laurel": {
+    "triangles": 1368,
+    "surfaces": 2,
+    "runtime_meshes": 1,
+    "skinned_meshes": 0,
+    "editable_meshes": 156
+  },
+  "shrub_briar": {
+    "triangles": 912,
+    "surfaces": 2,
+    "runtime_meshes": 1,
+    "skinned_meshes": 0,
+    "editable_meshes": 104
+  },
+  "fern": {
+    "triangles": 648,
+    "surfaces": 1,
+    "runtime_meshes": 1,
+    "skinned_meshes": 0,
+    "editable_meshes": 162
+  },
+  "sedge": {
+    "triangles": 92,
+    "surfaces": 1,
+    "runtime_meshes": 1,
+    "skinned_meshes": 0,
+    "editable_meshes": 23
+  },
+  "fallen_wood": {
+    "triangles": 606,
+    "surfaces": 1,
+    "runtime_meshes": 1,
+    "skinned_meshes": 0,
+    "editable_meshes": 3
+  },
+  "briarwake": {
+    "triangles": 5490,
+    "surfaces": 17,
+    "runtime_meshes": 10,
+    "skinned_meshes": 0,
+    "editable_meshes": 10
+  },
+  "briarling": {
+    "vertices": 2350,
+    "triangles": 4320,
+    "meshes": 1,
+    "source_meshes": 1,
+    "bones": [
+      "Root",
+      "Hips",
+      "Spine",
+      "Chest",
+      "Neck",
+      "Head",
+      "UpperArm.R",
+      "Forearm.R",
+      "Hand.R",
+      "UpperArm.L",
+      "Forearm.L",
+      "Hand.L",
+      "Thigh.R",
+      "Shin.R",
+      "Foot.R",
+      "Thigh.L",
+      "Shin.L",
+      "Foot.L"
+    ],
+    "clips": {
+      "idle": 2.0,
+      "run": 0.6,
+      "attack_01": 1.0,
+      "hit": 0.3,
+      "death": 1.2
+    },
+    "attack_markers_normalized": {
+      "active": 0.3,
+      "recovery": 0.55
+    },
+    "run_reference_speed": 3.2,
+    "runtime_meshes": 1,
+    "editable_meshes": 69,
+    "skinned_meshes": 1,
+    "surfaces": 5
+  },
+  "turnwarden_v2": {
+    "triangles": 4604,
+    "surfaces": 10,
+    "runtime_meshes": 1,
+    "skinned_meshes": 1,
+    "editable_meshes": 59,
+    "bones": [
+      "Root",
+      "Hips",
+      "Spine",
+      "Chest",
+      "Neck",
+      "Head",
+      "UpperArm.R",
+      "Forearm.R",
+      "Hand.R",
+      "UpperArm.L",
+      "Forearm.L",
+      "Hand.L",
+      "Thigh.R",
+      "Shin.R",
+      "Foot.R",
+      "Thigh.L",
+      "Shin.L",
+      "Foot.L"
+    ],
+    "clips": {
+      "idle": 2.0,
+      "run": 0.6,
+      "attack_01": 1.0,
+      "hit": 0.3,
+      "death": 1.2,
+      "attack_02": 1.0,
+      "attack_03": 1.0,
+      "skill_guard": 1.0,
+      "skill_step": 1.0,
+      "skill_plant": 1.0,
+      "skill_riposte": 1.0
+    },
+    "meshes": 1
+  },
+  "turnwarden_v2_sword": {
+    "triangles": 550,
+    "surfaces": 5,
+    "runtime_meshes": 1,
+    "skinned_meshes": 0,
+    "editable_meshes": 12
+  },
+  "traveler_guard": {
+    "triangles": 164,
+    "surfaces": 2,
+    "runtime_meshes": 1,
+    "skinned_meshes": 0,
+    "editable_meshes": 3
+  },
+  "leaf_litter": {
+    "triangles": 48,
+    "surfaces": 1,
+    "runtime_meshes": 1,
+    "skinned_meshes": 0,
+    "editable_meshes": 3
+  }
+}

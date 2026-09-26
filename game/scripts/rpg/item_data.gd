@@ -19,6 +19,7 @@ extends Resource
 @export var rarity: StringName = &"common"
 @export var upgrade_profile: UpgradeProfile
 @export var properties: Dictionary = {}
+@export var mount_unlock: StringName
 @export var healing: float = 0.0
 
 func stack_limit() -> int:
@@ -26,6 +27,7 @@ func stack_limit() -> int:
 
 func tooltip() -> String:
 	var result := display_name + "\n" + description + "\n" + item_type.capitalize()
+	if rarity != &"common": result += " | " + String(rarity).capitalize()
 	if equipment_slot != &"": result += " / " + String(equipment_slot).capitalize()
 	for key in modifiers:
 		result += "\n%+.1f %s" % [float(modifiers[key]), String(key).replace("_", " ").capitalize()]

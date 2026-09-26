@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/horse.svg" id="icon"]
+[resource]
+script = ExtResource("1")
+id = &"trail_bridle"
+display_name = "Briarwood bridle"
+description = "Use once to claim a sure-footed bay horse. H mounts or dismounts. Travel 60% faster; attacks, hits and conversations dismount. Ownership survives death and loading."
+item_type = "miscellaneous"
+icon = ExtResource("icon")
+stackable = false
+required_level = 3
+value = 120
+rarity = &"uncommon"
+mount_unlock = &"trail_horse"

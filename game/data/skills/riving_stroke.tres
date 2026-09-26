@@ -31,5 +31,6 @@ cooldown = 5
 animation = &"attack_01"
 color = Color(0.95, 0.65, 0.25, 1)
 icon = ExtResource("icon")
+requirement_text = "Sword required."
 consumes_answer = false
 effects = Array[ExtResource("base")]([SubResource("Effect0"), SubResource("Effect1")])

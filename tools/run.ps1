@@ -1,5 +1,5 @@
 param([switch]$Editor, [switch]$Test, [switch]$Headless, [switch]$Windowed,
-    [ValidateSet('all', 'combat_smoke', 'melee_commitment', 'zone_loop', 'character_pipeline', 'rpg_progression', 'settlement_loop', 'mmorpg_loop', 'skill_combat')] [string]$Suite = 'all')
+    [ValidateSet('all', 'combat_smoke', 'melee_commitment', 'zone_loop', 'character_pipeline', 'rpg_progression', 'settlement_loop', 'mmorpg_loop', 'skill_combat', 'farming_stress', 'farming_loop', 'art_benchmark', 'first_hour', 'route_mount')] [string]$Suite = 'all')
 $projectRoot = Split-Path -Parent $PSScriptRoot
 $gamePath = Join-Path $projectRoot 'game'
 $localPath = Join-Path $gamePath '.local'
@@ -16,7 +16,7 @@ try {
         & godot --headless --path $gamePath --log-file "$localPath/import.log" --editor --import --quit | Out-Host
         if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
         if (Select-String -Path "$localPath/import.log" -Pattern 'SCRIPT ERROR:|ERROR: (?!Failed to read the root certificate store)' -Quiet) { exit 1 }
-        $testSuites = if ($Suite -eq 'all') { @('combat_smoke', 'melee_commitment', 'zone_loop', 'character_pipeline', 'rpg_progression', 'settlement_loop', 'mmorpg_loop', 'skill_combat') } else { @($Suite) }
+        $testSuites = if ($Suite -eq 'all') { @('combat_smoke', 'melee_commitment', 'zone_loop', 'character_pipeline', 'rpg_progression', 'settlement_loop', 'mmorpg_loop', 'skill_combat', 'farming_loop') } else { @($Suite) }
         $result = 0
         foreach ($testSuite in $testSuites) {
             $testArgs = $godotArgs + @('--fixed-fps', '60', '--script', "res://tests/$testSuite.gd")

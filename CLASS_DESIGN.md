@@ -132,3 +132,24 @@ Reference tuning: first sword A=25, so ordinary skills are near one basic swing,
 Turnwarden alone is selectable. Future class selection must validate class/spec pairing and weapon policy through data; documentation entries must never produce empty action bars. Skill rank slots are persisted at rank 1 now; changing maximum rank requires authored tuning and save validation. Combat opportunities, cast state, zones and cooldown time are not progression ranks.
 
 Before another kit is implemented, compare its central decisions with this matrix, test real basic/skill alternation, and validate missing target, dead target, walls, sanctuary, UI, equipment swaps, load and death. New resource bars need stronger justification than visual flavor. No new ordinary enemies, multiplayer, PvP, giant skill tree, random affixes or unrelated world expansion belongs to this milestone.
+
+## Reviewed identity guardrails (2026-09-20)
+
+The complete roster review found all four classes, all eight specializations and all 48 skill concepts distinct enough to retain. Each six-skill kit contains setup, payoff, positioning, defense or utility, and a concluding choice rather than six variations of damage. Preserve the following differences during implementation; matching numbers or VFX are not sufficient evidence that two mechanics play differently.
+
+| Specialization | Decision that must remain central | Implementation pressure to resist |
+| --- | --- | --- |
+| Turnwarden | Read one frontal attack, earn one short Answer, then choose Sweep or Return | Do not turn Answer into a stacking meter or require a fixed six-button sequence |
+| Redmarch | Advance, cross or surrender a moving melee front created by committed basics | Do not make every skill require a front; Roadbreak and Last Pace must recover geography without a setup tax |
+| Knotbinder | Choose two enemies whose relationship matters, then react to separation and LOS | Do not reduce knots to two ordinary marks or make Tie the Near mandatory before every useful action |
+| Farlistener | Choose whether to act now or spend one visible record of a past place/action | Do not make an echo an automatic duplicate cast or a general cooldown-reset resource |
+| Hearthwright | Build, fuel and eventually abandon one destructible working site | Do not turn fuel into constant upkeep or make every off-site skill nonfunctional |
+| Ashreckoner | Accept one bounded vulnerability and decide whether to vent it safely or spend it | Do not reward lethal self-damage, allow unbounded Heat stacks or disguise an ordinary builder/spender bar as risk |
+| Reedstalker | Hold a visible ranged firing lane for stronger spacing, or erase it to escape | Do not make the lane a hidden aim buff, homing projectile rule or permanent kiting lock |
+| Briarchanter | Cultivate at most two visible world growths, then harvest, move or end them | Do not make ripeness passive upkeep or allow a growing army of persistent pets/zones |
+
+Three pairs need an explicit playtest check because their diagrams can look similar. Redmarch owns a moving melee boundary while Reedstalker owns a stationary ranged shot lane. Knotbinder connects enemy-attached anchors while Briarchanter connects fixed, destructible world growths. Hearthwright maintains one fortified site with finite fuel while Briarchanter maintains two relocatable living nodes with ripeness. If either member of a pair can be implemented by renaming the other's state and effects, its design identity has been lost.
+
+Turnwarden is a strong reference for commitment, predictable rejection, readable geometry, equipment/stat scaling, basic-skill alternation, one short opportunity with two payoffs, and effects that remain authoritative outside the UI. It is deliberately not the universal skill template. It proves immediate melee, self guard, physical movement and finite areas; it does not prove projectiles, channels, delayed resolution, allies, shields, damage-over-time, interrupts, destructible objects, multiple anchors, damage types, boss control rules or PvP authority.
+
+Before implementing a second specialization, remove the single-reference assumptions called out in `PROJECT.md` and add only the abstractions required by that chosen kit. Do not force all future mechanics into the current target-shape enum, `CombatStatuses` ID dictionary or Turnwarden-specific effect fields. Every future kit review must still answer: what useful choice can be made without setup, what makes basics useful, which effects compete for the central opportunity, how an enemy reads and counters it, and what prevents an optimal rigid rotation.

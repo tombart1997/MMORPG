@@ -4,10 +4,13 @@ extends Node
 var player: ActorBody
 var inventory_panel: InventoryPanel
 var active: Control
+var world_map: WorldMapPanel
+var quick_bar: Control
 var journal: QuestJournal
 
 func open_panel(panel: Control) -> void:
 	if active and active != panel: active.hide()
+	if player.mounts and (panel is TownPanel or panel is SmithPanel): player.mounts.dismount("Dismounted to talk")
 	active = panel
 	active.show()
 	player.ui_open = true
@@ -28,7 +31,11 @@ func _clear_attack_input() -> void:
 		if child is PlayerController: child.attack_requested = false
 
 func _input(event: InputEvent) -> void:
-	if event.is_action_pressed("journal"):
+	if event.is_action_pressed("world_map"):
+		if active == world_map: close()
+		else: open_panel(world_map)
+		get_viewport().set_input_as_handled()
+	elif event.is_action_pressed("journal"):
 		if active == journal: close()
 		else: open_panel(journal); journal.refresh()
 		get_viewport().set_input_as_handled()
@@ -44,6 +51,8 @@ func _input(event: InputEvent) -> void:
 	elif active and event.is_action_pressed("pickup"):
 		get_viewport().set_input_as_handled()
 	elif active and event is InputEventMouseButton and not active.get_global_rect().has_point(event.position):
+		# Inventory drag release must reach the quick slots outside the modal.
+		if active == inventory_panel and quick_bar and quick_bar.get_global_rect().has_point(event.position): return
 		get_viewport().set_input_as_handled()
 
 func _unhandled_input(event: InputEvent) -> void:

@@ -11,6 +11,7 @@ var feedback: Label
 var confirm: Button
 var drop: UpgradeDrop
 var quests: QuestActions
+var catalyst: CheckBox
 
 func _ready() -> void:
 	position = Vector2(190, 45)
@@ -54,6 +55,10 @@ func _ready() -> void:
 	details.custom_minimum_size = Vector2(475, 230)
 	details.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	right.add_child(details)
+	catalyst = CheckBox.new()
+	catalyst.text = "Spend 1 Wakeglass Ember: guarantee this upgrade"
+	catalyst.toggled.connect(func(_pressed): refresh())
+	right.add_child(catalyst)
 	confirm = Button.new()
 	confirm.text = "Confirm upgrade attempt"
 	confirm.pressed.connect(attempt)
@@ -96,6 +101,8 @@ func refresh() -> void:
 		bag_buttons[i].tooltip_text = stack.tooltip() if stack else "Empty"
 	if index >= 0 and player.inventory.slots[index] != expected: expected = null
 	var rule := service.quote(expected)
+	catalyst.disabled = rule.is_empty() or float(rule.get("chance", 1)) >= 1 or player.inventory.count(&"wakeglass") == 0
+	if catalyst.disabled: catalyst.set_pressed_no_signal(false)
 	confirm.disabled = rule.is_empty()
 	details.text = "Unequip an item first. Drag it from this pack onto the anvil, or select it.\nNo attempt occurs until you confirm."
 	if rule.is_empty():
@@ -105,8 +112,9 @@ func refresh() -> void:
 	for id in rule.materials: details.text += "%s: %d required / %d held\n" % [ItemCatalog.get_item(StringName(id)).display_name, rule.materials[id], player.inventory.count(StringName(id))]
 	for stat in rule.bonuses: details.text += "%s %+.1f\n" % [String(stat).replace("_", " ").capitalize(), float(rule.bonuses[stat])]
 	details.text += "Failure: costs spent; item and level retained." if rule.failure == "retain" else "Failure: costs spent; item loses one upgrade level."
+	if catalyst.button_pressed: details.text += "\nWakeglass selected: 100% success; consumes one Ember."
 
 func attempt() -> void:
-	var result := service.attempt(player, npc, index, expected)
+	var result := service.attempt(player, npc, index, expected, catalyst.button_pressed)
 	refresh()
 	feedback.text = result.get("error", result.get("message", ""))

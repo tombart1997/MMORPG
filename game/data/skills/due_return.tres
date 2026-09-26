@@ -27,5 +27,6 @@ cooldown = 12
 animation = &"skill_riposte"
 color = Color(1, 0.85, 0.35, 1)
 icon = ExtResource("icon")
+requirement_text = "Sword required."
 consumes_answer = true
 effects = Array[ExtResource("base")]([SubResource("Effect0")])

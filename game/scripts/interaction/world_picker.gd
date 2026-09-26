@@ -8,7 +8,7 @@ static func pick(camera: Camera3D, screen: Vector2) -> Dictionary:
 	var selected: WorldClickable
 	var nearest := INF
 	for proxy in camera.get_tree().get_nodes_in_group("clickables"):
-		if proxy.kind != &"loot" or not proxy.valid() or proxy.label == null: continue
+		if proxy.kind != &"loot" or not proxy.valid() or proxy.label == null or not proxy.label.visible: continue
 		var point: Vector3 = proxy.label.global_position
 		if camera.is_position_behind(point) or camera.global_position.distance_to(point) > 30: continue
 		var delta: Vector2 = screen - camera.unproject_position(point)

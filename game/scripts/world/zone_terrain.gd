@@ -4,10 +4,16 @@ extends Node3D
 const CAMPS: Array[Vector3] = [Vector3(14, 0, -24), Vector3(-25, 0, -50), Vector3(26, 0, -82)]
 const ROAD: Array[Vector3] = [Vector3(0, 0, 12), Vector3(0, 0, -4), Vector3(18, 0, -4), Vector3(18, 0, -20), Vector3(14, 0, -24), Vector3(14, 0, -32), Vector3(-6, 0, -32), Vector3(-25, 0, -43), Vector3(-25, 0, -50), Vector3(-25, 0, -62), Vector3(-4, 0, -62), Vector3(10, 0, -74), Vector3(26, 0, -82)]
 const START := Vector3(0, 0, 12)
+const FRACTURE := Vector3(-8, 0, -49)
+const FARM_LOOP: Array[Vector3] = [Vector3(-25, 0, -50), FRACTURE, Vector3(-4, 0, -62)]
 var rng := RandomNumberGenerator.new()
 
 static func path_distance(point: Vector3) -> float:
 	var distance := 100.0
+	for i in range(1, FARM_LOOP.size()):
+		var segment := FARM_LOOP[i] - FARM_LOOP[i - 1]
+		var t := clampf((point - FARM_LOOP[i - 1]).dot(segment) / segment.length_squared(), 0, 1)
+		distance = minf(distance, point.distance_to(FARM_LOOP[i - 1] + segment * t))
 	for i in range(1, ROAD.size()):
 		var start := ROAD[i - 1]
 		var segment := ROAD[i] - start
@@ -19,6 +25,7 @@ static func height_at(x: float, z: float) -> float:
 	var point := Vector3(x, 0, z)
 	if absf(x) < 9 and z >= 5 and z <= 27: return 0
 	var clearance := path_distance(point) - 2.5
+	clearance = minf(clearance, point.distance_to(FRACTURE) - 10)
 	for camp in CAMPS:
 		clearance = minf(clearance, point.distance_to(camp) - 5)
 	clearance = minf(clearance, point.distance_to(START) - 5)
@@ -42,9 +49,10 @@ func _ready() -> void:
 	surface.generate_normals()
 	var ground := MeshInstance3D.new()
 	ground.mesh = surface.commit()
-	var material := StandardMaterial3D.new()
-	material.vertex_color_use_as_albedo = true
-	material.roughness = 1
+	var material := ShaderMaterial.new()
+	material.shader = load("res://assets/benchmark/forest_floor.gdshader")
+	material.set_shader_parameter("soil_color", load("res://assets/benchmark/textures/soil_color.png"))
+	material.set_shader_parameter("soil_normal", load("res://assets/benchmark/textures/soil_normal.png"))
 	ground.material_override = material
 	add_child(ground)
 	ground.create_trimesh_collision()
@@ -52,6 +60,7 @@ func _ready() -> void:
 		var point := Vector3(rng.randf_range(-50, 50), 0, rng.randf_range(-94, 28))
 		if path_distance(point) < 4 or (absf(point.x) < 10 and point.z > 4 and point.z < 28):
 			continue
+		if point.distance_to(FRACTURE) < 25: continue
 		var clear := true
 		for camp in CAMPS:
 			if point.distance_to(camp) < 6:
@@ -67,6 +76,7 @@ func _ready() -> void:
 	for row in [-12, -40, -67]:
 		for x in range(-48, 49, 5):
 			var point := Vector3(x, 0, row)
+			if point.distance_to(FRACTURE) < 25: continue
 			if path_distance(point) < 5: continue
 			point.y = height_at(point.x, point.z)
 			rock(point, 3.3)
@@ -93,6 +103,7 @@ func _ready() -> void:
 	var flame_node := prop(flame, fire.position, Color(1, 0.45, 0.1))
 	flame_node.material_override.emission_enabled = true
 	flame_node.material_override.emission = Color(1, 0.35, 0.05)
+	add_child(BriarwakeGrove.new())
 
 func prop(mesh: Mesh, location: Vector3, color: Color) -> MeshInstance3D:
 	var node := MeshInstance3D.new()

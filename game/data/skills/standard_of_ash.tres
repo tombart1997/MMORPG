@@ -28,5 +28,6 @@ cooldown = 18
 animation = &"skill_plant"
 color = Color(0.5, 0.7, 0.85, 1)
 icon = ExtResource("icon")
+requirement_text = "Sword required."
 consumes_answer = false
 effects = Array[ExtResource("base")]([SubResource("Effect0")])

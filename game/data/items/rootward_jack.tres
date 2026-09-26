@@ -1,0 +1,21 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/armor.svg" id="icon"]
+[ext_resource type="Resource" path="res://data/upgrades/armor.tres" id="upgrade"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/traveler_armor.tscn" id="visual"]
+[resource]
+script = ExtResource("1")
+id = &"rootward_jack"
+display_name = "Rootward Jack"
+description = "Layers of fracture-hardened bark, flexible enough for a moving front. Lets a prepared hunter survive more claws at once."
+item_type = "armor"
+rarity = &"rare"
+stackable = false
+equipment_slot = &"chest"
+required_level = 4
+modifiers = {"defense": 8.0, "max_hp": 70.0}
+value = 80
+color = Color(0.3, 0.8, 1, 1)
+icon = ExtResource("icon")
+upgrade_profile = ExtResource("upgrade")
+visual = ExtResource("visual")
