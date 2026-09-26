@@ -1,0 +1,23 @@
+{
+  "invalid_token_rejected": true,
+  "mcp_tools": [
+    "inspect_scene",
+    "execute_python",
+    "render_preview",
+    "validate_asset",
+    "save_blend",
+    "export_gltf"
+  ],
+  "mcp_render_png_sha256": "bd050b448e7e8aff7ff94c4a1c83b9a6520af0e60e7d840ddd8938019bf706c9",
+  "invalid_view_and_path_rejected": true,
+  "scene_preserved_after_render_and_failures": true,
+  "blender_validation_clean": true,
+  "glb": {
+    "bytes": 1158072,
+    "meshes": 1,
+    "materials": 8,
+    "triangles": 8796,
+    "packed_images": 8,
+    "unit_normals_checked": 12532
+  }
+}

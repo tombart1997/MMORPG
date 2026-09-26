@@ -1,0 +1,339 @@
+{
+  "dimensions_m": [
+    0.3676409125328064,
+    0.09000000357627869,
+    1.1842122077941895
+  ],
+  "units": 1.0,
+  "objects": [
+    {
+      "name": "Sword_Grip",
+      "issues": [],
+      "vertices": 96,
+      "polygons": 82,
+      "triangles": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 0.0003731600548588562,
+      "materials": [
+        "Sword_Leather"
+      ]
+    },
+    {
+      "name": "Sword_GripTop",
+      "issues": [],
+      "vertices": 136,
+      "polygons": 126,
+      "triangles": 268,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 6.905336573520992e-05,
+      "materials": [
+        "Sword_BlackenedSteel"
+      ]
+    },
+    {
+      "name": "Sword_GripBase",
+      "issues": [],
+      "vertices": 72,
+      "polygons": 62,
+      "triangles": 140,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 4.582974666121582e-05,
+      "materials": [
+        "Sword_Brass"
+      ]
+    },
+    {
+      "name": "Sword_GuardSeal",
+      "issues": [],
+      "vertices": 144,
+      "polygons": 146,
+      "triangles": 284,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 0.00021405315819265493,
+      "materials": [
+        "Sword_BlackenedSteel"
+      ]
+    },
+    {
+      "name": "Sword_Guard",
+      "issues": [],
+      "vertices": 320,
+      "polygons": 318,
+      "triangles": 636,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 0.0007475867922910672,
+      "materials": [
+        "Sword_BlackenedSteel"
+      ]
+    },
+    {
+      "name": "Sword_GuardTrim_LFront",
+      "issues": [],
+      "vertices": 152,
+      "polygons": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 1.1462404225118008e-05,
+      "materials": [
+        "Sword_Brass"
+      ]
+    },
+    {
+      "name": "Sword_GuardTrim_LBack",
+      "issues": [],
+      "vertices": 152,
+      "polygons": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 1.1462404268344649e-05,
+      "materials": [
+        "Sword_Brass"
+      ]
+    },
+    {
+      "name": "Sword_GuardTrim_RFront",
+      "issues": [],
+      "vertices": 152,
+      "polygons": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 1.1462404279928792e-05,
+      "materials": [
+        "Sword_Brass"
+      ]
+    },
+    {
+      "name": "Sword_GuardTrim_RBack",
+      "issues": [],
+      "vertices": 152,
+      "polygons": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 1.1462404236702164e-05,
+      "materials": [
+        "Sword_Brass"
+      ]
+    },
+    {
+      "name": "Sword_Pommel",
+      "issues": [],
+      "vertices": 160,
+      "polygons": 160,
+      "triangles": 316,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 0.00019832303558859425,
+      "materials": [
+        "Sword_Brass"
+      ]
+    },
+    {
+      "name": "Sword_PommelInset_Front",
+      "issues": [],
+      "vertices": 160,
+      "polygons": 160,
+      "triangles": 316,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 1.0621316337300073e-05,
+      "materials": [
+        "Sword_BlackenedSteel"
+      ]
+    },
+    {
+      "name": "Sword_SealBorder_Front",
+      "issues": [],
+      "vertices": 144,
+      "polygons": 146,
+      "triangles": 284,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 4.620673694064449e-06,
+      "materials": [
+        "Sword_Brass"
+      ]
+    },
+    {
+      "name": "Sword_Crest_Front",
+      "issues": [],
+      "vertices": 6,
+      "polygons": 8,
+      "triangles": 8,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 1.1400004724164938e-06,
+      "materials": [
+        "Sword_Garnet"
+      ]
+    },
+    {
+      "name": "Sword_PommelPin_Front",
+      "issues": [],
+      "vertices": 96,
+      "polygons": 98,
+      "triangles": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 5.998686269814639e-07,
+      "materials": [
+        "Sword_Brass"
+      ]
+    },
+    {
+      "name": "Sword_PommelInset_Back",
+      "issues": [],
+      "vertices": 160,
+      "polygons": 160,
+      "triangles": 316,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 1.0621316338501882e-05,
+      "materials": [
+        "Sword_BlackenedSteel"
+      ]
+    },
+    {
+      "name": "Sword_SealBorder_Back",
+      "issues": [],
+      "vertices": 144,
+      "polygons": 146,
+      "triangles": 284,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 4.620673743954295e-06,
+      "materials": [
+        "Sword_Brass"
+      ]
+    },
+    {
+      "name": "Sword_Crest_Back",
+      "issues": [],
+      "vertices": 6,
+      "polygons": 8,
+      "triangles": 8,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 1.1400004724164938e-06,
+      "materials": [
+        "Sword_Garnet"
+      ]
+    },
+    {
+      "name": "Sword_PommelPin_Back",
+      "issues": [],
+      "vertices": 96,
+      "polygons": 98,
+      "triangles": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 5.99868626981465e-07,
+      "materials": [
+        "Sword_Brass"
+      ]
+    },
+    {
+      "name": "Sword_GripWrap",
+      "issues": [],
+      "vertices": 1964,
+      "polygons": 1962,
+      "triangles": 3924,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 2.4671509417625767e-05,
+      "materials": [
+        "Sword_LeatherWrap"
+      ]
+    },
+    {
+      "name": "Sword_Blade",
+      "issues": [],
+      "vertices": 126,
+      "polygons": 114,
+      "triangles": 248,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume": 0.00126111343365647,
+      "materials": [
+        "Sword_Steel",
+        "Sword_HonedEdge",
+        "Sword_Fuller"
+      ]
+    }
+  ],
+  "warnings": [],
+  "triangles": 8796,
+  "limitations": [
+    "No self-intersection or semantic unwanted-geometry detector",
+    "Material appearance and Godot import require rendered/import checks",
+    "Boundary edges may be intentional; statistics are not art approval"
+  ]
+}

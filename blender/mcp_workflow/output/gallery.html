@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oathkeeper · Blender MCP visual review</title>
+<style>
+body{margin:0;background:#17191d;color:#ede9df;font:16px/1.55 system-ui,sans-serif}main{max-width:1440px;margin:auto;padding:40px}h1{font-size:36px;margin-bottom:8px}p{max-width:900px;color:#bfc2c9}a{color:#e1bb73}section{margin:40px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}figure{margin:0;background:#24262b;border:1px solid #393c43;border-radius:8px;overflow:hidden}img{display:block;width:100%;height:auto}figcaption{padding:16px}small{display:block;color:#bfc2c9;margin-top:6px}.wide{max-width:1280px}nav{display:flex;gap:20px;flex-wrap:wrap}.detail{max-width:680px}
+</style>
+<main>
+<h1>Oathkeeper sword</h1>
+<p>One asset, five reviewed stages. These are original Blender renders and actual Godot captures. Click a view for its full-size PNG. No generated illustration substitutes for the model.</p>
+<nav><a href="oathkeeper_sword.blend">Editable .blend</a><a href="oathkeeper_sword.glb">Exported .glb</a><a href="../REVIEW.md">Visual critique</a><a href="../README.md">Launch &amp; workflow</a></nav>
+<section><h2>Changes driven by rendered review</h2><div class="grid">
+<figure><a href="previews/01_rough/front.png"><img src="previews/01_rough/front.png" alt="Rough sword with slab blade and rectangular guard"></a><figcaption>01 · Rough<small>Floating blade joint, bar guard, long cylindrical grip.</small></figcaption></figure>
+<figure><a href="previews/02_structure/front.png"><img src="previews/02_structure/front.png" alt="Rebuilt sword silhouette and fuller"></a><figcaption>02 · Structure<small>Connected blade, cutting bevels, swept guard, faceted pommel.</small></figcaption></figure>
+<figure><a href="previews/03_craft/front.png"><img src="previews/03_craft/front.png" alt="Layered guard with crest and wrapped grip"></a><figcaption>03 · Craft<small>Steel/brass construction, wrapped grip, matching crests.</small></figcaption></figure>
+<figure><a href="previews/04_finish/front.png"><img src="previews/04_finish/front.png" alt="Darker textured grip and blade surface refinement"></a><figcaption>04 · Finish<small>Better leather and shading; review caught repeated metal stripes.</small></figcaption></figure>
+<figure><a href="previews/05_final/front.png"><img src="previews/05_final/front.png" alt="Final sword with clean blade face and tapered fuller"></a><figcaption>05 · Final<small>Removed striping; tapered fuller termination; grip-centered origin.</small></figcaption></figure>
+</div></section>
+<section><h2>Final views</h2><div class="grid">
+<figure><a href="previews/05_final/three_quarter.png"><img src="previews/05_final/three_quarter.png" alt="Final three-quarter front render"></a><figcaption>3/4 front</figcaption></figure>
+<figure><a href="previews/05_final/back.png"><img src="previews/05_final/back.png" alt="Final back render"></a><figcaption>Back</figcaption></figure>
+<figure><a href="previews/05_final/left.png"><img src="previews/05_final/left.png" alt="Sword left side inspection final"></a><figcaption>Left side</figcaption></figure>
+<figure><a href="previews/05_final/right.png"><img src="previews/05_final/right.png" alt="Sword right side inspection final"></a><figcaption>Right side</figcaption></figure>
+<figure><a href="previews/05_final/rear_three_quarter.png"><img src="previews/05_final/rear_three_quarter.png" alt="Rear three-quarter inspection final"></a><figcaption>3/4 rear</figcaption></figure>
+<figure><a href="previews/05_final/top.png"><img src="previews/05_final/top.png" alt="Top inspection showing blade and guard thickness"></a><figcaption>Top</figcaption></figure>
+</div></section>
+<section><h2>Final hilt</h2><figure class=detail><a href=previews/05_final_closeup/three_quarter.png><img src=previews/05_final_closeup/three_quarter.png alt=Final-hilt></a><figcaption>Final hilt close-up</figcaption></figure></section><section><h2>Diagnostic close-up</h2><p>This intermediate render exposed bright plastic-looking leather and harsh shading at the joins. Later stages address those weaknesses.</p>
+<figure class="detail"><a href="previews/03_hilt_closeup/three_quarter.png"><img src="previews/03_hilt_closeup/three_quarter.png" alt="Intermediate hilt close-up used for critique"></a><figcaption>Stage 03 · hilt diagnostic</figcaption></figure></section>
+<section><h2>Actual Godot 4.7.2 export check</h2><p>One imported mesh, eight material surfaces, 8,796 triangles. Lighting differs from the Blender studio. The 8 m view is an isolated perspective fixture, not an equipped-character gameplay screenshot.</p>
+<figure class="wide"><a href="previews/godot_close.png"><img src="previews/godot_close.png" alt="Actual Godot rendering of the exported GLB"></a><figcaption>Imported GLB · close view</figcaption></figure>
+<figure class="wide"><a href="previews/godot_8m.png"><img src="previews/godot_8m.png" alt="Actual Godot perspective view from eight metres"></a><figcaption>8 m · 60° FOV · 1280 × 720 original frame</figcaption></figure></section>
+<p><a href="pipeline_verification.json">MCP/GLB verification</a> · <a href="blender_validation.json">Blender topology report</a> · <a href="godot_validation.json">Godot import report</a></p>
+</main></html>

@@ -1,0 +1,30 @@
+{
+  "names": [
+    "Sword_Blade",
+    "Sword_Grip",
+    "Sword_GripTop",
+    "Sword_GripBase",
+    "Sword_GuardSeal",
+    "Sword_Guard",
+    "Sword_GuardTrim_LFront",
+    "Sword_GuardTrim_LBack",
+    "Sword_GuardTrim_RFront",
+    "Sword_GuardTrim_RBack",
+    "Sword_Pommel",
+    "Sword_PommelInset_Front",
+    "Sword_SealBorder_Front",
+    "Sword_Crest_Front",
+    "Sword_PommelPin_Front",
+    "Sword_PommelInset_Back",
+    "Sword_SealBorder_Back",
+    "Sword_Crest_Back",
+    "Sword_PommelPin_Back",
+    "Sword_GripWrap"
+  ],
+  "label": "manual_review",
+  "views": [
+    "front",
+    "three_quarter"
+  ],
+  "resolution": 800
+}

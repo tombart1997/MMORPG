@@ -1,0 +1,2 @@
+# Preserve the audited upstream copy, including its original whitespace.
+vendor/upstream_addon.py -whitespace

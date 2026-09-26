@@ -1,0 +1,5 @@
+.venv/
+runtime/
+vendor/blender-mcp/
+godot_check/.godot/
+godot_check/sword*
