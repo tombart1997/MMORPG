@@ -25,6 +25,16 @@ var nameplate_allowed: bool = true
 var trail: MeshInstance3D
 var trail_points: Array[Vector3] = []
 
+func apply_variant(data: EnemyData) -> void:
+	creature = true
+	for mesh: MeshInstance3D in model.find_children("*", "MeshInstance3D", true, false):
+		for surface in mesh.mesh.get_surface_count():
+			var material := mesh.get_active_material(surface) as StandardMaterial3D
+			if material:
+				var copy := material.duplicate() as StandardMaterial3D
+				copy.albedo_color *= data.tint
+				mesh.set_surface_override_material(surface, copy)
+
 func _ready() -> void:
 	assert(profile != null and profile.model != null, "Visual profile must provide an imported model")
 	creature = profile.creature
