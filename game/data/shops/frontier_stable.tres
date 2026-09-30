@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/npc/shop_data.gd" id="script"]
+[ext_resource type="Script" path="res://scripts/npc/shop_offer.gd" id="offer"]
+[ext_resource type="Resource" path="res://data/items/trail_bridle.tres" id="i0"]
+[sub_resource type="Resource" id="o0"]
+script = ExtResource("offer")
+item = ExtResource("i0")
+price = 240
+ingredients = {}
+[resource]
+script = ExtResource("script")
+id = &"frontier_stable"
+title = "Bram's Stables"
+offers = Array[ExtResource("offer")]([SubResource("o0")])

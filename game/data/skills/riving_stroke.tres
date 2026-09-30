@@ -1,36 +1,36 @@
-[gd_resource type="Resource" script_class="SkillData" load_steps=12 format=3]
+[gd_resource type="Resource" script_class="SkillData" load_steps=8 format=3]
 
 [ext_resource type="Script" path="res://scripts/skills/skill_data.gd" id="1"]
 [ext_resource type="Script" path="res://scripts/skills/skill_effect.gd" id="base"]
 [ext_resource type="Texture2D" path="res://assets/icons/skill_riving_stroke.svg" id="icon"]
-[ext_resource type="Script" path="res://scripts/skills/effects/damage_effect.gd" id="e0"]
-[ext_resource type="Script" path="res://scripts/skills/effects/status_effect.gd" id="e1"]
+[ext_resource type="Script" path="res://scripts/skills/effects/damage_effect.gd" id="damage"]
+[ext_resource type="Script" path="res://scripts/skills/effects/status_effect.gd" id="status"]
 
 [sub_resource type="Resource" id="Effect0"]
-script = ExtResource("e0")
-coefficient = 0.9
+script = ExtResource("damage")
+coefficient = 1.8
 
 [sub_resource type="Resource" id="Effect1"]
-script = ExtResource("e1")
+script = ExtResource("status")
 status = &"open"
 duration = 4.0
 
 [resource]
 script = ExtResource("1")
 id = &"riving_stroke"
-display_name = "Riving Stroke"
-description = "Open enemies for 4s: basic hits deal +25%. 0.9 x Attack, cleaves a narrow arc."
-targeting = "selected"
+display_name = "Thunder Cleave"
+description = "Instant lightning slash. Deals 180% Attack in a broad arc and opens enemies for +25% basic damage for 4s. Cast while moving; no target needed."
+targeting = "facing"
 shape = "arc"
-reach = 2.8
-radius = 2.8
-angle = 85
-windup = 0.28
-recovery = 0.3
-cooldown = 5
+reach = 4.2
+radius = 4.2
+angle = 130
+windup = 0.07
+recovery = 0.16
+cooldown = 3
 animation = &"attack_01"
-color = Color(0.95, 0.65, 0.25, 1)
+color = Color(0.2, 0.8, 1, 1)
 icon = ExtResource("icon")
-requirement_text = "Sword required."
+requirement_text = "Sword required. Cast freely while moving."
 consumes_answer = false
 effects = Array[ExtResource("base")]([SubResource("Effect0"), SubResource("Effect1")])

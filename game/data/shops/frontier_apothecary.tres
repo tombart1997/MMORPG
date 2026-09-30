@@ -1,0 +1,26 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/npc/shop_data.gd" id="script"]
+[ext_resource type="Script" path="res://scripts/npc/shop_offer.gd" id="offer"]
+[ext_resource type="Resource" path="res://data/items/field_tonic.tres" id="i0"]
+[ext_resource type="Resource" path="res://data/items/restoration_tonic.tres" id="i1"]
+[ext_resource type="Resource" path="res://data/items/greater_tonic.tres" id="i2"]
+[sub_resource type="Resource" id="o0"]
+script = ExtResource("offer")
+item = ExtResource("i0")
+price = 6
+ingredients = {}
+[sub_resource type="Resource" id="o1"]
+script = ExtResource("offer")
+item = ExtResource("i1")
+price = 24
+ingredients = {}
+[sub_resource type="Resource" id="o2"]
+script = ExtResource("offer")
+item = ExtResource("i2")
+price = 65
+ingredients = {}
+[resource]
+script = ExtResource("script")
+id = &"frontier_apothecary"
+title = "Sera's Apothecary"
+offers = Array[ExtResource("offer")]([SubResource("o0"), SubResource("o1"), SubResource("o2")])

@@ -123,7 +123,7 @@ func _run() -> void:
 	var persistence := ProgressionSave.new()
 	persistence.path = "user://rpg_test.json"
 	bag.slots[0].properties = {"test_marker": "retained"}
-	player.progression.award_xp(100)
+	player.progression.award_xp(player.progression.xp_required())
 	var saved_gold := bag.gold
 	check(persistence.save_player(player), "Save complete progression snapshot")
 	bag.gold = 0

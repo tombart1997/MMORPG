@@ -35,7 +35,7 @@ func _run() -> void:
 	var warden: WorldNPC = world.settlement.npcs[1]
 	var service := MerchantService.new()
 	check(bag.gold == 20 and SafeArea.protects(player), "New traveler starts in settlement sanctuary with 20 gold")
-	check(world.settlement.npcs.size() == 4 and merchant.data.shop.offers.size() == 5, "Settlement has four configured NPCs and a small reusable shop")
+	check(world.settlement.npcs.size() == 9 and merchant.data.shop.offers.size() == 6, "Settlement has nine NPCs and original supplies including mount bridle")
 	await capture("settlement")
 	var prohibited_camp := EnemyCamp.new()
 	prohibited_camp.position = ZoneTerrain.START
@@ -55,7 +55,7 @@ func _run() -> void:
 	key(KEY_E)
 	await frames(2)
 	check(shop.visible and shop.dialogue_box.visible and player.ui_open, "E opens NPC dialogue")
-	check(shop.dialogue_text.text.contains("Young") or shop.dialogue_text.text.contains("young"), "Dialogue shows original opening page")
+	check(shop.dialogue_text.text == warden.data.pages[0].text, "Dialogue shows authored opening page")
 	shop.choose_response(0)
 	check(shop.dialogue_text.text.contains("ironbacks") and shop.dialogue.options().size() == 1, "Dialogue pages and level-conditioned responses work")
 	await capture("dialogue")
@@ -170,14 +170,16 @@ func _run() -> void:
 		player.global_position = drop.global_position
 		drop.collect(player)
 	await frames(2)
-	check(find_item(&"briarsteel_edge") >= 0, "Middle-band leader supplies next dropped weapon upgrade")
+	check(middle.leader_reward == null, "Middle-band leader no longer guarantees rare equipment")
 	player.combat.cancel()
-	check(player.equipment.equip(find_item(&"briarsteel_edge")), "Dropped upgrade equips through same architecture")
+	# Inject a rare result to test equipping without making a probabilistic assertion.
+	bag.add_item(ItemCatalog.get_item(&"relic_blade_1"))
+	check(player.equipment.equip(find_item(&"relic_blade_1")), "Rare upgrade equips through same architecture")
 	var hard: EnemyCamp = world.camps[2]
 	check(hard.pack.members[0].health.maximum == 110 and hard.enemy_data.attack.damage == 11 and hard.enemy_data.xp == 40, "Deep band increases HP, damage and rewards modestly")
 	check(hard.pack.members[0].visual.scale.x > target.visual.scale.x and hard.pack.members[0].visual.sockets[&"ArmorSocket"].get_node_or_null("Equipment") != null, "Ironback visual communicates greater danger")
-	check(hard.drop_table.entries.any(func(entry): return entry.item.id == &"cairnwarden_sword"), "Strongest sword belongs to deep enemy drop table")
-	check(not camp.drop_table.entries.any(func(entry): return entry.item.item_type == "weapon"), "Weak enemies do not flood bags with progression weapons")
+	check(hard.drop_table.entries.any(func(entry): return entry.item.item_type == "weapon" and entry.chance <= .004), "Ironback has rare weapon loot")
+	check(camp.drop_table.entries.filter(func(entry): return entry.item.item_type == "weapon").all(func(entry): return entry.chance <= .004), "Weak enemies do not flood bags with progression weapons")
 	# Retreat from a committed enemy into sanctuary must cancel pursuit and damage.
 	player.position = hard.position + Vector3(0, 0, 2)
 	hard.pack.target = player

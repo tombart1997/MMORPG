@@ -23,16 +23,34 @@ func _draw() -> void:
 	if player == null or player.map_state == null: return
 	draw_rect(Rect2(Vector2.ZERO,size),Color(.045,.075,.06,.94))
 	draw_rect(Rect2(Vector2.ONE,size-Vector2.ONE*2),Color("786c47"),false,1)
-	var road := player.map_state.region.roads
-	for i in range(1,road.size()):
-		draw_line(point(Vector3(road[i-1].x,0,road[i-1].y)),point(Vector3(road[i].x,0,road[i].y)),Color("70674b"),3,true)
+	for road in [player.map_state.region.roads, player.map_state.region.outer_roads]:
+		for i in range(1,road.size()):
+			draw_line(point(Vector3(road[i-1].x,0,road[i-1].y)),point(Vector3(road[i].x,0,road[i].y)),Color("70674b"),3,true)
 	var font := ThemeDB.fallback_font
+	var service_index := 0
+	var occupied: Array[Rect2] = []
 	for marker in player.map_state.markers():
 		var pos := point(marker.position)
 		if not Rect2(Vector2(8,8),size-Vector2(16,16)).has_point(pos): continue
 		draw_circle(pos,7,Color("202a23"))
-		draw_string(font,pos+Vector2(-4,5),marker.glyph,HORIZONTAL_ALIGNMENT_LEFT,-1,14,marker.color)
-		if full: draw_string(font,pos+Vector2(11,4),marker.label,HORIZONTAL_ALIGNMENT_LEFT,220,13,marker.color)
+		var glyph: String = str(service_index+1) if full and marker.get("service", false) else marker.glyph
+		draw_string(font,pos+Vector2(-4,5),glyph,HORIZONTAL_ALIGNMENT_LEFT,-1,14,marker.color)
+		if full:
+			if marker.has("service") and marker.service:
+				service_index += 1
+				var key_pos := Vector2(12, 46 + service_index * 22)
+				draw_string(font,key_pos, "%d  %s" % [service_index, marker.label],HORIZONTAL_ALIGNMENT_LEFT,205,12,marker.color)
+				continue
+			var label_pos := pos + Vector2(11,4)
+			label_pos.x = clampf(label_pos.x, 215, size.x - 160)
+			var rect := Rect2(label_pos-Vector2(0,12),Vector2(155,18))
+			for previous in occupied:
+				if previous.intersects(rect):
+					label_pos.y = previous.end.y + 13
+					rect.position.y = label_pos.y - 12
+			occupied.append(rect)
+			draw_line(pos,label_pos-Vector2(3,4),Color(.5,.5,.35,.5),1,true)
+			draw_string(font,label_pos,marker.label,HORIZONTAL_ALIGNMENT_LEFT,155,12,marker.color)
 	var player_point := point(player.global_position)
 	var direction := Vector2(-sin(player.rotation.y),-cos(player.rotation.y))
 	var side := Vector2(-direction.y,direction.x)

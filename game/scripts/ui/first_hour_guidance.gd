@@ -6,7 +6,7 @@ static func hint(player: ActorBody) -> String:
 	if player.health.current < player.health.maximum * .35:
 		if player.inventory.count(&"field_tonic") > 0: return "Low health: Q uses your assigned tonic between attacks. The waystone heals for free."
 		return "Out of restoration? Retreat to the waystone in Briar Crossing for free healing."
-	if player.mounts.mounted: return "H dismounts. Attacks, hostile hits and NPC conversations return you to foot."
+	if player.mounts.mounted: return "Space attacks 35% faster while riding. Two consecutive hits knock the target back. H dismounts."
 	for quest in QuestCatalog.all().values():
 		if player.quests.ready(quest): return "%s complete — return to %s. J shows the reward." % [quest.title,"Oren" if quest.turn_in == &"smith" else "Elric"]
 	if player.progression.kills == 0:

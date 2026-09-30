@@ -225,6 +225,13 @@ func update_details() -> void:
 	trade.disabled = item == null
 	trade.text = "%s for %d gold" % ["Buy" if mode == &"buy" else "Sell", price * int(quantity.value)]
 	info.text = ((expected_stack.tooltip() if mode == &"sell" and expected_stack else item.tooltip()) + "\n" + EquipmentComparison.describe(item, player, expected_stack if mode == &"sell" else null)) if item else "Select merchant supplies to buy, or an item in your pack to sell.\nEquipped items must be unequipped before selling. Supplies are unlimited."
+	if mode == &"buy" and item and offer_index >= 0:
+		var offer: ShopOffer = npc.data.shop.offers[offer_index]
+		if not offer.ingredients.is_empty():
+			trade.text = "Craft for %d gold + materials" % (price * int(quantity.value))
+			info.text += "\nCrafting ingredients:"
+			for id in offer.ingredients:
+				info.text += "\n%d x %s (owned: %d)" % [int(offer.ingredients[id])*int(quantity.value), ItemCatalog.get_item(StringName(id)).display_name, player.inventory.count(StringName(id))]
 
 func transact() -> void:
 	var result := merchant.buy(npc, player, offer_index, int(quantity.value)) if mode == &"buy" else merchant.sell(npc, player, bag_index, expected_stack, int(quantity.value))

@@ -27,6 +27,7 @@ var trail_points: Array[Vector3] = []
 
 func apply_variant(data: EnemyData) -> void:
 	creature = true
+	if data.tint == Color.WHITE or DisplayServer.get_name() == "headless": return
 	for mesh: MeshInstance3D in model.find_children("*", "MeshInstance3D", true, false):
 		for surface in mesh.mesh.get_surface_count():
 			var material := mesh.get_active_material(surface) as StandardMaterial3D
@@ -155,7 +156,7 @@ func present(velocity: Vector3, combat: MeleeCombat, health: HealthComponent, ti
 		if skills.elapsed < skill.windup: normalized = 0.3 * skills.elapsed / maxf(0.01, skill.windup)
 		else: normalized = 0.3 + 0.7 * clampf((skills.elapsed - skill.windup) / maxf(0.01, skill.recovery), 0, 1)
 		time = normalized * animation_player.get_animation(clip).length
-	elif get_parent() is ActorBody and get_parent().statuses.has(&"guard") and not creature and not combat.is_attacking():
+	elif get_parent() is ActorBody and get_parent().statuses.has(&"guard") and not creature and not combat.is_attacking() and speed < .15:
 		next = &"guard"
 		clip = &"skill_guard"
 		key = "guard"
@@ -198,7 +199,20 @@ func present(velocity: Vector3, combat: MeleeCombat, health: HealthComponent, ti
 			var index := skeleton.find_bone(bone_name)
 			if index >= 0:
 				hit_rotations[index] = skeleton.get_bone_rest(index).basis.get_rotation_quaternion().inverse() * skeleton.get_bone_pose_rotation(index)
+	var running_legs: Dictionary = {}
+	if next == &"skill" and speed > .15:
+		locomotion_time += delta * clampf(speed / profile.run_reference_speed, 0, 2.5)
+		_sample(&"run", fposmod(locomotion_time, animation_player.get_animation(&"run").length))
+		for bone_name in ["Thigh.L", "Thigh.R", "Shin.L", "Shin.R", "Foot.L", "Foot.R"]:
+			var index := skeleton.find_bone(bone_name)
+			if index >= 0: running_legs[index] = skeleton.get_bone_pose_rotation(index)
 	_sample(clip, time)
+	for index in running_legs: skeleton.set_bone_pose_rotation(index, running_legs[index])
+	if not creature and health.is_alive() and combat.is_attacking():
+		if get_parent().mounts and get_parent().mounts.mounted:
+			_mounted_cut(combat)
+		elif combat.attack.animation_clip == &"attack_03":
+			_overhead_cut(combat)
 	sampled_clip = clip
 	sampled_time = time
 	var blend := 1.0 if transition_duration <= 0 else clampf(transition_time / transition_duration, 0, 1)
@@ -210,7 +224,7 @@ func present(velocity: Vector3, combat: MeleeCombat, health: HealthComponent, ti
 		# A small additive recoil preserves leg cadence and the visible attacking arm.
 		var recoil: Quaternion = Quaternion.IDENTITY.slerp(hit_rotations[index], 0.65 if combat.is_attacking() else 1.0)
 		skeleton.set_bone_pose_rotation(index, skeleton.get_bone_pose_rotation(index) * recoil)
-	if get_parent() is ActorBody and get_parent().mounts and get_parent().mounts.mounted:
+	if health.is_alive() and get_parent() is ActorBody and get_parent().mounts and get_parent().mounts.mounted:
 		if not combat.is_attacking(): _sample(&"idle", 0.0)
 		for side in ["L", "R"]:
 			var sign_value := -1.0 if side == "L" else 1.0
@@ -234,6 +248,7 @@ func _update_trail(combat: MeleeCombat, alive: bool) -> void:
 	if alive and actor.skills and actor.skills.busy():
 		active=actor.skills.elapsed>=actor.skills.current.skill.windup and actor.skills.elapsed<actor.skills.current.skill.windup+.16
 	var equipment:Node3D=sockets[&"WeaponSocket"].get_node_or_null("Equipment")
+	trail.material_override.albedo_color = Color(.2,1,.55,.65) if actor.statuses.has(&"spirit_edge") else (Color(actor.skills.current.skill.color, .4) if actor.skills and actor.skills.busy() else Color(.69,.82,.85,.24))
 	if not active or equipment==null or equipment.get_node_or_null("Tip")==null:
 		trail.hide()
 		trail_points.clear()
@@ -263,3 +278,74 @@ func _rider_bone(bone_name: String, angles: Vector3) -> void:
 	var rest := skeleton.get_bone_global_rest(index).basis
 	var rotation_delta := rest.inverse() * Basis.from_euler(angles) * rest
 	skeleton.set_bone_pose_rotation(index, skeleton.get_bone_pose_rotation(index) * rotation_delta.get_rotation_quaternion())
+
+func _swing_progress(combat: MeleeCombat) -> float:
+	match combat.phase:
+		MeleeCombat.Phase.WINDUP: return .3 * clampf(combat.phase_elapsed / combat.attack.windup, 0, 1)
+		MeleeCombat.Phase.ACTIVE: return .3 + .35 * clampf(combat.phase_elapsed / combat.attack.active, 0, 1)
+		_: return .65 + .35 * clampf(combat.phase_elapsed / combat.attack.recovery, 0, 1)
+
+func _overhead_cut(combat: MeleeCombat) -> void:
+	var t := _swing_progress(combat)
+	var lift := smoothstep(0, .3, t) if t < .3 else 1.0 - smoothstep(.3, .65, t)
+	var follow := sin(clampf((t-.3)/.7, 0, 1)*PI)
+	_sample(&"idle", 0)
+	_rider_bone("Chest", Vector3(-.12*lift+.3*follow,0,0))
+	_rider_bone("UpperArm.L", Vector3(-1.7*lift,0,.2))
+	var angle := PI * smoothstep(.3,.65,t)
+	var blade := Vector3(0,cos(angle),-sin(angle))
+	if t < .3: blade = Vector3(0,-.7,-.7).lerp(Vector3.UP, lift).normalized()
+	if t > .65: blade = Vector3.DOWN.lerp(Vector3(0,-.7,-.7),smoothstep(.65,1,t)).normalized()
+	_pose_weapon(Vector3(.12,1.22+.65*lift,-.3), blade)
+
+func _mounted_cut(combat: MeleeCombat) -> void:
+	var t := _swing_progress(combat)
+	# Two half-cycles form a closed infinity path in the saddle's frontal plane.
+	var theta := PI * t + (0.0 if combat.sequence_index % 2 == 0 else PI)
+	var lateral := -sin(theta)
+	var drop := sin(2.0 * theta)
+	_sample(&"idle", 0)
+	_rider_bone("Spine", Vector3(0,0,-.22*lateral))
+	_rider_bone("Chest", Vector3(.08, -.28*lateral, -.24*lateral))
+	_rider_bone("UpperArm.L", Vector3(.35,0,.12))
+	_rider_bone("Forearm.L", Vector3(.7,0,0))
+	_pose_weapon(Vector3(.48*lateral,1.18+.23*drop,-.08),Vector3(.25*lateral,-.9,-.25))
+
+func _pose_weapon(hand_point: Vector3, blade_direction: Vector3) -> void:
+	var hand := skeleton.find_bone("Hand.R")
+	if hand < 0: return
+	var target := skeleton.to_local(to_global(hand_point))
+	# Short CCD solve keeps the hand attached while placing each cut beside the horse.
+	for iteration in range(8):
+		for bone_name in ["Forearm.R", "UpperArm.R"]:
+			var bone := skeleton.find_bone(bone_name)
+			var pose := skeleton.get_bone_global_pose(bone)
+			var from := skeleton.get_bone_global_pose(hand).origin - pose.origin
+			var toward := target - pose.origin
+			if from.length_squared() < .00001 or toward.length_squared() < .00001: continue
+			var turn := Basis(Quaternion(from.normalized(),toward.normalized()))
+			_set_global_bone_basis(bone, turn * pose.basis)
+	var socket: Node3D = sockets[&"WeaponSocket"]
+	var equipment := socket.get_node_or_null("Equipment") as Node3D
+	if equipment == null or equipment.get_node_or_null("Tip") == null: return
+	var local_blade: Vector3 = socket.basis * equipment.basis * (equipment.get_node("Tip").position - equipment.get_node("Grip").position)
+	var hand_basis := skeleton.get_bone_global_pose(hand).basis
+	var from := (hand_basis * local_blade).normalized()
+	var toward := (skeleton.global_basis.inverse() * global_basis * blade_direction).normalized()
+	_set_global_bone_basis(hand, Basis(Quaternion(from,toward)) * hand_basis)
+
+func _set_global_bone_basis(bone: int, desired: Basis) -> void:
+	var parent := skeleton.get_bone_parent(bone)
+	var parent_basis := skeleton.get_bone_global_pose(parent).basis if parent >= 0 else Basis.IDENTITY
+	skeleton.set_bone_pose_rotation(bone,(parent_basis.inverse()*desired).orthonormalized().get_rotation_quaternion())
+
+func apply_class_tint(identity: String) -> void:
+	var colors := {"Ironvow":Color.WHITE, "Threadseer":Color("9a91d7"), "Cinderhand":Color("d89361"), "Fenstrider":Color("83ad86")}
+	for mesh: MeshInstance3D in find_children("*", "MeshInstance3D", true, false):
+		if mesh.mesh == null: continue
+		for surface in mesh.mesh.get_surface_count():
+			var source := mesh.mesh.surface_get_material(surface) as StandardMaterial3D
+			if source:
+				var material := source.duplicate() as StandardMaterial3D
+				material.albedo_color *= colors.get(identity, Color.WHITE)
+				mesh.set_surface_override_material(surface, material)

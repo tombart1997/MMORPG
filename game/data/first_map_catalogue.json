@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "meadow_wolf",
+    "name": "Meadow Wolf",
+    "level": 1,
+    "tier": 1,
+    "family": "wolf",
+    "position": [
+      -25,
+      -18
+    ],
+    "hp": 83,
+    "damage": 9.5,
+    "xp": 20,
+    "group": 3,
+    "gold": [
+      4,
+      10
+    ],
+    "loot": [
+      {
+        "item": "meadow_wolf_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "field_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_1",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_1",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "blue_wolf",
+    "name": "Blue Wolf",
+    "level": 3,
+    "tier": 1,
+    "family": "wolf",
+    "position": [
+      -55,
+      -22
+    ],
+    "hp": 119,
+    "damage": 12.5,
+    "xp": 36,
+    "group": 3,
+    "gold": [
+      8,
+      16
+    ],
+    "loot": [
+      {
+        "item": "blue_wolf_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "field_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_1",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_1",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "red_wolf",
+    "name": "Red Wolf",
+    "level": 5,
+    "tier": 2,
+    "family": "wolf",
+    "position": [
+      -88,
+      -22
+    ],
+    "hp": 209,
+    "damage": 17.8,
+    "xp": 62,
+    "group": 4,
+    "gold": [
+      12,
+      25
+    ],
+    "loot": [
+      {
+        "item": "red_wolf_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "field_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_1",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_1",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "bristle_boar",
+    "name": "Bristle Boar",
+    "level": 2,
+    "tier": 1,
+    "family": "boar",
+    "position": [
+      55,
+      -22
+    ],
+    "hp": 101,
+    "damage": 11.0,
+    "xp": 28,
+    "group": 3,
+    "gold": [
+      6,
+      13
+    ],
+    "loot": [
+      {
+        "item": "bristle_boar_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "field_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_1",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_1",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "reed_spider",
+    "name": "Reed Spider",
+    "level": 4,
+    "tier": 1,
+    "family": "spider",
+    "position": [
+      88,
+      -22
+    ],
+    "hp": 137,
+    "damage": 14.0,
+    "xp": 44,
+    "group": 3,
+    "gold": [
+      10,
+      19
+    ],
+    "loot": [
+      {
+        "item": "reed_spider_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "field_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_1",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_1",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "grey_wolf",
+    "name": "Grey Wolf",
+    "level": 6,
+    "tier": 1,
+    "family": "wolf",
+    "position": [
+      -88,
+      -66
+    ],
+    "hp": 173,
+    "damage": 17.0,
+    "xp": 60,
+    "group": 3,
+    "gold": [
+      14,
+      25
+    ],
+    "loot": [
+      {
+        "item": "grey_wolf_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "restoration_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_6",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_6",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "mire_boar",
+    "name": "Mire Boar",
+    "level": 7,
+    "tier": 2,
+    "family": "boar",
+    "position": [
+      -57,
+      -66
+    ],
+    "hp": 258,
+    "damage": 21.3,
+    "xp": 82,
+    "group": 4,
+    "gold": [
+      16,
+      31
+    ],
+    "loot": [
+      {
+        "item": "mire_boar_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "restoration_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_6",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_6",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "copper_spider",
+    "name": "Copper Spider",
+    "level": 8,
+    "tier": 1,
+    "family": "spider",
+    "position": [
+      55,
+      -66
+    ],
+    "hp": 209,
+    "damage": 20.0,
+    "xp": 76,
+    "group": 3,
+    "gold": [
+      18,
+      31
+    ],
+    "loot": [
+      {
+        "item": "copper_spider_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "restoration_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_6",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_6",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "road_bandit",
+    "name": "Road Bandit",
+    "level": 9,
+    "tier": 2,
+    "family": "bandit",
+    "position": [
+      88,
+      -66
+    ],
+    "hp": 306,
+    "damage": 24.7,
+    "xp": 101,
+    "group": 4,
+    "gold": [
+      20,
+      37
+    ],
+    "loot": [
+      {
+        "item": "road_bandit_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "restoration_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_6",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_6",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "moonfang",
+    "name": "Moonfang",
+    "level": 8,
+    "tier": 3,
+    "family": "wolf",
+    "position": [
+      -87,
+      -104
+    ],
+    "hp": 522,
+    "damage": 28.0,
+    "xp": 152,
+    "group": 1,
+    "gold": [
+      18,
+      37
+    ],
+    "loot": [
+      {
+        "item": "moonfang_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 2
+      },
+      {
+        "item": "restoration_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_6",
+        "chance": 0.003,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_6",
+        "chance": 0.003,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "thicket_wolf",
+    "name": "Thicket Wolf",
+    "level": 10,
+    "tier": 1,
+    "family": "wolf",
+    "position": [
+      -48,
+      -108
+    ],
+    "hp": 245,
+    "damage": 23.0,
+    "xp": 92,
+    "group": 3,
+    "gold": [
+      22,
+      37
+    ],
+    "loot": [
+      {
+        "item": "thicket_wolf_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "restoration_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_6",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_6",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "blacktusk",
+    "name": "Blacktusk Boar",
+    "level": 11,
+    "tier": 2,
+    "family": "boar",
+    "position": [
+      -5,
+      -112
+    ],
+    "hp": 355,
+    "damage": 28.2,
+    "xp": 120,
+    "group": 4,
+    "gold": [
+      24,
+      43
+    ],
+    "loot": [
+      {
+        "item": "blacktusk_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "restoration_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_11",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_11",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "venom_spider",
+    "name": "Venom Spider",
+    "level": 12,
+    "tier": 2,
+    "family": "spider",
+    "position": [
+      38,
+      -110
+    ],
+    "hp": 379,
+    "damage": 29.9,
+    "xp": 130,
+    "group": 4,
+    "gold": [
+      26,
+      46
+    ],
+    "loot": [
+      {
+        "item": "venom_spider_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "restoration_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_11",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_11",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "hollow_raider",
+    "name": "Hollow Raider",
+    "level": 13,
+    "tier": 1,
+    "family": "bandit",
+    "position": [
+      85,
+      -110
+    ],
+    "hp": 299,
+    "damage": 27.5,
+    "xp": 116,
+    "group": 3,
+    "gold": [
+      28,
+      46
+    ],
+    "loot": [
+      {
+        "item": "hollow_raider_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "restoration_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_11",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_11",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "cinder_wisp",
+    "name": "Cinder Wisp",
+    "level": 14,
+    "tier": 1,
+    "family": "wisp",
+    "position": [
+      -87,
+      -153
+    ],
+    "hp": 317,
+    "damage": 29.0,
+    "xp": 124,
+    "group": 3,
+    "gold": [
+      30,
+      49
+    ],
+    "loot": [
+      {
+        "item": "cinder_wisp_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "restoration_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_11",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_11",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "slate_guardian",
+    "name": "Slate Guardian",
+    "level": 12,
+    "tier": 3,
+    "family": "stonekin",
+    "position": [
+      -45,
+      -154
+    ],
+    "hp": 702,
+    "damage": 36.4,
+    "xp": 216,
+    "group": 1,
+    "gold": [
+      26,
+      49
+    ],
+    "loot": [
+      {
+        "item": "slate_guardian_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 2
+      },
+      {
+        "item": "restoration_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_11",
+        "chance": 0.003,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_11",
+        "chance": 0.003,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "frost_wolf",
+    "name": "Frost Wolf",
+    "level": 15,
+    "tier": 2,
+    "family": "wolf",
+    "position": [
+      0,
+      -155
+    ],
+    "hp": 452,
+    "damage": 35.1,
+    "xp": 158,
+    "group": 4,
+    "gold": [
+      32,
+      55
+    ],
+    "loot": [
+      {
+        "item": "frost_wolf_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "restoration_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_11",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_11",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "ironhide_boar",
+    "name": "Ironhide Boar",
+    "level": 16,
+    "tier": 1,
+    "family": "boar",
+    "position": [
+      44,
+      -155
+    ],
+    "hp": 353,
+    "damage": 32.0,
+    "xp": 140,
+    "group": 3,
+    "gold": [
+      34,
+      55
+    ],
+    "loot": [
+      {
+        "item": "ironhide_boar_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "greater_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_16",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_16",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "silk_matron",
+    "name": "Silk Matron",
+    "level": 16,
+    "tier": 4,
+    "family": "spider",
+    "position": [
+      87,
+      -153
+    ],
+    "hp": 1341,
+    "damage": 51.2,
+    "xp": 420,
+    "group": 1,
+    "gold": [
+      34,
+      64
+    ],
+    "loot": [
+      {
+        "item": "silk_matron_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 2
+      },
+      {
+        "item": "greater_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_16",
+        "chance": 0.0035,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_16",
+        "chance": 0.0035,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "ash_bandit",
+    "name": "Ash Bandit",
+    "level": 17,
+    "tier": 2,
+    "family": "bandit",
+    "position": [
+      -87,
+      -197
+    ],
+    "hp": 501,
+    "damage": 38.5,
+    "xp": 178,
+    "group": 4,
+    "gold": [
+      36,
+      61
+    ],
+    "loot": [
+      {
+        "item": "ash_bandit_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "greater_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_16",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_16",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "grave_wisp",
+    "name": "Grave Wisp",
+    "level": 18,
+    "tier": 1,
+    "family": "wisp",
+    "position": [
+      -44,
+      -199
+    ],
+    "hp": 389,
+    "damage": 35.0,
+    "xp": 156,
+    "group": 3,
+    "gold": [
+      38,
+      61
+    ],
+    "loot": [
+      {
+        "item": "grave_wisp_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "greater_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_16",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_16",
+        "chance": 0.002,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "cairn_sentinel",
+    "name": "Cairn Sentinel",
+    "level": 19,
+    "tier": 2,
+    "family": "stonekin",
+    "position": [
+      0,
+      -199
+    ],
+    "hp": 549,
+    "damage": 42.0,
+    "xp": 197,
+    "group": 4,
+    "gold": [
+      40,
+      67
+    ],
+    "loot": [
+      {
+        "item": "cairn_sentinel_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "greater_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_16",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_16",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "bloodfang",
+    "name": "Bloodfang",
+    "level": 20,
+    "tier": 4,
+    "family": "wolf",
+    "position": [
+      45,
+      -198
+    ],
+    "hp": 1615,
+    "damage": 60.8,
+    "xp": 516,
+    "group": 1,
+    "gold": [
+      42,
+      76
+    ],
+    "loot": [
+      {
+        "item": "bloodfang_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 2
+      },
+      {
+        "item": "greater_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_16",
+        "chance": 0.0035,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_16",
+        "chance": 0.0035,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "dusk_stalker",
+    "name": "Dusk Stalker",
+    "level": 20,
+    "tier": 2,
+    "family": "wolf",
+    "position": [
+      88,
+      -198
+    ],
+    "hp": 574,
+    "damage": 43.7,
+    "xp": 206,
+    "group": 4,
+    "gold": [
+      42,
+      70
+    ],
+    "loot": [
+      {
+        "item": "dusk_stalker_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "greater_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_16",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_16",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "obsidian_boar",
+    "name": "Obsidian Boar",
+    "level": 21,
+    "tier": 2,
+    "family": "boar",
+    "position": [
+      -87,
+      -244
+    ],
+    "hp": 598,
+    "damage": 45.4,
+    "xp": 216,
+    "group": 4,
+    "gold": [
+      44,
+      73
+    ],
+    "loot": [
+      {
+        "item": "obsidian_boar_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "greater_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_21",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_21",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "widow_spider",
+    "name": "Widow Spider",
+    "level": 22,
+    "tier": 2,
+    "family": "spider",
+    "position": [
+      -44,
+      -244
+    ],
+    "hp": 622,
+    "damage": 47.1,
+    "xp": 226,
+    "group": 4,
+    "gold": [
+      46,
+      76
+    ],
+    "loot": [
+      {
+        "item": "widow_spider_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "greater_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_21",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_21",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "exile_captain",
+    "name": "Exile Captain",
+    "level": 23,
+    "tier": 3,
+    "family": "bandit",
+    "position": [
+      0,
+      -246
+    ],
+    "hp": 1198,
+    "damage": 59.5,
+    "xp": 392,
+    "group": 1,
+    "gold": [
+      48,
+      82
+    ],
+    "loot": [
+      {
+        "item": "exile_captain_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 2
+      },
+      {
+        "item": "greater_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_21",
+        "chance": 0.003,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_21",
+        "chance": 0.003,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "storm_wisp",
+    "name": "Storm Wisp",
+    "level": 24,
+    "tier": 2,
+    "family": "wisp",
+    "position": [
+      43,
+      -244
+    ],
+    "hp": 671,
+    "damage": 50.6,
+    "xp": 245,
+    "group": 4,
+    "gold": [
+      50,
+      82
+    ],
+    "loot": [
+      {
+        "item": "storm_wisp_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "greater_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_21",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_21",
+        "chance": 0.0025,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "cairn_colossus",
+    "name": "Cairn Colossus",
+    "level": 25,
+    "tier": 5,
+    "family": "stonekin",
+    "position": [
+      87,
+      -253
+    ],
+    "hp": 3090,
+    "damage": 84.2,
+    "xp": 1060,
+    "group": 1,
+    "gold": [
+      52,
+      94
+    ],
+    "loot": [
+      {
+        "item": "cairn_colossus_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 2
+      },
+      {
+        "item": "greater_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_21",
+        "chance": 0.004,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_21",
+        "chance": 0.004,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  {
+    "id": "ancient_warden",
+    "name": "Ancient Warden",
+    "level": 25,
+    "tier": 5,
+    "family": "stonekin",
+    "position": [
+      -87,
+      -279
+    ],
+    "hp": 3090,
+    "damage": 84.2,
+    "xp": 1060,
+    "group": 1,
+    "gold": [
+      52,
+      94
+    ],
+    "loot": [
+      {
+        "item": "ancient_warden_trophy",
+        "chance": 0.45,
+        "minimum": 1,
+        "maximum": 2
+      },
+      {
+        "item": "greater_tonic",
+        "chance": 0.08,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_blade_21",
+        "chance": 0.004,
+        "minimum": 1,
+        "maximum": 1
+      },
+      {
+        "item": "relic_coat_21",
+        "chance": 0.004,
+        "minimum": 1,
+        "maximum": 1
+      }
+    ]
+  }
+]

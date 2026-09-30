@@ -2,12 +2,12 @@
 [ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="1"]
 [resource]
 script = ExtResource("1")
-display_name = "Heavy sweep"
+display_name = "Overhead cleave"
 animation_clip = &"attack_03"
 damage = 35.0
-windup = 0.25
-active = 0.18
-recovery = 0.38
+windup = 0.22
+active = 0.16
+recovery = 0.32
 lunge_distance = 0.55
 lunge_start = 0.16
 lunge_duration = 0.27

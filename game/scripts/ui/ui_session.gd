@@ -27,8 +27,9 @@ func close() -> void:
 	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 
 func _clear_attack_input() -> void:
+	if player.skills: player.skills.clear_buffer()
 	for child in player.get_children():
-		if child is PlayerController: child.attack_requested = false
+		if child is PlayerController: child.stop_auto_attack()
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("world_map"):

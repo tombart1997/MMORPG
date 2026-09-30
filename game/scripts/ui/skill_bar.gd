@@ -5,9 +5,9 @@ var buttons: Array[Button] = []
 var status: Label
 var mount_button: Button
 func _ready() -> void:
-	position = Vector2(-305, -110)
+	position = Vector2(-340, -110)
 	set_anchors_preset(Control.PRESET_CENTER_BOTTOM, true)
-	custom_minimum_size = Vector2(610, 94)
+	custom_minimum_size = Vector2(680, 94)
 	var style := StyleBoxFlat.new()
 	style.bg_color=Color(.025,.035,.032,.85)
 	style.border_color=Color(.43,.36,.23,.8)
@@ -22,7 +22,7 @@ func _ready() -> void:
 	add_child(column)
 	status = Label.new()
 	status.clip_text = true
-	status.custom_minimum_size = Vector2(585, 18)
+	status.custom_minimum_size = Vector2(655, 18)
 	status.add_theme_font_size_override("font_size", 12)
 	column.add_child(status)
 	var groups := HBoxContainer.new()
@@ -32,11 +32,11 @@ func _ready() -> void:
 	for i in player.skills.specialization.skills.size():
 		var skill := player.skills.specialization.skills[i]
 		var button := Button.new()
-		button.custom_minimum_size = Vector2(54, 48)
+		button.custom_minimum_size = Vector2(64, 48)
 		button.add_theme_font_size_override("font_size", 12)
-		button.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		button.autowrap_mode = TextServer.AUTOWRAP_OFF
 		button.icon = skill.icon
-		button.add_theme_constant_override("icon_max_width", 27)
+		button.add_theme_constant_override("icon_max_width", 24)
 		button.tooltip_text = skill.tooltip()
 		button.pressed.connect(func(): player.skills.activate(i))
 		row.add_child(button)
@@ -77,10 +77,12 @@ func _process(_delta: float) -> void:
 		buttons[i].modulate = Color(1, .82, .45) if skills.armed == skill else (Color(.7, .73, .75) if not skills.unavailable(skill).is_empty() else Color.WHITE)
 	var opportunity := ""
 	if player.statuses.has(&"guard"): opportunity = " | GUARD %.1fs" % player.statuses.entries[&"guard"].remaining
-	elif player.statuses.has(&"answer"): opportunity = " | ANSWER %.1fs: Sweep or Return" % player.statuses.entries[&"answer"].remaining
+	elif player.statuses.has(&"answer"): opportunity = " | ANSWER %.1fs: Storm or Sunbreaker" % player.statuses.entries[&"answer"].remaining
+	if player.statuses.has(&"spirit_edge"): opportunity += " | SPIRIT %.1fs" % player.statuses.entries[&"spirit_edge"].remaining
+	if player.statuses.has(&"haste"): opportunity += " | SPEED +80%% %.1fs" % player.statuses.entries[&"haste"].remaining
 	status.text = opportunity.trim_prefix(" | ") if not opportunity.is_empty() else skills.feedback
 
 	mount_button.text = "H\n" + ("Ride" if not player.mounts.mounted else "Off")
-	mount_button.tooltip_text = "Briarwood horse ? H\n" + player.mounts.unavailable() + "\nAttacks, hostile hits and conversations dismount.\nOwnership is permanent; loading returns on foot."
+	mount_button.tooltip_text = "Briarwood horse - H\n" + player.mounts.unavailable() + "\nSpace attacks 35% faster; two consecutive hits knock foes back.\nSkills and conversations dismount. Ownership is permanent."
 	mount_button.modulate = Color(.65,.67,.62) if not player.mounts.unavailable().is_empty() else Color.WHITE
-	if player.actions.feedback_time > 0: status.text = player.actions.feedback
+	if player.actions.feedback_time > 0 and opportunity.is_empty(): status.text = player.actions.feedback

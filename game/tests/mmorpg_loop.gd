@@ -151,7 +151,7 @@ func _run() -> void:
 	gold = bag.gold
 	hud.smith_panel.attempt()
 	check(instance.upgrade_level() == 1 and bag.gold == gold - 15, "Confirmed upgrade changes instance level and charges exactly once")
-	check(player.equipment.equip(index) and player.stats.value(&"attack") == 29, "Upgraded sword bonuses enter authoritative calculated Attack")
+	check(player.equipment.equip(index) and player.stats.value(&"attack") == 27, "Upgraded sword grants two Attack at level one under slower progression")
 	check(player.quests.claim(&"first_temper", smith).is_empty(), "Successful upgrade completes Smith quest")
 	# Failure is deterministic in this test, but production uses the service RNG.
 	player.equipment.unequip(&"weapon")
@@ -219,7 +219,7 @@ func _run() -> void:
 	player.quests.states.clear()
 	var loaded := save.load_player(player)
 	check(loaded and player.equipment.slots[&"weapon"].upgrade_level() == 1 and player.quests.status(&"first_temper") == "completed", "Reload restores upgraded gear and completed quests")
-	check(player.stats.value(&"attack") == 29, "Reload recalculates upgraded stats")
+	check(player.stats.value(&"attack") == 27, "Reload recalculates upgraded stats")
 	var legacy: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(save.path))
 	legacy["version"] = 1
 	legacy.erase("quests")

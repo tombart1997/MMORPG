@@ -1,20 +1,30 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
 config_version=5
 
 [application]
+
 config/name="Ironfield - Briarwood March"
-run/main_scene="res://scenes/outdoor_zone.tscn"
-config/features=PackedStringArray("4.7", "GL Compatibility")
+run/main_scene="res://scenes/character_login.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="IronfieldPrototype"
+config/features=PackedStringArray("4.7", "GL Compatibility")
 
 [display]
+
 window/size/viewport_width=1280
 window/size/viewport_height=720
 window/stretch/mode="canvas_items"
 
 [rendering]
+
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
-environment/defaults/default_clear_color=Color(0.07, 0.09, 0.13, 1)
 anti_aliasing/quality/msaa_3d=2
-lights_and_shadows/directional_shadow/size=4096
+environment/defaults/default_clear_color=Color(0.07, 0.09, 0.13, 1)

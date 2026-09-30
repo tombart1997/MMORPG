@@ -43,7 +43,7 @@ func markers() -> Array[Dictionary]:
 		var glyph := "S" if npc.data.role == &"smith" else ("$" if npc.data.role == &"merchant" else "•")
 		var quest := actor.quests.marker(npc.data.id).strip_edges() if actor.quests else ""
 		if quest in ["[!]", "[?]"]: glyph = quest.substr(1,1)
-		result.append({"position":npc.global_position, "label":npc.data.display_name + " · " + String(npc.data.role), "glyph":glyph, "color":Color("e0ce8d")})
+		result.append({"service":true, "position":npc.global_position, "label":npc.data.display_name + " · " + String(npc.data.role), "glyph":glyph, "color":Color("e0ce8d")})
 	return result
 
 static func valid_snapshot(data: Variant) -> bool:

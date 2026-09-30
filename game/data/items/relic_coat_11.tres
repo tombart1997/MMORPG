@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/icons/armor.svg" id="icon"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/traveler_armor.tscn" id="visual"]
+[resource]
+script = ExtResource("script")
+id = &"relic_coat_11"
+display_name = "Highland Relic Coat"
+description = "Armor for the outer hunting grounds."
+item_type = "armor"
+icon = ExtResource("icon")
+required_level = 11
+value = 33
+stackable = false
+equipment_slot = &"chest"
+visual = ExtResource("visual")
+modifiers = {"defense": 12, "max_hp": 70}
+rarity = &"rare"

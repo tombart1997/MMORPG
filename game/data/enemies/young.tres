@@ -4,6 +4,8 @@
 [ext_resource type="PackedScene" path="res://scenes/visuals/mossling.tscn" id="3"]
 [ext_resource type="Resource" path="res://data/drops/young.tres" id="4"]
 [resource]
+level = 1
+tier = 1
 script = ExtResource("1")
 id = &"young"
 display_name = "Young Mossling"

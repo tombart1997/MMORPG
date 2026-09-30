@@ -14,6 +14,7 @@ var corpse_seconds: float = 0
 @export var enemy_data: EnemyData
 @export var leash_distance: float = 13.0
 @export var drop_table: DropTable = preload("res://data/drops/mossling.tres")
+var wander_clock: float = 0
 var rng := RandomNumberGenerator.new()
 const ENEMY_VISUAL = preload("res://scenes/visuals/mossling.tscn")
 const CLAW = preload("res://data/attacks/enemy_claw.tres")
@@ -21,6 +22,7 @@ const CLAW = preload("res://data/attacks/enemy_claw.tres")
 
 func _ready() -> void:
 	rng.randomize()
+	wander_clock = rng.randf_range(1, 6)
 	if enemy_data:
 		drop_table = enemy_data.drops
 		leader_reward = enemy_data.leader_reward
@@ -46,6 +48,9 @@ func spawn_group() -> void:
 		enemy.enemy_definition = enemy_data
 		enemy.title = "%s  Lv.%d  T%d" % [enemy_data.display_name, enemy_data.level, enemy_data.tier] if enemy_data else "Mossling"
 		enemy.position = Vector3((i % 2) * 1.5 - 0.75, 0.1, -floorf(i / 2.0) * 1.5)
+		if count >= 6:
+			var angle := i * TAU / count
+			enemy.position = Vector3(sin(angle) * 2.8, .1, cos(angle) * 2.8)
 		if i < spawn_points.size(): enemy.position = spawn_points[i]
 		enemy.rotation.y = PI
 		enemy.weapon = enemy_data.attack if enemy_data else CLAW
@@ -98,6 +103,17 @@ func _reward(source: Node3D, enemy: ActorBody, index: int) -> void:
 
 func _physics_process(delta: float) -> void:
 	if pack == null: return
+	wander_clock -= delta
+	if wander_clock <= 0 and not pack.has_target():
+		wander_clock = rng.randf_range(3, 6)
+		if not pack.members.is_empty():
+			var member: ActorBody = pack.members[rng.randi_range(0, pack.members.size()-1)]
+			if is_instance_valid(member) and member.health.is_alive():
+				for brain in member.get_children():
+					if brain is EnemyBrain:
+						var point: Vector3 = brain.home + Vector3(rng.randf_range(-1.4,1.4),0,rng.randf_range(-1.4,1.4))
+						if point.distance_to(global_position) < leash_distance - 2 and SkillTargeting.line_clear(member, member.global_position, point):
+							brain.begin_wander(point)
 	if pack.target != null:
 		if not pack.has_target() or pack.target.global_position.distance_to(global_position) > leash_distance:
 			pack.disengage()

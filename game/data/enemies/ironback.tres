@@ -4,6 +4,8 @@
 [ext_resource type="PackedScene" path="res://scenes/visuals/ironback.tscn" id="3"]
 [ext_resource type="Resource" path="res://data/drops/ironback.tres" id="4"]
 [resource]
+level = 7
+tier = 2
 script = ExtResource("1")
 id = &"ironback"
 display_name = "Cairn Ironback"

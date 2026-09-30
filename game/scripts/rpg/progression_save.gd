@@ -16,6 +16,7 @@ func save_player(actor: ActorBody) -> bool:
 	var data := {"version": VERSION, "level": actor.progression.level, "xp": actor.progression.xp,
 		"kills": actor.progression.kills, "gold": actor.inventory.gold, "hp": actor.health.current,
 		"inventory": bag, "equipment": gear, "quests": actor.quests.states if actor.quests else {}}
+	data["identity"] = {"name":actor.title,"class":String(actor.get_meta("class_identity", "Ironvow"))}
 	data["skills"] = actor.skills.snapshot() if actor.skills else PlayerSkills.default_snapshot()
 	data["farming"] = actor.farming.snapshot() if actor.farming else {}
 	data["actions"] = actor.actions.snapshot() if actor.actions else ["field_tonic", ""]
@@ -97,6 +98,10 @@ func apply_snapshot(actor: ActorBody, data: Variant) -> bool:
 	var mounts: Variant = data.get("mounts", {"owned": [], "selected": ""} if data.version < 5 else null)
 	var discoveries: Variant = data.get("map", {} if data.version < 5 else null)
 	if not PlayerActions.valid_snapshot(actions) or not PlayerMount.valid_snapshot(mounts) or not PlayerMap.valid_snapshot(discoveries): return false
+	var identity: Variant = data.get("identity", {"name":actor.title,"class":String(actor.get_meta("class_identity", "Ironvow"))})
+	if not identity is Dictionary or not identity.get("name") is String or identity.name.length() > 24 or not identity.get("class") in ["Ironvow","Threadseer","Cinderhand","Fenstrider"]: return false
+	actor.title = identity.name
+	actor.set_meta("class_identity", identity["class"])
 	if actor.actions: actor.actions.restore(actions)
 	if actor.mounts: actor.mounts.restore(mounts)
 	if actor.map_state: actor.map_state.discoveries = discoveries.duplicate(true)
@@ -110,6 +115,7 @@ func apply_snapshot(actor: ActorBody, data: Variant) -> bool:
 	actor.inventory.slots = bag
 	actor.equipment.slots = gear
 	actor.equipment.refresh()
+	actor.visual.apply_class_tint(identity["class"])
 	# Loading is a safe waystone return; dead snapshots revive there.
 	actor.health.current = clampf(float(data.hp), 1, actor.health.maximum) if data.hp > 0 else actor.health.maximum
 	actor.health.changed.emit(actor.health.current, actor.health.maximum)

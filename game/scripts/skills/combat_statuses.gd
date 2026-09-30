@@ -26,7 +26,7 @@ func movement_multiplier() -> float:
 	var reduction := 0.0
 	for id in [&"slow", &"zone_slow"]:
 		if has(id): reduction = maxf(reduction, entries[id].magnitude)
-	return 1.0 - clampf(reduction, 0, 0.8)
+	return (1.0 - clampf(reduction, 0, 0.8)) * (float(entries[&"haste"].magnitude) if has(&"haste") else 1.0)
 func modify_incoming_basic_damage(amount: float, _source: ActorBody) -> float:
 	# Basic combat asks the receiver for its modifier instead of knowing which
 	# specialization authored the status. Future policies belong in the status

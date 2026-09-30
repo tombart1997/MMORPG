@@ -1,40 +1,44 @@
-[gd_resource type="Resource" script_class="SkillData" load_steps=12 format=3]
+[gd_resource type="Resource" script_class="SkillData" load_steps=8 format=3]
 
 [ext_resource type="Script" path="res://scripts/skills/skill_data.gd" id="1"]
 [ext_resource type="Script" path="res://scripts/skills/skill_effect.gd" id="base"]
 [ext_resource type="Texture2D" path="res://assets/icons/skill_gate_sweep.svg" id="icon"]
-[ext_resource type="Script" path="res://scripts/skills/effects/damage_effect.gd" id="e0"]
-[ext_resource type="Script" path="res://scripts/skills/effects/status_effect.gd" id="e1"]
+[ext_resource type="Script" path="res://scripts/skills/effects/damage_effect.gd" id="damage"]
+[ext_resource type="Script" path="res://scripts/skills/effects/area_effect.gd" id="area"]
 
 [sub_resource type="Resource" id="Effect0"]
-script = ExtResource("e0")
-coefficient = 1.0
+script = ExtResource("damage")
+coefficient = 0.9
 open_bonus = 0.4
 consume_open = true
 answer_push = 1.2
 
 [sub_resource type="Resource" id="Effect1"]
-script = ExtResource("e1")
-status = &"slow"
-duration = 2.0
-magnitude = 0.35
+script = ExtResource("area")
+radius = 4.0
+duration = 0.8
+slow = 0.35
+follow_caster = true
+damage_coefficient = 0.55
+damage_interval = 0.22
+replace_previous = true
 
 [resource]
 script = ExtResource("1")
 id = &"gate_sweep"
-display_name = "Gate Sweep"
-description = "Wide cleave: 1.0 x Attack, +0.4 vs Open (consumed). Slow 35% for 2s. Answer adds a 1.2m push."
-targeting = "facing"
-shape = "arc"
-reach = 3
-radius = 3
-angle = 160
-windup = 0.4
-recovery = 0.35
-cooldown = 9
-animation = &"attack_03"
-color = Color(1, 0.5, 0.2, 1)
+display_name = "Bladestorm"
+description = "An orbiting spirit sword tears through every enemy within 4m as you move. Opening hit plus four pulses; 310% Attack total. Slows enemies; Answer adds knockback."
+targeting = "self"
+shape = "circle"
+reach = 4
+radius = 4
+angle = 360
+windup = 0.05
+recovery = 0.18
+cooldown = 7
+animation = &"attack_02"
+color = Color(0.65, 0.5, 1, 1)
 icon = ExtResource("icon")
-requirement_text = "Sword required."
+requirement_text = "Sword required. Cast freely while moving."
 consumes_answer = true
 effects = Array[ExtResource("base")]([SubResource("Effect0"), SubResource("Effect1")])

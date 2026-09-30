@@ -22,5 +22,5 @@ extends Resource
 func tooltip() -> String:
 	var result := "%s\n%s\nRange %.1fm | Windup %.2fs | Cooldown %.0fs" % [display_name, description, reach, windup, cooldown]
 	if not requirement_text.is_empty(): result += "\n" + requirement_text
-	if targeting in ["ground", "direction"]: result += "\nClick ground to place; Esc cancels."
+	if targeting == "direction": result += "\nUses WASD direction, travel direction, or facing."
 	return result

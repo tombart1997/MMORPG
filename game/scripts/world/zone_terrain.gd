@@ -6,10 +6,16 @@ const ROAD: Array[Vector3] = [Vector3(0, 0, 12), Vector3(0, 0, -4), Vector3(18, 
 const START := Vector3(0, 0, 12)
 const FRACTURE := Vector3(-8, 0, -49)
 const FARM_LOOP: Array[Vector3] = [Vector3(-25, 0, -50), FRACTURE, Vector3(-4, 0, -62)]
+const BOUNDS := Rect2(-120, -298, 240, 362)
+const OUTER_ROAD: Array[Vector3] = [Vector3(0,0,15),Vector3(0,0,-8),Vector3(-95,0,-8),Vector3(-95,0,-88),Vector3(95,0,-88),Vector3(95,0,-133),Vector3(-95,0,-133),Vector3(-95,0,-177),Vector3(95,0,-177),Vector3(95,0,-222),Vector3(-95,0,-222),Vector3(-95,0,-283)]
 var rng := RandomNumberGenerator.new()
 
 static func path_distance(point: Vector3) -> float:
 	var distance := 100.0
+	for i in range(1, OUTER_ROAD.size()):
+		var segment := OUTER_ROAD[i] - OUTER_ROAD[i-1]
+		var t := clampf((point-OUTER_ROAD[i-1]).dot(segment)/segment.length_squared(),0,1)
+		distance = minf(distance,point.distance_to(OUTER_ROAD[i-1]+segment*t))
 	for i in range(1, FARM_LOOP.size()):
 		var segment := FARM_LOOP[i] - FARM_LOOP[i - 1]
 		var t := clampf((point - FARM_LOOP[i - 1]).dot(segment) / segment.length_squared(), 0, 1)
@@ -23,24 +29,26 @@ static func path_distance(point: Vector3) -> float:
 
 static func height_at(x: float, z: float) -> float:
 	var point := Vector3(x, 0, z)
-	if absf(x) < 9 and z >= 5 and z <= 27: return 0
+	if absf(x) < 31 and z >= 5 and z <= 55: return 0
 	var clearance := path_distance(point) - 2.5
 	clearance = minf(clearance, point.distance_to(FRACTURE) - 10)
 	for camp in CAMPS:
 		clearance = minf(clearance, point.distance_to(camp) - 5)
+	for camp in FirstMapContent.POINTS:
+		clearance = minf(clearance, point.distance_to(camp) - 8)
 	clearance = minf(clearance, point.distance_to(START) - 5)
-	return maxf(0, clearance) * (0.24 + 0.10 * sin(x * 0.18) * cos(z * 0.13))
+	return minf(4.5, maxf(0, clearance) * (0.24 + 0.10 * sin(x * 0.18) * cos(z * 0.13)))
 
 func _ready() -> void:
 	rng.seed = 7823
 	var surface := SurfaceTool.new()
 	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
-	for x in range(-55, 55):
-		for z in range(-98, 32):
+	for x in range(-120, 120, 2):
+		for z in range(-298, 64, 2):
 			for corner in [Vector2(0, 0), Vector2(1, 0), Vector2(0, 1),
 				Vector2(1, 0), Vector2(1, 1), Vector2(0, 1)]:
-				var px: float = float(x) + corner.x
-				var pz: float = float(z) + corner.y
+				var px: float = float(x) + corner.x * 2
+				var pz: float = float(z) + corner.y * 2
 				var dirt := path_distance(Vector3(px, 0, pz)) < 1.6
 				var color := Color(0.39, 0.32, 0.2) if dirt else Color(0.20, 0.29, 0.17).lerp(Color(0.28, 0.29, 0.24), clampf(-pz / 110.0, 0, 1))
 				color *= 0.94 + 0.08 * sin(px * 1.7 + pz * 0.7)
@@ -56,15 +64,17 @@ func _ready() -> void:
 	ground.material_override = material
 	add_child(ground)
 	ground.create_trimesh_collision()
-	for i in range(260):
-		var point := Vector3(rng.randf_range(-50, 50), 0, rng.randf_range(-94, 28))
-		if path_distance(point) < 4 or (absf(point.x) < 10 and point.z > 4 and point.z < 28):
+	for i in range(550):
+		var point := Vector3(rng.randf_range(-114, 114), 0, rng.randf_range(-291, 58))
+		if path_distance(point) < 4 or (absf(point.x) < 32 and point.z > 4 and point.z < 56):
 			continue
 		if point.distance_to(FRACTURE) < 25: continue
 		var clear := true
 		for camp in CAMPS:
 			if point.distance_to(camp) < 6:
 				clear = false
+		for camp in FirstMapContent.POINTS:
+			if point.distance_to(camp) < 10: clear = false
 		if not clear:
 			continue
 		point.y = height_at(point.x, point.z)
@@ -82,10 +92,10 @@ func _ready() -> void:
 			rock(point, 3.3)
 			if x % 2 == 0: tree(point + Vector3(1, 0, 1), 1.5)
 	# Natural outer limits, with no physics walls across the travel route.
-	for x in range(-53, 54, 5):
-		for z in [-96, 30]: rock(Vector3(x, height_at(x, z), z), 3.0)
-	for z in range(-96, 31, 5):
-		for x in [-53, 53]: rock(Vector3(x, height_at(x, z), z), 3.0)
+	for x in range(-118, 119, 5):
+		for z in [-296, 62]: rock(Vector3(x, height_at(x, z), z), 3.0)
+	for z in range(-296, 63, 5):
+		for x in [-118, 118]: rock(Vector3(x, height_at(x, z), z), 3.0)
 	# Spawn landmark: a standing stone and a small sheltered campfire.
 	rock(START + Vector3(3, 0, 4), 1.0)
 	for i in range(8):

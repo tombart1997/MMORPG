@@ -3,9 +3,10 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bowgsf7ptjfh3"
-path="res://.godot/imported/briarling_MosslingBark_rough.png-def728b167806fce44b7fa9a0cb5a09e.ctex"
+path.s3tc="res://.godot/imported/briarling_MosslingBark_rough.png-def728b167806fce44b7fa9a0cb5a09e.s3tc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
 }
 generator_parameters={
 "md5": "53f560bbbaf18483083f902fd81955ad"
@@ -14,11 +15,11 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/characters/briarling_MosslingBark_rough.png"
-dest_files=["res://.godot/imported/briarling_MosslingBark_rough.png-def728b167806fce44b7fa9a0cb5a09e.ctex"]
+dest_files=["res://.godot/imported/briarling_MosslingBark_rough.png-def728b167806fce44b7fa9a0cb5a09e.s3tc.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
@@ -40,4 +41,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=1
+detect_3d/compress_to=0

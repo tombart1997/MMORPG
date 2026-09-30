@@ -16,8 +16,11 @@ var target_label: Label
 var target_hp: ProgressBar
 var location_label: Label
 var currency: Label
+var combat_target: ActorBody
 
 func _ready() -> void:
+	player.combat.hit_landed.connect(func(target): combat_target = target as ActorBody)
+	player.health.damaged.connect(func(_amount, source): combat_target = source as ActorBody)
 	var root := Control.new()
 	root.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	root.mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -77,13 +80,16 @@ func _ready() -> void:
 	controls = _label(bottom, Vector2(12, 8), 13)
 	message = _label(root, Vector2(26, 119), 14)
 	message.add_theme_color_override("font_color", Color(1, 0.88, 0.58))
-	target_label = _label(root, Vector2(-130, 25), 16)
+	target_label = _label(root, Vector2(-230, 6), 16)
 	target_label.set_anchors_preset(Control.PRESET_CENTER_TOP, true)
-	target_label.size = Vector2(260, 26)
+	target_label.size = Vector2(460, 26)
 	target_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	target_hp = _bar(root, Vector2(-105, 55), Color(.66,.41,.15))
+	target_label.add_theme_color_override("font_shadow_color", Color(0,0,0,.9))
+	target_label.add_theme_constant_override("shadow_offset_x", 1)
+	target_label.add_theme_constant_override("shadow_offset_y", 1)
+	target_hp = _bar(root, Vector2(-230, 34), Color(.75,.18,.12))
 	target_hp.set_anchors_preset(Control.PRESET_CENTER_TOP, true)
-	target_hp.size = Vector2(210, 5)
+	target_hp.size = Vector2(460, 14)
 	location_label = _label(root, Vector2(-237, 27), 14)
 	location_label.set_anchors_preset(Control.PRESET_TOP_RIGHT, true)
 	location_label.size=Vector2(210,48)
@@ -129,17 +135,21 @@ func _bar(parent: Control, offset: Vector2, color: Color) -> ProgressBar:
 func _process(_delta: float) -> void:
 	var progress := player.progression
 	var inventory := player.inventory
-	stats.text = "%s    /    %02d\n%d / %d" % [player.skills.specialization.display_name.to_upper(), progress.level, player.health.current, player.health.maximum]
+	stats.tooltip_text = player.title
+	stats.text = "%s    /    %02d\n%d / %d" % [String(player.get_meta("class_identity", "Ironvow")).to_upper(), progress.level, player.health.current, player.health.maximum]
 	stats.tooltip_text = "Experience %d / %d" % [progress.xp, progress.xp_required()]
 	currency.text = "%d gold    /    %d tonics\nI  Pack   J  Quests   M  Map   F3  Help" % [inventory.gold,inventory.count(&"field_tonic")]
 	var target: ActorBody = player.world_interaction.selected_enemy
+	if (not is_instance_valid(target) or not target.health.is_alive()) and is_instance_valid(combat_target):
+		if combat_target.health.is_alive() and player.global_position.distance_to(combat_target.global_position) < 30:
+			target = combat_target
 	if not is_instance_valid(target) and player.farming:
 		var body := player.farming.encounter.body
 		if body.global_position.distance_to(player.global_position)<13: target=body
 	target_label.visible=is_instance_valid(target) and target.health.is_alive()
 	target_hp.visible=target_label.visible
 	if target_label.visible:
-		target_label.text=target.title
+		target_label.text="%s   %d / %d" % [target.title, target.health.current, target.health.maximum]
 		target_hp.max_value=target.health.maximum
 		target_hp.value=target.health.current
 	location_label.text=player.map_state.region.display_name.to_upper() + "\n" + player.map_state.subarea()
@@ -155,6 +165,7 @@ func _process(_delta: float) -> void:
 	encounters.get_parent().visible = debug_visible
 	encounters.text = "BRIARWOOD MARCH\n"
 	for camp in zone.camps:
+		if camp.global_position.distance_to(player.global_position) > 40: continue
 		var status := "%d alive" % camp.pack.living_count()
 		if camp.remaining >= 0:
 			status = "clear / %ds" % ceili(camp.remaining) if camp.remaining > 0 else "leave to respawn"
@@ -164,7 +175,7 @@ func _process(_delta: float) -> void:
 	if player.farming:
 		var fracture := player.farming.encounter
 		encounters.text += "\nBriarwake: wave %d / defenders %d / return %.0fs" % [fracture.next_wave, fracture.living_defenders(), fracture.remaining]
-	controls.text = "LMB travel / interact / target | RMB orbit\nWASD move | Space basic | 1-6 skills\nI bag | J quests | M map | E interact\nQ/F consumables | H mount\nF5/F9 save/load | F3 debug | F6 Turnwarden\nGold %d | Tonics %d" % [inventory.gold, inventory.count(&"field_tonic")]
+	controls.text = "LMB travel / interact / target | RMB orbit\nWASD move | Space auto on/off | 1-6 skills\nI bag | J quests | M map | E interact\nQ/F consumables | H mount\nF5/F9 save/load | F3 debug | F6 Turnwarden\nGold %d | Tonics %d" % [inventory.gold, inventory.count(&"field_tonic")]
 	if debug_visible: controls.text += "   |   %s / Hits %d / Kills %d" % [player.combat.phase_name(), player.combat.swing_hits, progress.kills]
 	message.text = zone.notice if zone.notice_time > 0 else player.world_interaction.hover_text
 	if not player.health.is_alive():

@@ -62,6 +62,8 @@ func _run() -> void:
 	attack_key.pressed = false
 	Input.parse_input_event(attack_key)
 	await frames(42)
+	controller.stop_auto_attack()
+	player.combat.cancel()
 	controller.set_physics_process(false)
 	for enemy in pack.members:
 		for child in enemy.get_children():

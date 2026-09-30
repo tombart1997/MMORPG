@@ -1,0 +1,206 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/npc/shop_data.gd" id="script"]
+[ext_resource type="Script" path="res://scripts/npc/shop_offer.gd" id="offer"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_1.tres" id="i0"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_1.tres" id="i1"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_1.tres" id="i2"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_1.tres" id="i3"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_1.tres" id="i4"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_6.tres" id="i5"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_6.tres" id="i6"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_6.tres" id="i7"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_6.tres" id="i8"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_6.tres" id="i9"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_6.tres" id="i10"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_11.tres" id="i11"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_11.tres" id="i12"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_11.tres" id="i13"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_11.tres" id="i14"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_11.tres" id="i15"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_11.tres" id="i16"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_16.tres" id="i17"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_16.tres" id="i18"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_16.tres" id="i19"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_16.tres" id="i20"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_16.tres" id="i21"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_16.tres" id="i22"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_16.tres" id="i23"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_21.tres" id="i24"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_21.tres" id="i25"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_21.tres" id="i26"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_21.tres" id="i27"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_21.tres" id="i28"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_21.tres" id="i29"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_1.tres" id="i30"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_1.tres" id="i31"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_1.tres" id="i32"]
+[sub_resource type="Resource" id="o0"]
+script = ExtResource("offer")
+item = ExtResource("i0")
+price = 145
+ingredients = {"meadow_wolf_trophy": 25}
+[sub_resource type="Resource" id="o1"]
+script = ExtResource("offer")
+item = ExtResource("i1")
+price = 195
+ingredients = {"blue_wolf_trophy": 25}
+[sub_resource type="Resource" id="o2"]
+script = ExtResource("offer")
+item = ExtResource("i2")
+price = 245
+ingredients = {"red_wolf_trophy": 30}
+[sub_resource type="Resource" id="o3"]
+script = ExtResource("offer")
+item = ExtResource("i3")
+price = 170
+ingredients = {"bristle_boar_trophy": 25}
+[sub_resource type="Resource" id="o4"]
+script = ExtResource("offer")
+item = ExtResource("i4")
+price = 220
+ingredients = {"reed_spider_trophy": 25}
+[sub_resource type="Resource" id="o5"]
+script = ExtResource("offer")
+item = ExtResource("i5")
+price = 270
+ingredients = {"grey_wolf_trophy": 25}
+[sub_resource type="Resource" id="o6"]
+script = ExtResource("offer")
+item = ExtResource("i6")
+price = 295
+ingredients = {"mire_boar_trophy": 30}
+[sub_resource type="Resource" id="o7"]
+script = ExtResource("offer")
+item = ExtResource("i7")
+price = 320
+ingredients = {"copper_spider_trophy": 25}
+[sub_resource type="Resource" id="o8"]
+script = ExtResource("offer")
+item = ExtResource("i8")
+price = 345
+ingredients = {"road_bandit_trophy": 30}
+[sub_resource type="Resource" id="o9"]
+script = ExtResource("offer")
+item = ExtResource("i9")
+price = 320
+ingredients = {"moonfang_trophy": 35}
+[sub_resource type="Resource" id="o10"]
+script = ExtResource("offer")
+item = ExtResource("i10")
+price = 370
+ingredients = {"thicket_wolf_trophy": 25}
+[sub_resource type="Resource" id="o11"]
+script = ExtResource("offer")
+item = ExtResource("i11")
+price = 395
+ingredients = {"blacktusk_trophy": 30}
+[sub_resource type="Resource" id="o12"]
+script = ExtResource("offer")
+item = ExtResource("i12")
+price = 420
+ingredients = {"venom_spider_trophy": 30}
+[sub_resource type="Resource" id="o13"]
+script = ExtResource("offer")
+item = ExtResource("i13")
+price = 445
+ingredients = {"hollow_raider_trophy": 25}
+[sub_resource type="Resource" id="o14"]
+script = ExtResource("offer")
+item = ExtResource("i14")
+price = 470
+ingredients = {"cinder_wisp_trophy": 25}
+[sub_resource type="Resource" id="o15"]
+script = ExtResource("offer")
+item = ExtResource("i15")
+price = 420
+ingredients = {"slate_guardian_trophy": 35}
+[sub_resource type="Resource" id="o16"]
+script = ExtResource("offer")
+item = ExtResource("i16")
+price = 495
+ingredients = {"frost_wolf_trophy": 30}
+[sub_resource type="Resource" id="o17"]
+script = ExtResource("offer")
+item = ExtResource("i17")
+price = 520
+ingredients = {"ironhide_boar_trophy": 25}
+[sub_resource type="Resource" id="o18"]
+script = ExtResource("offer")
+item = ExtResource("i18")
+price = 520
+ingredients = {"silk_matron_trophy": 40}
+[sub_resource type="Resource" id="o19"]
+script = ExtResource("offer")
+item = ExtResource("i19")
+price = 545
+ingredients = {"ash_bandit_trophy": 30}
+[sub_resource type="Resource" id="o20"]
+script = ExtResource("offer")
+item = ExtResource("i20")
+price = 570
+ingredients = {"grave_wisp_trophy": 25}
+[sub_resource type="Resource" id="o21"]
+script = ExtResource("offer")
+item = ExtResource("i21")
+price = 595
+ingredients = {"cairn_sentinel_trophy": 30}
+[sub_resource type="Resource" id="o22"]
+script = ExtResource("offer")
+item = ExtResource("i22")
+price = 620
+ingredients = {"bloodfang_trophy": 40}
+[sub_resource type="Resource" id="o23"]
+script = ExtResource("offer")
+item = ExtResource("i23")
+price = 620
+ingredients = {"dusk_stalker_trophy": 30}
+[sub_resource type="Resource" id="o24"]
+script = ExtResource("offer")
+item = ExtResource("i24")
+price = 645
+ingredients = {"obsidian_boar_trophy": 30}
+[sub_resource type="Resource" id="o25"]
+script = ExtResource("offer")
+item = ExtResource("i25")
+price = 670
+ingredients = {"widow_spider_trophy": 30}
+[sub_resource type="Resource" id="o26"]
+script = ExtResource("offer")
+item = ExtResource("i26")
+price = 695
+ingredients = {"exile_captain_trophy": 35}
+[sub_resource type="Resource" id="o27"]
+script = ExtResource("offer")
+item = ExtResource("i27")
+price = 720
+ingredients = {"storm_wisp_trophy": 30}
+[sub_resource type="Resource" id="o28"]
+script = ExtResource("offer")
+item = ExtResource("i28")
+price = 745
+ingredients = {"cairn_colossus_trophy": 45}
+[sub_resource type="Resource" id="o29"]
+script = ExtResource("offer")
+item = ExtResource("i29")
+price = 745
+ingredients = {"ancient_warden_trophy": 45}
+[sub_resource type="Resource" id="o30"]
+script = ExtResource("offer")
+item = ExtResource("i30")
+price = 180
+ingredients = {"young_trophy": 25}
+[sub_resource type="Resource" id="o31"]
+script = ExtResource("offer")
+item = ExtResource("i31")
+price = 180
+ingredients = {"grown_trophy": 25}
+[sub_resource type="Resource" id="o32"]
+script = ExtResource("offer")
+item = ExtResource("i32")
+price = 180
+ingredients = {"ironback_trophy": 25}
+[resource]
+script = ExtResource("script")
+id = &"frontier_workshop"
+title = "Ilyra's Relic Workshop"
+offers = Array[ExtResource("offer")]([SubResource("o0"), SubResource("o1"), SubResource("o2"), SubResource("o3"), SubResource("o4"), SubResource("o5"), SubResource("o6"), SubResource("o7"), SubResource("o8"), SubResource("o9"), SubResource("o10"), SubResource("o11"), SubResource("o12"), SubResource("o13"), SubResource("o14"), SubResource("o15"), SubResource("o16"), SubResource("o17"), SubResource("o18"), SubResource("o19"), SubResource("o20"), SubResource("o21"), SubResource("o22"), SubResource("o23"), SubResource("o24"), SubResource("o25"), SubResource("o26"), SubResource("o27"), SubResource("o28"), SubResource("o29"), SubResource("o30"), SubResource("o31"), SubResource("o32")])

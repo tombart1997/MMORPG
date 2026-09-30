@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/icons/consumable.svg" id="icon"]
+[resource]
+script = ExtResource("script")
+id = &"restoration_tonic"
+display_name = "Restoration Tonic"
+description = "A stronger restorative. Shares the potion cooldown."
+item_type = "consumable"
+icon = ExtResource("icon")
+required_level = 6
+value = 18
+maximum_stack = 99
+healing = 110.0

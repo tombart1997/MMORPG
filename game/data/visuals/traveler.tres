@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CharacterVisualProfile" load_steps=5 format=3]
 [ext_resource type="Script" path="res://scripts/visuals/character_visual_profile.gd" id="1"]
-[ext_resource type="PackedScene" path="res://assets/characters/turnwarden_v2.glb" id="2"]
+[ext_resource type="PackedScene" path="res://assets/characters/warden_high.glb" id="2"]
 [ext_resource type="PackedScene" path="res://scenes/visuals/iron_sword.tscn" id="3"]
 [ext_resource type="PackedScene" path="res://scenes/visuals/traveler_armor.tscn" id="4"]
 [resource]

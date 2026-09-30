@@ -34,7 +34,7 @@ func _ready() -> void:
 	label = Label3D.new()
 	label.text = data.display_name + "\n" + String(data.role).capitalize()
 	label.position.y = 2.15
-	label.font_size = 32
+	label.font_size = 24
 	label.pixel_size = 0.009
 	label.modulate = Color(0.98, 0.85, 0.53)
 	label.billboard = BaseMaterial3D.BILLBOARD_ENABLED

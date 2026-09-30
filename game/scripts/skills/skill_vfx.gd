@@ -33,3 +33,53 @@ static func flash(parent: Node, point: Vector3, radius: float, color: Color, ang
 	tween.tween_property(node.material_override, "albedo_color:a", 0.0, 0.24)
 	tween.chain()
 	tween.tween_callback(node.queue_free)
+
+static func spectacle(parent: Node, kind: String, point: Vector3, actor: ActorBody, duration: float, radius: float = 4) -> Node3D:
+	var effect := SkillSpectacle.new()
+	effect.kind = kind
+	effect.caster = actor
+	effect.lifetime = duration
+	effect.radius = radius
+	parent.add_child(effect)
+	effect.position = point
+	return effect
+
+static func cast(context: SkillContext) -> void:
+	var actor := context.actor
+	var kind := "thunder"
+	var duration := .42
+	match context.skill.id:
+		&"held_line": kind = "spirit"; duration = 6
+		&"heelturn": kind = "sprint"; duration = 4
+		&"gate_sweep", &"standard_of_ash": return # Their authoritative areas own the visuals.
+		&"due_return": kind = "sun"; duration = .5
+	var effect := spectacle(actor.get_parent(), kind, actor.position, actor, duration, context.skill.radius)
+	effect.rotation.y = atan2(-context.direction.x,-context.direction.z)
+
+static func hit(context: SkillContext, target: ActorBody, damage: float) -> void:
+	ArtVFX.burst(target.get_parent(), target.position+Vector3.UP*.8, context.skill.color, 10, 1.1)
+	damage_number(target, damage, context.skill.color)
+	flash(target.get_parent(), target.global_position, .55, context.skill.color)
+
+static var live_numbers: int = 0
+static var number_serial: int = 0
+static func damage_number(target: ActorBody, amount: float, color: Color) -> void:
+	if DisplayServer.get_name() == "headless" or live_numbers >= 32: return
+	var label := Label3D.new()
+	label.text = str(roundi(amount))
+	label.font_size = 30
+	label.outline_size = 5
+	label.pixel_size = .004
+	label.billboard = BaseMaterial3D.BILLBOARD_ENABLED
+	label.modulate = color.lightened(.4)
+	label.no_depth_test = false
+	target.get_parent().add_child(label)
+	label.global_position = target.global_position + Vector3((number_serial%3-1)*.18,1.9,0)
+	number_serial += 1
+	live_numbers += 1
+	label.tree_exited.connect(func(): live_numbers -= 1)
+	var tween := label.create_tween().set_parallel(true)
+	tween.tween_property(label,"position:y",label.position.y+.8,.5)
+	tween.tween_property(label,"modulate:a",0.0,.3).set_delay(.2)
+	tween.tween_property(label,"outline_modulate:a",0.0,.3).set_delay(.2)
+	tween.chain().tween_callback(label.queue_free)

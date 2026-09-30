@@ -4,6 +4,7 @@ extends Resource
 @export var display_name: String
 @export var bounds: Rect2
 @export var roads: PackedVector2Array
+@export var outer_roads: PackedVector2Array
 @export var landmarks: Array[Dictionary] = []
 
 static func regions() -> Array[MapRegionData]:

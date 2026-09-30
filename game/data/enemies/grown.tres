@@ -5,6 +5,8 @@
 [ext_resource type="Resource" path="res://data/drops/grown.tres" id="4"]
 [ext_resource type="Resource" path="res://data/items/briarsteel_edge.tres" id="5"]
 [resource]
+level = 4
+tier = 1
 script = ExtResource("1")
 id = &"grown"
 display_name = "Mossling"
@@ -16,4 +18,3 @@ xp = 25
 gold_min = 6
 gold_max = 8
 drops = ExtResource("4")
-leader_reward = ExtResource("5")

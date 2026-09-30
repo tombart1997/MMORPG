@@ -17,9 +17,16 @@ func buy(npc: WorldNPC, player: ActorBody, offer_index: int, quantity: int) -> S
 	var bag := player.inventory
 	if bag.transaction_busy: return "Transaction already in progress."
 	var cost := offer.price * quantity
+	for id in offer.ingredients:
+		var required := int(offer.ingredients[id]) * quantity
+		if required <= 0 or ItemCatalog.get_item(StringName(id)) == null: return "Invalid crafting recipe."
+		if bag.count(StringName(id)) < required:
+			return "Requires %d %s." % [required, ItemCatalog.get_item(StringName(id)).display_name]
 	if bag.gold < cost: return "Not enough gold: need %d." % cost
 	if not bag.can_add(offer.item, quantity): return "Inventory full. Sell something or free a slot."
 	bag.transaction_busy = true
+	# Capacity is checked before consumption; no partial material transaction.
+	for id in offer.ingredients: bag.remove_count(StringName(id), int(offer.ingredients[id]) * quantity, false)
 	bag.gold -= cost
 	var added := bag.add_item(offer.item, quantity)
 	if not added: bag.gold += cost

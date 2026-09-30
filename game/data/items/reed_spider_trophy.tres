@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/icons/material.svg" id="icon"]
+[resource]
+script = ExtResource("script")
+id = &"reed_spider_trophy"
+display_name = "Reed Spider Silk"
+description = "Harvested only from Reed Spider. Bring to Ilyra's Relic Workshop to craft level-band equipment."
+item_type = "material"
+icon = ExtResource("icon")
+required_level = 1
+value = 3
+maximum_stack = 99

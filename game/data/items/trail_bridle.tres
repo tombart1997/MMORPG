@@ -5,7 +5,7 @@
 script = ExtResource("1")
 id = &"trail_bridle"
 display_name = "Briarwood bridle"
-description = "Use once to claim a sure-footed bay horse. H mounts or dismounts. Travel 60% faster; attacks, hits and conversations dismount. Ownership survives death and loading."
+description = "Use once to claim a sure-footed bay horse. H mounts or dismounts. Travel 60% faster. Space attacks 35% faster; two consecutive hits knock foes back. Skills and conversations dismount. Ownership survives death and loading."
 item_type = "miscellaneous"
 icon = ExtResource("icon")
 stackable = false

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+display_name = "Mounted left cut"
+animation_clip = &"attack_01"
+damage = 25.0
+windup = 0.18
+active = 0.16
+recovery = 0.30
+reach = 2.8
+cone_degrees = 210.0
+lunge_distance = 0.0

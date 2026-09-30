@@ -12,6 +12,8 @@ var notice: String = "Clear mossling camps. Gather drops. Return to the waystone
 var notice_time: float = 0
 
 func _ready() -> void:
+	var identity: Dictionary = get_tree().root.get_meta("character_login", {})
+	if not identity.is_empty(): persistence.path = identity.path
 	load("res://scripts/world/arena.gd").configure_inputs()
 	for binding in [["pickup", KEY_E], ["tonic", KEY_Q], ["inventory", KEY_I], ["save_game", KEY_F5], ["load_game", KEY_F9], ["journal", KEY_J], ["world_map", KEY_M], ["quick_second", KEY_F], ["mount", KEY_H]]:
 		if not InputMap.has_action(binding[0]):
@@ -24,12 +26,19 @@ func _ready() -> void:
 	sanctuary.position = Vector3(0, 0, 15)
 	sanctuary.radius = 11
 	add_child(sanctuary)
+	# The original gate stays at z=5; expanded markets behind it are also safe.
+	for point in [Vector3(-17,0,29),Vector3(17,0,29),Vector3(0,0,43)]:
+		var market_safe := SafeArea.new()
+		market_safe.position = point
+		market_safe.radius = 17
+		add_child(market_safe)
 	settlement = Settlement.new()
 	add_child(settlement)
 	_lighting()
 	player = ActorBody.new()
 	player.name = "Traveler"
-	player.title = "Traveler"
+	player.title = identity.get("name", "Traveler")
+	player.set_meta("class_identity", identity.get("class", "Ironvow"))
 	player.position = ZoneTerrain.START + Vector3.UP * 0.1
 	player.maximum_health = 160
 	player.weapon = load("res://data/attacks/player_sword.tres")
@@ -93,7 +102,18 @@ func _ready() -> void:
 		add_child(camp)
 		camps.append(camp)
 		_landmark(camp.position + Vector3(-3, 0, 1.5), names[i] + "\n" + ["Young mosslings - first hunt", "Mosslings - better gear advised", "Ironbacks - danger"][i])
-	_landmark(ZoneTerrain.START + Vector3(3, 0, 4), "Briar Crossing ? Waystone Refuge\nRest here to heal")
+	for i in FirstMapContent.IDS.size():
+		var camp := EnemyCamp.new()
+		camp.enemy_data = load("res://data/enemies/%s.tres" % FirstMapContent.IDS[i])
+		camp.camp_name = camp.enemy_data.display_name
+		camp.position = FirstMapContent.POINTS[i]
+		camp.count = 6 if camp.enemy_data.tier == 1 else 8 if camp.enemy_data.tier == 2 else 1
+		camp.leash_distance = 20
+		camp.respawn_delay = 45 if camp.enemy_data.tier <= 2 else 120 + camp.enemy_data.tier * 30
+		add_child(camp)
+		camps.append(camp)
+		_landmark(camp.position + Vector3(0,0,7), "%s / Lv.%d / T%d" % [camp.camp_name,camp.enemy_data.level,camp.enemy_data.tier])
+	_landmark(ZoneTerrain.START + Vector3(3, 0, 4), "Briar Crossing - Waystone Refuge\nRest here to heal")
 	player.farming = FarmingState.new()
 	add_child(player.farming)
 	interaction = InteractionService.new()
@@ -107,6 +127,7 @@ func _ready() -> void:
 		if not persistence.load_player(player):
 			persistence_enabled = false
 			announce("Save could not be loaded; saving disabled to preserve the original file.")
+	player.visual.apply_class_tint(String(player.get_meta("class_identity", "Ironvow")))
 	get_tree().auto_accept_quit = false
 	var navigation := ZoneNavigation.new()
 	add_child(navigation)
@@ -180,7 +201,7 @@ func _physics_process(delta: float) -> void:
 		save_clock = 0
 		save_progress(false)
 	notice_time = maxf(0, notice_time - delta)
-	if player.health.is_alive() and sanctuary.contains(player.position) and not player.combat.is_attacking():
+	if player.health.is_alive() and SafeArea.protects(player) and not player.combat.is_attacking():
 		var safe := true
 		for camp in camps:
 			if camp.pack.has_target(): safe = false

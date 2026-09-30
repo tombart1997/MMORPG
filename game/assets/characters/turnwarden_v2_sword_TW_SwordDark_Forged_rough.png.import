@@ -3,9 +3,10 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4v0gmmlm1mce"
-path="res://.godot/imported/turnwarden_v2_sword_TW_SwordDark_Forged_rough.png-a1d4c2e35ff4888a6140fac88cf902d8.ctex"
+path.s3tc="res://.godot/imported/turnwarden_v2_sword_TW_SwordDark_Forged_rough.png-a1d4c2e35ff4888a6140fac88cf902d8.s3tc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
 }
 generator_parameters={
 "md5": "59b5e77599dc0d7c0ca81ebb79b4d2ef"
@@ -14,11 +15,11 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/characters/turnwarden_v2_sword_TW_SwordDark_Forged_rough.png"
-dest_files=["res://.godot/imported/turnwarden_v2_sword_TW_SwordDark_Forged_rough.png-a1d4c2e35ff4888a6140fac88cf902d8.ctex"]
+dest_files=["res://.godot/imported/turnwarden_v2_sword_TW_SwordDark_Forged_rough.png-a1d4c2e35ff4888a6140fac88cf902d8.s3tc.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
@@ -40,4 +41,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=1
+detect_3d/compress_to=0

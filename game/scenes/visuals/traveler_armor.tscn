@@ -1,4 +1,4 @@
 [gd_scene load_steps=2 format=3]
-[ext_resource type="PackedScene" path="res://assets/characters/traveler_guard.glb" id="1"]
+[ext_resource type="PackedScene" path="res://assets/characters/warden_insignia.glb" id="1"]
 [node name="TravelerGuard" type="Node3D"]
 [node name="Model" parent="." instance=ExtResource("1")]

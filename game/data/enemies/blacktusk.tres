@@ -1,0 +1,34 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/ai/enemy_data.gd" id="script"]
+[ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="attack"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/field_creature.tscn" id="visual"]
+[ext_resource type="Resource" path="res://data/drops/blacktusk.tres" id="drops"]
+[sub_resource type="Resource" id="strike"]
+script = ExtResource("attack")
+display_name = "Blacktusk Boar strike"
+damage = 28.2
+windup = 0.38
+active = 0.16
+recovery = 0.85
+reach = 2.15
+cone_degrees = 100.0
+lunge_distance = 0.4
+[resource]
+script = ExtResource("script")
+id = &"blacktusk"
+display_name = "Blacktusk Boar"
+level = 11
+tier = 2
+family = &"boar"
+tint = Color(0.2745, 0.2824, 0.3098, 1)
+maximum_health = 355.0
+defense = 3.22
+attack = SubResource("strike")
+visual = ExtResource("visual")
+visual_scale = 1.13
+speed = 3.1
+aggro_radius = 0.0
+xp = 120
+gold_min = 24
+gold_max = 43
+drops = ExtResource("drops")

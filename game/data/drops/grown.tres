@@ -1,26 +1,31 @@
 [gd_resource type="Resource" format=3]
-[ext_resource type="Script" path="res://scripts/rpg/drop_table.gd" id="1"]
-[ext_resource type="Script" path="res://scripts/rpg/drop_entry.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/rpg/drop_table.gd" id="script"]
+[ext_resource type="Script" path="res://scripts/rpg/drop_entry.gd" id="entry"]
 [ext_resource type="Resource" path="res://data/items/moss_shard.tres" id="i0"]
 [ext_resource type="Resource" path="res://data/items/field_tonic.tres" id="i1"]
-[ext_resource type="Resource" path="res://data/items/briarsteel_edge.tres" id="i2"]
-[ext_resource type="Resource" path="res://data/items/briarhide_coat.tres" id="i3"]
+[ext_resource type="Resource" path="res://data/items/relic_blade_1.tres" id="i2"]
+[ext_resource type="Resource" path="res://data/items/relic_coat_1.tres" id="i3"]
+[ext_resource type="Resource" path="res://data/items/grown_trophy.tres" id="i4"]
 [sub_resource type="Resource" id="e0"]
-script = ExtResource("2")
+script = ExtResource("entry")
 item = ExtResource("i0")
 chance = 0.8
 [sub_resource type="Resource" id="e1"]
-script = ExtResource("2")
+script = ExtResource("entry")
 item = ExtResource("i1")
-chance = 0.3
+chance = 0.08
 [sub_resource type="Resource" id="e2"]
-script = ExtResource("2")
+script = ExtResource("entry")
 item = ExtResource("i2")
-chance = 0.18
+chance = 0.002
 [sub_resource type="Resource" id="e3"]
-script = ExtResource("2")
+script = ExtResource("entry")
 item = ExtResource("i3")
-chance = 0.18
+chance = 0.002
+[sub_resource type="Resource" id="e4"]
+script = ExtResource("entry")
+item = ExtResource("i4")
+chance = 0.45
 [resource]
-script = ExtResource("1")
-entries = Array[ExtResource("2")]([SubResource("e0"), SubResource("e1"), SubResource("e2"), SubResource("e3")])
+script = ExtResource("script")
+entries = Array[ExtResource("entry")]([SubResource("e0"), SubResource("e1"), SubResource("e2"), SubResource("e3"), SubResource("e4")])

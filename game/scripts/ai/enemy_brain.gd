@@ -13,6 +13,12 @@ var route := PackedVector3Array()
 var route_clock: float = 0
 var aggro_radius: float = 0
 var aggro_clock: float = 0
+var wander_target := Vector3.ZERO
+var wander_remaining: float = 0
+
+func begin_wander(point: Vector3) -> void:
+	wander_target = point
+	wander_remaining = 2.5
 
 func _ready() -> void:
 	actor = get_parent() as ActorBody
@@ -40,6 +46,8 @@ func _on_damaged(_amount: float, _source: Node3D) -> void:
 
 func _physics_process(delta: float) -> void:
 	if not actor.health.is_alive(): return
+	wander_remaining = maxf(0, wander_remaining - delta)
+	if pack.has_target(): wander_remaining = 0
 	aggro_clock -= delta
 	if aggro_radius > 0 and aggro_clock <= 0 and not pack.has_target():
 		aggro_clock = .25
@@ -60,7 +68,7 @@ func _physics_process(delta: float) -> void:
 	stagger = maxf(0.0, stagger - delta)
 	cooldown = maxf(0.0, cooldown - delta)
 	if not pack.has_target() and not actor.combat.is_attacking() and actor.is_on_floor() and actor.statuses.push_remaining <= 0:
-		var resting := home - actor.global_position
+		var resting := (wander_target if wander_remaining > 0 else home) - actor.global_position
 		resting.y = 0
 		if resting.length_squared() < 0.0225:
 			actor.velocity = Vector3.ZERO
@@ -96,10 +104,10 @@ func _physics_process(delta: float) -> void:
 				separation = crowd.separation(actor)
 			movement += separation
 	if actor.health.is_alive() and not pack.has_target() and not actor.combat.is_attacking():
-		var offset := home - actor.global_position
+		var offset := (wander_target if wander_remaining > 0 else home) - actor.global_position
 		offset.y = 0
 		if offset.length() > 0.15:
-			movement = offset.normalized() * speed
+			movement = offset.normalized() * minf(speed * .35, offset.length() / maxf(delta, .001))
 			actor.rotation.y = atan2(-offset.x, -offset.z)
 	movement *= actor.statuses.movement_multiplier()
 	movement += actor.combat.consume_motion_velocity(delta) + actor.statuses.consume_push(delta)

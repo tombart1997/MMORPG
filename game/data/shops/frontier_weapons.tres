@@ -1,0 +1,38 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/npc/shop_data.gd" id="script"]
+[ext_resource type="Script" path="res://scripts/npc/shop_offer.gd" id="offer"]
+[ext_resource type="Resource" path="res://data/items/frontier_blade_1.tres" id="i0"]
+[ext_resource type="Resource" path="res://data/items/frontier_blade_6.tres" id="i1"]
+[ext_resource type="Resource" path="res://data/items/frontier_blade_11.tres" id="i2"]
+[ext_resource type="Resource" path="res://data/items/frontier_blade_16.tres" id="i3"]
+[ext_resource type="Resource" path="res://data/items/frontier_blade_21.tres" id="i4"]
+[sub_resource type="Resource" id="o0"]
+script = ExtResource("offer")
+item = ExtResource("i0")
+price = 95
+ingredients = {}
+[sub_resource type="Resource" id="o1"]
+script = ExtResource("offer")
+item = ExtResource("i1")
+price = 270
+ingredients = {}
+[sub_resource type="Resource" id="o2"]
+script = ExtResource("offer")
+item = ExtResource("i2")
+price = 445
+ingredients = {}
+[sub_resource type="Resource" id="o3"]
+script = ExtResource("offer")
+item = ExtResource("i3")
+price = 620
+ingredients = {}
+[sub_resource type="Resource" id="o4"]
+script = ExtResource("offer")
+item = ExtResource("i4")
+price = 795
+ingredients = {}
+[resource]
+script = ExtResource("script")
+id = &"frontier_weapons"
+title = "Darin's Weaponry"
+offers = Array[ExtResource("offer")]([SubResource("o0"), SubResource("o1"), SubResource("o2"), SubResource("o3"), SubResource("o4")])

@@ -4,7 +4,9 @@ var player: ActorBody
 
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_CENTER)
-	position = Vector2(-380,-290)
+	get_viewport().size_changed.connect(_center)
+	resized.connect(_center)
+	_center.call_deferred()
 	custom_minimum_size = Vector2(760,580)
 	z_index = 10
 	var column := VBoxContainer.new()
@@ -27,3 +29,6 @@ func _ready() -> void:
 	close.pressed.connect(func(): player.ui_session.close())
 	column.add_child(close)
 	hide()
+
+func _center() -> void:
+	position = (get_viewport_rect().size - size) * .5

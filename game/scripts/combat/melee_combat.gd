@@ -22,6 +22,8 @@ var attack_direction := Vector3.FORWARD
 var swing_serial: int = 0
 var swing_speed: float = 1.0
 var swing_damage: float = 0.0
+var last_mounted: bool = false
+var mounted_sequence: Array[AttackData] = [preload("res://data/attacks/mounted_left.tres"), preload("res://data/attacks/mounted_right.tres")]
 
 func _ready() -> void:
 	actor = get_parent() as CharacterBody3D
@@ -32,12 +34,21 @@ func is_attacking() -> bool:
 func request_attack() -> bool:
 	if is_attacking() or not actor.health.is_alive() or attack == null or (actor.skills and actor.skills.busy()):
 		return false
-	if not sequence.is_empty():
-		sequence_index = 0 if idle_elapsed > combo_grace else (sequence_index + 1) % sequence.size()
-		attack = sequence[sequence_index]
+	var riding: bool = actor.mounts != null and actor.mounts.mounted
+	if riding != last_mounted:
+		sequence_index = -1
+		idle_elapsed = combo_grace + 1
+	last_mounted = riding
+	var swings := mounted_sequence if riding else sequence
+	if not swings.is_empty():
+		sequence_index = 0 if idle_elapsed > combo_grace else (sequence_index + 1) % swings.size()
+		attack = swings[sequence_index]
 	swing_speed = actor.stats.value(&"attack_speed") if actor.stats else 1.0
 	if actor.mounts and actor.mounts.mounted: swing_speed *= PlayerMount.ATTACK_SPEED_MULTIPLIER
 	swing_damage = attack.damage * actor.stats.value(&"attack") / 25.0 if actor.stats else attack.damage
+	if actor.statuses.has(&"spirit_edge"):
+		swing_damage *= float(actor.statuses.entries[&"spirit_edge"].magnitude)
+		swing_speed *= 1.3
 	idle_elapsed = 0.0
 	motion_elapsed = 0.0
 	attack_direction = -actor.global_basis.z

@@ -7,9 +7,8 @@ func _run() -> void:
 	current_scene = world
 	await frames(5)
 	var player: ActorBody = world.player
-	check(world.camps.size() == 3 and world.camps[0].pack.members.size() + world.camps[1].pack.members.size() + world.camps[2].pack.members.size() == 12
-		and get_nodes_in_group("enemies").size() == 13,
-		"Outdoor zone preserves three camps with twelve mobs plus one attackable fracture")
+	check(world.camps.size() == 33 and world.camps[0].pack.members.size() + world.camps[1].pack.members.size() + world.camps[2].pack.members.size() == 12,
+		"Expanded zone preserves original twelve mosslings alongside thirty new camps")
 	check(player.visual.skeleton.find_bone("Hand.R") >= 0 and player.visual.skeleton.find_bone("Shin.L") >= 0,
 		"Imported humanoid skeleton has hand and leg chains")
 	check(player.visual.sockets[&"WeaponSocket"].get_node_or_null("Equipment") != null,
@@ -100,8 +99,9 @@ func _run() -> void:
 	if second.pack.living_count() != 0:
 		quit(1)
 		return
-	check(player.progression.level == 2 and player.progression.xp == 80,
-		"Kills across groups advance level and preserve excess XP")
+	check(player.progression.level == 1 and player.progression.xp == 160,
+		"Two introductory groups no longer award an immediate level")
+	player.progression.award_xp(player.progression.xp_required()-player.progression.xp)
 	check(player.health.maximum == 180, "Level increases maximum health")
 	var saved_gold := player.inventory.gold
 	var saved_xp := player.progression.xp

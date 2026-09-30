@@ -1,0 +1,34 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/ai/enemy_data.gd" id="script"]
+[ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="attack"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/field_creature.tscn" id="visual"]
+[ext_resource type="Resource" path="res://data/drops/thicket_wolf.tres" id="drops"]
+[sub_resource type="Resource" id="strike"]
+script = ExtResource("attack")
+display_name = "Thicket Wolf strike"
+damage = 23.0
+windup = 0.38
+active = 0.16
+recovery = 0.85
+reach = 2.15
+cone_degrees = 100.0
+lunge_distance = 0.4
+[resource]
+script = ExtResource("script")
+id = &"thicket_wolf"
+display_name = "Thicket Wolf"
+level = 10
+tier = 1
+family = &"wolf"
+tint = Color(0.3765, 0.4667, 0.3686, 1)
+maximum_health = 245.0
+defense = 2.2
+attack = SubResource("strike")
+visual = ExtResource("visual")
+visual_scale = 1.0
+speed = 3.1
+aggro_radius = 0.0
+xp = 92
+gold_min = 22
+gold_max = 37
+drops = ExtResource("drops")

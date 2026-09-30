@@ -37,17 +37,23 @@ func _unhandled_input(event: InputEvent) -> void:
 		if actor.skills: actor.skills.cancel_aim()
 		cancel()
 
-func cancel() -> void:
+func cancel(preserve_selection: bool = false) -> void:
 	target = null
 	kind = &""
-	selected_enemy = null
+	if not preserve_selection: selected_enemy = null
 	actor.navigation.cancel()
 
 func command(hit: Dictionary) -> void:
 	if hit.is_empty() or actor.ui_open or not actor.health.is_alive(): return
 	if actor.skills and actor.skills.busy():
 		if hit.kind == &"enemy": selected_enemy = hit.target
+		elif hit.kind == &"terrain" and hit.get("normal", Vector3.UP).y >= .7:
+			target = null
+			kind = &"terrain"
+			actor.navigation.command(hit.position)
 		return
+	for child in actor.get_children():
+		if child is PlayerController: child.stop_auto_attack()
 	cancel()
 	kind = hit.kind
 	if kind == &"terrain":

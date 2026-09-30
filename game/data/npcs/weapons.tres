@@ -1,0 +1,16 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/npc/npc_data.gd" id="script"]
+[ext_resource type="Resource" path="res://data/shops/frontier_weapons.tres" id="shop"]
+[ext_resource type="Script" path="res://scripts/npc/dialogue_page.gd" id="page"]
+[sub_resource type="Resource" id="welcome"]
+script = ExtResource("page")
+text = "Specialist supplies for the outer March. Inspect the level and material requirements before buying."
+responses = Array[Dictionary]([{"text":"Show your wares.","action":"shop"},{"text":"Farewell.","action":"close"}])
+[resource]
+script = ExtResource("script")
+id = &"weapons"
+display_name = "Darin - Weapons"
+role = &"merchant"
+clothing_color = Color(0.6039, 0.3961, 0.298, 1)
+shop = ExtResource("shop")
+pages = Array[ExtResource("page")]([SubResource("welcome")])
