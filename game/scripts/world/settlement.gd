@@ -1,9 +1,12 @@
 class_name Settlement
 extends Node3D
 var npcs: Array[WorldNPC] = []
+var dressing: RemasterScenery
 
 func _ready() -> void:
 	name = "WaystoneRefuge"
+	dressing = RemasterScenery.new()
+	add_child(dressing)
 	_house(Vector3(-6, 0, 9), Color(0.57, 0.44, 0.29), "Trail Supplies")
 	_house(Vector3(6, 0, 11), Color(0.49, 0.46, 0.32), "The Pine Rest")
 	_house(Vector3(-5, 0, 23), Color(0.48, 0.40, 0.3), "Warden's Lodge")
@@ -51,24 +54,49 @@ func _ready() -> void:
 	for spec in [[Vector3(0, 0.012, 18), Vector3(3, 0.02, 13)], [Vector3(-2.5, 0.013, 9), Vector3(7, 0.02, 2)], [Vector3(3, 0.014, 11), Vector3(6, 0.02, 2)]]:
 		_box(spec[0], spec[1], Color(0.40, 0.33, 0.22))
 
+	dressing.flush()
+
 func _house(point: Vector3, color: Color, title: String) -> void:
 	_box(point + Vector3(0, 1.4, 0), Vector3(3.8, 2.8, 3.6), color, true)
-	var roof := CylinderMesh.new()
-	roof.top_radius = 0
-	roof.bottom_radius = 3.0
-	roof.height = 1.7
-	roof.radial_segments = 4
 	var mesh := MeshInstance3D.new()
-	mesh.mesh = roof
-	mesh.position = point + Vector3(0, 3.45, 0)
-	mesh.rotation.y = PI / 4
-	var material := StandardMaterial3D.new()
-	material.albedo_color = Color(0.24, 0.28, 0.22)
-	mesh.material_override = material
+	mesh.mesh = _roof()
+	mesh.position = point + Vector3(0,2.8,0)
+	mesh.material_override = RemasterMaterials.surface(8)
+	mesh.visibility_range_end = 90
 	add_child(mesh)
+	_box(point+Vector3(0,.17,0),Vector3(4.1,.34,3.9),Color("77786c"))
+	for z in [-1.86,1.86]:
+		for x in [-.9,.9]:
+			_box(point+Vector3(x,1.35,z),Vector3(.07,2.4,.07),Color("392c20"))
+		_box(point+Vector3(0,1.2,z),Vector3(3.9,.08,.07),Color("392c20"))
+	for x in [-2.65,2.65]: _box(point+Vector3(x,3.05,0),Vector3(.12,.15,4.7),Color("493b2b"))
+	_box(point+Vector3(0,4.13,0),Vector3(.15,.15,4.6),Color("413e33"))
+	for side_value in [-1,1]:
+		dressing.place("crate",point+Vector3(side_value*2.2,0,1.3),Vector3.ONE*.75)
+		dressing.place("log",point+Vector3(side_value*2.3,.05,-1.4),Vector3(.7,.7,.7),PI/2)
+	for x in [-1.9, 1.9]:
+		for z in [-1.75, 1.75]:
+			_box(point + Vector3(x, 1.5, z), Vector3(0.17, 3.0, 0.17), Color("32251d"))
+	for y in [0.22, 2.75]:
+		for z in [-1.81, 1.81]:
+			_box(point + Vector3(0, y, z), Vector3(3.9, 0.15, 0.12), Color("38291e"))
+	var chimney := CylinderMesh.new()
+	chimney.top_radius = 0.25
+	chimney.bottom_radius = 0.28
+	chimney.height = 1.1
+	chimney.radial_segments = 6
+	var vent := MeshInstance3D.new()
+	vent.mesh = chimney
+	vent.position = point + Vector3(0.95, 4.0, 0.6)
+	var soot := StandardMaterial3D.new()
+	soot.albedo_color = Color("4b4945")
+	vent.material_override = RemasterMaterials.surface(4)
+	vent.visibility_range_end = 65
+	add_child(vent)
 	var side := -signf(point.x)
 	_box(point + Vector3(side * 1.91, 0.95, 0), Vector3(0.05, 1.9, 0.8), Color(0.20, 0.13, 0.08))
-	for z in [-1.1, 1.1]: _box(point + Vector3(side * 1.93, 1.65, z), Vector3(0.05, 0.65, 0.55), Color(0.83, 0.64, 0.3))
+	_box(point + Vector3(side * 1.98, 1.9, 0), Vector3(0.16, 0.16, 1.25), Color("b78b51"))
+	for z in [-1.1, 1.1]: _window(point + Vector3(side * 1.93, 1.65, z),side)
 	_sign(point + Vector3(side * 1.95, 2.6, 0), title)
 
 func _sign(point: Vector3, text: String) -> void:
@@ -83,13 +111,40 @@ func _sign(point: Vector3, text: String) -> void:
 	add_child(label)
 
 func _box(point: Vector3, dimensions: Vector3, color: Color, collision: bool = false) -> void:
+	if dimensions.y < .05: return # Ground shader blends these same travel lanes.
 	var mesh := BoxMesh.new()
 	mesh.size = dimensions
 	var node := MeshInstance3D.new()
 	node.mesh = mesh
 	node.position = point
-	var material := StandardMaterial3D.new()
-	material.albedo_color = color
-	node.material_override = material
+	var index := 7 if dimensions.y > 2 and dimensions.x > 3 else (4 if color.b > color.r*.95 else 6)
+	node.material_override = RemasterMaterials.surface(index,Color("b2b0a3") if index == 7 else Color("c3b7a4"))
+	node.visibility_range_end = 90
 	add_child(node)
 	if collision: node.create_trimesh_collision()
+
+func _window(point: Vector3,side: float) -> void:
+	_box(point,Vector3(.055,.75,.65),Color("201e18"))
+	for z in [-.3,0,.3]: _box(point+Vector3(side*.035,0,z),Vector3(.08,.8,.055),Color("59432c"))
+	for y in [-.35,0,.35]: _box(point+Vector3(side*.04,y,0),Vector3(.08,.05,.65),Color("59432c"))
+
+func _roof() -> ArrayMesh:
+	var surface := SurfaceTool.new()
+	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
+	var xs := [0.0,1.1,2.2,2.7]
+	var ys := [1.3,.6,.1,.26]
+	var zs := [-2.3,-1.5,0.0,1.5,2.3]
+	for side in [-1,1]:
+		var corners := [Vector2i(0,0),Vector2i(0,1),Vector2i(1,0),Vector2i(1,0),Vector2i(0,1),Vector2i(1,1)]
+		if side>0: corners.reverse()
+		for i in 3:
+			for j in 4:
+				for uv in corners:
+					var x:float=xs[i+uv.x]*side
+					var z:float=zs[j+uv.y]
+					var y:float=ys[i+uv.x]+pow(absf(z)/2.3,4)*.15
+					surface.set_uv(Vector2(x*.5,z*.5))
+					surface.add_vertex(Vector3(x,y,z))
+	surface.generate_normals()
+	var roof := surface.commit()
+	return roof

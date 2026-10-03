@@ -14,9 +14,11 @@ var dragging: bool = false
 var roster_path: String = "user://characters.cfg"
 
 func _ready() -> void:
+	IronfieldAudio.instance.enter_region("briarwood")
+	theme = PaintedTheme.get_theme()
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
-	var background := ColorRect.new()
-	background.color = Color("101a21")
+	var background := Panel.new()
+	background.add_theme_stylebox_override("panel", PaintedTheme.frame(20))
 	background.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(background)
 	var margin := MarginContainer.new()
@@ -103,7 +105,7 @@ and Turnwarden prototype skills. More class kits to come."
 	var environment := WorldEnvironment.new()
 	var env := Environment.new()
 	env.background_mode = Environment.BG_COLOR
-	env.background_color = Color("15242c")
+	env.background_color = Color("18120f")
 	env.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
 	env.ambient_light_color = Color("bac9da")
 	env.ambient_light_energy = .7
@@ -141,7 +143,7 @@ and Turnwarden prototype skills. More class kits to come."
 func _button(parent: Node, title: String, action: Callable) -> Button:
 	var button := Button.new()
 	button.text = title
-	button.custom_minimum_size.y = 38
+	button.custom_minimum_size.y = 29
 	button.pressed.connect(action)
 	parent.add_child(button)
 	return button
@@ -190,5 +192,10 @@ func _resume() -> void:
 	else: _enter({"name":"Traveler", "class":"Ironvow", "path":"user://progression.json"})
 
 func _enter(entry: Dictionary) -> void:
+	var region := "briarwood"
+	if FileAccess.file_exists(entry.path):
+		var save: Variant = JSON.parse_string(FileAccess.get_file_as_string(entry.path))
+		if save is Dictionary and save.get("region") == "cinderfall": region = "cinderfall"
+	entry["region"] = region
 	get_tree().root.set_meta("character_login", entry)
-	get_tree().change_scene_to_file("res://scenes/outdoor_zone.tscn")
+	get_tree().change_scene_to_file("res://scenes/cinderfall_zone.tscn" if region == "cinderfall" else "res://scenes/outdoor_zone.tscn")

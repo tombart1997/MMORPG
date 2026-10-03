@@ -16,6 +16,10 @@ config/use_custom_user_dir=true
 config/custom_user_dir_name="IronfieldPrototype"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
+[autoload]
+
+GameAudio="*res://scripts/audio/game_audio.gd"
+
 [display]
 
 window/size/viewport_width=1280

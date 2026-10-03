@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="FractureData" format=3]
 [ext_resource type="Script" path="res://scripts/farming/fracture_data.gd" id="1"]
 [ext_resource type="Script" path="res://scripts/farming/fracture_wave.gd" id="wave"]
-[ext_resource type="Resource" path="res://data/enemies/young.tres" id="young"]
+[ext_resource type="Resource" path="res://data/enemies/young_mosslings.tres" id="young"]
 [ext_resource type="Resource" path="res://data/enemies/grown.tres" id="grown"]
 [ext_resource type="Resource" path="res://data/enemies/ironback.tres" id="iron"]
 [ext_resource type="Resource" path="res://data/drops/fracture.tres" id="loot"]
@@ -9,24 +9,29 @@
 script = ExtResource("wave")
 health_fraction = 1.0
 enemy = ExtResource("young")
-count = 3
+count = 6
+warning_seconds = 0.65
 [sub_resource type="Resource" id="w2"]
 script = ExtResource("wave")
-health_fraction = 0.72
+health_fraction = 0.80
 enemy = ExtResource("young")
-count = 5
+count = 6
+warning_seconds = 0.65
 [sub_resource type="Resource" id="w3"]
 script = ExtResource("wave")
-health_fraction = 0.38
+health_fraction = 0.55
 enemy = ExtResource("grown")
-count = 7
+count = 8
+warning_seconds = 0.65
 [sub_resource type="Resource" id="w4"]
 script = ExtResource("wave")
-health_fraction = 0.12
+health_fraction = 0.30
 enemy = ExtResource("iron")
-count = 2
+count = 4
+warning_seconds = 0.65
 [resource]
 script = ExtResource("1")
 id = &"briarwake"
+maximum_health = 1800.0
 waves = Array[ExtResource("wave")]([SubResource("w1"), SubResource("w2"), SubResource("w3"), SubResource("w4")])
 rewards = ExtResource("loot")

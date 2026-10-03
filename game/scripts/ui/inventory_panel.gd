@@ -13,55 +13,40 @@ var discard: Button
 var discard_armed: bool = false
 var selected: int = -1
 var selected_gear: StringName = &""
+var stat_values: Dictionary = {}
 
 func _ready() -> void:
-	position = Vector2(340, 20)
+	position = Vector2(755, 205)
 	z_index = 10
-	theme = Theme.new()
-	var tooltip_style := StyleBoxFlat.new()
-	tooltip_style.bg_color = Color(0.035, 0.045, 0.04, 1)
-	tooltip_style.border_color = Color(0.58, 0.47, 0.27)
-	tooltip_style.set_border_width_all(1)
-	tooltip_style.content_margin_left = 10
-	tooltip_style.content_margin_right = 10
-	tooltip_style.content_margin_top = 8
-	tooltip_style.content_margin_bottom = 8
-	theme.set_stylebox("panel", "TooltipPanel", tooltip_style)
-	theme.set_color("font_color", "TooltipLabel", Color(0.95, 0.91, 0.79))
-	custom_minimum_size = Vector2(900, 550)
-	var theme_style := StyleBoxFlat.new()
-	theme_style.bg_color = Color(0.055, 0.075, 0.075, 0.98)
-	theme_style.border_color = Color(0.58, 0.47, 0.27)
-	theme_style.set_border_width_all(2)
-	theme_style.content_margin_left = 18
-	theme_style.content_margin_right = 18
-	theme_style.content_margin_top = 16
-	theme_style.content_margin_bottom = 16
-	add_theme_stylebox_override("panel", theme_style)
-	theme.set_stylebox("panel", "PanelContainer", theme_style)
+	theme = PaintedTheme.get_theme()
+	custom_minimum_size = Vector2(490, 390)
 	var column := VBoxContainer.new()
-	column.add_theme_constant_override("separation", 12)
+	column.add_theme_constant_override("separation", 5)
 	add_child(column)
 	title_label = Label.new()
-	title_label.add_theme_font_size_override("font_size", 22)
+	title_label.add_theme_font_size_override("font_size", 12)
 	column.add_child(title_label)
 	var row := HBoxContainer.new()
-	row.add_theme_constant_override("separation", 18)
+	row.add_theme_constant_override("separation", 8)
+	PaintedTheme.section(column, "Equipment / Inventory")
 	column.add_child(row)
 	var equipment_column := VBoxContainer.new()
-	equipment_column.custom_minimum_size.x = 200
+	equipment_column.custom_minimum_size.x = 172
 	row.add_child(equipment_column)
 	for slot in PlayerEquipment.SLOT_NAMES:
 		var button := ItemSlot.new()
 		button.player = player
 		button.equipment_slot = slot
-		button.custom_minimum_size = Vector2(200, 34)
+		button.custom_minimum_size = Vector2(172, 27)
+		button.clip_text = true
 		button.pressed.connect(select_gear.bind(slot))
 		equipment_column.add_child(button)
 		gear_buttons[slot] = button
 	character = Label.new()
-	character.add_theme_font_size_override("font_size", 16)
+	character.add_theme_font_size_override("font_size", 12)
 	equipment_column.add_child(character)
+	for caption in ["HP", "Attack", "Defence", "Move speed", "Attack rate"]:
+		stat_values[caption] = PaintedTheme.value_row(equipment_column,caption)
 	var grid := GridContainer.new()
 	grid.columns = 6
 	grid.add_theme_constant_override("h_separation", 5)
@@ -71,23 +56,23 @@ func _ready() -> void:
 		var button := ItemSlot.new()
 		button.player = player
 		button.bag_index = i
-		button.custom_minimum_size = Vector2(100, 76)
+		button.custom_minimum_size = Vector2(44, 44)
 		button.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 		button.expand_icon = true
-		button.add_theme_constant_override("icon_max_width", 24)
+		button.add_theme_constant_override("icon_max_width", 30)
 		button.add_theme_font_size_override("font_size", 13)
 		button.pressed.connect(select_slot.bind(i))
 		grid.add_child(button)
 		bag_buttons.append(button)
 	details = Label.new()
-	details.custom_minimum_size = Vector2(850, 118)
+	details.custom_minimum_size = Vector2(460, 95)
 	details.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	details.add_theme_font_size_override("font_size", 15)
+	details.add_theme_font_size_override("font_size", 12)
 	column.add_child(details)
 	var actions := HBoxContainer.new()
 	column.add_child(actions)
 	action = Button.new()
-	action.custom_minimum_size = Vector2(220, 36)
+	action.custom_minimum_size = Vector2(150, 25)
 	action.pressed.connect(activate_selection)
 	actions.add_child(action)
 	discard = Button.new()
@@ -103,6 +88,7 @@ func _ready() -> void:
 	player.equipment.changed.connect(refresh)
 	player.stats.changed.connect(refresh)
 	player.health.changed.connect(func(_current, _maximum): refresh())
+	WindowChrome.install(self, "Character · Inventory", func(): set_open(false))
 	refresh()
 	hide()
 
@@ -164,22 +150,22 @@ func refresh() -> void:
 		if stack:
 			used += 1
 			var item := stack.definition()
-			button.text = stack.display_name() + ("\nx%d" % stack.quantity if item.stackable else "")
+			button.text = str(stack.quantity) if item.stackable else ""
 			button.tooltip_text = stack.tooltip()
-			button.icon = item.icon
-		var style := StyleBoxFlat.new()
-		style.bg_color = Color(0.10, 0.13, 0.13)
-		style.border_color = Color(0.72, 0.57, 0.30) if i == selected else Color(0.25, 0.29, 0.26)
-		style.set_border_width_all(2 if i == selected else 1)
-		style.set_corner_radius_all(3)
-		button.add_theme_stylebox_override("normal", style)
+			button.icon = PaintedTheme.painted_icon(item.icon)
+		button.add_theme_stylebox_override("normal", PaintedTheme.slot())
 		button.modulate = Color(1, 0.86, 0.55) if i == selected else Color.WHITE
 	for slot in gear_buttons:
 		var stack: ItemStack = player.equipment.slots[slot]
 		gear_buttons[slot].text = String(slot).capitalize() + ": " + (stack.display_name() if stack else "-")
 		gear_buttons[slot].tooltip_text = stack.tooltip() if stack else "Empty equipment slot"
 	title_label.text = "TRAVELER'S PACK   %d / %d     |     %d gold" % [used, PlayerInventory.CAPACITY, player.inventory.gold]
-	character.text = "Level %d   XP %d / %d\nHP %d / %d\nAttack %.1f   Defense %.1f\nMove %.1f   Attack speed %.2fx" % [player.progression.level, player.progression.xp, player.progression.xp_required(), player.health.current, player.health.maximum, player.stats.value(&"attack"), player.stats.value(&"defense"), player.stats.value(&"movement_speed"), player.stats.value(&"attack_speed")]
+	character.text = "Lv.%d   XP %d / %d" % [player.progression.level,player.progression.xp,player.progression.xp_required()]
+	stat_values["HP"].text = "%d/%d" % [player.health.current,player.health.maximum]
+	stat_values["Attack"].text = "%.1f" % player.stats.value(&"attack")
+	stat_values["Defence"].text = "%.1f" % player.stats.value(&"defense")
+	stat_values["Move speed"].text = "%.1f" % player.stats.value(&"movement_speed")
+	stat_values["Attack rate"].text = "%.2fx" % player.stats.value(&"attack_speed")
 	var stack: ItemStack = player.equipment.slots.get(selected_gear) if selected_gear != &"" else (player.inventory.slots[selected] if selected >= 0 else null)
 	details.text = (stack.tooltip() + "\n" + EquipmentComparison.describe(stack.definition(), player, stack)) if stack else "Drag to move/equip; Shift-drag splits a stack. Hover for a tooltip.\nEquipment can be changed when alive and outside an attack."
 	action.text = "Unequip" if selected_gear != &"" else ("Equip" if stack and stack.definition().equipment_slot != &"" else "Use")

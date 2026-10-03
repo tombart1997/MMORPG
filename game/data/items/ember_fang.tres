@@ -1,0 +1,22 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/icons/ember_fang.svg" id="icon"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/forged_ember.tscn" id="visual"]
+[ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="attack"]
+[ext_resource type="Resource" path="res://data/attacks/player_sword.tres" id="a0"]
+[ext_resource type="Resource" path="res://data/attacks/player_return.tres" id="a1"]
+[ext_resource type="Resource" path="res://data/attacks/player_finisher.tres" id="a2"]
+[resource]
+script = ExtResource("script")
+id = &"ember_fang"
+display_name = "Ember Fang"
+description = "A distinctive ember forged sword from Cinderfall."
+item_type = "weapon"
+icon = ExtResource("icon")
+required_level = 18
+value = 108
+stackable = false
+equipment_slot = &"weapon"
+visual = ExtResource("visual")
+modifiers = {"attack": 39}
+attacks = Array[ExtResource("attack")]([ExtResource("a0"), ExtResource("a1"), ExtResource("a2")])

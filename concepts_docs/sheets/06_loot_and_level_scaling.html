@@ -1,0 +1,83 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Loot tables and logarithmic level scaling · Ironfield concepts</title><link rel="stylesheet" href="../concepts.css"></head><body><header><a class="brand" href="../index.html">IRONFIELD</a><nav aria-label="Main"><a href="../index.html">Design sheets</a><a href="../bestiary.html">Bestiary</a><a href="../art_gallery.html">Concept art</a><a href="../Ironfield_Concepts.xlsx">Workbook</a></nav></header><main class="doc"><p class="eyebrow">Design sheet 06 · 3 October 2026</p><h1 id="loot-tables-and-logarithmic-level-scaling">Loot tables and logarithmic level scaling</h1>
+<p><strong>Fixed:</strong> player and monster levels combine to make far-separated levels yield almost no loot. <strong>Proposed:</strong> the exact symmetric logarithmic function below. Current resource probabilities are retained as equal-level base values.</p>
+<h2 id="per-item-base-chance">Per-item base chance</h2>
+<p>Every item has its own independent roll. Rates do not need to sum to 100%, and several different items can drop from one kill. Roll stack quantity uniformly over the listed minimum/maximum only after that item's roll succeeds. The <a href="../tables/mob_drops.csv">151-row drop table</a> lists all ordinary item entries for the 37 unique current mobs.</p>
+<p>Example at matching levels: Meadow Wolf can independently drop Meadow Wolf trophy at <strong>22.5%</strong>, Field Tonic at <strong>4%</strong>, its rare relic blade at <strong>0.2%</strong>, and its rare relic coat at <strong>0.2%</strong>. Those are current resource values, not generated illustrative numbers. Quantity and rates for every other enemy appear in the bestiary.</p>
+<h2 id="exact-proposed-formula">Exact proposed formula</h2>
+<p>Let <code>P</code> be player level and <code>M</code> be mob level, both at least 1.</p>
+<pre><code class="language-text">gap       = abs(P - M)
+tolerance = max(10, (P + M) / 2)
+factor    = max(0, 1 - ln(1 + gap) / ln(1 + tolerance)) ^ 2
+effective_chance = base_chance * factor
+</code></pre>
+<p>The combined mean level sets the tolerance; absolute level difference sets the penalty. The logarithm makes the first few level gaps matter, while the square drives the distant tail toward zero. Equal levels always give factor 1. Interchanging player and monster levels gives the same result. At or beyond the tolerance, factor is zero. This deliberately makes very large gaps produce no ordinary loot rather than rounding a tiny probability upward.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Player / monster</th>
+<th style="text-align: right;">Gap</th>
+<th style="text-align: right;">Multiplier, approximately</th>
+<th style="text-align: right;">22.5% trophy becomes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5 / 5</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1.000</td>
+<td style="text-align: right;">22.50%</td>
+</tr>
+<tr>
+<td>5 / 4</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">.505</td>
+<td style="text-align: right;">11.37%</td>
+</tr>
+<tr>
+<td>10 / 8</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">.294</td>
+<td style="text-align: right;">6.61%</td>
+</tr>
+<tr>
+<td>20 / 18</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">.401</td>
+<td style="text-align: right;">9.02%</td>
+</tr>
+<tr>
+<td>20 / 15</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">.149</td>
+<td style="text-align: right;">3.35%</td>
+</tr>
+<tr>
+<td>20 / 10</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">.018</td>
+<td style="text-align: right;">.411%</td>
+</tr>
+<tr>
+<td>25 / 5</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0%</td>
+</tr>
+<tr>
+<td>5 / 25</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0%</td>
+</tr>
+</tbody>
+</table></div>
+<p>The authoritative computed examples are <a href="../tables/drop_scaling_examples.csv">drop_scaling_examples.csv</a>. Keep full precision until the final roll. Round displayed percentages for readability without changing the probability.</p>
+<h2 id="what-scales">What scales</h2>
+<p>Scale ordinary mob item rolls, Fracture core rewards, repeatable direct camp-leader item rewards, and gold by this factor. A future 100%-base repeatable reward is still scaled; bypassing the drop-table code must not bypass the level rule. Gold uses the base uniform integer roll followed by multiplication; stochastic rounding preserves fractional expectation without imposing a one-gold floor.</p>
+<p>One-time quest rewards, bought items and player trades are not random monster drops and are exempt. Defender kills use each defender's own level; the Fracture's core uses the Fracture's level. Ordinary kills must not roll the same core reward. Mastery Leaves use the Fracture factor, preventing level-50 players from farming level-7 spawn points at full efficiency.</p>
+<p>XP is a separately listed reward. This loot function does not silently change the current EXP numbers. A later XP penalty or party XP rule needs its own tuning sheet and migration. No luck stat, paid drop boost or hidden pity is assumed here.</p>
+<h2 id="ownership-and-route-implications">Ownership and route implications</h2>
+<p>Offline play attributes a kill to the player. Future online play uses a fixed participation list captured by the encounter, personal rolls, and each recipient's level factor. Avoid last-hit ownership and proximity-only rewards. A high-level carry does not make a far-underlevel player eligible for full rewards against an oversized monster.</p>
+<p>Expect similarly leveled hunting routes to outperform old low-level fields for item farming. For high-tier recipes, supply the required low-tier materials through current-band Fractures, a documented conversion recipe or trading. Do not force characters to obtain effectively zero-chance drops from obsolete mobs.</p>
+<h2 id="implementation-difference">Implementation difference</h2>
+<p>The current <code>DropTable.roll(rng)</code> only rolls its entry probabilities; it has no player/mob level arguments. The proposed scaling needs explicit encounter context and consistent treatment of gold and direct reward paths.</p><p class="footer"><a href="../index.html">All design sheets</a> · <a href="06_loot_and_level_scaling.md">Markdown source</a> · Fixed user rules with clearly marked proposed tuning.</p></main></body></html>

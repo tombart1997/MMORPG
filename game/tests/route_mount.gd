@@ -64,7 +64,7 @@ func _run() -> void:
 	check(is_instance_valid(player.mounts.model) and player.visual.position.y > 0,"Original horse appears and rider is raised onto saddle")
 	check(is_equal_approx(player.body_collider.shape.radius,.38),"Mounted collision remains within baked navigation envelope")
 	var rig := player.world_interaction.camera.get_parent().get_parent() as ThirdPersonCamera
-	check(is_equal_approx(rig.global_position.y-player.global_position.y,1.8),"Camera follows raised rider without changing orbit or zoom")
+	check(is_equal_approx(rig.global_position.y-player.global_position.y,1.3+player.mounts.definition.rider_height),"Camera follows raised rider without changing orbit or zoom")
 	await key("mount")
 	check(not player.mounts.mounted,"H dismounts responsively")
 	# Native inventory drag to the external action bar, including modal mouse-release routing.

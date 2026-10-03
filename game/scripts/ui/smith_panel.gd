@@ -14,21 +14,21 @@ var quests: QuestActions
 var catalyst: CheckBox
 
 func _ready() -> void:
-	position = Vector2(190, 45)
-	custom_minimum_size = Vector2(1020, 570)
+	position = Vector2(400, 170)
+	custom_minimum_size = Vector2(640, 420)
 	z_index = 20
 	var column := VBoxContainer.new()
-	column.add_theme_constant_override("separation", 14)
+	column.add_theme_constant_override("separation", 6)
 	add_child(column)
 	var title := Label.new()
 	title.text = "OREN'S FORGE | Drag equipment onto the anvil"
-	title.add_theme_font_size_override("font_size", 22)
+	title.add_theme_font_size_override("font_size", 13)
 	column.add_child(title)
 	quests = QuestActions.new()
 	quests.player = player
 	column.add_child(quests)
 	var row := HBoxContainer.new()
-	row.add_theme_constant_override("separation", 20)
+	row.add_theme_constant_override("separation", 8)
 	column.add_child(row)
 	var grid := GridContainer.new()
 	grid.columns = 6
@@ -37,26 +37,26 @@ func _ready() -> void:
 		var button := ItemSlot.new()
 		button.player = player
 		button.bag_index = i
-		button.custom_minimum_size = Vector2(76, 68)
+		button.custom_minimum_size = Vector2(44, 44)
 		button.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 		button.add_theme_font_size_override("font_size", 12)
 		button.pressed.connect(func(): select_item(i, player.inventory.slots[i]))
 		bag_buttons.append(button)
 		grid.add_child(button)
 	var right := VBoxContainer.new()
-	right.custom_minimum_size.x = 475
+	right.custom_minimum_size.x = 315
 	row.add_child(right)
 	drop = UpgradeDrop.new()
 	drop.panel = self
 	drop.text = "DROP EQUIPMENT HERE"
-	drop.custom_minimum_size = Vector2(475, 65)
+	drop.custom_minimum_size = Vector2(315, 48)
 	right.add_child(drop)
 	details = Label.new()
-	details.custom_minimum_size = Vector2(475, 230)
+	details.custom_minimum_size = Vector2(315, 210)
 	details.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	right.add_child(details)
 	catalyst = CheckBox.new()
-	catalyst.text = "Spend 1 Wakeglass Ember: guarantee this upgrade"
+	catalyst.text = "1 Wakeglass Ember: guaranteed success"
 	catalyst.toggled.connect(func(_pressed): refresh())
 	right.add_child(catalyst)
 	confirm = Button.new()
@@ -64,6 +64,8 @@ func _ready() -> void:
 	confirm.pressed.connect(attempt)
 	right.add_child(confirm)
 	feedback = Label.new()
+	feedback.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	feedback.custom_minimum_size.x = 610
 	feedback.custom_minimum_size.y = 28
 	column.add_child(feedback)
 	quests.message = feedback
@@ -73,6 +75,7 @@ func _ready() -> void:
 	column.add_child(close)
 	player.inventory.changed.connect(refresh)
 	player.quests.changed.connect(func(): quests.refresh())
+	WindowChrome.install(self, "Forge · Temper equipment", player.ui_session.close)
 	refresh()
 	hide()
 
@@ -85,6 +88,7 @@ func open_npc(target: WorldNPC) -> void:
 	expected = null
 	feedback.text = npc.data.pages[0].text
 	player.ui_session.open_panel(self)
+	IronfieldAudio.instance.speak(npc,0)
 	refresh()
 
 func select_item(slot: int, stack: ItemStack) -> void:
@@ -97,7 +101,10 @@ func refresh() -> void:
 	if details == null: return
 	for i in bag_buttons.size():
 		var stack := player.inventory.slots[i]
-		bag_buttons[i].text = (stack.display_name() + (" x%d" % stack.quantity if stack.quantity > 1 else "")) if stack else "-"
+		bag_buttons[i].text = str(stack.quantity) if stack and stack.quantity > 1 else ""
+		bag_buttons[i].icon = PaintedTheme.painted_icon(stack.definition().icon) if stack else null
+		bag_buttons[i].expand_icon = true
+		bag_buttons[i].add_theme_constant_override("icon_max_width", 30)
 		bag_buttons[i].tooltip_text = stack.tooltip() if stack else "Empty"
 	if index >= 0 and player.inventory.slots[index] != expected: expected = null
 	var rule := service.quote(expected)

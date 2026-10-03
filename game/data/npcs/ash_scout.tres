@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/npc/npc_data.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/npc/dialogue_page.gd" id="2"]
+[sub_resource type="Resource" id="p0"]
+script = ExtResource("2")
+text = "The hounds stalk our outpost, glass spiders nest to the east, and a sentinel guards the rift beyond. Take my contracts as you clear the basin. The gate behind us returns to Briar Crossing."
+responses = Array[Dictionary]([{"text":"I will clear the basin.","action":"close"}])
+[resource]
+script = ExtResource("1")
+id = &"ash_scout"
+display_name = "Scout Vela"
+role = &"scout"
+clothing_color = Color(0.43, 0.32, 0.47, 1)
+pages = Array[ExtResource("2")]([SubResource("p0")])

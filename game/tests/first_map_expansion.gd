@@ -10,7 +10,7 @@ func _run() -> void:
 	var hud: ZoneHUD
 	for child in world.get_children():
 		if child is ZoneHUD: hud = child
-	check(world.camps.size() == 33, "First map contains 33 distinct encounters")
+	check(world.camps.size() == FirstMapContent.POINTS.size()+3, "First map contains every authored encounter")
 	check(world.settlement.npcs.size() == 9, "Expanded village has nine service NPCs")
 	check(player.map_state.region.bounds == ZoneTerrain.BOUNDS, "Map and terrain share expanded bounds")
 	var levels := {}
@@ -23,7 +23,7 @@ func _run() -> void:
 		var data := camp.enemy_data
 		ids[data.id] = true
 		levels[data.level] = true
-		check(camp.pack.members.size() >= 3 if data.tier <= 2 else camp.pack.members.size() == 1, "%s tier grouping" % data.id)
+		check(camp.count >= 3 if data.tier <= 2 else camp.count == 1, "%s tier grouping" % data.id)
 		var kinds := {}
 		for entry in data.drops.entries:
 			kinds[entry.item.item_type] = true
@@ -46,9 +46,10 @@ func _run() -> void:
 	check(service.buy(crafter,player,0,1).is_empty() and player.inventory.count(offer.item.id) == 1 and player.inventory.gold == 2000-offer.price, "Craft consumes materials and gold and grants equipment")
 	for id in offer.ingredients: check(player.inventory.count(StringName(id)) == 0, "Craft consumed required material")
 	# Solo elite acquires and actually runs at a nearby unprovoking player.
-	var elite: EnemyCamp = world.camps[12]
-	var foe: ActorBody = elite.pack.members[0]
+	var elite: EnemyCamp = world.camps.filter(func(c): return c.enemy_data.tier>=3)[0]
 	player.global_position = elite.global_position + Vector3(0,0,6)
+	elite.update_residency()
+	var foe: ActorBody = elite.pack.members[0]
 	await frames(3)
 	var distance := foe.global_position.distance_to(player.global_position)
 	await frames(25)
@@ -62,6 +63,8 @@ func _run() -> void:
 	check(player.mounts.toggle(), "Owned mount summons")
 	# Isolate one durable foe while retaining its actual brain and physics push.
 	var camp: EnemyCamp = world.camps[3]
+	player.global_position=camp.global_position+Vector3(0,0,5)
+	camp.update_residency()
 	foe = camp.pack.members[0]
 	player.global_position = foe.global_position + Vector3(0,0,1.8)
 	player.rotation.y = 0
@@ -90,7 +93,7 @@ func _run() -> void:
 	Input.parse_input_event(key)
 	while player.combat.is_attacking(): await frames(1)
 	check(foe.health.current < initial_hp and camp.pack.target == player, "Mounted strike damages and alerts whole group")
-	check(hud.target_hp.visible and hud.target_hp.size.x >= 400 and hud.target_label.text.contains("Lv.1"), "Combat automatically displays large top-center target health")
+	check(hud.target_hp.visible and hud.target_hp.size.x >= 260 and hud.target_label.text.contains("Lv.1"), "Combat automatically displays compact top-center target health")
 	var before_second := foe.health.current
 	player.combat.request_attack()
 	for i in 60:

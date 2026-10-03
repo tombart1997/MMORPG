@@ -1,0 +1,45 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Mounts, tack and the mounted pose · Ironfield concepts</title><link rel="stylesheet" href="../concepts.css"></head><body><header><a class="brand" href="../index.html">IRONFIELD</a><nav aria-label="Main"><a href="../index.html">Design sheets</a><a href="../bestiary.html">Bestiary</a><a href="../art_gallery.html">Concept art</a><a href="../Ironfield_Concepts.xlsx">Workbook</a></nav></header><main class="doc"><p class="eyebrow">Design sheet 12 · 3 October 2026</p><h1 id="mounts-tack-and-the-mounted-pose">Mounts, tack and the mounted pose</h1>
+<p><img alt="Trail horse, rider and stable services" src="../art/town_mounts.png" /></p>
+<h2 id="trail-horse-current-baseline">Trail horse — current baseline</h2>
+<p>The ordinary Briarwood horse is a bay brown horse with dark mane, tail and lower legs. Its current speed is <strong>8.8 m/s</strong>; the Trail Bridle costs <strong>240 gold</strong> at Bram's Stables. The current runtime supports travel, mounted basics and a mounted-pose presentation. Horse unlocks are persistent, separate from a single inventory item's visual attachment.</p>
+<p>The horse should look like a real riding horse at gameplay distance: strong chest and hindquarters, a narrower flank, four separate planted hooves, a modest elongated head, and a neck that carries the head naturally. Avoid an oversized head, short dog-like body or pencil-thin limbs. The rider is an adult seated over the saddle, with thighs around the barrel, bent knees and heels beneath the pelvis.</p>
+<h2 id="rider-and-tack-requirements">Rider and tack requirements</h2>
+<p>Refine the rider's anatomy and equipment separately before adjusting the mounted pose. Shoulders and boots must fit the body; split cloth must clear the seat and thighs. Fit a leather saddle to the back above a wool blanket. Add a believable girth, bridle, reins and hanging stirrups. Feet rest at the stirrups and hands meet the reins through idle, walk and canter.</p>
+<p>Do not raise the saddle to compensate for a poorly scaled rider. Keep horse, rider and tack dimensions consistent. A rider's legs must not disappear into the horse, and reins must not pass through its neck. Mounted weapon placement should clear the horse and show an identifiable grip.</p>
+<h2 id="review-before-accepting-a-model">Review before accepting a model</h2>
+<p>Render and <strong>open</strong> front, side and three-quarter images for the horse alone, rider alone and mounted pair. Inspect limb proportions, saddle fit, knee angle, boot contact, rein contact and cloth clipping. Export the final materials and inspect those same views inside Godot, then review actual travel and mounted combat.</p>
+<p>The previous asset review and engine captures live in <a href="../../docs/HORSE_REFERENCE_REVIEW.md">horse reference review</a>. The concepts here define future consistency; generated illustration alone cannot validate an exported mesh or animation.</p>
+<h2 id="proposed-later-mount-progression">Proposed later mount progression</h2>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Mount</th>
+<th>Unlock source</th>
+<th>Role</th>
+<th>Visual direction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trail horse</td>
+<td>Bram's ordinary bridle</td>
+<td>Accessible early travel</td>
+<td>Bay coat, plain leather tack</td>
+</tr>
+<tr>
+<td>March courier</td>
+<td>Level-20 road quest plus gold</td>
+<td>Quicker long-route travel, bounded speed</td>
+<td>Lean horse, lighter blanket and saddle bags</td>
+</tr>
+<tr>
+<td>Cairn destrier</td>
+<td>Regional achievement and crafting</td>
+<td>Stable mounted-combat platform</td>
+<td>Heavier realistic horse, restrained fitted lamellar tack</td>
+</tr>
+</tbody>
+</table></div>
+<p>Do not introduce faster mounts without checking navigation, bridges, camera follow and combat reach. A mount changes speed and supported attack policy, not the player's loot-level factor. Armor/tack with stats can use +9 equipment rules; coat colour and a mount-unlock token do not.</p>
+<h2 id="travel-interactions">Travel interactions</h2>
+<p>Block mount/dismount where there is no valid ground placement. Dismounting preserves HP, gear and cooldown state and does not escape an active hit. Town travel, narrow paths, zone transitions and respawning all need a defined mount state. Later region waystones require discovery and an explicit fee; the keeper's presence alone is not proof of implemented fast travel.</p><p class="footer"><a href="../index.html">All design sheets</a> · <a href="12_mounts_and_travel.md">Markdown source</a> · Fixed user rules with clearly marked proposed tuning.</p></main></body></html>

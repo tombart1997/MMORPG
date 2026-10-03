@@ -22,6 +22,7 @@ func equip(index: int) -> bool:
 	slots[item.equipment_slot] = stack
 	refresh()
 	actor.inventory.changed.emit()
+	IronfieldAudio.instance.play_at(&"equip",actor.global_position,-5)
 	return true
 
 func unequip(slot: StringName) -> bool:
@@ -45,6 +46,8 @@ func refresh() -> void:
 		actor.combat.sequence.assign(weapon.definition().attacks)
 	actor.combat.attack = actor.combat.sequence[0] if not actor.combat.sequence.is_empty() else null
 	actor.stats.recalculate()
+	if actor.mounts and actor.mounts.mounted:
+		actor.visual.present(actor.velocity,actor.combat,actor.health,actor.title,0.0)
 	changed.emit()
 
 func to_inventory(slot: StringName, index: int, expected: ItemStack) -> bool:

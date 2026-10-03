@@ -38,11 +38,24 @@ func spawn_body() -> void:
 	target = null
 	next_wave = 0
 	abandon = 0
+	_update_damage_floor()
+
+func _update_damage_floor() -> void:
+	# Burst damage may reach the following phase, but cannot erase unreleased waves.
+	# This is a brief telegraph boundary, not extra health or additional reward rolls.
+	var floor_value := 0.0
+	if next_wave < data.waves.size():
+		floor_value = 1.0
+		if next_wave+1 < data.waves.size():
+			floor_value = maxf(1.0,body.health.maximum*data.waves[next_wave+1].health_fraction)
+	body.health.damage_floor = floor_value
 func _damaged(_amount: float, source: Node3D) -> void:
 	if source is ActorBody and source.health.is_alive() and source.faction == &"players":
 		target = source
 		active = true
 		abandon = 0
+		if pending.is_empty() and next_wave < data.waves.size() and body.health.current/body.health.maximum <= data.waves[next_wave].health_fraction:
+			prepare_wave(data.waves[next_wave])
 func clear_warning() -> void:
 	for marker in markers:
 		if is_instance_valid(marker): marker.queue_free()
@@ -94,6 +107,7 @@ func release_wave() -> void:
 			points.append(point - global_position)
 	if points.is_empty(): clear_warning(); return
 	var camp := EnemyCamp.new()
+	camp.formation_override = true
 	camp.enemy_data = wave.enemy
 	camp.count = mini(points.size(), data.population_cap - living_defenders())
 	camp.spawn_points = points
@@ -107,6 +121,7 @@ func release_wave() -> void:
 		ArtVFX.burst(self, point + Vector3.UP*.1, Color(.63,.55,.28), 5, .5)
 	defenders.append(camp)
 	next_wave += 1
+	_update_damage_floor()
 	clear_warning()
 func _destroyed(source: Node3D) -> void:
 	if remaining > 0: return

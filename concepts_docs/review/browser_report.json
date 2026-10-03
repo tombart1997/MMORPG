@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "checks": [
+    "16 topic links",
+    "37 mob cards",
+    "images load offline",
+    "equal-level base rates",
+    "far-gap zero rates",
+    "family filter",
+    "search filter",
+    "Moonfang level-8 multiplier",
+    "smithing tables and art",
+    "mobile viewport has no horizontal overflow",
+    "no JavaScript page errors"
+  ]
+}

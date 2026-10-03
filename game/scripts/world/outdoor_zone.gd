@@ -1,4 +1,5 @@
 extends Node3D
+@export_enum("briarwood", "cinderfall") var region_id: String = "briarwood"
 const TONIC = preload("res://data/items/field_tonic.tres")
 var persistence := ProgressionSave.new()
 var persistence_enabled: bool = true
@@ -8,10 +9,12 @@ var settlement: Settlement
 var sanctuary: SafeArea
 var player: ActorBody
 var camps: Array[EnemyCamp] = []
+var portal: RegionPortal
 var notice: String = "Clear mossling camps. Gather drops. Return to the waystone to recover."
 var notice_time: float = 0
 
 func _ready() -> void:
+	IronfieldAudio.instance.enter_region(region_id)
 	var identity: Dictionary = get_tree().root.get_meta("character_login", {})
 	if not identity.is_empty(): persistence.path = identity.path
 	load("res://scripts/world/arena.gd").configure_inputs()
@@ -21,25 +24,26 @@ func _ready() -> void:
 			var event := InputEventKey.new()
 			event.physical_keycode = binding[1]
 			InputMap.action_add_event(binding[0], event)
-	add_child(ZoneTerrain.new())
+	add_child(CinderfallTerrain.new() if region_id == "cinderfall" else ZoneTerrain.new())
 	sanctuary = SafeArea.new()
-	sanctuary.position = Vector3(0, 0, 15)
+	sanctuary.position = Vector3(0, 0, 48) if region_id == "cinderfall" else Vector3(0, 0, 15)
 	sanctuary.radius = 11
 	add_child(sanctuary)
 	# The original gate stays at z=5; expanded markets behind it are also safe.
-	for point in [Vector3(-17,0,29),Vector3(17,0,29),Vector3(0,0,43)]:
+	for point in ([] if region_id == "cinderfall" else [Vector3(-17,0,29),Vector3(17,0,29),Vector3(0,0,43)]):
 		var market_safe := SafeArea.new()
 		market_safe.position = point
 		market_safe.radius = 17
 		add_child(market_safe)
-	settlement = Settlement.new()
-	add_child(settlement)
+	if region_id == "briarwood":
+		settlement = Settlement.new()
+		add_child(settlement)
 	_lighting()
 	player = ActorBody.new()
 	player.name = "Traveler"
 	player.title = identity.get("name", "Traveler")
 	player.set_meta("class_identity", identity.get("class", "Ironvow"))
-	player.position = ZoneTerrain.START + Vector3.UP * 0.1
+	player.position = (Vector3(0, 0, 48) if region_id == "cinderfall" else ZoneTerrain.START) + Vector3.UP * 0.1
 	player.maximum_health = 160
 	player.weapon = load("res://data/attacks/player_sword.tres")
 	player.attack_sequence.assign([player.weapon, load("res://data/attacks/player_return.tres"),
@@ -86,34 +90,18 @@ func _ready() -> void:
 	player.mounts = PlayerMount.new()
 	player.mounts.actor = player
 	player.add_child(player.mounts)
+	player.add_child(load("res://scripts/audio/actor_audio.gd").new())
 	player.map_state = PlayerMap.new()
 	player.map_state.actor = player
+	if region_id == "cinderfall": player.map_state.region = load("res://data/maps/cinderfall.tres")
 	player.add_child(player.map_state)
 	var cone = load("res://scripts/combat/combat_cone.gd").new()
 	cone.enabled = false
 	player.add_child(cone)
-	var names := ["Briarwood Verge", "Old Pine Hollow", "The Broken Cairn"]
-	for i in range(3):
-		var camp := EnemyCamp.new()
-		camp.position = ZoneTerrain.CAMPS[i]
-		camp.camp_name = names[i]
-		camp.count = 3 + i
-		camp.enemy_data = load("res://data/enemies/%s.tres" % ["young", "grown", "ironback"][i])
-		add_child(camp)
-		camps.append(camp)
-		_landmark(camp.position + Vector3(-3, 0, 1.5), names[i] + "\n" + ["Young mosslings - first hunt", "Mosslings - better gear advised", "Ironbacks - danger"][i])
-	for i in FirstMapContent.IDS.size():
-		var camp := EnemyCamp.new()
-		camp.enemy_data = load("res://data/enemies/%s.tres" % FirstMapContent.IDS[i])
-		camp.camp_name = camp.enemy_data.display_name
-		camp.position = FirstMapContent.POINTS[i]
-		camp.count = 6 if camp.enemy_data.tier == 1 else 8 if camp.enemy_data.tier == 2 else 1
-		camp.leash_distance = 20
-		camp.respawn_delay = 45 if camp.enemy_data.tier <= 2 else 120 + camp.enemy_data.tier * 30
-		add_child(camp)
-		camps.append(camp)
-		_landmark(camp.position + Vector3(0,0,7), "%s / Lv.%d / T%d" % [camp.camp_name,camp.enemy_data.level,camp.enemy_data.tier])
-	_landmark(ZoneTerrain.START + Vector3(3, 0, 4), "Briar Crossing - Waystone Refuge\nRest here to heal")
+	if region_id == "cinderfall":
+		_build_cinderfall()
+	else:
+		_build_briarwood()
 	player.farming = FarmingState.new()
 	add_child(player.farming)
 	interaction = InteractionService.new()
@@ -132,8 +120,74 @@ func _ready() -> void:
 	var navigation := ZoneNavigation.new()
 	add_child(navigation)
 	navigation.build(self)
+	if identity.get("transitioning", false):
+		identity.erase("transitioning")
+		get_tree().root.set_meta("character_login", identity)
+		save_progress(false)
+
+func _build_briarwood() -> void:
+	var names := ["Briarwood Verge", "Old Pine Hollow", "The Broken Cairn"]
+	for i in range(3):
+		var camp := EnemyCamp.new()
+		camp.streaming_enabled = true
+		camp.observer = player
+		camp.position = ZoneTerrain.CAMPS[i]
+		camp.camp_name = names[i]
+		camp.count = 3 + i
+		# Keep the narrow through-road clear of idle bodies at Old Pine Hollow.
+		if i == 1:
+			camp.spawn_points.assign([Vector3(4.5,0.1,-2),Vector3(6,0.1,-2),Vector3(4.5,0.1,1),Vector3(6,0.1,1)])
+		camp.enemy_data = load("res://data/enemies/%s.tres" % ["young_mosslings", "grown", "ironback"][i])
+		add_child(camp)
+		camps.append(camp)
+		_landmark(camp.position + Vector3(-3, 0, 1.5), names[i] + "\n" + ["Young mosslings - first hunt", "Mosslings - better gear advised", "Ironbacks - danger"][i])
+	for i in FirstMapContent.IDS.size():
+		var camp := EnemyCamp.new()
+		camp.streaming_enabled = true
+		camp.observer = player
+		camp.enemy_data = load("res://data/enemies/%s.tres" % FirstMapContent.IDS[i])
+		camp.camp_name = camp.enemy_data.display_name
+		camp.position = FirstMapContent.POINTS[i]
+		camp.count = 6 if camp.enemy_data.tier == 1 else 8 if camp.enemy_data.tier == 2 else 1
+		camp.leash_distance = 20
+		camp.respawn_delay = 45 if camp.enemy_data.tier <= 2 else 120 + camp.enemy_data.tier * 30
+		add_child(camp)
+		camps.append(camp)
+		_landmark(camp.position + Vector3(0,0,7), "%s / Lv.%d / T%d" % [camp.camp_name,camp.enemy_data.level,camp.enemy_data.tier])
+	_landmark(ZoneTerrain.START + Vector3(3, 0, 4), "Briar Crossing - Waystone Refuge\nRest here to heal")
+	portal = RegionPortal.new()
+	portal.position = Vector3(0, 0, -1)
+	portal.title = "Cinderfall Basin / Lv.18+"
+	add_child(portal)
+
+func _build_cinderfall() -> void:
+	for spec in [["ember_hound", Vector3(-28,0,13), 6], ["glass_spider", Vector3(27,0,-15), 6], ["ash_wisp", Vector3(-23,0,-50), 5], ["rift_sentinel", Vector3(23,0,-70), 1]]:
+		var camp := EnemyCamp.new()
+		camp.enemy_data = load("res://data/enemies/%s.tres" % spec[0])
+		camp.camp_name = camp.enemy_data.display_name
+		camp.position = spec[1]
+		camp.count = spec[2]
+		camp.leash_distance = 20
+		camp.respawn_delay = 75
+		add_child(camp)
+		camps.append(camp)
+		_landmark(camp.position + Vector3(0,0,6), "%s / Lv.%d" % [camp.camp_name, camp.enemy_data.level])
+	var npc := WorldNPC.new()
+	npc.data = load("res://data/npcs/ash_scout.tres")
+	npc.position = Vector3(5,0,46)
+	add_child(npc)
+	_landmark(Vector3(0,0,48), "Cinderfall Outpost")
+	portal = RegionPortal.new()
+	portal.destination = "briarwood"
+	portal.title = "Briarwood March"
+	portal.position = Vector3(0,0,62)
+	add_child(portal)
 
 func _unhandled_input(event: InputEvent) -> void:
+	if event.is_action_pressed("pickup") and portal and portal.can_use(player):
+		travel(portal.destination)
+		get_viewport().set_input_as_handled()
+		return
 	if event.is_action_pressed("save_game"):
 		save_progress()
 	if event.is_action_pressed("load_game"):
@@ -186,7 +240,7 @@ func respawn_player() -> void:
 	if player.world_interaction: player.world_interaction.cancel()
 	for camp in camps: camp.pack.disengage()
 	if player.ui_session: player.ui_session.close()
-	player.position = ZoneTerrain.START + Vector3.UP * 0.1
+	player.position = (Vector3(0, 0, 48) if region_id == "cinderfall" else ZoneTerrain.START) + Vector3.UP * 0.1
 	player.velocity = Vector3.ZERO
 	player.health.current = player.health.maximum
 	player.health.changed.emit(player.health.current, player.health.maximum)
@@ -194,6 +248,14 @@ func respawn_player() -> void:
 	player.collision_mask = 11
 	player.combat.cancel()
 	announce("Recovered at the waystone")
+
+func travel(destination: String) -> void:
+	if not persistence_enabled or not save_progress(false): return
+	var identity: Dictionary = get_tree().root.get_meta("character_login", {})
+	identity["region"] = destination
+	identity["transitioning"] = true
+	get_tree().root.set_meta("character_login", identity)
+	get_tree().change_scene_to_file("res://scenes/cinderfall_zone.tscn" if destination == "cinderfall" else "res://scenes/outdoor_zone.tscn")
 
 func _physics_process(delta: float) -> void:
 	save_clock += delta
@@ -213,26 +275,39 @@ func _lighting() -> void:
 	environment.background_mode = Environment.BG_SKY
 	var sky := Sky.new()
 	var sky_material := ProceduralSkyMaterial.new()
-	sky_material.sky_top_color = Color(0.28, 0.43, 0.55)
-	sky_material.sky_horizon_color = Color(0.75, 0.73, 0.6)
-	sky_material.ground_horizon_color = Color(0.75, 0.73, 0.6)
+	sky_material.sky_top_color = Color("627e99")
+	sky_material.sky_horizon_color = Color("bcc9c5")
+	sky_material.ground_horizon_color = Color("bcc9c5")
+	sky_material.ground_bottom_color = Color("38484e")
+	if region_id == "cinderfall":
+		sky_material.sky_top_color = Color("41445a")
+		sky_material.sky_horizon_color = Color("9c9293")
+		sky_material.ground_horizon_color = Color("777582")
 	sky.sky_material = sky_material
 	environment.sky = sky
 	environment.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
-	environment.ambient_light_color = Color(0.73, 0.8, 0.86)
-	environment.ambient_light_energy = 0.55
+	environment.ambient_light_color = Color(.67,.74,.79)
+	environment.ambient_light_energy = .58
 	environment.fog_enabled = true
-	environment.fog_light_color = Color(0.46, 0.53, 0.49)
-	environment.fog_density = 0.007
+	environment.fog_light_color = Color("a6bdbd")
+	environment.fog_density = .005
+	if region_id == "cinderfall":
+		environment.ambient_light_color = Color("9aa5bf")
+		environment.ambient_light_energy = .48
+		environment.fog_light_color = Color("828191")
+		environment.fog_density = .006
 	environment.tonemap_mode = Environment.TONE_MAPPER_FILMIC
 	world.environment = environment
 	add_child(world)
 	var sun := DirectionalLight3D.new()
-	sun.rotation_degrees = Vector3(-42, -32, 0)
+	sun.rotation_degrees = Vector3(-38, -28, 0)
 	sun.light_color = Color(1, 0.94, 0.83)
-	sun.light_energy = 1.0
+	if region_id == "cinderfall": sun.light_color = Color("edc8a5")
+	sun.light_energy = 1.1
 	sun.shadow_enabled = true
-	sun.directional_shadow_max_distance = 85
+	sun.directional_shadow_max_distance = 70
+	sun.shadow_bias = .035
+	sun.shadow_normal_bias = .65
 	add_child(sun)
 
 func _landmark(point: Vector3, title: String) -> void:
@@ -247,10 +322,11 @@ func _landmark(point: Vector3, title: String) -> void:
 	label.billboard = BaseMaterial3D.BILLBOARD_ENABLED
 	add_child(label)
 
-func save_progress(notify_player: bool = true) -> void:
-	if not persistence_enabled: return
+func save_progress(notify_player: bool = true) -> bool:
+	if not persistence_enabled: return false
 	var success := persistence.save_player(player)
 	if notify_player or not success: announce("Progress saved" if success else "Save failed: " + persistence.error)
+	return success
 
 func _notification(what: int) -> void:
 	if what == NOTIFICATION_WM_CLOSE_REQUEST:

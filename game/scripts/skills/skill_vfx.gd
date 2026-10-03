@@ -51,9 +51,11 @@ static func cast(context: SkillContext) -> void:
 	match context.skill.id:
 		&"held_line": kind = "spirit"; duration = 6
 		&"heelturn": kind = "sprint"; duration = 4
-		&"gate_sweep", &"standard_of_ash": return # Their authoritative areas own the visuals.
+		&"gate_sweep": IronfieldAudio.instance.play_at(&"spin",actor.global_position,-3); return
+		&"standard_of_ash": IronfieldAudio.instance.play_at(&"fire",actor.global_position,-3); return
 		&"due_return": kind = "sun"; duration = .5
 	var effect := spectacle(actor.get_parent(), kind, actor.position, actor, duration, context.skill.radius)
+	IronfieldAudio.instance.play_at(StringName(kind),actor.global_position,-3)
 	effect.rotation.y = atan2(-context.direction.x,-context.direction.z)
 
 static func hit(context: SkillContext, target: ActorBody, damage: float) -> void:

@@ -9,6 +9,7 @@ var quick_bar: Control
 var journal: QuestJournal
 
 func open_panel(panel: Control) -> void:
+	if active and active != panel: IronfieldAudio.instance.stop_voice()
 	if active and active != panel: active.hide()
 	if player.mounts and (panel is TownPanel or panel is SmithPanel): player.mounts.dismount("Dismounted to talk")
 	active = panel
@@ -20,6 +21,7 @@ func open_panel(panel: Control) -> void:
 	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 
 func close() -> void:
+	IronfieldAudio.instance.stop_voice()
 	if active: active.hide()
 	active = null
 	player.ui_open = false
@@ -51,7 +53,7 @@ func _input(event: InputEvent) -> void:
 		get_viewport().set_input_as_handled()
 	elif active and event.is_action_pressed("pickup"):
 		get_viewport().set_input_as_handled()
-	elif active and event is InputEventMouseButton and not active.get_global_rect().has_point(event.position):
+	elif active and event is InputEventMouseButton and not active.get_global_rect().grow_individual(0,25,0,0).has_point(event.position):
 		# Inventory drag release must reach the quick slots outside the modal.
 		if active == inventory_panel and quick_bar and quick_bar.get_global_rect().has_point(event.position): return
 		get_viewport().set_input_as_handled()

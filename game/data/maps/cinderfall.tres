@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/world/map_region_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"cinderfall"
+display_name = "Cinderfall Basin"
+bounds = Rect2(-75, -75, 150, 150)
+roads = PackedVector2Array(0,62, 0,48, -28,13, 0,0, 27,-15, 0,-35, -23,-50, 23,-70)
+outer_roads = PackedVector2Array()
+landmarks = Array[Dictionary]([{"id":"outpost","name":"Cinderfall Outpost","position":Vector3(0,0,48),"radius":15.0,"known":true},{"id":"ember_den","name":"Ember Hound Den","position":Vector3(-28,0,13),"radius":15.0},{"id":"glass_nest","name":"Glass Spider Nest","position":Vector3(27,0,-15),"radius":15.0},{"id":"rift","name":"The Broken Rift","position":Vector3(23,0,-70),"radius":18.0}])

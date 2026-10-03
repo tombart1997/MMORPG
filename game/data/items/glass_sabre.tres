@@ -1,0 +1,22 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/icons/glass_sabre.svg" id="icon"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/forged_glass.tscn" id="visual"]
+[ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="attack"]
+[ext_resource type="Resource" path="res://data/attacks/player_sword.tres" id="a0"]
+[ext_resource type="Resource" path="res://data/attacks/player_return.tres" id="a1"]
+[ext_resource type="Resource" path="res://data/attacks/player_finisher.tres" id="a2"]
+[resource]
+script = ExtResource("script")
+id = &"glass_sabre"
+display_name = "Glass Sabre"
+description = "A distinctive glass forged sword from Cinderfall."
+item_type = "weapon"
+icon = ExtResource("icon")
+required_level = 19
+value = 114
+stackable = false
+equipment_slot = &"weapon"
+visual = ExtResource("visual")
+modifiers = {"attack": 45}
+attacks = Array[ExtResource("attack")]([ExtResource("a0"), ExtResource("a1"), ExtResource("a2")])

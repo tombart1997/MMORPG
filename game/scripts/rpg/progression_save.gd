@@ -22,6 +22,7 @@ func save_player(actor: ActorBody) -> bool:
 	data["actions"] = actor.actions.snapshot() if actor.actions else ["field_tonic", ""]
 	data["mounts"] = actor.mounts.snapshot() if actor.mounts else {"owned": [], "selected": ""}
 	data["map"] = actor.map_state.discoveries if actor.map_state else {}
+	data["region"] = String(actor.map_state.region.id) if actor.map_state else "briarwood"
 	var file := FileAccess.open(path + ".tmp", FileAccess.WRITE)
 	if file == null:
 		error = "Cannot write save"
@@ -97,6 +98,7 @@ func apply_snapshot(actor: ActorBody, data: Variant) -> bool:
 	var actions: Variant = data.get("actions", ["field_tonic", ""] if data.version < 5 else null)
 	var mounts: Variant = data.get("mounts", {"owned": [], "selected": ""} if data.version < 5 else null)
 	var discoveries: Variant = data.get("map", {} if data.version < 5 else null)
+	if data.get("region", "briarwood") not in ["briarwood", "cinderfall"]: return false
 	if not PlayerActions.valid_snapshot(actions) or not PlayerMount.valid_snapshot(mounts) or not PlayerMap.valid_snapshot(discoveries): return false
 	var identity: Variant = data.get("identity", {"name":actor.title,"class":String(actor.get_meta("class_identity", "Ironvow"))})
 	if not identity is Dictionary or not identity.get("name") is String or identity.name.length() > 24 or not identity.get("class") in ["Ironvow","Threadseer","Cinderhand","Fenstrider"]: return false

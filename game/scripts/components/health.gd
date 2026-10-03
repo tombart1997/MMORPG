@@ -8,6 +8,8 @@ signal died(source: Node3D)
 @export var maximum: float = 100.0
 var current: float
 var defense: float = 0.0
+## Encounter-controlled phase boundary; ordinary actors retain unrestricted damage.
+var damage_floor: float = 0.0
 
 func _ready() -> void:
 	current = maximum
@@ -29,7 +31,7 @@ func apply_damage(amount: float, source: Node3D) -> bool:
 		return false
 	var mitigated := maxf(1.0, amount - defense)
 	if actor and actor.statuses: mitigated = actor.statuses.filter_damage(mitigated, source)
-	var applied := minf(mitigated, current)
+	var applied := minf(mitigated, maxf(0.0,current-damage_floor))
 	current -= applied
 	damaged.emit(applied, source)
 	changed.emit(current, maximum)

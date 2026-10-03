@@ -7,8 +7,8 @@ func _run() -> void:
 	current_scene = world
 	await frames(5)
 	var player: ActorBody = world.player
-	check(world.camps.size() == 33 and world.camps[0].pack.members.size() + world.camps[1].pack.members.size() + world.camps[2].pack.members.size() == 12,
-		"Expanded zone preserves original twelve mosslings alongside thirty new camps")
+	check(world.camps.size() == FirstMapContent.POINTS.size()+3 and world.camps[0].count + world.camps[1].count + world.camps[2].count == 12,
+		"Expanded zone preserves original twelve mosslings and all authored camps")
 	check(player.visual.skeleton.find_bone("Hand.R") >= 0 and player.visual.skeleton.find_bone("Shin.L") >= 0,
 		"Imported humanoid skeleton has hand and leg chains")
 	check(player.visual.sockets[&"WeaponSocket"].get_node_or_null("Equipment") != null,
@@ -43,7 +43,10 @@ func _run() -> void:
 	check(player.progression.kills == 3 and player.progression.xp == 60,
 		"Each real combat kill awards XP exactly once")
 	var drop_count := get_nodes_in_group("loot").size()
-	check(drop_count >= 6, "Each enemy death creates separate gold and material entries")
+	var coin_bundles := 0
+	for bundle: LootPickup in get_nodes_in_group("loot"):
+		if bundle.coins > 0: coin_bundles += 1
+	check(coin_bundles == 3 and drop_count >= 3, "Each enemy drops coins; materials roll independently instead of flooding every kill")
 	if camp.pack.living_count() != 0:
 		quit(1)
 		return
@@ -86,11 +89,16 @@ func _run() -> void:
 		"Group respawns after timer and player departure")
 	check(player.progression.xp == xp_before, "Respawning itself awards nothing")
 	var second: EnemyCamp = world.camps[1]
-	player.position = second.position + Vector3(0, 0, 2.1)
+	player.position = second.pack.members[0].global_position + Vector3(0, 0, 2.1)
 	player.rotation.y = 0
 	player.combat.cancel()
 	swing_count = 0
 	while second.pack.living_count() > 0 and player.health.is_alive() and swing_count < 8:
+		for member in second.pack.members:
+			if member.health.is_alive():
+				player.global_position = member.global_position + Vector3(0, 0, 2.1)
+				player.rotation.y = 0
+				break
 		player.combat.request_attack()
 		while player.combat.is_attacking():
 			await frames(1)

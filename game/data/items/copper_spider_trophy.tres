@@ -1,6 +1,6 @@
 [gd_resource type="Resource" format=3]
 [ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="script"]
-[ext_resource type="Texture2D" path="res://assets/icons/material.svg" id="icon"]
+[ext_resource type="Texture2D" path="res://assets/icons/trophies/copper_spider_trophy.svg" id="icon"]
 [resource]
 script = ExtResource("script")
 id = &"copper_spider_trophy"

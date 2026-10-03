@@ -1,0 +1,114 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Economy, ingredients and crafting · Ironfield concepts</title><link rel="stylesheet" href="../concepts.css"></head><body><header><a class="brand" href="../index.html">IRONFIELD</a><nav aria-label="Main"><a href="../index.html">Design sheets</a><a href="../bestiary.html">Bestiary</a><a href="../art_gallery.html">Concept art</a><a href="../Ironfield_Concepts.xlsx">Workbook</a></nav></header><main class="doc"><p class="eyebrow">Design sheet 11 · 3 October 2026</p><h1 id="economy-ingredients-and-crafting">Economy, ingredients and crafting</h1>
+<p><img alt="Mastery and smithing materials" src="../art/fractures_mastery.png" /></p>
+<p>Gold comes from hunting, explicit quest rewards and selling unwanted loot. It leaves the economy through supplies, replacement gear, smithing, crafting and optional resets/travel. Destructive smithing also removes equipment, while successful mastery learning removes Leaves.</p>
+<h2 id="exact-trophy-ingredients-by-gear-tier">Exact trophy ingredients by gear tier</h2>
+<p>For this first proposal every item in one gear tier uses the same specified trophy. Later family-specific recipes can vary that input, but cannot accept arbitrary trophies without a documented recipe change.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Gear tier</th>
+<th>Required trophy / item ID</th>
+<th>Primary current drop source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T1</td>
+<td>Meadow Wolf trophy / <code>meadow_wolf_trophy</code></td>
+<td>Meadow Wolf, level 1</td>
+</tr>
+<tr>
+<td>T2</td>
+<td>Grey Wolf trophy / <code>grey_wolf_trophy</code></td>
+<td>Grey Wolf, level 6</td>
+</tr>
+<tr>
+<td>T3</td>
+<td>Blacktusk trophy / <code>blacktusk_trophy</code></td>
+<td>Blacktusk, level 11</td>
+</tr>
+<tr>
+<td>T4</td>
+<td>Ironhide Boar trophy / <code>ironhide_boar_trophy</code></td>
+<td>Ironhide Boar, level 16</td>
+</tr>
+<tr>
+<td>T5</td>
+<td>Obsidian Boar trophy / <code>obsidian_boar_trophy</code></td>
+<td>Obsidian Boar, level 21</td>
+</tr>
+</tbody>
+</table></div>
+<p>Use the actual item display names and base rates in <a href="../tables/mob_drops.csv">mob_drops.csv</a>; the table above names the enemy origin. The <a href="../tables/smithing_upgrades.csv">smithing table</a> gives the count for every tier/+ step. All ingredients, including required trophy IDs, are expanded there.</p>
+<h2 id="materials-and-acquisition">Materials and acquisition</h2>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Role</th>
+<th>Proposed acquisition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Moss Shard</td>
+<td>Common ingredient at every + step</td>
+<td>Existing Mossling/core drops; keep on all higher-band Fractures at 80%, quantity 1–2</td>
+</tr>
+<tr>
+<td>Tier trophy</td>
+<td>Gear-band ingredient</td>
+<td>Existing matching mob loot; current-band Fracture material rolls and conversion provide later access</td>
+</tr>
+<tr>
+<td>Tempered Ore, new</td>
+<td>+4–+9 construction input</td>
+<td>Fracture chance 35/45/55/65% by core band, quantity 1; optional paid conversion</td>
+</tr>
+<tr>
+<td>Wakeglass Ember</td>
+<td>+7–+9 input</td>
+<td>Current Briarwake base 18%; stronger Fractures 22/28/35%; no guaranteed upgrade</td>
+</tr>
+<tr>
+<td>Mastery Leaf, new</td>
+<td>M1–M10 learning</td>
+<td>Destroyed core only; distinct from Wave drops and Wakeglass</td>
+</tr>
+</tbody>
+</table></div>
+<p>Proposed extra core material rolls: each core independently offers all listed tier trophies at <strong>60% each</strong>, quantity <strong>1–3</strong>, for tiers up to its own tier. Briarwake offers T1–T2; Cairnwake T1–T3; Ashwake T1–T4; Crownwake T1–T5. Each of these rolls receives the core's level multiplier. This keeps older recipes supplyable through current-band farming without bypassing the level-gap rule. See <a href="../tables/fracture_materials.csv">fracture_materials.csv</a>.</p>
+<h2 id="crafting-proposals">Crafting proposals</h2>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Recipe at Ilyra / Oren</th>
+<th>Inputs</th>
+<th>Output / certainty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tempered Ore conversion</td>
+<td>10 Moss Shards + 150 gold</td>
+<td>1 Ore, guaranteed</td>
+</tr>
+<tr>
+<td>Trophy conversion</td>
+<td>3 trophies from the next higher gear tier + 50 gold</td>
+<td>1 specified trophy of the adjacent lower tier, guaranteed</td>
+</tr>
+<tr>
+<td>Band relic construction</td>
+<td>20 specified band trophies + 5 Ore + 2 Wakeglass + 1,000 × tier gold</td>
+<td>One chosen existing-band relic at +0, guaranteed</td>
+</tr>
+</tbody>
+</table></div>
+<p>Crafting does not copy the input weapon or carry its + level onto a new item. The output is a fresh item. Craft inputs are consumed atomically only when the requested output can be granted. Rare world drops remain a faster lucky route, while crafting provides a measurable long-term alternative.</p>
+<h2 id="supply-and-shop-rules">Supply and shop rules</h2>
+<p>Merchants always supply a viable ordinary weapon and armor for the player's unlocked hunting band. Recipes and prices are explicit. Sellback is below buy price and below material crafting cost, so buying/crafting/selling cannot print gold. Mastery Leaves have no NPC purchase path in this proposal; they retain the Fracture-farming requirement.</p>
+<p>Existing Trail Bridle price is <strong>240 gold</strong>, and existing horse speed is <strong>8.8 m/s</strong>. Other merchant prices remain current resource values until a separate tuned shop table is approved. Do not pretend the proposed crafting recipes are already present in the merchant resources.</p>
+<h2 id="balance-measurements">Balance measurements</h2>
+<p>Track gold earned per minute, potion spending, ingredient yield, replacement cost, smithing cost per surviving + level and Leaves per core clear. Evaluate equal-level rates first, then realistic route level differences. The product of destructive success rates is central: a 15% final step does not mean a fresh T5 +9 item takes only seven base items.</p>
+<p>Future player trade can redistribute ingredients and replacements. It must preserve item identity and mastery ownership; skill-learning records are character progression, not tradeable equipment properties.</p><p class="footer"><a href="../index.html">All design sheets</a> · <a href="11_economy_and_crafting.md">Markdown source</a> · Fixed user rules with clearly marked proposed tuning.</p></main></body></html>

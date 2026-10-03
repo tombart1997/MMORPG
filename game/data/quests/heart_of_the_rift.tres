@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/quests/quest_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"heart_of_the_rift"
+title = "Heart of the Rift"
+description = "Defeat the Rift Sentinel in the southern basin and return to Vela."
+giver = &"ash_scout"
+turn_in = &"ash_scout"
+prerequisites = Array[StringName]([&"shattered_web"])
+required_level = 25
+objectives = Array[Dictionary]([{"type":"kill","target":"rift_sentinel","amount":1,"label":"Defeat the Rift Sentinel"},{"type":"return","target":"ash_scout","amount":1,"label":"Return to Scout Vela"}])
+gold = 240
+xp = 600
+items = {"rift_cleaver":1}

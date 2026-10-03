@@ -30,6 +30,7 @@ var map_state: PlayerMap
 var body_collider: CollisionShape3D
 var farming: FarmingState
 var visual_elapsed: float = 0
+var simulation_interval: float = 0.0
 
 func _ready() -> void:
 	add_to_group(faction)
@@ -63,15 +64,18 @@ func _ready() -> void:
 
 func _process(delta: float) -> void:
 	visual_elapsed += delta
+	if simulation_interval > 0 and visual_elapsed < simulation_interval and not combat.is_attacking(): return
 	# Nearby action retains full-rate telegraphs. Distant idle skeletons tick at 5 Hz.
-	if faction == &"enemies" and health.is_alive() and not combat.is_attacking():
+	if not has_meta("full_detail") and faction == &"enemies" and health.is_alive() and not combat.is_attacking():
 		var camera := get_viewport().get_camera_3d()
 		if camera and camera.global_position.distance_squared_to(global_position) > 900 and visual_elapsed < 0.2: return
 	visual.present(velocity, combat, health, title, visual_elapsed)
 	visual_elapsed = 0
 
-func _on_damaged(_amount: float, _source: Node3D) -> void:
+func _on_damaged(amount: float, source: Node3D) -> void:
+	IronfieldAudio.instance.play_at(&"metal" if enemy_definition and enemy_definition.family == &"stonekin" else &"hit",global_position+Vector3.UP*.8,-3)
 	visual.react_to_hit()
+	DamageCaption.show_hit(self, amount, source)
 
 func _on_died(_source: Node3D) -> void:
 	combat.cancel()

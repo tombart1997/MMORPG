@@ -1,0 +1,14 @@
+{
+	"audio_events": {
+		"hit": 2,
+		"hoof": 1,
+		"mount": 1,
+		"swing": 2,
+		"voice": 2
+	},
+	"failures": 0,
+	"foot_error_m": 0.000862377637531608,
+	"hip_degrees": 21.9663698990975,
+	"rein_error_m": 0.00492041977122426,
+	"shoulder_degrees": 90.6688282883842
+}

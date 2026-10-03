@@ -1,0 +1,47 @@
+{
+	"amber": {
+		"draw_calls": 1700.15,
+		"enemies": 175,
+		"median_ms": 12.809,
+		"p95_ms": 17.54,
+		"primitives": 2831096.05
+	},
+	"basin": {
+		"draw_calls": 790.0,
+		"enemies": 19,
+		"median_ms": 5.098,
+		"p95_ms": 8.329,
+		"primitives": 438790.0
+	},
+	"cinderfall_startup_ms": 1446,
+	"hardware": "NVIDIA GeForce GTX 1080",
+	"outdoor_startup_ms": 7440,
+	"outpost": {
+		"draw_calls": 823.0,
+		"enemies": 19,
+		"median_ms": 4.996,
+		"p95_ms": 6.516,
+		"primitives": 378840.0
+	},
+	"route": {
+		"draw_calls": 1974.0,
+		"enemies": 203,
+		"median_ms": 16.31,
+		"p95_ms": 25.097,
+		"primitives": 1769051.7
+	},
+	"settlement": {
+		"draw_calls": 1955.0,
+		"enemies": 68,
+		"median_ms": 8.69,
+		"p95_ms": 13.878,
+		"primitives": 1104531.0
+	},
+	"verge": {
+		"draw_calls": 1471.0,
+		"enemies": 117,
+		"median_ms": 8.861,
+		"p95_ms": 11.541,
+		"primitives": 2033227.8
+	}
+}

@@ -1,0 +1,28 @@
+﻿status,stage,previous_stage,skill_point_cost,mastery_leaf_cost,cumulative_skill_points,cumulative_mastery_leaves,result,potency_multiplier
+PROPOSED,1,0,1,0,1,0,Basic skill rank,1.0
+PROPOSED,2,1,1,0,2,0,Basic skill rank,1.02
+PROPOSED,3,2,1,0,3,0,Basic skill rank,1.04
+PROPOSED,4,3,1,0,4,0,Basic skill rank,1.06
+PROPOSED,5,4,1,0,5,0,Basic skill rank,1.08
+PROPOSED,6,5,1,0,6,0,Basic skill rank,1.1
+PROPOSED,7,6,1,0,7,0,Basic skill rank,1.12
+PROPOSED,8,7,1,0,8,0,Basic skill rank,1.14
+PROPOSED,9,8,1,0,9,0,Basic skill rank,1.16
+PROPOSED,10,9,1,0,10,0,Basic skill rank,1.18
+PROPOSED,11,10,1,0,11,0,Basic skill rank,1.2
+PROPOSED,12,11,1,0,12,0,Basic skill rank,1.22
+PROPOSED,13,12,1,0,13,0,Basic skill rank,1.24
+PROPOSED,14,13,1,0,14,0,Basic skill rank,1.26
+PROPOSED,15,14,1,0,15,0,Basic skill rank,1.28
+PROPOSED,16,15,1,0,16,0,Basic skill rank,1.3
+PROPOSED,M,16,1,0,17,0,Mastery I: M,1.32
+PROPOSED,M1,M,0,1,17,1,Mastery I progression,1.35
+PROPOSED,M2,M1,0,2,17,3,Mastery I progression,1.38
+PROPOSED,M3,M2,0,3,17,6,Mastery I progression,1.41
+PROPOSED,M4,M3,0,4,17,10,Mastery I progression,1.44
+PROPOSED,M5,M4,0,5,17,15,Mastery I progression,1.47
+PROPOSED,M6,M5,0,6,17,21,Mastery I progression,1.5
+PROPOSED,M7,M6,0,7,17,28,Mastery I progression,1.53
+PROPOSED,M8,M7,0,8,17,36,Mastery I progression,1.56
+PROPOSED,M9,M8,0,9,17,45,Mastery I progression,1.59
+PROPOSED,M10,M9,0,10,17,55,G: Mastery II / maximum,1.62

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ironfield · Horse, swords and sound</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,sans-serif;background:#101716;color:#e5e6dd}body{max-width:1120px;margin:36px auto;padding:0 20px}h1{font-weight:600;font-size:30px;margin-bottom:8px}p{line-height:1.6;color:#b9c7bf}a{color:#d8c080}nav{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 14px}button{background:#20332f;color:#eee;border:1px solid #496b5d;border-radius:6px;padding:10px 15px;cursor:pointer}button[aria-pressed=true]{background:#d0b371;color:#131d17}img,video{width:100%;border-radius:8px;background:#080c0a}figure{margin:0}figcaption{padding:12px 0;color:#b9c7bf;line-height:1.5}.audio{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin:22px 0}.audio article{background:#172622;border:1px solid #30433b;border-radius:8px;padding:16px}audio{width:100%;margin-top:10px}h2{font-size:22px;margin-top:32px}.tag{font-size:13px;letter-spacing:.08em;color:#d0b371}.details{border-top:1px solid #30433b;margin-top:30px;padding-top:20px}
+</style>
+<p class="tag">IRONFIELD · IN-GAME REVIEW</p>
+<h1>Horse, forged swords, minted gold and sound</h1>
+<p>Rendered in the actual Briarwood scene. Select a close-up or inspect the two mounted cuts. The walkthrough and audio below were captured from Godot.</p>
+<nav id="views" aria-label="Rendered views"></nav>
+<figure><img id="render" src="horse_close.png" alt="Bay horse and rider in Briarwood"><figcaption id="caption"></figcaption></figure>
+<h2>Mounted cuts</h2>
+<nav id="cuts" aria-label="Mounted attack frames"></nav>
+<figure><img id="cut" src="mounted_cut0_frame5.png" alt="Mounted sword attack"><figcaption>Actual combat frames: windup, impact and recovery. The rider twists the hips and shoulders while the boots and rein hand stay attached.</figcaption></figure>
+<h2>Recorded walkthrough</h2>
+<video controls preload="metadata" poster="horse_close.png" src="walkthrough.mp4"></video>
+<p>The 6.6-second capture moves through the asset views, horse travel, both real hits, conversation and region music transition. Enable its sound to hear the game mix.</p>
+<h2>Listen</h2>
+<section class="audio">
+<article>Captured runtime mix<audio controls preload="metadata" src="runtime_mix.ogg"></audio></article>
+<article>Warden Elric · full first dialogue<audio controls preload="metadata" src="../../../game/assets/audio/voices/warden_page0.ogg"></audio></article>
+<article>Mara · shop greeting<audio controls preload="metadata" src="../../../game/assets/audio/voices/mara_greeting.ogg"></audio></article>
+<article>Briarwood · region music<audio controls preload="metadata" src="../../../game/assets/audio/music_briarwood.ogg"></audio></article>
+<article>Cinderfall · region music<audio controls preload="metadata" src="../../../game/assets/audio/music_cinderfall.ogg"></audio></article>
+<article>Blade impact<audio controls preload="metadata" src="../../../game/assets/audio/sfx/hit_flesh.ogg"></audio></article>
+</section>
+<p>NPC voices are synthetic recordings of the existing dialogue. All game playback is offline. Press F8 in the game to mute or unmute.</p>
+<p class="details">The mounted review measured 22° pelvis rotation, 91° chest rotation, less than 1 mm stirrup error and about 5 mm rein-hand error. See the <a href="../../PRESENTATION_UPGRADE.md">implementation and asset notes</a> or <a href="metrics.json">captured measurements</a>.</p>
+<script>
+const views=[['Horse','horse_close','Continuous bay skin, articulated legs, fitted bridle, saddle, stirrups and reins.'],['Character','hero_face','East Asian facial pass on the existing hero, with dark brown eyes, black tied hair and preserved wardrobe.'],['Sword kit','sword_suite','Ten forged designs: Wayfarer, Marchguard, Briarsteel, Cairnwarden, Wakecleaver, Frontier, Relic, Ember, Glass and Rift.'],['Gold','minted_gold','Instanced minted cash coins with raised seals, beveled rims, thickness and square holes.'],['Ground loot','ground_weapons','Dropped swords show the same models used by equipped items, resting on terrain.'],['Mounted play','mounted_profile','The horse uses the existing mount movement, collision and ownership systems.'],['Travel','horse_canter','Canter selected from the actual travel speed; hoof sounds follow animated contacts.'],['Conversation','npc_voice','The existing NPC panel plays the displayed page and lowers the background music.']];
+const nav=document.getElementById('views');
+for(const [label,file,description] of views){const b=document.createElement('button');b.textContent=label;b.setAttribute('aria-pressed','false');b.onclick=()=>{nav.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');document.getElementById('render').src=file+'.png';document.getElementById('render').alt=description;document.getElementById('caption').textContent=description;};nav.append(b);}nav.firstChild.click();
+for(let side=0;side<2;side++){[5,15,25].forEach((frame,i)=>{const b=document.createElement('button');b.textContent=(side?'Right':'Left')+' · '+['Windup','Impact','Recovery'][i];b.onclick=()=>document.getElementById('cut').src=`mounted_cut${side}_frame${frame}.png`;document.getElementById('cuts').append(b);});}
+document.querySelectorAll('audio,video').forEach(player=>player.addEventListener('play',()=>document.querySelectorAll('audio,video').forEach(other=>{if(other!==player)other.pause();})));
+</script>
+</html>

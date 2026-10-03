@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Endgame, bosses and future online play · Ironfield concepts</title><link rel="stylesheet" href="../concepts.css"></head><body><header><a class="brand" href="../index.html">IRONFIELD</a><nav aria-label="Main"><a href="../index.html">Design sheets</a><a href="../bestiary.html">Bestiary</a><a href="../art_gallery.html">Concept art</a><a href="../Ironfield_Concepts.xlsx">Workbook</a></nav></header><main class="doc"><p class="eyebrow">Design sheet 15 · 3 October 2026</p><h1 id="endgame-bosses-and-future-online-play">Endgame, bosses and future online play</h1>
+<p><strong>Proposed future scope.</strong> The current project is offline; these systems require later implementation and balancing.</p>
+<p><img alt="Regional endgame direction" src="../art/world_cinderfall.png" /></p>
+<h2 id="endgame-at-level-50">Endgame at level 50</h2>
+<p>Continue improving chosen skills to G, assemble +9 equipment, complete harder farming circuits and craft distinct relics. Max level stops XP/stat rewards but does not remove item or mastery goals. +9 gear is aspirational; ordinary upgraded equipment must still support useful current-level farming.</p>
+<p>Avoid endless increases to the equipment cap or a hidden mastery tier above G. New regions should add meaningful encounters, weapon identities and build choices while keeping +9/G rules legible. A future level-cap increase must grant exactly four new stat points and one skill point per new level rather than rescaling old earned budgets.</p>
+<h2 id="boss-structure">Boss structure</h2>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Boss tier</th>
+<th>Encounter role</th>
+<th>Reward direction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T3 leaders, e.g. Moonfang / Slate Guardian</td>
+<td>Short focused solo challenge</td>
+<td>Distinct trophy and band relic rolls</td>
+</tr>
+<tr>
+<td>T4 threats, e.g. Bloodfang / Silk Matron / Rift Sentinel</td>
+<td>Prepared solo or small-party pressure</td>
+<td>Rarer gear, stronger crafting supply</td>
+</tr>
+<tr>
+<td>T5, e.g. Cairn Colossus / Ancient Warden</td>
+<td>Regional climax, later group variants</td>
+<td>High-tier construction material and unique relic forms</td>
+</tr>
+<tr>
+<td>Future Crownless Warden</td>
+<td>Level-50 route finale</td>
+<td>Crown-band relic recipes and cosmetic achievement</td>
+</tr>
+</tbody>
+</table></div>
+<p>Current T values describe resource threat categories, not proof of online raid implementation. A group version must list separate HP, damage, mechanics, participation requirements and per-item rewards. Do not merely multiply solo boss HP until the encounter becomes a long stationary damage test.</p>
+<p>Bosses need a recognisable windup, pressure that asks for movement, an opportunity to punish recovery, and a clearly bounded area. Terrain should not trap horses or ranged players behind invisible blockers. Resetting a boss grants no reward and cannot preserve partially rolled loot.</p>
+<h2 id="parties-and-personal-loot">Parties and personal loot</h2>
+<p>Proposed party size is four. Record meaningful participation through damage, healing and support events, with bounded anti-idle criteria. On completion, each eligible player receives personal item rolls using their own level gap. Another party member's level does not overwrite that factor. Shared encounter completion is recorded once; reward transactions are per eligible participant and idempotent.</p>
+<p>Party XP sharing is undecided; the single-player EXP values in the current table are not a finished party formula. Define it separately before network implementation. Personal loot avoids last-hit competition while rare crafting ingredients can still support trade.</p>
+<h2 id="trade-guilds-and-pvp">Trade, guilds and PvP</h2>
+<p>Equipment and ordinary crafting ingredients can be traded through a confirmed two-sided offer. Show exact item, quantity, + level and gold. Lock changed offers until both players confirm again. Mastery skill records are character-bound; the first proposal keeps Mastery Leaves character-bound too, preserving the spawn-point progression loop.</p>
+<p>Guilds can offer shared objectives, route events and cosmetic standards. No guild bonus should multiply smithing success into a guaranteed high-tier outcome. Guild storage needs explicit permissions and a transaction log before use.</p>
+<p>PvP is opt-in in marked areas with safe town boundaries. Begin with normalized sparring and a separately reviewed damage/control rule set. Do not enable unrestricted item theft or destruction on ordinary player death; the agreed destruction mechanic belongs to deliberate smithing attempts.</p>
+<h2 id="persistence-authority">Persistence authority</h2>
+<p>A future server owns XP milestones, skill points, inventory, gold, upgrade rolls, mastery learning, encounter completion and reward ownership. Clients request an action and display the recorded result. Transaction identifiers prevent retries from repeating spending or granting rewards. The offline save format should preserve stable item/skill IDs to make later migration possible.</p>
+<p>Implement in this order: fixed progression and smithing rules; reliable single-player persistence; complete encounter/reward context; explicit party rules; then authoritative networking and trade. Art and design approval cannot establish that online authority or economy security has been implemented.</p><p class="footer"><a href="../index.html">All design sheets</a> · <a href="15_endgame_and_online.md">Markdown source</a> · Fixed user rules with clearly marked proposed tuning.</p></main></body></html>

@@ -8,3 +8,9 @@ script = ExtResource("1")
 model = ExtResource("2")
 weapon = ExtResource("3")
 armor = ExtResource("4")
+preserve_authored_materials = true
+socket_offsets = {
+&"WeaponSocket": Vector3(0, -0.06, -0.035),
+&"OffhandSocket": Vector3(0, -0.06, -0.035),
+&"ArmorSocket": Vector3(0, 0, -0.045)
+}

@@ -1,0 +1,34 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/ai/enemy_data.gd" id="script"]
+[ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="attack"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/field_creature.tscn" id="visual"]
+[ext_resource type="Resource" path="res://data/drops/cairn_sentinel.tres" id="drops"]
+[sub_resource type="Resource" id="strike"]
+script = ExtResource("attack")
+display_name = "Rift Sentinel strike"
+damage = 75.0
+windup = 0.4
+active = 0.16
+recovery = 0.82
+reach = 2.3
+cone_degrees = 100.0
+[resource]
+script = ExtResource("script")
+id = &"rift_sentinel"
+display_name = "Rift Sentinel"
+level = 25
+tier = 4
+family = &"stonekin"
+tint = Color(0.48, 0.34, 0.59, 1)
+maximum_health = 1700.0
+defense = 8.0
+attack = SubResource("strike")
+visual = ExtResource("visual")
+visual_scale = 1.7
+speed = 3.3
+aggro_radius = 9.0
+xp = 300
+gold_min = 50
+gold_max = 75
+drops = ExtResource("drops")
+

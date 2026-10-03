@@ -3,7 +3,9 @@ extends RefCounted
 static var definitions: Dictionary = {}
 static func all() -> Dictionary:
 	if definitions.is_empty():
-		for id in ["welcome", "briar_watch", "first_temper"]:
-			var data := load("res://data/quests/" + id + ".tres") as QuestData
-			definitions[data.id] = data
+		for file in DirAccess.get_files_at("res://data/quests"):
+			file = file.trim_suffix(".remap")
+			if not file.ends_with(".tres"): continue
+			var data := load("res://data/quests/" + file) as QuestData
+			if data and data.id != &"": definitions[data.id] = data
 	return definitions

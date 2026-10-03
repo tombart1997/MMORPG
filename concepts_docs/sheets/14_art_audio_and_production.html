@@ -1,0 +1,85 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Art direction, audio and production acceptance · Ironfield concepts</title><link rel="stylesheet" href="../concepts.css"></head><body><header><a class="brand" href="../index.html">IRONFIELD</a><nav aria-label="Main"><a href="../index.html">Design sheets</a><a href="../bestiary.html">Bestiary</a><a href="../art_gallery.html">Concept art</a><a href="../Ironfield_Concepts.xlsx">Workbook</a></nav></header><main class="doc"><p class="eyebrow">Design sheet 14 · 3 October 2026</p><h1 id="art-direction-audio-and-production-acceptance">Art direction, audio and production acceptance</h1>
+<p><img alt="Player class material and silhouette direction" src="../art/classes_four.png" /></p>
+<h2 id="shared-visual-language">Shared visual language</h2>
+<p>Grounded stylized proportions, Korean-inspired frontier clothing and structures, weathered useful objects, and clear constructed materials. Palette: muted jade/olive vegetation, ochre grass, blue-grey slate, warm skin, dark leather, brass, steel and a restrained oxblood sash/banner accent.</p>
+<p>Large forms carry identity: branching trees, hunched root creatures, layered stone guardians and fitted lamellar. Avoid recognizable stacks of construction primitives, perfectly repeated foliage crowns, identical rounded shoulders and glowing balls without a physical core.</p>
+<p>Amber marks Fracture activity. Class effects can use distinct narrow hues; upgraded equipment follows the fixed +7 blue / +8 red / +9 violet sparks. Environment glow must not overwhelm attack warnings or high-tier equipment effects.</p>
+<h2 id="asset-acceptance">Asset acceptance</h2>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Asset</th>
+<th>Required review</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Humanoid</td>
+<td>Front/side/three-quarter proportions, face, hand grip, armor fit, cloth movement</td>
+</tr>
+<tr>
+<td>Creature</td>
+<td>Anatomically legible limbs, distinct tier silhouette, readable windup, grounded contact</td>
+</tr>
+<tr>
+<td>Horse and mounted rider</td>
+<td>Separate anatomy review, tack fit, feet/reins contact, idle/walk/canter inspection</td>
+</tr>
+<tr>
+<td>Equipment</td>
+<td>Same identity at all + levels, correct material shine and ordered sparks</td>
+</tr>
+<tr>
+<td>Environment kit</td>
+<td>Gameplay-camera readability, natural clustering, collision and route clearances</td>
+</tr>
+<tr>
+<td>Fracture</td>
+<td>Dormant/active/damaged/destroyed states, open warning floor, readable reward scatter</td>
+</tr>
+</tbody>
+</table></div>
+<p>Open and inspect actual rendered images. Inspect exported assets with materials inside Godot. A successful export does not demonstrate good proportions, and an AI concept plate is not a shipped model. Keep editable Blender sources, reproducible exports and import manifests.</p>
+<h2 id="rendering-and-performance">Rendering and performance</h2>
+<p>The current prototype uses Godot's GL Compatibility renderer. Design effects that remain readable there rather than assuming a different rendering feature set. Consolidate runtime characters sensibly by material and skin; repeated foliage should use instancing. Particle counts, light counts and shadow costs need scene-level limits.</p>
+<p>Review actual crowds at 10/20/40/80 enemies and ordinary camera distance. Reduce effects density under load without changing attack timing, hit logic or upgrade identity. Avoid assigning a universal polygon limit from one model; record triangles, surfaces, draws, materials and the observed frame cost.</p>
+<h2 id="audio-direction">Audio direction</h2>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Character</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Foot/hoof contact</td>
+<td>Distinct earth, timber and slate; restrained per-step variation</td>
+</tr>
+<tr>
+<td>Steel hit / guard</td>
+<td>Short metal/body contact matched to real hit events</td>
+</tr>
+<tr>
+<td>Fracture wave / collapse</td>
+<td>Root creak or stone strain, clear warning cue, brief falling-rib sound</td>
+</tr>
+<tr>
+<td>Smith success / failure</td>
+<td>Tempered ringing versus a short fractured impact, with outcome text</td>
+</tr>
+<tr>
+<td>Mastery learned</td>
+<td>Small page/rune cue, no lengthy fanfare on every spend</td>
+</tr>
+<tr>
+<td>Region ambience</td>
+<td>Wind, leaves, forge work, reeds or distant basin cracks; leave room for attack tells</td>
+</tr>
+</tbody>
+</table></div>
+<p>Music supports the region with sparse acoustic/percussive themes and limited encounter intensification. Do not cover important warnings with a constant loud loop. Maintain separate volume controls.</p>
+<h2 id="concept-art-provenance">Concept-art provenance</h2>
+<p>All PNG concept plates in this folder were generated with the built-in image generation tool for this project. Exact prompts are preserved in <a href="../art/prompts.json">prompts.json</a>. They are illustrations of design intent, not photographs, model renders or copies of free downloadable runtime assets.</p>
+<p>The existing horse asset's separate free-source attribution remains in the project's <a href="../../blender/reference/horse/LICENSE.md">horse license record</a>. Retain the license and source for every externally acquired model, texture, sound or font. The concept-art creation here does not alter those asset records.</p>
+<p>See <a href="../art/ART_REVIEW.md">ART_REVIEW.md</a> for plate-level inspection and <a href="../../ART_DIRECTION.md">existing art benchmark</a> for current implementation limitations.</p><p class="footer"><a href="../index.html">All design sheets</a> · <a href="14_art_audio_and_production.md">Markdown source</a> · Fixed user rules with clearly marked proposed tuning.</p></main></body></html>

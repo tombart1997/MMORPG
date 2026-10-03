@@ -1,0 +1,5 @@
+﻿status,id,name,level,gear_tier,hp,exp,gold_min,gold_max,mastery_leaf_base_pct,mastery_leaf_min,mastery_leaf_max,wakeglass_base_pct,tempered_ore_base_pct,respawn_seconds
+PROPOSED,briarwake,Briarwake Fracture,7,2,1800,100,28,42,40,1,1,18,35,180
+PROPOSED,cairnwake,Cairnwake Fracture,15,3,6000,300,65,95,50,1,1,22,45,240
+PROPOSED,ashwake,Ashwake Fracture,24,4,14000,700,140,210,60,1,2,28,55,300
+PROPOSED,crownwake,Crownwake Fracture,40,5,36000,1800,360,520,65,1,2,35,65,360

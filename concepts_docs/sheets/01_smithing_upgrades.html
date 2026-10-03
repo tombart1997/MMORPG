@@ -1,0 +1,188 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Smithing upgrades — +0 to +9 · Ironfield concepts</title><link rel="stylesheet" href="../concepts.css"></head><body><header><a class="brand" href="../index.html">IRONFIELD</a><nav aria-label="Main"><a href="../index.html">Design sheets</a><a href="../bestiary.html">Bestiary</a><a href="../art_gallery.html">Concept art</a><a href="../Ironfield_Concepts.xlsx">Workbook</a></nav></header><main class="doc"><p class="eyebrow">Design sheet 01 · 3 October 2026</p><h1 id="smithing-upgrades-0-to-9">Smithing upgrades — +0 to +9</h1>
+<p><strong>Fixed:</strong> all equipment supports +9; failed upgrades destroy the item; higher gear tiers are riskier. <strong>Proposed:</strong> the exact odds, prices and ingredients below.</p>
+<p><img alt="Weapon and armor tempering progression" src="../art/gear_upgrades.png" /></p>
+<h2 id="success-and-failure-rates">Success and failure rates</h2>
+<p>Each column is the destination upgrade. Failure chance is <code>100% − success chance</code>. Weapon, armor and accessory profiles use the same tier table.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Gear tier / item level band</th>
+<th style="text-align: right;">+1</th>
+<th style="text-align: right;">+2</th>
+<th style="text-align: right;">+3</th>
+<th style="text-align: right;">+4</th>
+<th style="text-align: right;">+5</th>
+<th style="text-align: right;">+6</th>
+<th style="text-align: right;">+7</th>
+<th style="text-align: right;">+8</th>
+<th style="text-align: right;">+9</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T1 / 1–5</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">95%</td>
+<td style="text-align: right;">90%</td>
+<td style="text-align: right;">85%</td>
+<td style="text-align: right;">80%</td>
+<td style="text-align: right;">70%</td>
+<td style="text-align: right;">60%</td>
+<td style="text-align: right;">50%</td>
+</tr>
+<tr>
+<td>T2 / 6–10</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">95%</td>
+<td style="text-align: right;">90%</td>
+<td style="text-align: right;">85%</td>
+<td style="text-align: right;">75%</td>
+<td style="text-align: right;">65%</td>
+<td style="text-align: right;">55%</td>
+<td style="text-align: right;">45%</td>
+<td style="text-align: right;">35%</td>
+</tr>
+<tr>
+<td>T3 / 11–15</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">95%</td>
+<td style="text-align: right;">85%</td>
+<td style="text-align: right;">80%</td>
+<td style="text-align: right;">70%</td>
+<td style="text-align: right;">60%</td>
+<td style="text-align: right;">50%</td>
+<td style="text-align: right;">35%</td>
+<td style="text-align: right;">25%</td>
+</tr>
+<tr>
+<td>T4 / 16–20</td>
+<td style="text-align: right;">98%</td>
+<td style="text-align: right;">92%</td>
+<td style="text-align: right;">83%</td>
+<td style="text-align: right;">78%</td>
+<td style="text-align: right;">68%</td>
+<td style="text-align: right;">58%</td>
+<td style="text-align: right;">45%</td>
+<td style="text-align: right;">30%</td>
+<td style="text-align: right;">20%</td>
+</tr>
+<tr>
+<td>T5 / 21+</td>
+<td style="text-align: right;">95%</td>
+<td style="text-align: right;">90%</td>
+<td style="text-align: right;">82%</td>
+<td style="text-align: right;">75%</td>
+<td style="text-align: right;">65%</td>
+<td style="text-align: right;">55%</td>
+<td style="text-align: right;">40%</td>
+<td style="text-align: right;">25%</td>
+<td style="text-align: right;">15%</td>
+</tr>
+</tbody>
+</table></div>
+<p>Tier is an item property derived from its intended level band, not the player's level, rarity colour, or current + value. Rare and ordinary equipment in the same band use the same risk profile. The <a href="../tables/equipment_catalogue.csv">equipment catalogue</a> distinguishes current item level requirements from proposed tier assignments.</p>
+<h2 id="required-loot-and-gold">Required loot and gold</h2>
+<p><code>n</code> is the destination + level; <code>t</code> is the gear tier. Each attempt consumes Moss Shards × <code>n</code>, a matching tier trophy × <code>ceil(n / 3) × t</code>, the listed Tempered Ore and Wakeglass, plus gold. The exact trophy IDs are listed in <a href="11_economy_and_crafting.html">economy and crafting</a> and expanded in each CSV row. This is one specific trophy type, not a choice of any item with that tier. Tempered Ore is a proposed new material.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Destination</th>
+<th style="text-align: right;">Base gold</th>
+<th style="text-align: right;">Moss Shards</th>
+<th style="text-align: right;">Tier-trophy count</th>
+<th style="text-align: right;">Tempered Ore</th>
+<th style="text-align: right;">Wakeglass Ember</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+1</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1 × t</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>+2</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1 × t</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>+3</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1 × t</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>+4</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2 × t</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>+5</td>
+<td style="text-align: right;">150</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">2 × t</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>+6</td>
+<td style="text-align: right;">230</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">2 × t</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>+7</td>
+<td style="text-align: right;">350</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">3 × t</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>+8</td>
+<td style="text-align: right;">520</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">3 × t</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>+9</td>
+<td style="text-align: right;">760</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">3 × t</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">3</td>
+</tr>
+</tbody>
+</table></div>
+<p>Multiply base gold by T1 <strong>1</strong>, T2 <strong>2</strong>, T3 <strong>4</strong>, T4 <strong>7</strong>, T5 <strong>11</strong>. Exact expanded values, failure rates and accumulated risk are in <a href="../tables/smithing_upgrades.csv">smithing_upgrades.csv</a>.</p>
+<p>Example: a T3 weapon at +6 attempting +7 costs <strong>1,400 gold, 7 Moss Shards, 9 specified T3 trophies, 2 Tempered Ore and 1 Wakeglass</strong>. Success is <strong>50%</strong>; failure is <strong>50%</strong> and destroys the weapon. Attempting the same transition on T5 costs 3,850 gold and 15 matching T5 trophies; success is 40%.</p>
+<h2 id="transaction-and-failure">Transaction and failure</h2>
+<ol>
+<li>The player selects one item at Smith Oren while outside combat. The screen shows item identity, current +, destination +, exact success and failure probabilities, resulting stats, and all ingredients.</li>
+<li>The player confirms the displayed attempt. Missing costs, wrong item, distance changes or a changed inventory cancel without payment or a roll.</li>
+<li>Gold and ingredients are consumed once. One roll determines the outcome.</li>
+<li>Success preserves the item's identity, sockets and unrelated modifiers, then sets the new + value. Failure removes the complete item including attached modifications. Equipped items are unequipped atomically and their stats/visuals are removed.</li>
+<li>Persist the outcome before allowing another attempt. A crash, save reload or duplicate click must not re-roll or spend twice. The outcome text names the lost item on failure.</li>
+</ol>
+<p>No loss occurs from opening or cancelling the panel. A +9 item has no further quote. There is no downgrade or retention on a failed attempt. Quest progress only records a successful upgrade.</p>
+<h2 id="risk-across-the-entire-route">Risk across the entire route</h2>
+<p>The probability that one +0 item survives to +9 is the product of all nine success probabilities. It is much smaller than the final step's probability. The workbook includes both route survival and expected fresh base items, so repeated destructive attempts can be evaluated before release. These are mathematical expectations, not guaranteed attempt counts.</p>
+<p>Keep a viable replacement weapon available from town. Tune gold and ingredient supply against real farming time, especially for T4/T5. A failed rare item should remain a significant loss; avoid requiring a +9 item merely to access the next region.</p>
+<h2 id="implementation-difference">Implementation difference</h2>
+<p>The current <code>UpgradeService</code> supports profile-sized progression, retains failed items by default, and optionally consumes Wakeglass to guarantee success. Existing profiles have three steps. This sheet requests replacing those rules with nine steps and destruction; it does not claim the runtime has already changed.</p><p class="footer"><a href="../index.html">All design sheets</a> · <a href="01_smithing_upgrades.md">Markdown source</a> · Fixed user rules with clearly marked proposed tuning.</p></main></body></html>

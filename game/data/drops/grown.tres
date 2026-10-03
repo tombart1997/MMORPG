@@ -9,11 +9,15 @@
 [sub_resource type="Resource" id="e0"]
 script = ExtResource("entry")
 item = ExtResource("i0")
-chance = 0.8
+chance = 0.35
+minimum = 1
+maximum = 1
 [sub_resource type="Resource" id="e1"]
 script = ExtResource("entry")
 item = ExtResource("i1")
-chance = 0.08
+chance = 0.04
+minimum = 1
+maximum = 1
 [sub_resource type="Resource" id="e2"]
 script = ExtResource("entry")
 item = ExtResource("i2")
@@ -25,7 +29,7 @@ chance = 0.002
 [sub_resource type="Resource" id="e4"]
 script = ExtResource("entry")
 item = ExtResource("i4")
-chance = 0.45
+chance = 0.225
 [resource]
 script = ExtResource("script")
 entries = Array[ExtResource("entry")]([SubResource("e0"), SubResource("e1"), SubResource("e2"), SubResource("e3"), SubResource("e4")])

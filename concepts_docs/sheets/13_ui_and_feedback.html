@@ -1,0 +1,57 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>UI, readability and player feedback · Ironfield concepts</title><link rel="stylesheet" href="../concepts.css"></head><body><header><a class="brand" href="../index.html">IRONFIELD</a><nav aria-label="Main"><a href="../index.html">Design sheets</a><a href="../bestiary.html">Bestiary</a><a href="../art_gallery.html">Concept art</a><a href="../Ironfield_Concepts.xlsx">Workbook</a></nav></header><main class="doc"><p class="eyebrow">Design sheet 13 · 3 October 2026</p><h1 id="ui-readability-and-player-feedback">UI, readability and player feedback</h1>
+<p>The interface should let the player decide where to hunt, what to spend and what can be lost. Use compact slate/jade panels, brass edges, off-white type and restrained red danger accents. Keep the world and enemy silhouettes visible.</p>
+<h2 id="main-hud">Main HUD</h2>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Required information</th>
+<th>Feedback</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Health</td>
+<td>Current / maximum HP</td>
+<td>Readable loss and heal, no full-screen flashes</td>
+</tr>
+<tr>
+<td>XP bar</td>
+<td>Current / required XP, level and 25/50/75% marks</td>
+<td>One short notice per newly earned stat point</td>
+</tr>
+<tr>
+<td>Skill bar</td>
+<td>Six ability icons, key, cooldown and usable state</td>
+<td>Small M/G badge and opportunity highlight</td>
+</tr>
+<tr>
+<td>Target</td>
+<td>Name, level, tier and HP</td>
+<td>Elite symbol plus shape, not colour alone</td>
+</tr>
+<tr>
+<td>Loot</td>
+<td>Item name, quantity and rarity</td>
+<td>Short arrival beam for rare gear; clean click target</td>
+</tr>
+<tr>
+<td>Route guidance</td>
+<td>Discovered district and recommended band</td>
+<td>Optional indication when level gap strongly lowers rewards</td>
+</tr>
+</tbody>
+</table></div>
+<p>At 100% XP show a combined level-up/stat-point/skill-point notification. Large multi-level gains can group repeated notices while still granting each award. A notification is feedback, not the authority that grants the point.</p>
+<h2 id="character-and-skill-sheets">Character and skill sheets</h2>
+<p>Character panel shows VIT, STR, DEX and AGI individually, assigned/unspent points, base stats, gear bonuses and final derived values. A preview of the next allocation shows its exact effect. Stat reset displays gold cost and resulting refund before confirmation.</p>
+<p>Skill panel shows basic rank, M progress, G completion, current and next potency, owned Leaves and next cost. Display M10 completion as <strong>G — maximum</strong>. A disabled button states the real missing requirement: basic rank, skill point, Leaf count, gold or combat state.</p>
+<h2 id="smithing-panel">Smithing panel</h2>
+<p>For a T3 +6 weapon attempting +7, show: <strong>Success 50% / Failure 50%</strong>, exact item name and current modifiers, 1,400 gold, 7 Moss Shards, 9 specified T3 trophies, 2 Ore and 1 Wakeglass. The final action reads <strong>Attempt +7 upgrade</strong>. Beside it show <strong>Failure destroys this item and spends all listed costs</strong> in readable text.</p>
+<p>The player should never infer the destruction rule from a tooltip alone. Cancel is always free. While resolving, disable duplicate actions. Success and failure identify the resulting/lost item, and refresh both equipment and bag. The +9 panel says maximum reached.</p>
+<h2 id="bestiary-and-map">Bestiary and map</h2>
+<p>The bestiary exposes discovered creatures, their model portrait, level, tier, EXP, habitats and item base drop chances. If displaying effective rates, label the player's current level and show the applied multiplier. Do not label a 0.2% base rate as the effective probability when the levels differ.</p>
+<p>The map distinguishes safe settlement, road, regular hunting band, camp leader, discovered Fracture and region gate. Reveal secret cores only after discovery. Hotkeys and map zoom must not steal attack input while panels are closed.</p>
+<h2 id="accessibility-and-interaction">Accessibility and interaction</h2>
+<p>Pair colour with a symbol/text for rarity, tier and + level. Blue/red/violet sparks remain visible upgrade cues, while icons and tooltips communicate the same values. Provide UI scaling, remappable keys, separate music/effects volume and a reduced-effects option. Maintain readable typography on bright parchment and dark combat scenes.</p>
+<p>Technical diagnostics belong behind development controls such as F3. Item GUIDs, import details, bone names and error traces do not belong in ordinary player screens.</p><p class="footer"><a href="../index.html">All design sheets</a> · <a href="13_ui_and_feedback.md">Markdown source</a> · Fixed user rules with clearly marked proposed tuning.</p></main></body></html>

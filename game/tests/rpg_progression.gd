@@ -34,7 +34,7 @@ func _run() -> void:
 	var sword_slot := find_item(bag, &"briarsteel_edge")
 	check(equipment.equip(sword_slot), "Equip sword through inventory command")
 	check(player.stats.value(&"attack") == 33, "Base and weapon attack compose authoritatively")
-	check(player.visual.sockets[&"WeaponSocket"].get_node("Equipment").scene_file_path.ends_with("briarsteel_edge.tscn"), "Equipped item selects weapon scene on rig socket")
+	check(player.visual.sockets[&"WeaponSocket"].get_node("Equipment").scene_file_path == ItemCatalog.get_item(&"briarsteel_edge").visual.resource_path, "Equipped item selects its authored weapon scene on rig socket")
 	enemy.health.current = 75
 	player.position = Vector3(0, 0, 2)
 	enemy.global_position = Vector3(0, 0, 0)

@@ -6,7 +6,7 @@ var item: ItemData
 var quantity: int = 1
 var claimed: bool = false
 var lifetime: float = 90.0
-var mesh: MeshInstance3D
+var mesh: Node3D
 var label: Label3D
 var encounter_id: String = ""
 func is_rare() -> bool:
@@ -20,25 +20,7 @@ func _ready() -> void:
 		scene.set_meta("loot_layout", layout)
 		scene.add_child.call_deferred(layout)
 	if is_rare(): lifetime = maxf(lifetime, 300)
-	mesh = MeshInstance3D.new()
-	var surface := SurfaceTool.new()
-	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
-	var top:=Vector3(.04,.25,-.025)
-	var bottom:=Vector3(-.025,-.17,.02)
-	for i in 5:
-		var a:=i*TAU/5
-		var b:=(i+1)*TAU/5
-		var p:=Vector3(cos(a)*.14,.025*sin(a*2),sin(a)*.11)
-		var q:=Vector3(cos(b)*.14,.025*sin(b*2),sin(b)*.11)
-		for point in [top,p,q,bottom,q,p]: surface.add_vertex(point)
-	surface.generate_normals()
-	mesh.mesh = surface.commit()
-	mesh.position.y = 0.3
-	var material := StandardMaterial3D.new()
-	material.albedo_color = item.color if item else Color(1, 0.75, 0.2)
-	material.emission_enabled = is_rare()
-	material.emission = material.albedo_color * 0.4
-	mesh.material_override = material
+	mesh = LootVisual.create(self)
 	add_child(mesh)
 	label = Label3D.new()
 	label.text = display_text()
@@ -70,6 +52,14 @@ func _ready() -> void:
 	label.visibility_range_end = 25
 	var clickable := WorldClickable.attach(self, &"loot", 0.6)
 	clickable.label = label
+	call_deferred("_ground_visual")
+
+func _ground_visual() -> void:
+	var query := PhysicsRayQueryParameters3D.create(global_position+Vector3.UP*.6,global_position-Vector3.UP*1.5,1)
+	var hit := get_world_3d().direct_space_state.intersect_ray(query)
+	if not hit.is_empty():
+		mesh.global_position = hit.position+Vector3.UP*.004
+		mesh.global_basis = Basis(Quaternion(Vector3.UP,hit.normal))
 
 func can_collect(player: ActorBody) -> bool:
 	return (not claimed and player.health.is_alive() and player.inventory != null
@@ -83,12 +73,12 @@ func collect(player: ActorBody) -> bool:
 		return false
 	claimed = true
 	player.inventory.collect(coins, item, quantity)
+	IronfieldAudio.instance.play_at(&"coins" if item == null else &"pickup",global_position,-2)
 	queue_free()
 	return true
 
 func _process(delta: float) -> void:
 	lifetime -= delta
-	mesh.rotation.y += delta
 	if lifetime <= 0:
 		queue_free()
 

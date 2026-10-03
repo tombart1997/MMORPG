@@ -108,10 +108,10 @@ func _run() -> void:
 	player.position = encounter.global_position + Vector3(0, 0, 2)
 	encounter.body.health.apply_damage(1, player)
 	await frames(4)
-	check(encounter.pending.size() == 3 and encounter.living_defenders() == 0, "Activation warns before spawning the first wave")
+	check(encounter.pending.size() == 6 and encounter.living_defenders() == 0, "Activation warns before spawning the first six defenders")
 	for point in encounter.pending: check(point.distance_to(player.position) >= 3.5, "Spawn warning avoids the player")
 	await frames(90)
-	check(encounter.living_defenders() == 3, "First wave materializes after warning")
+	check(encounter.living_defenders() == 6, "First wave materializes after warning")
 	var member: ActorBody = encounter.defenders[0].pack.members[0]
 	member.health.apply_damage(10000, player)
 	check(member.collision_layer == 0 and encounter.body.health.is_alive(), "Defender death removes collision without completing the fracture")
@@ -133,6 +133,7 @@ func _run() -> void:
 	check(save.save_player(player) and save.load_player(player), "Continued farming and catalyst outcome survive another save/load")
 	await frames(3)
 	encounter.set_physics_process(false) # Isolate scaling; live waves tested above.
+	encounter.body.health.damage_floor = 0 # Separate raw skill scaling from encounter phase gates.
 	player.position = encounter.global_position + Vector3(0, 0, 2)
 	player.equipment.slots[&"weapon"] = ItemStack.new(&"wayfarer_blade")
 	player.equipment.refresh()

@@ -6,11 +6,12 @@ var text: Label
 
 func _ready() -> void:
 	var panel := PanelContainer.new()
+	panel.theme = PaintedTheme.get_theme()
 	panel.position = Vector2(18, 18)
 	panel.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	add_child(panel)
 	text = Label.new()
-	text.add_theme_font_size_override("font_size", 18)
+	text.add_theme_font_size_override("font_size", 12)
 	text.add_theme_color_override("font_color", Color(0.92, 0.95, 1))
 	panel.add_child(text)
 	var crosshair := Label.new()

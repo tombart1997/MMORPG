@@ -1,0 +1,282 @@
+﻿[
+    {
+        "suite":  "combat_smoke",
+        "passed":  true,
+        "completed":  "2026-10-02 13:41:34",
+        "result":  {
+                       "value":  "Combat integration complete: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\combat_smoke.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "combat_smoke.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "melee_commitment",
+        "passed":  true,
+        "completed":  "2026-10-02 13:41:36",
+        "result":  {
+                       "value":  "Melee commitment complete: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\melee_commitment.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "melee_commitment.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "zone_loop",
+        "passed":  true,
+        "completed":  "2026-10-02 13:41:46",
+        "result":  {
+                       "value":  "Zone loop complete: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\zone_loop.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "zone_loop.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "character_pipeline",
+        "passed":  true,
+        "completed":  "2026-10-02 13:41:54",
+        "result":  {
+                       "value":  "Character pipeline complete: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\character_pipeline.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "character_pipeline.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "rpg_progression",
+        "passed":  true,
+        "completed":  "2026-10-02 13:42:03",
+        "result":  {
+                       "value":  "RPG progression complete: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\rpg_progression.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "rpg_progression.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "settlement_loop",
+        "passed":  true,
+        "completed":  "2026-10-02 13:42:18",
+        "result":  {
+                       "value":  "Settlement progression complete: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\settlement_loop.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "settlement_loop.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "mmorpg_loop",
+        "passed":  true,
+        "completed":  "2026-10-02 13:42:32",
+        "result":  {
+                       "value":  "Mouse-driven MMORPG loop complete: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\mmorpg_loop.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "mmorpg_loop.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "skill_combat",
+        "passed":  true,
+        "completed":  "2026-10-02 13:42:44",
+        "result":  {
+                       "value":  "Responsive skill combat complete: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\skill_combat.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "skill_combat.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "farming_loop",
+        "passed":  true,
+        "completed":  "2026-10-02 13:43:12",
+        "result":  {
+                       "value":  "Farming loop complete: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\farming_loop.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "farming_loop.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "route_mount",
+        "passed":  true,
+        "completed":  "2026-10-02 13:43:50",
+        "result":  {
+                       "value":  "Map / action bar / mount route complete: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\route_mount.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "route_mount.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "first_map_expansion",
+        "passed":  true,
+        "completed":  "2026-10-02 13:43:59",
+        "result":  {
+                       "value":  "First-map expansion complete: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\first_map_expansion.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "first_map_expansion.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "combat_creation_review",
+        "passed":  true,
+        "completed":  "2026-10-02 13:44:08",
+        "result":  {
+                       "value":  "Combat / creation review: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\combat_creation_review.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "combat_creation_review.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "second_region",
+        "passed":  true,
+        "completed":  "2026-10-02 13:44:18",
+        "result":  {
+                       "value":  "Second region: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\second_region.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "second_region.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "remaster_streaming",
+        "passed":  true,
+        "completed":  "2026-10-02 13:44:26",
+        "result":  {
+                       "value":  "REMASTER_STREAMING failures=0",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\remaster_streaming.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "remaster_streaming.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "remaster_traversal",
+        "passed":  true,
+        "completed":  "2026-10-02 13:44:57",
+        "result":  {
+                       "value":  "TRAVERSAL peak_actors=275 visited_groups=144 failures=0",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\remaster_traversal.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "remaster_traversal.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "townfolk_review",
+        "passed":  true,
+        "completed":  "2026-10-02 13:45:05",
+        "result":  {
+                       "value":  "TOWNFOLK_REVIEW failures=0",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\townfolk_review.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "townfolk_review.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "hero_combat_review",
+        "passed":  true,
+        "completed":  "2026-10-02 13:45:15",
+        "result":  {
+                       "value":  "Hero combat review: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\hero_combat_review.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "hero_combat_review.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "jade_visual_review",
+        "passed":  true,
+        "completed":  "2026-10-02 13:45:26",
+        "result":  {
+                       "value":  "Jade visual review: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\jade_visual_review.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "jade_visual_review.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "world_landscape",
+        "passed":  true,
+        "completed":  "2026-10-02 13:45:31",
+        "result":  {
+                       "value":  "WORLD_LANDSCAPE failures=0",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\world_landscape.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "world_landscape.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    },
+    {
+        "suite":  "character_motion",
+        "passed":  true,
+        "completed":  "2026-10-02 13:45:39",
+        "result":  {
+                       "value":  "Character motion review: 0 failures",
+                       "PSPath":  "D:\\Games\\Metin2Clone\\game\\.local\\character_motion.log",
+                       "PSParentPath":  "D:\\Games\\Metin2Clone\\game\\.local",
+                       "PSChildName":  "character_motion.log",
+                       "PSDrive":  "D",
+                       "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                       "ReadCount":  1
+                   }
+    }
+]

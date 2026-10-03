@@ -13,7 +13,7 @@ func _ready() -> void:
 	add_child(column)
 	var title := Label.new()
 	title.text = "  " + player.map_state.region.display_name.to_upper()
-	title.add_theme_font_size_override("font_size",22)
+	title.add_theme_font_size_override("font_size",12)
 	column.add_child(title)
 	var canvas := MapCanvas.new()
 	canvas.player = player
@@ -22,12 +22,13 @@ func _ready() -> void:
 	column.add_child(canvas)
 	var legend := Label.new()
 	legend.text = "  S Smith · $ Merchant · ! Quest · ? Return · ◇ Known landmark\n  Unmarked country must be explored. Roads show direction, not safe passage."
-	legend.add_theme_font_size_override("font_size",14)
+	legend.add_theme_font_size_override("font_size",12)
 	column.add_child(legend)
 	var close := Button.new()
 	close.text = "Close [M / Esc]"
 	close.pressed.connect(func(): player.ui_session.close())
 	column.add_child(close)
+	WindowChrome.install(self, "Atlas · Known lands", player.ui_session.close)
 	hide()
 
 func _center() -> void:

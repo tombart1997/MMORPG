@@ -9,6 +9,7 @@ func status(id: StringName) -> String:
 
 func available(quest: QuestData) -> bool:
 	if states.has(String(quest.id)): return false
+	if actor and actor.progression and actor.progression.level < quest.required_level: return false
 	for id in quest.prerequisites:
 		if status(id) != "completed": return false
 	return true

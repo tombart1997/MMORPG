@@ -1,0 +1,125 @@
+{
+  "method": "Uncapped 1280x720, locked cameras, Compatibility renderer, 2 second + 45 frame warmup, >=180 samples and >=5 seconds per measurement",
+  "baseline_ref": "refs/checkpoints/briarwood-remaster-start",
+  "before": {
+    "settlement": {
+      "actors": 910,
+      "draw_calls": 11680.5277777778,
+      "frame_median_ms": 259.748,
+      "frame_p95_ms": 345.231,
+      "nodes": 30548.0,
+      "physics_ms": 31.3804,
+      "primitives": 1212031.4,
+      "process_ms": 165.604166666667,
+      "render_cpu_ms": 72.5075389862061,
+      "render_gpu_ms": 64.5408053716024,
+      "samples": 180
+    },
+    "wilderness": {
+      "actors": 910,
+      "draw_calls": 10815.9888888889,
+      "frame_median_ms": 254.803,
+      "frame_p95_ms": 321.7,
+      "nodes": 30548.0,
+      "physics_ms": 32.4027,
+      "primitives": 2253480.1,
+      "process_ms": 149.108016666667,
+      "render_cpu_ms": 57.9489055421617,
+      "render_gpu_ms": 52.3271667162577,
+      "samples": 180
+    },
+    "enemies_frozen": {
+      "actors": 910,
+      "draw_calls": 13850.0,
+      "frame_median_ms": 52.454,
+      "frame_p95_ms": 66.684,
+      "nodes": 30548.0,
+      "physics_ms": 8.13694444444447,
+      "primitives": 2459345.0,
+      "process_ms": 63.6651722222223,
+      "render_cpu_ms": 46.003477774726,
+      "render_gpu_ms": 36.0387666490343,
+      "samples": 180
+    },
+    "shadows_off": {
+      "actors": 910,
+      "draw_calls": 6326.41666666667,
+      "frame_median_ms": 187.887,
+      "frame_p95_ms": 251.696,
+      "nodes": 30548.0,
+      "physics_ms": 21.92795,
+      "primitives": 739911.844444444,
+      "process_ms": 124.30235,
+      "render_cpu_ms": 44.1720499462552,
+      "render_gpu_ms": 38.878661081526,
+      "samples": 180
+    }
+  },
+  "after": {
+    "enemies_frozen": {
+      "actors": 117,
+      "draw_calls": 1036.0,
+      "frame_median_ms": 6.729,
+      "frame_p95_ms": 13.567,
+      "nodes": 7966.0,
+      "physics_ms": 1.95785981308412,
+      "primitives": 1249320.0,
+      "process_ms": 15.1158177570093,
+      "render_cpu_ms": 4.84061682261411,
+      "render_gpu_ms": 1.83687383103593,
+      "samples": 642
+    },
+    "engine": "4.7.2-stable (official)",
+    "groups": 153,
+    "hardware": "NVIDIA GeForce GTX 1080",
+    "resolution": "1280x720, uncapped, Compatibility renderer",
+    "settlement": {
+      "actors": 68,
+      "draw_calls": 1503.0,
+      "frame_median_ms": 12.08,
+      "frame_p95_ms": 20.182,
+      "nodes": 6481.0,
+      "physics_ms": 3.4474858611825,
+      "primitives": 576832.0,
+      "process_ms": 21.2729151670951,
+      "render_cpu_ms": 7.35547814945329,
+      "render_gpu_ms": 2.30603085140336,
+      "samples": 389
+    },
+    "shadows_off": {
+      "actors": 117,
+      "draw_calls": 739.0,
+      "frame_median_ms": 9.991,
+      "frame_p95_ms": 17.575,
+      "nodes": 7966.0,
+      "physics_ms": 4.12379025423729,
+      "primitives": 401967.81779661,
+      "process_ms": 18.2070381355932,
+      "render_cpu_ms": 4.64545339497469,
+      "render_gpu_ms": 1.66473516670324,
+      "samples": 472
+    },
+    "startup_ms": 5691,
+    "wilderness": {
+      "actors": 117,
+      "draw_calls": 1036.0,
+      "frame_median_ms": 14.987,
+      "frame_p95_ms": 20.587,
+      "nodes": 7966.0,
+      "physics_ms": 4.00035276967929,
+      "primitives": 1249290.08746356,
+      "process_ms": 21.3451865889212,
+      "render_cpu_ms": 7.16883967499691,
+      "render_gpu_ms": 2.25431195674763,
+      "samples": 343
+    }
+  },
+  "traversal": {
+    "groups": 153,
+    "visited_groups": 143,
+    "peak_resident_enemies": 267,
+    "defined_enemies": 910,
+    "districts": 6,
+    "failures": 0
+  }
+}

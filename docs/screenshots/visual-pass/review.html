@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ironfield — world visual review</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#151a1b;color:#e4e7df;font:16px/1.5 system-ui,sans-serif}main{max-width:1400px;margin:auto;padding:28px}h1{font-size:26px;margin:0 0 8px;color:#ddc593}p{color:#aebbb8;margin:0 0 22px}.controls{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin:20px 0}label{display:flex;gap:10px;align-items:center}select,button{background:#283236;color:#f3ead6;border:1px solid #66736c;border-radius:5px;padding:9px;font:inherit}input[type=range]{width:min(380px,50vw);accent-color:#c3a66b}.compare{position:relative;aspect-ratio:16/9;overflow:hidden;background:#080c0d;border:1px solid #50625e;border-radius:5px}.compare img{display:block;width:100%;height:100%;object-fit:contain;position:absolute;inset:0}.compare #before{clip-path:inset(0 50% 0 0)}.divider{position:absolute;top:0;bottom:0;left:50%;width:2px;background:#fff8df;pointer-events:none}.tag{position:absolute;top:12px;padding:4px 12px;background:#151a1bdd;border:1px solid #a18b59;font-size:13px;border-radius:3px}.left{left:12px}.right{right:12px}.links{margin-top:14px;display:flex;gap:24px}a{color:#d4c090}.notes{margin-top:28px;max-width:900px;color:#aebbb8}.caption{font-size:14px;margin-top:8px;color:#aebbb8}
+</style>
+<main>
+<h1>Ironfield · world visual review</h1>
+<p>Actual Godot gameplay captures. Choose a location and a rendered pass, then move the divider to compare it with the audited baseline.</p>
+<div class="controls">
+<label>Location <select id="location"><option value="verge">First hunt</option><option value="settlement">Briar Crossing</option><option value="route">Outer route</option><option value="amber">Amber Scar</option><option value="outpost">Cinderfall outpost</option><option value="basin">Cinderfall basin</option></select></label>
+<label>Pass <select id="pass"><option value="final">Final</option><option value="pass1">1 · asset silhouettes</option><option value="pass2">2 · terrain and composition</option><option value="pass3">3 · atmosphere and creatures</option><option value="pass4">4 · shelves, canvas and LODs</option><option value="pass5">5 · integration</option></select></label>
+<label for="slider">Compare <input id="slider" type="range" min="0" max="100" value="50" aria-label="Baseline image coverage"></label>
+</div>
+<div class="compare"><img id="after" alt="Selected improvement pass"><img id="before" alt="Audited baseline"><div class="divider"></div><span class="tag left">Baseline</span><span class="tag right" id="tag">Final</span></div>
+<div class="caption" id="caption"></div>
+<div class="links"><a id="baselineLink" target="_blank" rel="noopener">Open baseline</a><a id="afterLink" target="_blank" rel="noopener">Open selected pass</a><a href="../../WORLD_VISUAL_PASS.md">Audit, review notes and measurements</a></div>
+<div class="notes">All captures use the existing UI and production gameplay scenes. The review camera is fixed; in the rebuilt basin its height follows the actual terrain. Pass 2 contains the camera-height issue found during review and corrected in pass 3. The final six-view measurement reports 8.26 ms median at the first hunt and 16.20 ms on the busy outer route at 1280 × 720 on a GTX 1080. Desktop timing and enemy wandering vary between runs.</div>
+</main>
+<script>
+const locationSelect=document.querySelector('#location'),passSelect=document.querySelector('#pass'),slider=document.querySelector('#slider');
+const timings={settlement:[8.37,8.64],verge:[8.14,8.26],route:[20.49,16.20],amber:[15.89,12.07],outpost:[4.73,4.59],basin:[4.38,4.57]};
+function update(){const view=locationSelect.value,pass=passSelect.value,before=`baseline_${view}.png`,after=`${pass}_${view}.png`;document.querySelector('#before').src=before;document.querySelector('#after').src=after;document.querySelector('#baselineLink').href=before;document.querySelector('#afterLink').href=after;document.querySelector('#tag').textContent=passSelect.selectedOptions[0].text;document.querySelector('#caption').textContent=pass==='final'?`${locationSelect.selectedOptions[0].text} · median wall-frame time: ${timings[view][0].toFixed(2)} ms baseline / ${timings[view][1].toFixed(2)} ms final`:`${locationSelect.selectedOptions[0].text} · ${passSelect.selectedOptions[0].text}`;}
+slider.addEventListener('input',()=>{document.querySelector('#before').style.clipPath=`inset(0 ${100-slider.value}% 0 0)`;document.querySelector('.divider').style.left=slider.value+'%';});locationSelect.addEventListener('change',update);passSelect.addEventListener('change',update);update();
+</script>
+</html>

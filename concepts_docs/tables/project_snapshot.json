@@ -1,0 +1,2682 @@
+{
+  "captured_on": "2026-10-03",
+  "enemy_resource_count": 38,
+  "status": "Current prototype resource snapshot; not a claim that proposed design is implemented.",
+  "enemies": [
+    {
+      "id": "ancient_warden",
+      "display_name": "Ancient Warden",
+      "level": 25,
+      "tier": 5,
+      "family": "stonekin",
+      "maximum_health": 3090.0,
+      "defense": 8.7,
+      "speed": 5.199999999999999,
+      "xp": 1060,
+      "gold_min": 52,
+      "gold_max": 94,
+      "source": "game/data/enemies/ancient_warden.tres",
+      "drop_source": "res://data/drops/ancient_warden.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "ancient_warden_trophy",
+          "name": "Ancient Warden Core",
+          "chance": 0.225,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_21",
+          "name": "Ancient Relic Blade",
+          "chance": 0.004,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_21",
+          "name": "Ancient Relic Coat",
+          "chance": 0.004,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "ash_bandit",
+      "display_name": "Ash Bandit",
+      "level": 17,
+      "tier": 2,
+      "family": "bandit",
+      "maximum_health": 501.0,
+      "defense": 4.54,
+      "speed": 3.1,
+      "xp": 178,
+      "gold_min": 36,
+      "gold_max": 61,
+      "source": "game/data/enemies/ash_bandit.tres",
+      "drop_source": "res://data/drops/ash_bandit.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "ash_bandit_trophy",
+          "name": "Ash Bandit Insignia",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_16",
+          "name": "Ashen Relic Blade",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_16",
+          "name": "Ashen Relic Coat",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "ash_wisp",
+      "display_name": "Ash Wisp",
+      "level": 21,
+      "tier": 2,
+      "family": "wisp",
+      "maximum_health": 540.0,
+      "defense": 4.0,
+      "speed": 3.3,
+      "xp": 252,
+      "gold_min": 42,
+      "gold_max": 63,
+      "source": "game/data/enemies/ash_wisp.tres",
+      "drop_source": "res://data/drops/grave_wisp.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "grave_wisp_trophy",
+          "name": "Grave Wisp Essence",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_16",
+          "name": "Ashen Relic Blade",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_16",
+          "name": "Ashen Relic Coat",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "blacktusk",
+      "display_name": "Blacktusk Boar",
+      "level": 11,
+      "tier": 2,
+      "family": "boar",
+      "maximum_health": 355.0,
+      "defense": 3.22,
+      "speed": 3.1,
+      "xp": 120,
+      "gold_min": 24,
+      "gold_max": 43,
+      "source": "game/data/enemies/blacktusk.tres",
+      "drop_source": "res://data/drops/blacktusk.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "blacktusk_trophy",
+          "name": "Blacktusk Boar Tusk",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "restoration_tonic",
+          "name": "Restoration Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_11",
+          "name": "Highland Relic Blade",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_11",
+          "name": "Highland Relic Coat",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "bloodfang",
+      "display_name": "Bloodfang",
+      "level": 20,
+      "tier": 4,
+      "family": "wolf",
+      "maximum_health": 1615.0,
+      "defense": 6.8,
+      "speed": 4.8999999999999995,
+      "xp": 516,
+      "gold_min": 42,
+      "gold_max": 76,
+      "source": "game/data/enemies/bloodfang.tres",
+      "drop_source": "res://data/drops/bloodfang.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "bloodfang_trophy",
+          "name": "Bloodfang Fang",
+          "chance": 0.225,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_16",
+          "name": "Ashen Relic Blade",
+          "chance": 0.0035,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_16",
+          "name": "Ashen Relic Coat",
+          "chance": 0.0035,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "blue_wolf",
+      "display_name": "Blue Wolf",
+      "level": 3,
+      "tier": 1,
+      "family": "wolf",
+      "maximum_health": 119.0,
+      "defense": 0.66,
+      "speed": 3.1,
+      "xp": 36,
+      "gold_min": 8,
+      "gold_max": 16,
+      "source": "game/data/enemies/blue_wolf.tres",
+      "drop_source": "res://data/drops/blue_wolf.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "blue_wolf_trophy",
+          "name": "Blue Wolf Fang",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "field_tonic",
+          "name": "Field tonic",
+          "chance": 0.04,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_1",
+          "name": "Verge Relic Blade",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_1",
+          "name": "Verge Relic Coat",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "bristle_boar",
+      "display_name": "Bristle Boar",
+      "level": 2,
+      "tier": 1,
+      "family": "boar",
+      "maximum_health": 101.0,
+      "defense": 0.44,
+      "speed": 3.1,
+      "xp": 28,
+      "gold_min": 6,
+      "gold_max": 13,
+      "source": "game/data/enemies/bristle_boar.tres",
+      "drop_source": "res://data/drops/bristle_boar.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "bristle_boar_trophy",
+          "name": "Bristle Boar Tusk",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "field_tonic",
+          "name": "Field tonic",
+          "chance": 0.04,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_1",
+          "name": "Verge Relic Blade",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_1",
+          "name": "Verge Relic Coat",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "cairn_colossus",
+      "display_name": "Cairn Colossus",
+      "level": 25,
+      "tier": 5,
+      "family": "stonekin",
+      "maximum_health": 3090.0,
+      "defense": 8.7,
+      "speed": 5.199999999999999,
+      "xp": 1060,
+      "gold_min": 52,
+      "gold_max": 94,
+      "source": "game/data/enemies/cairn_colossus.tres",
+      "drop_source": "res://data/drops/cairn_colossus.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "cairn_colossus_trophy",
+          "name": "Cairn Colossus Core",
+          "chance": 0.225,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_21",
+          "name": "Ancient Relic Blade",
+          "chance": 0.004,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_21",
+          "name": "Ancient Relic Coat",
+          "chance": 0.004,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "cairn_sentinel",
+      "display_name": "Cairn Sentinel",
+      "level": 19,
+      "tier": 2,
+      "family": "stonekin",
+      "maximum_health": 549.0,
+      "defense": 4.98,
+      "speed": 3.1,
+      "xp": 197,
+      "gold_min": 40,
+      "gold_max": 67,
+      "source": "game/data/enemies/cairn_sentinel.tres",
+      "drop_source": "res://data/drops/cairn_sentinel.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "cairn_sentinel_trophy",
+          "name": "Cairn Sentinel Core",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_16",
+          "name": "Ashen Relic Blade",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_16",
+          "name": "Ashen Relic Coat",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "cinder_wisp",
+      "display_name": "Cinder Wisp",
+      "level": 14,
+      "tier": 1,
+      "family": "wisp",
+      "maximum_health": 317.0,
+      "defense": 3.08,
+      "speed": 3.1,
+      "xp": 124,
+      "gold_min": 30,
+      "gold_max": 49,
+      "source": "game/data/enemies/cinder_wisp.tres",
+      "drop_source": "res://data/drops/cinder_wisp.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "cinder_wisp_trophy",
+          "name": "Cinder Wisp Essence",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "restoration_tonic",
+          "name": "Restoration Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_11",
+          "name": "Highland Relic Blade",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_11",
+          "name": "Highland Relic Coat",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "copper_spider",
+      "display_name": "Copper Spider",
+      "level": 8,
+      "tier": 1,
+      "family": "spider",
+      "maximum_health": 209.0,
+      "defense": 1.76,
+      "speed": 3.1,
+      "xp": 76,
+      "gold_min": 18,
+      "gold_max": 31,
+      "source": "game/data/enemies/copper_spider.tres",
+      "drop_source": "res://data/drops/copper_spider.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "copper_spider_trophy",
+          "name": "Copper Spider Silk",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "restoration_tonic",
+          "name": "Restoration Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_6",
+          "name": "Hollow Relic Blade",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_6",
+          "name": "Hollow Relic Coat",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "dusk_stalker",
+      "display_name": "Dusk Stalker",
+      "level": 20,
+      "tier": 2,
+      "family": "wolf",
+      "maximum_health": 574.0,
+      "defense": 5.2,
+      "speed": 3.1,
+      "xp": 206,
+      "gold_min": 42,
+      "gold_max": 70,
+      "source": "game/data/enemies/dusk_stalker.tres",
+      "drop_source": "res://data/drops/dusk_stalker.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "dusk_stalker_trophy",
+          "name": "Dusk Stalker Fang",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_16",
+          "name": "Ashen Relic Blade",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_16",
+          "name": "Ashen Relic Coat",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "ember_hound",
+      "display_name": "Ember Hound",
+      "level": 18,
+      "tier": 2,
+      "family": "wolf",
+      "maximum_health": 440.0,
+      "defense": 4.0,
+      "speed": 3.3,
+      "xp": 216,
+      "gold_min": 36,
+      "gold_max": 54,
+      "source": "game/data/enemies/ember_hound.tres",
+      "drop_source": "res://data/drops/bloodfang.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "bloodfang_trophy",
+          "name": "Bloodfang Fang",
+          "chance": 0.225,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_16",
+          "name": "Ashen Relic Blade",
+          "chance": 0.0035,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_16",
+          "name": "Ashen Relic Coat",
+          "chance": 0.0035,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "exile_captain",
+      "display_name": "Exile Captain",
+      "level": 23,
+      "tier": 3,
+      "family": "bandit",
+      "maximum_health": 1198.0,
+      "defense": 6.66,
+      "speed": 4.6,
+      "xp": 392,
+      "gold_min": 48,
+      "gold_max": 82,
+      "source": "game/data/enemies/exile_captain.tres",
+      "drop_source": "res://data/drops/exile_captain.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "exile_captain_trophy",
+          "name": "Exile Captain Insignia",
+          "chance": 0.225,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_21",
+          "name": "Ancient Relic Blade",
+          "chance": 0.003,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_21",
+          "name": "Ancient Relic Coat",
+          "chance": 0.003,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "frost_wolf",
+      "display_name": "Frost Wolf",
+      "level": 15,
+      "tier": 2,
+      "family": "wolf",
+      "maximum_health": 452.0,
+      "defense": 4.1,
+      "speed": 3.1,
+      "xp": 158,
+      "gold_min": 32,
+      "gold_max": 55,
+      "source": "game/data/enemies/frost_wolf.tres",
+      "drop_source": "res://data/drops/frost_wolf.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "frost_wolf_trophy",
+          "name": "Frost Wolf Fang",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "restoration_tonic",
+          "name": "Restoration Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_11",
+          "name": "Highland Relic Blade",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_11",
+          "name": "Highland Relic Coat",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "glass_spider",
+      "display_name": "Glass Spider",
+      "level": 19,
+      "tier": 2,
+      "family": "spider",
+      "maximum_health": 490.0,
+      "defense": 4.0,
+      "speed": 3.3,
+      "xp": 228,
+      "gold_min": 38,
+      "gold_max": 57,
+      "source": "game/data/enemies/glass_spider.tres",
+      "drop_source": "res://data/drops/venom_spider.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "venom_spider_trophy",
+          "name": "Venom Spider Silk",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "restoration_tonic",
+          "name": "Restoration Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_11",
+          "name": "Highland Relic Blade",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_11",
+          "name": "Highland Relic Coat",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "grave_wisp",
+      "display_name": "Grave Wisp",
+      "level": 18,
+      "tier": 1,
+      "family": "wisp",
+      "maximum_health": 389.0,
+      "defense": 3.96,
+      "speed": 3.1,
+      "xp": 156,
+      "gold_min": 38,
+      "gold_max": 61,
+      "source": "game/data/enemies/grave_wisp.tres",
+      "drop_source": "res://data/drops/grave_wisp.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "grave_wisp_trophy",
+          "name": "Grave Wisp Essence",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_16",
+          "name": "Ashen Relic Blade",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_16",
+          "name": "Ashen Relic Coat",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "grey_wolf",
+      "display_name": "Grey Wolf",
+      "level": 6,
+      "tier": 1,
+      "family": "wolf",
+      "maximum_health": 173.0,
+      "defense": 1.32,
+      "speed": 3.1,
+      "xp": 60,
+      "gold_min": 14,
+      "gold_max": 25,
+      "source": "game/data/enemies/grey_wolf.tres",
+      "drop_source": "res://data/drops/grey_wolf.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "grey_wolf_trophy",
+          "name": "Grey Wolf Fang",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "restoration_tonic",
+          "name": "Restoration Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_6",
+          "name": "Hollow Relic Blade",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_6",
+          "name": "Hollow Relic Coat",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "grown",
+      "display_name": "Mossling",
+      "level": 4,
+      "tier": 1,
+      "family": "mossling",
+      "maximum_health": 75.0,
+      "defense": 0,
+      "speed": 3.2,
+      "xp": 25,
+      "gold_min": 6,
+      "gold_max": 8,
+      "source": "game/data/enemies/grown.tres",
+      "drop_source": "res://data/drops/grown.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "moss_shard",
+          "name": "Moss shard",
+          "chance": 0.35,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "field_tonic",
+          "name": "Field tonic",
+          "chance": 0.04,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_1",
+          "name": "Verge Relic Blade",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_1",
+          "name": "Verge Relic Coat",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "grown_trophy",
+          "name": "Grown Mossling Bark",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "hollow_raider",
+      "display_name": "Hollow Raider",
+      "level": 13,
+      "tier": 1,
+      "family": "bandit",
+      "maximum_health": 299.0,
+      "defense": 2.86,
+      "speed": 3.1,
+      "xp": 116,
+      "gold_min": 28,
+      "gold_max": 46,
+      "source": "game/data/enemies/hollow_raider.tres",
+      "drop_source": "res://data/drops/hollow_raider.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "hollow_raider_trophy",
+          "name": "Hollow Raider Insignia",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "restoration_tonic",
+          "name": "Restoration Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_11",
+          "name": "Highland Relic Blade",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_11",
+          "name": "Highland Relic Coat",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "ironback",
+      "display_name": "Cairn Ironback",
+      "level": 7,
+      "tier": 2,
+      "family": "mossling",
+      "maximum_health": 110.0,
+      "defense": 0,
+      "speed": 3.2,
+      "xp": 40,
+      "gold_min": 9,
+      "gold_max": 12,
+      "source": "game/data/enemies/ironback.tres",
+      "drop_source": "res://data/drops/ironback.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "moss_shard",
+          "name": "Moss shard",
+          "chance": 0.35,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "field_tonic",
+          "name": "Field tonic",
+          "chance": 0.04,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_1",
+          "name": "Verge Relic Blade",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_1",
+          "name": "Verge Relic Coat",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "ironback_trophy",
+          "name": "Ironback Plate",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "ironhide_boar",
+      "display_name": "Ironhide Boar",
+      "level": 16,
+      "tier": 1,
+      "family": "boar",
+      "maximum_health": 353.0,
+      "defense": 3.52,
+      "speed": 3.1,
+      "xp": 140,
+      "gold_min": 34,
+      "gold_max": 55,
+      "source": "game/data/enemies/ironhide_boar.tres",
+      "drop_source": "res://data/drops/ironhide_boar.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "ironhide_boar_trophy",
+          "name": "Ironhide Boar Tusk",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_16",
+          "name": "Ashen Relic Blade",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_16",
+          "name": "Ashen Relic Coat",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "meadow_wolf",
+      "display_name": "Meadow Wolf",
+      "level": 1,
+      "tier": 1,
+      "family": "wolf",
+      "maximum_health": 83.0,
+      "defense": 0.22,
+      "speed": 3.1,
+      "xp": 20,
+      "gold_min": 4,
+      "gold_max": 10,
+      "source": "game/data/enemies/meadow_wolf.tres",
+      "drop_source": "res://data/drops/meadow_wolf.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "meadow_wolf_trophy",
+          "name": "Meadow Wolf Fang",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "field_tonic",
+          "name": "Field tonic",
+          "chance": 0.04,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_1",
+          "name": "Verge Relic Blade",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_1",
+          "name": "Verge Relic Coat",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "mire_boar",
+      "display_name": "Mire Boar",
+      "level": 7,
+      "tier": 2,
+      "family": "boar",
+      "maximum_health": 258.0,
+      "defense": 2.34,
+      "speed": 3.1,
+      "xp": 82,
+      "gold_min": 16,
+      "gold_max": 31,
+      "source": "game/data/enemies/mire_boar.tres",
+      "drop_source": "res://data/drops/mire_boar.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "mire_boar_trophy",
+          "name": "Mire Boar Tusk",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "restoration_tonic",
+          "name": "Restoration Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_6",
+          "name": "Hollow Relic Blade",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_6",
+          "name": "Hollow Relic Coat",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "moonfang",
+      "display_name": "Moonfang",
+      "level": 8,
+      "tier": 3,
+      "family": "wolf",
+      "maximum_health": 522.0,
+      "defense": 3.36,
+      "speed": 4.6,
+      "xp": 152,
+      "gold_min": 18,
+      "gold_max": 37,
+      "source": "game/data/enemies/moonfang.tres",
+      "drop_source": "res://data/drops/moonfang.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "moonfang_trophy",
+          "name": "Moonfang Fang",
+          "chance": 0.225,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item_id": "restoration_tonic",
+          "name": "Restoration Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_6",
+          "name": "Hollow Relic Blade",
+          "chance": 0.003,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_6",
+          "name": "Hollow Relic Coat",
+          "chance": 0.003,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "obsidian_boar",
+      "display_name": "Obsidian Boar",
+      "level": 21,
+      "tier": 2,
+      "family": "boar",
+      "maximum_health": 598.0,
+      "defense": 5.42,
+      "speed": 3.1,
+      "xp": 216,
+      "gold_min": 44,
+      "gold_max": 73,
+      "source": "game/data/enemies/obsidian_boar.tres",
+      "drop_source": "res://data/drops/obsidian_boar.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "obsidian_boar_trophy",
+          "name": "Obsidian Boar Tusk",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_21",
+          "name": "Ancient Relic Blade",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_21",
+          "name": "Ancient Relic Coat",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "red_wolf",
+      "display_name": "Red Wolf",
+      "level": 5,
+      "tier": 2,
+      "family": "wolf",
+      "maximum_health": 209.0,
+      "defense": 1.9,
+      "speed": 3.1,
+      "xp": 62,
+      "gold_min": 12,
+      "gold_max": 25,
+      "source": "game/data/enemies/red_wolf.tres",
+      "drop_source": "res://data/drops/red_wolf.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "red_wolf_trophy",
+          "name": "Red Wolf Fang",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "field_tonic",
+          "name": "Field tonic",
+          "chance": 0.04,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_1",
+          "name": "Verge Relic Blade",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_1",
+          "name": "Verge Relic Coat",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "reed_spider",
+      "display_name": "Reed Spider",
+      "level": 4,
+      "tier": 1,
+      "family": "spider",
+      "maximum_health": 137.0,
+      "defense": 0.88,
+      "speed": 3.1,
+      "xp": 44,
+      "gold_min": 10,
+      "gold_max": 19,
+      "source": "game/data/enemies/reed_spider.tres",
+      "drop_source": "res://data/drops/reed_spider.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "reed_spider_trophy",
+          "name": "Reed Spider Silk",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "field_tonic",
+          "name": "Field tonic",
+          "chance": 0.04,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_1",
+          "name": "Verge Relic Blade",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_1",
+          "name": "Verge Relic Coat",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "rift_sentinel",
+      "display_name": "Rift Sentinel",
+      "level": 25,
+      "tier": 4,
+      "family": "stonekin",
+      "maximum_health": 1700.0,
+      "defense": 8.0,
+      "speed": 3.3,
+      "xp": 300,
+      "gold_min": 50,
+      "gold_max": 75,
+      "source": "game/data/enemies/rift_sentinel.tres",
+      "drop_source": "res://data/drops/cairn_sentinel.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "cairn_sentinel_trophy",
+          "name": "Cairn Sentinel Core",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_16",
+          "name": "Ashen Relic Blade",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_16",
+          "name": "Ashen Relic Coat",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "road_bandit",
+      "display_name": "Road Bandit",
+      "level": 9,
+      "tier": 2,
+      "family": "bandit",
+      "maximum_health": 306.0,
+      "defense": 2.78,
+      "speed": 3.1,
+      "xp": 101,
+      "gold_min": 20,
+      "gold_max": 37,
+      "source": "game/data/enemies/road_bandit.tres",
+      "drop_source": "res://data/drops/road_bandit.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "road_bandit_trophy",
+          "name": "Road Bandit Insignia",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "restoration_tonic",
+          "name": "Restoration Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_6",
+          "name": "Hollow Relic Blade",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_6",
+          "name": "Hollow Relic Coat",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "silk_matron",
+      "display_name": "Silk Matron",
+      "level": 16,
+      "tier": 4,
+      "family": "spider",
+      "maximum_health": 1341.0,
+      "defense": 5.92,
+      "speed": 4.8999999999999995,
+      "xp": 420,
+      "gold_min": 34,
+      "gold_max": 64,
+      "source": "game/data/enemies/silk_matron.tres",
+      "drop_source": "res://data/drops/silk_matron.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "silk_matron_trophy",
+          "name": "Silk Matron Silk",
+          "chance": 0.225,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_16",
+          "name": "Ashen Relic Blade",
+          "chance": 0.0035,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_16",
+          "name": "Ashen Relic Coat",
+          "chance": 0.0035,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "slate_guardian",
+      "display_name": "Slate Guardian",
+      "level": 12,
+      "tier": 3,
+      "family": "stonekin",
+      "maximum_health": 702.0,
+      "defense": 4.24,
+      "speed": 4.6,
+      "xp": 216,
+      "gold_min": 26,
+      "gold_max": 49,
+      "source": "game/data/enemies/slate_guardian.tres",
+      "drop_source": "res://data/drops/slate_guardian.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "slate_guardian_trophy",
+          "name": "Slate Guardian Core",
+          "chance": 0.225,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item_id": "restoration_tonic",
+          "name": "Restoration Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_11",
+          "name": "Highland Relic Blade",
+          "chance": 0.003,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_11",
+          "name": "Highland Relic Coat",
+          "chance": 0.003,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "storm_wisp",
+      "display_name": "Storm Wisp",
+      "level": 24,
+      "tier": 2,
+      "family": "wisp",
+      "maximum_health": 671.0,
+      "defense": 6.08,
+      "speed": 3.1,
+      "xp": 245,
+      "gold_min": 50,
+      "gold_max": 82,
+      "source": "game/data/enemies/storm_wisp.tres",
+      "drop_source": "res://data/drops/storm_wisp.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "storm_wisp_trophy",
+          "name": "Storm Wisp Essence",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_21",
+          "name": "Ancient Relic Blade",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_21",
+          "name": "Ancient Relic Coat",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "thicket_wolf",
+      "display_name": "Thicket Wolf",
+      "level": 10,
+      "tier": 1,
+      "family": "wolf",
+      "maximum_health": 245.0,
+      "defense": 2.2,
+      "speed": 3.1,
+      "xp": 92,
+      "gold_min": 22,
+      "gold_max": 37,
+      "source": "game/data/enemies/thicket_wolf.tres",
+      "drop_source": "res://data/drops/thicket_wolf.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "thicket_wolf_trophy",
+          "name": "Thicket Wolf Fang",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "restoration_tonic",
+          "name": "Restoration Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_6",
+          "name": "Hollow Relic Blade",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_6",
+          "name": "Hollow Relic Coat",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "venom_spider",
+      "display_name": "Venom Spider",
+      "level": 12,
+      "tier": 2,
+      "family": "spider",
+      "maximum_health": 379.0,
+      "defense": 3.44,
+      "speed": 3.1,
+      "xp": 130,
+      "gold_min": 26,
+      "gold_max": 46,
+      "source": "game/data/enemies/venom_spider.tres",
+      "drop_source": "res://data/drops/venom_spider.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "venom_spider_trophy",
+          "name": "Venom Spider Silk",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "restoration_tonic",
+          "name": "Restoration Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_11",
+          "name": "Highland Relic Blade",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_11",
+          "name": "Highland Relic Coat",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "widow_spider",
+      "display_name": "Widow Spider",
+      "level": 22,
+      "tier": 2,
+      "family": "spider",
+      "maximum_health": 622.0,
+      "defense": 5.64,
+      "speed": 3.1,
+      "xp": 226,
+      "gold_min": 46,
+      "gold_max": 76,
+      "source": "game/data/enemies/widow_spider.tres",
+      "drop_source": "res://data/drops/widow_spider.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "widow_spider_trophy",
+          "name": "Widow Spider Silk",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "greater_tonic",
+          "name": "Greater Tonic",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_21",
+          "name": "Ancient Relic Blade",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_21",
+          "name": "Ancient Relic Coat",
+          "chance": 0.0025,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "young",
+      "display_name": "Young Mossling",
+      "level": 1,
+      "tier": 1,
+      "family": "mossling",
+      "maximum_health": 60.0,
+      "defense": 0,
+      "speed": 3.2,
+      "xp": 20,
+      "gold_min": 4,
+      "gold_max": 6,
+      "source": "game/data/enemies/young.tres",
+      "drop_source": "res://data/drops/young.tres",
+      "leader_reward": "",
+      "drops": [
+        {
+          "item_id": "moss_shard",
+          "name": "Moss shard",
+          "chance": 0.45,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "field_tonic",
+          "name": "Field tonic",
+          "chance": 0.04,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_blade_1",
+          "name": "Verge Relic Blade",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "relic_coat_1",
+          "name": "Verge Relic Coat",
+          "chance": 0.002,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item_id": "young_trophy",
+          "name": "Young Mossling Sap",
+          "chance": 0.225,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "source_aliases": [
+        "game/data/enemies/young_mosslings.tres"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "ancient_warden_trophy",
+      "display_name": "Ancient Warden Core",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Ancient Warden. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/ancient_warden_trophy.tres"
+    },
+    {
+      "id": "ash_bandit_trophy",
+      "display_name": "Ash Bandit Insignia",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Ash Bandit. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/ash_bandit_trophy.tres"
+    },
+    {
+      "id": "blacktusk_trophy",
+      "display_name": "Blacktusk Boar Tusk",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Blacktusk Boar. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/blacktusk_trophy.tres"
+    },
+    {
+      "id": "bloodfang_trophy",
+      "display_name": "Bloodfang Fang",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Bloodfang. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/bloodfang_trophy.tres"
+    },
+    {
+      "id": "blue_wolf_trophy",
+      "display_name": "Blue Wolf Fang",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Blue Wolf. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/blue_wolf_trophy.tres"
+    },
+    {
+      "id": "briarhide_coat",
+      "display_name": "Briarhide Coat",
+      "item_type": "armor",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 12,
+      "equipment_slot": "chest",
+      "description": "Layered hide lined with soft moss.",
+      "source": "game/data/items/briarhide_coat.tres"
+    },
+    {
+      "id": "briarsteel_edge",
+      "display_name": "Briarsteel Edge",
+      "item_type": "weapon",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 12,
+      "equipment_slot": "weapon",
+      "description": "A keen blade recovered from the moss.",
+      "source": "game/data/items/briarsteel_edge.tres"
+    },
+    {
+      "id": "bristle_boar_trophy",
+      "display_name": "Bristle Boar Tusk",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Bristle Boar. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/bristle_boar_trophy.tres"
+    },
+    {
+      "id": "cairn_cap",
+      "display_name": "Cairn Cap",
+      "item_type": "armor",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 12,
+      "equipment_slot": "head",
+      "description": "A sturdy padded cap.",
+      "source": "game/data/items/cairn_cap.tres"
+    },
+    {
+      "id": "cairn_colossus_trophy",
+      "display_name": "Cairn Colossus Core",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Cairn Colossus. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/cairn_colossus_trophy.tres"
+    },
+    {
+      "id": "cairn_sentinel_trophy",
+      "display_name": "Cairn Sentinel Core",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Cairn Sentinel. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/cairn_sentinel_trophy.tres"
+    },
+    {
+      "id": "cairnwarden_sword",
+      "display_name": "Cairnwarden Sword",
+      "item_type": "weapon",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 22,
+      "equipment_slot": "weapon",
+      "description": "A balanced sword of the old cairn watch.",
+      "source": "game/data/items/cairnwarden_sword.tres"
+    },
+    {
+      "id": "cinder_wisp_trophy",
+      "display_name": "Cinder Wisp Essence",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Cinder Wisp. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/cinder_wisp_trophy.tres"
+    },
+    {
+      "id": "copper_spider_trophy",
+      "display_name": "Copper Spider Silk",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Copper Spider. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/copper_spider_trophy.tres"
+    },
+    {
+      "id": "dusk_stalker_trophy",
+      "display_name": "Dusk Stalker Fang",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Dusk Stalker. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/dusk_stalker_trophy.tres"
+    },
+    {
+      "id": "ember_fang",
+      "display_name": "Ember Fang",
+      "item_type": "weapon",
+      "required_level": 18,
+      "rarity": "common",
+      "value": 108,
+      "equipment_slot": "weapon",
+      "description": "A distinctive ember forged sword from Cinderfall.",
+      "source": "game/data/items/ember_fang.tres"
+    },
+    {
+      "id": "exile_captain_trophy",
+      "display_name": "Exile Captain Insignia",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Exile Captain. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/exile_captain_trophy.tres"
+    },
+    {
+      "id": "field_tonic",
+      "display_name": "Field tonic",
+      "item_type": "consumable",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 1,
+      "equipment_slot": "",
+      "description": "A bitter waystone remedy brewed for travelers.",
+      "source": "game/data/items/field_tonic.tres"
+    },
+    {
+      "id": "frontier_blade_1",
+      "display_name": "Verge Steel Blade",
+      "item_type": "weapon",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "weapon",
+      "description": "A weapon forged for this hunting band.",
+      "source": "game/data/items/frontier_blade_1.tres"
+    },
+    {
+      "id": "frontier_blade_11",
+      "display_name": "Highland Steel Blade",
+      "item_type": "weapon",
+      "required_level": 11,
+      "rarity": "common",
+      "value": 33,
+      "equipment_slot": "weapon",
+      "description": "A weapon forged for this hunting band.",
+      "source": "game/data/items/frontier_blade_11.tres"
+    },
+    {
+      "id": "frontier_blade_16",
+      "display_name": "Ashen Steel Blade",
+      "item_type": "weapon",
+      "required_level": 16,
+      "rarity": "common",
+      "value": 48,
+      "equipment_slot": "weapon",
+      "description": "A weapon forged for this hunting band.",
+      "source": "game/data/items/frontier_blade_16.tres"
+    },
+    {
+      "id": "frontier_blade_21",
+      "display_name": "Ancient Steel Blade",
+      "item_type": "weapon",
+      "required_level": 21,
+      "rarity": "common",
+      "value": 63,
+      "equipment_slot": "weapon",
+      "description": "A weapon forged for this hunting band.",
+      "source": "game/data/items/frontier_blade_21.tres"
+    },
+    {
+      "id": "frontier_blade_6",
+      "display_name": "Hollow Steel Blade",
+      "item_type": "weapon",
+      "required_level": 6,
+      "rarity": "common",
+      "value": 18,
+      "equipment_slot": "weapon",
+      "description": "A weapon forged for this hunting band.",
+      "source": "game/data/items/frontier_blade_6.tres"
+    },
+    {
+      "id": "frontier_coat_1",
+      "display_name": "Verge Field Coat",
+      "item_type": "armor",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "chest",
+      "description": "Armor for the outer hunting grounds.",
+      "source": "game/data/items/frontier_coat_1.tres"
+    },
+    {
+      "id": "frontier_coat_11",
+      "display_name": "Highland Field Coat",
+      "item_type": "armor",
+      "required_level": 11,
+      "rarity": "common",
+      "value": 33,
+      "equipment_slot": "chest",
+      "description": "Armor for the outer hunting grounds.",
+      "source": "game/data/items/frontier_coat_11.tres"
+    },
+    {
+      "id": "frontier_coat_16",
+      "display_name": "Ashen Field Coat",
+      "item_type": "armor",
+      "required_level": 16,
+      "rarity": "common",
+      "value": 48,
+      "equipment_slot": "chest",
+      "description": "Armor for the outer hunting grounds.",
+      "source": "game/data/items/frontier_coat_16.tres"
+    },
+    {
+      "id": "frontier_coat_21",
+      "display_name": "Ancient Field Coat",
+      "item_type": "armor",
+      "required_level": 21,
+      "rarity": "common",
+      "value": 63,
+      "equipment_slot": "chest",
+      "description": "Armor for the outer hunting grounds.",
+      "source": "game/data/items/frontier_coat_21.tres"
+    },
+    {
+      "id": "frontier_coat_6",
+      "display_name": "Hollow Field Coat",
+      "item_type": "armor",
+      "required_level": 6,
+      "rarity": "common",
+      "value": 18,
+      "equipment_slot": "chest",
+      "description": "Armor for the outer hunting grounds.",
+      "source": "game/data/items/frontier_coat_6.tres"
+    },
+    {
+      "id": "frost_wolf_trophy",
+      "display_name": "Frost Wolf Fang",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Frost Wolf. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/frost_wolf_trophy.tres"
+    },
+    {
+      "id": "glass_sabre",
+      "display_name": "Glass Sabre",
+      "item_type": "weapon",
+      "required_level": 19,
+      "rarity": "common",
+      "value": 114,
+      "equipment_slot": "weapon",
+      "description": "A distinctive glass forged sword from Cinderfall.",
+      "source": "game/data/items/glass_sabre.tres"
+    },
+    {
+      "id": "grave_wisp_trophy",
+      "display_name": "Grave Wisp Essence",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Grave Wisp. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/grave_wisp_trophy.tres"
+    },
+    {
+      "id": "greater_tonic",
+      "display_name": "Greater Tonic",
+      "item_type": "consumable",
+      "required_level": 16,
+      "rarity": "common",
+      "value": 48,
+      "equipment_slot": "",
+      "description": "For dangerous northern hunts. Shares the potion cooldown.",
+      "source": "game/data/items/greater_tonic.tres"
+    },
+    {
+      "id": "grey_wolf_trophy",
+      "display_name": "Grey Wolf Fang",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Grey Wolf. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/grey_wolf_trophy.tres"
+    },
+    {
+      "id": "grown_trophy",
+      "display_name": "Grown Mossling Bark",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Species-specific crafting material. Bring to the Relic Workshop.",
+      "source": "game/data/items/grown_trophy.tres"
+    },
+    {
+      "id": "hollow_raider_trophy",
+      "display_name": "Hollow Raider Insignia",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Hollow Raider. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/hollow_raider_trophy.tres"
+    },
+    {
+      "id": "ironback_trophy",
+      "display_name": "Ironback Plate",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Species-specific crafting material. Bring to the Relic Workshop.",
+      "source": "game/data/items/ironback_trophy.tres"
+    },
+    {
+      "id": "ironhide_boar_trophy",
+      "display_name": "Ironhide Boar Tusk",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Ironhide Boar. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/ironhide_boar_trophy.tres"
+    },
+    {
+      "id": "marchguard_sword",
+      "display_name": "Marchguard Sword",
+      "item_type": "weapon",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 9,
+      "equipment_slot": "weapon",
+      "description": "Made at Waystone Refuge for the first road beyond the gate.",
+      "source": "game/data/items/marchguard_sword.tres"
+    },
+    {
+      "id": "meadow_wolf_trophy",
+      "display_name": "Meadow Wolf Fang",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Meadow Wolf. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/meadow_wolf_trophy.tres"
+    },
+    {
+      "id": "mire_boar_trophy",
+      "display_name": "Mire Boar Tusk",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Mire Boar. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/mire_boar_trophy.tres"
+    },
+    {
+      "id": "moonfang_trophy",
+      "display_name": "Moonfang Fang",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Moonfang. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/moonfang_trophy.tres"
+    },
+    {
+      "id": "moss_shard",
+      "display_name": "Moss shard",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 1,
+      "equipment_slot": "",
+      "description": "A hardened fragment of living Briarwood moss.",
+      "source": "game/data/items/moss_shard.tres"
+    },
+    {
+      "id": "obsidian_boar_trophy",
+      "display_name": "Obsidian Boar Tusk",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Obsidian Boar. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/obsidian_boar_trophy.tres"
+    },
+    {
+      "id": "pathrunner_boots",
+      "display_name": "Pathrunner Boots",
+      "item_type": "armor",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 12,
+      "equipment_slot": "feet",
+      "description": "Light boots for the March paths.",
+      "source": "game/data/items/pathrunner_boots.tres"
+    },
+    {
+      "id": "quilted_jack",
+      "display_name": "Quilted Jack",
+      "item_type": "armor",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 7,
+      "equipment_slot": "chest",
+      "description": "Made at Waystone Refuge for the first road beyond the gate.",
+      "source": "game/data/items/quilted_jack.tres"
+    },
+    {
+      "id": "red_wolf_trophy",
+      "display_name": "Red Wolf Fang",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Red Wolf. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/red_wolf_trophy.tres"
+    },
+    {
+      "id": "reed_spider_trophy",
+      "display_name": "Reed Spider Silk",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Reed Spider. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/reed_spider_trophy.tres"
+    },
+    {
+      "id": "relic_blade_1",
+      "display_name": "Verge Relic Blade",
+      "item_type": "weapon",
+      "required_level": 1,
+      "rarity": "rare",
+      "value": 3,
+      "equipment_slot": "weapon",
+      "description": "A weapon forged for this hunting band.",
+      "source": "game/data/items/relic_blade_1.tres"
+    },
+    {
+      "id": "relic_blade_11",
+      "display_name": "Highland Relic Blade",
+      "item_type": "weapon",
+      "required_level": 11,
+      "rarity": "rare",
+      "value": 33,
+      "equipment_slot": "weapon",
+      "description": "A weapon forged for this hunting band.",
+      "source": "game/data/items/relic_blade_11.tres"
+    },
+    {
+      "id": "relic_blade_16",
+      "display_name": "Ashen Relic Blade",
+      "item_type": "weapon",
+      "required_level": 16,
+      "rarity": "rare",
+      "value": 48,
+      "equipment_slot": "weapon",
+      "description": "A weapon forged for this hunting band.",
+      "source": "game/data/items/relic_blade_16.tres"
+    },
+    {
+      "id": "relic_blade_21",
+      "display_name": "Ancient Relic Blade",
+      "item_type": "weapon",
+      "required_level": 21,
+      "rarity": "rare",
+      "value": 63,
+      "equipment_slot": "weapon",
+      "description": "A weapon forged for this hunting band.",
+      "source": "game/data/items/relic_blade_21.tres"
+    },
+    {
+      "id": "relic_blade_6",
+      "display_name": "Hollow Relic Blade",
+      "item_type": "weapon",
+      "required_level": 6,
+      "rarity": "rare",
+      "value": 18,
+      "equipment_slot": "weapon",
+      "description": "A weapon forged for this hunting band.",
+      "source": "game/data/items/relic_blade_6.tres"
+    },
+    {
+      "id": "relic_coat_1",
+      "display_name": "Verge Relic Coat",
+      "item_type": "armor",
+      "required_level": 1,
+      "rarity": "rare",
+      "value": 3,
+      "equipment_slot": "chest",
+      "description": "Armor for the outer hunting grounds.",
+      "source": "game/data/items/relic_coat_1.tres"
+    },
+    {
+      "id": "relic_coat_11",
+      "display_name": "Highland Relic Coat",
+      "item_type": "armor",
+      "required_level": 11,
+      "rarity": "rare",
+      "value": 33,
+      "equipment_slot": "chest",
+      "description": "Armor for the outer hunting grounds.",
+      "source": "game/data/items/relic_coat_11.tres"
+    },
+    {
+      "id": "relic_coat_16",
+      "display_name": "Ashen Relic Coat",
+      "item_type": "armor",
+      "required_level": 16,
+      "rarity": "rare",
+      "value": 48,
+      "equipment_slot": "chest",
+      "description": "Armor for the outer hunting grounds.",
+      "source": "game/data/items/relic_coat_16.tres"
+    },
+    {
+      "id": "relic_coat_21",
+      "display_name": "Ancient Relic Coat",
+      "item_type": "armor",
+      "required_level": 21,
+      "rarity": "rare",
+      "value": 63,
+      "equipment_slot": "chest",
+      "description": "Armor for the outer hunting grounds.",
+      "source": "game/data/items/relic_coat_21.tres"
+    },
+    {
+      "id": "relic_coat_6",
+      "display_name": "Hollow Relic Coat",
+      "item_type": "armor",
+      "required_level": 6,
+      "rarity": "rare",
+      "value": 18,
+      "equipment_slot": "chest",
+      "description": "Armor for the outer hunting grounds.",
+      "source": "game/data/items/relic_coat_6.tres"
+    },
+    {
+      "id": "restoration_tonic",
+      "display_name": "Restoration Tonic",
+      "item_type": "consumable",
+      "required_level": 6,
+      "rarity": "common",
+      "value": 18,
+      "equipment_slot": "",
+      "description": "A stronger restorative. Shares the potion cooldown.",
+      "source": "game/data/items/restoration_tonic.tres"
+    },
+    {
+      "id": "rift_cleaver",
+      "display_name": "Rift Cleaver",
+      "item_type": "weapon",
+      "required_level": 25,
+      "rarity": "common",
+      "value": 150,
+      "equipment_slot": "weapon",
+      "description": "A distinctive rift forged sword from Cinderfall.",
+      "source": "game/data/items/rift_cleaver.tres"
+    },
+    {
+      "id": "road_bandit_trophy",
+      "display_name": "Road Bandit Insignia",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Road Bandit. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/road_bandit_trophy.tres"
+    },
+    {
+      "id": "rootward_jack",
+      "display_name": "Rootward Jack",
+      "item_type": "armor",
+      "required_level": 4,
+      "rarity": "rare",
+      "value": 80,
+      "equipment_slot": "chest",
+      "description": "Layers of fracture-hardened bark, flexible enough for a moving front. Lets a prepared hunter survive more claws at once.",
+      "source": "game/data/items/rootward_jack.tres"
+    },
+    {
+      "id": "silk_matron_trophy",
+      "display_name": "Silk Matron Silk",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Silk Matron. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/silk_matron_trophy.tres"
+    },
+    {
+      "id": "slate_guardian_trophy",
+      "display_name": "Slate Guardian Core",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Slate Guardian. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/slate_guardian_trophy.tres"
+    },
+    {
+      "id": "storm_wisp_trophy",
+      "display_name": "Storm Wisp Essence",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Storm Wisp. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/storm_wisp_trophy.tres"
+    },
+    {
+      "id": "thicket_wolf_trophy",
+      "display_name": "Thicket Wolf Fang",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Thicket Wolf. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/thicket_wolf_trophy.tres"
+    },
+    {
+      "id": "trail_bridle",
+      "display_name": "Briarwood bridle",
+      "item_type": "miscellaneous",
+      "required_level": 3,
+      "rarity": "uncommon",
+      "value": 120,
+      "equipment_slot": "",
+      "description": "Use once to claim a sure-footed bay horse. H mounts or dismounts. Travel 60% faster. Space attacks 35% faster; two consecutive hits knock foes back. Skills and conversations dismount. Ownership survives death and loading.",
+      "source": "game/data/items/trail_bridle.tres"
+    },
+    {
+      "id": "travelers_vest",
+      "display_name": "Traveler's Vest",
+      "item_type": "armor",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 2,
+      "equipment_slot": "chest",
+      "description": "A weathered outer vest.",
+      "source": "game/data/items/travelers_vest.tres"
+    },
+    {
+      "id": "venom_spider_trophy",
+      "display_name": "Venom Spider Silk",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Venom Spider. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/venom_spider_trophy.tres"
+    },
+    {
+      "id": "wakecleaver",
+      "display_name": "Wakecleaver",
+      "item_type": "weapon",
+      "required_level": 4,
+      "rarity": "rare",
+      "value": 90,
+      "equipment_slot": "weapon",
+      "description": "Root-tempered steel drawn from a collapsed fracture. A quick, heavy edge for returning to crowded hunting grounds.",
+      "source": "game/data/items/wakecleaver.tres"
+    },
+    {
+      "id": "wakeglass",
+      "display_name": "Wakeglass Ember",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "rare",
+      "value": 45,
+      "equipment_slot": "",
+      "description": "A cooled spark from a Briarwake Fracture. At Oren's forge, optionally spend one to guarantee an otherwise uncertain upgrade. Ordinary gold and material costs still apply.",
+      "source": "game/data/items/wakeglass.tres"
+    },
+    {
+      "id": "wayfarer_blade",
+      "display_name": "Wayfarer Blade",
+      "item_type": "weapon",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "weapon",
+      "description": "A dependable blade from the refuge.",
+      "source": "game/data/items/wayfarer_blade.tres"
+    },
+    {
+      "id": "widow_spider_trophy",
+      "display_name": "Widow Spider Silk",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Harvested only from Widow Spider. Bring to Ilyra's Relic Workshop to craft level-band equipment.",
+      "source": "game/data/items/widow_spider_trophy.tres"
+    },
+    {
+      "id": "young_trophy",
+      "display_name": "Young Mossling Sap",
+      "item_type": "material",
+      "required_level": 1,
+      "rarity": "common",
+      "value": 3,
+      "equipment_slot": "",
+      "description": "Species-specific crafting material. Bring to the Relic Workshop.",
+      "source": "game/data/items/young_trophy.tres"
+    }
+  ],
+  "skills": [
+    {
+      "id": "due_return",
+      "display_name": "Sunbreaker",
+      "description": "Smash a radiant arc for 300% Attack and knock enemies back. A hit heals 35% Attack. Answer adds 50% Attack as damage and another 60% Attack of healing.",
+      "cooldown": 8
+    },
+    {
+      "id": "gate_sweep",
+      "display_name": "Bladestorm",
+      "description": "An orbiting spirit sword tears through every enemy within 4m as you move. Opening hit plus four pulses; 310% Attack total. Slows enemies; Answer adds knockback.",
+      "cooldown": 7
+    },
+    {
+      "id": "heelturn",
+      "display_name": "Flashstep",
+      "description": "Dash up to 5m in your movement direction, then run 80% faster for 4s. Leaves a slowing electric wake. Press once; no ground click.",
+      "cooldown": 6
+    },
+    {
+      "id": "held_line",
+      "display_name": "Spirit Edge",
+      "description": "Your sword burns with green spirit energy for 6s: +45% basic damage and +30% attack speed. Guard one frontal blow by 65% for 2s to earn Answer.",
+      "cooldown": 12
+    },
+    {
+      "id": "riving_stroke",
+      "display_name": "Thunder Cleave",
+      "description": "Instant lightning slash. Deals 180% Attack in a broad arc and opens enemies for +25% basic damage for 4s. Cast while moving; no target needed.",
+      "cooldown": 3
+    },
+    {
+      "id": "standard_of_ash",
+      "display_name": "Phoenix Ring",
+      "description": "Erupt a 4s fire field at your feet. Burns nearby enemies for 50% Attack every half second and slows them 25%. Take 25% less damage inside.",
+      "cooldown": 10
+    }
+  ],
+  "npcs": [
+    {
+      "id": "apothecary",
+      "display_name": "Sera - Potions",
+      "role": "merchant",
+      "description": ""
+    },
+    {
+      "id": "armorer",
+      "display_name": "Hessa - Armor",
+      "role": "merchant",
+      "description": ""
+    },
+    {
+      "id": "artificer",
+      "display_name": "Ilyra - Relic Crafting",
+      "role": "merchant",
+      "description": ""
+    },
+    {
+      "id": "ash_scout",
+      "display_name": "Scout Vela",
+      "role": "scout",
+      "description": ""
+    },
+    {
+      "id": "keeper",
+      "display_name": "Keeper Sella",
+      "role": "waystone keeper",
+      "description": ""
+    },
+    {
+      "id": "mara",
+      "display_name": "Mara Fen",
+      "role": "merchant",
+      "description": ""
+    },
+    {
+      "id": "smith",
+      "display_name": "Smith Oren",
+      "role": "smith",
+      "description": ""
+    },
+    {
+      "id": "stablemaster",
+      "display_name": "Bram - Mounts",
+      "role": "merchant",
+      "description": ""
+    },
+    {
+      "id": "warden",
+      "display_name": "Warden Elric",
+      "role": "warden",
+      "description": ""
+    },
+    {
+      "id": "weapons",
+      "display_name": "Darin - Weapons",
+      "role": "merchant",
+      "description": ""
+    }
+  ],
+  "quests": [
+    {
+      "id": "briar_watch",
+      "display_name": "briar_watch",
+      "title": "Briar at the Gate",
+      "description": "Follow the north road to Briarwood Verge. Keep the young mosslings in front of your blade, collect three moss shards, and return to Elric. Your reward and the hunt gold can buy a better sword from Mara. Other hunts need no quest."
+    },
+    {
+      "id": "briarwake_heart",
+      "display_name": "briarwake_heart",
+      "title": "A Heart Beneath the Roots",
+      "description": "Oren has heard amber roots breaking the earth beyond Old Pine Hollow. Follow the side trail and look for the scar yourself. Prepare layered armor, a tempered blade and tonics before striking it. Collapse the Briarwake, then return to Oren for one piece of Wakeglass. The remaining defenders do not vanish when it falls."
+    },
+    {
+      "id": "first_temper",
+      "display_name": "first_temper",
+      "title": "A Steadier Edge",
+      "description": "Speak with Smith Oren. Improve any piece of equipment, then report to him."
+    },
+    {
+      "id": "heart_of_the_rift",
+      "display_name": "heart_of_the_rift",
+      "title": "Heart of the Rift",
+      "description": "Defeat the Rift Sentinel in the southern basin and return to Vela."
+    },
+    {
+      "id": "shattered_web",
+      "display_name": "shattered_web",
+      "title": "Shattered Web",
+      "description": "The eastern glass nest is spreading toward the outpost. Cut down four Glass Spiders and return to Vela."
+    },
+    {
+      "id": "through_the_veil",
+      "display_name": "through_the_veil",
+      "title": "Through the Veil",
+      "description": "Cross the gate north of Briar Crossing and drive Ember Hounds from Scout Vela's outpost."
+    },
+    {
+      "id": "welcome",
+      "display_name": "welcome",
+      "title": "A Place on the Road",
+      "description": "Meet Mara and learn where travelers prepare for the March."
+    }
+  ]
+}

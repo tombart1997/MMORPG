@@ -7,6 +7,8 @@ extends Resource
 @export var label_height: float = 2.05
 @export var weapon: PackedScene
 @export var armor: PackedScene
+@export var long_sword_minimum_length: float = 1.25
+@export var preserve_authored_materials: bool = false
 @export var socket_bones: Dictionary = {
 	&"WeaponSocket": &"Hand.R", &"OffhandSocket": &"Hand.L",
 	&"ArmorSocket": &"Chest", &"HeadSocket": &"Head",

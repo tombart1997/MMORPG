@@ -151,10 +151,10 @@ func _run() -> void:
 	await frames(2)
 	# Combat against middle band confirms purchased upgrade and appropriate drops.
 	var middle: EnemyCamp = world.camps[1]
-	player.position = middle.position + Vector3(0, 0, 2.1)
+	var target: ActorBody = middle.pack.members[0]
+	player.position = target.global_position + Vector3(0, 0, 2.1)
 	player.rotation.y = 0
 	player.health.current = player.health.maximum
-	var target: ActorBody = middle.pack.members[0]
 	var hp_before := target.health.current
 	player.combat.cancel()
 	player.combat.request_attack()
@@ -162,6 +162,11 @@ func _run() -> void:
 	check(hp_before - target.health.current == player.stats.value(&"attack"), "Purchased Attack affects actual cone-hit damage")
 	swings = 0
 	while middle.pack.living_count() > 0 and player.health.is_alive() and swings < 10:
+		for member in middle.pack.members:
+			if member.health.is_alive():
+				player.global_position = member.global_position + Vector3(0, 0, 2.1)
+				player.rotation.y = 0
+				break
 		player.combat.request_attack()
 		while player.combat.is_attacking(): await frames(1)
 		swings += 1
@@ -231,6 +236,8 @@ func _run() -> void:
 	check(save.load_player(player) and bag.gold == expected_gold and player.equipment.slots[&"weapon"].id == expected_weapon, "Load restores trading outcomes and equipped upgrade")
 	shop.open_npc(merchant)
 	player.position = hard.position
+	hard.update_residency()
+	hunter = hard.pack.members[0]
 	hard.pack.target = player
 	player.health.apply_damage(10000, hunter)
 	check(not player.health.is_alive() and not player.ui_open and not hard.pack.has_target(), "Death clears UI and combat targets")

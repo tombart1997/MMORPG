@@ -9,6 +9,20 @@ const FARM_LOOP: Array[Vector3] = [Vector3(-25, 0, -50), FRACTURE, Vector3(-4, 0
 const BOUNDS := Rect2(-120, -298, 240, 362)
 const OUTER_ROAD: Array[Vector3] = [Vector3(0,0,15),Vector3(0,0,-8),Vector3(-95,0,-8),Vector3(-95,0,-88),Vector3(95,0,-88),Vector3(95,0,-133),Vector3(-95,0,-133),Vector3(-95,0,-177),Vector3(95,0,-177),Vector3(95,0,-222),Vector3(-95,0,-222),Vector3(-95,0,-283)]
 var rng := RandomNumberGenerator.new()
+static var camp_cells: Dictionary = {}
+var scenery: RemasterScenery
+
+static func nearby_camps(x: float,z: float) -> Array:
+	if camp_cells.is_empty():
+		for point in FirstMapContent.POINTS:
+			var key := Vector2i(floori(point.x/32),floori(point.z/32))
+			if not camp_cells.has(key): camp_cells[key] = []
+			camp_cells[key].append(point)
+	var cell := Vector2i(floori(x/32),floori(z/32))
+	var result: Array = []
+	for i in range(-1,2):
+		for j in range(-1,2): result.append_array(camp_cells.get(cell+Vector2i(i,j),[]))
+	return result
 
 static func path_distance(point: Vector3) -> float:
 	var distance := 100.0
@@ -34,36 +48,25 @@ static func height_at(x: float, z: float) -> float:
 	clearance = minf(clearance, point.distance_to(FRACTURE) - 10)
 	for camp in CAMPS:
 		clearance = minf(clearance, point.distance_to(camp) - 5)
-	for camp in FirstMapContent.POINTS:
+	for camp in nearby_camps(x,z):
 		clearance = minf(clearance, point.distance_to(camp) - 8)
 	clearance = minf(clearance, point.distance_to(START) - 5)
-	return minf(4.5, maxf(0, clearance) * (0.24 + 0.10 * sin(x * 0.18) * cos(z * 0.13)))
+	# Broad landforms independent of placement: rolling shoulders, a central saddle,
+	# western low ground, and taller boundary ridges. Paths/camp floors remain level.
+	var rolling := 2.4+1.7*sin(x*.047+z*.013)+1.3*cos(z*.055-x*.018)
+	var shoulder := 4.0*exp(-pow((x-42)/21,2)-pow((z+43)/32,2))
+	var edge := smoothstep(87,119,absf(x))*6
+	var hollow := -1.3*exp(-pow((x+48)/22,2)-pow((z+105)/30,2))
+	var erosion := sin(x*.28+sin(z*.11))*cos(z*.22)*.16
+	var envelope := maxf(0,clearance)*.34
+	return minf(envelope,maxf(.1,rolling+shoulder+edge+hollow))+smoothstep(1,6,clearance)*erosion
 
 func _ready() -> void:
 	rng.seed = 7823
-	var surface := SurfaceTool.new()
-	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
-	for x in range(-120, 120, 2):
-		for z in range(-298, 64, 2):
-			for corner in [Vector2(0, 0), Vector2(1, 0), Vector2(0, 1),
-				Vector2(1, 0), Vector2(1, 1), Vector2(0, 1)]:
-				var px: float = float(x) + corner.x * 2
-				var pz: float = float(z) + corner.y * 2
-				var dirt := path_distance(Vector3(px, 0, pz)) < 1.6
-				var color := Color(0.39, 0.32, 0.2) if dirt else Color(0.20, 0.29, 0.17).lerp(Color(0.28, 0.29, 0.24), clampf(-pz / 110.0, 0, 1))
-				color *= 0.94 + 0.08 * sin(px * 1.7 + pz * 0.7)
-				surface.set_color(color)
-				surface.add_vertex(Vector3(px, height_at(px, pz), pz))
-	surface.generate_normals()
-	var ground := MeshInstance3D.new()
-	ground.mesh = surface.commit()
-	var material := ShaderMaterial.new()
-	material.shader = load("res://assets/benchmark/forest_floor.gdshader")
-	material.set_shader_parameter("soil_color", load("res://assets/benchmark/textures/soil_color.png"))
-	material.set_shader_parameter("soil_normal", load("res://assets/benchmark/textures/soil_normal.png"))
-	ground.material_override = material
-	add_child(ground)
-	ground.create_trimesh_collision()
+	scenery = RemasterScenery.new()
+	add_child(scenery)
+	LandscapeMesh.build(self,BOUNDS,height_at,RemasterGround.weights,RemasterMaterials.terrain())
+	LandscapeMesh.backdrop(self,BOUNDS,false,height_at)
 	for i in range(550):
 		var point := Vector3(rng.randf_range(-114, 114), 0, rng.randf_range(-291, 58))
 		if path_distance(point) < 4 or (absf(point.x) < 32 and point.z > 4 and point.z < 56):
@@ -82,16 +85,29 @@ func _ready() -> void:
 			rock(point, rng.randf_range(0.6, 1.4))
 		else:
 			tree(point, rng.randf_range(0.85, 1.4))
-	# Deliberate ridges block views between districts; openings follow the bent road.
-	for row in [-12, -40, -67]:
-		for x in range(-48, 49, 5):
-			var point := Vector3(x, 0, row)
-			if point.distance_to(FRACTURE) < 25: continue
-			if path_distance(point) < 5: continue
-			point.y = height_at(point.x, point.z)
-			rock(point, 3.3)
-			if x % 2 == 0: tree(point + Vector3(1, 0, 1), 1.5)
+	# Unequal terrain shoulders frame the first hunt instead of straight boulder rows.
+	for feature in [[-3,-16,1.1,.25],[34,-39,1.4,-.5],[-43,-46,1.3,.8],[45,-69,1.6,-.4],[-14,-110,1.5,.25],[13,-157,1.7,-.6],[-10,-204,1.5,.4],[14,-251,1.9,-.4]]:
+		var point := Vector3(feature[0],0,feature[1])
+		point.y = height_at(point.x,point.z)-.3
+		scenery.place("cliff",point,Vector3.ONE*feature[2],feature[3])
+		for j in 3:
+			var tree_point := point+Vector3(-4+j*3.5,0,-3.5)
+			if path_distance(Vector3(tree_point.x,0,tree_point.z))<4: continue
+			tree_point.y = height_at(tree_point.x,tree_point.z)
+			scenery.plant_tree(tree_point,1.0+float(j)*.13,j*.8,j)
 	# Natural outer limits, with no physics walls across the travel route.
+	# A narrow slate shoulder separates the western lane from the wolf clearing.
+	# Its open ends lead around the camp, preserving the actual southbound road.
+	var lane_shoulder := Vector3(-91,height_at(-91,-77),-77)
+	scenery.place("cliff1",lane_shoulder,Vector3(1,.65,.8),PI*.5)
+	var shoulder_body := StaticBody3D.new()
+	shoulder_body.position = lane_shoulder+Vector3.UP*.8
+	var shoulder_collision := CollisionShape3D.new()
+	var shoulder_shape := BoxShape3D.new()
+	shoulder_shape.size = Vector3(1.8,1.6,8)
+	shoulder_collision.shape = shoulder_shape
+	shoulder_body.add_child(shoulder_collision)
+	add_child(shoulder_body)
 	for x in range(-118, 119, 5):
 		for z in [-296, 62]: rock(Vector3(x, height_at(x, z), z), 3.0)
 	for z in range(-296, 63, 5):
@@ -101,19 +117,17 @@ func _ready() -> void:
 	for i in range(8):
 		var angle := i * TAU / 8
 		rock(START + Vector3(3 + sin(angle) * 0.55, 0, cos(angle) * 0.55), 0.2)
-	var fire := OmniLight3D.new()
-	fire.position = START + Vector3(3, 0.6, 0)
-	fire.light_color = Color(1, 0.55, 0.2)
-	fire.light_energy = 2
-	fire.omni_range = 5
+	var fire := PaintedCampfire.new()
+	fire.position = START + Vector3(3, 0, 0)
 	add_child(fire)
-	var flame := SphereMesh.new()
-	flame.radius = 0.25
-	flame.height = 0.7
-	var flame_node := prop(flame, fire.position, Color(1, 0.45, 0.1))
-	flame_node.material_override.emission_enabled = true
-	flame_node.material_override.emission = Color(1, 0.35, 0.05)
 	add_child(BriarwakeGrove.new())
+	# Landmarks visible from travel lanes, with distinct vertical silhouettes.
+	for feature in [["watchtower",-10,0,1.0,0.0],["shrine",25,-12,1.0,.4],["shrine",26,-36,1.2,.2],["ruin_arch",35,-73,1.5,-.4],["shrine",-82,-125,1.3,.8],["ruin_arch",82,-211,1.8,.25]]:
+		var point := Vector3(feature[1],0,feature[2])
+		point.y = height_at(point.x,point.z)
+		scenery.place(feature[0],point,Vector3.ONE*feature[3],feature[4])
+	scenery.dress_ground()
+	scenery.flush()
 
 func prop(mesh: Mesh, location: Vector3, color: Color) -> MeshInstance3D:
 	var node := MeshInstance3D.new()
@@ -127,6 +141,7 @@ func prop(mesh: Mesh, location: Vector3, color: Color) -> MeshInstance3D:
 	return node
 
 func tree(point: Vector3, size: float) -> void:
+	scenery.plant_tree(point,size,rng.randf()*TAU,rng.randi_range(0,2))
 	var trunk := CylinderMesh.new()
 	trunk.top_radius = 0.16 * size
 	trunk.bottom_radius = 0.26 * size
@@ -134,22 +149,20 @@ func tree(point: Vector3, size: float) -> void:
 	trunk.radial_segments = 6
 	var node := prop(trunk, point + Vector3.UP * 1.75 * size, Color(0.22, 0.16, 0.1))
 	node.create_convex_collision()
-	for layer in range(3):
-		var leaves := CylinderMesh.new()
-		leaves.top_radius = 0
-		leaves.bottom_radius = (1.7 - layer * 0.35) * size
-		leaves.height = 2.2 * size
-		leaves.radial_segments = 7
-		prop(leaves, point + Vector3.UP * (2.5 + layer * 0.8) * size,
-			Color(0.12 + layer * 0.025, 0.24 + layer * 0.025, 0.15))
+	node.hide() # Preserve the original navigation obstacle, replace only its art.
 
 func rock(point: Vector3, size: float) -> void:
-	var stone := SphereMesh.new()
-	stone.radius = size
-	stone.height = size * 1.4
-	stone.radial_segments = 7
-	stone.rings = 3
-	var node := prop(stone, point + Vector3.UP * size * 0.45, Color(0.36, 0.38, 0.32))
-	node.rotation.y = rng.randf() * TAU
+	var yaw := rng.randf()*TAU
+	var kind := "rock%d" % rng.randi_range(0,2)
+	scenery.place(kind,point-Vector3.UP*.08,Vector3(size,size*.8,size),yaw)
 	if size > 0.4:
-		node.create_convex_collision()
+		# Preserve the old navigation envelope while replacing its visible surface.
+		var body := StaticBody3D.new()
+		var collision := CollisionShape3D.new()
+		var shape := SphereShape3D.new()
+		shape.radius = size
+		collision.shape = shape
+		collision.position.y = size*.45
+		body.position = point
+		body.add_child(collision)
+		add_child(body)

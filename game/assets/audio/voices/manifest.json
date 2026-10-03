@@ -1,0 +1,146 @@
+[
+  {
+    "npc": "apothecary",
+    "key": "apothecary_greeting",
+    "text": "Specialist supplies for the outer March.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "npc": "apothecary",
+    "key": "apothecary_page0",
+    "text": "Specialist supplies for the outer March. Inspect the level and material requirements before buying.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "npc": "armorer",
+    "key": "armorer_greeting",
+    "text": "Specialist supplies for the outer March.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "npc": "armorer",
+    "key": "armorer_page0",
+    "text": "Specialist supplies for the outer March. Inspect the level and material requirements before buying.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "npc": "artificer",
+    "key": "artificer_greeting",
+    "text": "Specialist supplies for the outer March.",
+    "voice": "en-GB-LibbyNeural"
+  },
+  {
+    "npc": "artificer",
+    "key": "artificer_page0",
+    "text": "Specialist supplies for the outer March. Inspect the level and material requirements before buying.",
+    "voice": "en-GB-LibbyNeural"
+  },
+  {
+    "npc": "ash_scout",
+    "key": "ash_scout_greeting",
+    "text": "The hounds stalk our outpost, glass spiders nest to the east, and a sentinel guards the rift beyond.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "npc": "ash_scout",
+    "key": "ash_scout_page0",
+    "text": "The hounds stalk our outpost, glass spiders nest to the east, and a sentinel guards the rift beyond. Take my contracts as you clear the basin. The gate behind us returns to Briar Crossing.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "npc": "keeper",
+    "key": "keeper_greeting",
+    "text": "The waystone keeps this little refuge quiet.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "npc": "keeper",
+    "key": "keeper_page0",
+    "text": "The waystone keeps this little refuge quiet. Rest here between hunts. If you fall, its light will guide you home with your belongings.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "npc": "keeper",
+    "key": "keeper_page1",
+    "text": "We built around the old road, where the pines give way to briar. Mara keeps our tools sharp; Elric watches the gate. One day these paths may carry caravans again.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "npc": "mara",
+    "key": "mara_greeting",
+    "text": "A sound edge and a stitched coat go farther than brave words.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "npc": "mara",
+    "key": "mara_page0",
+    "text": "A sound edge and a stitched coat go farther than brave words. I buy moss shards and spare gear. What do you need?",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "npc": "mara",
+    "key": "mara_page1",
+    "text": "Try the Marchguard Sword first, then a Quilted Jack. Keep some shards for Oren and some gold for tonics. At level three, my 240-gold bridle unlocks a horse: use it from your pack, then H to ride. Faster return trips mean more time hunting.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "npc": "smith",
+    "key": "smith_greeting",
+    "text": "The first temper is guaranteed.",
+    "voice": "en-GB-ThomasNeural"
+  },
+  {
+    "npc": "smith",
+    "key": "smith_page0",
+    "text": "The first temper is guaranteed. Later attempts spend gold and moss even when they fail, but keep your item and its level. Wakeglass can guarantee one uncertain attempt; you still pay the normal cost. Keep it for an upgrade that matters.",
+    "voice": "en-GB-ThomasNeural"
+  },
+  {
+    "npc": "stablemaster",
+    "key": "stablemaster_greeting",
+    "text": "Specialist supplies for the outer March.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "npc": "stablemaster",
+    "key": "stablemaster_page0",
+    "text": "Specialist supplies for the outer March. Inspect the level and material requirements before buying.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "npc": "warden",
+    "key": "warden_greeting",
+    "text": "Welcome to Briar Crossing.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "npc": "warden",
+    "key": "warden_page0",
+    "text": "Welcome to Briar Crossing. The waystone heals you for free. Take Briar at the Gate and follow the north road to Briarwood Verge. Click a mossling to approach and attack; keep the group in front of your blade. You can meet Mara before or after your first hunt.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "npc": "warden",
+    "key": "warden_page1",
+    "text": "Old Pine Hollow shelters grown mosslings. Beyond it, the Broken Cairn belongs to ironbacks. A glowing gate north of town leads to Cinderfall Basin; Scout Vela is holding an outpost there. Prepare before crossing.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "npc": "warden",
+    "key": "warden_page2",
+    "text": "Then take your time with the ironbacks. Their heavy shells hide valuable old steel. Leave room in your pack before you go.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "npc": "weapons",
+    "key": "weapons_greeting",
+    "text": "Specialist supplies for the outer March.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "npc": "weapons",
+    "key": "weapons_page0",
+    "text": "Specialist supplies for the outer March. Inspect the level and material requirements before buying.",
+    "voice": "en-CA-LiamNeural"
+  }
+]

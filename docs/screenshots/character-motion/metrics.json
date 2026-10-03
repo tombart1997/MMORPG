@@ -1,0 +1,55 @@
+{
+	"body_clips": [
+		{
+			"clip": "attack_01",
+			"foot_drift_m": 0.00104589131660759,
+			"grip_error_m": 0.0,
+			"hip_degrees": 34.1300762070548,
+			"shoulder_degrees": 97.047419010854,
+			"weight_shift_m": 0.157581478357315
+		},
+		{
+			"clip": "attack_02",
+			"foot_drift_m": 0.0030928491614759,
+			"grip_error_m": 0.0,
+			"hip_degrees": 34.1300762070548,
+			"shoulder_degrees": 97.047419010854,
+			"weight_shift_m": 0.157581478357315
+		},
+		{
+			"clip": "attack_03",
+			"foot_drift_m": 0.00206834240816534,
+			"grip_error_m": 0.0,
+			"hip_degrees": 16.7365999195509,
+			"shoulder_degrees": 53.3792602505378,
+			"weight_shift_m": 0.160288333892822
+		},
+		{
+			"clip": "longsword_01",
+			"foot_drift_m": 0.00228105508722365,
+			"grip_error_m": 0.00640832679346204,
+			"hip_degrees": 34.1300762070548,
+			"shoulder_degrees": 97.047419010854,
+			"weight_shift_m": 0.157581478357315
+		},
+		{
+			"clip": "longsword_02",
+			"foot_drift_m": 0.00090797379380092,
+			"grip_error_m": 0.0040376391261816,
+			"hip_degrees": 34.1300762070548,
+			"shoulder_degrees": 97.047419010854,
+			"weight_shift_m": 0.157581478357315
+		},
+		{
+			"clip": "longsword_03",
+			"foot_drift_m": 0.00212523411028087,
+			"grip_error_m": 0.00924879498779774,
+			"hip_degrees": 16.7365999195509,
+			"shoulder_degrees": 53.3792602505378,
+			"weight_shift_m": 0.160288348793983
+		}
+	],
+	"effect_anchor_error_m": 0.0,
+	"equipment_error_m": 0.00000427162012783811,
+	"failures": 0
+}

@@ -117,6 +117,11 @@ func _run() -> void:
 	await travel(ZoneTerrain.CAMPS[0] + Vector3(0, 0, 3))
 	check(player.position.distance_to(ZoneTerrain.CAMPS[0]) < 4, "Travel unfolds through road bends to first hunting territory")
 	var camp: EnemyCamp = world.camps[0]
+	# This suite exercises selected pickup/quest/forge UI with deterministic materials.
+	# The production reduced drop budget is sampled separately in field_feedback_review.
+	camp.drop_table = camp.drop_table.duplicate(true)
+	for entry in camp.drop_table.entries:
+		if entry.item.id == &"moss_shard": entry.chance = 1.0
 	for enemy in camp.pack.members:
 		if enemy.health.is_alive(): await approach(enemy, &"enemy", 700)
 	check(camp.pack.living_count() == 0 and player.health.is_alive(), "Selected enemy focus drives real melee while cleaving the group")

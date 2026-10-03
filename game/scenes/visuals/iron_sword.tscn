@@ -1,8 +1,8 @@
 [gd_scene load_steps=2 format=3]
-[ext_resource type="PackedScene" path="res://assets/characters/warden_sword.glb" id="1"]
-[node name="WayfarerSword" type="Node3D"]
+[ext_resource type="PackedScene" path="res://assets/weapons/wayfarer.glb" id="1"]
+[node name="ForgedSword" type="Node3D"]
+metadata/two_handed = false
 [node name="Model" parent="." instance=ExtResource("1")]
-rotation = Vector3(-1.5707963, 0, 0)
 [node name="Grip" type="Marker3D" parent="."]
 [node name="Tip" type="Marker3D" parent="."]
 position = Vector3(0, 0, -1.08)

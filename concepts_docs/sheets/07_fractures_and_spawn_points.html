@@ -1,0 +1,68 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Fractures — spawn points and mastery farming · Ironfield concepts</title><link rel="stylesheet" href="../concepts.css"></head><body><header><a class="brand" href="../index.html">IRONFIELD</a><nav aria-label="Main"><a href="../index.html">Design sheets</a><a href="../bestiary.html">Bestiary</a><a href="../art_gallery.html">Concept art</a><a href="../Ironfield_Concepts.xlsx">Workbook</a></nav></header><main class="doc"><p class="eyebrow">Design sheet 07 · 3 October 2026</p><h1 id="fractures-spawn-points-and-mastery-farming">Fractures — spawn points and mastery farming</h1>
+<p><img alt="Fracture states and reward objects" src="../art/fractures_mastery.png" /></p>
+<p>A Fracture is a destructible source of enemy reinforcements. The player attacks its core while managing the defenders it releases. Destroying the core rewards materials and the proposed Mastery Leaf; surviving defenders remain alive and dangerous.</p>
+<h2 id="current-briarwake-encounter">Current Briarwake encounter</h2>
+<p>The current resource uses <strong>1,800 HP</strong>, 180-second respawn, a population cap of 24 and four health-triggered waves. It releases <strong>6 Young Mosslings at first damage</strong>, <strong>6 at 80% HP</strong>, <strong>8 Grown Mosslings at 55%</strong>, and <strong>4 Ironbacks at 30%</strong>. Wave warning is <strong>0.65 seconds</strong>. These resource values supersede older text that described a 950-HP core and smaller waves.</p>
+<p>Warnings select navigable, separated ground near the encounter and visibly mark the release positions. Blocked locations retry; duplicate damage events cannot release the same wave twice. Strong damage can destroy the core without a forced invulnerability gate. Cancel queued releases on destruction but do not remove already spawned defenders.</p>
+<h2 id="proposed-spawn-point-progression">Proposed spawn-point progression</h2>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Fracture</th>
+<th style="text-align: right;">Level</th>
+<th>Gear band</th>
+<th style="text-align: right;">HP</th>
+<th style="text-align: right;">Base EXP</th>
+<th>Mastery Leaf base chance / quantity</th>
+<th style="text-align: right;">Respawn</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Briarwake</td>
+<td style="text-align: right;">7</td>
+<td>T2</td>
+<td style="text-align: right;">1,800</td>
+<td style="text-align: right;">100</td>
+<td>40% / 1</td>
+<td style="text-align: right;">180s</td>
+</tr>
+<tr>
+<td>Cairnwake</td>
+<td style="text-align: right;">15</td>
+<td>T3</td>
+<td style="text-align: right;">6,000</td>
+<td style="text-align: right;">300</td>
+<td>50% / 1</td>
+<td style="text-align: right;">240s</td>
+</tr>
+<tr>
+<td>Ashwake</td>
+<td style="text-align: right;">24</td>
+<td>T4</td>
+<td style="text-align: right;">14,000</td>
+<td style="text-align: right;">700</td>
+<td>60% / 1–2</td>
+<td style="text-align: right;">300s</td>
+</tr>
+<tr>
+<td>Crownwake</td>
+<td style="text-align: right;">40</td>
+<td>T5</td>
+<td style="text-align: right;">36,000</td>
+<td style="text-align: right;">1,800</td>
+<td>65% / 1–2</td>
+<td style="text-align: right;">360s</td>
+</tr>
+</tbody>
+</table></div>
+<p>Only Briarwake currently has a Fracture resource. Its proposed level is 7; an explicit level field needs implementation for loot scaling. Cairnwake, Ashwake and Crownwake are new targets. Their exact gold/material chances are in <a href="../tables/fractures.csv">fractures.csv</a>.</p>
+<p>Leaf rates are equal-level base probabilities. At equal level, Briarwake gives an expected <strong>0.4 Leaves per clear</strong>, so 55 Leaves for one complete G skill average <strong>137.5 core destructions</strong>. Ashwake averages .6 × 1.5 = .9 Leaves, or approximately 61.1 clears. These expectations ignore travel, competition, failed fights and level-gap penalties. Tune against actual route time rather than counting only the respawn timer.</p>
+<h2 id="core-rewards">Core rewards</h2>
+<p>Current Briarwake has independent base rolls for Wakeglass Ember <strong>18%</strong>, Wakecleaver <strong>0.3%</strong>, Rootward Jack <strong>0.4%</strong>, Moss Shard <strong>80%</strong> with quantity 1–2, and Field Tonic <strong>25%</strong>. Add the proposed Mastery Leaf <strong>40%</strong> and Tempered Ore <strong>35%</strong> as independent core rolls. Proposed higher-band cores retain Moss Shards so all nine-step recipes remain farmable near the player's level.</p>
+<p>Wakeglass becomes an ordinary required ingredient for +7–+9. It does not guarantee smithing success. Mastery Leaves are a separate material and cannot substitute for Wakeglass. Ordinary wave enemies keep their own regular drop tables, but never drop the core's Mastery Leaves merely because they spawned from a Fracture.</p>
+<h2 id="visual-and-sound-states">Visual and sound states</h2>
+<p>Dormant: seven closed splintered ribs, suspended amber heart, dim scar. Active: a clearer amber core and short impact chips. Each wave uses low ground warning rings and a root-crack cue. Damaged: ribs spread, core becomes visible without flooding the screen. Destroyed: ribs fall outward, a brief restrained ring releases, items remain readable on the ground.</p>
+<p>Cairnwake uses slate ribs, Ashwake black glass and ember seams, Crownwake weathered stone/root forms with a cold violet heart. Shape and silhouette identify the tier before colour is visible. The illustrated plate is a design reference; exact rib count and spawn markers remain production constraints.</p>
+<h2 id="route-reset-and-online-rules">Route, reset and online rules</h2>
+<p>Place Fractures off the main road with two approach angles and an open fighting floor. Nearby regular packs make a useful circuit during respawn. Abandonment resets the core and thresholds without granting rewards or turning remaining defenders into an infinite spawn loop. Record destruction once before rolling rewards. Future groups receive personal eligible rewards; the same core cannot be destroyed separately for every participant.</p><p class="footer"><a href="../index.html">All design sheets</a> · <a href="07_fractures_and_spawn_points.md">Markdown source</a> · Fixed user rules with clearly marked proposed tuning.</p></main></body></html>

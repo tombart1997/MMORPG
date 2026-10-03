@@ -14,6 +14,7 @@ var hit_chains: Dictionary = {}
 var combat_time: float = 0
 
 func _ready() -> void:
+	process_priority = -10 # Pose the saddle before the rider samples its skeleton.
 	actor.health.damaged.connect(func(_amount, _source):
 		combat_lock = 5)
 	actor.health.died.connect(func(_source): dismount())
@@ -25,7 +26,10 @@ func _process(delta: float) -> void:
 	combat_lock = maxf(0, combat_lock - delta)
 	if mounted:
 		if not actor.health.is_alive() or actor.skills and actor.skills.busy(): dismount()
-		elif model and model.has_method("travel"): model.travel(actor.velocity, delta)
+		elif model and model.has_method("travel"):
+			model.travel(actor.velocity, delta)
+			if model.has_method("saddle_offset"):
+				actor.visual.position = Vector3(0,definition.rider_height,0)+model.saddle_offset()
 
 func unlock(index: int) -> bool:
 	if not actor.equipment.can_change() or index < 0 or index >= actor.inventory.slots.size(): return false
@@ -77,9 +81,12 @@ func toggle() -> bool:
 	actor.body_collider.set_deferred("shape", shape)
 	actor.body_collider.set_deferred("position", Vector3(0,1,0))
 	mounted = true
+	IronfieldAudio.instance.play_at(&"mount",actor.global_position,-4)
 	model = definition.visual.instantiate()
 	actor.add_child(model)
+	if model is TrailHorse: model.hoofstep.connect(func(point: Vector3): IronfieldAudio.instance.play_at(&"hoof",point,-5))
 	actor.visual.position.y = definition.rider_height
+	actor.visual.present(actor.velocity,actor.combat,actor.health,actor.title,0.0)
 	actor.actions.report("Mounted — Space: faster attacks · two hits knock enemies back · H dismount")
 	return true
 
@@ -107,7 +114,7 @@ func dismount(message: String = "") -> void:
 	hit_chains.clear()
 	if is_instance_valid(model): model.queue_free()
 	model = null
-	actor.visual.position.y = 0
+	actor.visual.position = Vector3.ZERO
 	var shape := CapsuleShape3D.new()
 	shape.radius = 0.34
 	shape.height = 1.8

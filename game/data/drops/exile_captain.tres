@@ -8,7 +8,7 @@
 [sub_resource type="Resource" id="e0"]
 script = ExtResource("entry")
 item = ExtResource("i0")
-chance = 0.45
+chance = 0.225
 minimum = 1
 maximum = 2
 [sub_resource type="Resource" id="e1"]

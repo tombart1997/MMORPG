@@ -18,14 +18,15 @@ func _process(_delta: float) -> void:
 	var camera:=get_viewport().get_camera_3d()
 	if camera == null: return
 	var weight:=1.0-smoothstep(22.0,34.0,Vector2(camera.global_position.x-CENTER.x,camera.global_position.z-CENTER.z).length())
-	environment.ambient_light_color=Color(.73,.8,.86).lerp(Color(.49,.64,.72),weight)
-	environment.ambient_light_energy=lerpf(.55,.66,weight)
-	environment.fog_light_color=Color(.46,.53,.49).lerp(Color(.28,.38,.36),weight)
-	environment.fog_density=lerpf(.007,.013,weight)
+	environment.ambient_light_color=Color(.67,.74,.79).lerp(Color(.49,.60,.59),weight)
+	environment.ambient_light_energy=lerpf(.58,.50,weight)
+	environment.fog_light_color=Color("a6bdbd").lerp(Color(.43,.53,.49),weight)
+	environment.fog_density=lerpf(.005,.007,weight)
 	sun.light_color=Color(1,.94,.83).lerp(Color(1,.85,.64),weight)
-	sun.light_energy=lerpf(1.0,.93,weight)
-	sun.rotation_degrees=Vector3(-42,-32,0).lerp(Vector3(-48,145,0),weight)
-	fill.light_energy=.32*weight
+	sun.light_energy=lerpf(1.1,.98,weight)
+	# A stable sun direction prevents shadows rotating as the player crosses the grove.
+	sun.rotation_degrees=Vector3(-38,-28,0)
+	fill.light_energy=.18*weight
 
 func _ready() -> void:
 	name = "AmberScarArt"

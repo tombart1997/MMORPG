@@ -7,7 +7,7 @@ text = "Welcome to Briar Crossing. The waystone heals you for free. Take Briar a
 responses = Array[Dictionary]([{"text": "What lies farther out?", "next": 1}, {"text": "I will prepare.", "action": "close"}])
 [sub_resource type="Resource" id="p1"]
 script = ExtResource("2")
-text = "Old Pine Hollow shelters grown mosslings. Beyond it, the Broken Cairn belongs to ironbacks. A better blade and layered armor will matter there. The refuge shelters you if a hunt goes wrong."
+text = "Old Pine Hollow shelters grown mosslings. Beyond it, the Broken Cairn belongs to ironbacks. A glowing gate north of town leads to Cinderfall Basin; Scout Vela is holding an outpost there. Prepare before crossing."
 responses = Array[Dictionary]([{"text": "I have survived my first hunts.", "next": 2, "min_level": 2}, {"text": "Back to the refuge.", "action": "close"}])
 [sub_resource type="Resource" id="p2"]
 script = ExtResource("2")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/quests/quest_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"shattered_web"
+title = "Shattered Web"
+description = "The eastern glass nest is spreading toward the outpost. Cut down four Glass Spiders and return to Vela."
+giver = &"ash_scout"
+turn_in = &"ash_scout"
+prerequisites = Array[StringName]([&"through_the_veil"])
+required_level = 19
+objectives = Array[Dictionary]([{"type":"kill","target":"glass_spider","amount":4,"label":"Defeat Glass Spiders"},{"type":"return","target":"ash_scout","amount":1,"label":"Return to Scout Vela"}])
+gold = 125
+xp = 310
+items = {"glass_sabre":1}

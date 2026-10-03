@@ -1,0 +1,35 @@
+﻿status,item_id,name,slot,required_level,proposed_required_level,rarity,proposed_gear_tier,upgrade_max,smith_profile,trophy_item_id,source
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,briarhide_coat,Briarhide Coat,chest,1,6,common,2,9,Tier 2,grey_wolf_trophy,game/data/items/briarhide_coat.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,briarsteel_edge,Briarsteel Edge,weapon,1,11,common,3,9,Tier 3,blacktusk_trophy,game/data/items/briarsteel_edge.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,cairn_cap,Cairn Cap,head,1,11,common,3,9,Tier 3,blacktusk_trophy,game/data/items/cairn_cap.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,cairnwarden_sword,Cairnwarden Sword,weapon,1,16,common,4,9,Tier 4,ironhide_boar_trophy,game/data/items/cairnwarden_sword.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,ember_fang,Ember Fang,weapon,18,18,common,4,9,Tier 4,ironhide_boar_trophy,game/data/items/ember_fang.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,frontier_blade_1,Verge Steel Blade,weapon,1,1,common,1,9,Tier 1,meadow_wolf_trophy,game/data/items/frontier_blade_1.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,frontier_blade_11,Highland Steel Blade,weapon,11,11,common,3,9,Tier 3,blacktusk_trophy,game/data/items/frontier_blade_11.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,frontier_blade_16,Ashen Steel Blade,weapon,16,16,common,4,9,Tier 4,ironhide_boar_trophy,game/data/items/frontier_blade_16.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,frontier_blade_21,Ancient Steel Blade,weapon,21,21,common,5,9,Tier 5,obsidian_boar_trophy,game/data/items/frontier_blade_21.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,frontier_blade_6,Hollow Steel Blade,weapon,6,6,common,2,9,Tier 2,grey_wolf_trophy,game/data/items/frontier_blade_6.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,frontier_coat_1,Verge Field Coat,chest,1,1,common,1,9,Tier 1,meadow_wolf_trophy,game/data/items/frontier_coat_1.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,frontier_coat_11,Highland Field Coat,chest,11,11,common,3,9,Tier 3,blacktusk_trophy,game/data/items/frontier_coat_11.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,frontier_coat_16,Ashen Field Coat,chest,16,16,common,4,9,Tier 4,ironhide_boar_trophy,game/data/items/frontier_coat_16.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,frontier_coat_21,Ancient Field Coat,chest,21,21,common,5,9,Tier 5,obsidian_boar_trophy,game/data/items/frontier_coat_21.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,frontier_coat_6,Hollow Field Coat,chest,6,6,common,2,9,Tier 2,grey_wolf_trophy,game/data/items/frontier_coat_6.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,glass_sabre,Glass Sabre,weapon,19,19,common,4,9,Tier 4,ironhide_boar_trophy,game/data/items/glass_sabre.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,marchguard_sword,Marchguard Sword,weapon,1,6,common,2,9,Tier 2,grey_wolf_trophy,game/data/items/marchguard_sword.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,pathrunner_boots,Pathrunner Boots,feet,1,6,common,2,9,Tier 2,grey_wolf_trophy,game/data/items/pathrunner_boots.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,quilted_jack,Quilted Jack,chest,1,1,common,1,9,Tier 1,meadow_wolf_trophy,game/data/items/quilted_jack.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,relic_blade_1,Verge Relic Blade,weapon,1,1,rare,1,9,Tier 1,meadow_wolf_trophy,game/data/items/relic_blade_1.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,relic_blade_11,Highland Relic Blade,weapon,11,11,rare,3,9,Tier 3,blacktusk_trophy,game/data/items/relic_blade_11.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,relic_blade_16,Ashen Relic Blade,weapon,16,16,rare,4,9,Tier 4,ironhide_boar_trophy,game/data/items/relic_blade_16.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,relic_blade_21,Ancient Relic Blade,weapon,21,21,rare,5,9,Tier 5,obsidian_boar_trophy,game/data/items/relic_blade_21.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,relic_blade_6,Hollow Relic Blade,weapon,6,6,rare,2,9,Tier 2,grey_wolf_trophy,game/data/items/relic_blade_6.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,relic_coat_1,Verge Relic Coat,chest,1,1,rare,1,9,Tier 1,meadow_wolf_trophy,game/data/items/relic_coat_1.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,relic_coat_11,Highland Relic Coat,chest,11,11,rare,3,9,Tier 3,blacktusk_trophy,game/data/items/relic_coat_11.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,relic_coat_16,Ashen Relic Coat,chest,16,16,rare,4,9,Tier 4,ironhide_boar_trophy,game/data/items/relic_coat_16.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,relic_coat_21,Ancient Relic Coat,chest,21,21,rare,5,9,Tier 5,obsidian_boar_trophy,game/data/items/relic_coat_21.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,relic_coat_6,Hollow Relic Coat,chest,6,6,rare,2,9,Tier 2,grey_wolf_trophy,game/data/items/relic_coat_6.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,rift_cleaver,Rift Cleaver,weapon,25,25,common,5,9,Tier 5,obsidian_boar_trophy,game/data/items/rift_cleaver.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,rootward_jack,Rootward Jack,chest,4,16,rare,4,9,Tier 4,ironhide_boar_trophy,game/data/items/rootward_jack.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,travelers_vest,Traveler's Vest,chest,1,1,common,1,9,Tier 1,meadow_wolf_trophy,game/data/items/travelers_vest.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,wakecleaver,Wakecleaver,weapon,4,21,rare,5,9,Tier 5,obsidian_boar_trophy,game/data/items/wakecleaver.tres
+CURRENT_ITEMS_PROPOSED_TIER_AND_PLUS9,wayfarer_blade,Wayfarer Blade,weapon,1,1,common,1,9,Tier 1,meadow_wolf_trophy,game/data/items/wayfarer_blade.tres

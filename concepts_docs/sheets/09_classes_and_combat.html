@@ -1,0 +1,93 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Classes, specializations and combat · Ironfield concepts</title><link rel="stylesheet" href="../concepts.css"></head><body><header><a class="brand" href="../index.html">IRONFIELD</a><nav aria-label="Main"><a href="../index.html">Design sheets</a><a href="../bestiary.html">Bestiary</a><a href="../art_gallery.html">Concept art</a><a href="../Ironfield_Concepts.xlsx">Workbook</a></nav></header><main class="doc"><p class="eyebrow">Design sheet 09 · 3 October 2026</p><h1 id="classes-specializations-and-combat">Classes, specializations and combat</h1>
+<p><img alt="Four base classes, left to right" src="../art/classes_four.png" /></p>
+<p>The lineup is <strong>Ironvow, Threadseer, Cinderhand, Fenstrider</strong>. Each has two different six-ability specializations. The current runtime supports Ironvow / Turnwarden; the remaining paths are design targets described in the existing class design.</p>
+<h2 id="class-identities">Class identities</h2>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Weapons</th>
+<th>Suggested allocation</th>
+<th>Two paths and their decisions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ironvow</td>
+<td>Swords; future two-handed blades</td>
+<td>STR/VIT, some AGI</td>
+<td>Turnwarden earns one short Answer from a frontal guard; Redmarch advances, crosses or surrenders a moving front</td>
+</tr>
+<tr>
+<td>Threadseer</td>
+<td>Focus rods; future throwing needles</td>
+<td>DEX, then VIT/AGI</td>
+<td>Knotbinder links two enemies and responds to separation; Farlistener decides whether to spend a visible echo</td>
+</tr>
+<tr>
+<td>Cinderhand</td>
+<td>Staves and hammers</td>
+<td>DEX/VIT; STR for melee basics</td>
+<td>Hearthwright builds and abandons a fueled work site; Ashreckoner accepts bounded vulnerability, then vents or spends it</td>
+</tr>
+<tr>
+<td>Fenstrider</td>
+<td>Bows, short blades, living staves</td>
+<td>AGI/DEX, useful VIT</td>
+<td>Reedstalker holds or abandons a firing lane; Briarchanter cultivates and harvests at most two visible growths</td>
+</tr>
+</tbody>
+</table></div>
+<p>The stat tendencies are recommendations, not allocation restrictions. One player can choose survival over maximum damage. No undocumented mana or INT stat is required by this design.</p>
+<h2 id="turnwarden-current-ability-baseline">Turnwarden — current ability baseline</h2>
+<p>Values below are current skill definitions, treated as rank-1 comparison values for the proposed mastery system. <code>A</code> is the attack power used by the skill before target mitigation.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Ability / persistent ID</th>
+<th>Current effect</th>
+<th style="text-align: right;">Cooldown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Thunder Cleave / <code>riving_stroke</code></td>
+<td>130° frontal arc, 4.2 m, 1.8A; Open grants +25% basic damage for 4s</td>
+<td style="text-align: right;">3s</td>
+</tr>
+<tr>
+<td>Spirit Edge / <code>held_line</code></td>
+<td>+45% basic damage, +30% attack speed for 6s; guard a frontal blow by 65% for 2s to earn Answer</td>
+<td style="text-align: right;">12s</td>
+</tr>
+<tr>
+<td>Flashstep / <code>heelturn</code></td>
+<td>Collision-respecting 5 m dash; +80% movement for 4s; short slowing wake</td>
+<td style="text-align: right;">6s</td>
+</tr>
+<tr>
+<td>Bladestorm / <code>gate_sweep</code></td>
+<td>Moving 4 m circle; .9A opening + four .55A pulses; slow; Answer adds opening push</td>
+<td style="text-align: right;">7s</td>
+</tr>
+<tr>
+<td>Phoenix Ring / <code>standard_of_ash</code></td>
+<td>3.8 m field for 4s; .5A every .5s; 25% slow; 25% damage reduction while inside</td>
+<td style="text-align: right;">10s</td>
+</tr>
+<tr>
+<td>Sunbreaker / <code>due_return</code></td>
+<td>110° arc, 4.5 m, 3A and 1 m push; .35A heal on hit; Answer adds .5A damage and .6A heal</td>
+<td style="text-align: right;">8s</td>
+</tr>
+</tbody>
+</table></div>
+<p>Use the detailed <a href="../../CLASS_DESIGN.md">existing class document</a> for the 48 ability designs and their exact counterplay. The new mastery layer multiplies listed potency once; it does not replace those identities with a universal builder/spender meter.</p>
+<h2 id="encounter-decisions">Encounter decisions</h2>
+<p>Basic combat should remain effective without following a mandatory six-skill sequence. Draw a pack into a readable arc, decide whether to hold a frontal attack or reposition, and use an area ability when the geometry is favorable. Gear improves kill time and survival; it cannot remove every positional risk.</p>
+<p>Enemy attacks use a clear windup, active contact window and recovery. A wolf commits to a forward bite/lunge, a boar to a short charge, a spider to a low fan or venom tell, a bandit to a human blade arc, a stonekin to a slow heavy slam, and a wisp to a visible ranged pulse. Elite attacks combine these with clearly announced space hazards.</p>
+<p>Hit feedback follows real contact: a brief material impact, sound, target reaction and readable damage number. Healing on hit requires a real eligible target hit. An animation or flash alone cannot grant damage, healing or mastery progress.</p>
+<h2 id="death-and-recovery-proposal">Death and recovery — proposal</h2>
+<p>Death returns the character to the last refuge with no loss of learned stats, mastery or equipment. Lose 5% of carried gold, capped at 500, and remove any unclaimed personal ground loot. No XP loss is proposed: quarter milestones cannot be repeatedly removed and re-earned. Keep smithing destruction as its own explicit item-loss rule.</p>
+<h2 id="balance-review">Balance review</h2>
+<p>Compare ordinary +3 gear, good +6 gear and rare +9 gear at the same level. Measure kill time, incoming damage, recovery stops and maximum safe pull size. Test mixed melee/ranged packs and the actual third-person camera. Damage values alone cannot establish that a build or encounter is fair.</p><p class="footer"><a href="../index.html">All design sheets</a> · <a href="09_classes_and_combat.md">Markdown source</a> · Fixed user rules with clearly marked proposed tuning.</p></main></body></html>

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ironfield — character motion review</title>
+<style>
+body{margin:0;background:#152021;color:#ede4cf;font:16px system-ui}main{max-width:1280px;margin:auto;padding:24px}h1{font-size:26px}p{max-width:850px;line-height:1.5}nav{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0}select,button{font:inherit;padding:8px;background:#273435;color:#ede4cf;border:1px solid #9c906c;border-radius:4px}img{width:100%;display:block;border:1px solid #655e49}a{color:#bddecc}#caption{margin:12px 0;color:#bddecc}
+</style>
+<main><h1>Full-body cuts and attached skill effects</h1><p>Actual Godot captures in Briarwood. Compare the shoulder turn, hip shift, bent knees and planted boots across the authored attack phases. Skill views use the normal controller while strafing.</p>
+<nav><select id="view" aria-label="Attack or skill"></select><select id="phase" aria-label="Animation phase"></select><button id="previous">Previous</button><button id="next">Next</button></nav>
+<img id="frame" alt="Rendered game review"><div id="caption"></div>
+<p><a href="../../CHARACTER_MOTION_PASS.md">Implementation and checks</a> · <a href="../visual-pass/review.html">World before/after</a></p></main>
+<script>
+const views=[['attack_01','Regular sword — horizontal cut'],['attack_03','Regular sword — overhead finisher'],['longsword_01','Long sword — horizontal cut'],['longsword_03','Long sword — overhead finisher'],['skill_1','Thunder Cleave'],['skill_2','Spirit Edge'],['skill_3','Flashstep'],['skill_4','Bladestorm'],['skill_5','Phoenix Ring'],['skill_6','Sunbreaker']];
+const view=document.querySelector('#view'),phase=document.querySelector('#phase'),frame=document.querySelector('#frame');
+for(const [value,label] of views)view.add(new Option(label,value));
+function render(){const skill=view.value.startsWith('skill_');frame.src=view.value+(skill?'_frame_':'_')+phase.value+'.png';frame.alt=view.selectedOptions[0].text+' — '+phase.selectedOptions[0].text;document.querySelector('#caption').textContent=frame.alt;}
+function changeView(){phase.replaceChildren();for(const [value,label] of (view.value.startsWith('skill_')?[[4,'Early cast'],[8,'Follow-through']]:[[16,'Windup'],[40,'Cut'],[55,'Follow-through']]))phase.add(new Option(label,value));render();}
+view.onchange=changeView;phase.onchange=render;document.querySelector('#previous').onclick=()=>{phase.selectedIndex=(phase.selectedIndex+phase.length-1)%phase.length;render()};document.querySelector('#next').onclick=()=>{phase.selectedIndex=(phase.selectedIndex+1)%phase.length;render()};changeView();
+</script></html>

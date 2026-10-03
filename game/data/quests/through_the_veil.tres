@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://scripts/quests/quest_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"through_the_veil"
+title = "Through the Veil"
+description = "Cross the gate north of Briar Crossing and drive Ember Hounds from Scout Vela's outpost."
+giver = &"warden"
+turn_in = &"ash_scout"
+prerequisites = Array[StringName]([&"briar_watch"])
+required_level = 18
+objectives = Array[Dictionary]([{"type":"kill","target":"ember_hound","amount":3,"label":"Defeat Ember Hounds"},{"type":"return","target":"ash_scout","amount":1,"label":"Report to Scout Vela"}])
+gold = 90
+xp = 210
+items = {"ember_fang":1}

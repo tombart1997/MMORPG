@@ -1,0 +1,107 @@
+[
+  {
+    "suite": "combat_smoke",
+    "passed_checks": 31,
+    "errors": 0
+  },
+  {
+    "suite": "melee_commitment",
+    "passed_checks": 11,
+    "errors": 0
+  },
+  {
+    "suite": "zone_loop",
+    "passed_checks": 30,
+    "errors": 0
+  },
+  {
+    "suite": "character_pipeline",
+    "passed_checks": 73,
+    "errors": 0
+  },
+  {
+    "suite": "rpg_progression",
+    "passed_checks": 68,
+    "errors": 0
+  },
+  {
+    "suite": "settlement_loop",
+    "passed_checks": 52,
+    "errors": 0
+  },
+  {
+    "suite": "mmorpg_loop",
+    "passed_checks": 51,
+    "errors": 0
+  },
+  {
+    "suite": "skill_combat",
+    "passed_checks": 54,
+    "errors": 0
+  },
+  {
+    "suite": "farming_loop",
+    "passed_checks": 35,
+    "errors": 0
+  },
+  {
+    "suite": "route_mount",
+    "passed_checks": 78,
+    "errors": 0
+  },
+  {
+    "suite": "first_map_expansion",
+    "passed_checks": 793,
+    "errors": 0
+  },
+  {
+    "suite": "combat_creation_review",
+    "passed_checks": 30,
+    "errors": 0
+  },
+  {
+    "suite": "second_region",
+    "passed_checks": 27,
+    "errors": 0
+  },
+  {
+    "suite": "remaster_streaming",
+    "passed_checks": 28,
+    "errors": 0
+  },
+  {
+    "suite": "remaster_traversal",
+    "passed_checks": 20,
+    "errors": 0
+  },
+  {
+    "suite": "townfolk_review",
+    "passed_checks": 89,
+    "errors": 0
+  },
+  {
+    "suite": "hero_combat_review",
+    "passed_checks": 27,
+    "errors": 0
+  },
+  {
+    "suite": "jade_visual_review",
+    "passed_checks": 69,
+    "errors": 0
+  },
+  {
+    "suite": "world_landscape",
+    "passed_checks": 200,
+    "errors": 0
+  },
+  {
+    "suite": "character_motion",
+    "passed_checks": 38,
+    "errors": 0
+  },
+  {
+    "suite": "presentation_upgrade",
+    "passed_checks": 35,
+    "errors": 0
+  }
+]

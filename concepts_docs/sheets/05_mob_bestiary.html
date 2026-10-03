@@ -1,0 +1,1371 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Mob bestiary — concepts, levels, EXP and drops · Ironfield concepts</title><link rel="stylesheet" href="../concepts.css"></head><body><header><a class="brand" href="../index.html">IRONFIELD</a><nav aria-label="Main"><a href="../index.html">Design sheets</a><a href="../bestiary.html">Bestiary</a><a href="../art_gallery.html">Concept art</a><a href="../Ironfield_Concepts.xlsx">Workbook</a></nav></header><main class="doc"><p class="eyebrow">Design sheet 05 · 3 October 2026</p><h1 id="mob-bestiary-concepts-levels-exp-and-drops">Mob bestiary — concepts, levels, EXP and drops</h1>
+<p><strong>Current resource baseline:</strong> 37 unique mob IDs across 38 enemy resources. <code>young_mosslings.tres</code> aliases <code>young.tres</code>; it is not a second creature. Art describes the intended model direction; numerical rows reproduce the current resources. Proposed logarithmic scaling is applied separately.</p>
+<p>Use the <a href="../bestiary.html">illustrated mob cards</a> for a portrait, stats and full drop list on every creature. <a href="../tables/mobs.csv">mobs.csv</a> and <a href="../tables/mob_drops.csv">mob_drops.csv</a> are the editable tables. The source catalogue JSON still contains some older rates: runtime <code>.tres</code> drop resources are the baseline here.</p>
+<h2 id="threat-tiers">Threat tiers</h2>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Proposed encounter reading</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T1</td>
+<td>Ordinary pack enemy</td>
+</tr>
+<tr>
+<td>T2</td>
+<td>Stronger pack / dangerous individual</td>
+</tr>
+<tr>
+<td>T3</td>
+<td>Elite or local leader</td>
+</tr>
+<tr>
+<td>T4</td>
+<td>Major boss or regional threat</td>
+</tr>
+<tr>
+<td>T5</td>
+<td>Regional climax / future group variant</td>
+</tr>
+</tbody>
+</table></div>
+<p>Tier and level are separate. A level-8 T3 leader can be tougher than a level-9 ordinary creature. The current prototype has no online raid system. Base EXP is not secretly changed by the proposed item-drop function.</p>
+<h2 id="concept-plates">Concept plates</h2>
+<p>Panels are numbered left to right across the top row, then left to right across the bottom. The remaining-variants sheet has four top panels and three bottom panels; all other bestiary sheets use three per row.</p>
+<h3 id="wolves-boars">Wolves Boars</h3>
+<p><img alt="Creature production sheet" src="../art/bestiary_wolves_boars.png" /></p>
+<p>1: Meadow Wolf; 2: Moonfang; 3: Ember Hound; 4: Bristle Boar; 5: Blacktusk Boar; 6: Obsidian Boar.</p>
+<h3 id="spiders-bandits">Spiders Bandits</h3>
+<p><img alt="Creature production sheet" src="../art/bestiary_spiders_bandits.png" /></p>
+<p>1: Reed Spider; 2: Silk Matron; 3: Glass Spider; 4: Road Bandit; 5: Hollow Raider; 6: Exile Captain.</p>
+<h3 id="roots-stone">Roots Stone</h3>
+<p><img alt="Creature production sheet" src="../art/bestiary_roots_stone.png" /></p>
+<p>1: Young Mossling; 2: Mossling; 3: Cairn Ironback; 4: Cairn Sentinel; 5: Cairn Colossus; 6: Rift Sentinel.</p>
+<h3 id="wisps-elites">Wisps Elites</h3>
+<p><img alt="Creature production sheet" src="../art/bestiary_wisps_elites.png" /></p>
+<p>1: Grave Wisp; 2: Storm Wisp; 3: Ash Wisp; 4: Dusk Stalker; 5: Widow Spider; 6: Ancient Warden.</p>
+<h3 id="wolf-variants">Wolf Variants</h3>
+<p><img alt="Creature production sheet" src="../art/bestiary_wolf_variants.png" /></p>
+<p>1: Blue Wolf; 2: Red Wolf; 3: Grey Wolf; 4: Frost Wolf; 5: Thicket Wolf; 6: Bloodfang.</p>
+<h3 id="remaining-variants">Remaining Variants</h3>
+<p><img alt="Creature production sheet" src="../art/bestiary_remaining_variants.png" /></p>
+<p>1: Mire Boar; 2: Ironhide Boar; 3: Copper Spider; 4: Venom Spider; 5: Ash Bandit; 6: Cinder Wisp; 7: Slate Guardian.</p>
+<h2 id="creature-catalogue">Creature catalogue</h2>
+<p>All item rates below are independent, equal-level base chances. Multiply each by the factor in <a href="06_loot_and_level_scaling.html">loot scaling</a>. Several entries can succeed on one kill. Gold is a separate uniformly rolled reward before the proposed multiplier.</p>
+<p>Cinderfall variants deliberately reuse existing drop resources: Ember Hound uses Bloodfang loot, Glass Spider uses Venom Spider loot, Ash Wisp uses Grave Wisp loot, and Rift Sentinel uses Cairn Sentinel loot. Keep those names accurate until distinct loot is authored. Current enemy resources have no configured direct leader reward; old fixture camps may still grant one and must be treated separately.</p>
+<h3 id="meadow-wolf-meadow_wolf">Meadow Wolf (<code>meadow_wolf</code>)</h3>
+<p>**Level 1 · Tier 1 · 20 EXP · 83 HP · Defense 0.22 · Gold 4–10. Family: wolf.</p>
+<p>Appearance: Lean grey-brown pelt; small low-tier silhouette. <a href="../art/bestiary_wolves_boars.png">Concept plate, panel 1</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Meadow Wolf Fang (<code>meadow_wolf_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Field tonic (<code>field_tonic</code>)</td>
+<td style="text-align: right;">4%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Blade (<code>relic_blade_1</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Coat (<code>relic_coat_1</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/meadow_wolf.tres</code>; drop table <code>res://data/drops/meadow_wolf.tres</code>.</p>
+<h3 id="young-mossling-young">Young Mossling (<code>young</code>)</h3>
+<p>**Level 1 · Tier 1 · 20 EXP · 60 HP · Defense 0 · Gold 4–6. Family: mossling.</p>
+<p>Appearance: Small hunched root body, split feet, amber eyes. <a href="../art/bestiary_roots_stone.png">Concept plate, panel 1</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Moss shard (<code>moss_shard</code>)</td>
+<td style="text-align: right;">45%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Field tonic (<code>field_tonic</code>)</td>
+<td style="text-align: right;">4%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Blade (<code>relic_blade_1</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Coat (<code>relic_coat_1</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Young Mossling Sap (<code>young_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/young.tres</code>; drop table <code>res://data/drops/young.tres</code>.</p>
+<h3 id="bristle-boar-bristle_boar">Bristle Boar (<code>bristle_boar</code>)</h3>
+<p>**Level 2 · Tier 1 · 28 EXP · 101 HP · Defense 0.44 · Gold 6–13. Family: boar.</p>
+<p>Appearance: Tawny bristles, compact body, short tusks. <a href="../art/bestiary_wolves_boars.png">Concept plate, panel 4</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bristle Boar Tusk (<code>bristle_boar_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Field tonic (<code>field_tonic</code>)</td>
+<td style="text-align: right;">4%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Blade (<code>relic_blade_1</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Coat (<code>relic_coat_1</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/bristle_boar.tres</code>; drop table <code>res://data/drops/bristle_boar.tres</code>.</p>
+<h3 id="blue-wolf-blue_wolf">Blue Wolf (<code>blue_wolf</code>)</h3>
+<p>**Level 3 · Tier 1 · 36 EXP · 119 HP · Defense 0.66 · Gold 8–16. Family: wolf.</p>
+<p>Appearance: Small blue-grey coat with dark paws. <a href="../art/bestiary_wolf_variants.png">Concept plate, panel 1</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Blue Wolf Fang (<code>blue_wolf_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Field tonic (<code>field_tonic</code>)</td>
+<td style="text-align: right;">4%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Blade (<code>relic_blade_1</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Coat (<code>relic_coat_1</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/blue_wolf.tres</code>; drop table <code>res://data/drops/blue_wolf.tres</code>.</p>
+<h3 id="mossling-grown">Mossling (<code>grown</code>)</h3>
+<p>**Level 4 · Tier 1 · 25 EXP · 75 HP · Defense 0 · Gold 6–8. Family: mossling.</p>
+<p>Appearance: Long knotty arms, ivy, taller root silhouette. <a href="../art/bestiary_roots_stone.png">Concept plate, panel 2</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Moss shard (<code>moss_shard</code>)</td>
+<td style="text-align: right;">35%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Field tonic (<code>field_tonic</code>)</td>
+<td style="text-align: right;">4%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Blade (<code>relic_blade_1</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Coat (<code>relic_coat_1</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Grown Mossling Bark (<code>grown_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/grown.tres</code>; drop table <code>res://data/drops/grown.tres</code>.</p>
+<h3 id="reed-spider-reed_spider">Reed Spider (<code>reed_spider</code>)</h3>
+<p>**Level 4 · Tier 1 · 44 EXP · 137 HP · Defense 0.88 · Gold 10–19. Family: spider.</p>
+<p>Appearance: Brown reed carapace; slender eight-legged stance. <a href="../art/bestiary_spiders_bandits.png">Concept plate, panel 1</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reed Spider Silk (<code>reed_spider_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Field tonic (<code>field_tonic</code>)</td>
+<td style="text-align: right;">4%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Blade (<code>relic_blade_1</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Coat (<code>relic_coat_1</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/reed_spider.tres</code>; drop table <code>res://data/drops/reed_spider.tres</code>.</p>
+<h3 id="red-wolf-red_wolf">Red Wolf (<code>red_wolf</code>)</h3>
+<p>**Level 5 · Tier 2 · 62 EXP · 209 HP · Defense 1.9 · Gold 12–25. Family: wolf.</p>
+<p>Appearance: Copper coat, alert ears, charcoal muzzle. <a href="../art/bestiary_wolf_variants.png">Concept plate, panel 2</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Red Wolf Fang (<code>red_wolf_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Field tonic (<code>field_tonic</code>)</td>
+<td style="text-align: right;">4%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Blade (<code>relic_blade_1</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Coat (<code>relic_coat_1</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/red_wolf.tres</code>; drop table <code>res://data/drops/red_wolf.tres</code>.</p>
+<h3 id="grey-wolf-grey_wolf">Grey Wolf (<code>grey_wolf</code>)</h3>
+<p>**Level 6 · Tier 1 · 60 EXP · 173 HP · Defense 1.32 · Gold 14–25. Family: wolf.</p>
+<p>Appearance: Rangy slate coat with pale belly and fur scars. <a href="../art/bestiary_wolf_variants.png">Concept plate, panel 3</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grey Wolf Fang (<code>grey_wolf_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Restoration Tonic (<code>restoration_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Hollow Relic Blade (<code>relic_blade_6</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Hollow Relic Coat (<code>relic_coat_6</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/grey_wolf.tres</code>; drop table <code>res://data/drops/grey_wolf.tres</code>.</p>
+<h3 id="cairn-ironback-ironback">Cairn Ironback (<code>ironback</code>)</h3>
+<p>**Level 7 · Tier 2 · 40 EXP · 110 HP · Defense 0 · Gold 9–12. Family: mossling.</p>
+<p>Appearance: Heavy bark shoulders, wedged slate, shelf fungus. <a href="../art/bestiary_roots_stone.png">Concept plate, panel 3</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Moss shard (<code>moss_shard</code>)</td>
+<td style="text-align: right;">35%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Field tonic (<code>field_tonic</code>)</td>
+<td style="text-align: right;">4%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Blade (<code>relic_blade_1</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Verge Relic Coat (<code>relic_coat_1</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ironback Plate (<code>ironback_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/ironback.tres</code>; drop table <code>res://data/drops/ironback.tres</code>.</p>
+<h3 id="mire-boar-mire_boar">Mire Boar (<code>mire_boar</code>)</h3>
+<p>**Level 7 · Tier 2 · 82 EXP · 258 HP · Defense 2.34 · Gold 16–31. Family: boar.</p>
+<p>Appearance: Low muddy brown body and bent pale tusks. <a href="../art/bestiary_remaining_variants.png">Concept plate, panel 1</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mire Boar Tusk (<code>mire_boar_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Restoration Tonic (<code>restoration_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Hollow Relic Blade (<code>relic_blade_6</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Hollow Relic Coat (<code>relic_coat_6</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/mire_boar.tres</code>; drop table <code>res://data/drops/mire_boar.tres</code>.</p>
+<h3 id="copper-spider-copper_spider">Copper Spider (<code>copper_spider</code>)</h3>
+<p>**Level 8 · Tier 1 · 76 EXP · 209 HP · Defense 1.76 · Gold 18–31. Family: spider.</p>
+<p>Appearance: Copper-brown chitin and compact abdomen. <a href="../art/bestiary_remaining_variants.png">Concept plate, panel 3</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Copper Spider Silk (<code>copper_spider_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Restoration Tonic (<code>restoration_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Hollow Relic Blade (<code>relic_blade_6</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Hollow Relic Coat (<code>relic_coat_6</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/copper_spider.tres</code>; drop table <code>res://data/drops/copper_spider.tres</code>.</p>
+<h3 id="moonfang-moonfang">Moonfang (<code>moonfang</code>)</h3>
+<p>**Level 8 · Tier 3 · 152 EXP · 522 HP · Defense 3.36 · Gold 18–37. Family: wolf.</p>
+<p>Appearance: Midnight blue coat, pale cheek mane; larger pack leader. <a href="../art/bestiary_wolves_boars.png">Concept plate, panel 2</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Moonfang Fang (<code>moonfang_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1–2</td>
+</tr>
+<tr>
+<td>Restoration Tonic (<code>restoration_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Hollow Relic Blade (<code>relic_blade_6</code>)</td>
+<td style="text-align: right;">0.3%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Hollow Relic Coat (<code>relic_coat_6</code>)</td>
+<td style="text-align: right;">0.3%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/moonfang.tres</code>; drop table <code>res://data/drops/moonfang.tres</code>.</p>
+<h3 id="road-bandit-road_bandit">Road Bandit (<code>road_bandit</code>)</h3>
+<p>**Level 9 · Tier 2 · 101 EXP · 306 HP · Defense 2.78 · Gold 20–37. Family: bandit.</p>
+<p>Appearance: Russet wraps, patched leather, short steel blade. <a href="../art/bestiary_spiders_bandits.png">Concept plate, panel 4</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Road Bandit Insignia (<code>road_bandit_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Restoration Tonic (<code>restoration_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Hollow Relic Blade (<code>relic_blade_6</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Hollow Relic Coat (<code>relic_coat_6</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/road_bandit.tres</code>; drop table <code>res://data/drops/road_bandit.tres</code>.</p>
+<h3 id="thicket-wolf-thicket_wolf">Thicket Wolf (<code>thicket_wolf</code>)</h3>
+<p>**Level 10 · Tier 1 · 92 EXP · 245 HP · Defense 2.2 · Gold 22–37. Family: wolf.</p>
+<p>Appearance: Olive-brown bristles with caught burrs and leaves. <a href="../art/bestiary_wolf_variants.png">Concept plate, panel 5</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Thicket Wolf Fang (<code>thicket_wolf_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Restoration Tonic (<code>restoration_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Hollow Relic Blade (<code>relic_blade_6</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Hollow Relic Coat (<code>relic_coat_6</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/thicket_wolf.tres</code>; drop table <code>res://data/drops/thicket_wolf.tres</code>.</p>
+<h3 id="blacktusk-boar-blacktusk">Blacktusk Boar (<code>blacktusk</code>)</h3>
+<p>**Level 11 · Tier 2 · 120 EXP · 355 HP · Defense 3.22 · Gold 24–43. Family: boar.</p>
+<p>Appearance: Grey-black hide, strong shoulders, chipped black tusks. <a href="../art/bestiary_wolves_boars.png">Concept plate, panel 5</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Blacktusk Boar Tusk (<code>blacktusk_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Restoration Tonic (<code>restoration_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Highland Relic Blade (<code>relic_blade_11</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Highland Relic Coat (<code>relic_coat_11</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/blacktusk.tres</code>; drop table <code>res://data/drops/blacktusk.tres</code>.</p>
+<h3 id="venom-spider-venom_spider">Venom Spider (<code>venom_spider</code>)</h3>
+<p>**Level 12 · Tier 2 · 130 EXP · 379 HP · Defense 3.44 · Gold 26–46. Family: spider.</p>
+<p>Appearance: Olive-black carapace, narrow green fang droplets. <a href="../art/bestiary_remaining_variants.png">Concept plate, panel 4</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Venom Spider Silk (<code>venom_spider_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Restoration Tonic (<code>restoration_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Highland Relic Blade (<code>relic_blade_11</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Highland Relic Coat (<code>relic_coat_11</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/venom_spider.tres</code>; drop table <code>res://data/drops/venom_spider.tres</code>.</p>
+<h3 id="slate-guardian-slate_guardian">Slate Guardian (<code>slate_guardian</code>)</h3>
+<p>**Level 12 · Tier 3 · 216 EXP · 702 HP · Defense 4.24 · Gold 26–49. Family: stonekin.</p>
+<p>Appearance: Squared shoulders, etched pale face stone, heavy hands. <a href="../art/bestiary_remaining_variants.png">Concept plate, panel 7</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Slate Guardian Core (<code>slate_guardian_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1–2</td>
+</tr>
+<tr>
+<td>Restoration Tonic (<code>restoration_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Highland Relic Blade (<code>relic_blade_11</code>)</td>
+<td style="text-align: right;">0.3%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Highland Relic Coat (<code>relic_coat_11</code>)</td>
+<td style="text-align: right;">0.3%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/slate_guardian.tres</code>; drop table <code>res://data/drops/slate_guardian.tres</code>.</p>
+<h3 id="hollow-raider-hollow_raider">Hollow Raider (<code>hollow_raider</code>)</h3>
+<p>**Level 13 · Tier 1 · 116 EXP · 299 HP · Defense 2.86 · Gold 28–46. Family: bandit.</p>
+<p>Appearance: Grey hood, patched lamellar, curved blade. <a href="../art/bestiary_spiders_bandits.png">Concept plate, panel 5</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hollow Raider Insignia (<code>hollow_raider_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Restoration Tonic (<code>restoration_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Highland Relic Blade (<code>relic_blade_11</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Highland Relic Coat (<code>relic_coat_11</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/hollow_raider.tres</code>; drop table <code>res://data/drops/hollow_raider.tres</code>.</p>
+<h3 id="cinder-wisp-cinder_wisp">Cinder Wisp (<code>cinder_wisp</code>)</h3>
+<p>**Level 14 · Tier 1 · 124 EXP · 317 HP · Defense 3.08 · Gold 30–49. Family: wisp.</p>
+<p>Appearance: Burned clay charm and narrow copper flame ribbon. <a href="../art/bestiary_remaining_variants.png">Concept plate, panel 6</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cinder Wisp Essence (<code>cinder_wisp_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Restoration Tonic (<code>restoration_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Highland Relic Blade (<code>relic_blade_11</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Highland Relic Coat (<code>relic_coat_11</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/cinder_wisp.tres</code>; drop table <code>res://data/drops/cinder_wisp.tres</code>.</p>
+<h3 id="frost-wolf-frost_wolf">Frost Wolf (<code>frost_wolf</code>)</h3>
+<p>**Level 15 · Tier 2 · 158 EXP · 452 HP · Defense 4.1 · Gold 32–55. Family: wolf.</p>
+<p>Appearance: White-grey coat, thick neck ruff, pale blue eyes. <a href="../art/bestiary_wolf_variants.png">Concept plate, panel 4</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Frost Wolf Fang (<code>frost_wolf_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Restoration Tonic (<code>restoration_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Highland Relic Blade (<code>relic_blade_11</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Highland Relic Coat (<code>relic_coat_11</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/frost_wolf.tres</code>; drop table <code>res://data/drops/frost_wolf.tres</code>.</p>
+<h3 id="ironhide-boar-ironhide_boar">Ironhide Boar (<code>ironhide_boar</code>)</h3>
+<p>**Level 16 · Tier 1 · 140 EXP · 353 HP · Defense 3.52 · Gold 34–55. Family: boar.</p>
+<p>Appearance: Rough grey hide, broad iron-coloured bristle ridge. <a href="../art/bestiary_remaining_variants.png">Concept plate, panel 2</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ironhide Boar Tusk (<code>ironhide_boar_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Blade (<code>relic_blade_16</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Coat (<code>relic_coat_16</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/ironhide_boar.tres</code>; drop table <code>res://data/drops/ironhide_boar.tres</code>.</p>
+<h3 id="silk-matron-silk_matron">Silk Matron (<code>silk_matron</code>)</h3>
+<p>**Level 16 · Tier 4 · 420 EXP · 1341 HP · Defense 5.92 · Gold 34–64. Family: spider.</p>
+<p>Appearance: Pale bulky abdomen, broad stance, silk drapery. <a href="../art/bestiary_spiders_bandits.png">Concept plate, panel 2</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Silk Matron Silk (<code>silk_matron_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1–2</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Blade (<code>relic_blade_16</code>)</td>
+<td style="text-align: right;">0.35%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Coat (<code>relic_coat_16</code>)</td>
+<td style="text-align: right;">0.35%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/silk_matron.tres</code>; drop table <code>res://data/drops/silk_matron.tres</code>.</p>
+<h3 id="ash-bandit-ash_bandit">Ash Bandit (<code>ash_bandit</code>)</h3>
+<p>**Level 17 · Tier 2 · 178 EXP · 501 HP · Defense 4.54 · Gold 36–61. Family: bandit.</p>
+<p>Appearance: Soot wraps and leather with ember-red sash. <a href="../art/bestiary_remaining_variants.png">Concept plate, panel 5</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ash Bandit Insignia (<code>ash_bandit_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Blade (<code>relic_blade_16</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Coat (<code>relic_coat_16</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/ash_bandit.tres</code>; drop table <code>res://data/drops/ash_bandit.tres</code>.</p>
+<h3 id="grave-wisp-grave_wisp">Grave Wisp (<code>grave_wisp</code>)</h3>
+<p>**Level 18 · Tier 1 · 156 EXP · 389 HP · Defense 3.96 · Gold 38–61. Family: wisp.</p>
+<p>Appearance: Broken stone charm with teal spectral ribbon. <a href="../art/bestiary_wisps_elites.png">Concept plate, panel 1</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grave Wisp Essence (<code>grave_wisp_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Blade (<code>relic_blade_16</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Coat (<code>relic_coat_16</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/grave_wisp.tres</code>; drop table <code>res://data/drops/grave_wisp.tres</code>.</p>
+<h3 id="ember-hound-ember_hound">Ember Hound (<code>ember_hound</code>)</h3>
+<p>**Level 18 · Tier 2 · 216 EXP · 440 HP · Defense 4 · Gold 36–54. Family: wolf.</p>
+<p>Appearance: Charcoal fur, orange fissures; den defender. <a href="../art/bestiary_wolves_boars.png">Concept plate, panel 3</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bloodfang Fang (<code>bloodfang_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1–2</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Blade (<code>relic_blade_16</code>)</td>
+<td style="text-align: right;">0.35%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Coat (<code>relic_coat_16</code>)</td>
+<td style="text-align: right;">0.35%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/ember_hound.tres</code>; drop table <code>res://data/drops/bloodfang.tres</code>.</p>
+<h3 id="cairn-sentinel-cairn_sentinel">Cairn Sentinel (<code>cairn_sentinel</code>)</h3>
+<p>**Level 19 · Tier 2 · 197 EXP · 549 HP · Defense 4.98 · Gold 40–67. Family: stonekin.</p>
+<p>Appearance: Stacked slate limbs; exposed small amber heart. <a href="../art/bestiary_roots_stone.png">Concept plate, panel 4</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cairn Sentinel Core (<code>cairn_sentinel_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Blade (<code>relic_blade_16</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Coat (<code>relic_coat_16</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/cairn_sentinel.tres</code>; drop table <code>res://data/drops/cairn_sentinel.tres</code>.</p>
+<h3 id="glass-spider-glass_spider">Glass Spider (<code>glass_spider</code>)</h3>
+<p>**Level 19 · Tier 2 · 228 EXP · 490 HP · Defense 4 · Gold 38–57. Family: spider.</p>
+<p>Appearance: Smoky faceted carapace over dark articulated legs. <a href="../art/bestiary_spiders_bandits.png">Concept plate, panel 3</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Venom Spider Silk (<code>venom_spider_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Restoration Tonic (<code>restoration_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Highland Relic Blade (<code>relic_blade_11</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Highland Relic Coat (<code>relic_coat_11</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/glass_spider.tres</code>; drop table <code>res://data/drops/venom_spider.tres</code>.</p>
+<h3 id="dusk-stalker-dusk_stalker">Dusk Stalker (<code>dusk_stalker</code>)</h3>
+<p>**Level 20 · Tier 2 · 206 EXP · 574 HP · Defense 5.2 · Gold 42–70. Family: wolf.</p>
+<p>Appearance: Very lean dark wolf, sharp predatory shoulder line. <a href="../art/bestiary_wisps_elites.png">Concept plate, panel 4</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dusk Stalker Fang (<code>dusk_stalker_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Blade (<code>relic_blade_16</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Coat (<code>relic_coat_16</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/dusk_stalker.tres</code>; drop table <code>res://data/drops/dusk_stalker.tres</code>.</p>
+<h3 id="bloodfang-bloodfang">Bloodfang (<code>bloodfang</code>)</h3>
+<p>**Level 20 · Tier 4 · 516 EXP · 1615 HP · Defense 6.8 · Gold 42–76. Family: wolf.</p>
+<p>Appearance: Large burgundy-black wolf, bone chest ruff, red fangs. <a href="../art/bestiary_wolf_variants.png">Concept plate, panel 6</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bloodfang Fang (<code>bloodfang_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1–2</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Blade (<code>relic_blade_16</code>)</td>
+<td style="text-align: right;">0.35%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Coat (<code>relic_coat_16</code>)</td>
+<td style="text-align: right;">0.35%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/bloodfang.tres</code>; drop table <code>res://data/drops/bloodfang.tres</code>.</p>
+<h3 id="ash-wisp-ash_wisp">Ash Wisp (<code>ash_wisp</code>)</h3>
+<p>**Level 21 · Tier 2 · 252 EXP · 540 HP · Defense 4 · Gold 42–63. Family: wisp.</p>
+<p>Appearance: Charred hanging charm, grey ash and sparse embers. <a href="../art/bestiary_wisps_elites.png">Concept plate, panel 3</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grave Wisp Essence (<code>grave_wisp_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Blade (<code>relic_blade_16</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Coat (<code>relic_coat_16</code>)</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/ash_wisp.tres</code>; drop table <code>res://data/drops/grave_wisp.tres</code>.</p>
+<h3 id="obsidian-boar-obsidian_boar">Obsidian Boar (<code>obsidian_boar</code>)</h3>
+<p>**Level 21 · Tier 2 · 216 EXP · 598 HP · Defense 5.42 · Gold 44–73. Family: boar.</p>
+<p>Appearance: Dark volcanic plates, restrained amber seams. <a href="../art/bestiary_wolves_boars.png">Concept plate, panel 6</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Obsidian Boar Tusk (<code>obsidian_boar_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ancient Relic Blade (<code>relic_blade_21</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ancient Relic Coat (<code>relic_coat_21</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/obsidian_boar.tres</code>; drop table <code>res://data/drops/obsidian_boar.tres</code>.</p>
+<h3 id="widow-spider-widow_spider">Widow Spider (<code>widow_spider</code>)</h3>
+<p>**Level 22 · Tier 2 · 226 EXP · 622 HP · Defense 5.64 · Gold 46–76. Family: spider.</p>
+<p>Appearance: Massive black spider, subtle burgundy abdomen. <a href="../art/bestiary_wisps_elites.png">Concept plate, panel 5</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Widow Spider Silk (<code>widow_spider_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ancient Relic Blade (<code>relic_blade_21</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ancient Relic Coat (<code>relic_coat_21</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/widow_spider.tres</code>; drop table <code>res://data/drops/widow_spider.tres</code>.</p>
+<h3 id="exile-captain-exile_captain">Exile Captain (<code>exile_captain</code>)</h3>
+<p>**Level 23 · Tier 3 · 392 EXP · 1198 HP · Defense 6.66 · Gold 48–82. Family: bandit.</p>
+<p>Appearance: Battered oxblood/slate lamellar and empty banner pole. <a href="../art/bestiary_spiders_bandits.png">Concept plate, panel 6</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Exile Captain Insignia (<code>exile_captain_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1–2</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ancient Relic Blade (<code>relic_blade_21</code>)</td>
+<td style="text-align: right;">0.3%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ancient Relic Coat (<code>relic_coat_21</code>)</td>
+<td style="text-align: right;">0.3%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/exile_captain.tres</code>; drop table <code>res://data/drops/exile_captain.tres</code>.</p>
+<h3 id="storm-wisp-storm_wisp">Storm Wisp (<code>storm_wisp</code>)</h3>
+<p>**Level 24 · Tier 2 · 245 EXP · 671 HP · Defense 6.08 · Gold 50–82. Family: wisp.</p>
+<p>Appearance: Reed talisman, slate core, pale blue lightning. <a href="../art/bestiary_wisps_elites.png">Concept plate, panel 2</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Storm Wisp Essence (<code>storm_wisp_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ancient Relic Blade (<code>relic_blade_21</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ancient Relic Coat (<code>relic_coat_21</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/storm_wisp.tres</code>; drop table <code>res://data/drops/storm_wisp.tres</code>.</p>
+<h3 id="rift-sentinel-rift_sentinel">Rift Sentinel (<code>rift_sentinel</code>)</h3>
+<p>**Level 25 · Tier 4 · 300 EXP · 1700 HP · Defense 8 · Gold 50–75. Family: stonekin.</p>
+<p>Appearance: Fractured black stone with narrow violet seams. <a href="../art/bestiary_roots_stone.png">Concept plate, panel 6</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cairn Sentinel Core (<code>cairn_sentinel_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Blade (<code>relic_blade_16</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ashen Relic Coat (<code>relic_coat_16</code>)</td>
+<td style="text-align: right;">0.25%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/rift_sentinel.tres</code>; drop table <code>res://data/drops/cairn_sentinel.tres</code>.</p>
+<h3 id="ancient-warden-ancient_warden">Ancient Warden (<code>ancient_warden</code>)</h3>
+<p>**Level 25 · Tier 5 · 1060 EXP · 3090 HP · Defense 8.7 · Gold 52–94. Family: stonekin.</p>
+<p>Appearance: Tall slate construct with branching root crown. <a href="../art/bestiary_wisps_elites.png">Concept plate, panel 6</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ancient Warden Core (<code>ancient_warden_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1–2</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ancient Relic Blade (<code>relic_blade_21</code>)</td>
+<td style="text-align: right;">0.4%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ancient Relic Coat (<code>relic_coat_21</code>)</td>
+<td style="text-align: right;">0.4%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/ancient_warden.tres</code>; drop table <code>res://data/drops/ancient_warden.tres</code>.</p>
+<h3 id="cairn-colossus-cairn_colossus">Cairn Colossus (<code>cairn_colossus</code>)</h3>
+<p>**Level 25 · Tier 5 · 1060 EXP · 3090 HP · Defense 8.7 · Gold 52–94. Family: stonekin.</p>
+<p>Appearance: Monumental low broad body, broken cairn crown. <a href="../art/bestiary_roots_stone.png">Concept plate, panel 5</a>.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Base drop chance</th>
+<th style="text-align: right;">Quantity on successful roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cairn Colossus Core (<code>cairn_colossus_trophy</code>)</td>
+<td style="text-align: right;">22.5%</td>
+<td style="text-align: right;">1–2</td>
+</tr>
+<tr>
+<td>Greater Tonic (<code>greater_tonic</code>)</td>
+<td style="text-align: right;">8%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ancient Relic Blade (<code>relic_blade_21</code>)</td>
+<td style="text-align: right;">0.4%</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Ancient Relic Coat (<code>relic_coat_21</code>)</td>
+<td style="text-align: right;">0.4%</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <code>game/data/enemies/cairn_colossus.tres</code>; drop table <code>res://data/drops/cairn_colossus.tres</code>.</p>
+<h2 id="production-notes">Production notes</h2>
+<p>Use shared rigs within a family while preserving the per-creature shape, coat, carapace or stone silhouette shown above. All spiders require eight actual articulated walking legs; overlap in a painted pose must not lead to a six-legged production model. Elite wolves need more than a recolour: neck/shoulder silhouette, scars and attack tells should identify them. Wisps need a physical charm/core with sparse surrounding ribbons.</p>
+<p>Review every model at the ordinary gameplay camera, front/side/three-quarter views and through attack/death states. Existing scalar differences are tuning facts, not final art approval.</p><p class="footer"><a href="../index.html">All design sheets</a> · <a href="05_mob_bestiary.md">Markdown source</a> · Fixed user rules with clearly marked proposed tuning.</p></main></body></html>

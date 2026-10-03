@@ -21,15 +21,15 @@ chance = 0.004
 [sub_resource type="Resource" id="shard"]
 script = ExtResource("entry")
 item = ExtResource("shard")
-chance = 1.0
-minimum = 3
-maximum = 6
+chance = 0.8
+minimum = 1
+maximum = 2
 [sub_resource type="Resource" id="tonic"]
 script = ExtResource("entry")
 item = ExtResource("tonic")
-chance = 1.0
+chance = 0.25
 minimum = 1
-maximum = 2
+maximum = 1
 [resource]
 script = ExtResource("table")
 entries = Array[ExtResource("entry")]([SubResource("glass"), SubResource("sword"), SubResource("armor"), SubResource("shard"), SubResource("tonic")])

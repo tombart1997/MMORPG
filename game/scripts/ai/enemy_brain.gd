@@ -15,6 +15,7 @@ var aggro_radius: float = 0
 var aggro_clock: float = 0
 var wander_target := Vector3.ZERO
 var wander_remaining: float = 0
+var simulation_elapsed: float = 0
 
 func begin_wander(point: Vector3) -> void:
 	wander_target = point
@@ -46,6 +47,10 @@ func _on_damaged(_amount: float, _source: Node3D) -> void:
 
 func _physics_process(delta: float) -> void:
 	if not actor.health.is_alive(): return
+	simulation_elapsed += delta
+	if not pack.has_target() and actor.simulation_interval > 0 and simulation_elapsed < actor.simulation_interval: return
+	delta = simulation_elapsed
+	simulation_elapsed = 0
 	wander_remaining = maxf(0, wander_remaining - delta)
 	if pack.has_target(): wander_remaining = 0
 	aggro_clock -= delta

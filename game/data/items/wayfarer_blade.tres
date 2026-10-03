@@ -1,6 +1,6 @@
 [gd_resource type="Resource" format=3]
 [ext_resource type="Script" path="res://scripts/rpg/item_data.gd" id="1"]
-[ext_resource type="PackedScene" path="res://scenes/visuals/iron_sword.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/forged_wayfarer.tscn" id="2"]
 [ext_resource type="Resource" path="res://data/attacks/player_sword.tres" id="3"]
 [ext_resource type="Resource" path="res://data/attacks/player_return.tres" id="4"]
 [ext_resource type="Resource" path="res://data/attacks/player_finisher.tres" id="5"]

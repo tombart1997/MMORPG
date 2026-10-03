@@ -15,7 +15,7 @@ func _run() -> void:
 		var camp := EnemyCamp.new()
 		camp.position = ZoneTerrain.CAMPS[1]
 		camp.count = count
-		camp.enemy_data = load("res://data/enemies/young.tres")
+		camp.enemy_data = load("res://data/enemies/young_mosslings.tres")
 		camp.leash_distance = 100
 		world.add_child(camp)
 		for i in count:

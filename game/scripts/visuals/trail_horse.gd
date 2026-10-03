@@ -1,84 +1,75 @@
 class_name TrailHorse
 extends Node3D
-## Original low-poly bay horse: shaped ring lofts, four articulated legs,
-## dark points, flaxen saddle blanket and a restrained two-beat travel gait.
-var legs: Array[Node3D] = []
-var knees: Array[Node3D] = []
-var phase: float = 0
+## Imported continuous skin; gameplay movement/collision remains on ActorBody.
+signal hoofstep(point: Vector3)
+var skeleton: Skeleton3D
+var player: AnimationPlayer
+var phase := 0.0
+var current_clip: StringName = &"idle"
+var previous_pose: Array[Quaternion] = []
+var previous_positions: Array[Vector3] = []
+var blend_time := 1.0
+var contacts: Dictionary = {}
+var motion_speed := 0.0
+var combat_lean := 0.0
+const SEAT_REST := Vector3(0,1.535,0)
+const STIRRUP_ANKLE_HEIGHT := .92
+
+func stirrup_world(side: float) -> Vector3:
+	return bone_point("Body",Vector3(side*.42,STIRRUP_ANKLE_HEIGHT,-.08))
 
 func _ready() -> void:
-	var bay := Color("72503b")
-	var dark := Color("292922")
-	var leather := Color("403b2d")
-	# Local forward is -Z, matching player and equipment conventions.
-	loft(self, [[Vector3(0,1.12,.79),.20,.24], [Vector3(0,1.15,.52),.34,.40], [Vector3(0,1.17,-.18),.31,.38], [Vector3(0,1.25,-.57),.24,.31]], bay)
-	loft(self, [[Vector3(0,1.30,-.46),.23,.28], [Vector3(0,1.64,-.68),.18,.26], [Vector3(0,1.96,-.76),.13,.17]], bay)
-	loft(self, [[Vector3(0,1.95,-.72),.14,.19], [Vector3(0,1.91,-.91),.16,.19], [Vector3(0,1.70,-1.24),.12,.12], [Vector3(0,1.68,-1.32),.10,.10]], bay.lightened(.08))
-	loft(self, [[Vector3(0,1.69,-1.22),.125,.12], [Vector3(0,1.68,-1.34),.11,.09]], dark)
-	for side in [-1.0, 1.0]:
-		loft(self, [[Vector3(side*.105,2.03,-.78),.065,.07], [Vector3(side*.13,2.25,-.76),.015,.025]], dark)
-		loft(self, [[Vector3(side*.153,1.94,-.88),.025,.027], [Vector3(side*.165,1.94,-.89),.018,.024]], Color("141b17"), 6)
-		for front in [true, false]:
-			var pivot := Node3D.new()
-			pivot.position = Vector3(side*.235,1.13,-.43 if front else .50)
-			add_child(pivot)
-			legs.append(pivot)
-			loft(pivot, [[Vector3.ZERO,.12,.14], [Vector3(0,-.36,.02 if front else .13),.065,.08], [Vector3(0,-.57,.01),.048,.065]], bay, 8)
-			var knee := Node3D.new()
-			knee.position = Vector3(0,-.55,.01)
-			pivot.add_child(knee)
-			knees.append(knee)
-			loft(knee, [[Vector3.ZERO,.052,.07], [Vector3(0,-.37,0),.038,.05], [Vector3(0,-.48,-.025),.06,.075]], dark, 8)
-			loft(knee, [[Vector3(0,-.46,-.035),.072,.085], [Vector3(0,-.57,-.055),.085,.10]], Color("232723"), 8)
-	# Mane follows the neck ridge; tail is a tapered swept tuft.
-	loft(self, [[Vector3(0,1.48,-.42),.05,.07], [Vector3(0,1.78,-.55),.055,.12], [Vector3(0,2.02,-.67),.035,.08]], dark, 6)
-	loft(self, [[Vector3(0,1.37,.74),.085,.10], [Vector3(0,.96,1.03),.11,.10], [Vector3(0,.42,1.05),.06,.065], [Vector3(0,.30,.97),.015,.025]], dark, 8)
-	loft(self, [[Vector3(0,1.38,.33),.35,.10], [Vector3(0,1.43,.23),.35,.09], [Vector3(0,1.45,-.24),.34,.09], [Vector3(0,1.39,-.33),.33,.08]], Color("7d7951"))
-	loft(self, [[Vector3(0,1.50,.24),.24,.095], [Vector3(0,1.48,.12),.23,.055], [Vector3(0,1.49,-.22),.23,.06], [Vector3(0,1.57,-.29),.20,.08]], leather)
-	# Pale blaze and bridle read from the ordinary gameplay camera.
-	loft(self, [[Vector3(0,2.05,-.90),.035,.018], [Vector3(0,1.88,-1.13),.027,.018], [Vector3(0,1.73,-1.30),.025,.015]], Color("c6bda0"), 6)
-	loft(self, [[Vector3(0,1.78,-1.18),.137,.12], [Vector3(0,1.75,-1.22),.137,.12]], leather, 10)
+	var model := preload("res://assets/mounts/trail_horse.glb").instantiate()
+	add_child(model)
+	skeleton = model.find_children("*","Skeleton3D",true,false)[0]
+	player = model.find_children("*","AnimationPlayer",true,false)[0]
+	player.callback_mode_process = AnimationMixer.ANIMATION_CALLBACK_MODE_PROCESS_MANUAL
+	player.play(&"idle")
+	player.seek(0,true)
+	for tag in ["Fore.L","Fore.R","Hind.L","Hind.R"]: contacts[tag] = true
 
-func loft(parent: Node3D, rings: Array, color: Color, sides: int = 10) -> void:
-	var surface := SurfaceTool.new()
-	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
-	# Rings lie in XY. Their displaced centers create the neck/head/leg curves.
-	var points: Array[Vector3] = []
-	for row in rings.size():
-		var ring: Array = rings[row]
-		var tangent: Vector3 = (rings[mini(row+1,rings.size()-1)][0] - rings[maxi(0,row-1)][0]).normalized()
-		var axis_x := Vector3.RIGHT - tangent * tangent.dot(Vector3.RIGHT)
-		if axis_x.length_squared() < .01: axis_x = Vector3.UP - tangent * tangent.dot(Vector3.UP)
-		axis_x = axis_x.normalized()
-		var axis_y := tangent.cross(axis_x).normalized()
-		for i in sides:
-			var angle := TAU * i / sides
-			points.append(ring[0] + axis_x*cos(angle)*ring[1] + axis_y*sin(angle)*ring[2])
-	for row in rings.size() - 1:
-		for i in sides:
-			var a := row*sides+i
-			var b := row*sides+(i+1)%sides
-			for index in [a,b,a+sides,b,b+sides,a+sides]: surface.add_vertex(points[index])
-	for i in range(1,sides-1):
-		for index in [0,i+1,i]: surface.add_vertex(points[index])
-		var base := (rings.size()-1)*sides
-		for index in [base,base+i,base+i+1]: surface.add_vertex(points[index])
-	surface.generate_normals()
-	var mesh := MeshInstance3D.new()
-	mesh.mesh = surface.commit()
-	var material := StandardMaterial3D.new()
-	material.albedo_color = color
-	material.roughness = .92
-	material.cull_mode = BaseMaterial3D.CULL_DISABLED
-	mesh.material_override = material
-	parent.add_child(mesh)
+func bone_point(name_value: String, rest_point: Vector3) -> Vector3:
+	var index := skeleton.find_bone(name_value)
+	var deformation := skeleton.get_bone_global_pose(index)*skeleton.get_bone_global_rest(index).affine_inverse()
+	return skeleton.global_transform * deformation * rest_point
+
+func saddle_offset() -> Vector3:
+	return to_local(bone_point("Body",SEAT_REST))-SEAT_REST
+
+func rein_grip_world() -> Vector3:
+	return bone_point("Body",Vector3(-.15,1.83,-.22))
 
 func travel(velocity: Vector3, delta: float) -> void:
-	var speed := Vector2(velocity.x,velocity.z).length()
-	phase += delta * minf(speed, 9) * 1.8
-	var amount := clampf(speed/5,0,1)
-	for i in legs.size():
-		var gait := sin(phase + (PI if i in [1,2] else 0))
-		legs[i].rotation.x = gait * .43 * amount
-		knees[i].rotation.x = maxf(0,-gait) * .55 * amount
-	position.y = absf(sin(phase)) * .025 * amount
+	motion_speed = Vector2(velocity.x,velocity.z).length()
+	var next: StringName = &"idle" if motion_speed < .15 else &"walk" if motion_speed < 2.8 else &"trot" if motion_speed < 5.5 else &"canter"
+	if next != current_clip:
+		previous_pose.clear();previous_positions.clear()
+		for i in skeleton.get_bone_count():
+			previous_pose.append(skeleton.get_bone_pose_rotation(i))
+			previous_positions.append(skeleton.get_bone_pose_position(i))
+		current_clip = next;blend_time = 0
+		player.play(current_clip)
+	# Stance foot travel is proportional to real ground speed.
+	var cadence := 0.25 if current_clip == &"idle" else motion_speed*.65/.60 if current_clip == &"walk" else motion_speed*.40/.76 if current_clip == &"trot" else motion_speed*.30
+	phase = fposmod(phase+delta*cadence,1.0)
+	player.seek(phase*player.get_animation(current_clip).length,true)
+	blend_time = minf(1,blend_time+delta/.16)
+	if blend_time < 1:
+		for i in skeleton.get_bone_count():
+			skeleton.set_bone_pose_rotation(i,previous_pose[i].slerp(skeleton.get_bone_pose_rotation(i),blend_time))
+			skeleton.set_bone_pose_position(i,previous_positions[i].lerp(skeleton.get_bone_pose_position(i),blend_time))
+	var actor := get_parent() as ActorBody
+	var lean_target := 0.0
+	if actor and actor.combat.is_attacking():
+		lean_target = (-1.0 if actor.combat.sequence_index%2 == 0 else 1.0)*sin(actor.visual._swing_progress(actor.combat)*PI)
+	combat_lean = lerpf(combat_lean,lean_target,minf(1,delta*18))
+	var body := skeleton.find_bone("Body")
+	var rest := skeleton.get_bone_global_rest(body).basis
+	var turn := rest.inverse()*Basis.from_euler(Vector3(.012*absf(combat_lean),0,-.025*combat_lean))*rest
+	skeleton.set_bone_pose_rotation(body,skeleton.get_bone_pose_rotation(body)*turn.get_rotation_quaternion())
+	for tag in contacts:
+		var index := skeleton.find_bone(tag+".Hoof")
+		var foot := skeleton.global_transform*skeleton.get_bone_global_pose(index).origin
+		var contact := to_local(foot).y < .195
+		if contact and not contacts[tag] and motion_speed > .4 and blend_time > .8: hoofstep.emit(foot)
+		contacts[tag] = contact

@@ -6,5 +6,6 @@ extends Resource
 @export var interaction_range: float = 2.8
 @export var turn_to_player: bool = true
 @export var clothing_color: Color = Color(0.3, 0.4, 0.5)
+@export var appearance: NPCAppearance
 @export var pages: Array[DialoguePage] = []
 @export var shop: ShopData
