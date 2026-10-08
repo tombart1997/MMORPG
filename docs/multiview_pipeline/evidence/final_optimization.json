@@ -1,0 +1,30 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "geometry_0",
+      "before": 523056,
+      "target": 18000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 17996,
+      "quality": {
+        "surface_max_fraction": 0.0017910060666208418,
+        "surface_p95_fraction": 0.0007447122762750712,
+        "bounds_drift_fraction": 0.0003425125345356671,
+        "nonmanifold_edges": 0,
+        "samples": 6029
+      },
+      "textures": [
+        "geometry_0_Base Color"
+      ],
+      "material_transfer": "rebaked_atlas",
+      "deformation": [],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 18000,
+  "achieved_triangles": 17996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

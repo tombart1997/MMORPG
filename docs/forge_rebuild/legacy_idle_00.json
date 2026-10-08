@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Fallen Wood",
+      "path": "res://assets/benchmark/fallen_wood.glb"
+    },
+    {
+      "name": "Fern",
+      "path": "res://assets/benchmark/fern.glb"
+    },
+    {
+      "name": "Leaf Litter",
+      "path": "res://assets/benchmark/leaf_litter.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\legacy_idle_00.png",
+  "clip": "idle",
+  "time": 0
+}

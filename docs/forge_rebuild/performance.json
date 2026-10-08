@@ -1,0 +1,59 @@
+{
+	"enemies_frozen": {
+		"actors": 117,
+		"draw_calls": 688.0,
+		"frame_median_ms": 5.252,
+		"frame_p95_ms": 10.074,
+		"nodes": 7339.0,
+		"physics_ms": 1.76215466351833,
+		"primitives": 2110129.0,
+		"process_ms": 11.9548323494689,
+		"render_cpu_ms": 3.50831405809666,
+		"render_gpu_ms": 2.56480873630348,
+		"samples": 847
+	},
+	"engine": "4.7.2-stable (official)",
+	"groups": 153,
+	"hardware": "NVIDIA GeForce GTX 1080",
+	"resolution": "1280x720, uncapped, Compatibility renderer",
+	"settlement": {
+		"actors": 68,
+		"draw_calls": 779.0,
+		"frame_median_ms": 6.745,
+		"frame_p95_ms": 13.868,
+		"nodes": 6114.0,
+		"physics_ms": 2.72440405616223,
+		"primitives": 1988337.0,
+		"process_ms": 18.7284695787831,
+		"render_cpu_ms": 4.08550389954899,
+		"render_gpu_ms": 2.62020748677008,
+		"samples": 641
+	},
+	"shadows_off": {
+		"actors": 117,
+		"draw_calls": 357.00756429652,
+		"frame_median_ms": 6.668,
+		"frame_p95_ms": 12.925,
+		"nodes": 7339.0,
+		"physics_ms": 3.8115885022693,
+		"primitives": 821387.947049924,
+		"process_ms": 15.7217549167925,
+		"render_cpu_ms": 2.82872315019414,
+		"render_gpu_ms": 1.72301966718394,
+		"samples": 661
+	},
+	"startup_ms": 9181,
+	"wilderness": {
+		"actors": 117,
+		"draw_calls": 688.0,
+		"frame_median_ms": 7.541,
+		"frame_p95_ms": 16.526,
+		"nodes": 7339.0,
+		"physics_ms": 2.79423344947731,
+		"primitives": 2110108.67944251,
+		"process_ms": 16.5821846689897,
+		"render_cpu_ms": 3.8211655064327,
+		"render_gpu_ms": 2.68611846817495,
+		"samples": 574
+	}
+}

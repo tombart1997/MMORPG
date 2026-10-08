@@ -1,0 +1,24 @@
+{
+  "assets": [
+    {
+      "key": "mob_meadow_wolf",
+      "source": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\meadow_wolf.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\mob_meadow_wolf\\mesh_before.json"
+    },
+    {
+      "key": "mob_ironhide_boar",
+      "source": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\ironhide_boar.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\mob_ironhide_boar\\mesh_before.json"
+    },
+    {
+      "key": "fern_reference",
+      "source": "D:\\Games\\Metin2Clone\\game\\assets\\world_kit\\fern.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\fern_reference\\mesh_before.json"
+    },
+    {
+      "key": "watchtower",
+      "source": "D:\\Games\\Metin2Clone\\game\\assets\\world_kit\\watchtower.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\watchtower\\mesh_before.json"
+    }
+  ]
+}

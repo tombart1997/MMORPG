@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_ember_hound",
+      "before": 13946,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11995,
+      "quality": {
+        "surface_max_fraction": 0.0018305701829430703,
+        "surface_p95_fraction": 0.00022009352040456458,
+        "bounds_drift_fraction": 0.0005836489995417138,
+        "nonmanifold_edges": 0,
+        "samples": 6649
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.005897633978891903,
+          "p95_fraction": 0.00021604659280010987
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.00848835781857232,
+          "p95_fraction": 0.00020351225855501685
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.005419750265020572,
+          "p95_fraction": 0.00022300780884836847
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.009176297800400504,
+          "p95_fraction": 0.0002200935084045032
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.005246887665053451,
+          "p95_fraction": 0.00022400463184715243
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11995,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

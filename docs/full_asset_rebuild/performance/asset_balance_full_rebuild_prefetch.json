@@ -1,0 +1,30 @@
+{
+	"authored_camps": 153,
+	"hardware": "NVIDIA GeForce GTX 1080",
+	"mounted_travel": {
+		"actors": 25.542002301496,
+		"combat_pose": "(-0.478606, 0.480329, -79.65742)",
+		"distance_travelled_m": 86.806022644043,
+		"draw_calls": 662.542002301496,
+		"end_position": "(-0.46609, 0.484611, -79.80342)",
+		"gpu_ms": 4.19447871017237,
+		"median_ms": 8.308,
+		"mounted_sample_percent": 100.0,
+		"navigation_failure": "",
+		"over_60fps_budget_percent": 2.99194476409666,
+		"p95_ms": 15.863,
+		"p99_ms": 23.726,
+		"physics_ms": 10.9126467203682,
+		"primitives": 4066241.01150748,
+		"process_ms": 20.4120713463751,
+		"render_cpu_ms": 4.57646144904256,
+		"samples": 869,
+		"worst_ms": 48.716
+	},
+	"renderer": "Compatibility, uncapped",
+	"resolution": "(1920, 1080)",
+	"saving_enabled": false,
+	"startup_ms": 12227,
+	"target_fps": 60,
+	"travel_mount_succeeded": true
+}

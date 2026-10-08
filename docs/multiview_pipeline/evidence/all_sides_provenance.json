@@ -1,0 +1,19 @@
+{
+  "geometry_job": "2e7a500bfc46",
+  "geometry_input_set": "b78ccb97e84d",
+  "geometry_inputs": 4,
+  "material_input_set": "c8d625d46876",
+  "supplementary_right_reference": {
+    "angle": "right",
+    "reference_id": "1d5290c4a312",
+    "path": "concepts_docs\\art\\asset_turnarounds_v2\\ironhide_boar\\right.png",
+    "sha256": "c22555037296d6973bffdf0865f001642d967131ea6fc1daf2a9c2ca67efd652",
+    "resolution": [
+      645,
+      453
+    ],
+    "used": true
+  },
+  "mesh_changed": false,
+  "note": "Right image repairs color coverage only in this candidate. Future generation from the five-view set consumes all five images."
+}

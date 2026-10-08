@@ -1,0 +1,47 @@
+{
+  "key": "mob_meadow_wolf",
+  "forge_asset_id": "ee4651b0a657",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ee4651b0a657\\generated\\5b79127ea63e\\source.glb",
+  "rig_source": "blender/creatures/wolf.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\meadow_wolf.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_meadow_wolf.blend",
+  "yaw": 90,
+  "bounds": [
+    [
+      -0.4323287308216095,
+      -1.349189043045044,
+      0.0
+    ],
+    [
+      0.4323287308216095,
+      1.0850000381469727,
+      1.440000057220459
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 114914,
+      "after": 14000,
+      "extent_drift": 0.0032577381340352664
+    }
+  ],
+  "bones": 13,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "silhouette_cleanup": {
+    "removed_vertices": 29,
+    "painted_ground_trim": false
+  },
+  "animation_skin_refinement": {
+    "constrained_limb_vertices": 2007,
+    "removed_bridge_faces": 0,
+    "reason": "Opened run views revealed lower-limb sheets from floor geometry and mixed limb influence."
+  }
+}

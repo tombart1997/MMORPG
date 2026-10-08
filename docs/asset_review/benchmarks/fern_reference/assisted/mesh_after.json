@@ -1,0 +1,4567 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "Forge_fern_reference",
+      "vertices": 53,
+      "triangles": 31,
+      "local_bounds": [
+        [
+          -0.1592106968164444,
+          -0.200395867228508,
+          0.08717234432697296
+        ],
+        [
+          0.12188790738582611,
+          0.022785572335124016,
+          0.1719425618648529
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 29,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        30
+      ],
+      "sharp_edges_over_60_degrees": 11,
+      "smooth_faces": 31,
+      "faces": 31,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.00479251877157405,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_fern_reference_RuntimeColor"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.08381278067827225
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.08381278067827225
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.16918246448040009,
+          -0.931021511554718,
+          0.32338249683380127,
+          0.02710358239710331
+        ],
+        [
+          0.9855847358703613,
+          -0.15981630980968475,
+          0.05551085248589516,
+          0.004652514588087797
+        ],
+        [
+          -1.4720932250966712e-09,
+          0.32811233401298523,
+          0.944638729095459,
+          0.18917280435562134
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30784222501414094,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.001",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0777374729514122
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0777374729514122
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.16918246448040009,
+          -0.921855092048645,
+          0.3486553132534027,
+          0.08131074905395508
+        ],
+        [
+          0.9855847358703613,
+          -0.15824280679225922,
+          0.05984914302825928,
+          0.013957543298602104
+        ],
+        [
+          -4.0754724039970824e-08,
+          0.35375478863716125,
+          0.9353381991386414,
+          0.3410564064979553
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30757998634689254,
+      "collapsed_uv_triangles": 10,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.002",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.06628775596618652
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.06628775596618652
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.16918246448040009,
+          -0.8967699408531189,
+          0.4088777005672455,
+          0.1355179101228714
+        ],
+        [
+          0.9855847358703613,
+          -0.15393677353858948,
+          0.07018674165010452,
+          0.023262573406100273
+        ],
+        [
+          -5.001433223128515e-08,
+          0.41485798358917236,
+          0.9098861813545227,
+          0.4740815758705139
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30695507085302554,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.003",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.051037415862083435
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.051037415862083435
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.16918234527111053,
+          -0.8302770256996155,
+          0.5310531258583069,
+          0.18972507119178772
+        ],
+        [
+          0.9855847954750061,
+          -0.14252270758152008,
+          0.09115888923406601,
+          0.03256760165095329
+        ],
+        [
+          2.7801367874502603e-09,
+          0.5388203859329224,
+          0.8424206972122192,
+          0.5773908495903015
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3056872864720268,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.004",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0353214293718338
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0353214293718338
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.16918234527111053,
+          -0.6185182929039001,
+          0.767341136932373,
+          0.24393224716186523
+        ],
+        [
+          0.9855847954750061,
+          -0.10617300122976303,
+          0.13171924650669098,
+          0.04187263175845146
+        ],
+        [
+          1.499723367714978e-07,
+          0.7785643339157104,
+          0.6275647878646851,
+          0.6425523161888123
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3032353322188345,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.005",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.02750404365360737
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.02750404365360737
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.16918246448040009,
+          0.016884302720427513,
+          0.9854401350021362,
+          0.29813939332962036
+        ],
+        [
+          0.9855847358703613,
+          0.002898277249187231,
+          0.16915763914585114,
+          0.05117766186594963
+        ],
+        [
+          3.025474981654952e-08,
+          0.999853253364563,
+          -0.017131250351667404,
+          0.6642476320266724
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.300972176800803,
+      "collapsed_uv_triangles": 7,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.006",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.03589561954140663
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.03589561954140663
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.16918234527111053,
+          0.6334446668624878,
+          0.7550663948059082,
+          0.3523465692996979
+        ],
+        [
+          0.9855847954750061,
+          0.10873515158891678,
+          0.1296122521162033,
+          0.0604826882481575
+        ],
+        [
+          -6.989246514876868e-08,
+          0.7661100029945374,
+          -0.6427094340324402,
+          0.6407060027122498
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3033627107592347,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.007",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.05170612409710884
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.05170612409710884
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.16918246448040009,
+          0.834630012512207,
+          0.5241851210594177,
+          0.4065537452697754
+        ],
+        [
+          0.9855847358703613,
+          0.1432700902223587,
+          0.08997994661331177,
+          0.06978771835565567
+        ],
+        [
+          -9.025851710475763e-08,
+          0.5318518877029419,
+          -0.8468374013900757,
+          0.5738488435745239
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30575855444710354,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.008",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.07199859619140625
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.07199859619140625
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.816543698310852,
+          -0.49877628684043884,
+          0.29065200686454773,
+          0.02092653326690197
+        ],
+        [
+          0.5772836208343506,
+          -0.7054983973503113,
+          0.41111505031585693,
+          0.029599705711007118
+        ],
+        [
+          7.384606703908503e-08,
+          0.5034820437431335,
+          0.8640056848526001,
+          0.17220720648765564
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3072916023536816,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.009",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0676601231098175
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0676601231098175
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.816543698310852,
+          -0.4874389171600342,
+          0.30928897857666016,
+          0.06277959793806076
+        ],
+        [
+          0.5772836208343506,
+          -0.6894621253013611,
+          0.43747642636299133,
+          0.0887991189956665
+        ],
+        [
+          -5.476950448723983e-09,
+          0.535766065120697,
+          0.8443664312362671,
+          0.2915443181991577
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30704112668410843,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.010",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0596645288169384
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0596645288169384
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.816543698310852,
+          -0.4585196375846863,
+          0.350736528635025,
+          0.1046326607465744
+        ],
+        [
+          0.5772836208343506,
+          -0.6485569477081299,
+          0.4961022734642029,
+          0.14799852669239044
+        ],
+        [
+          -3.108293356035574e-08,
+          0.6075636148452759,
+          0.7942709922790527,
+          0.39606407284736633
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30648408224020607,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.011",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.04955069348216057
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.04955069348216057
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.8165435791015625,
+          -0.3935701847076416,
+          0.42232581973075867,
+          0.14648573100566864
+        ],
+        [
+          0.5772837996482849,
+          -0.5566883683204651,
+          0.5973621010780334,
+          0.20719793438911438
+        ],
+        [
+          -3.9573599508457846e-08,
+          0.7315740585327148,
+          0.6817619800567627,
+          0.47723567485809326
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3055219276696268,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.012",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.040216900408267975
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.040216900408267975
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.816543698310852,
+          -0.250001460313797,
+          0.5203418731689453,
+          0.18833880126476288
+        ],
+        [
+          0.5772836208343506,
+          -0.3536165952682495,
+          0.7360019683837891,
+          0.2663973569869995
+        ],
+        [
+          -5.2246800663624526e-08,
+          0.9013625979423523,
+          0.43306514620780945,
+          0.5284339785575867
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30420460416659734,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.013",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.03625187650322914
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.03625187650322914
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.816543698310852,
+          0.005895854905247688,
+          0.577253520488739,
+          0.23019185662269592
+        ],
+        [
+          0.5772836208343506,
+          0.008339177817106247,
+          0.8165011405944824,
+          0.32559677958488464
+        ],
+        [
+          1.5245726103785273e-07,
+          0.9999478459358215,
+          -0.010212883353233337,
+          0.5454802513122559
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30343973410552394,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.014",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0405295193195343
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0405295193195343
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.816543698310852,
+          0.25818902254104614,
+          0.5163282155990601,
+          0.27204492688179016
+        ],
+        [
+          0.5772836208343506,
+          0.3651975691318512,
+          0.7303248047828674,
+          0.3847962021827698
+        ],
+        [
+          5.124769586473121e-08,
+          0.8944099545478821,
+          -0.44724807143211365,
+          0.5269832611083984
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.304258569477586,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.015",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.04997684806585312
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.04997684806585312
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.8165435791015625,
+          0.3973994553089142,
+          0.41872459650039673,
+          0.3138979971408844
+        ],
+        [
+          0.5772838592529297,
+          0.5621048212051392,
+          0.5922681093215942,
+          0.4439955949783325
+        ],
+        [
+          -8.742277657347586e-08,
+          0.7253356575965881,
+          -0.6883953213691711,
+          0.4744527041912079
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30557033203528583,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.016",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.07199859619140625
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.07199859619140625
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.9855847954750061,
+          0.14617449045181274,
+          -0.08518027514219284,
+          -0.0061328597366809845
+        ],
+        [
+          -0.16918234527111053,
+          -0.851550817489624,
+          0.4962242841720581,
+          0.035727448761463165
+        ],
+        [
+          1.9255286254349357e-09,
+          0.5034821033477783,
+          0.8640056848526001,
+          0.17220720648765564
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3072916023536798,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.017",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0676601231098175
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0676601231098175
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.9855847954750061,
+          0.14285190403461456,
+          -0.09064214676618576,
+          -0.018398579210042953
+        ],
+        [
+          -0.16918234527111053,
+          -0.8321946859359741,
+          0.5280429720878601,
+          0.1071823462843895
+        ],
+        [
+          2.6004414621638716e-08,
+          0.5357661247253418,
+          0.8443664312362671,
+          0.2915443181991577
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30704112668410843,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.018",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0596645288169384
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0596645288169384
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.9855847954750061,
+          0.1343766152858734,
+          -0.10278905928134918,
+          -0.03066430054605007
+        ],
+        [
+          -0.16918234527111053,
+          -0.7828214764595032,
+          0.5988053679466248,
+          0.17863723635673523
+        ],
+        [
+          -4.8086590709317534e-08,
+          0.6075635552406311,
+          0.7942710518836975,
+          0.39606407284736633
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30648408224020607,
+      "collapsed_uv_triangles": 7,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.019",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.04955069348216057
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.04955069348216057
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.9855847954750061,
+          0.11534212529659271,
+          -0.1237693727016449,
+          -0.04293002188205719
+        ],
+        [
+          -0.16918234527111053,
+          -0.6719343662261963,
+          0.7210280895233154,
+          0.25009214878082275
+        ],
+        [
+          2.191233328119324e-08,
+          0.7315738797187805,
+          0.681762158870697,
+          0.47723567485809326
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30552192766962505,
+      "collapsed_uv_triangles": 10,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.020",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.040216896682977676
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.040216896682977676
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.9855847954750061,
+          0.0732669085264206,
+          -0.1524946689605713,
+          -0.05519574135541916
+        ],
+        [
+          -0.16918234527111053,
+          -0.4268222153186798,
+          0.8883693814277649,
+          0.3215470314025879
+        ],
+        [
+          -3.664273151571251e-08,
+          0.9013627171516418,
+          0.43306493759155273,
+          0.5284339785575867
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30420460398133664,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.021",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.03625188395380974
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.03625188395380974
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.9855847954750061,
+          -0.001727932714857161,
+          -0.16917350888252258,
+          -0.06746146082878113
+        ],
+        [
+          -0.16918234527111053,
+          0.010065767914056778,
+          0.9855333566665649,
+          0.3930019438266754
+        ],
+        [
+          -7.403634327829423e-08,
+          0.9999478459358215,
+          -0.010213002562522888,
+          0.5454802513122559
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30343975097209586,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.022",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0405295230448246
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0405295230448246
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.9855847954750061,
+          -0.07566656172275543,
+          -0.15131816267967224,
+          -0.0797271803021431
+        ],
+        [
+          -0.1691821962594986,
+          0.4408009946346283,
+          0.8815168142318726,
+          0.46445685625076294
+        ],
+        [
+          -1.5099580252808664e-07,
+          0.8944098949432373,
+          -0.4472481906414032,
+          0.5269832611083984
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.304258569477586,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.023",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.04997685179114342
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.04997685179114342
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.9855847358703613,
+          -0.11646432429552078,
+          -0.12271405756473541,
+          -0.09199289977550507
+        ],
+        [
+          -0.16918237507343292,
+          0.678472101688385,
+          0.7148796319961548,
+          0.5359117388725281
+        ],
+        [
+          8.742277657347586e-08,
+          0.7253355383872986,
+          -0.6883955001831055,
+          0.4744527041912079
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30557033203528583,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.024",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.08381278067827225
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.08381278067827225
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.5772837996482849,
+          0.7713386416435242,
+          -0.26791802048683167,
+          -0.022454949095845222
+        ],
+        [
+          -0.8165435791015625,
+          -0.5453246831893921,
+          0.1894138604402542,
+          0.015875300392508507
+        ],
+        [
+          -7.203963292568005e-08,
+          0.32811230421066284,
+          0.944638729095459,
+          0.18917280435562134
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30784222501414094,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.025",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0777374729514122
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0777374729514122
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.5772837996482849,
+          0.7637444138526917,
+          -0.2888560891151428,
+          -0.06736484915018082
+        ],
+        [
+          -0.8165435791015625,
+          -0.5399556159973145,
+          0.20421697199344635,
+          0.04762589931488037
+        ],
+        [
+          1.1928939613881084e-07,
+          0.3537547290325165,
+          0.9353381991386414,
+          0.3410564064979553
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30757998634689254,
+      "collapsed_uv_triangles": 10,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.026",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.06628775596618652
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.06628775596618652
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.5772837996482849,
+          0.7429617047309875,
+          -0.33874958753585815,
+          -0.11227475106716156
+        ],
+        [
+          -0.8165435791015625,
+          -0.5252625942230225,
+          0.23949077725410461,
+          0.07937650382518768
+        ],
+        [
+          -1.4224568190002174e-08,
+          0.41485795378685,
+          0.9098861813545227,
+          0.4740815758705139
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30695507085302376,
+      "collapsed_uv_triangles": 10,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.027",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.051037415862083435
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.051037415862083435
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.5772836208343506,
+          0.687873363494873,
+          -0.4399702847003937,
+          -0.1571846455335617
+        ],
+        [
+          -0.816543698310852,
+          -0.48631569743156433,
+          0.3110521137714386,
+          0.111127108335495
+        ],
+        [
+          1.494066559359908e-08,
+          0.5388202667236328,
+          0.842420756816864,
+          0.5773908495903015
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30568728446339843,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.028",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0353214330971241
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0353214330971241
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.5772837996482849,
+          0.5124340057373047,
+          -0.6357316970825195,
+          -0.20209455490112305
+        ],
+        [
+          -0.8165435791015625,
+          -0.36228302121162415,
+          0.44945257902145386,
+          0.1428777128458023
+        ],
+        [
+          2.9167779302952113e-09,
+          0.7785643339157104,
+          0.6275647878646851,
+          0.6425523161888123
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.303235332218838,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.029",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.027504034340381622
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.027504034340381622
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.5772837996482849,
+          -0.013988346792757511,
+          -0.8164237141609192,
+          -0.2470044493675232
+        ],
+        [
+          -0.8165435791015625,
+          0.009889478795230389,
+          0.5771991014480591,
+          0.17462831735610962
+        ],
+        [
+          -5.577329886818916e-08,
+          0.999853253364563,
+          -0.017131131142377853,
+          0.6642476320266724
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30097215121407506,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.030",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.03589561954140663
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.03589561954140663
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.5772834420204163,
+          -0.5248004794120789,
+          -0.6255623698234558,
+          -0.29191434383392334
+        ],
+        [
+          -0.8165438175201416,
+          0.3710255026817322,
+          0.4422626495361328,
+          0.20637892186641693
+        ],
+        [
+          -4.084388649516768e-08,
+          0.7661100029945374,
+          -0.6427094340324402,
+          0.6407060027122498
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3033627107592347,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.031",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.051706116646528244
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.051706116646528244
+        ]
+      ],
+      "world_matrix": [
+        [
+          -0.5772837400436401,
+          -0.6914797425270081,
+          -0.434280127286911,
+          -0.3368242383003235
+        ],
+        [
+          -0.8165436387062073,
+          0.48886561393737793,
+          0.30702918767929077,
+          0.23812951147556305
+        ],
+        [
+          1.5099580252808664e-07,
+          0.5318516492843628,
+          -0.84683758020401,
+          0.5738488435745239
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30575855967480503,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.032",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.07199859619140625
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.07199859619140625
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.16918227076530457,
+          0.8515508770942688,
+          -0.49622419476509094,
+          -0.035727448761463165
+        ],
+        [
+          -0.9855847954750061,
+          0.14617444574832916,
+          -0.08518021553754807,
+          -0.0061328597366809845
+        ],
+        [
+          1.3382611463441663e-08,
+          0.5034819841384888,
+          0.8640057444572449,
+          0.17220720648765564
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3072916023536798,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.033",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0676601231098175
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0676601231098175
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.16918215155601501,
+          0.8321946859359741,
+          -0.5280430316925049,
+          -0.1071823462843895
+        ],
+        [
+          -0.9855847954750061,
+          0.14285175502300262,
+          -0.09064202010631561,
+          -0.018398579210042953
+        ],
+        [
+          6.532197716069277e-08,
+          0.5357661843299866,
+          0.8443663716316223,
+          0.2915443181991577
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3070411247113447,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.034",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0596645288169384
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0596645288169384
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.16918237507343292,
+          0.7828212976455688,
+          -0.5988055467605591,
+          -0.17863723635673523
+        ],
+        [
+          -0.9855847358703613,
+          0.1343766301870346,
+          -0.10278909653425217,
+          -0.03066430054605007
+        ],
+        [
+          -2.4947928167762257e-08,
+          0.6075637340545654,
+          0.794270932674408,
+          0.39606407284736633
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30648408224020607,
+      "collapsed_uv_triangles": 7,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.035",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.04955069348216057
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.04955069348216057
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.16918215155601501,
+          0.6719342470169067,
+          -0.7210282683372498,
+          -0.25009214878082275
+        ],
+        [
+          -0.9855847954750061,
+          0.11534199863672256,
+          -0.12376923114061356,
+          -0.04293002188205719
+        ],
+        [
+          5.50329524173776e-08,
+          0.7315740585327148,
+          0.6817619800567627,
+          0.47723567485809326
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3055219276696268,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.036",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.040216896682977676
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.040216896682977676
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.16918237507343292,
+          0.4268224239349365,
+          -0.8883692622184753,
+          -0.3215470314025879
+        ],
+        [
+          -0.9855847358703613,
+          0.0732669085264206,
+          -0.15249471366405487,
+          -0.05519574135541916
+        ],
+        [
+          -9.850780458009467e-08,
+          0.9013625979423523,
+          0.43306514620780945,
+          0.5284339785575867
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30420460398133664,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.037",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.03625188395380974
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.03625188395380974
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.16918237507343292,
+          -0.01006564125418663,
+          -0.9855333566665649,
+          -0.3930019438266754
+        ],
+        [
+          -0.9855847358703613,
+          -0.0017279655439779162,
+          -0.16917355358600616,
+          -0.06746146082878113
+        ],
+        [
+          -1.2746866673296608e-07,
+          0.9999478459358215,
+          -0.010212883353233337,
+          0.5454802513122559
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30343975097209763,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.038",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0405295230448246
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0405295230448246
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.1691819131374359,
+          -0.44080111384391785,
+          -0.8815168142318726,
+          -0.46445685625076294
+        ],
+        [
+          -0.9855848550796509,
+          -0.0756663903594017,
+          -0.15131793916225433,
+          -0.0797271803021431
+        ],
+        [
+          -7.719224015545478e-08,
+          0.8944098353385925,
+          -0.44724828004837036,
+          0.5269832611083984
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.304258569477586,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.039",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.04997685179114342
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.04997685179114342
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.16918237507343292,
+          -0.6784719824790955,
+          -0.7148798108100891,
+          -0.5359117388725281
+        ],
+        [
+          -0.9855847358703613,
+          -0.1164642721414566,
+          -0.12271410971879959,
+          -0.09199289977550507
+        ],
+        [
+          1.2657841352847754e-07,
+          0.7253357172012329,
+          -0.6883953213691711,
+          0.4744527041912079
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30557033203528583,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.040",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.07199859619140625
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.07199859619140625
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8165436387062073,
+          0.49877646565437317,
+          -0.29065194725990295,
+          -0.02092653326690197
+        ],
+        [
+          -0.5772837400436401,
+          0.7054983377456665,
+          -0.41111502051353455,
+          -0.029599705711007118
+        ],
+        [
+          -1.4512597346083567e-08,
+          0.5034819841384888,
+          0.8640057444572449,
+          0.17220720648765564
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3072916023536798,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.041",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0676601231098175
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0676601231098175
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.816543698310852,
+          0.4874388575553894,
+          -0.3092891275882721,
+          -0.06277959793806076
+        ],
+        [
+          -0.5772836208343506,
+          0.6894620656967163,
+          -0.4374764561653137,
+          -0.0887991189956665
+        ],
+        [
+          8.836438780690514e-08,
+          0.5357661843299866,
+          0.8443663716316223,
+          0.2915443181991577
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30704112668410843,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.042",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0596645288169384
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0596645288169384
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8165436387062073,
+          0.4585196077823639,
+          -0.35073670744895935,
+          -0.1046326607465744
+        ],
+        [
+          -0.5772836804389954,
+          0.6485568881034851,
+          -0.49610233306884766,
+          -0.14799852669239044
+        ],
+        [
+          5.568416838741541e-08,
+          0.6075637936592102,
+          0.7942708730697632,
+          0.39606407284736633
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30648408224020607,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.043",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.04955069348216057
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.04955069348216057
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8165435791015625,
+          0.39357006549835205,
+          -0.42232590913772583,
+          -0.14648573100566864
+        ],
+        [
+          -0.5772837996482849,
+          0.5566883087158203,
+          -0.5973621606826782,
+          -0.20719793438911438
+        ],
+        [
+          2.2721524217672595e-08,
+          0.7315741777420044,
+          0.6817618608474731,
+          0.47723567485809326
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30552192766962505,
+      "collapsed_uv_triangles": 10,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.044",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.040216900408267975
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.040216900408267975
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.816543698310852,
+          0.2500014901161194,
+          -0.5203418731689453,
+          -0.18833880126476288
+        ],
+        [
+          -0.5772836208343506,
+          0.3536165952682495,
+          -0.7360019683837891,
+          -0.2663973569869995
+        ],
+        [
+          -6.808785713019461e-08,
+          0.9013625979423523,
+          0.43306514620780945,
+          0.5284339785575867
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30420460416659734,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.045",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.03625187650322914
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.03625187650322914
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8165435791015625,
+          -0.0058957915753126144,
+          -0.5772536993026733,
+          -0.23019185662269592
+        ],
+        [
+          -0.5772838592529297,
+          -0.008339222520589828,
+          -0.8165009617805481,
+          -0.32559677958488464
+        ],
+        [
+          7.191856354893389e-08,
+          0.9999478459358215,
+          -0.010212883353233337,
+          0.5454802513122559
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30343973410552394,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.046",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0405295193195343
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0405295193195343
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8165436387062073,
+          -0.2581891417503357,
+          -0.5163282752037048,
+          -0.27204492688179016
+        ],
+        [
+          -0.5772837400436401,
+          -0.3651977479457855,
+          -0.7303246259689331,
+          -0.3847962021827698
+        ],
+        [
+          -1.087462919713289e-08,
+          0.8944098353385925,
+          -0.44724828004837036,
+          0.5269832611083984
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3042585694775878,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.047",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.04997684806585312
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.04997684806585312
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8165435194969177,
+          -0.39739954471588135,
+          -0.41872459650039673,
+          -0.3138979971408844
+        ],
+        [
+          -0.5772838592529297,
+          -0.5621047616004944,
+          -0.592268168926239,
+          -0.4439955949783325
+        ],
+        [
+          1.4473977572038166e-09,
+          0.7253357172012329,
+          -0.6883953213691711,
+          0.4744527041912079
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30557033203528583,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.048",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.08381278067827225
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.08381278067827225
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.9855847954750061,
+          -0.1598161906003952,
+          0.05551081523299217,
+          0.004652514588087797
+        ],
+        [
+          0.16918233036994934,
+          0.931021511554718,
+          -0.32338249683380127,
+          -0.02710358239710331
+        ],
+        [
+          -4.8670631969116585e-09,
+          0.32811233401298523,
+          0.944638729095459,
+          0.18917280435562134
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30784222501414094,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.049",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0777374729514122
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0777374729514122
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.9855847954750061,
+          -0.15824271738529205,
+          0.05984907224774361,
+          0.013957543298602104
+        ],
+        [
+          0.16918234527111053,
+          0.921855092048645,
+          -0.3486553430557251,
+          -0.08131074905395508
+        ],
+        [
+          -3.95007493381172e-09,
+          0.35375481843948364,
+          0.9353381991386414,
+          0.3410564064979553
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30757998634689254,
+      "collapsed_uv_triangles": 10,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.050",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.06628775596618652
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.06628775596618652
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.9855847358703613,
+          -0.15393668413162231,
+          0.07018668204545975,
+          0.023262573406100273
+        ],
+        [
+          0.16918236017227173,
+          0.8967698812484741,
+          -0.40887781977653503,
+          -0.1355179101228714
+        ],
+        [
+          -5.321785234713161e-09,
+          0.4148581027984619,
+          0.9098861217498779,
+          0.4740815758705139
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30695507085302554,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.051",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.051037415862083435
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.051037415862083435
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.9855847954750061,
+          -0.1425226926803589,
+          0.09115888178348541,
+          0.03256760165095329
+        ],
+        [
+          0.16918231546878815,
+          0.8302770256996155,
+          -0.5310531258583069,
+          -0.18972507119178772
+        ],
+        [
+          9.025717950805756e-10,
+          0.5388203859329224,
+          0.8424206972122192,
+          0.5773908495903015
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30568728446339843,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.052",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0353214293718338
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0353214293718338
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.9855847954750061,
+          -0.10617294162511826,
+          0.13171927630901337,
+          0.04187263175845146
+        ],
+        [
+          0.16918233036994934,
+          0.618518590927124,
+          -0.767340898513794,
+          -0.24393224716186523
+        ],
+        [
+          1.8445408755951576e-08,
+          0.7785640954971313,
+          0.6275650858879089,
+          0.6425523161888123
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3032353322188345,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.053",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.02750404365360737
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.02750404365360737
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.9855847954750061,
+          0.002898284699767828,
+          0.1691574901342392,
+          0.05117766186594963
+        ],
+        [
+          0.16918231546878815,
+          -0.016884181648492813,
+          -0.9854401350021362,
+          -0.29813939332962036
+        ],
+        [
+          -2.3343504906847556e-10,
+          0.999853253364563,
+          -0.017131131142377853,
+          0.6642476320266724
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.300972176800803,
+      "collapsed_uv_triangles": 7,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.054",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.03589561954140663
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.03589561954140663
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.9855847358703613,
+          0.10873517394065857,
+          0.1296122819185257,
+          0.0604826882481575
+        ],
+        [
+          0.16918238997459412,
+          -0.6334448456764221,
+          -0.7550662159919739,
+          -0.3523465692996979
+        ],
+        [
+          -2.9126507428145487e-08,
+          0.7661098837852478,
+          -0.6427096128463745,
+          0.6407060027122498
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30336271262187986,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.055",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.05170612409710884
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.05170612409710884
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.9855847954750061,
+          0.14326991140842438,
+          0.08997996151447296,
+          0.06978771835565567
+        ],
+        [
+          0.16918233036994934,
+          -0.8346298933029175,
+          -0.5241853594779968,
+          -0.4065537452697754
+        ],
+        [
+          -2.2505316721321833e-08,
+          0.531852126121521,
+          -0.8468372225761414,
+          0.5738488435745239
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30575855444710354,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.056",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.07199859619140625
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.07199859619140625
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.5772837996482849,
+          -0.7054983973503113,
+          0.4111148416996002,
+          0.029599705711007118
+        ],
+        [
+          0.8165435791015625,
+          0.49877655506134033,
+          -0.29065191745758057,
+          -0.02092653326690197
+        ],
+        [
+          2.1676346051435758e-08,
+          0.5034818649291992,
+          0.8640058040618896,
+          0.17220720648765564
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3072916023536816,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.057",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0676601231098175
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0676601231098175
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.5772837400436401,
+          -0.6894619464874268,
+          0.4374764561653137,
+          0.0887991189956665
+        ],
+        [
+          0.8165436387062073,
+          0.4874390661716461,
+          -0.30928900837898254,
+          -0.06277959793806076
+        ],
+        [
+          -9.705546233362838e-08,
+          0.5357661247253418,
+          0.8443664312362671,
+          0.2915443181991577
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30704112668410843,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.058",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0596645288169384
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0596645288169384
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.5772836804389954,
+          -0.6485569477081299,
+          0.4961022436618805,
+          0.14799852669239044
+        ],
+        [
+          0.8165436387062073,
+          0.45851972699165344,
+          -0.3507365584373474,
+          -0.1046326607465744
+        ],
+        [
+          -3.895760869454534e-08,
+          0.6075636148452759,
+          0.7942709922790527,
+          0.39606407284736633
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3064840842277269,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.059",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.04955069348216057
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.04955069348216057
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.5772836804389954,
+          -0.5566884875297546,
+          0.5973621606826782,
+          0.20719793438911438
+        ],
+        [
+          0.816543698310852,
+          0.3935699760913849,
+          -0.4223257899284363,
+          -0.14648573100566864
+        ],
+        [
+          8.16588254792805e-08,
+          0.7315740585327148,
+          0.6817619800567627,
+          0.47723567485809326
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3055219276696268,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.060",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.040216900408267975
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.040216900408267975
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.5772834420204163,
+          -0.3536166548728943,
+          0.7360020875930786,
+          0.2663973569869995
+        ],
+        [
+          0.8165438175201416,
+          0.2500011920928955,
+          -0.5203418135643005,
+          -0.18833880126476288
+        ],
+        [
+          1.3295441192440194e-07,
+          0.9013626575469971,
+          0.4330650568008423,
+          0.5284339785575867
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30420460416659734,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.061",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.03625187650322914
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.03625187650322914
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.5772837400436401,
+          0.008339249528944492,
+          0.8165010213851929,
+          0.32559677958488464
+        ],
+        [
+          0.8165436387062073,
+          -0.005895752925425768,
+          -0.5772536396980286,
+          -0.23019185662269592
+        ],
+        [
+          2.5927775482159632e-08,
+          0.9999478459358215,
+          -0.010212883353233337,
+          0.5454802513122559
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.3034397341055257,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.062",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.0405295193195343
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.0405295193195343
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.5772833824157715,
+          0.3651980459690094,
+          0.7303247451782227,
+          0.3847962021827698
+        ],
+        [
+          0.8165438771247864,
+          -0.2581890821456909,
+          -0.5163279175758362,
+          -0.27204492688179016
+        ],
+        [
+          -6.923922768464763e-08,
+          0.894409716129303,
+          -0.4472484886646271,
+          0.5269832611083984
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30425859109400843,
+      "collapsed_uv_triangles": 6,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Fern_rachis.063",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.004000000189989805,
+          -0.004000000189989805,
+          -0.04997684806585312
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.04997684806585312
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.5772837996482849,
+          0.5621047616004944,
+          0.592268168926239,
+          0.4439955949783325
+        ],
+        [
+          0.8165435791015625,
+          -0.3973994553089142,
+          -0.41872456669807434,
+          -0.3138979971408844
+        ],
+        [
+          -1.4850170870772672e-08,
+          0.7253357172012329,
+          -0.6883953213691711,
+          0.4744527041912079
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 4,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 12,
+      "smooth_faces": 0,
+      "faces": 26,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.30557033203528583,
+      "collapsed_uv_triangles": 8,
+      "materials": [
+        "RepairFernStem"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Separated_fern_leaflets",
+      "vertices": 960,
+      "triangles": 768,
+      "local_bounds": [
+        [
+          -0.534111499786377,
+          -0.4495847225189209,
+          0.17175517976284027
+        ],
+        [
+          0.4495847225189209,
+          0.534111499786377,
+          0.6859315037727356
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 768,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "sharp_edges_over_60_degrees": 416,
+      "smooth_faces": 0,
+      "faces": 768,
+      "custom_normals": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.08971486156339137,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "RepairFernLeaf"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Forge_fern_reference_RuntimeColor",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "Forge_fern_reference_RuntimeAtlas",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        }
+      ]
+    },
+    {
+      "name": "RepairFernLeaf",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.11999999731779099,
+            0.27000001072883606,
+            0.05999999865889549,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8399999737739563
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "fern_UnderstoryLeaves_albedo.png",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        }
+      ]
+    },
+    {
+      "name": "RepairFernStem",
+      "channels": {
+        "Base Color": {
+          "linked": false,
+          "value": [
+            0.17000000178813934,
+            0.20999999344348907,
+            0.054999999701976776,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8399999737739563
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    }
+  ],
+  "triangles": 3615,
+  "skeletons": [],
+  "clips": [],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "marchguard",
+  "output": "D:\\Games\\Metin2Clone\\game\\assets\\generated\\weapons\\marchguard.glb",
+  "triangles": 2668,
+  "method": "assisted_clean_remodel",
+  "reference": "concepts_docs/art/asset_turnarounds_v2/jade/turnaround.png",
+  "native_diagnosis": "Rounded blade tip and fused guard; true edge thickness required.",
+  "design": "Sharp 1.08 m blade; swept guard, real fuller, separately wrapped grip and jade pommel.",
+  "old_geometry_reused": false
+}

@@ -1,0 +1,184 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "sedgeMesh",
+      "vertices": 132,
+      "triangles": 92,
+      "local_bounds": [
+        [
+          -0.38355734944343567,
+          -0.17991407215595245,
+          0.0
+        ],
+        [
+          0.34437841176986694,
+          0.3675568103790283,
+          0.550493061542511
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 92,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "sharp_edges_over_60_degrees": 0,
+      "smooth_faces": 92,
+      "faces": 92,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.5626115906406908,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "UnderstoryLeaves"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "UnderstoryLeaves",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": true,
+          "value": 0.5
+        },
+        "Metallic": {
+          "linked": true,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": true,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "UnderstoryLeaves_albedo",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        },
+        {
+          "name": "UnderstoryLeaves_rough",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "Non-Color"
+        },
+        {
+          "name": "leaf_normal",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "Non-Color"
+        }
+      ]
+    }
+  ],
+  "triangles": 92,
+  "skeletons": [],
+  "clips": [],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\benchmark\\sedge.glb",
+  "seconds": 0.09
+}

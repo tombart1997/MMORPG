@@ -1,0 +1,34 @@
+{
+  "mode": "retopology",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_crate",
+      "before": 1194,
+      "target": 4800,
+      "status": "optimized",
+      "remeshed_quads": 1978,
+      "method": "simplify",
+      "after": 1194,
+      "quality": {
+        "surface_max_fraction": 0.0,
+        "surface_p95_fraction": 0.0,
+        "bounds_drift_fraction": 0.0,
+        "nonmanifold_edges": 0,
+        "samples": 1762
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [],
+      "rejected_attempts": [
+        {
+          "method": "quad_remesh",
+          "reason": "Surface quality guard rejected the reduction: {'surface_max_fraction': 0.047909046172512175, 'surface_p95_fraction': 0.0038468089262984873, 'bounds_drift_fraction': 0.0031038312281544463, 'nonmanifold_edges': 0, 'samples': 2867}"
+        }
+      ]
+    }
+  ],
+  "target_triangles": 4800,
+  "achieved_triangles": 1194,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

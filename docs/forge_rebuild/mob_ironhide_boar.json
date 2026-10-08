@@ -1,0 +1,43 @@
+{
+  "key": "mob_ironhide_boar",
+  "forge_asset_id": "90c5a8203d35",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\90c5a8203d35\\generated\\ad1c57635771\\source.glb",
+  "rig_source": "blender/creatures/boar.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\ironhide_boar.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_ironhide_boar.blend",
+  "yaw": 302.2473145918026,
+  "bounds": [
+    [
+      -0.4323287308216095,
+      -1.2757891416549683,
+      0.0
+    ],
+    [
+      0.4323287308216095,
+      1.1419222354888916,
+      1.3600000143051147
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 38190,
+      "after": 14000,
+      "extent_drift": 0.0022708960245351717
+    }
+  ],
+  "bones": 13,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "animation_skin_refinement": {
+    "constrained_limb_vertices": 2171,
+    "removed_bridge_faces": 0,
+    "reason": "Opened run views revealed lower-limb sheets from floor geometry and mixed limb influence."
+  }
+}

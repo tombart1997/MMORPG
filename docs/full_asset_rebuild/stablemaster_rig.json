@@ -1,0 +1,30 @@
+{
+  "key": "stablemaster",
+  "source": "D:\\Games\\Metin2Clone\\blender\\multiview_rebuild\\prepared\\stablemaster.blend",
+  "family": "humanoid",
+  "height": 1.9,
+  "yaw": 180,
+  "rig_source": "blender/multiview_rebuild/binding_templates/townfolk_kit.blend",
+  "binding_guide": "blender/multiview_rebuild/binding_templates/townfolk_kit.weights.json",
+  "output": "D:\\Games\\Metin2Clone\\game\\assets\\generated\\stablemaster.glb",
+  "bounds": [
+    [
+      -0.5441076159477234,
+      -0.527953028678894,
+      0.007740989793092012
+    ],
+    [
+      0.5655010938644409,
+      0.527953028678894,
+      1.904147744178772
+    ]
+  ],
+  "bones": 18,
+  "clips": [
+    "idle",
+    "keeper_idle",
+    "smith_idle"
+  ],
+  "template_geometry_exported": false,
+  "review_status": "requires_deformation_review"
+}

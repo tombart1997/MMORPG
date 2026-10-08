@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Ironhide Boar / 11995 tris",
+      "path": "res://review_assets/optimization/mob_ironhide_boar_simplify_12000_final.glb"
+    },
+    {
+      "name": "Ash Bandit / 11995 tris",
+      "path": "res://review_assets/optimization/mob_ash_bandit_simplify_12000_final.glb"
+    },
+    {
+      "name": "Grave Wisp / 11995 tris",
+      "path": "res://review_assets/optimization/mob_grave_wisp_simplify_12000_final.glb"
+    }
+  ],
+  "clip": "run",
+  "time": 0.19,
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\views\\ordinary_07.png"
+}

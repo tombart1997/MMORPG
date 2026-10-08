@@ -1,0 +1,2081 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "BitRingL",
+      "vertices": 168,
+      "triangles": 332,
+      "local_bounds": [
+        [
+          -0.1845640242099762,
+          1.589868187904358,
+          1.5508153438568115
+        ],
+        [
+          -0.1502680629491806,
+          1.6312201023101807,
+          1.6107747554779053
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        166
+      ],
+      "sharp_edges_over_60_degrees": 71,
+      "smooth_faces": 332,
+      "faces": 332,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_TackBrass"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "BitRingR",
+      "vertices": 168,
+      "triangles": 332,
+      "local_bounds": [
+        [
+          -0.07116012275218964,
+          1.4960980415344238,
+          1.612725019454956
+        ],
+        [
+          -0.05458231270313263,
+          1.5149763822555542,
+          1.616367220878601
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        166
+      ],
+      "sharp_edges_over_60_degrees": 60,
+      "smooth_faces": 332,
+      "faces": 332,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_TackBrass"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "BrowBand",
+      "vertices": 40,
+      "triangles": 76,
+      "local_bounds": [
+        [
+          -0.06743749976158142,
+          1.4157111644744873,
+          1.8139979839324951
+        ],
+        [
+          0.024894844740629196,
+          1.4853407144546509,
+          1.8524196147918701
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        40
+      ],
+      "sharp_edges_over_60_degrees": 44,
+      "smooth_faces": 76,
+      "faces": 76,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_SaddleLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "CheekStrapL",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.17190800607204437,
+          1.295926809310913,
+          1.5943292379379272
+        ],
+        [
+          -0.06995102018117905,
+          1.619978427886963,
+          1.9082564115524292
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        24
+      ],
+      "sharp_edges_over_60_degrees": 15,
+      "smooth_faces": 44,
+      "faces": 44,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_SaddleLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "CheekStrapR",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.0725930854678154,
+          1.281649112701416,
+          1.6157728433609009
+        ],
+        [
+          0.04949464276432991,
+          1.516593098640442,
+          1.8644145727157593
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        24
+      ],
+      "sharp_edges_over_60_degrees": 16,
+      "smooth_faces": 44,
+      "faces": 44,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_SaddleLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "FlapStitch",
+      "vertices": 32,
+      "triangles": 60,
+      "local_bounds": [
+        [
+          -0.37479886412620544,
+          -0.2717650234699249,
+          1.158349871635437
+        ],
+        [
+          -0.22857476770877838,
+          0.15009087324142456,
+          1.4910780191421509
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        32
+      ],
+      "sharp_edges_over_60_degrees": 16,
+      "smooth_faces": 60,
+      "faces": 60,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_Blaze"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "FlapStitch.001",
+      "vertices": 32,
+      "triangles": 60,
+      "local_bounds": [
+        [
+          0.22857476770877838,
+          -0.2717650234699249,
+          1.158349871635437
+        ],
+        [
+          0.37479886412620544,
+          0.15009087324142456,
+          1.4910780191421509
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        32
+      ],
+      "sharp_edges_over_60_degrees": 16,
+      "smooth_faces": 60,
+      "faces": 60,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_Blaze"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Forge_horse_bay",
+      "vertices": 18942,
+      "triangles": 27996,
+      "local_bounds": [
+        [
+          -0.4000000059604645,
+          -1.2001851797103882,
+          0.004946604371070862
+        ],
+        [
+          0.4005788266658783,
+          1.7303352355957031,
+          1.9800000190734863
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        13998
+      ],
+      "sharp_edges_over_60_degrees": 204,
+      "smooth_faces": 27996,
+      "faces": 27996,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.246590651424124,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_horse_bay_RuntimeColor"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        0.9999999146675691,
+        1.0000001043081284
+      ],
+      "regions": []
+    },
+    {
+      "name": "Girth",
+      "vertices": 56,
+      "triangles": 108,
+      "local_bounds": [
+        [
+          -0.38999632000923157,
+          0.1300000548362732,
+          0.89000004529953
+        ],
+        [
+          0.38999632000923157,
+          0.1700001060962677,
+          1.464544653892517
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 16,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        49
+      ],
+      "sharp_edges_over_60_degrees": 16,
+      "smooth_faces": 108,
+      "faces": 108,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_SaddleLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "NoseBand",
+      "vertices": 40,
+      "triangles": 76,
+      "local_bounds": [
+        [
+          -0.1717730164527893,
+          1.5163226127624512,
+          1.6129142045974731
+        ],
+        [
+          -0.06650330871343613,
+          1.6198852062225342,
+          1.7271108627319336
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        40
+      ],
+      "sharp_edges_over_60_degrees": 47,
+      "smooth_faces": 76,
+      "faces": 76,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_SaddleLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "PadEdge",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.35499998927116394,
+          -0.4201902747154236,
+          1.2300002574920654
+        ],
+        [
+          -0.33400148153305054,
+          0.18014562129974365,
+          1.246999979019165
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        24
+      ],
+      "sharp_edges_over_60_degrees": 16,
+      "smooth_faces": 44,
+      "faces": 44,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_WovenPad"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "PadEdge.001",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          0.33400148153305054,
+          -0.4201902747154236,
+          1.2300002574920654
+        ],
+        [
+          0.35499998927116394,
+          0.18014562129974365,
+          1.246999979019165
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        24
+      ],
+      "sharp_edges_over_60_degrees": 16,
+      "smooth_faces": 44,
+      "faces": 44,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_WovenPad"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "ReinFitted_1",
+      "vertices": 128,
+      "triangles": 64,
+      "local_bounds": [
+        [
+          -0.15447214245796204,
+          0.2174409031867981,
+          1.4750034809112549
+        ],
+        [
+          0.20477597415447235,
+          1.505473256111145,
+          1.8347549438476562
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 16,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        40
+      ],
+      "sharp_edges_over_60_degrees": 0,
+      "smooth_faces": 64,
+      "faces": 64,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_SaddleLeather.001"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "ReinFitted_-1",
+      "vertices": 128,
+      "triangles": 64,
+      "local_bounds": [
+        [
+          -0.20969067513942719,
+          0.2174409031867981,
+          1.4750021696090698
+        ],
+        [
+          -0.035018473863601685,
+          1.6112748384475708,
+          1.8347549438476562
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 16,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        40
+      ],
+      "sharp_edges_over_60_degrees": 0,
+      "smooth_faces": 63,
+      "faces": 64,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_SaddleLeather.001"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "SaddleFlap",
+      "vertices": 10,
+      "triangles": 16,
+      "local_bounds": [
+        [
+          -0.3720528781414032,
+          -0.29999998211860657,
+          1.1299999952316284
+        ],
+        [
+          -0.2199999988079071,
+          0.21079516410827637,
+          1.5048059225082397
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 14,
+      "smooth_faces": 16,
+      "faces": 16,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_SaddleLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "SaddleFlap.001",
+      "vertices": 10,
+      "triangles": 16,
+      "local_bounds": [
+        [
+          0.20794713497161865,
+          -0.3007950484752655,
+          1.1251941919326782
+        ],
+        [
+          0.36000001430511475,
+          0.21000009775161743,
+          1.5000001192092896
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        10
+      ],
+      "sharp_edges_over_60_degrees": 14,
+      "smooth_faces": 16,
+      "faces": 16,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_SaddleLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "SaddlePad",
+      "vertices": 378,
+      "triangles": 752,
+      "local_bounds": [
+        [
+          -0.3399801552295685,
+          -0.41999998688697815,
+          1.2160378694534302
+        ],
+        [
+          0.3399801552295685,
+          0.18000009655952454,
+          1.5138429403305054
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        378
+      ],
+      "sharp_edges_over_60_degrees": 116,
+      "smooth_faces": 752,
+      "faces": 752,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_WovenPad"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "SaddleSeat",
+      "vertices": 128,
+      "triangles": 252,
+      "local_bounds": [
+        [
+          -0.1850000023841858,
+          -0.3057647943496704,
+          1.5019409656524658
+        ],
+        [
+          0.1850000023841858,
+          0.17429867386817932,
+          1.6280593872070312
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        128
+      ],
+      "sharp_edges_over_60_degrees": 66,
+      "smooth_faces": 252,
+      "faces": 252,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_SaddleLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "StirrupIron",
+      "vertices": 56,
+      "triangles": 108,
+      "local_bounds": [
+        [
+          -0.48684459924697876,
+          0.07300002872943878,
+          0.7948204874992371
+        ],
+        [
+          -0.3630000054836273,
+          0.0870000347495079,
+          0.9462610483169556
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 6,
+      "welded_boundary_edges": 4,
+      "welded_nonmanifold_edges": 4,
+      "connected_components_vertices": [
+        51
+      ],
+      "sharp_edges_over_60_degrees": 40,
+      "smooth_faces": 108,
+      "faces": 108,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_TackBrass"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "StirrupIron.001",
+      "vertices": 56,
+      "triangles": 108,
+      "local_bounds": [
+        [
+          0.3630000054836273,
+          0.07300002872943878,
+          0.7948204874992371
+        ],
+        [
+          0.48684459924697876,
+          0.0870000347495079,
+          0.9462610483169556
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 6,
+      "welded_boundary_edges": 3,
+      "welded_nonmanifold_edges": 3,
+      "connected_components_vertices": [
+        51
+      ],
+      "sharp_edges_over_60_degrees": 42,
+      "smooth_faces": 108,
+      "faces": 108,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_TackBrass"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "StirrupLeather",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.4318470358848572,
+          0.008153188973665237,
+          0.8780912160873413
+        ],
+        [
+          -0.2289126217365265,
+          0.0919937938451767,
+          1.504555583000183
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        24
+      ],
+      "sharp_edges_over_60_degrees": 16,
+      "smooth_faces": 44,
+      "faces": 44,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_SaddleLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "StirrupLeather.001",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          0.2289126217365265,
+          0.008153188973665237,
+          0.8780912160873413
+        ],
+        [
+          0.4318470358848572,
+          0.0919937938451767,
+          1.504555583000183
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        24
+      ],
+      "sharp_edges_over_60_degrees": 16,
+      "smooth_faces": 44,
+      "faces": 44,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Horse_SaddleLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Forge_horse_bay_RuntimeColor",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "Forge_horse_bay_RuntimeAtlas",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        }
+      ]
+    },
+    {
+      "name": "Horse_Blaze",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.6499999761581421
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Horse_SaddleLeather",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.6299999952316284
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Horse_SaddleLeather.001",
+      "channels": {
+        "Base Color": {
+          "linked": false,
+          "value": [
+            0.06499999761581421,
+            0.02500000037252903,
+            0.013000000268220901,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.6299999952316284
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Horse_TackBrass",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.2800000011920929
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.800000011920929
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Horse_WovenPad",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8999999761581421
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    }
+  ],
+  "triangles": 30684,
+  "skeletons": [
+    {
+      "name": "HorseRig",
+      "bones": [
+        {
+          "name": "Root",
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            3.994781039295958e-08,
+            1.1670905351638794
+          ]
+        },
+        {
+          "name": "Body",
+          "head": [
+            0.0,
+            -0.24999995529651642,
+            1.1399999856948853
+          ],
+          "tail": [
+            0.0,
+            0.1340872198343277,
+            1.2552260160446167
+          ]
+        },
+        {
+          "name": "Fore.L.Upper",
+          "head": [
+            -0.26600000262260437,
+            0.6399999260902405,
+            1.2899997234344482
+          ],
+          "tail": [
+            -0.26600000262260437,
+            0.6399999260902405,
+            0.9699997901916504
+          ]
+        },
+        {
+          "name": "Fore.L.Lower",
+          "head": [
+            -0.2659999430179596,
+            0.6399999260902405,
+            0.9699998497962952
+          ],
+          "tail": [
+            -0.2659999430179596,
+            0.684999942779541,
+            0.48999983072280884
+          ]
+        },
+        {
+          "name": "Fore.L.Ankle",
+          "head": [
+            -0.26600000262260437,
+            0.684999942779541,
+            0.49000000953674316
+          ],
+          "tail": [
+            -0.26600000262260437,
+            0.6499999165534973,
+            0.15999996662139893
+          ]
+        },
+        {
+          "name": "Fore.L.Hoof",
+          "head": [
+            -0.265999972820282,
+            0.6499999165534973,
+            0.1600000560283661
+          ],
+          "tail": [
+            -0.265999972820282,
+            0.804558277130127,
+            -0.1336609125137329
+          ]
+        },
+        {
+          "name": "Fore.R.Upper",
+          "head": [
+            0.26600000262260437,
+            0.6399999260902405,
+            1.2899997234344482
+          ],
+          "tail": [
+            0.26600000262260437,
+            0.6399999260902405,
+            0.9699997901916504
+          ]
+        },
+        {
+          "name": "Fore.R.Lower",
+          "head": [
+            0.2659999430179596,
+            0.6399999260902405,
+            0.9699998497962952
+          ],
+          "tail": [
+            0.2659999430179596,
+            0.684999942779541,
+            0.48999983072280884
+          ]
+        },
+        {
+          "name": "Fore.R.Ankle",
+          "head": [
+            0.26600000262260437,
+            0.684999942779541,
+            0.49000000953674316
+          ],
+          "tail": [
+            0.26600000262260437,
+            0.6499999165534973,
+            0.15999996662139893
+          ]
+        },
+        {
+          "name": "Fore.R.Hoof",
+          "head": [
+            0.265999972820282,
+            0.6499999165534973,
+            0.1600000560283661
+          ],
+          "tail": [
+            0.265999972820282,
+            0.804558277130127,
+            -0.1336609125137329
+          ]
+        },
+        {
+          "name": "Hind.L.Upper",
+          "head": [
+            -0.25999993085861206,
+            -0.5099999308586121,
+            1.2999998331069946
+          ],
+          "tail": [
+            -0.2659999430179596,
+            -0.580000102519989,
+            0.8500000238418579
+          ]
+        },
+        {
+          "name": "Hind.L.Lower",
+          "head": [
+            -0.265999972820282,
+            -0.5799999833106995,
+            0.8500000834465027
+          ],
+          "tail": [
+            -0.265999972820282,
+            -0.7900002002716064,
+            0.5000001192092896
+          ]
+        },
+        {
+          "name": "Hind.L.Ankle",
+          "head": [
+            -0.265999972820282,
+            -0.7900002002716064,
+            0.5000001788139343
+          ],
+          "tail": [
+            -0.265999972820282,
+            -0.8100003004074097,
+            0.16000020503997803
+          ]
+        },
+        {
+          "name": "Hind.L.Hoof",
+          "head": [
+            -0.26600000262260437,
+            -0.8100003004074097,
+            0.16000023484230042
+          ],
+          "tail": [
+            -0.26600000262260437,
+            -0.6641994118690491,
+            -0.14780178666114807
+          ]
+        },
+        {
+          "name": "Hind.R.Upper",
+          "head": [
+            0.25999993085861206,
+            -0.5099999308586121,
+            1.2999998331069946
+          ],
+          "tail": [
+            0.2659999430179596,
+            -0.580000102519989,
+            0.8500000238418579
+          ]
+        },
+        {
+          "name": "Hind.R.Lower",
+          "head": [
+            0.265999972820282,
+            -0.5799999833106995,
+            0.8500000834465027
+          ],
+          "tail": [
+            0.265999972820282,
+            -0.7900002002716064,
+            0.5000001192092896
+          ]
+        },
+        {
+          "name": "Hind.R.Ankle",
+          "head": [
+            0.265999972820282,
+            -0.7900002002716064,
+            0.5000001788139343
+          ],
+          "tail": [
+            0.265999972820282,
+            -0.8100003004074097,
+            0.16000020503997803
+          ]
+        },
+        {
+          "name": "Hind.R.Hoof",
+          "head": [
+            0.26600000262260437,
+            -0.8100003004074097,
+            0.16000023484230042
+          ],
+          "tail": [
+            0.26600000262260437,
+            -0.6641994118690491,
+            -0.14780178666114807
+          ]
+        },
+        {
+          "name": "Neck",
+          "head": [
+            0.0,
+            0.64000004529953,
+            1.3799999952316284
+          ],
+          "tail": [
+            0.0,
+            1.2700002193450928,
+            1.8999998569488525
+          ]
+        },
+        {
+          "name": "Head",
+          "head": [
+            0.0,
+            1.2700001001358032,
+            1.899999976158142
+          ],
+          "tail": [
+            0.0,
+            1.373360514640808,
+            1.8230805397033691
+          ]
+        },
+        {
+          "name": "Ear.L",
+          "head": [
+            -0.08999990671873093,
+            1.340000033378601,
+            1.959999918937683
+          ],
+          "tail": [
+            -0.12272554636001587,
+            1.38908851146698,
+            2.0745394229888916
+          ]
+        },
+        {
+          "name": "Ear.R",
+          "head": [
+            0.08999990671873093,
+            1.340000033378601,
+            1.959999918937683
+          ],
+          "tail": [
+            0.12272554636001587,
+            1.38908851146698,
+            2.0745394229888916
+          ]
+        },
+        {
+          "name": "Tail",
+          "head": [
+            0.0,
+            -0.869999885559082,
+            1.399999976158142
+          ],
+          "tail": [
+            0.0,
+            -0.9835448265075684,
+            1.0154125690460205
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    "canter",
+    "idle",
+    "trot",
+    "walk"
+  ],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\game\\assets\\mounts\\trail_horse.glb",
+  "seconds": 0.811
+}

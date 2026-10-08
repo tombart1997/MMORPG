@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "created": "2026-10-07",
+  "original_forge": "C:\\Users\\Tom\\Documents\\2D_to_3D",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "e33307fc92293424ee13515cd6a908697552b9eb0cff6c0859ba6fade5d3343b"
+    },
+    {
+      "path": "forge/api.py",
+      "sha256": "d23f00ef2fd122bf1c4f338ba086b9d95b194152fd6ff25b1d8f870f066a7507"
+    },
+    {
+      "path": "forge/backends.py",
+      "sha256": "869b3d8c7694ef4d823b39bb0450c807fcc725777aab55baa0fc1e4decc357ca"
+    },
+    {
+      "path": "forge/jobs.py",
+      "sha256": "9e2912ae317a93905cc0268dd24368d959989eadbce0fe195ab0786975700aaa"
+    },
+    {
+      "path": "forge/reviewflow.py",
+      "sha256": "f3fd58007f92818eb39356b01ec61dd77caa3745ee6d3c2b3dcf2edaf2c33a12"
+    },
+    {
+      "path": "forge/reference_sets.py",
+      "sha256": "5e917a32f29a39319b50ba2ff389d74f7d0787bca6e14683c5e4b19e0d49c323"
+    },
+    {
+      "path": "web/app.js",
+      "sha256": "06b20f5d585d20e0465eaca611979ba37c4a097a1e654ecc21a8f0045f95a0c4"
+    },
+    {
+      "path": "web/index.html",
+      "sha256": "db3adedfbb6db28446e5165c36f8e4a0c2096b051fb3c250f5e0c05026681da4"
+    },
+    {
+      "path": "web/style.css",
+      "sha256": "22378876effd2fb7b2301a3be03a33474dad18cbdfb53a7f542ffec1f208230d"
+    },
+    {
+      "path": "web/multiview.js",
+      "sha256": "8ee56f908149c057d5cbbbad62cf57d7cd3284aef8c31207008d4cc0c70fc176"
+    },
+    {
+      "path": "web/dist/app.js",
+      "sha256": "aaf27c8c6905a07efb74ea24a3178e712af13ede63def712a08ab649354e9691"
+    },
+    {
+      "path": "web/dist/app.js.map",
+      "sha256": "c44cd5b128d47ab352163cd3f90b02330133a2b88161f891ac5f9e216a107255"
+    },
+    {
+      "path": "blender/optimize.py",
+      "sha256": "33d9b4196c76f4fec14e0a72c3ab64384eae47bde5041eac1f4599ae359164e4"
+    },
+    {
+      "path": "blender/project_reference_colors.py",
+      "sha256": "d537f8f0f34f02bb8b366eb8a3668ae2f1715efef2541e46029ba8706496e72e"
+    },
+    {
+      "path": "godot_validation/evidence.gd",
+      "sha256": "1fa9d843830b4134a8e8516529fc37673ade3d9a2a8da85f8b9c0d7bfb9b590a"
+    },
+    {
+      "path": "scripts/setup_trellis.ps1",
+      "sha256": "128c7cb631fc3387d439f254eabfc2643998060de55643bc0866516dd155beaa"
+    },
+    {
+      "path": "scripts/seed_turnarounds.py",
+      "sha256": "92ebe1431defc3243518e1de431ce17840a5f7b6ceac0c421944ce176a7a15f5"
+    },
+    {
+      "path": "scripts/browser_multiview_validation.py",
+      "sha256": "3312c5aa2b0ab5fd395387d47b15cc20f99c86b96b95f8f898398ed8fdbd8ebf"
+    },
+    {
+      "path": "backends/trellis/runner.py",
+      "sha256": "de422a427bc262ffff3e274c935a8de53032fd52fc8e3925a2629b05ad615ca5"
+    },
+    {
+      "path": "backends/trellis/foreground.py",
+      "sha256": "a686b8da691bfa73a1c40235d5acf8455372c43f2068c987d1bce7eaa2161f9a"
+    },
+    {
+      "path": "backends/trellis/test_foreground.py",
+      "sha256": "7094ee45496db22032e8907b5799f7cbc125ea4455a8a3a19c02eeb322d785a8"
+    },
+    {
+      "path": "backends/trellis/export_glb.py",
+      "sha256": "76197d874f7b0d60e116be0e65973f2f03967bcbd03df8e0bb6f9b451e50a3ac"
+    },
+    {
+      "path": "backends/trellis/sdpa.py",
+      "sha256": "765067e49cd23ed2d00d43be368c8f28ed98532c123665022d9344bf677f49e1"
+    },
+    {
+      "path": "backends/trellis/tensor_checks.py",
+      "sha256": "fdfefa2dd8f0c95a4eadaf640b9cafac67fa95072061a0401ca934fc444ad190"
+    },
+    {
+      "path": "backends/trellis/patch_upstream.py",
+      "sha256": "62c6f49317eb4f421b02eb18e38618fb672452376d62d4cbcc14403ea9a5ce00"
+    },
+    {
+      "path": "backends/trellis/checkpoint.py",
+      "sha256": "593a3420ceba15a9d10c86c8cad60099157ac116ad1e7957e84f8d355f077560"
+    },
+    {
+      "path": "backends/trellis/test_attention.py",
+      "sha256": "ab1f58474a8a9e70372162e5ff2353cecf54b239cf4a077f59b71e1aca65b228"
+    },
+    {
+      "path": "backends/trellis/test_export.py",
+      "sha256": "1c4b4e3c6e93a3d5cc3aa5687bbe1707f399bda9fe59ed15b5acf15e27d8844c"
+    },
+    {
+      "path": "backends/trellis/test_projection.py",
+      "sha256": "d74115543ccc8da7dc67d2ea9c830ac83832dd81b4eda3257360012576115139"
+    },
+    {
+      "path": "backends/trellis/test_color_bake.py",
+      "sha256": "9eafa026d94eee4ceff00cfeb0d1a51b85dcf0ef0ad9e95136940e7dd00ba159"
+    },
+    {
+      "path": "tests/test_api.py",
+      "sha256": "4f5d5acd40f3477530ac132b502b2e847a8f682b8cd28d561c86993d4651ce0f"
+    },
+    {
+      "path": "tests/test_contracts.py",
+      "sha256": "dd80ce0b96ee3521fe905ca51a493899aed7d2561cc8c5e4d4009734c3e9b70f"
+    },
+    {
+      "path": "tests/test_multiview.py",
+      "sha256": "d1b34fc36f151cff9938442366db7b8b5b596189fd260001586e4e85c796387c"
+    },
+    {
+      "path": "tests/test_multiview_checkpoint.py",
+      "sha256": "b37799044ecf17eb98ea72c912790fb0c15c7cd056d1d60976f6d1297d1a90bd"
+    }
+  ]
+}

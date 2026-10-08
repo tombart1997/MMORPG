@@ -1,0 +1,16 @@
+{
+  "saddle_source": "saddle shared four-view reconstruction",
+  "saddle_bounds_m": {
+    "width": 0.92,
+    "length": 0.9,
+    "lowest_stirrup": 0.87,
+    "highest_pommel": 1.69
+  },
+  "seat_rest_m": [
+    0,
+    1.535,
+    0
+  ],
+  "bridle": "clean leather and brass geometry fitted to new head",
+  "old_geometry_reused": false
+}

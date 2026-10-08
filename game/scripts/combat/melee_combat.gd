@@ -92,6 +92,14 @@ func _set_phase(value: Phase) -> void:
 	phase_changed.emit(phase_name())
 
 func _physics_process(delta: float) -> void:
+	if not RuntimeCosts.enabled:
+		_profiled__physics_process(delta)
+		return
+	var started:=Time.get_ticks_usec()
+	_profiled__physics_process(delta)
+	RuntimeCosts.record(&"melee",started)
+
+func _profiled__physics_process(delta: float) -> void:
 	if not actor.health.is_alive():
 		if is_attacking():
 			cancel()

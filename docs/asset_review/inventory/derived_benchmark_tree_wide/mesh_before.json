@@ -1,0 +1,291 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "ForgeDerived_tree_wide",
+      "vertices": 10075,
+      "triangles": 4852,
+      "local_bounds": [
+        [
+          -4.683854579925537,
+          -5.468100070953369,
+          -0.20623622834682465
+        ],
+        [
+          5.405087947845459,
+          5.103634834289551,
+          7.656760215759277
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 444,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        1957,
+        11,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "sharp_edges_over_60_degrees": 3503,
+      "smooth_faces": 4838,
+      "faces": 4852,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.010801875263727181,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_tree_pine_RuntimeColor"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Forge_tree_pine_RuntimeColor",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "Forge_tree_pine_RuntimeAtlas",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        }
+      ]
+    }
+  ],
+  "triangles": 4852,
+  "skeletons": [],
+  "clips": [],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\game\\assets\\benchmark\\tree_wide.glb",
+  "seconds": 0.196
+}

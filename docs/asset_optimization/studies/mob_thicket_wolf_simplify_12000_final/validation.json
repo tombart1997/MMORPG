@@ -1,0 +1,39 @@
+{
+  "technical_status": "passed",
+  "visual_status": "pending",
+  "errors": [],
+  "warnings": [],
+  "triangles": 11995,
+  "materials": 1,
+  "textures": [
+    {
+      "name": "Forge_mob_thicket_wolf_RuntimeAtlas",
+      "mime": "image/png",
+      "embedded": true
+    }
+  ],
+  "skins": 1,
+  "bones": [
+    "Root",
+    "Hips",
+    "Chest",
+    "FrontUpper.L",
+    "FrontLower.L",
+    "FrontUpper.R",
+    "FrontLower.R",
+    "Head",
+    "HindUpper.L",
+    "HindLower.L",
+    "HindUpper.R",
+    "HindLower.R",
+    "Tail"
+  ],
+  "animations": [
+    "death",
+    "hit",
+    "attack_01",
+    "run",
+    "idle"
+  ],
+  "mesh_objects": 1
+}

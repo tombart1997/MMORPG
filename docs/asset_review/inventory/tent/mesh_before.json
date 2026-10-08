@@ -1,0 +1,152 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "Forge_tent",
+      "vertices": 2575,
+      "triangles": 2390,
+      "local_bounds": [
+        [
+          -2.3535516262054443,
+          -2.097724199295044,
+          -0.060377396643161774
+        ],
+        [
+          2.34114408493042,
+          2.071195125579834,
+          2.0636556148529053
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 30,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        1186,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "sharp_edges_over_60_degrees": 491,
+      "smooth_faces": 2390,
+      "faces": 2390,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.2909269936139891,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_tent_RuntimeColor"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Forge_tent_RuntimeColor",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "Forge_tent_RuntimeAtlas",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        }
+      ]
+    }
+  ],
+  "triangles": 2390,
+  "skeletons": [],
+  "clips": [],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\game\\assets\\world_kit\\tent.glb",
+  "seconds": 0.131
+}

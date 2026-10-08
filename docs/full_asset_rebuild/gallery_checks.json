@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "checks": [
+    "111 asset cards",
+    "37 enemy group filter",
+    "horse search",
+    "11 sword group filter",
+    "mobile width without overflow",
+    "no JavaScript errors"
+  ]
+}

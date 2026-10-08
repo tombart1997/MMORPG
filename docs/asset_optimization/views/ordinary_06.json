@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Hollow Raider / 11996 tris",
+      "path": "res://review_assets/optimization/mob_hollow_raider_simplify_12000_final.glb"
+    },
+    {
+      "name": "Cinder Wisp / 11996 tris",
+      "path": "res://review_assets/optimization/mob_cinder_wisp_simplify_12000_final.glb"
+    },
+    {
+      "name": "Frost Wolf / 11995 tris",
+      "path": "res://review_assets/optimization/mob_frost_wolf_simplify_12000_final.glb"
+    }
+  ],
+  "clip": "run",
+  "time": 0.19,
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\views\\ordinary_06.png"
+}

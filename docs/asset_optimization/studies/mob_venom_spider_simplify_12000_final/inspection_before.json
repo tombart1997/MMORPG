@@ -1,0 +1,63 @@
+{
+  "objects": [
+    {
+      "name": "Forge_mob_venom_spider",
+      "vertices": 15568,
+      "triangles": 13938,
+      "materials": 1,
+      "degenerate_faces": 0,
+      "boundary_edges": 13836,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "has_uv": true,
+      "collapsed_uv_triangles": 0,
+      "skinned": true,
+      "unweighted_vertices": 0
+    }
+  ],
+  "triangles": 13938,
+  "textures": [
+    {
+      "name": "Forge_mob_venom_spider_RuntimeAtlas",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "available": true
+    }
+  ],
+  "bounds": {
+    "min": [
+      -1.1503183841705322,
+      -1.0197185277938843,
+      0.06453068554401398
+    ],
+    "max": [
+      1.1509130001068115,
+      0.8325297832489014,
+      0.9958016872406006
+    ]
+  },
+  "armatures": [
+    {
+      "name": "SpiritRig",
+      "bones": 20
+    }
+  ],
+  "actions": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+  "unverified": [
+    "UV overlap beyond collapsed triangles",
+    "Internal occluded geometry",
+    "Baked lighting",
+    "Joint clipping",
+    "Reference fidelity"
+  ]
+}

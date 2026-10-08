@@ -1,0 +1,222 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "Forge_mob_grave_wisp",
+      "vertices": 13217,
+      "triangles": 13884,
+      "local_bounds": [
+        [
+          -0.27399998903274536,
+          -0.27331477403640747,
+          0.12970766425132751
+        ],
+        [
+          0.27399998903274536,
+          0.27331477403640747,
+          1.5608155727386475
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        6816,
+        45,
+        32,
+        25
+      ],
+      "sharp_edges_over_60_degrees": 2120,
+      "smooth_faces": 13884,
+      "faces": 13884,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.07868019314224217,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_mob_grave_wisp_RuntimeColor"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        0.9999999701976776,
+        1.0000000298023224
+      ],
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Forge_mob_grave_wisp_RuntimeColor",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": true,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.4000000059604645
+        }
+      },
+      "textures": [
+        {
+          "name": "Forge_mob_grave_wisp_RuntimeAtlas",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        },
+        {
+          "name": "Forge_mob_grave_wisp_RuntimeAtlas",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        }
+      ]
+    }
+  ],
+  "triangles": 13884,
+  "skeletons": [
+    {
+      "name": "SpiritRig",
+      "bones": [
+        {
+          "name": "Root",
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            2.9094264775153533e-08,
+            0.8500000238418579
+          ]
+        },
+        {
+          "name": "Hips",
+          "head": [
+            0.0,
+            2.9094261222439854e-08,
+            0.8499999642372131
+          ],
+          "tail": [
+            0.0,
+            3.422854177870249e-08,
+            0.9999999403953552
+          ]
+        },
+        {
+          "name": "Chest",
+          "head": [
+            0.0,
+            3.422854177870249e-08,
+            0.9999998807907104
+          ],
+          "tail": [
+            0.0,
+            4.449710289122777e-08,
+            1.2999998331069946
+          ]
+        },
+        {
+          "name": "Head",
+          "head": [
+            0.0,
+            4.449710289122777e-08,
+            1.299999713897705
+          ],
+          "tail": [
+            0.0,
+            5.4765664003753045e-08,
+            1.5999996662139893
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\game\\assets\\creatures\\wisp.glb",
+  "seconds": 0.396
+}

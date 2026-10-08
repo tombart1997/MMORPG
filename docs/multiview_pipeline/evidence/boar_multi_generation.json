@@ -1,0 +1,37 @@
+{
+  "model": "microsoft/TRELLIS-image-large",
+  "model_revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+  "code_commit": "442aa1e1afb9014e80681d3bf604e8d728a86ee7",
+  "backend": "trellis",
+  "multi_image": true,
+  "conditioning_method": "native_multidiffusion",
+  "image_count": 3,
+  "inputs": [
+    {
+      "path": "D:\\Games\\Metin2Clone\\concepts_docs\\art\\asset_turnarounds_v2\\ironhide_boar\\three_quarter.png",
+      "sha256": "a24a756fcdaf342f35bb2732931796aead92c236b8c239421c0e1d8ca191244f"
+    },
+    {
+      "path": "D:\\Games\\Metin2Clone\\concepts_docs\\art\\asset_turnarounds_v2\\ironhide_boar\\left.png",
+      "sha256": "8a9d7951e35e33a6cf1125be102b1da272256d3dd304d0e30a047c6936fb57e8"
+    },
+    {
+      "path": "D:\\Games\\Metin2Clone\\concepts_docs\\art\\asset_turnarounds_v2\\ironhide_boar\\back.png",
+      "sha256": "a7dd269116494cacb7ecaaf88b65c9ebc0afe78c6aa09570f3105d6467341e12"
+    }
+  ],
+  "seed": 42,
+  "steps": 12,
+  "cfg_strength": 5.0,
+  "triangles": 506750,
+  "color_source": "native vertex colors",
+  "materials": "base color only; PBR surfaces need authoring",
+  "elapsed_seconds": 291.19,
+  "peak_cuda_mb": 6637.5,
+  "cost_credits": 0,
+  "license": "MIT code and weights",
+  "cpu_offload": "one stage at a time",
+  "upstream_port": "exact chunked SDPA, native spconv, unchanged native multi-image sampler",
+  "review_status": "pending",
+  "unseen_surfaces": "Generated reference views are inferred; inspect geometry and silhouette."
+}

@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_red_wolf",
+      "before": 13902,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11996,
+      "quality": {
+        "surface_max_fraction": 0.002337773995540438,
+        "surface_p95_fraction": 0.00023743841684801444,
+        "bounds_drift_fraction": 0.0006550774971311561,
+        "nonmanifold_edges": 0,
+        "samples": 6390
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.003176127197522108,
+          "p95_fraction": 0.00023736724459149083
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.007264694543914206,
+          "p95_fraction": 0.00023317224805208516
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.010041287243901362,
+          "p95_fraction": 0.00024057766888604704
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.011361120649764302,
+          "p95_fraction": 0.00023743838696715976
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.005581745230531774,
+          "p95_fraction": 0.00024368887892678675
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

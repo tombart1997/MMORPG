@@ -1,0 +1,32 @@
+{
+  "mode": "retopology",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_meadow_wolf",
+      "before": 13970,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11995,
+      "quality": {
+        "surface_max_fraction": 0.001903929632098333,
+        "surface_p95_fraction": 0.0002716364102852872,
+        "bounds_drift_fraction": 0.000324484192538853,
+        "nonmanifold_edges": 0,
+        "samples": 7204
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "rejected_attempts": [
+        {
+          "method": "quad_remesh",
+          "reason": "Surface quality guard rejected the reduction: {'surface_max_fraction': 0.02586886677214458, 'surface_p95_fraction': 0.009080345489052528, 'bounds_drift_fraction': 0.0026077216916576026, 'nonmanifold_edges': 0, 'samples': 7117}"
+        }
+      ]
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11995,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

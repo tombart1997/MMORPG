@@ -1,0 +1,43 @@
+{
+  "key": "mob_bloodfang",
+  "forge_asset_id": "91797c8ee80e",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\91797c8ee80e\\generated\\9d30e36141dc\\source.glb",
+  "rig_source": "blender/creatures/wolf.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\bloodfang.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_bloodfang.blend",
+  "yaw": 293.29138873219017,
+  "bounds": [
+    [
+      -0.4323287308216095,
+      -1.349189043045044,
+      0.0
+    ],
+    [
+      0.4323287308216095,
+      1.0850000381469727,
+      1.440000057220459
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 32048,
+      "after": 14000,
+      "extent_drift": 0.0011607227877903359
+    }
+  ],
+  "bones": 13,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "animation_skin_refinement": {
+    "constrained_limb_vertices": 2132,
+    "removed_bridge_faces": 0,
+    "reason": "Opened run views revealed lower-limb sheets from floor geometry and mixed limb influence."
+  }
+}

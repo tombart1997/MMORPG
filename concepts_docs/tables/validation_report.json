@@ -1,13 +1,13 @@
 {
-  "checked_on": "2026-10-03",
-  "checks_passed": 21302,
-  "topic_sheets": 16,
+  "checked_on": "2026-10-04",
+  "checks_passed": 21722,
+  "topic_sheets": 17,
   "concept_plates": 12,
   "unique_mobs": 37,
   "mob_item_drops": 151,
   "smithing_rows": 45,
   "class_skill_designs": 48,
-  "workbook_tabs": 28,
+  "workbook_tabs": 29,
   "result": "PASS",
   "scope": "Documentation consistency and numerical rules; no gameplay changes or runtime tests claimed."
 }

@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_grey_wolf",
+      "before": 13912,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11996,
+      "quality": {
+        "surface_max_fraction": 0.0018823169182697168,
+        "surface_p95_fraction": 0.00022363041216049884,
+        "bounds_drift_fraction": 0.00037121194510444943,
+        "nonmanifold_edges": 0,
+        "samples": 6245
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.0028704618589625768,
+          "p95_fraction": 0.00022929028688893613
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.0062015566294635,
+          "p95_fraction": 0.00023124524351259468
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.0027350181157188196,
+          "p95_fraction": 0.00023022790534550495
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.003244570478057879,
+          "p95_fraction": 0.00023266000543345074
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.0020524850308198763,
+          "p95_fraction": 0.00023902089691641492
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

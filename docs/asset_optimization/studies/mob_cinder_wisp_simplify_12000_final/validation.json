@@ -1,0 +1,32 @@
+{
+  "technical_status": "passed",
+  "visual_status": "pending",
+  "errors": [],
+  "warnings": [
+    "71 collapsed UV triangles in geometry_0.003; constant-material surfaces may not use UVs"
+  ],
+  "triangles": 11996,
+  "materials": 1,
+  "textures": [
+    {
+      "name": "Image_0",
+      "mime": "image/png",
+      "embedded": true
+    }
+  ],
+  "skins": 1,
+  "bones": [
+    "Root",
+    "Hips",
+    "Chest",
+    "Head"
+  ],
+  "animations": [
+    "death",
+    "hit",
+    "attack_01",
+    "run",
+    "idle"
+  ],
+  "mesh_objects": 1
+}

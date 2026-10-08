@@ -1,0 +1,176 @@
+{
+  "name": "mob_thicket_wolf_simplify_12000_final",
+  "asset_id": "1fbba8e3d50c",
+  "source_key": "mob_thicket_wolf",
+  "source": "game/assets/forge_rebuild/mobs/thicket_wolf.glb",
+  "source_asset_id": "5b37d6f774cd",
+  "source_sha256": "d4025d664e4af0cf7e7a5c3de0540a839958f13587636108009b07f8ce1ef565",
+  "imported_candidate": "5aa11280a811",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 12000,
+    "optimization_mode": "simplify",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "anatomy_review",
+      "topology_review",
+      "uv_materials",
+      "species_rig_import",
+      "animation_review",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "19d29156ab1c",
+    "asset_id": "1fbba8e3d50c",
+    "operation": "process",
+    "state": "succeeded",
+    "stage": "blender_process",
+    "progress": 100,
+    "created_at": "2026-10-03T19:15:11.059444+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {
+      "files": {
+        "animation_contract.json": "processed/19d29156ab1c/animation_contract.json",
+        "editable.blend": "processed/19d29156ab1c/editable.blend",
+        "inspection_before.json": "processed/19d29156ab1c/inspection_before.json",
+        "optimization.json": "processed/19d29156ab1c/optimization.json",
+        "processing.json": "processed/19d29156ab1c/processing.json",
+        "runtime.glb": "processed/19d29156ab1c/runtime.glb",
+        "source.blend": "processed/19d29156ab1c/source.blend",
+        "source.glb": "processed/19d29156ab1c/source.glb",
+        "validation.json": "processed/19d29156ab1c/validation.json"
+      }
+    },
+    "resumed_from": null,
+    "message": "Complete \u00b7 visual review remains separate",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 12000,
+      "optimization_mode": "simplify",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "anatomy_review",
+        "topology_review",
+        "uv_materials",
+        "species_rig_import",
+        "animation_review",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "5aa11280a811",
+      "path": "imports/eb864aaa1c49.glb",
+      "origin": "imported",
+      "sha256": "d4025d664e4af0cf7e7a5c3de0540a839958f13587636108009b07f8ce1ef565",
+      "created_at": "2026-10-03T19:15:10.993422+00:00",
+      "original_filename": "thicket_wolf.glb",
+      "license": "Optimization study: retained local neural derivative from 5b37d6f774cd; SHA256 d4025d664e4af0cf7e7a5c3de0540a839958f13587636108009b07f8ce1ef565",
+      "cost_credits": 0
+    },
+    "reference": null,
+    "started_at": "2026-10-03T19:15:11.068421+00:00",
+    "elapsed_seconds": 11.7,
+    "finished_at": "2026-10-03T19:15:22.813424+00:00",
+    "duration_seconds": 11.75
+  },
+  "visual_status": "pending",
+  "artifacts": {
+    "animation_contract.json": "processed/19d29156ab1c/animation_contract.json",
+    "editable.blend": "processed/19d29156ab1c/editable.blend",
+    "inspection_before.json": "processed/19d29156ab1c/inspection_before.json",
+    "optimization.json": "processed/19d29156ab1c/optimization.json",
+    "processing.json": "processed/19d29156ab1c/processing.json",
+    "runtime.glb": "processed/19d29156ab1c/runtime.glb",
+    "source.blend": "processed/19d29156ab1c/source.blend",
+    "source.glb": "processed/19d29156ab1c/source.glb",
+    "validation.json": "processed/19d29156ab1c/validation.json"
+  },
+  "review_path": "res://review_assets/optimization/mob_thicket_wolf_simplify_12000_final.glb"
+}

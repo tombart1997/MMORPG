@@ -1,0 +1,5 @@
+{
+	"failures": 0,
+	"scope": "Actual deployed world, collisions, navigation, NPC selection, creature variants, separate equipment and mount composition; visual acceptance separate.",
+	"status": "passed"
+}

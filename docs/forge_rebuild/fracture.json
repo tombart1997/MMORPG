@@ -1,0 +1,32 @@
+{
+  "key": "fracture",
+  "forge_asset_id": "5bda526a30eb",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\5bda526a30eb\\generated\\dfa542125ad6\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\benchmark\\briarwake.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\fracture.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -3.4743947982788086,
+      -3.3471741676330566,
+      -0.1639862358570099
+    ],
+    [
+      3.2110400199890137,
+      3.428018569946289,
+      4.721858024597168
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 38940,
+      "after": 6500,
+      "extent_drift": 0.03316633205488637
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

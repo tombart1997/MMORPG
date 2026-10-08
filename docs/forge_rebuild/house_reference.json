@@ -1,0 +1,32 @@
+{
+  "key": "house_reference",
+  "forge_asset_id": "28ab4ff6501b",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\28ab4ff6501b\\generated\\19b800b96203\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\world\\house.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\house_reference.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      4.300000190734863,
+      3.9000000953674316,
+      4.199999809265137
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 46502,
+      "after": 7998,
+      "extent_drift": 0.007762287279609792
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

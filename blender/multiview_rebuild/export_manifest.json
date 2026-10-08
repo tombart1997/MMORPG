@@ -1,0 +1,560 @@
+{
+  "schema": 1,
+  "models": [
+    {
+      "key": "bay_horse",
+      "source": "blender/multiview_rebuild/rigged/bay_horse.blend",
+      "target": "game/assets/generated/bay_horse.glb"
+    },
+    {
+      "key": "gold_coin",
+      "source": "blender/multiview_rebuild/variants/equipment/gold_coin.blend",
+      "target": "game/assets/generated/equipment/gold_coin.glb"
+    },
+    {
+      "key": "jade_ironback_mantle",
+      "source": "blender/multiview_rebuild/equipment/jade_ironback_mantle.blend",
+      "target": "game/assets/generated/equipment/jade_ironback_mantle.glb"
+    },
+    {
+      "key": "saddle",
+      "source": "blender/multiview_rebuild/equipment/saddle.blend",
+      "target": "game/assets/generated/equipment/saddle.glb"
+    },
+    {
+      "key": "traveler_guard",
+      "source": "blender/multiview_rebuild/equipment/traveler_guard.blend",
+      "target": "game/assets/generated/equipment/traveler_guard.glb"
+    },
+    {
+      "key": "warden_insignia",
+      "source": "blender/multiview_rebuild/equipment/warden_insignia.blend",
+      "target": "game/assets/generated/equipment/warden_insignia.glb"
+    },
+    {
+      "key": "ancient_warden",
+      "source": "blender/multiview_rebuild/variants/mobs/ancient_warden.blend",
+      "target": "game/assets/generated/mobs/ancient_warden.glb"
+    },
+    {
+      "key": "ash_bandit",
+      "source": "blender/multiview_rebuild/variants/mobs/ash_bandit.blend",
+      "target": "game/assets/generated/mobs/ash_bandit.glb"
+    },
+    {
+      "key": "ash_wisp",
+      "source": "blender/multiview_rebuild/variants/mobs/ash_wisp.blend",
+      "target": "game/assets/generated/mobs/ash_wisp.glb"
+    },
+    {
+      "key": "blacktusk",
+      "source": "blender/multiview_rebuild/variants/mobs/blacktusk.blend",
+      "target": "game/assets/generated/mobs/blacktusk.glb"
+    },
+    {
+      "key": "bloodfang",
+      "source": "blender/multiview_rebuild/variants/mobs/bloodfang.blend",
+      "target": "game/assets/generated/mobs/bloodfang.glb"
+    },
+    {
+      "key": "blue_wolf",
+      "source": "blender/multiview_rebuild/variants/mobs/blue_wolf.blend",
+      "target": "game/assets/generated/mobs/blue_wolf.glb"
+    },
+    {
+      "key": "bristle_boar",
+      "source": "blender/multiview_rebuild/variants/mobs/bristle_boar.blend",
+      "target": "game/assets/generated/mobs/bristle_boar.glb"
+    },
+    {
+      "key": "cairn_colossus",
+      "source": "blender/multiview_rebuild/variants/mobs/cairn_colossus.blend",
+      "target": "game/assets/generated/mobs/cairn_colossus.glb"
+    },
+    {
+      "key": "cairn_sentinel",
+      "source": "blender/multiview_rebuild/variants/mobs/cairn_sentinel.blend",
+      "target": "game/assets/generated/mobs/cairn_sentinel.glb"
+    },
+    {
+      "key": "cinder_wisp",
+      "source": "blender/multiview_rebuild/variants/mobs/cinder_wisp.blend",
+      "target": "game/assets/generated/mobs/cinder_wisp.glb"
+    },
+    {
+      "key": "copper_spider",
+      "source": "blender/multiview_rebuild/variants/mobs/copper_spider.blend",
+      "target": "game/assets/generated/mobs/copper_spider.glb"
+    },
+    {
+      "key": "dusk_stalker",
+      "source": "blender/multiview_rebuild/variants/mobs/dusk_stalker.blend",
+      "target": "game/assets/generated/mobs/dusk_stalker.glb"
+    },
+    {
+      "key": "ember_hound",
+      "source": "blender/multiview_rebuild/variants/mobs/ember_hound.blend",
+      "target": "game/assets/generated/mobs/ember_hound.glb"
+    },
+    {
+      "key": "exile_captain",
+      "source": "blender/multiview_rebuild/variants/mobs/exile_captain.blend",
+      "target": "game/assets/generated/mobs/exile_captain.glb"
+    },
+    {
+      "key": "frost_wolf",
+      "source": "blender/multiview_rebuild/variants/mobs/frost_wolf.blend",
+      "target": "game/assets/generated/mobs/frost_wolf.glb"
+    },
+    {
+      "key": "glass_spider",
+      "source": "blender/multiview_rebuild/variants/mobs/glass_spider.blend",
+      "target": "game/assets/generated/mobs/glass_spider.glb"
+    },
+    {
+      "key": "grave_wisp",
+      "source": "blender/multiview_rebuild/variants/mobs/grave_wisp.blend",
+      "target": "game/assets/generated/mobs/grave_wisp.glb"
+    },
+    {
+      "key": "grey_wolf",
+      "source": "blender/multiview_rebuild/variants/mobs/grey_wolf.blend",
+      "target": "game/assets/generated/mobs/grey_wolf.glb"
+    },
+    {
+      "key": "grown",
+      "source": "blender/multiview_rebuild/variants/mobs/grown.blend",
+      "target": "game/assets/generated/mobs/grown.glb"
+    },
+    {
+      "key": "hollow_raider",
+      "source": "blender/multiview_rebuild/variants/mobs/hollow_raider.blend",
+      "target": "game/assets/generated/mobs/hollow_raider.glb"
+    },
+    {
+      "key": "ironback",
+      "source": "blender/multiview_rebuild/variants/mobs/ironback.blend",
+      "target": "game/assets/generated/mobs/ironback.glb"
+    },
+    {
+      "key": "ironhide_boar",
+      "source": "blender/multiview_rebuild/variants/mobs/ironhide_boar.blend",
+      "target": "game/assets/generated/mobs/ironhide_boar.glb"
+    },
+    {
+      "key": "meadow_wolf",
+      "source": "blender/multiview_rebuild/variants/mobs/meadow_wolf.blend",
+      "target": "game/assets/generated/mobs/meadow_wolf.glb"
+    },
+    {
+      "key": "mire_boar",
+      "source": "blender/multiview_rebuild/variants/mobs/mire_boar.blend",
+      "target": "game/assets/generated/mobs/mire_boar.glb"
+    },
+    {
+      "key": "moonfang",
+      "source": "blender/multiview_rebuild/variants/mobs/moonfang.blend",
+      "target": "game/assets/generated/mobs/moonfang.glb"
+    },
+    {
+      "key": "obsidian_boar",
+      "source": "blender/multiview_rebuild/variants/mobs/obsidian_boar.blend",
+      "target": "game/assets/generated/mobs/obsidian_boar.glb"
+    },
+    {
+      "key": "red_wolf",
+      "source": "blender/multiview_rebuild/variants/mobs/red_wolf.blend",
+      "target": "game/assets/generated/mobs/red_wolf.glb"
+    },
+    {
+      "key": "reed_spider",
+      "source": "blender/multiview_rebuild/variants/mobs/reed_spider.blend",
+      "target": "game/assets/generated/mobs/reed_spider.glb"
+    },
+    {
+      "key": "rift_sentinel",
+      "source": "blender/multiview_rebuild/variants/mobs/rift_sentinel.blend",
+      "target": "game/assets/generated/mobs/rift_sentinel.glb"
+    },
+    {
+      "key": "road_bandit",
+      "source": "blender/multiview_rebuild/variants/mobs/road_bandit.blend",
+      "target": "game/assets/generated/mobs/road_bandit.glb"
+    },
+    {
+      "key": "silk_matron",
+      "source": "blender/multiview_rebuild/variants/mobs/silk_matron.blend",
+      "target": "game/assets/generated/mobs/silk_matron.glb"
+    },
+    {
+      "key": "slate_guardian",
+      "source": "blender/multiview_rebuild/variants/mobs/slate_guardian.blend",
+      "target": "game/assets/generated/mobs/slate_guardian.glb"
+    },
+    {
+      "key": "storm_wisp",
+      "source": "blender/multiview_rebuild/variants/mobs/storm_wisp.blend",
+      "target": "game/assets/generated/mobs/storm_wisp.glb"
+    },
+    {
+      "key": "thicket_wolf",
+      "source": "blender/multiview_rebuild/variants/mobs/thicket_wolf.blend",
+      "target": "game/assets/generated/mobs/thicket_wolf.glb"
+    },
+    {
+      "key": "venom_spider",
+      "source": "blender/multiview_rebuild/variants/mobs/venom_spider.blend",
+      "target": "game/assets/generated/mobs/venom_spider.glb"
+    },
+    {
+      "key": "widow_spider",
+      "source": "blender/multiview_rebuild/variants/mobs/widow_spider.blend",
+      "target": "game/assets/generated/mobs/widow_spider.glb"
+    },
+    {
+      "key": "young",
+      "source": "blender/multiview_rebuild/variants/mobs/young.blend",
+      "target": "game/assets/generated/mobs/young.glb"
+    },
+    {
+      "key": "apothecary",
+      "source": "blender/multiview_rebuild/variants/npcs/apothecary.blend",
+      "target": "game/assets/generated/npcs/apothecary.glb"
+    },
+    {
+      "key": "armorer",
+      "source": "blender/multiview_rebuild/variants/npcs/armorer.blend",
+      "target": "game/assets/generated/npcs/armorer.glb"
+    },
+    {
+      "key": "artificer",
+      "source": "blender/multiview_rebuild/variants/npcs/artificer.blend",
+      "target": "game/assets/generated/npcs/artificer.glb"
+    },
+    {
+      "key": "ash_scout",
+      "source": "blender/multiview_rebuild/variants/npcs/ash_scout.blend",
+      "target": "game/assets/generated/npcs/ash_scout.glb"
+    },
+    {
+      "key": "keeper",
+      "source": "blender/multiview_rebuild/variants/npcs/keeper.blend",
+      "target": "game/assets/generated/npcs/keeper.glb"
+    },
+    {
+      "key": "mara",
+      "source": "blender/multiview_rebuild/variants/npcs/mara.blend",
+      "target": "game/assets/generated/npcs/mara.glb"
+    },
+    {
+      "key": "smith",
+      "source": "blender/multiview_rebuild/variants/npcs/smith.blend",
+      "target": "game/assets/generated/npcs/smith.glb"
+    },
+    {
+      "key": "stablemaster",
+      "source": "blender/multiview_rebuild/variants/npcs/stablemaster.blend",
+      "target": "game/assets/generated/npcs/stablemaster.glb"
+    },
+    {
+      "key": "warden",
+      "source": "blender/multiview_rebuild/variants/npcs/warden.blend",
+      "target": "game/assets/generated/npcs/warden.glb"
+    },
+    {
+      "key": "weapons",
+      "source": "blender/multiview_rebuild/variants/npcs/weapons.blend",
+      "target": "game/assets/generated/npcs/weapons.glb"
+    },
+    {
+      "key": "warrior",
+      "source": "blender/multiview_rebuild/rigged/warrior.blend",
+      "target": "game/assets/generated/warrior.glb"
+    },
+    {
+      "key": "briarsteel",
+      "source": "blender/multiview_rebuild/equipment/briarsteel.blend",
+      "target": "game/assets/generated/weapons/briarsteel.glb"
+    },
+    {
+      "key": "cairnwarden",
+      "source": "blender/multiview_rebuild/equipment/cairnwarden.blend",
+      "target": "game/assets/generated/weapons/cairnwarden.glb"
+    },
+    {
+      "key": "ember",
+      "source": "blender/multiview_rebuild/equipment/ember.blend",
+      "target": "game/assets/generated/weapons/ember.glb"
+    },
+    {
+      "key": "frontier",
+      "source": "blender/multiview_rebuild/equipment/frontier.blend",
+      "target": "game/assets/generated/weapons/frontier.glb"
+    },
+    {
+      "key": "glass",
+      "source": "blender/multiview_rebuild/equipment/glass.blend",
+      "target": "game/assets/generated/weapons/glass.glb"
+    },
+    {
+      "key": "jade",
+      "source": "blender/multiview_rebuild/equipment/jade.blend",
+      "target": "game/assets/generated/weapons/jade.glb"
+    },
+    {
+      "key": "marchguard",
+      "source": "blender/multiview_rebuild/equipment/marchguard.blend",
+      "target": "game/assets/generated/weapons/marchguard.glb"
+    },
+    {
+      "key": "relic",
+      "source": "blender/multiview_rebuild/equipment/relic.blend",
+      "target": "game/assets/generated/weapons/relic.glb"
+    },
+    {
+      "key": "rift",
+      "source": "blender/multiview_rebuild/equipment/rift.blend",
+      "target": "game/assets/generated/weapons/rift.glb"
+    },
+    {
+      "key": "wakecleaver",
+      "source": "blender/multiview_rebuild/equipment/wakecleaver.blend",
+      "target": "game/assets/generated/weapons/wakecleaver.glb"
+    },
+    {
+      "key": "wayfarer",
+      "source": "blender/multiview_rebuild/equipment/wayfarer.blend",
+      "target": "game/assets/generated/weapons/wayfarer.glb"
+    },
+    {
+      "key": "anvil",
+      "source": "blender/multiview_rebuild/variants/world/anvil.blend",
+      "target": "game/assets/generated/world/anvil.glb"
+    },
+    {
+      "key": "banner",
+      "source": "blender/multiview_rebuild/variants/world/banner.blend",
+      "target": "game/assets/generated/world/banner.glb"
+    },
+    {
+      "key": "bones",
+      "source": "blender/multiview_rebuild/variants/world/bones.blend",
+      "target": "game/assets/generated/world/bones.glb"
+    },
+    {
+      "key": "bridge",
+      "source": "blender/multiview_rebuild/variants/world/bridge.blend",
+      "target": "game/assets/generated/world/bridge.glb"
+    },
+    {
+      "key": "cliff",
+      "source": "blender/multiview_rebuild/variants/world/cliff.blend",
+      "target": "game/assets/generated/world/cliff.glb"
+    },
+    {
+      "key": "cliff1",
+      "source": "blender/multiview_rebuild/variants/world/cliff1.blend",
+      "target": "game/assets/generated/world/cliff1.glb"
+    },
+    {
+      "key": "crate",
+      "source": "blender/multiview_rebuild/variants/world/crate.blend",
+      "target": "game/assets/generated/world/crate.glb"
+    },
+    {
+      "key": "dead_tree",
+      "source": "blender/multiview_rebuild/variants/world/dead_tree.blend",
+      "target": "game/assets/generated/world/dead_tree.glb"
+    },
+    {
+      "key": "eggs",
+      "source": "blender/multiview_rebuild/variants/world/eggs.blend",
+      "target": "game/assets/generated/world/eggs.glb"
+    },
+    {
+      "key": "fallen_wood",
+      "source": "blender/multiview_rebuild/variants/world/fallen_wood.blend",
+      "target": "game/assets/generated/world/fallen_wood.glb"
+    },
+    {
+      "key": "fence",
+      "source": "blender/multiview_rebuild/variants/world/fence.blend",
+      "target": "game/assets/generated/world/fence.glb"
+    },
+    {
+      "key": "fern",
+      "source": "blender/multiview_rebuild/variants/world/fern.blend",
+      "target": "game/assets/generated/world/fern.glb"
+    },
+    {
+      "key": "fire",
+      "source": "blender/multiview_rebuild/variants/world/fire.blend",
+      "target": "game/assets/generated/world/fire.glb"
+    },
+    {
+      "key": "flowers",
+      "source": "blender/multiview_rebuild/variants/world/flowers.blend",
+      "target": "game/assets/generated/world/flowers.glb"
+    },
+    {
+      "key": "fracture",
+      "source": "blender/multiview_rebuild/variants/world/fracture.blend",
+      "target": "game/assets/generated/world/fracture.glb"
+    },
+    {
+      "key": "gate",
+      "source": "blender/multiview_rebuild/variants/world/gate.blend",
+      "target": "game/assets/generated/world/gate.glb"
+    },
+    {
+      "key": "grass",
+      "source": "blender/multiview_rebuild/variants/world/grass.blend",
+      "target": "game/assets/generated/world/grass.glb"
+    },
+    {
+      "key": "house",
+      "source": "blender/multiview_rebuild/variants/world/house.blend",
+      "target": "game/assets/generated/world/house.glb"
+    },
+    {
+      "key": "leaf_litter",
+      "source": "blender/multiview_rebuild/variants/world/leaf_litter.blend",
+      "target": "game/assets/generated/world/leaf_litter.glb"
+    },
+    {
+      "key": "log",
+      "source": "blender/multiview_rebuild/variants/world/log.blend",
+      "target": "game/assets/generated/world/log.glb"
+    },
+    {
+      "key": "market_stall",
+      "source": "blender/multiview_rebuild/variants/world/market_stall.blend",
+      "target": "game/assets/generated/world/market_stall.glb"
+    },
+    {
+      "key": "mushroom",
+      "source": "blender/multiview_rebuild/variants/world/mushroom.blend",
+      "target": "game/assets/generated/world/mushroom.glb"
+    },
+    {
+      "key": "pouch",
+      "source": "blender/multiview_rebuild/variants/world/pouch.blend",
+      "target": "game/assets/generated/world/pouch.glb"
+    },
+    {
+      "key": "rock0",
+      "source": "blender/multiview_rebuild/variants/world/rock0.blend",
+      "target": "game/assets/generated/world/rock0.glb"
+    },
+    {
+      "key": "rock1",
+      "source": "blender/multiview_rebuild/variants/world/rock1.blend",
+      "target": "game/assets/generated/world/rock1.glb"
+    },
+    {
+      "key": "rock2",
+      "source": "blender/multiview_rebuild/variants/world/rock2.blend",
+      "target": "game/assets/generated/world/rock2.glb"
+    },
+    {
+      "key": "rock_0",
+      "source": "blender/multiview_rebuild/variants/world/rock_0.blend",
+      "target": "game/assets/generated/world/rock_0.glb"
+    },
+    {
+      "key": "rock_1",
+      "source": "blender/multiview_rebuild/variants/world/rock_1.blend",
+      "target": "game/assets/generated/world/rock_1.glb"
+    },
+    {
+      "key": "rock_2",
+      "source": "blender/multiview_rebuild/variants/world/rock_2.blend",
+      "target": "game/assets/generated/world/rock_2.glb"
+    },
+    {
+      "key": "ruin",
+      "source": "blender/multiview_rebuild/variants/world/ruin.blend",
+      "target": "game/assets/generated/world/ruin.glb"
+    },
+    {
+      "key": "ruin_arch",
+      "source": "blender/multiview_rebuild/variants/world/ruin_arch.blend",
+      "target": "game/assets/generated/world/ruin_arch.glb"
+    },
+    {
+      "key": "sedge",
+      "source": "blender/multiview_rebuild/variants/world/sedge.blend",
+      "target": "game/assets/generated/world/sedge.glb"
+    },
+    {
+      "key": "shrine",
+      "source": "blender/multiview_rebuild/variants/world/shrine.blend",
+      "target": "game/assets/generated/world/shrine.glb"
+    },
+    {
+      "key": "shrub",
+      "source": "blender/multiview_rebuild/variants/world/shrub.blend",
+      "target": "game/assets/generated/world/shrub.glb"
+    },
+    {
+      "key": "shrub_briar",
+      "source": "blender/multiview_rebuild/variants/world/shrub_briar.blend",
+      "target": "game/assets/generated/world/shrub_briar.glb"
+    },
+    {
+      "key": "shrub_laurel",
+      "source": "blender/multiview_rebuild/variants/world/shrub_laurel.blend",
+      "target": "game/assets/generated/world/shrub_laurel.glb"
+    },
+    {
+      "key": "tent",
+      "source": "blender/multiview_rebuild/variants/world/tent.blend",
+      "target": "game/assets/generated/world/tent.glb"
+    },
+    {
+      "key": "tree0",
+      "source": "blender/multiview_rebuild/variants/world/tree0.blend",
+      "target": "game/assets/generated/world/tree0.glb"
+    },
+    {
+      "key": "tree1",
+      "source": "blender/multiview_rebuild/variants/world/tree1.blend",
+      "target": "game/assets/generated/world/tree1.glb"
+    },
+    {
+      "key": "tree2",
+      "source": "blender/multiview_rebuild/variants/world/tree2.blend",
+      "target": "game/assets/generated/world/tree2.glb"
+    },
+    {
+      "key": "tree_bent",
+      "source": "blender/multiview_rebuild/variants/world/tree_bent.blend",
+      "target": "game/assets/generated/world/tree_bent.glb"
+    },
+    {
+      "key": "tree_fork",
+      "source": "blender/multiview_rebuild/variants/world/tree_fork.blend",
+      "target": "game/assets/generated/world/tree_fork.glb"
+    },
+    {
+      "key": "tree_wide",
+      "source": "blender/multiview_rebuild/variants/world/tree_wide.blend",
+      "target": "game/assets/generated/world/tree_wide.glb"
+    },
+    {
+      "key": "watchtower",
+      "source": "blender/multiview_rebuild/variants/world/watchtower.blend",
+      "target": "game/assets/generated/world/watchtower.glb"
+    },
+    {
+      "key": "web",
+      "source": "blender/multiview_rebuild/variants/world/web.blend",
+      "target": "game/assets/generated/world/web.glb"
+    },
+    {
+      "key": "well",
+      "source": "blender/multiview_rebuild/variants/world/well.blend",
+      "target": "game/assets/generated/world/well.glb"
+    }
+  ]
+}

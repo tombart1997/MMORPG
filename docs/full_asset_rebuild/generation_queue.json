@@ -1,0 +1,50 @@
+{
+  "warrior": {
+    "asset_id": "81a65d2d77f1",
+    "job_id": "05a3ecf754d5",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\81a65d2d77f1\\generated\\05a3ecf754d5\\source.glb"
+  },
+  "meadow_wolf": {
+    "asset_id": "30bc65e5aff1",
+    "job_id": "2c01f5c415f9",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\30bc65e5aff1\\generated\\2c01f5c415f9\\source.glb"
+  },
+  "watchtower": {
+    "asset_id": "8af3d45eaca9",
+    "job_id": "56b9fed9eae5",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\8af3d45eaca9\\generated\\56b9fed9eae5\\source.glb"
+  },
+  "fern": {
+    "asset_id": "234a200b7ba4",
+    "job_id": "5dd822ea4df4",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\234a200b7ba4\\generated\\5dd822ea4df4\\source.glb"
+  },
+  "reed_spider": {
+    "asset_id": "676305c94d3e",
+    "job_id": "76aa6d4fc8e4",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\676305c94d3e\\generated\\76aa6d4fc8e4\\source.glb"
+  },
+  "blacksmith": {
+    "asset_id": "dd398b62cd83",
+    "job_id": "3e1232c49e7a",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\dd398b62cd83\\generated\\3e1232c49e7a\\source.glb"
+  }
+}

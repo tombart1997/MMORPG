@@ -36,7 +36,18 @@ func weapon_clip(clip: StringName) -> StringName:
 
 func apply_variant(data: EnemyData) -> void:
 	creature = true
-	CreatureMaterials.apply(model,data,get_parent().get_index())
+	var reconstructed := ForgeModelCatalogue.scene_for("mobs",data.id)
+	var fallback:=ReviewedModels.is_fallback("res://assets/generated/mobs/%s.glb"%data.id)
+	if reconstructed:
+		for child in [model,label,trail]:
+			if is_instance_valid(child):remove_child(child);child.queue_free()
+		sockets.clear();previous_key=""
+		profile=profile.duplicate() as CharacterVisualProfile
+		profile.model=reconstructed;profile.creature=true;profile.preserve_authored_materials=true
+		# Reconstructed bandits have empty hands; equipment remains separate.
+		_ready()
+		if fallback:CreatureMaterials.apply(model,data,get_parent().get_index())
+	else:CreatureMaterials.apply(model,data,get_parent().get_index())
 	if data.id == &"young":
 		# Fresh saplings have a rounder head and shorter, lighter body than adult guardians.
 		skeleton.set_bone_pose_scale(skeleton.find_bone("Head"),Vector3.ONE*1.12)
@@ -45,14 +56,14 @@ func apply_variant(data: EnemyData) -> void:
 func _ready() -> void:
 	assert(profile != null and profile.model != null, "Visual profile must provide an imported model")
 	creature = profile.creature
-	model = profile.model.instantiate() as Node3D
+	model = ReviewedModels.resolve(profile.model).instantiate() as Node3D
 	add_child(model)
 	if is_instance_valid(contact_shadow): contact_shadow.queue_free()
 	if contact_mesh == null:
 		contact_mesh = PlaneMesh.new()
 		contact_mesh.size = Vector2(1.35,1.35)
 		var shadow_material := ShaderMaterial.new()
-		shadow_material.shader = load("res://assets/world_kit/contact_shadow.gdshader")
+		shadow_material.shader = load("res://assets/shaders/contact_shadow.gdshader")
 		contact_mesh.material = shadow_material
 	contact_shadow = MeshInstance3D.new()
 	contact_shadow.mesh = contact_mesh
@@ -62,8 +73,7 @@ func _ready() -> void:
 	contact_shadow.set_meta("contact_shadow",true)
 	contact_shadow.visible = get_parent() is ActorBody
 	add_child(contact_shadow)
-	# Preserve the authored forged surfaces of the hero; older humanoids use painted tiles.
-	if not creature and not profile.preserve_authored_materials: HumanoidPaint.apply(model)
+	# Reconstructed bodies retain their own baked materials.
 	var rigs := model.find_children("*", "Skeleton3D", true, false)
 	var players := model.find_children("*", "AnimationPlayer", true, false)
 	assert(rigs.size() == 1 and players.size() == 1, "Expected one imported rig and AnimationPlayer")
@@ -123,7 +133,7 @@ func equip_visual(slot: StringName, scene: PackedScene) -> void:
 		socket.remove_child(previous)
 		previous.queue_free()
 	if scene:
-		var equipment := scene.instantiate()
+		var equipment := ReviewedModels.resolve(scene).instantiate()
 		equipment.name = "Equipment"
 		socket.add_child(equipment)
 	if slot == &"WeaponSocket":
@@ -385,7 +395,9 @@ func _mounted_cut(combat: MeleeCombat) -> void:
 	var weight := enter*(1.0-leave)
 	var circle := clampf((t-.18)/.64,0.0,1.0)*TAU
 	_sample(&"idle", 0)
-	_rider_bone("Hips",Vector3(.035*weight,-side*.20*weight,-side*.10*weight))
+	# Give the reconstructed rider a visible pelvis turn through each mounted
+	# cut; the final leg and rein solvers retain their physical anchors.
+	_rider_bone("Hips",Vector3(.04*weight,-side*.26*weight,-side*.13*weight))
 	_rider_bone("Spine",Vector3(.055*weight,-side*.22*weight,-side*.12*weight))
 	_rider_bone("Chest",Vector3(.10*weight,-side*.37*weight,-side*.12*weight))
 	_rider_bone("Head",Vector3(-.07*weight,side*.48*weight,0))
@@ -440,7 +452,6 @@ func apply_class_tint(identity: String) -> void:
 		if mesh.mesh == null: continue
 		for surface in mesh.mesh.get_surface_count():
 			var source := mesh.mesh.surface_get_material(surface) as StandardMaterial3D
-			if source and not creature and model.is_ancestor_of(mesh) and not profile.preserve_authored_materials: source=HumanoidPaint.surface(source)
 			if source:
 				var material := source.duplicate() as StandardMaterial3D
 				var name_value := String(source.resource_name)

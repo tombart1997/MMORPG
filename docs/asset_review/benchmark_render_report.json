@@ -1,0 +1,96 @@
+{
+	"assets": [
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 20m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.429266601800919,
+					-0.00139187893364578,
+					-1.08684909343719
+				],
+				[
+					0.863283932209015,
+					1.43930780887604,
+					2.43548536300659
+				]
+			],
+			"key": "mob_meadow_wolf",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\mob_meadow_wolf\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/meadow_wolf.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 20m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.432638496160507,
+					-0.000225354393478483,
+					-1.14144885540009
+				],
+				[
+					0.868955850601196,
+					1.36242234706879,
+					2.41610527038574
+				]
+			],
+			"key": "mob_ironhide_boar",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\mob_ironhide_boar\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/ironhide_boar.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 20m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.56395423412323,
+					-0.0042819338850677,
+					-0.664630174636841
+				],
+				[
+					1.06881999969482,
+					0.575696170330048,
+					1.3625373840332
+				]
+			],
+			"key": "fern_reference",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\fern_reference\\before.png",
+			"path": "res://assets/world_kit/fern.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 20m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-2.28495788574219,
+					-0.0259989388287067,
+					-2.19844889640808
+				],
+				[
+					4.59848690032959,
+					8.13609409332275,
+					4.39388942718506
+				]
+			],
+			"key": "watchtower",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\watchtower\\before.png",
+			"path": "res://assets/world_kit/watchtower.glb",
+			"status": "rendered_requires_visual_review"
+		}
+	]
+}

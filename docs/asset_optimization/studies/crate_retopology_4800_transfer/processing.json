@@ -1,0 +1,210 @@
+{
+  "before": {
+    "objects": [
+      {
+        "name": "Forge_crate",
+        "vertices": 875,
+        "triangles": 1194,
+        "materials": 1,
+        "degenerate_faces": 0,
+        "boundary_edges": 488,
+        "nonmanifold_edges": 0,
+        "loose_vertices": 0,
+        "has_uv": true,
+        "collapsed_uv_triangles": 0,
+        "skinned": false,
+        "unweighted_vertices": 0
+      }
+    ],
+    "triangles": 1194,
+    "textures": [
+      {
+        "name": "Forge_crate_RuntimeAtlas",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "available": true
+      }
+    ],
+    "bounds": {
+      "min": [
+        0.0023775261361151934,
+        0.0039488947950303555,
+        0.0022852206602692604
+      ],
+      "max": [
+        0.8463732600212097,
+        0.7524546384811401,
+        0.7984619736671448
+      ]
+    },
+    "armatures": [],
+    "actions": [],
+    "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+    "unverified": [
+      "UV overlap beyond collapsed triangles",
+      "Internal occluded geometry",
+      "Baked lighting",
+      "Joint clipping",
+      "Reference fidelity"
+    ]
+  },
+  "after": {
+    "objects": [
+      {
+        "name": "Forge_crate",
+        "vertices": 875,
+        "triangles": 1194,
+        "materials": 1,
+        "degenerate_faces": 0,
+        "boundary_edges": 488,
+        "nonmanifold_edges": 0,
+        "loose_vertices": 0,
+        "has_uv": true,
+        "collapsed_uv_triangles": 0,
+        "skinned": false,
+        "unweighted_vertices": 0
+      }
+    ],
+    "triangles": 1194,
+    "textures": [
+      {
+        "name": "Forge_crate_RuntimeAtlas",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "available": true
+      }
+    ],
+    "bounds": {
+      "min": [
+        0.0023775261361151934,
+        0.0039488947950303555,
+        0.0022852206602692604
+      ],
+      "max": [
+        0.8463732600212097,
+        0.7524546384811401,
+        0.7984619736671448
+      ]
+    },
+    "armatures": [],
+    "actions": [],
+    "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+    "unverified": [
+      "UV overlap beyond collapsed triangles",
+      "Internal occluded geometry",
+      "Baked lighting",
+      "Joint clipping",
+      "Reference fidelity"
+    ]
+  },
+  "lods": [],
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 4800,
+    "optimization_mode": "retopology",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [
+      0.6,
+      0.3
+    ],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "geometry",
+      "uv_materials",
+      "optimization_review",
+      "collision",
+      "export",
+      "godot"
+    ]
+  },
+  "optimization": {
+    "mode": "retopology",
+    "source_preserved": true,
+    "objects": [
+      {
+        "name": "Forge_crate",
+        "before": 1194,
+        "target": 4800,
+        "status": "optimized",
+        "remeshed_quads": 1978,
+        "method": "simplify",
+        "after": 1194,
+        "quality": {
+          "surface_max_fraction": 0.0,
+          "surface_p95_fraction": 0.0,
+          "bounds_drift_fraction": 0.0,
+          "nonmanifold_edges": 0,
+          "samples": 1762
+        },
+        "textures": [],
+        "material_transfer": "preserved_source_uvs_and_materials",
+        "deformation": [],
+        "rejected_attempts": [
+          {
+            "method": "quad_remesh",
+            "reason": "Surface quality guard rejected the reduction: {'surface_max_fraction': 0.047909046172512175, 'surface_p95_fraction': 0.0038468089262984873, 'bounds_drift_fraction': 0.0031038312281544463, 'nonmanifold_edges': 0, 'samples': 2867}"
+          }
+        ]
+      }
+    ],
+    "target_triangles": 4800,
+    "achieved_triangles": 1194,
+    "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+  },
+  "triangle_budget": 4800,
+  "achieved_triangles": 1194,
+  "budget_status": "within_target",
+  "processing_seconds": 2.427,
+  "blender_version": "5.2.2 LTS",
+  "visual_status": "pending",
+  "collision": "none",
+  "notes": [
+    "Source preserved; selected optimization mode and quality-guard results recorded in optimization.json",
+    "Existing skeleton and animation tracks preserved; no autorig invented"
+  ]
+}

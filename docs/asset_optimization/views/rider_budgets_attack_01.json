@@ -1,0 +1,15 @@
+{
+  "assets": [
+    {
+      "name": "Rider / 41,998 source",
+      "path": "res://assets/characters/warden_high.glb"
+    },
+    {
+      "name": "Rider / 29,994 triangles",
+      "path": "res://review_assets/optimization/hero_ironvow_balanced_30000_final.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\views\\rider_budgets_attack_01.png",
+  "clip": "attack_01",
+  "time": 0.4
+}

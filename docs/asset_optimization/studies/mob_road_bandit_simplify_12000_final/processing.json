@@ -1,0 +1,343 @@
+{
+  "before": {
+    "objects": [
+      {
+        "name": "Forge_mob_road_bandit",
+        "vertices": 13739,
+        "triangles": 13682,
+        "materials": 1,
+        "degenerate_faces": 0,
+        "boundary_edges": 11710,
+        "nonmanifold_edges": 0,
+        "loose_vertices": 0,
+        "has_uv": true,
+        "collapsed_uv_triangles": 0,
+        "skinned": true,
+        "unweighted_vertices": 0
+      }
+    ],
+    "triangles": 13682,
+    "textures": [
+      {
+        "name": "Forge_mob_road_bandit_RuntimeAtlas",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "available": true
+      }
+    ],
+    "bounds": {
+      "min": [
+        -0.46863818168640137,
+        -0.21361824870109558,
+        0.011119715869426727
+      ],
+      "max": [
+        0.4759558141231537,
+        0.4035046696662903,
+        1.9003671407699585
+      ]
+    },
+    "armatures": [
+      {
+        "name": "WardenRig",
+        "bones": 18
+      }
+    ],
+    "actions": [
+      "attack_01",
+      "attack_02",
+      "attack_03",
+      "death",
+      "hit",
+      "idle",
+      "longsword_01",
+      "longsword_02",
+      "longsword_03",
+      "longsword_idle",
+      "longsword_run",
+      "run",
+      "skill_guard",
+      "skill_plant",
+      "skill_riposte",
+      "skill_step"
+    ],
+    "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+    "unverified": [
+      "UV overlap beyond collapsed triangles",
+      "Internal occluded geometry",
+      "Baked lighting",
+      "Joint clipping",
+      "Reference fidelity"
+    ]
+  },
+  "after": {
+    "objects": [
+      {
+        "name": "Forge_mob_road_bandit",
+        "vertices": 12738,
+        "triangles": 11996,
+        "materials": 1,
+        "degenerate_faces": 0,
+        "boundary_edges": 11382,
+        "nonmanifold_edges": 0,
+        "loose_vertices": 0,
+        "has_uv": true,
+        "collapsed_uv_triangles": 0,
+        "skinned": true,
+        "unweighted_vertices": 0
+      }
+    ],
+    "triangles": 11996,
+    "textures": [
+      {
+        "name": "Forge_mob_road_bandit_RuntimeAtlas",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "available": true
+      }
+    ],
+    "bounds": {
+      "min": [
+        -0.46863818168640137,
+        -0.21372637152671814,
+        0.010262979194521904
+      ],
+      "max": [
+        0.4759558141231537,
+        0.4035046696662903,
+        1.9003671407699585
+      ]
+    },
+    "armatures": [
+      {
+        "name": "WardenRig",
+        "bones": 18
+      }
+    ],
+    "actions": [
+      "attack_01",
+      "attack_02",
+      "attack_03",
+      "death",
+      "hit",
+      "idle",
+      "longsword_01",
+      "longsword_02",
+      "longsword_03",
+      "longsword_idle",
+      "longsword_run",
+      "run",
+      "skill_guard",
+      "skill_plant",
+      "skill_riposte",
+      "skill_step"
+    ],
+    "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+    "unverified": [
+      "UV overlap beyond collapsed triangles",
+      "Internal occluded geometry",
+      "Baked lighting",
+      "Joint clipping",
+      "Reference fidelity"
+    ]
+  },
+  "lods": [],
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 12000,
+    "optimization_mode": "simplify",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "topology_review",
+      "uv_materials",
+      "rig_import",
+      "deformation_review",
+      "optimization_review",
+      "export",
+      "godot"
+    ]
+  },
+  "optimization": {
+    "mode": "simplify",
+    "source_preserved": true,
+    "objects": [
+      {
+        "name": "Forge_mob_road_bandit",
+        "before": 13682,
+        "target": 12000,
+        "status": "optimized",
+        "method": "simplify",
+        "after": 11996,
+        "quality": {
+          "surface_max_fraction": 0.0008721964950182501,
+          "surface_p95_fraction": 0.00011360308526870734,
+          "bounds_drift_fraction": 0.00039651547577262833,
+          "nonmanifold_edges": 0,
+          "samples": 6632
+        },
+        "textures": [],
+        "material_transfer": "preserved_source_uvs_and_materials",
+        "deformation": [
+          {
+            "clip": "longsword_run",
+            "samples": 3,
+            "max_fraction": 0.007851148775546605,
+            "p95_fraction": 0.00012884329728182916
+          },
+          {
+            "clip": "longsword_03",
+            "samples": 3,
+            "max_fraction": 0.00871284694848581,
+            "p95_fraction": 0.000134405328423789
+          },
+          {
+            "clip": "attack_03",
+            "samples": 3,
+            "max_fraction": 0.007158614961510973,
+            "p95_fraction": 0.00013079635804072272
+          },
+          {
+            "clip": "longsword_02",
+            "samples": 3,
+            "max_fraction": 0.008079704347270058,
+            "p95_fraction": 0.0001295304465790325
+          },
+          {
+            "clip": "attack_02",
+            "samples": 3,
+            "max_fraction": 0.007297732140439583,
+            "p95_fraction": 0.00012686286719372906
+          },
+          {
+            "clip": "longsword_01",
+            "samples": 3,
+            "max_fraction": 0.008488992112037038,
+            "p95_fraction": 0.00013137486273819078
+          },
+          {
+            "clip": "attack_01",
+            "samples": 3,
+            "max_fraction": 0.006920300743370902,
+            "p95_fraction": 0.00013008249306944484
+          },
+          {
+            "clip": "longsword_idle",
+            "samples": 3,
+            "max_fraction": 0.007910434376443723,
+            "p95_fraction": 0.00012443026068714597
+          },
+          {
+            "clip": "idle",
+            "samples": 3,
+            "max_fraction": 0.006206213231871942,
+            "p95_fraction": 0.00012265146523254491
+          },
+          {
+            "clip": "skill_riposte",
+            "samples": 3,
+            "max_fraction": 0.007136009628083174,
+            "p95_fraction": 0.00011994020201000667
+          },
+          {
+            "clip": "skill_plant",
+            "samples": 3,
+            "max_fraction": 0.007929987453955352,
+            "p95_fraction": 0.00012127645878497047
+          },
+          {
+            "clip": "skill_step",
+            "samples": 3,
+            "max_fraction": 0.007914826806088454,
+            "p95_fraction": 0.0001236072333447832
+          },
+          {
+            "clip": "skill_guard",
+            "samples": 3,
+            "max_fraction": 0.0070018852756861625,
+            "p95_fraction": 0.00011963771369422193
+          },
+          {
+            "clip": "death",
+            "samples": 3,
+            "max_fraction": 0.004760115951573294,
+            "p95_fraction": 0.00011259590575422141
+          },
+          {
+            "clip": "hit",
+            "samples": 3,
+            "max_fraction": 0.005122242677613951,
+            "p95_fraction": 0.00012309456423216235
+          },
+          {
+            "clip": "run",
+            "samples": 3,
+            "max_fraction": 0.007084496476591521,
+            "p95_fraction": 0.00011999004167650488
+          }
+        ],
+        "rejected_attempts": []
+      }
+    ],
+    "target_triangles": 12000,
+    "achieved_triangles": 11996,
+    "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+  },
+  "triangle_budget": 12000,
+  "achieved_triangles": 11996,
+  "budget_status": "within_target",
+  "processing_seconds": 19.279,
+  "blender_version": "5.2.2 LTS",
+  "visual_status": "pending",
+  "collision": "none",
+  "notes": [
+    "Source preserved; selected optimization mode and quality-guard results recorded in optimization.json",
+    "Existing skeleton and animation tracks preserved; no autorig invented"
+  ]
+}

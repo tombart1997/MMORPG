@@ -1,0 +1,32 @@
+{
+  "key": "shrine",
+  "forge_asset_id": "ad68a7ed83ab",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ad68a7ed83ab\\generated\\34723204d1a3\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\world_kit\\shrine.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\shrine.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -1.1749999523162842,
+      -0.949999988079071,
+      0.0
+    ],
+    [
+      1.1749999523162842,
+      0.949999988079071,
+      3.5199999809265137
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 47250,
+      "after": 4498,
+      "extent_drift": 0.014508144472580106
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

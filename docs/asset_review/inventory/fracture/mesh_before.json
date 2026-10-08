@@ -1,0 +1,635 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "Core_0",
+      "vertices": 1024,
+      "triangles": 641,
+      "local_bounds": [
+        [
+          -1.027438759803772,
+          -0.9373776316642761,
+          0.9205747842788696
+        ],
+        [
+          0.7253555655479431,
+          1.401355504989624,
+          3.996716022491455
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 75,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        235,
+        97,
+        14,
+        5,
+        4,
+        3,
+        3,
+        3
+      ],
+      "sharp_edges_over_60_degrees": 235,
+      "smooth_faces": 641,
+      "faces": 641,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.003081317674975159,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_fracture_RuntimeColor"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Rib_0",
+      "vertices": 1878,
+      "triangles": 1220,
+      "local_bounds": [
+        [
+          -0.10999775677919388,
+          0.03302121162414551,
+          -0.08427956700325012
+        ],
+        [
+          2.771307945251465,
+          3.364271402359009,
+          4.219673156738281
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 152,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        663,
+        3,
+        3,
+        3,
+        3
+      ],
+      "sharp_edges_over_60_degrees": 402,
+      "smooth_faces": 1220,
+      "faces": 1220,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.006117366970182281,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_fracture_RuntimeColor"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Rib_1",
+      "vertices": 1059,
+      "triangles": 777,
+      "local_bounds": [
+        [
+          -1.4529742002487183,
+          0.13830386102199554,
+          -0.08427956700325012
+        ],
+        [
+          1.6436638832092285,
+          3.413573980331421,
+          4.7069172859191895
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 147,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        356,
+        63,
+        39,
+        3,
+        3
+      ],
+      "sharp_edges_over_60_degrees": 209,
+      "smooth_faces": 777,
+      "faces": 777,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.00429103225947805,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_fracture_RuntimeColor"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Rib_2",
+      "vertices": 1645,
+      "triangles": 1126,
+      "local_bounds": [
+        [
+          -2.769390106201172,
+          0.025930797681212425,
+          -0.08591204136610031
+        ],
+        [
+          0.04301644489169121,
+          2.9326024055480957,
+          4.563100814819336
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 168,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        612,
+        8,
+        5,
+        5,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "sharp_edges_over_60_degrees": 371,
+      "smooth_faces": 1126,
+      "faces": 1126,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.005677166979444259,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_fracture_RuntimeColor"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Rib_3",
+      "vertices": 1640,
+      "triangles": 1032,
+      "local_bounds": [
+        [
+          -3.4615721702575684,
+          -1.8003336191177368,
+          -0.07324226945638657
+        ],
+        [
+          -0.22243079543113708,
+          0.8676356077194214,
+          3.764758348464966
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 140,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        554,
+        5,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "sharp_edges_over_60_degrees": 399,
+      "smooth_faces": 1030,
+      "faces": 1032,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.0050540049129952636,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_fracture_RuntimeColor"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Rib_4",
+      "vertices": 740,
+      "triangles": 477,
+      "local_bounds": [
+        [
+          -2.6370928287506104,
+          -2.85721492767334,
+          -0.04419838637113571
+        ],
+        [
+          -0.0559229850769043,
+          0.13830386102199554,
+          1.5095648765563965
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 87,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        281,
+        3
+      ],
+      "sharp_edges_over_60_degrees": 129,
+      "smooth_faces": 477,
+      "faces": 477,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.0024452539047940536,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_fracture_RuntimeColor"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Rib_5",
+      "vertices": 690,
+      "triangles": 462,
+      "local_bounds": [
+        [
+          -0.3974016308784485,
+          -3.340719223022461,
+          -0.17478294670581818
+        ],
+        [
+          2.012017250061035,
+          -0.14240752160549164,
+          1.103065848350525
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 70,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        265
+      ],
+      "sharp_edges_over_60_degrees": 148,
+      "smooth_faces": 462,
+      "faces": 462,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.002453220284794111,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_fracture_RuntimeColor"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "Rib_6",
+      "vertices": 1122,
+      "triangles": 740,
+      "local_bounds": [
+        [
+          -0.10999775677919388,
+          -1.8994412422180176,
+          -0.10140345990657806
+        ],
+        [
+          3.1851918697357178,
+          0.5674218535423279,
+          3.592759609222412
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 108,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        415,
+        6,
+        4,
+        3
+      ],
+      "sharp_edges_over_60_degrees": 293,
+      "smooth_faces": 740,
+      "faces": 740,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.0037564076714154404,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_fracture_RuntimeColor"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Forge_fracture_RuntimeColor",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "Forge_fracture_RuntimeAtlas",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        }
+      ]
+    }
+  ],
+  "triangles": 6475,
+  "skeletons": [],
+  "clips": [],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\game\\assets\\benchmark\\briarwake.glb",
+  "seconds": 0.23
+}

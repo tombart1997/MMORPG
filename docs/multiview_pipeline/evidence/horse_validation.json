@@ -1,0 +1,19 @@
+{
+  "technical_status": "passed",
+  "visual_status": "pending",
+  "errors": [],
+  "warnings": [],
+  "triangles": 17995,
+  "materials": 1,
+  "textures": [
+    {
+      "name": "geometry_0_Base Color",
+      "mime": "image/png",
+      "embedded": true
+    }
+  ],
+  "skins": 0,
+  "bones": [],
+  "animations": [],
+  "mesh_objects": 1
+}

@@ -1,0 +1,32 @@
+{
+  "key": "tent",
+  "forge_asset_id": "6a21f2cb5775",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\6a21f2cb5775\\generated\\fd32813e215e\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\world_kit\\tent.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\tent.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -2.3600001335144043,
+      -2.0989346504211426,
+      -0.05000000074505806
+    ],
+    [
+      2.356462001800537,
+      2.0949745178222656,
+      2.049999952316284
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 36672,
+      "after": 2400,
+      "extent_drift": 0.031409974985621994
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

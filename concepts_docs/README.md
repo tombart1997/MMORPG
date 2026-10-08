@@ -2,7 +2,9 @@
 
 Open [index.html](index.html) to browse the complete illustrated book offline, or [Ironfield_Concepts.xlsx](Ironfield_Concepts.xlsx) for separate topic and balance tabs.
 
-Created 3 October 2026. This folder contains **16 topic sheets**, **12 original generated concept plates**, **37 illustrated mob entries**, **151 individual mob item-drop rows**, **45 smithing steps** across five gear tiers, **34 equipment entries**, and the **48 class skill designs**.
+The concepts have also been reconstructed through the local 2D-to-3D generator and imported into the game. Open the [Godot model gallery](../docs/forge_rebuild/gallery.html) or [rebuild report](../docs/forge_rebuild/README.md) to inspect the resulting models and their remaining visual limitations.
+
+Created 3 October 2026. This folder contains **17 topic sheets**, **12 original generated concept plates**, **37 illustrated mob entries**, **151 individual mob item-drop rows**, **45 smithing steps** across five gear tiers, **34 equipment entries**, and the **48 class skill designs**.
 
 ## Your fixed rules
 
@@ -61,3 +63,9 @@ py concepts_docs/tools/validate_concepts.py
 For browser-only layout changes, use `py concepts_docs/tools/build_presentations.py --html-only`. Close the workbook in Excel before a full workbook rebuild; output replacement is atomic and preserves the previous valid file if writing fails.
 
 Images are retained as original PNGs. All relative browser links require keeping this folder together. References to the current class design, art benchmark and previous horse review point into the surrounding project.
+
+The added [quality and performance sheet](sheets/16_quality_performance.md) records the measured game budget, bounded repair process and the current complete replacement catalogue.
+
+## Practical 3D reference views
+
+Open [the production reference gallery](art/asset_turnarounds_v2/index.html) for 30 inspected sheets and their separate front, side, back, overhead and three-quarter inputs. The [multi-image generator report](../docs/full_asset_rebuild/README.md) records actual reconstruction, optimization and Godot results.

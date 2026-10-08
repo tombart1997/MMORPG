@@ -1,0 +1,665 @@
+{
+  "assets": [
+    {
+      "key": "mob_meadow_wolf",
+      "path": "res://assets/forge_rebuild/mobs/meadow_wolf.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ee4651b0a657\\references\\a760c0b6d510_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\mob_meadow_wolf\\before.png"
+    },
+    {
+      "key": "mob_ironhide_boar",
+      "path": "res://assets/forge_rebuild/mobs/ironhide_boar.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\90c5a8203d35\\references\\be791754a956_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\mob_ironhide_boar\\before.png"
+    },
+    {
+      "key": "fern_reference",
+      "path": "res://assets/world_kit/fern.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\e89698c5b2d1\\references\\c26de0c63947_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\fern_reference\\before.png"
+    },
+    {
+      "key": "watchtower",
+      "path": "res://assets/world_kit/watchtower.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\f6dde5ac99fe\\references\\acab34a66af6_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\watchtower\\before.png"
+    },
+    {
+      "key": "weapon_jade",
+      "path": "res://assets/forge_rebuild/weapons/jade.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\weapon_jade\\before.png"
+    },
+    {
+      "key": "mob_young",
+      "path": "res://assets/forge_rebuild/mobs/young.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\9d4ebcf4d508\\references\\9364bfc21a74_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_young\\before.png"
+    },
+    {
+      "key": "mob_bristle_boar",
+      "path": "res://assets/forge_rebuild/mobs/bristle_boar.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\24aca4777c13\\references\\9914a33e82e8_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_bristle_boar\\before.png"
+    },
+    {
+      "key": "mob_blue_wolf",
+      "path": "res://assets/forge_rebuild/mobs/blue_wolf.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\f371a971a67b\\references\\34fe65b60b65_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_blue_wolf\\before.png"
+    },
+    {
+      "key": "mob_grown",
+      "path": "res://assets/forge_rebuild/mobs/grown.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\be69deb13961\\references\\161971bff867_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_grown\\before.png"
+    },
+    {
+      "key": "mob_reed_spider",
+      "path": "res://assets/forge_rebuild/mobs/reed_spider.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\a5d900e10fc7\\references\\9f2ee94e8df5_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_reed_spider\\before.png"
+    },
+    {
+      "key": "mob_red_wolf",
+      "path": "res://assets/forge_rebuild/mobs/red_wolf.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\bc89267d92d8\\references\\667b2d7268e3_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_red_wolf\\before.png"
+    },
+    {
+      "key": "mob_grey_wolf",
+      "path": "res://assets/forge_rebuild/mobs/grey_wolf.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\bf2917c1f4d1\\references\\2b6845169d91_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_grey_wolf\\before.png"
+    },
+    {
+      "key": "mob_ironback",
+      "path": "res://assets/forge_rebuild/mobs/ironback.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\a8de84fb41a6\\references\\14b7a5b47f04_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_ironback\\before.png"
+    },
+    {
+      "key": "mob_mire_boar",
+      "path": "res://assets/forge_rebuild/mobs/mire_boar.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\fce3e82bc244\\references\\11a112f9dda6_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_mire_boar\\before.png"
+    },
+    {
+      "key": "mob_copper_spider",
+      "path": "res://assets/forge_rebuild/mobs/copper_spider.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\a7960107c3f3\\references\\5fe1874ab4db_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_copper_spider\\before.png"
+    },
+    {
+      "key": "mob_moonfang",
+      "path": "res://assets/forge_rebuild/mobs/moonfang.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\1e4fbad04427\\references\\97f7ea25dc50_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_moonfang\\before.png"
+    },
+    {
+      "key": "mob_road_bandit",
+      "path": "res://assets/forge_rebuild/mobs/road_bandit.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\3da27c1996c8\\references\\9ba67e29e3b0_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_road_bandit\\before.png"
+    },
+    {
+      "key": "mob_thicket_wolf",
+      "path": "res://assets/forge_rebuild/mobs/thicket_wolf.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\5b37d6f774cd\\references\\16c02fa71dbe_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_thicket_wolf\\before.png"
+    },
+    {
+      "key": "mob_blacktusk",
+      "path": "res://assets/forge_rebuild/mobs/blacktusk.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\c3ce280241da\\references\\51635c46fe93_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_blacktusk\\before.png"
+    },
+    {
+      "key": "mob_venom_spider",
+      "path": "res://assets/forge_rebuild/mobs/venom_spider.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\7386fddb5cc0\\references\\6c2c04a09655_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_venom_spider\\before.png"
+    },
+    {
+      "key": "mob_slate_guardian",
+      "path": "res://assets/forge_rebuild/mobs/slate_guardian.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\39bc98234d3c\\references\\8a0ae3cea366_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_slate_guardian\\before.png"
+    },
+    {
+      "key": "mob_hollow_raider",
+      "path": "res://assets/forge_rebuild/mobs/hollow_raider.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\da118157fabd\\references\\8a4f5ab8c9d3_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_hollow_raider\\before.png"
+    },
+    {
+      "key": "mob_cinder_wisp",
+      "path": "res://assets/forge_rebuild/mobs/cinder_wisp.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\6c83aaf94df9\\references\\15ccd1bebb31_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_cinder_wisp\\before.png"
+    },
+    {
+      "key": "mob_frost_wolf",
+      "path": "res://assets/forge_rebuild/mobs/frost_wolf.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\a65fb033b2b5\\references\\69fb7e2ab71b_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_frost_wolf\\before.png"
+    },
+    {
+      "key": "mob_silk_matron",
+      "path": "res://assets/forge_rebuild/mobs/silk_matron.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\1864e5f9a8de\\references\\fd10608cba7f_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_silk_matron\\before.png"
+    },
+    {
+      "key": "mob_ash_bandit",
+      "path": "res://assets/forge_rebuild/mobs/ash_bandit.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\41620ef2f583\\references\\eb33e0700116_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_ash_bandit\\before.png"
+    },
+    {
+      "key": "mob_grave_wisp",
+      "path": "res://assets/forge_rebuild/mobs/grave_wisp.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\915717fb409c\\references\\8704e5334bfe_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_grave_wisp\\before.png"
+    },
+    {
+      "key": "mob_ember_hound",
+      "path": "res://assets/forge_rebuild/mobs/ember_hound.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\24bbdd266ef7\\references\\d6606ac3e6a2_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_ember_hound\\before.png"
+    },
+    {
+      "key": "mob_cairn_sentinel",
+      "path": "res://assets/forge_rebuild/mobs/cairn_sentinel.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\fab34a29d253\\references\\3564a8dd6c90_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_cairn_sentinel\\before.png"
+    },
+    {
+      "key": "mob_glass_spider",
+      "path": "res://assets/forge_rebuild/mobs/glass_spider.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\bb0293d6c5dd\\references\\c815b5104bdf_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_glass_spider\\before.png"
+    },
+    {
+      "key": "mob_dusk_stalker",
+      "path": "res://assets/forge_rebuild/mobs/dusk_stalker.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\58f27b841ca0\\references\\470c0a528c21_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_dusk_stalker\\before.png"
+    },
+    {
+      "key": "mob_bloodfang",
+      "path": "res://assets/forge_rebuild/mobs/bloodfang.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\91797c8ee80e\\references\\a9dcc9424009_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_bloodfang\\before.png"
+    },
+    {
+      "key": "mob_ash_wisp",
+      "path": "res://assets/forge_rebuild/mobs/ash_wisp.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\3b78b097b403\\references\\88e6e9f2bfb3_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_ash_wisp\\before.png"
+    },
+    {
+      "key": "mob_obsidian_boar",
+      "path": "res://assets/forge_rebuild/mobs/obsidian_boar.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\f28923cac8f0\\references\\67850b160680_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_obsidian_boar\\before.png"
+    },
+    {
+      "key": "mob_widow_spider",
+      "path": "res://assets/forge_rebuild/mobs/widow_spider.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\b0f063b73f3f\\references\\98133893c378_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_widow_spider\\before.png"
+    },
+    {
+      "key": "mob_exile_captain",
+      "path": "res://assets/forge_rebuild/mobs/exile_captain.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\85e3c4624fe9\\references\\817cefbba9e9_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_exile_captain\\before.png"
+    },
+    {
+      "key": "mob_storm_wisp",
+      "path": "res://assets/forge_rebuild/mobs/storm_wisp.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\37007ec74472\\references\\223f7cf939b7_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_storm_wisp\\before.png"
+    },
+    {
+      "key": "mob_rift_sentinel",
+      "path": "res://assets/forge_rebuild/mobs/rift_sentinel.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\f41881d328e4\\references\\1612346e7f18_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_rift_sentinel\\before.png"
+    },
+    {
+      "key": "mob_ancient_warden",
+      "path": "res://assets/forge_rebuild/mobs/ancient_warden.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\55bd257c0ecc\\references\\40be0edfeb52_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_ancient_warden\\before.png"
+    },
+    {
+      "key": "mob_cairn_colossus",
+      "path": "res://assets/forge_rebuild/mobs/cairn_colossus.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\570846ea40ec\\references\\987a9cd7e60c_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_cairn_colossus\\before.png"
+    },
+    {
+      "key": "hero_ironvow",
+      "path": "res://assets/characters/warden_high.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\96e72c50d51d\\references\\575094075a7a_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\hero_ironvow\\before.png"
+    },
+    {
+      "key": "horse_bay",
+      "path": "res://assets/mounts/trail_horse.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\7e7d7e05f6f9\\references\\48d3e42e4ec0_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\horse_bay\\before.png"
+    },
+    {
+      "key": "tree_pine",
+      "path": "res://assets/world_kit/tree0.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\c91ab84343a8\\references\\a3b700bd367c_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\tree_pine\\before.png"
+    },
+    {
+      "key": "rock_slate",
+      "path": "res://assets/world_kit/rock0.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\390757041a11\\references\\6d15374bbeb4_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\rock_slate\\before.png"
+    },
+    {
+      "key": "shrub_reference",
+      "path": "res://assets/world_kit/shrub.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\825ead3127e3\\references\\ed18994b3c13_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\shrub_reference\\before.png"
+    },
+    {
+      "key": "house_reference",
+      "path": "res://assets/forge_rebuild/world/house.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\28ab4ff6501b\\references\\d903c0206fe3_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\house_reference\\before.png"
+    },
+    {
+      "key": "npc_keeper",
+      "path": "res://assets/forge_rebuild/npcs/keeper.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\fb68f0aeebe6\\references\\930539baac92_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\npc_keeper\\before.png"
+    },
+    {
+      "key": "dead_tree",
+      "path": "res://assets/world_kit/dead_tree.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\440604ba5f25\\references\\be9860bcfb5b_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\dead_tree\\before.png"
+    },
+    {
+      "key": "fallen_log",
+      "path": "res://assets/world_kit/log.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ad67cb7fa0d1\\references\\9e8192f77903_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\fallen_log\\before.png"
+    },
+    {
+      "key": "npc_smith",
+      "path": "res://assets/forge_rebuild/npcs/smith.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\62040047b53f\\references\\a9db24bc8137_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\npc_smith\\before.png"
+    },
+    {
+      "key": "shrine",
+      "path": "res://assets/world_kit/shrine.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ad68a7ed83ab\\references\\87d23fed2a59_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\shrine\\before.png"
+    },
+    {
+      "key": "tent",
+      "path": "res://assets/world_kit/tent.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\6a21f2cb5775\\references\\ba5a370a88fc_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\tent\\before.png"
+    },
+    {
+      "key": "ruin_arch",
+      "path": "res://assets/world_kit/ruin_arch.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\5497e23fb588\\references\\789101ec8c11_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\ruin_arch\\before.png"
+    },
+    {
+      "key": "npc_stablemaster",
+      "path": "res://assets/forge_rebuild/npcs/stablemaster.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\45f6c569708b\\references\\8a2154655f35_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\npc_stablemaster\\before.png"
+    },
+    {
+      "key": "grass",
+      "path": "res://assets/world_kit/grass.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\7bb6aaf07f27\\references\\f1bc21797768_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\grass\\before.png"
+    },
+    {
+      "key": "fracture",
+      "path": "res://assets/benchmark/briarwake.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\5bda526a30eb\\references\\b7535997345d_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\fracture\\before.png"
+    },
+    {
+      "key": "coin",
+      "path": "res://assets/weapons/gold_coin.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\558755f812de\\references\\2070d81249a1_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\coin\\before.png"
+    },
+    {
+      "key": "crate",
+      "path": "res://assets/forge_rebuild/world/crate.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\577f3e14376a\\references\\d242a97fef92_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\crate\\before.png"
+    },
+    {
+      "key": "bridge",
+      "path": "res://assets/forge_rebuild/world/bridge.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\5e5c4e84ecae\\references\\56b63f44c6dc_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\bridge\\before.png"
+    },
+    {
+      "key": "derived_benchmark_fallen_wood",
+      "path": "res://assets/benchmark/fallen_wood.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ad67cb7fa0d1\\references\\9e8192f77903_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_fallen_wood\\before.png"
+    },
+    {
+      "key": "derived_benchmark_fern",
+      "path": "res://assets/benchmark/fern.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\e89698c5b2d1\\references\\c26de0c63947_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_fern\\before.png"
+    },
+    {
+      "key": "derived_benchmark_leaf_litter",
+      "path": "res://assets/benchmark/leaf_litter.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\7bb6aaf07f27\\references\\f1bc21797768_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_leaf_litter\\before.png"
+    },
+    {
+      "key": "derived_benchmark_rock_0",
+      "path": "res://assets/benchmark/rock_0.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\390757041a11\\references\\6d15374bbeb4_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_rock_0\\before.png"
+    },
+    {
+      "key": "derived_benchmark_rock_1",
+      "path": "res://assets/benchmark/rock_1.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\390757041a11\\references\\6d15374bbeb4_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_rock_1\\before.png"
+    },
+    {
+      "key": "derived_benchmark_rock_2",
+      "path": "res://assets/benchmark/rock_2.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\390757041a11\\references\\6d15374bbeb4_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_rock_2\\before.png"
+    },
+    {
+      "key": "derived_benchmark_sedge",
+      "path": "res://assets/benchmark/sedge.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\7bb6aaf07f27\\references\\f1bc21797768_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_sedge\\before.png"
+    },
+    {
+      "key": "derived_benchmark_shrub_briar",
+      "path": "res://assets/benchmark/shrub_briar.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\825ead3127e3\\references\\ed18994b3c13_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_shrub_briar\\before.png"
+    },
+    {
+      "key": "derived_benchmark_shrub_laurel",
+      "path": "res://assets/benchmark/shrub_laurel.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\825ead3127e3\\references\\ed18994b3c13_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_shrub_laurel\\before.png"
+    },
+    {
+      "key": "derived_benchmark_tree_bent",
+      "path": "res://assets/benchmark/tree_bent.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\c91ab84343a8\\references\\a3b700bd367c_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_tree_bent\\before.png"
+    },
+    {
+      "key": "derived_benchmark_tree_fork",
+      "path": "res://assets/benchmark/tree_fork.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\c91ab84343a8\\references\\a3b700bd367c_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_tree_fork\\before.png"
+    },
+    {
+      "key": "derived_benchmark_tree_wide",
+      "path": "res://assets/benchmark/tree_wide.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\c91ab84343a8\\references\\a3b700bd367c_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_tree_wide\\before.png"
+    },
+    {
+      "key": "derived_characters_briarling",
+      "path": "res://assets/characters/briarling.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\9d4ebcf4d508\\references\\9364bfc21a74_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_briarling\\before.png"
+    },
+    {
+      "key": "derived_characters_jade_ironback_mantle",
+      "path": "res://assets/characters/jade_ironback_mantle.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\96e72c50d51d\\references\\575094075a7a_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_jade_ironback_mantle\\before.png"
+    },
+    {
+      "key": "derived_characters_jade_sword",
+      "path": "res://assets/characters/jade_sword.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_jade_sword\\before.png"
+    },
+    {
+      "key": "derived_characters_townfolk_kit",
+      "path": "res://assets/characters/townfolk_kit.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\62040047b53f\\references\\a9db24bc8137_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_townfolk_kit\\before.png"
+    },
+    {
+      "key": "derived_characters_traveler",
+      "path": "res://assets/characters/traveler.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\96e72c50d51d\\references\\575094075a7a_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_traveler\\before.png"
+    },
+    {
+      "key": "derived_characters_traveler_guard",
+      "path": "res://assets/characters/traveler_guard.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\96e72c50d51d\\references\\575094075a7a_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_traveler_guard\\before.png"
+    },
+    {
+      "key": "derived_characters_turnwarden_v2",
+      "path": "res://assets/characters/turnwarden_v2.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\96e72c50d51d\\references\\575094075a7a_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_turnwarden_v2\\before.png"
+    },
+    {
+      "key": "derived_characters_turnwarden_v2_sword",
+      "path": "res://assets/characters/turnwarden_v2_sword.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_turnwarden_v2_sword\\before.png"
+    },
+    {
+      "key": "derived_characters_warden_insignia",
+      "path": "res://assets/characters/warden_insignia.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\558755f812de\\references\\2070d81249a1_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_warden_insignia\\before.png"
+    },
+    {
+      "key": "derived_characters_warden_sword",
+      "path": "res://assets/characters/warden_sword.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_warden_sword\\before.png"
+    },
+    {
+      "key": "derived_characters_wayfarer_sword",
+      "path": "res://assets/characters/wayfarer_sword.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_wayfarer_sword\\before.png"
+    },
+    {
+      "key": "derived_creatures_boar",
+      "path": "res://assets/creatures/boar.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\24aca4777c13\\references\\9914a33e82e8_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_creatures_boar\\before.png"
+    },
+    {
+      "key": "derived_creatures_spider",
+      "path": "res://assets/creatures/spider.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\a5d900e10fc7\\references\\9f2ee94e8df5_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_creatures_spider\\before.png"
+    },
+    {
+      "key": "derived_creatures_stonekin",
+      "path": "res://assets/creatures/stonekin.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\fab34a29d253\\references\\3564a8dd6c90_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_creatures_stonekin\\before.png"
+    },
+    {
+      "key": "derived_creatures_wisp",
+      "path": "res://assets/creatures/wisp.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\915717fb409c\\references\\8704e5334bfe_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_creatures_wisp\\before.png"
+    },
+    {
+      "key": "derived_creatures_wolf",
+      "path": "res://assets/creatures/wolf.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ee4651b0a657\\references\\a760c0b6d510_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_creatures_wolf\\before.png"
+    },
+    {
+      "key": "derived_weapons_briarsteel",
+      "path": "res://assets/weapons/briarsteel.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_briarsteel\\before.png"
+    },
+    {
+      "key": "derived_weapons_cairnwarden",
+      "path": "res://assets/weapons/cairnwarden.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_cairnwarden\\before.png"
+    },
+    {
+      "key": "derived_weapons_ember",
+      "path": "res://assets/weapons/ember.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_ember\\before.png"
+    },
+    {
+      "key": "derived_weapons_frontier",
+      "path": "res://assets/weapons/frontier.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_frontier\\before.png"
+    },
+    {
+      "key": "derived_weapons_glass",
+      "path": "res://assets/weapons/glass.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_glass\\before.png"
+    },
+    {
+      "key": "derived_weapons_marchguard",
+      "path": "res://assets/weapons/marchguard.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_marchguard\\before.png"
+    },
+    {
+      "key": "derived_weapons_relic",
+      "path": "res://assets/weapons/relic.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_relic\\before.png"
+    },
+    {
+      "key": "derived_weapons_rift",
+      "path": "res://assets/weapons/rift.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_rift\\before.png"
+    },
+    {
+      "key": "derived_weapons_wakecleaver",
+      "path": "res://assets/weapons/wakecleaver.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_wakecleaver\\before.png"
+    },
+    {
+      "key": "derived_weapons_wayfarer",
+      "path": "res://assets/weapons/wayfarer.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_wayfarer\\before.png"
+    },
+    {
+      "key": "derived_world_kit_cliff",
+      "path": "res://assets/world_kit/cliff.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\390757041a11\\references\\6d15374bbeb4_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_world_kit_cliff\\before.png"
+    },
+    {
+      "key": "derived_world_kit_cliff1",
+      "path": "res://assets/world_kit/cliff1.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\390757041a11\\references\\6d15374bbeb4_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_world_kit_cliff1\\before.png"
+    },
+    {
+      "key": "derived_world_kit_rock1",
+      "path": "res://assets/world_kit/rock1.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\390757041a11\\references\\6d15374bbeb4_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_world_kit_rock1\\before.png"
+    },
+    {
+      "key": "derived_world_kit_rock2",
+      "path": "res://assets/world_kit/rock2.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\390757041a11\\references\\6d15374bbeb4_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_world_kit_rock2\\before.png"
+    },
+    {
+      "key": "derived_world_kit_tree1",
+      "path": "res://assets/world_kit/tree1.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\c91ab84343a8\\references\\a3b700bd367c_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_world_kit_tree1\\before.png"
+    },
+    {
+      "key": "derived_world_kit_tree2",
+      "path": "res://assets/world_kit/tree2.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\c91ab84343a8\\references\\a3b700bd367c_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_world_kit_tree2\\before.png"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_mara",
+      "path": "res://assets/forge_rebuild/npcs/mara.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\fb68f0aeebe6\\references\\930539baac92_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_forge_rebuild_npcs_mara\\before.png"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_apothecary",
+      "path": "res://assets/forge_rebuild/npcs/apothecary.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\fb68f0aeebe6\\references\\930539baac92_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_forge_rebuild_npcs_apothecary\\before.png"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_artificer",
+      "path": "res://assets/forge_rebuild/npcs/artificer.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\45f6c569708b\\references\\8a2154655f35_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_forge_rebuild_npcs_artificer\\before.png"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_armorer",
+      "path": "res://assets/forge_rebuild/npcs/armorer.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\62040047b53f\\references\\a9db24bc8137_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_forge_rebuild_npcs_armorer\\before.png"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_weapons",
+      "path": "res://assets/forge_rebuild/npcs/weapons.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\62040047b53f\\references\\a9db24bc8137_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_forge_rebuild_npcs_weapons\\before.png"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_warden",
+      "path": "res://assets/forge_rebuild/npcs/warden.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\45f6c569708b\\references\\8a2154655f35_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_forge_rebuild_npcs_warden\\before.png"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_ash_scout",
+      "path": "res://assets/forge_rebuild/npcs/ash_scout.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\45f6c569708b\\references\\8a2154655f35_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_forge_rebuild_npcs_ash_scout\\before.png"
+    }
+  ],
+  "report": "D:\\Games\\Metin2Clone\\docs\\asset_review\\render_report.json"
+}

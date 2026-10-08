@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_glass_spider",
+      "before": 13966,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11996,
+      "quality": {
+        "surface_max_fraction": 0.0013221646992325417,
+        "surface_p95_fraction": 0.00016807498302662827,
+        "bounds_drift_fraction": 0.00040844031850006946,
+        "nonmanifold_edges": 0,
+        "samples": 6857
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.006085098847919754,
+          "p95_fraction": 0.00017284181928775837
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.007670860089000774,
+          "p95_fraction": 0.00016620930287691442
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.006838332184639086,
+          "p95_fraction": 0.00017936509563497183
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.007294989381054884,
+          "p95_fraction": 0.00018106538897659985
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.0013228212438740063,
+          "p95_fraction": 0.0001680749746793014
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

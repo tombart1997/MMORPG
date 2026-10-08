@@ -1,0 +1,244 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "traveler_guardMesh",
+      "vertices": 110,
+      "triangles": 164,
+      "local_bounds": [
+        [
+          -0.18340915441513062,
+          0.12009166926145554,
+          -0.14323745667934418
+        ],
+        [
+          0.184713214635849,
+          0.21799999475479126,
+          0.07900016754865646
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 4,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        42,
+        42,
+        5
+      ],
+      "sharp_edges_over_60_degrees": 62,
+      "smooth_faces": 160,
+      "faces": 164,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.22388021558700544,
+      "collapsed_uv_triangles": 16,
+      "materials": [
+        "GuardHarness",
+        "GuardSeal"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "GuardHarness",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": true,
+          "value": 0.5
+        },
+        "Metallic": {
+          "linked": true,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": true,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "GuardHarness_albedo",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        },
+        {
+          "name": "GuardHarness_rough",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "Non-Color"
+        },
+        {
+          "name": "leather_normal",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "GuardSeal",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": true,
+          "value": 0.5
+        },
+        "Metallic": {
+          "linked": true,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": true,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "GuardSeal_albedo",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        },
+        {
+          "name": "GuardSeal_rough",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "Non-Color"
+        },
+        {
+          "name": "metal_normal",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "Non-Color"
+        }
+      ]
+    }
+  ],
+  "triangles": 164,
+  "skeletons": [],
+  "clips": [],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\traveler_guard.glb",
+  "seconds": 0.087
+}

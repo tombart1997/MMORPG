@@ -1,0 +1,42 @@
+{
+  "key": "mob_storm_wisp",
+  "forge_asset_id": "37007ec74472",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\37007ec74472\\generated\\1a903fdd3d8c\\source.glb",
+  "rig_source": "blender/creatures/wisp.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\storm_wisp.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_storm_wisp.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.27399998903274536,
+      -0.27331477403640747,
+      0.12970766425132751
+    ],
+    [
+      0.27399998903274536,
+      0.27331477403640747,
+      1.5608155727386475
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 22448,
+      "after": 14000,
+      "extent_drift": 0.0
+    }
+  ],
+  "bones": 4,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "silhouette_cleanup": {
+    "removed_vertices": 0,
+    "painted_ground_trim": false
+  }
+}

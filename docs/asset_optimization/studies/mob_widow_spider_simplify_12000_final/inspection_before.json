@@ -1,0 +1,63 @@
+{
+  "objects": [
+    {
+      "name": "Forge_mob_widow_spider",
+      "vertices": 15458,
+      "triangles": 13916,
+      "materials": 1,
+      "degenerate_faces": 0,
+      "boundary_edges": 13762,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "has_uv": true,
+      "collapsed_uv_triangles": 0,
+      "skinned": true,
+      "unweighted_vertices": 0
+    }
+  ],
+  "triangles": 13916,
+  "textures": [
+    {
+      "name": "Forge_mob_widow_spider_RuntimeAtlas",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "available": true
+    }
+  ],
+  "bounds": {
+    "min": [
+      -1.1509132385253906,
+      -1.0199495553970337,
+      0.06614373624324799
+    ],
+    "max": [
+      1.1510717868804932,
+      0.8329047560691833,
+      0.9959999918937683
+    ]
+  },
+  "armatures": [
+    {
+      "name": "SpiritRig",
+      "bones": 20
+    }
+  ],
+  "actions": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+  "unverified": [
+    "UV overlap beyond collapsed triangles",
+    "Internal occluded geometry",
+    "Baked lighting",
+    "Joint clipping",
+    "Reference fidelity"
+  ]
+}

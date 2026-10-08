@@ -1,0 +1,32 @@
+{
+  "key": "mossling",
+  "source": "D:\\Games\\Metin2Clone\\blender\\multiview_rebuild\\prepared\\mossling.blend",
+  "rig_source": "blender/multiview_rebuild/binding_templates/briarling.blend",
+  "family": "mossling",
+  "height": 1.7,
+  "yaw": 0,
+  "binding_guide": "blender/multiview_rebuild/binding_templates/briarling.weights.json",
+  "output": "D:\\Games\\Metin2Clone\\game\\assets\\generated\\mossling.glb",
+  "bounds": [
+    [
+      -0.7276491522789001,
+      -0.6206715703010559,
+      0.006862928159534931
+    ],
+    [
+      0.7941867709159851,
+      0.4770953953266144,
+      1.7059999704360962
+    ]
+  ],
+  "bones": 18,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "template_geometry_exported": false,
+  "review_status": "requires_deformation_review"
+}

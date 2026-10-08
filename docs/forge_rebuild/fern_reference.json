@@ -1,0 +1,32 @@
+{
+  "key": "fern_reference",
+  "forge_asset_id": "e89698c5b2d1",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\e89698c5b2d1\\generated\\d47d86d52e46\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\world_kit\\fern.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\fern_reference.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.5723867416381836,
+      -0.6923124194145203,
+      -0.007302835118025541
+    ],
+    [
+      0.518389105796814,
+      0.6820608377456665,
+      0.5681158304214478
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 17070,
+      "after": 1350,
+      "extent_drift": 0.022306602476636513
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

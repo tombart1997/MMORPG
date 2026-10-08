@@ -1,0 +1,176 @@
+{
+  "name": "mob_ironhide_boar_simplify_12000_final",
+  "asset_id": "99c9b36bb4b4",
+  "source_key": "mob_ironhide_boar",
+  "source": "game/assets/forge_rebuild/mobs/ironhide_boar.glb",
+  "source_asset_id": "90c5a8203d35",
+  "source_sha256": "2f89dab37ce3a36f661286fb49316fafe1e5558200868790bb02432a8fb93099",
+  "imported_candidate": "a9d5b5339031",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 12000,
+    "optimization_mode": "simplify",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "anatomy_review",
+      "topology_review",
+      "uv_materials",
+      "species_rig_import",
+      "animation_review",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "553223873415",
+    "asset_id": "99c9b36bb4b4",
+    "operation": "process",
+    "state": "succeeded",
+    "stage": "blender_process",
+    "progress": 100,
+    "created_at": "2026-10-03T19:16:39.705918+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {
+      "files": {
+        "animation_contract.json": "processed/553223873415/animation_contract.json",
+        "editable.blend": "processed/553223873415/editable.blend",
+        "inspection_before.json": "processed/553223873415/inspection_before.json",
+        "optimization.json": "processed/553223873415/optimization.json",
+        "processing.json": "processed/553223873415/processing.json",
+        "runtime.glb": "processed/553223873415/runtime.glb",
+        "source.blend": "processed/553223873415/source.blend",
+        "source.glb": "processed/553223873415/source.glb",
+        "validation.json": "processed/553223873415/validation.json"
+      }
+    },
+    "resumed_from": null,
+    "message": "Complete \u00b7 visual review remains separate",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 12000,
+      "optimization_mode": "simplify",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "anatomy_review",
+        "topology_review",
+        "uv_materials",
+        "species_rig_import",
+        "animation_review",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "a9d5b5339031",
+      "path": "imports/90a24b6491b7.glb",
+      "origin": "imported",
+      "sha256": "2f89dab37ce3a36f661286fb49316fafe1e5558200868790bb02432a8fb93099",
+      "created_at": "2026-10-03T19:16:39.613412+00:00",
+      "original_filename": "ironhide_boar.glb",
+      "license": "Optimization study: retained local neural derivative from 90c5a8203d35; SHA256 2f89dab37ce3a36f661286fb49316fafe1e5558200868790bb02432a8fb93099",
+      "cost_credits": 0
+    },
+    "reference": null,
+    "started_at": "2026-10-03T19:16:39.713700+00:00",
+    "elapsed_seconds": 13.0,
+    "finished_at": "2026-10-03T19:16:52.885826+00:00",
+    "duration_seconds": 13.17
+  },
+  "visual_status": "pending",
+  "artifacts": {
+    "animation_contract.json": "processed/553223873415/animation_contract.json",
+    "editable.blend": "processed/553223873415/editable.blend",
+    "inspection_before.json": "processed/553223873415/inspection_before.json",
+    "optimization.json": "processed/553223873415/optimization.json",
+    "processing.json": "processed/553223873415/processing.json",
+    "runtime.glb": "processed/553223873415/runtime.glb",
+    "source.blend": "processed/553223873415/source.blend",
+    "source.glb": "processed/553223873415/source.glb",
+    "validation.json": "processed/553223873415/validation.json"
+  },
+  "review_path": "res://review_assets/optimization/mob_ironhide_boar_simplify_12000_final.glb"
+}

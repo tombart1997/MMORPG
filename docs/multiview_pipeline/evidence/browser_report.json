@@ -1,0 +1,14 @@
+{
+  "page_errors": [],
+  "checks": [
+    "Four distinct approved horse views load in the reference editor",
+    "Single-image backend disables combined-view settings",
+    "Approved set, conditioning mode and color projection remain selectable without starting a job",
+    "Spider, fern and tower load their reviewed sets; omitted views stay omitted"
+  ],
+  "playwright_version": "1.55.0",
+  "screenshots": [
+    "horse_generation_controls.png",
+    "horse_reference_editor.png"
+  ]
+}

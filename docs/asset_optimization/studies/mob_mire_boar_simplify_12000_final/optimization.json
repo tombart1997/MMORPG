@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_mire_boar",
+      "before": 13966,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11996,
+      "quality": {
+        "surface_max_fraction": 0.0027340887355148708,
+        "surface_p95_fraction": 0.00015178376648214206,
+        "bounds_drift_fraction": 0.0005037340670478301,
+        "nonmanifold_edges": 0,
+        "samples": 6607
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.005106625073533184,
+          "p95_fraction": 0.00016301125247278092
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.010401485672917946,
+          "p95_fraction": 0.0001564964689210434
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.011431121008390903,
+          "p95_fraction": 0.0001614102372368542
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.010500506946413093,
+          "p95_fraction": 0.00015811600660573324
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.005427643604566907,
+          "p95_fraction": 0.00015190317443849089
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

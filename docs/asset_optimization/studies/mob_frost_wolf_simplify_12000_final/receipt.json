@@ -1,0 +1,176 @@
+{
+  "name": "mob_frost_wolf_simplify_12000_final",
+  "asset_id": "81304c072f17",
+  "source_key": "mob_frost_wolf",
+  "source": "game/assets/forge_rebuild/mobs/frost_wolf.glb",
+  "source_asset_id": "a65fb033b2b5",
+  "source_sha256": "76319ddb9e9e8e6a849ee9a6aa77f375bb8c45abab9ab1b395897bee60458ee4",
+  "imported_candidate": "80aeed9c3918",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 12000,
+    "optimization_mode": "simplify",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "anatomy_review",
+      "topology_review",
+      "uv_materials",
+      "species_rig_import",
+      "animation_review",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "f16ce516f4c0",
+    "asset_id": "81304c072f17",
+    "operation": "process",
+    "state": "succeeded",
+    "stage": "blender_process",
+    "progress": 100,
+    "created_at": "2026-10-03T19:16:26.511966+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {
+      "files": {
+        "animation_contract.json": "processed/f16ce516f4c0/animation_contract.json",
+        "editable.blend": "processed/f16ce516f4c0/editable.blend",
+        "inspection_before.json": "processed/f16ce516f4c0/inspection_before.json",
+        "optimization.json": "processed/f16ce516f4c0/optimization.json",
+        "processing.json": "processed/f16ce516f4c0/processing.json",
+        "runtime.glb": "processed/f16ce516f4c0/runtime.glb",
+        "source.blend": "processed/f16ce516f4c0/source.blend",
+        "source.glb": "processed/f16ce516f4c0/source.glb",
+        "validation.json": "processed/f16ce516f4c0/validation.json"
+      }
+    },
+    "resumed_from": null,
+    "message": "Complete \u00b7 visual review remains separate",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 12000,
+      "optimization_mode": "simplify",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "anatomy_review",
+        "topology_review",
+        "uv_materials",
+        "species_rig_import",
+        "animation_review",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "80aeed9c3918",
+      "path": "imports/1fd732f2167c.glb",
+      "origin": "imported",
+      "sha256": "76319ddb9e9e8e6a849ee9a6aa77f375bb8c45abab9ab1b395897bee60458ee4",
+      "created_at": "2026-10-03T19:16:26.414684+00:00",
+      "original_filename": "frost_wolf.glb",
+      "license": "Optimization study: retained local neural derivative from a65fb033b2b5; SHA256 76319ddb9e9e8e6a849ee9a6aa77f375bb8c45abab9ab1b395897bee60458ee4",
+      "cost_credits": 0
+    },
+    "reference": null,
+    "started_at": "2026-10-03T19:16:26.519636+00:00",
+    "elapsed_seconds": 11.7,
+    "finished_at": "2026-10-03T19:16:38.415186+00:00",
+    "duration_seconds": 11.91
+  },
+  "visual_status": "pending",
+  "artifacts": {
+    "animation_contract.json": "processed/f16ce516f4c0/animation_contract.json",
+    "editable.blend": "processed/f16ce516f4c0/editable.blend",
+    "inspection_before.json": "processed/f16ce516f4c0/inspection_before.json",
+    "optimization.json": "processed/f16ce516f4c0/optimization.json",
+    "processing.json": "processed/f16ce516f4c0/processing.json",
+    "runtime.glb": "processed/f16ce516f4c0/runtime.glb",
+    "source.blend": "processed/f16ce516f4c0/source.blend",
+    "source.glb": "processed/f16ce516f4c0/source.glb",
+    "validation.json": "processed/f16ce516f4c0/validation.json"
+  },
+  "review_path": "res://review_assets/optimization/mob_frost_wolf_simplify_12000_final.glb"
+}

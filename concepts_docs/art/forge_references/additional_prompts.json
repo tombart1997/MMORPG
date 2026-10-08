@@ -1,0 +1,87 @@
+{
+  "shrub_reference": {
+    "prompt": "Use supplied concept plate as visual style reference. One isolated dense low bramble shrub with dark olive broad leaves on tangled woody stems, compact rounded irregular silhouette, visible stem base, no berries. Full subject clearly separated against plain pale gray studio background. Only one subject. Crisp physically solid 3D asset reconstruction reference, natural realistic painted game style, neutral lighting, no scenery, no text or border. Three-quarter view unless a pose is specified.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/shrub_reference.png"
+  },
+  "fern_reference": {
+    "prompt": "Use supplied concept plate as visual style reference. One isolated woodland fern with five spreading arching pinnate green fronds, visible individual paired leaflets, connected base, natural asymmetry. Full subject clearly separated against plain pale gray studio background. Only one subject. Crisp physically solid 3D asset reconstruction reference, natural realistic painted game style, neutral lighting, no scenery, no text or border. Three-quarter view unless a pose is specified.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/fern_reference.png"
+  },
+  "house_reference": {
+    "prompt": "Use supplied concept plate as visual style reference. One isolated complete small eastern frontier timber and plaster house with a weathered slate tiled curved gable roof, deep eaves, wood beams, single front door and two windows, low stone foundation. No adjacent props or foliage. Roof and walls continuous solid mesh. Full subject clearly separated against plain pale gray studio background. Only one subject. Crisp physically solid 3D asset reconstruction reference, natural realistic painted game style, neutral lighting, no scenery, no text or border. Three-quarter view unless a pose is specified.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/house_reference.png"
+  },
+  "npc_keeper": {
+    "prompt": "Use supplied concept plate as visual style reference. One isolated full body woman matching the middle woman Sella from the supplied town concept: blue-green cream-lined crossover robe, long skirt, black tied bun, calm adult face, modest brass sash accessories. Empty hands. Symmetrical relaxed A-pose, hands angled down and away from body, separated feet, orthographic front view. Full subject clearly separated against plain pale gray studio background. Only one subject. Crisp physically solid 3D asset reconstruction reference, natural realistic painted game style, neutral lighting, no scenery, no text or border. Three-quarter view unless a pose is specified.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/npc_keeper.png"
+  },
+  "dead_tree": {
+    "prompt": "Supplied concept plate is game visual style reference. One isolated dead weathered pine tree with dark exposed trunk, four broken branching limbs and flared roots, no leaves. Only one subject, full subject in frame, solid coherent geometry, neutral studio light, plain pale gray backdrop, no scenery, no floor clutter, no text. Realistic painted fantasy game asset reconstruction reference. Three-quarter view unless a front pose is specified.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/dead_tree.png"
+  },
+  "fallen_log": {
+    "prompt": "Supplied concept plate is game visual style reference. One isolated horizontal fallen pine log with rough brown bark, cracked cut end and two short snapped branch stubs, no ground. Only one subject, full subject in frame, solid coherent geometry, neutral studio light, plain pale gray backdrop, no scenery, no floor clutter, no text. Realistic painted fantasy game asset reconstruction reference. Three-quarter view unless a front pose is specified.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/fallen_log.png"
+  },
+  "watchtower": {
+    "prompt": "Supplied concept plate is game visual style reference. One isolated complete eastern frontier wood watchtower on four sturdy posts, raised square enclosed platform, small curved dark slate hipped roof, ladder, realistic aged wood, full tower visible. Only one subject, full subject in frame, solid coherent geometry, neutral studio light, plain pale gray backdrop, no scenery, no floor clutter, no text. Realistic painted fantasy game asset reconstruction reference. Three-quarter view unless a front pose is specified.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/watchtower.png"
+  },
+  "npc_smith": {
+    "prompt": "Supplied concept plate is game visual style reference. One isolated full body man matching the bearded blacksmith Oren in the town concept: mature bearded East Asian face and topknot, cream rolled sleeves and leather blacksmith apron, dark pants and boots, strong practical adult build. Empty hands without hammer. Neutral front body, relaxed A-pose hands angled out from hips, separate feet. Only one subject, full subject in frame, solid coherent geometry, neutral studio light, plain pale gray backdrop, no scenery, no floor clutter, no text. Realistic painted fantasy game asset reconstruction reference. Three-quarter view unless a front pose is specified.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/npc_smith.png"
+  },
+  "shrine": {
+    "prompt": "Use supplied concept plate as game visual style reference. A single small roadside eastern frontier shrine, five uneven stacked mossy slate stones under a simple weathered timber curved dark tiled roof and two wooden posts, tiny hanging red cloth strip, no landscape. Only this one subject, full shape in frame, plain pale gray studio background, neutral light, no text or border. Natural realistic solid fantasy 3D game reconstruction reference. Three-quarter view unless front pose specified.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/shrine.png"
+  },
+  "tent": {
+    "prompt": "Use supplied concept plate as game visual style reference. A single small low A-frame frontier camp tent of faded tan canvas over rough wooden ridge pole, taut continuous canvas sides, open dark front entrance, pegged bottom, no separate surrounding objects. Only this one subject, full shape in frame, plain pale gray studio background, neutral light, no text or border. Natural realistic solid fantasy 3D game reconstruction reference. Three-quarter view unless front pose specified.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/tent.png"
+  },
+  "ruin_arch": {
+    "prompt": "Use supplied concept plate as game visual style reference. A single ancient ruined stone gateway arch, chunky cracked ash-gray dressed masonry with uneven broken corners and small patches of lichen, intact broad opening, fallen top corners, no ground or surrounding rubble. Only this one subject, full shape in frame, plain pale gray studio background, neutral light, no text or border. Natural realistic solid fantasy 3D game reconstruction reference. Three-quarter view unless front pose specified.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/ruin_arch.png"
+  },
+  "npc_stablemaster": {
+    "prompt": "Use supplied concept plate as game visual style reference. A single isolated full body man matching Bram the stablemaster at far right of the town concept: broad mature East Asian male with tan complexion, short black goatee and black topknot under a plain brown headband, faded ochre padded vest over cream rolled-sleeve crossover shirt, brown trousers and practical boots, simple belt leather satchel. EMPTY hands without reins and no horse. Front pose, arms relaxed diagonally away from body, separated feet. Only this one subject, full shape in frame, plain pale gray studio background, neutral light, no text or border. Natural realistic solid fantasy 3D game reconstruction reference. Three-quarter view unless front pose specified.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/npc_stablemaster.png"
+  },
+  "grass": {
+    "prompt": "Reference image supplies game art style. One isolated tuft of five clusters of narrow arching woodland sedge grass leaves, olive green with some dry straw tips, compact connected root base. A single isolated 3D fantasy game asset reconstruction reference on a plain pale gray studio backdrop, neutral even lighting, three-quarter view, natural realistic painted materials, no scene, no text, no separate objects.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/grass.png"
+  },
+  "fracture": {
+    "prompt": "Reference image supplies game art style. One isolated Briarwake Fracture spawn monument matching the large object at left of the reference: exactly seven massive split gnarled tree-root wooden ribs curl inward around a single large faceted amber crystal floating in the center. Dark bark, amber orange crystal, small moss accents. Full object visible, no surrounding forest or ground, no bloom or light beams. A single isolated 3D fantasy game asset reconstruction reference on a plain pale gray studio backdrop, neutral even lighting, three-quarter view, natural realistic painted materials, no scene, no text, no separate objects.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/fracture.png"
+  },
+  "coin": {
+    "prompt": "Reference image supplies game art style. One isolated thick ancient square-holed brass coin, embossed East Asian cloud border and worn decorative geometric marks, coin standing nearly vertical at three-quarter angle to show thickness. No lettering. A single isolated 3D fantasy game asset reconstruction reference on a plain pale gray studio backdrop, neutral even lighting, three-quarter view, natural realistic painted materials, no scene, no text, no separate objects.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/coin.png"
+  },
+  "crate": {
+    "prompt": "Reference image supplies game art style. One isolated small weathered frontier wooden shipping crate, solid timber slats, four visible corner posts, two diagonal reinforcing plank braces, dark iron corner straps. A single isolated 3D fantasy game asset reconstruction reference on a plain pale gray studio backdrop, neutral even lighting, three-quarter view, natural realistic painted materials, no scene, no text, no separate objects.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/crate.png"
+  },
+  "bridge": {
+    "prompt": "Reference image supplies game art style. One isolated complete short wooden footbridge, sturdy dark wood planked walkway, two rope handrails carried by six rough timber posts, gentle shallow arch deck, solid continuous planks, open both ends. No water or land. Entire bridge in frame. A single isolated 3D fantasy game asset reconstruction reference on a plain pale gray studio backdrop, neutral even lighting, three-quarter view, natural realistic painted materials, no scene, no text, no separate objects.",
+    "tool": "built-in image_gen",
+    "saved_reference": "concepts_docs/art/forge_references/bridge.png"
+  }
+}

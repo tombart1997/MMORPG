@@ -1,0 +1,776 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "BriarlingSkin",
+      "vertices": 17411,
+      "triangles": 22976,
+      "local_bounds": [
+        [
+          -0.7038834691047668,
+          -0.23539450764656067,
+          -0.03856201842427254
+        ],
+        [
+          0.7038834691047668,
+          0.6009092330932617,
+          1.9204936027526855
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 48,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        512,
+        512,
+        422,
+        422,
+        328,
+        328,
+        328,
+        266,
+        266,
+        266,
+        256,
+        256,
+        220,
+        220,
+        220,
+        220,
+        220,
+        220,
+        220,
+        220,
+        220,
+        220,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        176,
+        176,
+        176,
+        176,
+        176,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "sharp_edges_over_60_degrees": 1615,
+      "smooth_faces": 22976,
+      "faces": 22976,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 38.03035565106182,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Jade_Bark",
+        "Jade_BarkShadow",
+        "Jade_AntlerWood",
+        "Jade_SpiritEyes",
+        "Jade_ForestJade",
+        "Jade_Gold"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Jade_AntlerWood",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.7699999809265137
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": true,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "forest_ivory_albedo",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        },
+        {
+          "name": "forest_ivory_normal",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "Jade_Bark",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8799999952316284
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": true,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "forest_body_albedo",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        },
+        {
+          "name": "forest_body_normal",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "Jade_BarkShadow",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8999999761581421
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": true,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "forest_mane_albedo",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        },
+        {
+          "name": "forest_mane_normal",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "Jade_ForestJade",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.5299999713897705
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.07999999821186066
+        },
+        "Normal": {
+          "linked": true,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "forest_jade_albedo",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        },
+        {
+          "name": "forest_jade_normal",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "Jade_Gold",
+      "channels": {
+        "Base Color": {
+          "linked": false,
+          "value": [
+            0.46000000834465027,
+            0.2800000011920929,
+            0.08799999952316284,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.4000000059604645
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.6499999761581421
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Jade_SpiritEyes",
+      "channels": {
+        "Base Color": {
+          "linked": false,
+          "value": [
+            0.5199999809265137,
+            0.8299999833106995,
+            0.5199999809265137,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.25
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.11999999731779099
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            0.33799996972084045,
+            0.5394999980926514,
+            0.33799996972084045,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 1.0
+        }
+      },
+      "textures": []
+    }
+  ],
+  "triangles": 22976,
+  "skeletons": [
+    {
+      "name": "SpiritRig",
+      "bones": [
+        {
+          "name": "Root",
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            2.2248553221970724e-08,
+            0.6499999761581421
+          ]
+        },
+        {
+          "name": "Hips",
+          "head": [
+            0.0,
+            2.2248549669257045e-08,
+            0.6499998569488525
+          ],
+          "tail": [
+            0.0,
+            -0.04802650958299637,
+            0.8341016173362732
+          ]
+        },
+        {
+          "name": "Spine",
+          "head": [
+            0.0,
+            -0.05999995768070221,
+            0.8799998760223389
+          ],
+          "tail": [
+            0.0,
+            -0.029999930411577225,
+            1.100000023841858
+          ]
+        },
+        {
+          "name": "Chest",
+          "head": [
+            0.0,
+            -0.029999973252415657,
+            1.100000023841858
+          ],
+          "tail": [
+            0.0,
+            0.10000012814998627,
+            1.2000001668930054
+          ]
+        },
+        {
+          "name": "Neck",
+          "head": [
+            0.0,
+            0.10000002384185791,
+            1.2000001668930054
+          ],
+          "tail": [
+            0.0,
+            0.19999989867210388,
+            1.3200000524520874
+          ]
+        },
+        {
+          "name": "Head",
+          "head": [
+            0.0,
+            0.1999998837709427,
+            1.3200000524520874
+          ],
+          "tail": [
+            0.0,
+            0.1999998539686203,
+            1.4762048721313477
+          ]
+        },
+        {
+          "name": "UpperArm.L",
+          "head": [
+            -0.30999991297721863,
+            3.725290298461914e-09,
+            1.100000023841858
+          ],
+          "tail": [
+            -0.49000003933906555,
+            0.06000005453824997,
+            0.779999852180481
+          ]
+        },
+        {
+          "name": "Forearm.L",
+          "head": [
+            -0.4899999499320984,
+            0.059999980032444,
+            0.7799999117851257
+          ],
+          "tail": [
+            -0.5799999237060547,
+            0.22999989986419678,
+            0.5100001096725464
+          ]
+        },
+        {
+          "name": "Hand.L",
+          "head": [
+            -0.5799998044967651,
+            0.2299998700618744,
+            0.5100001692771912
+          ],
+          "tail": [
+            -0.5799998044967651,
+            0.3395147919654846,
+            0.19710025191307068
+          ]
+        },
+        {
+          "name": "UpperArm.R",
+          "head": [
+            0.30999991297721863,
+            3.725290298461914e-09,
+            1.100000023841858
+          ],
+          "tail": [
+            0.49000003933906555,
+            0.06000005453824997,
+            0.779999852180481
+          ]
+        },
+        {
+          "name": "Forearm.R",
+          "head": [
+            0.4899999499320984,
+            0.059999980032444,
+            0.7799999117851257
+          ],
+          "tail": [
+            0.5799999237060547,
+            0.22999989986419678,
+            0.5100001096725464
+          ]
+        },
+        {
+          "name": "Hand.R",
+          "head": [
+            0.5799998044967651,
+            0.2299998700618744,
+            0.5100001692771912
+          ],
+          "tail": [
+            0.5799998044967651,
+            0.3395147919654846,
+            0.19710025191307068
+          ]
+        },
+        {
+          "name": "Thigh.L",
+          "head": [
+            -0.1899999976158142,
+            5.624182364272201e-08,
+            0.6399997472763062
+          ],
+          "tail": [
+            -0.2299998253583908,
+            0.04999981075525284,
+            0.35999977588653564
+          ]
+        },
+        {
+          "name": "Shin.L",
+          "head": [
+            -0.22999978065490723,
+            0.04999981448054314,
+            0.35999980568885803
+          ],
+          "tail": [
+            -0.24999921023845673,
+            -5.476176738739014e-07,
+            0.09999951720237732
+          ]
+        },
+        {
+          "name": "Foot.L",
+          "head": [
+            -0.24999922513961792,
+            -5.415197961156082e-07,
+            0.09999954700469971
+          ],
+          "tail": [
+            -0.2499999850988388,
+            0.2642003893852234,
+            0.07357943058013916
+          ]
+        },
+        {
+          "name": "Thigh.R",
+          "head": [
+            0.1899999976158142,
+            5.624182364272201e-08,
+            0.6399997472763062
+          ],
+          "tail": [
+            0.2299998253583908,
+            0.04999981075525284,
+            0.35999977588653564
+          ]
+        },
+        {
+          "name": "Shin.R",
+          "head": [
+            0.22999978065490723,
+            0.04999981448054314,
+            0.35999980568885803
+          ],
+          "tail": [
+            0.24999921023845673,
+            -5.476176738739014e-07,
+            0.09999951720237732
+          ]
+        },
+        {
+          "name": "Foot.R",
+          "head": [
+            0.24999922513961792,
+            -5.415197961156082e-07,
+            0.09999954700469971
+          ],
+          "tail": [
+            0.2499999850988388,
+            0.2642003893852234,
+            0.07357943058013916
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\briarling.glb",
+  "seconds": 0.565
+}

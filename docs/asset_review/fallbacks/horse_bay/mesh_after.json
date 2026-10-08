@@ -1,0 +1,924 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "BriarwoodBaySkin",
+      "vertices": 20705,
+      "triangles": 37422,
+      "local_bounds": [
+        [
+          -0.48684459924697876,
+          -1.2859880924224854,
+          -0.0015712116146460176
+        ],
+        [
+          0.48684459924697876,
+          1.7673137187957764,
+          1.9921599626541138
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 28,
+      "welded_boundary_edges": 13,
+      "welded_nonmanifold_edges": 41,
+      "connected_components_vertices": [
+        9524,
+        520,
+        520,
+        378,
+        362,
+        362,
+        362,
+        362,
+        166,
+        166,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        72,
+        72,
+        72,
+        72,
+        70,
+        51,
+        51,
+        49,
+        40,
+        40,
+        32,
+        32,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        10,
+        10
+      ],
+      "sharp_edges_over_60_degrees": 1585,
+      "smooth_faces": 37408,
+      "faces": 37422,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "uv_triangle_area_sum": 0.6635831419652879,
+      "collapsed_uv_triangles": 18360,
+      "materials": [
+        "Horse_BayCoat",
+        "Horse_HoofHorn",
+        "Horse_Eye",
+        "Horse_DarkPoints",
+        "Horse_SaddleLeather",
+        "Horse_TackBrass",
+        "Horse_ManeTail",
+        "Horse_WovenPad",
+        "Horse_Blaze"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        0.9999999701976776,
+        1.0000000298023224
+      ],
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Horse_BayCoat",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "horse_diffuse",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        }
+      ]
+    },
+    {
+      "name": "Horse_Blaze",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.6499999761581421
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Horse_DarkPoints",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.5600000023841858
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Horse_Eye",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.17000000178813934
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.05000000074505806
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Horse_HoofHorn",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.6399999856948853
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Horse_ManeTail",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.6600000262260437
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Horse_SaddleLeather",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.6299999952316284
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Horse_TackBrass",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.2800000011920929
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.800000011920929
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Horse_WovenPad",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8999999761581421
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    }
+  ],
+  "triangles": 37422,
+  "skeletons": [
+    {
+      "name": "HorseRig",
+      "bones": [
+        {
+          "name": "Root",
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            3.994781039295958e-08,
+            1.1670905351638794
+          ]
+        },
+        {
+          "name": "Body",
+          "head": [
+            0.0,
+            -0.24999995529651642,
+            1.1399999856948853
+          ],
+          "tail": [
+            0.0,
+            0.1340872198343277,
+            1.2552260160446167
+          ]
+        },
+        {
+          "name": "Fore.L.Upper",
+          "head": [
+            -0.26600000262260437,
+            0.6399999260902405,
+            1.2899997234344482
+          ],
+          "tail": [
+            -0.26600000262260437,
+            0.6399999260902405,
+            0.9699997901916504
+          ]
+        },
+        {
+          "name": "Fore.L.Lower",
+          "head": [
+            -0.2659999430179596,
+            0.6399999260902405,
+            0.9699998497962952
+          ],
+          "tail": [
+            -0.2659999430179596,
+            0.684999942779541,
+            0.48999983072280884
+          ]
+        },
+        {
+          "name": "Fore.L.Ankle",
+          "head": [
+            -0.26600000262260437,
+            0.684999942779541,
+            0.49000000953674316
+          ],
+          "tail": [
+            -0.26600000262260437,
+            0.6499999165534973,
+            0.15999996662139893
+          ]
+        },
+        {
+          "name": "Fore.L.Hoof",
+          "head": [
+            -0.265999972820282,
+            0.6499999165534973,
+            0.1600000560283661
+          ],
+          "tail": [
+            -0.265999972820282,
+            0.804558277130127,
+            -0.1336609125137329
+          ]
+        },
+        {
+          "name": "Fore.R.Upper",
+          "head": [
+            0.26600000262260437,
+            0.6399999260902405,
+            1.2899997234344482
+          ],
+          "tail": [
+            0.26600000262260437,
+            0.6399999260902405,
+            0.9699997901916504
+          ]
+        },
+        {
+          "name": "Fore.R.Lower",
+          "head": [
+            0.2659999430179596,
+            0.6399999260902405,
+            0.9699998497962952
+          ],
+          "tail": [
+            0.2659999430179596,
+            0.684999942779541,
+            0.48999983072280884
+          ]
+        },
+        {
+          "name": "Fore.R.Ankle",
+          "head": [
+            0.26600000262260437,
+            0.684999942779541,
+            0.49000000953674316
+          ],
+          "tail": [
+            0.26600000262260437,
+            0.6499999165534973,
+            0.15999996662139893
+          ]
+        },
+        {
+          "name": "Fore.R.Hoof",
+          "head": [
+            0.265999972820282,
+            0.6499999165534973,
+            0.1600000560283661
+          ],
+          "tail": [
+            0.265999972820282,
+            0.804558277130127,
+            -0.1336609125137329
+          ]
+        },
+        {
+          "name": "Hind.L.Upper",
+          "head": [
+            -0.25999993085861206,
+            -0.5099999308586121,
+            1.2999998331069946
+          ],
+          "tail": [
+            -0.2659999430179596,
+            -0.580000102519989,
+            0.8500000238418579
+          ]
+        },
+        {
+          "name": "Hind.L.Lower",
+          "head": [
+            -0.265999972820282,
+            -0.5799999833106995,
+            0.8500000834465027
+          ],
+          "tail": [
+            -0.265999972820282,
+            -0.7900002002716064,
+            0.5000001192092896
+          ]
+        },
+        {
+          "name": "Hind.L.Ankle",
+          "head": [
+            -0.265999972820282,
+            -0.7900002002716064,
+            0.5000001788139343
+          ],
+          "tail": [
+            -0.265999972820282,
+            -0.8100003004074097,
+            0.16000020503997803
+          ]
+        },
+        {
+          "name": "Hind.L.Hoof",
+          "head": [
+            -0.26600000262260437,
+            -0.8100003004074097,
+            0.16000023484230042
+          ],
+          "tail": [
+            -0.26600000262260437,
+            -0.6641994118690491,
+            -0.14780178666114807
+          ]
+        },
+        {
+          "name": "Hind.R.Upper",
+          "head": [
+            0.25999993085861206,
+            -0.5099999308586121,
+            1.2999998331069946
+          ],
+          "tail": [
+            0.2659999430179596,
+            -0.580000102519989,
+            0.8500000238418579
+          ]
+        },
+        {
+          "name": "Hind.R.Lower",
+          "head": [
+            0.265999972820282,
+            -0.5799999833106995,
+            0.8500000834465027
+          ],
+          "tail": [
+            0.265999972820282,
+            -0.7900002002716064,
+            0.5000001192092896
+          ]
+        },
+        {
+          "name": "Hind.R.Ankle",
+          "head": [
+            0.265999972820282,
+            -0.7900002002716064,
+            0.5000001788139343
+          ],
+          "tail": [
+            0.265999972820282,
+            -0.8100003004074097,
+            0.16000020503997803
+          ]
+        },
+        {
+          "name": "Hind.R.Hoof",
+          "head": [
+            0.26600000262260437,
+            -0.8100003004074097,
+            0.16000023484230042
+          ],
+          "tail": [
+            0.26600000262260437,
+            -0.6641994118690491,
+            -0.14780178666114807
+          ]
+        },
+        {
+          "name": "Neck",
+          "head": [
+            0.0,
+            0.64000004529953,
+            1.3799999952316284
+          ],
+          "tail": [
+            0.0,
+            1.2700002193450928,
+            1.8999998569488525
+          ]
+        },
+        {
+          "name": "Head",
+          "head": [
+            0.0,
+            1.2700001001358032,
+            1.899999976158142
+          ],
+          "tail": [
+            0.0,
+            1.373360514640808,
+            1.8230805397033691
+          ]
+        },
+        {
+          "name": "Ear.L",
+          "head": [
+            -0.08999990671873093,
+            1.340000033378601,
+            1.959999918937683
+          ],
+          "tail": [
+            -0.12272554636001587,
+            1.38908851146698,
+            2.0745394229888916
+          ]
+        },
+        {
+          "name": "Ear.R",
+          "head": [
+            0.08999990671873093,
+            1.340000033378601,
+            1.959999918937683
+          ],
+          "tail": [
+            0.12272554636001587,
+            1.38908851146698,
+            2.0745394229888916
+          ]
+        },
+        {
+          "name": "Tail",
+          "head": [
+            0.0,
+            -0.869999885559082,
+            1.399999976158142
+          ],
+          "tail": [
+            0.0,
+            -0.9835448265075684,
+            1.0154125690460205
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    "canter",
+    "idle",
+    "trot",
+    "walk"
+  ],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\mounts\\trail_horse.glb",
+  "seconds": 0.833
+}

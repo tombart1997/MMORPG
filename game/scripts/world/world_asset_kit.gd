@@ -5,7 +5,8 @@ static var meshes: Dictionary = {}
 
 static func mesh_for(kind: String) -> ArrayMesh:
 	if meshes.has(kind): return meshes[kind]
-	var scene := load("res://assets/world_kit/%s.glb" % kind) as PackedScene
+	var path := "res://assets/generated/world/%s.glb" % kind
+	var scene := ReviewedModels.scene_for(path)
 	var source := scene.instantiate() as Node3D
 	var combined := ArrayMesh.new()
 	var parts := source.find_children("*","MeshInstance3D",true,false)
@@ -20,15 +21,10 @@ static func mesh_for(kind: String) -> ArrayMesh:
 		for i in part.mesh.get_surface_count():
 			var material := part.get_active_material(i).duplicate() as StandardMaterial3D
 			material.vertex_color_use_as_albedo = true
-			material.roughness = .92
-			material.metallic_specular = .12
-			if material.resource_name == "MarchCanvas": material.albedo_color = Color("897763")
-			if material.resource_name in ["MarchSlate","MarchLichen","MarchTiles"]:
-				material.albedo_texture = RemasterMaterials.texture(4 if material.resource_name != "MarchTiles" else 8)
-				material.albedo_color = Color("8c9991") if material.resource_name == "MarchLichen" else Color("869399")
-				material.uv1_triplanar = true
-				material.uv1_scale = Vector3.ONE*.45
-			if kind.begins_with("tree") or kind == "shrub": material = RemasterMaterials.camera_clearance(material)
+			# Broad leaf cards can cross the view while their vertices are several
+			# metres from the camera. Fade canopy across the mounted camera arm.
+			if kind.begins_with("tree"): material = RemasterMaterials.camera_clearance(material,8.0,11.0)
+			elif kind == "shrub": material = RemasterMaterials.camera_clearance(material)
 			if kind.begins_with("rock") or kind.begins_with("cliff"): material = RemasterMaterials.camera_clearance(material)
 			if preserve_lods:
 				combined.surface_set_material(i,material)

@@ -1,0 +1,15 @@
+{
+  "assets": [
+    {
+      "name": "Timber shipping crate",
+      "path": "res://assets/forge_rebuild/world/crate.glb"
+    },
+    {
+      "name": "Rope footbridge",
+      "path": "res://assets/forge_rebuild/world/bridge.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\gallery_idle_19.png",
+  "clip": "idle",
+  "time": 0
+}

@@ -15,7 +15,7 @@ static func create(drop: LootPickup) -> Node3D:
 		root.set_meta("physical_weapon",true)
 	elif drop.item == null and drop.coins > 0:
 		if coin_mesh == null:
-			var source := preload("res://assets/weapons/gold_coin.glb").instantiate()
+			var source := ReviewedModels.scene_for("res://assets/generated/equipment/gold_coin.glb").instantiate()
 			coin_mesh = source.find_children("*","MeshInstance3D",true,false)[0].mesh
 			source.free()
 		var count := clampi(2+drop.coins/8,3,14)
@@ -36,13 +36,6 @@ static func create(drop: LootPickup) -> Node3D:
 		root.add_child(pile)
 		root.set_meta("physical_coins",true)
 	else:
-		# A small grounded bundle for materials until each has an authored prop.
-		var pouch := MeshInstance3D.new()
-		var shape := SphereMesh.new()
-		shape.radius = .11;shape.height = .14;shape.radial_segments = 12;shape.rings = 6
-		pouch.mesh = shape;pouch.position.y = .085
-		var fabric := StandardMaterial3D.new()
-		fabric.albedo_color = Color(.22,.17,.10).lerp(drop.item.color,.3) if drop.item else Color(.22,.17,.1)
-		fabric.roughness = .95;pouch.material_override = fabric
+		var pouch := load("res://assets/generated/world/pouch.glb").instantiate() as Node3D
 		root.add_child(pouch)
 	return root

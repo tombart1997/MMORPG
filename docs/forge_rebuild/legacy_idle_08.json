@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Spider",
+      "path": "res://assets/creatures/spider.glb"
+    },
+    {
+      "name": "Stonekin",
+      "path": "res://assets/creatures/stonekin.glb"
+    },
+    {
+      "name": "Wisp",
+      "path": "res://assets/creatures/wisp.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\legacy_idle_08.png",
+  "clip": "idle",
+  "time": 0
+}

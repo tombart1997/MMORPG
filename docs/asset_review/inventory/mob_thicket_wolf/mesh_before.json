@@ -1,0 +1,327 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "Forge_mob_thicket_wolf",
+      "vertices": 15901,
+      "triangles": 11995,
+      "local_bounds": [
+        [
+          -0.4323357045650482,
+          -1.3491888046264648,
+          -0.0024302778765559196
+        ],
+        [
+          0.4323287308216095,
+          1.0849997997283936,
+          1.440000057220459
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 3117,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        6861,
+        4
+      ],
+      "sharp_edges_over_60_degrees": 2510,
+      "smooth_faces": 11995,
+      "faces": 11995,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.02337519399195917,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_mob_thicket_wolf_RuntimeColor"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        0.9999998706625775,
+        1.0000001145526767
+      ],
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Forge_mob_thicket_wolf_RuntimeColor",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "Forge_mob_thicket_wolf_RuntimeAtlas",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        }
+      ]
+    }
+  ],
+  "triangles": 11995,
+  "skeletons": [
+    {
+      "name": "SpiritRig",
+      "bones": [
+        {
+          "name": "Root",
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            3.2633998614528537e-08,
+            0.9534147381782532
+          ]
+        },
+        {
+          "name": "Hips",
+          "head": [
+            0.0,
+            -0.3899998068809509,
+            0.8699998259544373
+          ],
+          "tail": [
+            0.0,
+            -0.1729169338941574,
+            0.869999885559082
+          ]
+        },
+        {
+          "name": "Chest",
+          "head": [
+            -3.846872974788869e-15,
+            1.509903313490213e-14,
+            0.869999885559082
+          ],
+          "tail": [
+            -2.0116200287418956e-15,
+            0.41885480284690857,
+            0.9576672315597534
+          ]
+        },
+        {
+          "name": "FrontUpper.L",
+          "head": [
+            -0.21500003337860107,
+            0.36999982595443726,
+            0.8700000643730164
+          ],
+          "tail": [
+            -0.21500003337860107,
+            0.40000006556510925,
+            0.350000262260437
+          ]
+        },
+        {
+          "name": "FrontLower.L",
+          "head": [
+            -0.21500001847743988,
+            0.40000006556510925,
+            0.35000038146972656
+          ],
+          "tail": [
+            -0.21500001847743988,
+            0.366102933883667,
+            -0.16975992918014526
+          ]
+        },
+        {
+          "name": "FrontUpper.R",
+          "head": [
+            0.21500003337860107,
+            0.36999982595443726,
+            0.8700001239776611
+          ],
+          "tail": [
+            0.21500003337860107,
+            0.40000006556510925,
+            0.3500003218650818
+          ]
+        },
+        {
+          "name": "FrontLower.R",
+          "head": [
+            0.21500001847743988,
+            0.40000006556510925,
+            0.35000044107437134
+          ],
+          "tail": [
+            0.21500001847743988,
+            0.366102933883667,
+            -0.1697598695755005
+          ]
+        },
+        {
+          "name": "Head",
+          "head": [
+            -1.1036254849989928e-15,
+            0.42999979853630066,
+            0.9599999785423279
+          ],
+          "tail": [
+            1.0950045954200753e-15,
+            0.8568432331085205,
+            0.9904889464378357
+          ]
+        },
+        {
+          "name": "HindUpper.L",
+          "head": [
+            -0.2149999439716339,
+            -0.41999974846839905,
+            0.8699998259544373
+          ],
+          "tail": [
+            -0.2149999439716339,
+            -0.519999623298645,
+            0.34999996423721313
+          ]
+        },
+        {
+          "name": "HindLower.L",
+          "head": [
+            -0.2149999737739563,
+            -0.5199994444847107,
+            0.3499999940395355
+          ],
+          "tail": [
+            -0.2149999737739563,
+            -0.28318729996681213,
+            -0.12362414598464966
+          ]
+        },
+        {
+          "name": "HindUpper.R",
+          "head": [
+            0.2149999439716339,
+            -0.4199998080730438,
+            0.8699998259544373
+          ],
+          "tail": [
+            0.2149999439716339,
+            -0.5199996829032898,
+            0.34999996423721313
+          ]
+        },
+        {
+          "name": "HindLower.R",
+          "head": [
+            0.21499992907047272,
+            -0.5199994444847107,
+            0.3499999940395355
+          ],
+          "tail": [
+            0.21499992907047272,
+            -0.28318729996681213,
+            -0.12362414598464966
+          ]
+        },
+        {
+          "name": "Tail",
+          "head": [
+            7.105409146392636e-15,
+            -0.6099997162818909,
+            0.8699999451637268
+          ],
+          "tail": [
+            -6.251292462600448e-15,
+            -0.8215233683586121,
+            0.9188131093978882
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\thicket_wolf.glb",
+  "seconds": 0.511
+}

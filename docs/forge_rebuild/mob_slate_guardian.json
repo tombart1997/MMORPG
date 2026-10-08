@@ -1,0 +1,47 @@
+{
+  "key": "mob_slate_guardian",
+  "forge_asset_id": "39bc98234d3c",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\39bc98234d3c\\generated\\5050d7055d68\\source.glb",
+  "rig_source": "blender/creatures/stonekin.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\slate_guardian.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_slate_guardian.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.7049999833106995,
+      -0.25884756445884705,
+      0.0
+    ],
+    [
+      0.7049999833106995,
+      0.4317387640476227,
+      1.6665664911270142
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 41340,
+      "after": 13998,
+      "extent_drift": 0.000602410330014357
+    }
+  ],
+  "bones": 18,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "silhouette_cleanup": {
+    "removed_vertices": 1,
+    "painted_ground_trim": true
+  },
+  "animation_skin_refinement": {
+    "constrained_limb_vertices": 2028,
+    "removed_bridge_faces": 463,
+    "reason": "Opened run views revealed lower-limb sheets from floor geometry and mixed limb influence."
+  }
+}

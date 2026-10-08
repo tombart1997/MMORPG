@@ -1,0 +1,32 @@
+{
+  "key": "watchtower",
+  "forge_asset_id": "f6dde5ac99fe",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\f6dde5ac99fe\\generated\\055be5ee45f0\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\world_kit\\watchtower.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\watchtower.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -2.299999952316284,
+      -2.200000047683716,
+      -0.0037116820458322763
+    ],
+    [
+      2.299999952316284,
+      2.200000047683716,
+      8.119999885559082
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 34242,
+      "after": 6000,
+      "extent_drift": 0.027272234814404404
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

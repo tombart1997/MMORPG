@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Sedge",
+      "path": "res://assets/benchmark/sedge.glb"
+    },
+    {
+      "name": "Shrub Briar",
+      "path": "res://assets/benchmark/shrub_briar.glb"
+    },
+    {
+      "name": "Shrub Laurel",
+      "path": "res://assets/benchmark/shrub_laurel.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\legacy_idle_02.png",
+  "clip": "idle",
+  "time": 0
+}

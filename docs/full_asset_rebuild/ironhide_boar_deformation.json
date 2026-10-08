@@ -1,0 +1,50 @@
+[
+  {
+    "clip": "run",
+    "fraction": 0.25,
+    "stretched_edges": 0,
+    "worst": []
+  },
+  {
+    "clip": "run",
+    "fraction": 0.75,
+    "stretched_edges": 0,
+    "worst": []
+  },
+  {
+    "clip": "attack_01",
+    "fraction": 0.25,
+    "stretched_edges": 0,
+    "worst": []
+  },
+  {
+    "clip": "attack_01",
+    "fraction": 0.75,
+    "stretched_edges": 0,
+    "worst": []
+  },
+  {
+    "clip": "hit",
+    "fraction": 0.25,
+    "stretched_edges": 0,
+    "worst": []
+  },
+  {
+    "clip": "hit",
+    "fraction": 0.75,
+    "stretched_edges": 0,
+    "worst": []
+  },
+  {
+    "clip": "death",
+    "fraction": 0.25,
+    "stretched_edges": 0,
+    "worst": []
+  },
+  {
+    "clip": "death",
+    "fraction": 0.75,
+    "stretched_edges": 0,
+    "worst": []
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "objects": [
+    {
+      "name": "Forge_mob_obsidian_boar",
+      "vertices": 16366,
+      "triangles": 13986,
+      "materials": 1,
+      "degenerate_faces": 0,
+      "boundary_edges": 14912,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "has_uv": true,
+      "collapsed_uv_triangles": 0,
+      "skinned": true,
+      "unweighted_vertices": 0
+    }
+  ],
+  "triangles": 13986,
+  "textures": [
+    {
+      "name": "Forge_mob_obsidian_boar_RuntimeAtlas",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "available": true
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.43084827065467834,
+      -1.2760510444641113,
+      -0.001695503480732441
+    ],
+    "max": [
+      0.4319496750831604,
+      1.1401174068450928,
+      1.3572131395339966
+    ]
+  },
+  "armatures": [
+    {
+      "name": "SpiritRig",
+      "bones": 13
+    }
+  ],
+  "actions": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+  "unverified": [
+    "UV overlap beyond collapsed triangles",
+    "Internal occluded geometry",
+    "Baked lighting",
+    "Joint clipping",
+    "Reference fidelity"
+  ]
+}

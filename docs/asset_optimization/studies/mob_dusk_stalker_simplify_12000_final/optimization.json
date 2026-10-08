@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_dusk_stalker",
+      "before": 14000,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11996,
+      "quality": {
+        "surface_max_fraction": 0.0013450819889938332,
+        "surface_p95_fraction": 0.00019369203916509413,
+        "bounds_drift_fraction": 0.00040180898681602,
+        "nonmanifold_edges": 0,
+        "samples": 6719
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.008505660763541817,
+          "p95_fraction": 0.00020569725108436095
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.008258382325102578,
+          "p95_fraction": 0.00019959054295030584
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.008058999002626036,
+          "p95_fraction": 0.00021841031907639976
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.006056742114019673,
+          "p95_fraction": 0.0002064740765059617
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.0035691038594185386,
+          "p95_fraction": 0.00021117198855732664
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

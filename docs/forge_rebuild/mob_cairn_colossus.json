@@ -1,0 +1,47 @@
+{
+  "key": "mob_cairn_colossus",
+  "forge_asset_id": "570846ea40ec",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\570846ea40ec\\generated\\ce5df1e8f2a7\\source.glb",
+  "rig_source": "blender/creatures/stonekin.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\cairn_colossus.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_cairn_colossus.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.7049999833106995,
+      -0.25884756445884705,
+      0.0
+    ],
+    [
+      0.7049999833106995,
+      0.4317387640476227,
+      1.6665664911270142
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 39364,
+      "after": 14000,
+      "extent_drift": 0.0018775342910624087
+    }
+  ],
+  "bones": 18,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "silhouette_cleanup": {
+    "removed_vertices": 63,
+    "painted_ground_trim": true
+  },
+  "animation_skin_refinement": {
+    "constrained_limb_vertices": 1311,
+    "removed_bridge_faces": 361,
+    "reason": "Opened run views revealed lower-limb sheets from floor geometry and mixed limb influence."
+  }
+}

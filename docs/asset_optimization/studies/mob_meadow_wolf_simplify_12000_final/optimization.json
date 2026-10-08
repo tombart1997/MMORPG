@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_meadow_wolf",
+      "before": 13970,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11995,
+      "quality": {
+        "surface_max_fraction": 0.001903929632098333,
+        "surface_p95_fraction": 0.0002716364102852872,
+        "bounds_drift_fraction": 0.000324484192538853,
+        "nonmanifold_edges": 0,
+        "samples": 7204
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.004253078255006762,
+          "p95_fraction": 0.0002676984573560066
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.009503497045331892,
+          "p95_fraction": 0.0002691743397264096
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.00855472367677949,
+          "p95_fraction": 0.000279492732199195
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.005779187125720274,
+          "p95_fraction": 0.0002783673264624853
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.003325206712254926,
+          "p95_fraction": 0.00027343067752384596
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11995,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

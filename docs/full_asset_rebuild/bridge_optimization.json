@@ -1,0 +1,31 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "MV_bridge",
+      "before": 224116,
+      "target": 8000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 7994,
+      "quality": {
+        "surface_max_fraction": 0.0017402500522488333,
+        "surface_p95_fraction": 0.000746634204953313,
+        "bounds_drift_fraction": 0.0004160471069045388,
+        "nonmanifold_edges": 0,
+        "samples": 7040
+      },
+      "textures": [
+        "MV_bridge_Base Color",
+        "MV_bridge_Normal"
+      ],
+      "material_transfer": "rebaked_atlas",
+      "deformation": [],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 8000,
+  "achieved_triangles": 7994,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

@@ -1,0 +1,1444 @@
+{
+  "mob_young": {
+    "bones": {
+      "Root": {
+        "head": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tail": [
+          0.0,
+          0.0,
+          0.18000000715255737
+        ]
+      },
+      "Hips": {
+        "head": [
+          0.0,
+          0.0,
+          0.6499999761581421
+        ],
+        "tail": [
+          0.0,
+          -0.05999999865889549,
+          0.8799999952316284
+        ]
+      },
+      "Spine": {
+        "head": [
+          0.0,
+          -0.05999999865889549,
+          0.8799999952316284
+        ],
+        "tail": [
+          0.0,
+          -0.029999999329447746,
+          1.100000023841858
+        ]
+      },
+      "Chest": {
+        "head": [
+          0.0,
+          -0.029999999329447746,
+          1.100000023841858
+        ],
+        "tail": [
+          0.0,
+          0.10000000149011612,
+          1.2000000476837158
+        ]
+      },
+      "Neck": {
+        "head": [
+          0.0,
+          0.10000000149011612,
+          1.2000000476837158
+        ],
+        "tail": [
+          0.0,
+          0.20000000298023224,
+          1.3200000524520874
+        ]
+      },
+      "Head": {
+        "head": [
+          0.0,
+          0.20000000298023224,
+          1.3200000524520874
+        ],
+        "tail": [
+          0.0,
+          0.20000000298023224,
+          1.5199999809265137
+        ]
+      },
+      "UpperArm.R": {
+        "head": [
+          0.3100000023841858,
+          0.0,
+          1.100000023841858
+        ],
+        "tail": [
+          0.49000000953674316,
+          0.05999999865889549,
+          0.7799999713897705
+        ]
+      },
+      "Forearm.R": {
+        "head": [
+          0.49000000953674316,
+          0.05999999865889549,
+          0.7799999713897705
+        ],
+        "tail": [
+          0.5799999833106995,
+          0.23000000417232513,
+          0.5099999904632568
+        ]
+      },
+      "Hand.R": {
+        "head": [
+          0.5799999833106995,
+          0.23000000417232513,
+          0.5099999904632568
+        ],
+        "tail": [
+          0.5799999833106995,
+          0.26499998569488525,
+          0.4099999964237213
+        ]
+      },
+      "UpperArm.L": {
+        "head": [
+          -0.3100000023841858,
+          0.0,
+          1.100000023841858
+        ],
+        "tail": [
+          -0.49000000953674316,
+          0.05999999865889549,
+          0.7799999713897705
+        ]
+      },
+      "Forearm.L": {
+        "head": [
+          -0.49000000953674316,
+          0.05999999865889549,
+          0.7799999713897705
+        ],
+        "tail": [
+          -0.5799999833106995,
+          0.23000000417232513,
+          0.5099999904632568
+        ]
+      },
+      "Hand.L": {
+        "head": [
+          -0.5799999833106995,
+          0.23000000417232513,
+          0.5099999904632568
+        ],
+        "tail": [
+          -0.5799999833106995,
+          0.26499998569488525,
+          0.4099999964237213
+        ]
+      },
+      "Thigh.R": {
+        "head": [
+          0.1899999976158142,
+          0.0,
+          0.6399999856948853
+        ],
+        "tail": [
+          0.23000000417232513,
+          0.05000000074505806,
+          0.36000001430511475
+        ]
+      },
+      "Shin.R": {
+        "head": [
+          0.23000000417232513,
+          0.05000000074505806,
+          0.36000001430511475
+        ],
+        "tail": [
+          0.25,
+          0.0,
+          0.10000000149011612
+        ]
+      },
+      "Foot.R": {
+        "head": [
+          0.25,
+          0.0,
+          0.10000000149011612
+        ],
+        "tail": [
+          0.25,
+          0.20000000298023224,
+          0.07999999821186066
+        ]
+      },
+      "Thigh.L": {
+        "head": [
+          -0.1899999976158142,
+          0.0,
+          0.6399999856948853
+        ],
+        "tail": [
+          -0.23000000417232513,
+          0.05000000074505806,
+          0.36000001430511475
+        ]
+      },
+      "Shin.L": {
+        "head": [
+          -0.23000000417232513,
+          0.05000000074505806,
+          0.36000001430511475
+        ],
+        "tail": [
+          -0.25,
+          0.0,
+          0.10000000149011612
+        ]
+      },
+      "Foot.L": {
+        "head": [
+          -0.25,
+          0.0,
+          0.10000000149011612
+        ],
+        "tail": [
+          -0.25,
+          0.20000000298023224,
+          0.07999999821186066
+        ]
+      }
+    },
+    "rest_frame": 0,
+    "clips": [
+      "idle",
+      "run",
+      "attack_01",
+      "hit",
+      "death"
+    ],
+    "parts": [
+      "RootTorso",
+      "CarvedForestMask",
+      "TwistedRootLimb",
+      "BarkRidge",
+      "BarkRidge.001",
+      "TwistedRootLimb.001",
+      "BarkRidge.002",
+      "BarkRidge.003",
+      "TwistedRootLimb.002",
+      "BarkRidge.004",
+      "BarkRidge.005",
+      "TwistedRootLimb.003",
+      "BarkRidge.006",
+      "BarkRidge.007",
+      "GraspingPalm",
+      "RootClaw",
+      "RootClaw.001",
+      "RootClaw.002",
+      "RootFoot",
+      "BranchAntler",
+      "AntlerFork",
+      "MaskEyeSocket",
+      "MaskEye",
+      "CarvedBrow",
+      "MaskCheek",
+      "LeafMantle",
+      "LeafMantle.001",
+      "LeafMantle.002",
+      "LeafMantle.003",
+      "TorsoBarkFlute",
+      "TorsoBarkFlute.001",
+      "TorsoBarkFlute.002",
+      "TwistedRootLimb.004",
+      "BarkRidge.008",
+      "BarkRidge.009",
+      "TwistedRootLimb.005",
+      "BarkRidge.010",
+      "BarkRidge.011",
+      "TwistedRootLimb.006",
+      "BarkRidge.012",
+      "BarkRidge.013",
+      "TwistedRootLimb.007",
+      "BarkRidge.014",
+      "BarkRidge.015",
+      "GraspingPalm.001",
+      "RootClaw.003",
+      "RootClaw.004",
+      "RootClaw.005",
+      "RootFoot.001",
+      "BranchAntler.001",
+      "AntlerFork.001",
+      "MaskEyeSocket.001",
+      "MaskEye.001",
+      "CarvedBrow.001",
+      "MaskCheek.001",
+      "LeafMantle.004",
+      "LeafMantle.005",
+      "LeafMantle.006",
+      "LeafMantle.007",
+      "TorsoBarkFlute.003",
+      "TorsoBarkFlute.004",
+      "TorsoBarkFlute.005",
+      "MaskNose",
+      "MouthCarving",
+      "MaskBeard",
+      "MaskBeard.001",
+      "HeartSeal",
+      "HeartStone"
+    ],
+    "target_bounds": [
+      [
+        -0.7038836479187012,
+        -0.23539447784423828,
+        -0.03856144845485687
+      ],
+      [
+        0.7038836479187012,
+        0.6009097099304199,
+        1.920493245124817
+      ]
+    ],
+    "generated_bounds": [
+      [
+        -0.4946467876434326,
+        -0.3211638927459717,
+        -0.4461666941642761
+      ],
+      [
+        0.34806257486343384,
+        0.48010897636413574,
+        0.4328843355178833
+      ]
+    ]
+  },
+  "mob_cairn_sentinel": {
+    "bones": {
+      "Root": {
+        "head": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tail": [
+          0.0,
+          0.0,
+          0.18000000715255737
+        ]
+      },
+      "Hips": {
+        "head": [
+          0.0,
+          0.0,
+          0.6499999761581421
+        ],
+        "tail": [
+          0.0,
+          -0.05999999865889549,
+          0.8799999952316284
+        ]
+      },
+      "Spine": {
+        "head": [
+          0.0,
+          -0.05999999865889549,
+          0.8799999952316284
+        ],
+        "tail": [
+          0.0,
+          -0.029999999329447746,
+          1.100000023841858
+        ]
+      },
+      "Chest": {
+        "head": [
+          0.0,
+          -0.029999999329447746,
+          1.100000023841858
+        ],
+        "tail": [
+          0.0,
+          0.10000000149011612,
+          1.2000000476837158
+        ]
+      },
+      "Neck": {
+        "head": [
+          0.0,
+          0.10000000149011612,
+          1.2000000476837158
+        ],
+        "tail": [
+          0.0,
+          0.20000000298023224,
+          1.3200000524520874
+        ]
+      },
+      "Head": {
+        "head": [
+          0.0,
+          0.20000000298023224,
+          1.3200000524520874
+        ],
+        "tail": [
+          0.0,
+          0.20000000298023224,
+          1.5199999809265137
+        ]
+      },
+      "UpperArm.R": {
+        "head": [
+          0.3100000023841858,
+          0.0,
+          1.100000023841858
+        ],
+        "tail": [
+          0.49000000953674316,
+          0.05999999865889549,
+          0.7799999713897705
+        ]
+      },
+      "Forearm.R": {
+        "head": [
+          0.49000000953674316,
+          0.05999999865889549,
+          0.7799999713897705
+        ],
+        "tail": [
+          0.5799999833106995,
+          0.23000000417232513,
+          0.5099999904632568
+        ]
+      },
+      "Hand.R": {
+        "head": [
+          0.5799999833106995,
+          0.23000000417232513,
+          0.5099999904632568
+        ],
+        "tail": [
+          0.5799999833106995,
+          0.26499998569488525,
+          0.4099999964237213
+        ]
+      },
+      "UpperArm.L": {
+        "head": [
+          -0.3100000023841858,
+          0.0,
+          1.100000023841858
+        ],
+        "tail": [
+          -0.49000000953674316,
+          0.05999999865889549,
+          0.7799999713897705
+        ]
+      },
+      "Forearm.L": {
+        "head": [
+          -0.49000000953674316,
+          0.05999999865889549,
+          0.7799999713897705
+        ],
+        "tail": [
+          -0.5799999833106995,
+          0.23000000417232513,
+          0.5099999904632568
+        ]
+      },
+      "Hand.L": {
+        "head": [
+          -0.5799999833106995,
+          0.23000000417232513,
+          0.5099999904632568
+        ],
+        "tail": [
+          -0.5799999833106995,
+          0.26499998569488525,
+          0.4099999964237213
+        ]
+      },
+      "Thigh.R": {
+        "head": [
+          0.1899999976158142,
+          0.0,
+          0.6399999856948853
+        ],
+        "tail": [
+          0.23000000417232513,
+          0.05000000074505806,
+          0.36000001430511475
+        ]
+      },
+      "Shin.R": {
+        "head": [
+          0.23000000417232513,
+          0.05000000074505806,
+          0.36000001430511475
+        ],
+        "tail": [
+          0.25,
+          0.0,
+          0.10000000149011612
+        ]
+      },
+      "Foot.R": {
+        "head": [
+          0.25,
+          0.0,
+          0.10000000149011612
+        ],
+        "tail": [
+          0.25,
+          0.20000000298023224,
+          0.07999999821186066
+        ]
+      },
+      "Thigh.L": {
+        "head": [
+          -0.1899999976158142,
+          0.0,
+          0.6399999856948853
+        ],
+        "tail": [
+          -0.23000000417232513,
+          0.05000000074505806,
+          0.36000001430511475
+        ]
+      },
+      "Shin.L": {
+        "head": [
+          -0.23000000417232513,
+          0.05000000074505806,
+          0.36000001430511475
+        ],
+        "tail": [
+          -0.25,
+          0.0,
+          0.10000000149011612
+        ]
+      },
+      "Foot.L": {
+        "head": [
+          -0.25,
+          0.0,
+          0.10000000149011612
+        ],
+        "tail": [
+          -0.25,
+          0.20000000298023224,
+          0.07999999821186066
+        ]
+      }
+    },
+    "rest_frame": 0,
+    "clips": [
+      "idle",
+      "run",
+      "attack_01",
+      "hit",
+      "death"
+    ],
+    "parts": [
+      "SpiritSkin",
+      "EliteCrown"
+    ],
+    "target_bounds": [
+      [
+        -0.7049999833106995,
+        -0.25884756445884705,
+        0.0
+      ],
+      [
+        0.7049999833106995,
+        0.4317387640476227,
+        1.9306854009628296
+      ]
+    ],
+    "generated_bounds": [
+      [
+        -0.2942531108856201,
+        -0.18430811166763306,
+        -0.517707347869873
+      ],
+      [
+        0.2797602415084839,
+        0.21136367321014404,
+        0.5132858753204346
+      ]
+    ]
+  },
+  "mob_grave_wisp": {
+    "bones": {
+      "Root": {
+        "head": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tail": [
+          0.0,
+          0.0,
+          0.18000000715255737
+        ]
+      },
+      "Hips": {
+        "head": [
+          0.0,
+          0.0,
+          0.8500000238418579
+        ],
+        "tail": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "Chest": {
+        "head": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "tail": [
+          0.0,
+          0.0,
+          1.2999999523162842
+        ]
+      },
+      "Head": {
+        "head": [
+          0.0,
+          0.0,
+          1.2999999523162842
+        ],
+        "tail": [
+          0.0,
+          0.0,
+          1.5
+        ]
+      }
+    },
+    "rest_frame": 0,
+    "clips": [
+      "idle",
+      "run",
+      "attack_01",
+      "hit",
+      "death"
+    ],
+    "parts": [
+      "SpiritSkin",
+      "EliteCrown"
+    ],
+    "target_bounds": [
+      [
+        -0.36914366483688354,
+        -0.27331477403640747,
+        0.12970766425132751
+      ],
+      [
+        0.40174537897109985,
+        0.27331477403640747,
+        1.5608155727386475
+      ]
+    ],
+    "generated_bounds": [
+      [
+        -0.33395254611968994,
+        -0.31736892461776733,
+        -0.5380386114120483
+      ],
+      [
+        0.3745371103286743,
+        0.30790138244628906,
+        0.513035774230957
+      ]
+    ]
+  },
+  "mob_road_bandit": {
+    "bones": {
+      "Root": {
+        "head": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tail": [
+          0.0,
+          0.0,
+          0.18000000715255737
+        ]
+      },
+      "Hips": {
+        "head": [
+          0.0,
+          0.0,
+          0.9399999976158142
+        ],
+        "tail": [
+          0.0,
+          0.0,
+          1.1399999856948853
+        ]
+      },
+      "Spine": {
+        "head": [
+          0.0,
+          0.0,
+          1.1399999856948853
+        ],
+        "tail": [
+          0.0,
+          0.0,
+          1.3700000047683716
+        ]
+      },
+      "Chest": {
+        "head": [
+          0.0,
+          0.0,
+          1.3700000047683716
+        ],
+        "tail": [
+          0.0,
+          0.0,
+          1.5172070264816284
+        ]
+      },
+      "Neck": {
+        "head": [
+          0.0,
+          0.0,
+          1.5172070264816284
+        ],
+        "tail": [
+          0.0,
+          0.0,
+          1.585729956626892
+        ]
+      },
+      "Head": {
+        "head": [
+          0.0,
+          0.0,
+          1.585729956626892
+        ],
+        "tail": [
+          0.0,
+          0.0,
+          1.784999966621399
+        ]
+      },
+      "UpperArm.R": {
+        "head": [
+          0.31439998745918274,
+          0.0,
+          1.4299999475479126
+        ],
+        "tail": [
+          0.4012974798679352,
+          0.0,
+          1.159999966621399
+        ]
+      },
+      "Forearm.R": {
+        "head": [
+          0.4012974798679352,
+          0.0,
+          1.159999966621399
+        ],
+        "tail": [
+          0.42800000309944153,
+          0.014999999664723873,
+          0.9200000166893005
+        ]
+      },
+      "Hand.R": {
+        "head": [
+          0.42800000309944153,
+          0.014999999664723873,
+          0.9200000166893005
+        ],
+        "tail": [
+          0.42800000309944153,
+          0.05000000074505806,
+          0.8199999928474426
+        ]
+      },
+      "UpperArm.L": {
+        "head": [
+          -0.31439998745918274,
+          0.0,
+          1.4299999475479126
+        ],
+        "tail": [
+          -0.4012974798679352,
+          0.0,
+          1.159999966621399
+        ]
+      },
+      "Forearm.L": {
+        "head": [
+          -0.4012974798679352,
+          0.0,
+          1.159999966621399
+        ],
+        "tail": [
+          -0.42800000309944153,
+          0.014999999664723873,
+          0.9200000166893005
+        ]
+      },
+      "Hand.L": {
+        "head": [
+          -0.42800000309944153,
+          0.014999999664723873,
+          0.9200000166893005
+        ],
+        "tail": [
+          -0.42800000309944153,
+          0.05000000074505806,
+          0.8199999928474426
+        ]
+      },
+      "Thigh.R": {
+        "head": [
+          0.14445000886917114,
+          0.0,
+          0.949999988079071
+        ],
+        "tail": [
+          0.14980000257492065,
+          0.014999999664723873,
+          0.5299999713897705
+        ]
+      },
+      "Shin.R": {
+        "head": [
+          0.14980000257492065,
+          0.014999999664723873,
+          0.5299999713897705
+        ],
+        "tail": [
+          0.14980000257492065,
+          0.0,
+          0.14000000059604645
+        ]
+      },
+      "Foot.R": {
+        "head": [
+          0.14980000257492065,
+          0.0,
+          0.14000000059604645
+        ],
+        "tail": [
+          0.14980000257492065,
+          0.20000000298023224,
+          0.07999999821186066
+        ]
+      },
+      "Thigh.L": {
+        "head": [
+          -0.14445000886917114,
+          0.0,
+          0.949999988079071
+        ],
+        "tail": [
+          -0.14980000257492065,
+          0.014999999664723873,
+          0.5299999713897705
+        ]
+      },
+      "Shin.L": {
+        "head": [
+          -0.14980000257492065,
+          0.014999999664723873,
+          0.5299999713897705
+        ],
+        "tail": [
+          -0.14980000257492065,
+          0.0,
+          0.14000000059604645
+        ]
+      },
+      "Foot.L": {
+        "head": [
+          -0.14980000257492065,
+          0.0,
+          0.14000000059604645
+        ],
+        "tail": [
+          -0.14980000257492065,
+          0.20000000298023224,
+          0.07999999821186066
+        ]
+      }
+    },
+    "rest_frame": 0,
+    "clips": [
+      "run",
+      "hit",
+      "death",
+      "skill_guard",
+      "skill_step",
+      "skill_plant",
+      "skill_riposte",
+      "idle",
+      "longsword_idle",
+      "attack_01",
+      "longsword_01",
+      "attack_02",
+      "longsword_02",
+      "attack_03",
+      "longsword_03",
+      "longsword_run"
+    ],
+    "parts": [
+      "QuiltedTorso",
+      "ForgedCuirass",
+      "RolledCuirassEdge",
+      "RolledCuirassEdge.001",
+      "ArticulatedFauld",
+      "FauldEdge",
+      "ArticulatedFauld.001",
+      "FauldEdge.001",
+      "ArticulatedFauld.002",
+      "FauldEdge.002",
+      "LeatherBelt",
+      "BuckleSide",
+      "BuckleSide.001",
+      "BuckleBar",
+      "BuckleBar.001",
+      "BeltStud",
+      "BeltStud.001",
+      "BeltStud.002",
+      "BeltStud.003",
+      "BeltStud.004",
+      "BeltStud.005",
+      "BeltStud.006",
+      "BeltStud.007",
+      "BeltStud.008",
+      "BeltStud.009",
+      "BeltStud.010",
+      "BeltStud.011",
+      "BeltStud.012",
+      "BeltStud.013",
+      "BeltStud.014",
+      "BeltStud.015",
+      "Tailored_UpperArm_R",
+      "Tailored_Thigh_R",
+      "Body_Boot_R.001",
+      "BootSole_R",
+      "Sabatons_R",
+      "Sabatons_R.001",
+      "Sabatons_R.002",
+      "Sabatons_R.003",
+      "Greave_R",
+      "ArmorRim",
+      "ArmorRim.001",
+      "Vambrace_R",
+      "ArmorRim.002",
+      "ArmorRim.003",
+      "GlovePalm",
+      "CurledFinger",
+      "KnucklePlate",
+      "CurledFinger.001",
+      "KnucklePlate.001",
+      "CurledFinger.002",
+      "KnucklePlate.002",
+      "CurledFinger.003",
+      "KnucklePlate.003",
+      "Thumb",
+      "Tailored_UpperArm_L",
+      "Tailored_Thigh_L",
+      "Body_Boot_L.001",
+      "BootSole_L",
+      "Sabatons_L",
+      "Sabatons_L.001",
+      "Sabatons_L.002",
+      "Sabatons_L.003",
+      "Greave_L",
+      "ArmorRim.004",
+      "ArmorRim.005",
+      "Vambrace_L",
+      "ArmorRim.006",
+      "ArmorRim.007",
+      "GlovePalm.001",
+      "CurledFinger.004",
+      "KnucklePlate.004",
+      "CurledFinger.005",
+      "KnucklePlate.005",
+      "CurledFinger.006",
+      "KnucklePlate.006",
+      "CurledFinger.007",
+      "KnucklePlate.007",
+      "Thumb.001",
+      "AnatomicalHead",
+      "AnatomicalEye",
+      "AnatomicalEye.001",
+      "FittedIris",
+      "FittedPupil",
+      "FittedIris.001",
+      "FittedPupil.001",
+      "HeroPauldron_R_0",
+      "ShoulderRolledLip",
+      "HeroPauldron_R_1",
+      "ShoulderRolledLip.001",
+      "HeroPauldron_R_2",
+      "ShoulderRolledLip.002",
+      "HeroBiceps_R",
+      "HeroThigh_R",
+      "HeroPauldron_L_0",
+      "ShoulderRolledLip.003",
+      "HeroPauldron_L_1",
+      "ShoulderRolledLip.004",
+      "HeroPauldron_L_2",
+      "ShoulderRolledLip.005",
+      "HeroBiceps_L",
+      "HeroThigh_L",
+      "ForgedKneeShield_R",
+      "KneeShieldLip",
+      "HeroSabaton_R_0",
+      "HeroSabaton_R_1",
+      "HeroSabaton_R_2",
+      "HeroSabaton_R_3",
+      "ForgedKneeShield_L",
+      "KneeShieldLip.001",
+      "HeroSabaton_L_0",
+      "HeroSabaton_L_1",
+      "HeroSabaton_L_2",
+      "HeroSabaton_L_3",
+      "Jade_Lamella",
+      "Jade_LamellaHem",
+      "Jade_Lacing",
+      "Jade_Lamella.001",
+      "Jade_LamellaHem.001",
+      "Jade_Lamella.002",
+      "Jade_LamellaHem.002",
+      "Jade_Lacing.001",
+      "Jade_Lamella.003",
+      "Jade_LamellaHem.003",
+      "Jade_Lamella.004",
+      "Jade_LamellaHem.004",
+      "Jade_Lacing.002",
+      "Jade_Lamella.005",
+      "Jade_LamellaHem.005",
+      "Jade_Lamella.006",
+      "Jade_LamellaHem.006",
+      "Jade_Lacing.003",
+      "Jade_Lamella.007",
+      "Jade_LamellaHem.007",
+      "Jade_Lamella.008",
+      "Jade_LamellaHem.008",
+      "Jade_Lacing.004",
+      "Jade_Lamella.009",
+      "Jade_LamellaHem.009",
+      "Jade_Lamella.010",
+      "Jade_LamellaHem.010",
+      "Jade_Lacing.005",
+      "Jade_Lamella.011",
+      "Jade_LamellaHem.011",
+      "Jade_Lamella.012",
+      "Jade_LamellaHem.012",
+      "Jade_Lacing.006",
+      "Jade_Lamella.013",
+      "Jade_LamellaHem.013",
+      "Jade_Lamella.014",
+      "Jade_LamellaHem.014",
+      "Jade_Lacing.007",
+      "Jade_Lamella.015",
+      "Jade_LamellaHem.015",
+      "Jade_Lamella.016",
+      "Jade_LamellaHem.016",
+      "Jade_Lacing.008",
+      "Jade_Lamella.017",
+      "Jade_LamellaHem.017",
+      "Jade_Lamella.018",
+      "Jade_LamellaHem.018",
+      "Jade_Lacing.009",
+      "Jade_Lamella.019",
+      "Jade_LamellaHem.019",
+      "Jade_Lamella.020",
+      "Jade_LamellaHem.020",
+      "Jade_Lacing.010",
+      "Jade_Lamella.021",
+      "Jade_LamellaHem.021",
+      "Jade_Lamella.022",
+      "Jade_LamellaHem.022",
+      "Jade_Lacing.011",
+      "Jade_Lamella.023",
+      "Jade_LamellaHem.023",
+      "Jade_Lamella.024",
+      "Jade_LamellaHem.024",
+      "Jade_Lacing.012",
+      "Jade_Lamella.025",
+      "Jade_LamellaHem.025",
+      "Jade_Lamella.026",
+      "Jade_LamellaHem.026",
+      "Jade_Lacing.013",
+      "Jade_Lamella.027",
+      "Jade_LamellaHem.027",
+      "Jade_Lamella.028",
+      "Jade_LamellaHem.028",
+      "Jade_Lacing.014",
+      "Jade_Lamella.029",
+      "Jade_LamellaHem.029",
+      "Jade_Lamella.030",
+      "Jade_LamellaHem.030",
+      "Jade_Lacing.015",
+      "Jade_Lamella.031",
+      "Jade_LamellaHem.031",
+      "Jade_Lamella.032",
+      "Jade_LamellaHem.032",
+      "Jade_Lacing.016",
+      "Jade_Lamella.033",
+      "Jade_LamellaHem.033",
+      "Jade_Lamella.034",
+      "Jade_LamellaHem.034",
+      "Jade_Lacing.017",
+      "Jade_Lamella.035",
+      "Jade_LamellaHem.035",
+      "Jade_Lamella.036",
+      "Jade_LamellaHem.036",
+      "Jade_Lacing.018",
+      "Jade_Lamella.037",
+      "Jade_LamellaHem.037",
+      "Jade_Lamella.038",
+      "Jade_LamellaHem.038",
+      "Jade_Lacing.019",
+      "Jade_Lamella.039",
+      "Jade_LamellaHem.039",
+      "Jade_Lamella.040",
+      "Jade_LamellaHem.040",
+      "Jade_Lacing.020",
+      "Jade_Lamella.041",
+      "Jade_LamellaHem.041",
+      "Jade_Lamella.042",
+      "Jade_LamellaHem.042",
+      "Jade_Lacing.021",
+      "Jade_Lamella.043",
+      "Jade_LamellaHem.043",
+      "Jade_Lamella.044",
+      "Jade_LamellaHem.044",
+      "Jade_Lacing.022",
+      "Jade_Lamella.045",
+      "Jade_LamellaHem.045",
+      "Jade_Lamella.046",
+      "Jade_LamellaHem.046",
+      "Jade_Lacing.023",
+      "Jade_Lamella.047",
+      "Jade_LamellaHem.047",
+      "Jade_Lamella.048",
+      "Jade_LamellaHem.048",
+      "Jade_Lacing.024",
+      "Jade_Lamella.049",
+      "Jade_LamellaHem.049",
+      "Jade_Lamella.050",
+      "Jade_LamellaHem.050",
+      "Jade_Lacing.025",
+      "Jade_Lamella.051",
+      "Jade_LamellaHem.051",
+      "Jade_Lamella.052",
+      "Jade_LamellaHem.052",
+      "Jade_Lacing.026",
+      "Jade_Lamella.053",
+      "Jade_LamellaHem.053",
+      "Jade_Lamella.054",
+      "Jade_LamellaHem.054",
+      "Jade_Lacing.027",
+      "Jade_Lamella.055",
+      "Jade_LamellaHem.055",
+      "Jade_Lamella.056",
+      "Jade_LamellaHem.056",
+      "Jade_Lacing.028",
+      "Jade_Lamella.057",
+      "Jade_LamellaHem.057",
+      "Jade_Lamella.058",
+      "Jade_LamellaHem.058",
+      "Jade_Lacing.029",
+      "Jade_Lamella.059",
+      "Jade_LamellaHem.059",
+      "Jade_Lamella.060",
+      "Jade_LamellaHem.060",
+      "Jade_Lacing.030",
+      "Jade_Lamella.061",
+      "Jade_LamellaHem.061",
+      "Jade_Lamella.062",
+      "Jade_LamellaHem.062",
+      "Jade_Lacing.031",
+      "Jade_Lamella.063",
+      "Jade_LamellaHem.063",
+      "Jade_Lamella.064",
+      "Jade_LamellaHem.064",
+      "Jade_Lacing.032",
+      "Jade_Lamella.065",
+      "Jade_LamellaHem.065",
+      "Jade_Lamella.066",
+      "Jade_LamellaHem.066",
+      "Jade_Lacing.033",
+      "Jade_Lamella.067",
+      "Jade_LamellaHem.067",
+      "Jade_Lamella.068",
+      "Jade_LamellaHem.068",
+      "Jade_Lacing.034",
+      "Jade_Lamella.069",
+      "Jade_LamellaHem.069",
+      "Jade_Lamella.070",
+      "Jade_LamellaHem.070",
+      "Jade_Lacing.035",
+      "Jade_Lamella.071",
+      "Jade_LamellaHem.071",
+      "Jade_Lamella.072",
+      "Jade_LamellaHem.072",
+      "Jade_Lacing.036",
+      "Jade_Lamella.073",
+      "Jade_LamellaHem.073",
+      "Jade_Lamella.074",
+      "Jade_LamellaHem.074",
+      "Jade_Lacing.037",
+      "Jade_Lamella.075",
+      "Jade_LamellaHem.075",
+      "Jade_Lamella.076",
+      "Jade_LamellaHem.076",
+      "Jade_Lacing.038",
+      "Jade_Lamella.077",
+      "Jade_LamellaHem.077",
+      "Jade_Lamella.078",
+      "Jade_LamellaHem.078",
+      "Jade_Lacing.039",
+      "Jade_Lamella.079",
+      "Jade_LamellaHem.079",
+      "Jade_Lamella.080",
+      "Jade_LamellaHem.080",
+      "Jade_Lacing.040",
+      "Jade_Lamella.081",
+      "Jade_LamellaHem.081",
+      "Jade_Lamella.082",
+      "Jade_LamellaHem.082",
+      "Jade_Lacing.041",
+      "Jade_Lamella.083",
+      "Jade_LamellaHem.083",
+      "Jade_Lamella.084",
+      "Jade_LamellaHem.084",
+      "Jade_Lacing.042",
+      "Jade_Lamella.085",
+      "Jade_LamellaHem.085",
+      "Jade_Lamella.086",
+      "Jade_LamellaHem.086",
+      "Jade_Lacing.043",
+      "Jade_Lamella.087",
+      "Jade_LamellaHem.087",
+      "Jade_Lamella.088",
+      "Jade_LamellaHem.088",
+      "Jade_Lacing.044",
+      "Jade_Lamella.089",
+      "Jade_LamellaHem.089",
+      "Jade_Lamella.090",
+      "Jade_LamellaHem.090",
+      "Jade_Lacing.045",
+      "Jade_Lamella.091",
+      "Jade_LamellaHem.091",
+      "Jade_Lamella.092",
+      "Jade_LamellaHem.092",
+      "Jade_Lacing.046",
+      "Jade_Lamella.093",
+      "Jade_LamellaHem.093",
+      "Jade_Lamella.094",
+      "Jade_LamellaHem.094",
+      "Jade_Lacing.047",
+      "Jade_Lamella.095",
+      "Jade_LamellaHem.095",
+      "Jade_Lamella.096",
+      "Jade_LamellaHem.096",
+      "Jade_Lacing.048",
+      "Jade_Lamella.097",
+      "Jade_LamellaHem.097",
+      "Jade_Lamella.098",
+      "Jade_LamellaHem.098",
+      "Jade_Lacing.049",
+      "Jade_Lamella.099",
+      "Jade_LamellaHem.099",
+      "Jade_Lamella.100",
+      "Jade_LamellaHem.100",
+      "Jade_Lacing.050",
+      "Jade_Lamella.101",
+      "Jade_LamellaHem.101",
+      "Jade_Lamella.102",
+      "Jade_LamellaHem.102",
+      "Jade_Lacing.051",
+      "Jade_Lamella.103",
+      "Jade_LamellaHem.103",
+      "Jade_Lamella.104",
+      "Jade_LamellaHem.104",
+      "Jade_Lacing.052",
+      "Jade_Lamella.105",
+      "Jade_LamellaHem.105",
+      "Jade_Lamella.106",
+      "Jade_LamellaHem.106",
+      "Jade_Lacing.053",
+      "Jade_Lamella.107",
+      "Jade_LamellaHem.107",
+      "Jade_Lamella.108",
+      "Jade_LamellaHem.108",
+      "Jade_Lacing.054",
+      "Jade_Lamella.109",
+      "Jade_LamellaHem.109",
+      "Jade_Lamella.110",
+      "Jade_LamellaHem.110",
+      "Jade_Lacing.055",
+      "Jade_Lamella.111",
+      "Jade_LamellaHem.111",
+      "Jade_Lamella.112",
+      "Jade_LamellaHem.112",
+      "Jade_Lacing.056",
+      "Jade_Lamella.113",
+      "Jade_LamellaHem.113",
+      "Jade_Lamella.114",
+      "Jade_LamellaHem.114",
+      "Jade_Lacing.057",
+      "Jade_Lamella.115",
+      "Jade_LamellaHem.115",
+      "Jade_Lamella.116",
+      "Jade_LamellaHem.116",
+      "Jade_Lacing.058",
+      "Jade_Lamella.117",
+      "Jade_LamellaHem.117",
+      "Jade_Lamella.118",
+      "Jade_LamellaHem.118",
+      "Jade_Lacing.059",
+      "Jade_Lamella.119",
+      "Jade_LamellaHem.119",
+      "Jade_CrossCollar",
+      "Jade_CollarPiping",
+      "Jade_CrossCollar.001",
+      "Jade_CollarPiping.001",
+      "Jade_StandingCollar",
+      "Jade_CollarBand",
+      "Jade_SilkFall",
+      "Jade_RobeBorder",
+      "Jade_CloudEmbroidery",
+      "Jade_CloudEmbroidery.001",
+      "Jade_SilkFall.001",
+      "Jade_RobeBorder.001",
+      "Jade_CloudEmbroidery.002",
+      "Jade_CloudEmbroidery.003",
+      "Jade_SilkFall.002",
+      "Jade_RobeBorder.002",
+      "Jade_CloudEmbroidery.004",
+      "Jade_CloudEmbroidery.005",
+      "Jade_SilkFall.003",
+      "Jade_RobeBorder.003",
+      "Jade_CloudEmbroidery.006",
+      "Jade_CloudEmbroidery.007",
+      "Jade_SilkSash",
+      "Jade_BeltRing",
+      "Jade_SashCord",
+      "Jade_SashPendant",
+      "Jade_Tassel",
+      "Jade_Tassel.001",
+      "Jade_Tassel.002",
+      "Jade_Tassel.003",
+      "Jade_Tassel.004",
+      "Jade_Tassel.005",
+      "Jade_Tassel.006",
+      "Jade_SashCord.001",
+      "Jade_SashPendant.001",
+      "Jade_Tassel.007",
+      "Jade_Tassel.008",
+      "Jade_Tassel.009",
+      "Jade_Tassel.010",
+      "Jade_Tassel.011",
+      "Jade_Tassel.012",
+      "Jade_Tassel.013",
+      "Jade_ShoulderCloud",
+      "Jade_ShoulderCloud.001",
+      "Jade_ShoulderGem",
+      "Jade_ShoulderCloud.002",
+      "Jade_ShoulderCloud.003",
+      "Jade_ShoulderGem.001",
+      "Jade_SweptHair",
+      "Jade_Topknot",
+      "Jade_KnotTie",
+      "Jade_Hairpin",
+      "Jade_HairpinStone",
+      "Jade_SweptStrand",
+      "Jade_SweptStrand.001",
+      "Jade_SweptStrand.002",
+      "Jade_SweptStrand.003",
+      "Jade_SweptStrand.004",
+      "Jade_SweptStrand.005",
+      "Jade_SweptStrand.006",
+      "Jade_SweptStrand.007",
+      "Jade_SweptStrand.008",
+      "Jade_SweptStrand.009",
+      "Jade_SweptStrand.010",
+      "Jade_SweptStrand.011",
+      "Jade_SweptStrand.012",
+      "Jade_SweptStrand.013",
+      "Jade_SweptStrand.014",
+      "Jade_SweptStrand.015",
+      "Jade_SweptStrand.016",
+      "Jade_SweptStrand.017",
+      "Jade_SweptStrand.018",
+      "Jade_SweptStrand.019",
+      "Jade_SweptStrand.020",
+      "Jade_SweptStrand.021",
+      "Jade_SweptStrand.022",
+      "Jade_SweptStrand.023",
+      "Jade_SweptStrand.024",
+      "Jade_SweptStrand.025",
+      "Jade_SweptStrand.026",
+      "Jade_SweptStrand.027",
+      "Jade_KnotStrand",
+      "Jade_KnotStrand.001",
+      "Jade_KnotStrand.002",
+      "Jade_KnotStrand.003",
+      "Jade_KnotStrand.004",
+      "Jade_KnotStrand.005",
+      "Jade_KnotStrand.006",
+      "Jade_KnotStrand.007",
+      "Jade_Ponytail",
+      "Jade_BackCloud",
+      "Jade_BackCloud.001",
+      "EastAsian_Brow",
+      "EastAsian_LidCrease",
+      "EastAsian_Brow.001",
+      "EastAsian_LidCrease.001",
+      "EastAsian_Mouth"
+    ],
+    "target_bounds": [
+      [
+        -0.485548198223114,
+        -0.210485577583313,
+        0.006000000052154064
+      ],
+      [
+        0.485548198223114,
+        0.2251063883304596,
+        1.899399995803833
+      ]
+    ],
+    "generated_bounds": [
+      [
+        -0.4915733337402344,
+        -0.23010224103927612,
+        -0.4931795299053192
+      ],
+      [
+        0.474078893661499,
+        0.26553845405578613,
+        0.4975823163986206
+      ]
+    ]
+  }
+}

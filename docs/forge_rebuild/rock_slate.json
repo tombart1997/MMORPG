@@ -1,0 +1,32 @@
+{
+  "key": "rock_slate",
+  "forge_asset_id": "390757041a11",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\390757041a11\\generated\\5d1b26a4e841\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\world_kit\\rock0.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\rock_slate.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -1.282448410987854,
+      -0.8824868202209473,
+      -0.23712033033370972
+    ],
+    [
+      1.4743173122406006,
+      0.8558378219604492,
+      1.335213303565979
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 188462,
+      "after": 4998,
+      "extent_drift": 0.009935362505152982
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

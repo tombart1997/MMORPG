@@ -1,0 +1,44 @@
+{
+  "technical_status": "passed",
+  "visual_status": "pending",
+  "errors": [],
+  "warnings": [],
+  "triangles": 11996,
+  "materials": 1,
+  "textures": [
+    {
+      "name": "Forge_mob_ironback_RuntimeAtlas",
+      "mime": "image/png",
+      "embedded": true
+    }
+  ],
+  "skins": 1,
+  "bones": [
+    "Root",
+    "Hips",
+    "Spine",
+    "Chest",
+    "Neck",
+    "Head",
+    "UpperArm.L",
+    "Forearm.L",
+    "Hand.L",
+    "UpperArm.R",
+    "Forearm.R",
+    "Hand.R",
+    "Thigh.L",
+    "Shin.L",
+    "Foot.L",
+    "Thigh.R",
+    "Shin.R",
+    "Foot.R"
+  ],
+  "animations": [
+    "death",
+    "hit",
+    "attack_01",
+    "run",
+    "idle"
+  ],
+  "mesh_objects": 1
+}

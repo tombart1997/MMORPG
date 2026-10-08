@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "inventory_sources_retained": 110,
+  "deployed_version_hashes_checked": 57,
+  "fallbacks": 54,
+  "repairs_including_derived_fern": 3,
+  "archived_candidates": 61,
+  "actual_game_rollback_and_restore": true,
+  "idempotent_apply": true,
+  "scope": "Exact immutable versions, source/reference retention and mapping roundtrip. Visual and runtime checks are separate reports."
+}

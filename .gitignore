@@ -16,3 +16,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 .codex/
+.local/forge_rebuild/
+.local/
+**/.venv/
+**/.backends/

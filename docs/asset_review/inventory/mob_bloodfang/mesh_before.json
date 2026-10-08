@@ -1,0 +1,326 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "Forge_mob_bloodfang",
+      "vertices": 15885,
+      "triangles": 14000,
+      "local_bounds": [
+        [
+          -0.432167112827301,
+          -1.3480395078659058,
+          1.0432349029088073e-07
+        ],
+        [
+          0.4323287308216095,
+          1.084883451461792,
+          1.440324068069458
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        6986
+      ],
+      "sharp_edges_over_60_degrees": 2595,
+      "smooth_faces": 14000,
+      "faces": 14000,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.03498085032125617,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_mob_bloodfang_RuntimeColor"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        0.999999867985025,
+        1.0000001192092896
+      ],
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Forge_mob_bloodfang_RuntimeColor",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "Forge_mob_bloodfang_RuntimeAtlas",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        }
+      ]
+    }
+  ],
+  "triangles": 14000,
+  "skeletons": [
+    {
+      "name": "SpiritRig",
+      "bones": [
+        {
+          "name": "Root",
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            3.2634005719955894e-08,
+            0.9534149169921875
+          ]
+        },
+        {
+          "name": "Hips",
+          "head": [
+            0.0,
+            -0.3899998664855957,
+            0.869999885559082
+          ],
+          "tail": [
+            0.0,
+            -0.1729169636964798,
+            0.8699999451637268
+          ]
+        },
+        {
+          "name": "Chest",
+          "head": [
+            0.0,
+            5.051514762044462e-15,
+            0.8699999451637268
+          ],
+          "tail": [
+            0.0,
+            0.4188550114631653,
+            0.9576672911643982
+          ]
+        },
+        {
+          "name": "FrontUpper.L",
+          "head": [
+            -0.21500003337860107,
+            0.3699999153614044,
+            0.8700000643730164
+          ],
+          "tail": [
+            -0.21500003337860107,
+            0.3999999165534973,
+            0.3500000834465027
+          ]
+        },
+        {
+          "name": "FrontLower.L",
+          "head": [
+            -0.21500001847743988,
+            0.3999998867511749,
+            0.35000020265579224
+          ],
+          "tail": [
+            -0.21500001847743988,
+            0.3661024868488312,
+            -0.1697603464126587
+          ]
+        },
+        {
+          "name": "FrontUpper.R",
+          "head": [
+            0.21500003337860107,
+            0.3699999153614044,
+            0.8700000643730164
+          ],
+          "tail": [
+            0.21500003337860107,
+            0.3999999165534973,
+            0.3500000834465027
+          ]
+        },
+        {
+          "name": "FrontLower.R",
+          "head": [
+            0.21500001847743988,
+            0.3999998867511749,
+            0.35000020265579224
+          ],
+          "tail": [
+            0.21500001847743988,
+            0.3661024868488312,
+            -0.1697603464126587
+          ]
+        },
+        {
+          "name": "Head",
+          "head": [
+            0.0,
+            0.42999985814094543,
+            0.9599999785423279
+          ],
+          "tail": [
+            0.0,
+            0.8568434715270996,
+            0.9904888868331909
+          ]
+        },
+        {
+          "name": "HindUpper.L",
+          "head": [
+            -0.2149999588727951,
+            -0.4199998676776886,
+            0.869999885559082
+          ],
+          "tail": [
+            -0.2149999588727951,
+            -0.5199997425079346,
+            0.3499998450279236
+          ]
+        },
+        {
+          "name": "HindLower.L",
+          "head": [
+            -0.2149999588727951,
+            -0.519999623298645,
+            0.3500000536441803
+          ],
+          "tail": [
+            -0.2149999588727951,
+            -0.2831873893737793,
+            -0.12362423539161682
+          ]
+        },
+        {
+          "name": "HindUpper.R",
+          "head": [
+            0.2149999588727951,
+            -0.4199998676776886,
+            0.869999885559082
+          ],
+          "tail": [
+            0.2149999588727951,
+            -0.5199997425079346,
+            0.3499998450279236
+          ]
+        },
+        {
+          "name": "HindLower.R",
+          "head": [
+            0.2149999588727951,
+            -0.519999623298645,
+            0.3500000536441803
+          ],
+          "tail": [
+            0.2149999588727951,
+            -0.2831873893737793,
+            -0.12362423539161682
+          ]
+        },
+        {
+          "name": "Tail",
+          "head": [
+            0.0,
+            -0.6099998354911804,
+            0.8700000047683716
+          ],
+          "tail": [
+            0.0,
+            -0.8215235471725464,
+            0.9188131093978882
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\bloodfang.glb",
+  "seconds": 0.603
+}

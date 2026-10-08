@@ -1,0 +1,448 @@
+{
+  "reviewer": "Codex, actual opened Godot evidence; causes qualified by saved mesh audit",
+  "assets": {
+    "mob_meadow_wolf": [
+      "POLISH",
+      "Recognizable wolf and stable sampled motion. Fur geometry and face projection remain soft; bounded torso smoothing plateaued, original retained."
+    ],
+    "mob_ironhide_boar": [
+      "PARTIAL REBUILD",
+      "Promising armored rest silhouette. Severe running limb sheets; assisted reweighting worsened underside. Preserve hide; matched anatomy and limb skin rebuild required."
+    ],
+    "fern_reference": [
+      "PARTIAL REBUILD",
+      "Source fused opaque fronds. Corrected joined leaflet rebuild improves separation and canopy after sparse first pass was rejected."
+    ],
+    "watchtower": [
+      "PARTIAL REBUILD",
+      "Bent supports and missing readable ladder. Corrected trimmed joined supports retain roof/balcony; first protruding-post pass rejected."
+    ],
+    "mob_young": [
+      "PARTIAL REBUILD",
+      "Bark is intentional. Thin body, detached foliage and large foot/hand fans in running; anatomy and skin correspondence unresolved."
+    ],
+    "mob_bristle_boar": [
+      "PARTIAL REBUILD",
+      "Readable brown boar at rest, but large forelimb sheets in run quarter poses. Eyes/tusks soft. Skin/anatomy correspondence requires local rebuild."
+    ],
+    "mob_blue_wolf": [
+      "POLISH",
+      "Recognizable silvery wolf; sampled running remains readable. Surface bumps and indistinct eyes need local geometry/texture work, not global normals."
+    ],
+    "mob_grown": [
+      "PARTIAL REBUILD",
+      "Tree hide appropriate. Thin torso and fused foliage; running hands and feet stretch into fans."
+    ],
+    "mob_reed_spider": [
+      "POLISH",
+      "Every clip sheet opened: short reed legs remain readable in attack/death/hit/idle/run, with a small disconnected side fragment. No broad running sheets like copper or widow. Preserve anatomy, inspect/remove only proven isolated debris."
+    ],
+    "mob_red_wolf": [
+      "PARTIAL REBUILD",
+      "Head faces opposite the rig-compatible blue wolf; severe moving front/hind limb sheets. Inspect mesh coordinates against head/leg bones before yaw correction."
+    ],
+    "mob_grey_wolf": [
+      "PARTIAL REBUILD",
+      "Head faces opposite the rig-compatible meadow wolf; large running limb sheets. Saved mesh and bone correspondence must establish orientation cause."
+    ],
+    "mob_ironback": [
+      "PARTIAL REBUILD",
+      "Woody armor intentional. Lower body fused and feet fan in run; preserve promising chest, rebuild matching articulated lower limbs."
+    ],
+    "mob_mire_boar": [
+      "PARTIAL REBUILD",
+      "Mud armor and head are promising; running creates extreme limb/tusk sheets. Weight normalization does not prove anatomical compatibility."
+    ],
+    "mob_copper_spider": [
+      "PARTIAL REBUILD",
+      "Readable copper carapace and rest legs. Motion stretches legs into broad strips; joint correspondence needs local skin/leg rebuild."
+    ],
+    "mob_moonfang": [
+      "POLISH",
+      "Dark blue wolf retains recognizable silhouette and readable run samples. Eyes/fur detail soft in both geometry and projection."
+    ],
+    "mob_road_bandit": [
+      "REGENERATE",
+      "Very thin side profile, elongated face and fused weapon; severe cloth/leg fans. Prepare separated neutral-pose reference rather than smoothing incompatible anatomy."
+    ],
+    "mob_thicket_wolf": [
+      "POLISH",
+      "Leaf-covered brown wolf suits concept and sampled running reads correctly. Preserve fur/leaf features; only localized surface/eye detail work."
+    ],
+    "mob_blacktusk": [
+      "POLISH",
+      "Recognizable dark boar, comparatively readable running without the extreme sheets seen in ironhide. Small paw artifact and weak tusk/eye definition remain."
+    ],
+    "mob_venom_spider": [
+      "PARTIAL REBUILD",
+      "Green carapace suits concept. Running underside/legs form sheets; rebuild leg regions after explicit skin/anatomy inspection."
+    ],
+    "mob_slate_guardian": [
+      "PARTIAL REBUILD",
+      "Rocky hide is intentional; massive fist and chest readable. Thin side profile and long running foot sheets require matching lower-limb anatomy."
+    ],
+    "mob_hollow_raider": [
+      "REGENERATE",
+      "Hood silhouette recognizable frontally but paper-thin body, fused weapon and severe running cloth sheets. Neutral separated reference needed."
+    ],
+    "mob_cinder_wisp": [
+      "POLISH",
+      "Skull, ember body and separated trailing swirl recognizable; sampled motion stable. Transparent fire/material detail remains soft; intentional floating pieces retained."
+    ],
+    "mob_frost_wolf": [
+      "POLISH",
+      "White ruff and muzzle readable, sampled running stable. Small geometric pinholes and soft eyes need local repair; global smoothing would erase fur."
+    ],
+    "mob_silk_matron": [
+      "PARTIAL REBUILD",
+      "Concept long articulated legs became short fused appendages and broad abdomen. Running abdomen stretches into sheets; rebuild matching legs/skin."
+    ],
+    "mob_ash_bandit": [
+      "REGENERATE",
+      "Thin side profile and fused held blade, running skirt/legs form large fans. Front appearance alone does not meet human anatomy target."
+    ],
+    "mob_grave_wisp": [
+      "POLISH",
+      "Turquoise spectral ribbons and floating body appropriate, motion stable. Material clarity and torso emblem soft; intentional openings are not accidental holes."
+    ],
+    "mob_ember_hound": [
+      "POLISH",
+      "Rocky ember fur suits lava concept; recognizable hound and readable running. Eye/emission contrast can improve without flattening hide."
+    ],
+    "mob_cairn_sentinel": [
+      "PARTIAL REBUILD",
+      "Segmented rocky arms/torso recognizable. Running feet stretch into long sheets, requiring articulated lower-limb correspondence."
+    ],
+    "mob_glass_spider": [
+      "PARTIAL REBUILD",
+      "Rest spider readable, but concept translucent crystal distinction lost and moving legs become flat strips. Skin and material regions need separate attention."
+    ],
+    "mob_dusk_stalker": [
+      "POLISH",
+      "Dark crouched wolf retains silhouette and readable run. Hide noise blends with dark projection; inspect UV allocation before face repaint."
+    ],
+    "mob_bloodfang": [
+      "POLISH",
+      "Red mane and muzzle recognizable and run samples readable. Face definition and local rough surface need polish, preserving intentional mane."
+    ],
+    "mob_ash_wisp": [
+      "POLISH",
+      "Long spectral standard and swirl match concept structure; motion stable. Ember core/material contrast weak, not a structural hole defect."
+    ],
+    "mob_obsidian_boar": [
+      "PARTIAL REBUILD",
+      "Promising armored lava boar at rest; running front legs and underside stretch badly. Preserve rocky hide; matched joint anatomy needed."
+    ],
+    "mob_widow_spider": [
+      "PARTIAL REBUILD",
+      "Dark red abdomen and spider outline readable at rest; walking legs stretch into broad sheets rather than articulated limbs."
+    ],
+    "mob_exile_captain": [
+      "REGENERATE",
+      "Captain armor front recognizable but body/weapon fused and very thin; running cloth and feet form large fans. Isolated neutral reference needed."
+    ],
+    "mob_storm_wisp": [
+      "POLISH",
+      "Tattered floating standard and blue ribbons recognizable; motion stable. Improve core/blue material contrast, retaining intended fragments."
+    ],
+    "mob_rift_sentinel": [
+      "PARTIAL REBUILD",
+      "Violet segmented stone body suits concept, lower feet produce elongated moving sheets. Lower-limb rebuild required, not smoothing stone plates."
+    ],
+    "mob_ancient_warden": [
+      "PARTIAL REBUILD",
+      "Mossy stone body appropriate but fused lower limbs and severe running sheets. Preserve torso; matching leg anatomy required."
+    ],
+    "mob_cairn_colossus": [
+      "PARTIAL REBUILD",
+      "Heavy stone chest and arms retained; source lower legs already thin/disconnected, motion creates feet sheets. Missing articulated structure is not shading."
+    ],
+    "hero_ironvow": [
+      "PARTIAL REBUILD",
+      "Armor, head and red skirt useful. All clips opened in readable crops: sleeve fans during attacks/skill_plant and calf/cloth fans in run. Rebuild local skin correspondence while preserving face, torso, clip names and sockets."
+    ],
+    "horse_bay": [
+      "PARTIAL REBUILD",
+      "Bay rest proportions and separate tack are promising. Actual walk/trot/canter previews show forehoof triangular fans. Diagnose lower-leg joint correspondence and rebuild local weights; generic run row did not exercise horse gaits."
+    ],
+    "tree_pine": [
+      "PARTIAL REBUILD",
+      "Trunk/canopy structure recognizable but foliage is opaque angular clumps rather than fine needles. Rebuild canopy regions with separated leaf geometry, preserve trunk."
+    ],
+    "rock_slate": [
+      "KEEP",
+      "Slate silhouette, grounded shape and textured rock surface appropriate; organic irregularities harmless at gameplay distance."
+    ],
+    "shrub_reference": [
+      "PARTIAL REBUILD",
+      "Opaque fused canopy with broad planar facets rather than separate leaves. Leaf-region remodel required, texture resolution alone cannot create gaps."
+    ],
+    "house_reference": [
+      "POLISH",
+      "Readable tiled roof, timber/plaster separation and grounded walls. Small roof/post irregularities visible close up but coherent at gameplay distance."
+    ],
+    "npc_keeper": [
+      "REGENERATE",
+      "Robe front readable but nearly flat profile and projected, malformed face. Reference isolation and consistent neutral views needed; normals cannot restore volume."
+    ],
+    "dead_tree": [
+      "KEEP",
+      "Branch silhouette, broken crown and bark appropriate; intentional dead branch openings and mild organic irregularities retained."
+    ],
+    "fallen_log": [
+      "KEEP",
+      "Readable grounded log, end grain and bark; small irregularities appropriate to decayed wood."
+    ],
+    "npc_smith": [
+      "REGENERATE",
+      "Apron/front readable but very thin body and stretched projected face; concept heavy smith volume absent. Isolated neutral reference needed."
+    ],
+    "shrine": [
+      "POLISH",
+      "Roofed stone pile and open posts recognizable. Slight post waviness and soft tile texture need local architectural polish; central opening intentional."
+    ],
+    "tent": [
+      "KEEP",
+      "Canvas A-frame and intentional entry opening retained, silhouette and fabric read at gameplay distance."
+    ],
+    "ruin_arch": [
+      "POLISH",
+      "Arch opening is intentional, ruined masonry coherent. Thin profile and soft stone relief need local depth/detail polish; no global hole filling."
+    ],
+    "npc_stablemaster": [
+      "REGENERATE",
+      "Outfit front reads but profile nearly flat and face projection malformed; recover volume with consistent isolated neutral reference."
+    ],
+    "grass": [
+      "PARTIAL REBUILD",
+      "Individual blades became opaque folded sheets. Rebuild blade canopy rather than smooth fused mass or upscale its texture."
+    ],
+    "fracture": [
+      "POLISH",
+      "Open thorn ring and orange suspended core recognizable. Roots appropriately noisy; improve core material contrast, preserve intentional openings."
+    ],
+    "crate": [
+      "POLISH",
+      "Crate planks and brace read at gameplay distance. Skewed corners and soft top grain need limited structural/texture polish."
+    ],
+    "bridge": [
+      "PARTIAL REBUILD",
+      "Useful deck and posts, but rope rails are largely missing and deck droops asymmetrically. Rebuild rail/post regions while preserving collision traversal."
+    ],
+    "derived_benchmark_fallen_wood": [
+      "KEEP",
+      "Derived grounded log retains readable bark/end silhouette; independently opened all views."
+    ],
+    "weapon_jade": [
+      "POLISH",
+      "Readable thin blade and jade hilt after upright inspection. Dark muddy baked blade obscures steel in the concept. Separate blade material locally; preserve successful hilt and profile."
+    ],
+    "coin": [
+      "POLISH",
+      "Intentional square opening retained. Coin silhouette and gold relief readable; wavy rim and soft embossing require limited local detail work."
+    ],
+    "derived_benchmark_fern": [
+      "PARTIAL REBUILD",
+      "Fused low frond crown, missing separated leaflets. Reuse the verified dense joined-frond rebuild with matching source extent and placement."
+    ],
+    "derived_benchmark_leaf_litter": [
+      "POLISH",
+      "Flat ground cover is intentional. Opaque folded patches and soft projection are visible; keep ground pivot and improve material separation locally."
+    ],
+    "derived_benchmark_rock_0": [
+      "KEEP",
+      "Opened all views: recognizable slate ground forms; faceting and cracks suit the concept, no blocking artifact at normal distance."
+    ],
+    "derived_benchmark_rock_1": [
+      "KEEP",
+      "Opened all views: recognizable slate ground forms; faceting and cracks suit the concept, no blocking artifact at normal distance."
+    ],
+    "derived_benchmark_rock_2": [
+      "KEEP",
+      "Opened all views: recognizable slate ground forms; faceting and cracks suit the concept, no blocking artifact at normal distance."
+    ],
+    "derived_benchmark_sedge": [
+      "PARTIAL REBUILD",
+      "Opaque folded grass mass lacks individual blades; rebuild blade regions while preserving ground pivot and spatial extent."
+    ],
+    "derived_benchmark_shrub_briar": [
+      "PARTIAL REBUILD",
+      "Useful bush extent but opaque angular canopy lacks separated leaves. Curated leaf geometry needed; texture upscaling cannot create the gaps."
+    ],
+    "derived_benchmark_shrub_laurel": [
+      "PARTIAL REBUILD",
+      "Useful bush extent but opaque angular canopy lacks separated leaves. Curated leaf geometry needed; texture upscaling cannot create the gaps."
+    ],
+    "derived_benchmark_tree_bent": [
+      "PARTIAL REBUILD",
+      "Trunk is useful, opaque folded canopy lacks species-appropriate leaf separation. Preserve trunk and rebuild leaf regions."
+    ],
+    "derived_benchmark_tree_fork": [
+      "PARTIAL REBUILD",
+      "Trunk is useful, opaque folded canopy lacks species-appropriate leaf separation. Preserve trunk and rebuild leaf regions."
+    ],
+    "derived_benchmark_tree_wide": [
+      "PARTIAL REBUILD",
+      "Trunk is useful, opaque folded canopy lacks species-appropriate leaf separation. Preserve trunk and rebuild leaf regions."
+    ],
+    "derived_characters_briarling": [
+      "PARTIAL REBUILD",
+      "Thin bark body and running hand/foot fans; preserve chest and foliage while rebuilding matching articulated regions."
+    ],
+    "derived_characters_jade_ironback_mantle": [
+      "PARTIAL REBUILD",
+      "Torso overlay has shallow depth and jagged cropped shoulder/hem edges. Open boundaries are intentional armor segmentation; confirm actual worn clipping before deciding whether depth fitting caused a defect."
+    ],
+    "derived_characters_jade_sword": [
+      "POLISH",
+      "Readable thin blade and jade hilt after upright inspection. Dark muddy baked blade obscures steel in the concept. Separate blade material locally; preserve successful hilt and profile."
+    ],
+    "derived_characters_townfolk_kit": [
+      "REGENERATE",
+      "Outfit readable frontally but side profile is paper-thin and face projection lacks volume. Isolated neutral-pose reference required; preserve gameplay NPC and restore previous visual."
+    ],
+    "derived_characters_traveler": [
+      "PARTIAL REBUILD",
+      "Armor, head and red skirt useful. All clips opened in readable crops: sleeve fans during attacks/skill_plant and calf/cloth fans in run. Rebuild local skin correspondence while preserving face, torso, clip names and sockets."
+    ],
+    "derived_characters_traveler_guard": [
+      "PARTIAL REBUILD",
+      "Torso overlay has shallow depth and jagged cropped shoulder/hem edges. Open boundaries are intentional armor segmentation; confirm actual worn clipping before deciding whether depth fitting caused a defect."
+    ],
+    "derived_characters_turnwarden_v2": [
+      "PARTIAL REBUILD",
+      "Armor, head and red skirt useful. All clips opened in readable crops: sleeve fans during attacks/skill_plant and calf/cloth fans in run. Rebuild local skin correspondence while preserving face, torso, clip names and sockets."
+    ],
+    "derived_characters_turnwarden_v2_sword": [
+      "POLISH",
+      "Readable thin blade and jade hilt after upright inspection. Dark muddy baked blade obscures steel in the concept. Separate blade material locally; preserve successful hilt and profile."
+    ],
+    "derived_characters_warden_insignia": [
+      "POLISH",
+      "Intentional square opening retained. Coin silhouette and gold relief readable; wavy rim and soft embossing require limited local detail work."
+    ],
+    "derived_characters_warden_sword": [
+      "POLISH",
+      "Readable thin blade and jade hilt after upright inspection. Dark muddy baked blade obscures steel in the concept. Separate blade material locally; preserve successful hilt and profile."
+    ],
+    "derived_characters_wayfarer_sword": [
+      "POLISH",
+      "Readable thin blade and jade hilt after upright inspection. Dark muddy baked blade obscures steel in the concept. Separate blade material locally; preserve successful hilt and profile."
+    ],
+    "derived_creatures_boar": [
+      "PARTIAL REBUILD",
+      "Promising brown boar rest body; running forelimb sheets remain unacceptable. Inspect limb anatomy and transferred skin correspondence."
+    ],
+    "derived_creatures_spider": [
+      "POLISH",
+      "Imported derived spider has more readable run samples than the ordinary reed spider. Small floating side fragment remains; inspect all clips and connected components before using it as a fallback."
+    ],
+    "derived_creatures_stonekin": [
+      "PARTIAL REBUILD",
+      "Rocky chest appropriate; moving feet form long sheets. Preserve torso and rebuild compatible lower limbs."
+    ],
+    "derived_creatures_wisp": [
+      "POLISH",
+      "Intentional floating ribbons and open core; sampled motion readable. Improve emission/core contrast locally without filling openings."
+    ],
+    "derived_creatures_wolf": [
+      "POLISH",
+      "Readable meadow wolf variant with stable sampled run. Local fur/eye and projection softness remain; preserve mane and tail."
+    ],
+    "derived_weapons_briarsteel": [
+      "POLISH",
+      "Readable thin blade and jade hilt after upright inspection. Dark muddy baked blade obscures steel in the concept. Separate blade material locally; preserve successful hilt and profile."
+    ],
+    "derived_weapons_cairnwarden": [
+      "POLISH",
+      "Readable thin blade and jade hilt after upright inspection. Dark muddy baked blade obscures steel in the concept. Separate blade material locally; preserve successful hilt and profile."
+    ],
+    "derived_weapons_ember": [
+      "POLISH",
+      "Readable thin blade and jade hilt after upright inspection. Dark muddy baked blade obscures steel in the concept. Separate blade material locally; preserve successful hilt and profile."
+    ],
+    "derived_weapons_frontier": [
+      "POLISH",
+      "Readable thin blade and jade hilt after upright inspection. Dark muddy baked blade obscures steel in the concept. Separate blade material locally; preserve successful hilt and profile."
+    ],
+    "derived_weapons_glass": [
+      "POLISH",
+      "Readable thin blade and jade hilt after upright inspection. Dark muddy baked blade obscures steel in the concept. Separate blade material locally; preserve successful hilt and profile."
+    ],
+    "derived_weapons_marchguard": [
+      "POLISH",
+      "Readable thin blade and jade hilt after upright inspection. Dark muddy baked blade obscures steel in the concept. Separate blade material locally; preserve successful hilt and profile."
+    ],
+    "derived_weapons_relic": [
+      "POLISH",
+      "Readable thin blade and jade hilt after upright inspection. Dark muddy baked blade obscures steel in the concept. Separate blade material locally; preserve successful hilt and profile."
+    ],
+    "derived_weapons_rift": [
+      "POLISH",
+      "Readable thin blade and jade hilt after upright inspection. Dark muddy baked blade obscures steel in the concept. Separate blade material locally; preserve successful hilt and profile."
+    ],
+    "derived_weapons_wakecleaver": [
+      "POLISH",
+      "Readable thin blade and jade hilt after upright inspection. Dark muddy baked blade obscures steel in the concept. Separate blade material locally; preserve successful hilt and profile."
+    ],
+    "derived_weapons_wayfarer": [
+      "POLISH",
+      "Readable thin blade and jade hilt after upright inspection. Dark muddy baked blade obscures steel in the concept. Separate blade material locally; preserve successful hilt and profile."
+    ],
+    "derived_world_kit_cliff": [
+      "KEEP",
+      "Opened all views: recognizable slate ground forms; faceting and cracks suit the concept, no blocking artifact at normal distance."
+    ],
+    "derived_world_kit_cliff1": [
+      "KEEP",
+      "Opened all views: recognizable slate ground forms; faceting and cracks suit the concept, no blocking artifact at normal distance."
+    ],
+    "derived_world_kit_rock1": [
+      "KEEP",
+      "Opened all views: recognizable slate ground forms; faceting and cracks suit the concept, no blocking artifact at normal distance."
+    ],
+    "derived_world_kit_rock2": [
+      "KEEP",
+      "Opened all views: recognizable slate ground forms; faceting and cracks suit the concept, no blocking artifact at normal distance."
+    ],
+    "derived_world_kit_tree1": [
+      "PARTIAL REBUILD",
+      "Trunk is useful, opaque folded canopy lacks species-appropriate leaf separation. Preserve trunk and rebuild leaf regions."
+    ],
+    "derived_world_kit_tree2": [
+      "PARTIAL REBUILD",
+      "Trunk is useful, opaque folded canopy lacks species-appropriate leaf separation. Preserve trunk and rebuild leaf regions."
+    ],
+    "derived_forge_rebuild_npcs_mara": [
+      "REGENERATE",
+      "Outfit readable frontally but side profile is paper-thin and face projection lacks volume. Isolated neutral-pose reference required; preserve gameplay NPC and restore previous visual."
+    ],
+    "derived_forge_rebuild_npcs_apothecary": [
+      "REGENERATE",
+      "Outfit readable frontally but side profile is paper-thin and face projection lacks volume. Isolated neutral-pose reference required; preserve gameplay NPC and restore previous visual."
+    ],
+    "derived_forge_rebuild_npcs_artificer": [
+      "REGENERATE",
+      "Outfit readable frontally but side profile is paper-thin and face projection lacks volume. Isolated neutral-pose reference required; preserve gameplay NPC and restore previous visual."
+    ],
+    "derived_forge_rebuild_npcs_armorer": [
+      "REGENERATE",
+      "Outfit readable frontally but side profile is paper-thin and face projection lacks volume. Isolated neutral-pose reference required; preserve gameplay NPC and restore previous visual."
+    ],
+    "derived_forge_rebuild_npcs_weapons": [
+      "REGENERATE",
+      "Outfit readable frontally but side profile is paper-thin and face projection lacks volume. Isolated neutral-pose reference required; preserve gameplay NPC and restore previous visual."
+    ],
+    "derived_forge_rebuild_npcs_warden": [
+      "REGENERATE",
+      "Outfit readable frontally but side profile is paper-thin and face projection lacks volume. Isolated neutral-pose reference required; preserve gameplay NPC and restore previous visual."
+    ],
+    "derived_forge_rebuild_npcs_ash_scout": [
+      "REGENERATE",
+      "Outfit readable frontally but side profile is paper-thin and face projection lacks volume. Isolated neutral-pose reference required; preserve gameplay NPC and restore previous visual."
+    ]
+  },
+  "all_standardized_views_opened": true,
+  "all_animation_sheets_opened": true,
+  "animation_sampling": "All imported clips at 0/25/50/75 percent; finite samples are not exhaustive continuous animation proof."
+}

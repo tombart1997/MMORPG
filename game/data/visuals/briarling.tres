@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CharacterVisualProfile" load_steps=3 format=3]
 [ext_resource type="Script" path="res://scripts/visuals/character_visual_profile.gd" id="1"]
-[ext_resource type="PackedScene" path="res://assets/characters/briarling.glb" id="2"]
+[ext_resource type="PackedScene" path="res://assets/generated/mobs/young.glb" id="2"]
 [resource]
 script = ExtResource("1")
 model = ExtResource("2")

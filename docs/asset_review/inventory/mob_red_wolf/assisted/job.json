@@ -1,0 +1,127 @@
+{
+  "id": "087bfabeb1e5",
+  "asset_id": "991e55c2b639",
+  "operation": "repair",
+  "state": "interrupted",
+  "stage": "godot_rendered_benchmark",
+  "progress": 70,
+  "created_at": "2026-10-03T21:27:07.416933+00:00",
+  "reason": "Diagnosis-driven bounded repair",
+  "options": {
+    "attempt_id": "15a5fef96813"
+  },
+  "checkpoint": {
+    "project": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\991e55c2b639\\godot\\087bfabeb1e5",
+    "technical": {
+      "animations": [
+        "attack_01",
+        "death",
+        "hit",
+        "idle",
+        "run"
+      ],
+      "auxiliary_imports": {},
+      "bones": 13,
+      "engine_version": "4.7.2-stable (official)",
+      "errors": [],
+      "materials": 1,
+      "meshes": 1,
+      "status": "passed",
+      "triangles": 11996,
+      "visual_status": "pending"
+    }
+  },
+  "resumed_from": null,
+  "message": "Application stopped. Resume this job from its saved checkpoint.",
+  "estimated_cost_credits": 0,
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 14000,
+    "optimization_mode": "preserve",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "anatomy_review",
+      "topology_review",
+      "uv_materials",
+      "species_rig_import",
+      "animation_review",
+      "export",
+      "godot"
+    ]
+  },
+  "candidate": {
+    "id": "9102c8ec06e9",
+    "path": "imports/c5f6b7ded6b3.blend",
+    "origin": "imported",
+    "sha256": "9bdc37bd3d77e378a3992cb5abdef568bc10e9343ae475a3f9ebde6cba3b71d7",
+    "created_at": "2026-10-03T21:27:07.209676+00:00",
+    "original_filename": "focused.blend",
+    "license": "Actual single Codex-assisted focused Blender pass; original retained.",
+    "cost_credits": 0
+  },
+  "reference": {
+    "id": "3828aa89ce54",
+    "path": "references/75a627b17ff2.png",
+    "original_filename": "667b2d7268e3_prepared.png",
+    "resolution": [
+      512,
+      512
+    ],
+    "role": "primary",
+    "sha256": "5c325fc20a304b53443815be02e5e65a16c8e1b07ec997ffec324d0d535f924f",
+    "original": true,
+    "created_at": "2026-10-03T20:52:41.578704+00:00",
+    "consistency_review": "user_supplied"
+  },
+  "repair_plan": [
+    {
+      "operation": "assisted_blender",
+      "parameters": {
+        "candidate_id": "9102c8ec06e9"
+      }
+    }
+  ],
+  "started_at": "2026-10-03T21:27:07.430036+00:00",
+  "elapsed_seconds": 3.8
+}

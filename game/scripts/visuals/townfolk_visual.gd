@@ -1,9 +1,7 @@
 class_name TownfolkVisual
 extends Node3D
 ## Presentation only. Dialogue, collision and world interaction stay on WorldNPC.
-const KIT = preload("res://assets/characters/townfolk_kit.glb")
-const PAINT = preload("res://assets/characters/townfolk.gdshader")
-static var materials: Dictionary = {}
+const KIT = preload("res://assets/generated/npcs/smith.glb")
 var data: NPCData
 var appearance: NPCAppearance
 var skeleton: Skeleton3D
@@ -18,30 +16,16 @@ func _ready() -> void:
 	appearance=NPCAppearance.for_resident(data)
 	scale=appearance.stature
 	clock=float(data.id.hash()%997)*.013
-	var kit:=KIT.instantiate() as Node3D
+	var reconstructed:=ForgeModelCatalogue.scene_for("npcs",data.id)
+	var kit: Node3D=ReviewedModels.resolve(reconstructed if reconstructed else KIT).instantiate() as Node3D
 	add_child(kit)
 	skeleton=kit.find_children("*","Skeleton3D",true,false)[0]
 	animation=kit.find_children("*","AnimationPlayer",true,false)[0]
 	animation.callback_mode_process=AnimationMixer.ANIMATION_CALLBACK_MODE_PROCESS_MANUAL
-	var face:=appearance.body if appearance.face=="Body default" else appearance.face
-	visible_modules=["Body_"+appearance.body,"Head_"+face,"Clothes_"+appearance.clothing,"Hair_"+appearance.hair]
-	for accessory in appearance.accessories: visible_modules.append("Gear_"+accessory)
-	var cloth:=appearance.cloth_override if appearance.cloth_override.a>0 else data.clothing_color.lightened(.12)
-	var key:=str(cloth)+str(appearance.skin_tint)
-	if not materials.has(key):
-		var mat:=ShaderMaterial.new()
-		mat.shader=PAINT
-		mat.set_shader_parameter("painted_atlas",preload("res://assets/characters/townfolk_atlas.png"))
-		mat.set_shader_parameter("cloth_tint",cloth)
-		mat.set_shader_parameter("skin_tint",appearance.skin_tint)
-		materials[key]=mat
+	visible_modules.clear()
 	for part: MeshInstance3D in kit.find_children("*","MeshInstance3D",true,false):
-		if not visible_modules.has(String(part.name)):
-			part.get_parent().remove_child(part)
-			part.queue_free()
-		else:
-			part.material_override=materials[key]
-			part.visibility_range_end=65
+		part.visibility_range_end=65
+		visible_modules.append(String(part.name))
 	animation.play(appearance.idle)
 	animation.seek(fposmod(clock,animation.current_animation_length),true)
 	equip_visual(&"WeaponSocket",appearance.weapon)

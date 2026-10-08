@@ -1,0 +1,404 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "Forge_mob_exile_captain",
+      "vertices": 14258,
+      "triangles": 13421,
+      "local_bounds": [
+        [
+          -0.48554834723472595,
+          -0.21048547327518463,
+          0.005086228251457214
+        ],
+        [
+          0.48554837703704834,
+          0.2251063585281372,
+          1.8994001150131226
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 183,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        6731,
+        35,
+        7
+      ],
+      "sharp_edges_over_60_degrees": 2673,
+      "smooth_faces": 13421,
+      "faces": 13421,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.049430356539299836,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_mob_exile_captain_RuntimeColor"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        0.9999998658895493,
+        1.0000001076841727
+      ],
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Forge_mob_exile_captain_RuntimeColor",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "Forge_mob_exile_captain_RuntimeAtlas",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        }
+      ]
+    }
+  ],
+  "triangles": 13421,
+  "skeletons": [
+    {
+      "name": "WardenRig",
+      "bones": [
+        {
+          "name": "Root",
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            3.2174831687825645e-08,
+            0.9399999976158142
+          ]
+        },
+        {
+          "name": "Hips",
+          "head": [
+            0.0,
+            3.2174828135111966e-08,
+            0.9399998784065247
+          ],
+          "tail": [
+            0.0,
+            3.7130977403876386e-08,
+            1.084795594215393
+          ]
+        },
+        {
+          "name": "Spine",
+          "head": [
+            0.0,
+            3.902053435922426e-08,
+            1.1399998664855957
+          ],
+          "tail": [
+            0.0,
+            4.689309918148865e-08,
+            1.369999885559082
+          ]
+        },
+        {
+          "name": "Chest",
+          "head": [
+            0.0,
+            4.689309918148865e-08,
+            1.369999885559082
+          ],
+          "tail": [
+            0.0,
+            5.1931781541725286e-08,
+            1.5172069072723389
+          ]
+        },
+        {
+          "name": "Neck",
+          "head": [
+            0.0,
+            5.1931781541725286e-08,
+            1.5172069072723389
+          ],
+          "tail": [
+            0.0,
+            5.427722271633684e-08,
+            1.5857298374176025
+          ]
+        },
+        {
+          "name": "Head",
+          "head": [
+            0.0,
+            5.427722271633684e-08,
+            1.5857298374176025
+          ],
+          "tail": [
+            0.0,
+            5.662266389094839e-08,
+            1.6542527675628662
+          ]
+        },
+        {
+          "name": "UpperArm.L",
+          "head": [
+            -0.3144000470638275,
+            6.012268016775124e-08,
+            1.429999828338623
+          ],
+          "tail": [
+            -0.40129756927490234,
+            5.2498705827019876e-08,
+            1.1599998474121094
+          ]
+        },
+        {
+          "name": "Forearm.L",
+          "head": [
+            -0.40129753947257996,
+            2.5287716809430094e-08,
+            1.1599998474121094
+          ],
+          "tail": [
+            -0.4280001223087311,
+            0.01499998476356268,
+            0.9200000762939453
+          ]
+        },
+        {
+          "name": "Hand.L",
+          "head": [
+            -0.42800015211105347,
+            0.01499996054917574,
+            0.9200001358985901
+          ],
+          "tail": [
+            -0.42800024151802063,
+            0.09492690116167068,
+            0.6916372179985046
+          ]
+        },
+        {
+          "name": "UpperArm.R",
+          "head": [
+            0.3144000470638275,
+            6.012268016775124e-08,
+            1.429999828338623
+          ],
+          "tail": [
+            0.40129756927490234,
+            5.2498705827019876e-08,
+            1.1599998474121094
+          ]
+        },
+        {
+          "name": "Forearm.R",
+          "head": [
+            0.40129753947257996,
+            2.5287716809430094e-08,
+            1.1599998474121094
+          ],
+          "tail": [
+            0.4280001223087311,
+            0.01499998476356268,
+            0.9200000762939453
+          ]
+        },
+        {
+          "name": "Hand.R",
+          "head": [
+            0.42800015211105347,
+            0.01499996054917574,
+            0.9200001358985901
+          ],
+          "tail": [
+            0.42800024151802063,
+            0.09492690116167068,
+            0.6916372179985046
+          ]
+        },
+        {
+          "name": "Thigh.L",
+          "head": [
+            -0.14445000886917114,
+            2.7860501461418608e-08,
+            0.9499998688697815
+          ],
+          "tail": [
+            -0.14980000257492065,
+            0.014999969862401485,
+            0.529999852180481
+          ]
+        },
+        {
+          "name": "Shin.L",
+          "head": [
+            -0.14980001747608185,
+            0.014999966137111187,
+            0.5299999117851257
+          ],
+          "tail": [
+            -0.14980001747608185,
+            -2.9802322387695312e-08,
+            0.1399998664855957
+          ]
+        },
+        {
+          "name": "Foot.L",
+          "head": [
+            -0.14980000257492065,
+            -2.607702853651972e-08,
+            0.14000001549720764
+          ],
+          "tail": [
+            -0.14980007708072662,
+            0.3738284111022949,
+            0.027851440012454987
+          ]
+        },
+        {
+          "name": "Thigh.R",
+          "head": [
+            0.14445000886917114,
+            2.7860501461418608e-08,
+            0.9499998688697815
+          ],
+          "tail": [
+            0.14980000257492065,
+            0.014999969862401485,
+            0.529999852180481
+          ]
+        },
+        {
+          "name": "Shin.R",
+          "head": [
+            0.14980001747608185,
+            0.014999966137111187,
+            0.5299999117851257
+          ],
+          "tail": [
+            0.14980001747608185,
+            -2.9802322387695312e-08,
+            0.1399998664855957
+          ]
+        },
+        {
+          "name": "Foot.R",
+          "head": [
+            0.14980000257492065,
+            -2.607702853651972e-08,
+            0.14000001549720764
+          ],
+          "tail": [
+            0.14980007708072662,
+            0.3738284111022949,
+            0.027851440012454987
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    "attack_01",
+    "attack_02",
+    "attack_03",
+    "death",
+    "hit",
+    "idle",
+    "longsword_01",
+    "longsword_02",
+    "longsword_03",
+    "longsword_idle",
+    "longsword_run",
+    "run",
+    "skill_guard",
+    "skill_plant",
+    "skill_riposte",
+    "skill_step"
+  ],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\exile_captain.glb",
+  "seconds": 0.659
+}

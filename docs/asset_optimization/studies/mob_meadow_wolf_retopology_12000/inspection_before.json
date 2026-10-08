@@ -1,0 +1,63 @@
+{
+  "objects": [
+    {
+      "name": "Forge_mob_meadow_wolf",
+      "vertices": 14913,
+      "triangles": 13970,
+      "materials": 1,
+      "degenerate_faces": 0,
+      "boundary_edges": 13096,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "has_uv": true,
+      "collapsed_uv_triangles": 0,
+      "skinned": true,
+      "unweighted_vertices": 0
+    }
+  ],
+  "triangles": 13970,
+  "textures": [
+    {
+      "name": "Forge_mob_meadow_wolf_RuntimeAtlas",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "available": true
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.4302264451980591,
+      -1.3484714031219482,
+      -0.0013918490149080753
+    ],
+    "max": [
+      0.4340173602104187,
+      1.0862905979156494,
+      1.4397051334381104
+    ]
+  },
+  "armatures": [
+    {
+      "name": "SpiritRig",
+      "bones": 13
+    }
+  ],
+  "actions": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+  "unverified": [
+    "UV overlap beyond collapsed triangles",
+    "Internal occluded geometry",
+    "Baked lighting",
+    "Joint clipping",
+    "Reference fidelity"
+  ]
+}

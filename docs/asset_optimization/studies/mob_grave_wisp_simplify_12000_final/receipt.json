@@ -1,0 +1,176 @@
+{
+  "name": "mob_grave_wisp_simplify_12000_final",
+  "asset_id": "bb625c42c794",
+  "source_key": "mob_grave_wisp",
+  "source": "game/assets/forge_rebuild/mobs/grave_wisp.glb",
+  "source_asset_id": "915717fb409c",
+  "source_sha256": "10c82111fe03498ac902970ee940c15d14f12e29cf23ac4ff74e2217c5a38b61",
+  "imported_candidate": "95158c3eaf50",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 12000,
+    "optimization_mode": "simplify",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "anatomy_review",
+      "topology_review",
+      "uv_materials",
+      "species_rig_import",
+      "animation_review",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "68857b5a9f39",
+    "asset_id": "bb625c42c794",
+    "operation": "process",
+    "state": "succeeded",
+    "stage": "blender_process",
+    "progress": 100,
+    "created_at": "2026-10-03T19:17:21.274234+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {
+      "files": {
+        "animation_contract.json": "processed/68857b5a9f39/animation_contract.json",
+        "editable.blend": "processed/68857b5a9f39/editable.blend",
+        "inspection_before.json": "processed/68857b5a9f39/inspection_before.json",
+        "optimization.json": "processed/68857b5a9f39/optimization.json",
+        "processing.json": "processed/68857b5a9f39/processing.json",
+        "runtime.glb": "processed/68857b5a9f39/runtime.glb",
+        "source.blend": "processed/68857b5a9f39/source.blend",
+        "source.glb": "processed/68857b5a9f39/source.glb",
+        "validation.json": "processed/68857b5a9f39/validation.json"
+      }
+    },
+    "resumed_from": null,
+    "message": "Complete \u00b7 visual review remains separate",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 12000,
+      "optimization_mode": "simplify",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "anatomy_review",
+        "topology_review",
+        "uv_materials",
+        "species_rig_import",
+        "animation_review",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "95158c3eaf50",
+      "path": "imports/3d4c136b93d0.glb",
+      "origin": "imported",
+      "sha256": "10c82111fe03498ac902970ee940c15d14f12e29cf23ac4ff74e2217c5a38b61",
+      "created_at": "2026-10-03T19:17:21.180511+00:00",
+      "original_filename": "grave_wisp.glb",
+      "license": "Optimization study: retained local neural derivative from 915717fb409c; SHA256 10c82111fe03498ac902970ee940c15d14f12e29cf23ac4ff74e2217c5a38b61",
+      "cost_credits": 0
+    },
+    "reference": null,
+    "started_at": "2026-10-03T19:17:21.282365+00:00",
+    "elapsed_seconds": 10.5,
+    "finished_at": "2026-10-03T19:17:31.911361+00:00",
+    "duration_seconds": 10.62
+  },
+  "visual_status": "pending",
+  "artifacts": {
+    "animation_contract.json": "processed/68857b5a9f39/animation_contract.json",
+    "editable.blend": "processed/68857b5a9f39/editable.blend",
+    "inspection_before.json": "processed/68857b5a9f39/inspection_before.json",
+    "optimization.json": "processed/68857b5a9f39/optimization.json",
+    "processing.json": "processed/68857b5a9f39/processing.json",
+    "runtime.glb": "processed/68857b5a9f39/runtime.glb",
+    "source.blend": "processed/68857b5a9f39/source.blend",
+    "source.glb": "processed/68857b5a9f39/source.glb",
+    "validation.json": "processed/68857b5a9f39/validation.json"
+  },
+  "review_path": "res://review_assets/optimization/mob_grave_wisp_simplify_12000_final.glb"
+}

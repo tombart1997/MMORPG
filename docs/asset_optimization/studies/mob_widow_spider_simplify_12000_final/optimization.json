@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_widow_spider",
+      "before": 13916,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11995,
+      "quality": {
+        "surface_max_fraction": 0.0016955739062885005,
+        "surface_p95_fraction": 0.00017171062047991253,
+        "bounds_drift_fraction": 0.0003273056677519168,
+        "nonmanifold_edges": 0,
+        "samples": 6693
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.006268546189324805,
+          "p95_fraction": 0.00016939557471416737
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.00820934070795382,
+          "p95_fraction": 0.00017917237348099004
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.011394377387032598,
+          "p95_fraction": 0.00018553768217553516
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.006895721176581351,
+          "p95_fraction": 0.00019673792490277147
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.002473437990961783,
+          "p95_fraction": 0.00018158812951748904
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11995,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

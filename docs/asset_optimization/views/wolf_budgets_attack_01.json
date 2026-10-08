@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Wolf / 13,970 source",
+      "path": "res://assets/forge_rebuild/mobs/meadow_wolf.glb"
+    },
+    {
+      "name": "Wolf / 7,995 triangles",
+      "path": "res://review_assets/optimization/mob_meadow_wolf_simplify_8000_final.glb"
+    },
+    {
+      "name": "Wolf / 11,995 triangles",
+      "path": "res://review_assets/optimization/mob_meadow_wolf_simplify_12000_final.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\views\\wolf_budgets_attack_01.png",
+  "clip": "attack_01",
+  "time": 0.4
+}

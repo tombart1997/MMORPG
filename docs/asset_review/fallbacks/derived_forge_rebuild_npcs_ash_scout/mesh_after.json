@@ -1,0 +1,1497 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "Body_Female",
+      "vertices": 2693,
+      "triangles": 3188,
+      "local_bounds": [
+        [
+          -0.450993150472641,
+          -0.13199999928474426,
+          0.00400003744289279
+        ],
+        [
+          0.450993150472641,
+          0.2359999418258667,
+          1.5900001525878906
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        192,
+        146,
+        146,
+        128,
+        128,
+        82,
+        82,
+        80,
+        80,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        16,
+        16
+      ],
+      "sharp_edges_over_60_degrees": 540,
+      "smooth_faces": 3188,
+      "faces": 3188,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 6.566674877738035,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "TownfolkPainted"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        0.9999999701976776,
+        1.0000000149011612
+      ],
+      "regions": []
+    },
+    {
+      "name": "Body_Male",
+      "vertices": 2693,
+      "triangles": 3188,
+      "local_bounds": [
+        [
+          -0.450993150472641,
+          -0.13199999928474426,
+          0.00400003744289279
+        ],
+        [
+          0.450993150472641,
+          0.2359999418258667,
+          1.5900001525878906
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        192,
+        146,
+        146,
+        128,
+        128,
+        82,
+        82,
+        80,
+        80,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        16,
+        16
+      ],
+      "sharp_edges_over_60_degrees": 540,
+      "smooth_faces": 3188,
+      "faces": 3188,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 6.5630537181725765,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "TownfolkPainted"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        0.9999999701976776,
+        1.0000000149011612
+      ],
+      "regions": []
+    },
+    {
+      "name": "Clothes_Apron",
+      "vertices": 488,
+      "triangles": 552,
+      "local_bounds": [
+        [
+          -0.24299973249435425,
+          -0.0949999988079071,
+          0.38502559065818787
+        ],
+        [
+          0.24299973249435425,
+          0.21699999272823334,
+          1.5100001096725464
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 38,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        86,
+        54,
+        42,
+        42,
+        36,
+        36,
+        6,
+        6
+      ],
+      "sharp_edges_over_60_degrees": 84,
+      "smooth_faces": 552,
+      "faces": 552,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 1.0123569032409803,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "TownfolkPainted"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Clothes_Robe",
+      "vertices": 1147,
+      "triangles": 1184,
+      "local_bounds": [
+        [
+          -0.5583189725875854,
+          -0.23119999468326569,
+          0.17000000178813934
+        ],
+        [
+          0.5583189725875854,
+          0.24719999730587006,
+          1.5000001192092896
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 20,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        200,
+        96,
+        80,
+        64,
+        48,
+        48,
+        32,
+        32,
+        10,
+        10
+      ],
+      "sharp_edges_over_60_degrees": 408,
+      "smooth_faces": 1184,
+      "faces": 1184,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 2.5588732586865865,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "TownfolkPainted"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Clothes_Tunic",
+      "vertices": 189,
+      "triangles": 200,
+      "local_bounds": [
+        [
+          -0.24017000198364258,
+          -0.16045400500297546,
+          0.6499999761581421
+        ],
+        [
+          0.24017000198364258,
+          0.17299999296665192,
+          1.5000001192092896
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 18,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        96,
+        6,
+        6,
+        6
+      ],
+      "sharp_edges_over_60_degrees": 64,
+      "smooth_faces": 200,
+      "faces": 200,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.43967822525232325,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "TownfolkPainted"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Gear_Artificer",
+      "vertices": 413,
+      "triangles": 502,
+      "local_bounds": [
+        [
+          -0.18799999356269836,
+          -0.07777641713619232,
+          0.7020000219345093
+        ],
+        [
+          0.3319999873638153,
+          0.15000000596046448,
+          1.4800000190734863
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 8,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        146,
+        52,
+        20,
+        20,
+        20,
+        8
+      ],
+      "sharp_edges_over_60_degrees": 68,
+      "smooth_faces": 502,
+      "faces": 502,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 1.6203121904527595,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "TownfolkPainted"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Gear_Guard",
+      "vertices": 822,
+      "triangles": 1110,
+      "local_bounds": [
+        [
+          -0.33500000834465027,
+          -0.15000000596046448,
+          0.7020000219345093
+        ],
+        [
+          0.33500000834465027,
+          0.15000000596046448,
+          1.53000009059906
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 8,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        146,
+        146,
+        146,
+        72,
+        52,
+        8
+      ],
+      "sharp_edges_over_60_degrees": 56,
+      "smooth_faces": 1110,
+      "faces": 1110,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 1.209233960590126,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "TownfolkPainted"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Gear_Keeper",
+      "vertices": 1465,
+      "triangles": 1820,
+      "local_bounds": [
+        [
+          -0.36500000953674316,
+          -0.15000000596046448,
+          0.6800000071525574
+        ],
+        [
+          0.36500000953674316,
+          0.21899999678134918,
+          1.4950000047683716
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 6,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        182,
+        182,
+        146,
+        42,
+        42,
+        42,
+        42,
+        42,
+        42,
+        42,
+        42,
+        42,
+        24,
+        24,
+        6
+      ],
+      "sharp_edges_over_60_degrees": 32,
+      "smooth_faces": 1820,
+      "faces": 1820,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 2.7966187024948757,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "TownfolkPainted"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Gear_Merchant",
+      "vertices": 281,
+      "triangles": 394,
+      "local_bounds": [
+        [
+          -0.18799999356269836,
+          -0.028999999165534973,
+          0.7020000219345093
+        ],
+        [
+          0.3319999873638153,
+          0.15000000596046448,
+          1.4800000190734863
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 8,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        146,
+        52,
+        8
+      ],
+      "sharp_edges_over_60_degrees": 8,
+      "smooth_faces": 394,
+      "faces": 394,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.40599002701760156,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "TownfolkPainted"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Gear_Smith",
+      "vertices": 468,
+      "triangles": 416,
+      "local_bounds": [
+        [
+          -0.43892166018486023,
+          -0.06773734092712402,
+          0.6984137296676636
+        ],
+        [
+          0.43892166018486023,
+          0.16470421850681305,
+          1.654962420463562
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 38,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        68,
+        32,
+        32,
+        24,
+        24,
+        18,
+        18,
+        16,
+        12
+      ],
+      "sharp_edges_over_60_degrees": 176,
+      "smooth_faces": 416,
+      "faces": 416,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 1.64745544264159,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "TownfolkPainted"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Hair_Bun",
+      "vertices": 1316,
+      "triangles": 1524,
+      "local_bounds": [
+        [
+          -0.15000000596046448,
+          -0.19499999284744263,
+          1.5694870948791504
+        ],
+        [
+          0.18799999356269836,
+          0.10483156889677048,
+          1.9023808240890503
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 64,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        288,
+        222,
+        86,
+        24,
+        24,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        16
+      ],
+      "sharp_edges_over_60_degrees": 248,
+      "smooth_faces": 1524,
+      "faces": 1524,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 2.16857143095951,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "TownfolkPainted"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Hair_Swept",
+      "vertices": 746,
+      "triangles": 800,
+      "local_bounds": [
+        [
+          -0.11100000143051147,
+          -0.11699999868869781,
+          1.7250001430511475
+        ],
+        [
+          0.11100000143051147,
+          0.10483156889677048,
+          1.9023808240890503
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 64,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        288,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "sharp_edges_over_60_degrees": 200,
+      "smooth_faces": 800,
+      "faces": 800,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.9998026413670313,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "TownfolkPainted"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Hair_Topknot",
+      "vertices": 995,
+      "triangles": 1132,
+      "local_bounds": [
+        [
+          -0.11100000143051147,
+          -0.11699999868869781,
+          1.7250001430511475
+        ],
+        [
+          0.11100000143051147,
+          0.10483156889677048,
+          1.9960001707077026
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 64,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        288,
+        146,
+        24,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "sharp_edges_over_60_degrees": 224,
+      "smooth_faces": 1132,
+      "faces": 1132,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 1.6203670672051196,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "TownfolkPainted"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Head_Female",
+      "vertices": 1951,
+      "triangles": 2548,
+      "local_bounds": [
+        [
+          -0.12200000137090683,
+          -0.10899999737739563,
+          1.570000171661377
+        ],
+        [
+          0.12200000137090683,
+          0.14618822932243347,
+          1.8633334636688232
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        672,
+        86,
+        86,
+        62,
+        62,
+        62,
+        62,
+        52,
+        52,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "sharp_edges_over_60_degrees": 144,
+      "smooth_faces": 2548,
+      "faces": 2548,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 2.626153352082407,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "TownfolkPainted"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Head_Male",
+      "vertices": 1945,
+      "triangles": 2548,
+      "local_bounds": [
+        [
+          -0.12200000137090683,
+          -0.10899999737739563,
+          1.570000171661377
+        ],
+        [
+          0.12200000137090683,
+          0.14618822932243347,
+          1.8633334636688232
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        672,
+        86,
+        86,
+        62,
+        62,
+        62,
+        62,
+        52,
+        52,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "sharp_edges_over_60_degrees": 144,
+      "smooth_faces": 2548,
+      "faces": 2548,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 2.626347815485307,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "TownfolkPainted"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "TownfolkPainted",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.9300000071525574
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    }
+  ],
+  "triangles": 21106,
+  "skeletons": [
+    {
+      "name": "TownfolkRig",
+      "bones": [
+        {
+          "name": "Root",
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            3.2174831687825645e-08,
+            0.9399999976158142
+          ]
+        },
+        {
+          "name": "Hips",
+          "head": [
+            0.0,
+            3.2174828135111966e-08,
+            0.9399998784065247
+          ],
+          "tail": [
+            0.0,
+            3.68083412638498e-08,
+            1.0753697156906128
+          ]
+        },
+        {
+          "name": "Spine",
+          "head": [
+            0.0,
+            3.902053435922426e-08,
+            1.1399998664855957
+          ],
+          "tail": [
+            0.0,
+            4.689309918148865e-08,
+            1.369999885559082
+          ]
+        },
+        {
+          "name": "Chest",
+          "head": [
+            0.0,
+            4.689309918148865e-08,
+            1.369999885559082
+          ],
+          "tail": [
+            0.0,
+            5.202738151410813e-08,
+            1.5199998617172241
+          ]
+        },
+        {
+          "name": "Neck",
+          "head": [
+            0.0,
+            5.202737796139445e-08,
+            1.5199998617172241
+          ],
+          "tail": [
+            0.0,
+            5.647708789524586e-08,
+            1.6499998569488525
+          ]
+        },
+        {
+          "name": "Head",
+          "head": [
+            0.0,
+            5.647708789524586e-08,
+            1.6499998569488525
+          ],
+          "tail": [
+            0.0,
+            6.092679427638359e-08,
+            1.779999852180481
+          ]
+        },
+        {
+          "name": "UpperArm.L",
+          "head": [
+            -0.2399999350309372,
+            7.50238413615989e-08,
+            1.4299999475479126
+          ],
+          "tail": [
+            -0.3600001037120819,
+            3.537711990020398e-08,
+            1.1599998474121094
+          ]
+        },
+        {
+          "name": "Forearm.L",
+          "head": [
+            -0.35999995470046997,
+            5.1791246846732975e-09,
+            1.1599998474121094
+          ],
+          "tail": [
+            -0.3999999761581421,
+            0.014999950304627419,
+            0.9200001955032349
+          ]
+        },
+        {
+          "name": "Hand.L",
+          "head": [
+            -0.40000006556510925,
+            0.014999904669821262,
+            0.9200003147125244
+          ],
+          "tail": [
+            -0.4000001549720764,
+            0.09553007781505585,
+            0.6899139881134033
+          ]
+        },
+        {
+          "name": "UpperArm.R",
+          "head": [
+            0.2399999350309372,
+            7.50238413615989e-08,
+            1.4299999475479126
+          ],
+          "tail": [
+            0.3600001037120819,
+            3.537711990020398e-08,
+            1.1599998474121094
+          ]
+        },
+        {
+          "name": "Forearm.R",
+          "head": [
+            0.35999995470046997,
+            5.1791246846732975e-09,
+            1.1599998474121094
+          ],
+          "tail": [
+            0.3999999761581421,
+            0.014999950304627419,
+            0.9200001955032349
+          ]
+        },
+        {
+          "name": "Hand.R",
+          "head": [
+            0.40000006556510925,
+            0.014999904669821262,
+            0.9200003147125244
+          ],
+          "tail": [
+            0.4000001549720764,
+            0.09553007781505585,
+            0.6899139881134033
+          ]
+        },
+        {
+          "name": "Thigh.L",
+          "head": [
+            -0.13499999046325684,
+            3.763938849488113e-08,
+            0.9499998688697815
+          ],
+          "tail": [
+            -0.13999998569488525,
+            0.015000024810433388,
+            0.529999852180481
+          ]
+        },
+        {
+          "name": "Shin.L",
+          "head": [
+            -0.14000000059604645,
+            0.015000022947788239,
+            0.5299999713897705
+          ],
+          "tail": [
+            -0.14000000059604645,
+            3.166496753692627e-08,
+            0.13999992609024048
+          ]
+        },
+        {
+          "name": "Foot.L",
+          "head": [
+            -0.13999998569488525,
+            3.4458938813486384e-08,
+            0.14000001549720764
+          ],
+          "tail": [
+            -0.14000004529953003,
+            0.3738285005092621,
+            0.027851440012454987
+          ]
+        },
+        {
+          "name": "Thigh.R",
+          "head": [
+            0.13499999046325684,
+            3.763938849488113e-08,
+            0.9499998688697815
+          ],
+          "tail": [
+            0.13999998569488525,
+            0.015000024810433388,
+            0.529999852180481
+          ]
+        },
+        {
+          "name": "Shin.R",
+          "head": [
+            0.14000000059604645,
+            0.015000022947788239,
+            0.5299999713897705
+          ],
+          "tail": [
+            0.14000000059604645,
+            3.166496753692627e-08,
+            0.13999992609024048
+          ]
+        },
+        {
+          "name": "Foot.R",
+          "head": [
+            0.13999998569488525,
+            3.4458938813486384e-08,
+            0.14000001549720764
+          ],
+          "tail": [
+            0.14000004529953003,
+            0.3738285005092621,
+            0.027851440012454987
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    "idle",
+    "keeper_idle",
+    "smith_idle"
+  ],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\townfolk_kit.glb",
+  "seconds": 0.628
+}

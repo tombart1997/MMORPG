@@ -1,0 +1,42 @@
+{
+  "key": "mob_venom_spider",
+  "forge_asset_id": "7386fddb5cc0",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\7386fddb5cc0\\generated\\a269e6e1c20b\\source.glb",
+  "rig_source": "blender/creatures/spider.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\venom_spider.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_venom_spider.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -1.150913119316101,
+      -1.0199999809265137,
+      0.0645306333899498
+    ],
+    [
+      1.150913119316101,
+      0.8327771425247192,
+      0.9959999918937683
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 27696,
+      "after": 13998,
+      "extent_drift": 0.0006600478741617818
+    }
+  ],
+  "bones": 20,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "silhouette_cleanup": {
+    "removed_vertices": 50,
+    "painted_ground_trim": false
+  }
+}

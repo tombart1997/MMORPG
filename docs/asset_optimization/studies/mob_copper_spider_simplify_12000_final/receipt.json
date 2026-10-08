@@ -1,0 +1,176 @@
+{
+  "name": "mob_copper_spider_simplify_12000_final",
+  "asset_id": "383f470ef00b",
+  "source_key": "mob_copper_spider",
+  "source": "game/assets/forge_rebuild/mobs/copper_spider.glb",
+  "source_asset_id": "a7960107c3f3",
+  "source_sha256": "0445de1b06f30613249f2dafb2c950f648e3d583d7e445f28f91a71e309eea50",
+  "imported_candidate": "c31ba058b705",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 12000,
+    "optimization_mode": "simplify",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "anatomy_review",
+      "topology_review",
+      "uv_materials",
+      "species_rig_import",
+      "animation_review",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "e3c4303f2a40",
+    "asset_id": "383f470ef00b",
+    "operation": "process",
+    "state": "succeeded",
+    "stage": "blender_process",
+    "progress": 100,
+    "created_at": "2026-10-03T19:14:32.744085+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {
+      "files": {
+        "animation_contract.json": "processed/e3c4303f2a40/animation_contract.json",
+        "editable.blend": "processed/e3c4303f2a40/editable.blend",
+        "inspection_before.json": "processed/e3c4303f2a40/inspection_before.json",
+        "optimization.json": "processed/e3c4303f2a40/optimization.json",
+        "processing.json": "processed/e3c4303f2a40/processing.json",
+        "runtime.glb": "processed/e3c4303f2a40/runtime.glb",
+        "source.blend": "processed/e3c4303f2a40/source.blend",
+        "source.glb": "processed/e3c4303f2a40/source.glb",
+        "validation.json": "processed/e3c4303f2a40/validation.json"
+      }
+    },
+    "resumed_from": null,
+    "message": "Complete \u00b7 visual review remains separate",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 12000,
+      "optimization_mode": "simplify",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "anatomy_review",
+        "topology_review",
+        "uv_materials",
+        "species_rig_import",
+        "animation_review",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "c31ba058b705",
+      "path": "imports/4ccb69cedc1e.glb",
+      "origin": "imported",
+      "sha256": "0445de1b06f30613249f2dafb2c950f648e3d583d7e445f28f91a71e309eea50",
+      "created_at": "2026-10-03T19:14:32.675084+00:00",
+      "original_filename": "copper_spider.glb",
+      "license": "Optimization study: retained local neural derivative from a7960107c3f3; SHA256 0445de1b06f30613249f2dafb2c950f648e3d583d7e445f28f91a71e309eea50",
+      "cost_credits": 0
+    },
+    "reference": null,
+    "started_at": "2026-10-03T19:14:32.754091+00:00",
+    "elapsed_seconds": 11.6,
+    "finished_at": "2026-10-03T19:14:44.402832+00:00",
+    "duration_seconds": 11.66
+  },
+  "visual_status": "pending",
+  "artifacts": {
+    "animation_contract.json": "processed/e3c4303f2a40/animation_contract.json",
+    "editable.blend": "processed/e3c4303f2a40/editable.blend",
+    "inspection_before.json": "processed/e3c4303f2a40/inspection_before.json",
+    "optimization.json": "processed/e3c4303f2a40/optimization.json",
+    "processing.json": "processed/e3c4303f2a40/processing.json",
+    "runtime.glb": "processed/e3c4303f2a40/runtime.glb",
+    "source.blend": "processed/e3c4303f2a40/source.blend",
+    "source.glb": "processed/e3c4303f2a40/source.glb",
+    "validation.json": "processed/e3c4303f2a40/validation.json"
+  },
+  "review_path": "res://review_assets/optimization/mob_copper_spider_simplify_12000_final.glb"
+}

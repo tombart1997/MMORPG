@@ -1,0 +1,47 @@
+{
+  "key": "mob_blacktusk",
+  "forge_asset_id": "c3ce280241da",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\c3ce280241da\\generated\\377c8b081638\\source.glb",
+  "rig_source": "blender/creatures/boar.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\blacktusk.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_blacktusk.blend",
+  "yaw": 54.00091614530312,
+  "bounds": [
+    [
+      -0.4323287308216095,
+      -1.2757891416549683,
+      0.0
+    ],
+    [
+      0.4323287308216095,
+      1.1419222354888916,
+      1.3600000143051147
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 33720,
+      "after": 13998,
+      "extent_drift": 0.0007586170105719089
+    }
+  ],
+  "bones": 13,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "silhouette_cleanup": {
+    "removed_vertices": 45,
+    "painted_ground_trim": false
+  },
+  "animation_skin_refinement": {
+    "constrained_limb_vertices": 1944,
+    "removed_bridge_faces": 0,
+    "reason": "Opened run views revealed lower-limb sheets from floor geometry and mixed limb influence."
+  }
+}

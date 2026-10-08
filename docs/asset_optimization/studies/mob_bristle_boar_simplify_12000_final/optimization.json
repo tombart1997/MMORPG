@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_bristle_boar",
+      "before": 13874,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11996,
+      "quality": {
+        "surface_max_fraction": 0.0025119643968838476,
+        "surface_p95_fraction": 0.000207626053818266,
+        "bounds_drift_fraction": 0.0005153285891047323,
+        "nonmanifold_edges": 0,
+        "samples": 6582
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.008673685517016434,
+          "p95_fraction": 0.00021879416269881492
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.010213282356472363,
+          "p95_fraction": 0.00021154622713011784
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.009928767733466628,
+          "p95_fraction": 0.0002187241611561504
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.006994844990697727,
+          "p95_fraction": 0.00020762605528192423
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.002714842485291026,
+          "p95_fraction": 0.00021288573466842018
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

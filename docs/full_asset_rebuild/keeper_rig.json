@@ -1,0 +1,30 @@
+{
+  "key": "keeper",
+  "source": "D:\\Games\\Metin2Clone\\blender\\multiview_rebuild\\prepared\\keeper.blend",
+  "family": "humanoid",
+  "height": 1.9,
+  "yaw": 0,
+  "rig_source": "blender/multiview_rebuild/binding_templates/townfolk_kit.blend",
+  "binding_guide": "blender/multiview_rebuild/binding_templates/townfolk_kit.weights.json",
+  "output": "D:\\Games\\Metin2Clone\\game\\assets\\generated\\keeper.glb",
+  "bounds": [
+    [
+      -0.3239631950855255,
+      -0.26020729541778564,
+      0.006000000052154064
+    ],
+    [
+      0.5356842875480652,
+      0.262762188911438,
+      1.906000018119812
+    ]
+  ],
+  "bones": 18,
+  "clips": [
+    "idle",
+    "keeper_idle",
+    "smith_idle"
+  ],
+  "template_geometry_exported": false,
+  "review_status": "requires_deformation_review"
+}

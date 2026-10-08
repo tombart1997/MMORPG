@@ -1,0 +1,176 @@
+{
+  "name": "hero_ironvow_balanced_30000_final",
+  "asset_id": "3397a3475078",
+  "source_key": "hero_ironvow",
+  "source": "game/assets/characters/warden_high.glb",
+  "source_asset_id": "96e72c50d51d",
+  "source_sha256": "b9983ade719445bf53c6c1ea76e8368ef9d58228b8b4e81d093b744f2f74069c",
+  "imported_candidate": "3dee9875ad50",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 30000,
+    "optimization_mode": "balanced",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "topology_review",
+      "uv_materials",
+      "rig_import",
+      "deformation_review",
+      "optimization_review",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "93960760b103",
+    "asset_id": "3397a3475078",
+    "operation": "process",
+    "state": "succeeded",
+    "stage": "blender_process",
+    "progress": 100,
+    "created_at": "2026-10-03T19:05:23.521406+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {
+      "files": {
+        "animation_contract.json": "processed/93960760b103/animation_contract.json",
+        "editable.blend": "processed/93960760b103/editable.blend",
+        "inspection_before.json": "processed/93960760b103/inspection_before.json",
+        "optimization.json": "processed/93960760b103/optimization.json",
+        "processing.json": "processed/93960760b103/processing.json",
+        "runtime.glb": "processed/93960760b103/runtime.glb",
+        "source.blend": "processed/93960760b103/source.blend",
+        "source.glb": "processed/93960760b103/source.glb",
+        "validation.json": "processed/93960760b103/validation.json"
+      }
+    },
+    "resumed_from": null,
+    "message": "Complete \u00b7 visual review remains separate",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 30000,
+      "optimization_mode": "balanced",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "topology_review",
+        "uv_materials",
+        "rig_import",
+        "deformation_review",
+        "optimization_review",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "3dee9875ad50",
+      "path": "imports/ff25f71a8295.glb",
+      "origin": "imported",
+      "sha256": "b9983ade719445bf53c6c1ea76e8368ef9d58228b8b4e81d093b744f2f74069c",
+      "created_at": "2026-10-03T19:05:23.440266+00:00",
+      "original_filename": "warden_high.glb",
+      "license": "Optimization study: retained local neural derivative from 96e72c50d51d; SHA256 b9983ade719445bf53c6c1ea76e8368ef9d58228b8b4e81d093b744f2f74069c",
+      "cost_credits": 0
+    },
+    "reference": null,
+    "started_at": "2026-10-03T19:05:23.521406+00:00",
+    "elapsed_seconds": 42.7,
+    "finished_at": "2026-10-03T19:06:06.338062+00:00",
+    "duration_seconds": 42.83
+  },
+  "visual_status": "pending",
+  "artifacts": {
+    "animation_contract.json": "processed/93960760b103/animation_contract.json",
+    "editable.blend": "processed/93960760b103/editable.blend",
+    "inspection_before.json": "processed/93960760b103/inspection_before.json",
+    "optimization.json": "processed/93960760b103/optimization.json",
+    "processing.json": "processed/93960760b103/processing.json",
+    "runtime.glb": "processed/93960760b103/runtime.glb",
+    "source.blend": "processed/93960760b103/source.blend",
+    "source.glb": "processed/93960760b103/source.glb",
+    "validation.json": "processed/93960760b103/validation.json"
+  },
+  "review_path": "res://review_assets/optimization/hero_ironvow_balanced_30000_final.glb"
+}

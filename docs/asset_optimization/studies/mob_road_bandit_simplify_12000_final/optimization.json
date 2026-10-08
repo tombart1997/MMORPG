@@ -1,0 +1,125 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_road_bandit",
+      "before": 13682,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11996,
+      "quality": {
+        "surface_max_fraction": 0.0008721964950182501,
+        "surface_p95_fraction": 0.00011360308526870734,
+        "bounds_drift_fraction": 0.00039651547577262833,
+        "nonmanifold_edges": 0,
+        "samples": 6632
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "longsword_run",
+          "samples": 3,
+          "max_fraction": 0.007851148775546605,
+          "p95_fraction": 0.00012884329728182916
+        },
+        {
+          "clip": "longsword_03",
+          "samples": 3,
+          "max_fraction": 0.00871284694848581,
+          "p95_fraction": 0.000134405328423789
+        },
+        {
+          "clip": "attack_03",
+          "samples": 3,
+          "max_fraction": 0.007158614961510973,
+          "p95_fraction": 0.00013079635804072272
+        },
+        {
+          "clip": "longsword_02",
+          "samples": 3,
+          "max_fraction": 0.008079704347270058,
+          "p95_fraction": 0.0001295304465790325
+        },
+        {
+          "clip": "attack_02",
+          "samples": 3,
+          "max_fraction": 0.007297732140439583,
+          "p95_fraction": 0.00012686286719372906
+        },
+        {
+          "clip": "longsword_01",
+          "samples": 3,
+          "max_fraction": 0.008488992112037038,
+          "p95_fraction": 0.00013137486273819078
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.006920300743370902,
+          "p95_fraction": 0.00013008249306944484
+        },
+        {
+          "clip": "longsword_idle",
+          "samples": 3,
+          "max_fraction": 0.007910434376443723,
+          "p95_fraction": 0.00012443026068714597
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.006206213231871942,
+          "p95_fraction": 0.00012265146523254491
+        },
+        {
+          "clip": "skill_riposte",
+          "samples": 3,
+          "max_fraction": 0.007136009628083174,
+          "p95_fraction": 0.00011994020201000667
+        },
+        {
+          "clip": "skill_plant",
+          "samples": 3,
+          "max_fraction": 0.007929987453955352,
+          "p95_fraction": 0.00012127645878497047
+        },
+        {
+          "clip": "skill_step",
+          "samples": 3,
+          "max_fraction": 0.007914826806088454,
+          "p95_fraction": 0.0001236072333447832
+        },
+        {
+          "clip": "skill_guard",
+          "samples": 3,
+          "max_fraction": 0.0070018852756861625,
+          "p95_fraction": 0.00011963771369422193
+        },
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.004760115951573294,
+          "p95_fraction": 0.00011259590575422141
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.005122242677613951,
+          "p95_fraction": 0.00012309456423216235
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.007084496476591521,
+          "p95_fraction": 0.00011999004167650488
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

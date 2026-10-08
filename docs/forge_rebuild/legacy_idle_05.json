@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Townfolk Kit",
+      "path": "res://assets/characters/townfolk_kit.glb"
+    },
+    {
+      "name": "Traveler",
+      "path": "res://assets/characters/traveler.glb"
+    },
+    {
+      "name": "Traveler Guard",
+      "path": "res://assets/characters/traveler_guard.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\legacy_idle_05.png",
+  "clip": "idle",
+  "time": 0
+}

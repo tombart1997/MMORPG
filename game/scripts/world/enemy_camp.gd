@@ -24,9 +24,10 @@ var dormant: bool = false
 var stream_clock: float = 0
 var saved_members: Dictionary = {}
 var dead_indices: Dictionary = {}
-const WAKE_DISTANCE := 68.0
-const SLEEP_DISTANCE := 84.0
+const WAKE_DISTANCE := 44.0
+const SLEEP_DISTANCE := 58.0
 const FULL_DISTANCE := 30.0
+const PREFETCH_DISTANCE := 68.0
 const ENEMY_VISUAL = preload("res://scenes/visuals/mossling.tscn")
 const CLAW = preload("res://data/attacks/enemy_claw.tres")
 @export var leader_reward: ItemData = preload("res://data/items/briarsteel_edge.tres")
@@ -81,13 +82,17 @@ func _materialize() -> void:
 		enemy.maximum_health = enemy_data.maximum_health if enemy_data else 75
 		enemy.faction = &"enemies"
 		enemy.opponents = &"players"
+		var actor_started := Time.get_ticks_usec() if RuntimeCosts.enabled else 0
 		add_child(enemy)
+		if RuntimeCosts.enabled: RuntimeCosts.record(&"actor_create",actor_started)
 		pack.register(enemy)
 		WorldClickable.attach(enemy, &"enemy")
 		if enemy_data:
 			enemy.visual.scale = Vector3.ONE * enemy_data.visual_scale
 			enemy.health.defense = enemy_data.defense
+			var visual_started := Time.get_ticks_usec() if RuntimeCosts.enabled else 0
 			if enemy.visual.has_method("apply_variant"): enemy.visual.apply_variant(enemy_data)
+			if RuntimeCosts.enabled: RuntimeCosts.record(&"variant_create",visual_started)
 		var brain := EnemyBrain.new()
 		brain.pack = pack
 		if enemy_data:
@@ -115,6 +120,10 @@ func _sleep() -> void:
 func update_residency() -> void:
 	if not streaming_enabled or not is_instance_valid(observer): return
 	var distance := observer.global_position.distance_to(global_position)
+	# Load resources before the 44 m residency boundary. This avoids synchronous
+	# first-use atlas/mesh loads during mounted travel; spawning rules stay intact.
+	if dormant and distance < PREFETCH_DISTANCE and enemy_data:
+		ForgeModelCatalogue.prefetch("mobs",enemy_data.id)
 	if dormant and distance < WAKE_DISTANCE and remaining < 0: _materialize()
 	elif not dormant and distance > SLEEP_DISTANCE: _sleep()
 	if dormant: return
@@ -157,6 +166,14 @@ func _reward(source: Node3D, enemy: ActorBody, index: int) -> void:
 				enemy.queue_free())
 
 func _physics_process(delta: float) -> void:
+	if not RuntimeCosts.enabled:
+		_profiled__physics_process(delta)
+		return
+	var started:=Time.get_ticks_usec()
+	_profiled__physics_process(delta)
+	RuntimeCosts.record(&"camp",started)
+
+func _profiled__physics_process(delta: float) -> void:
 	if pack == null: return
 	if streaming_enabled:
 		stream_clock -= delta

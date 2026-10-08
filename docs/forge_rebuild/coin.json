@@ -1,0 +1,32 @@
+{
+  "key": "coin",
+  "forge_asset_id": "558755f812de",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\558755f812de\\generated\\c64a6c9a6b52\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\weapons\\gold_coin.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\coin.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.06300000101327896,
+      -0.06300000101327896,
+      -0.006100000347942114
+    ],
+    [
+      0.06300000101327896,
+      0.06300000101327896,
+      0.006100000347942114
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 24398,
+      "after": 1398,
+      "extent_drift": 0.00026024291997124696
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

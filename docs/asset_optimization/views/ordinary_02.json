@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Blue Wolf / 11996 tris",
+      "path": "res://review_assets/optimization/mob_blue_wolf_simplify_12000_final.glb"
+    },
+    {
+      "name": "Mossling / 11995 tris",
+      "path": "res://review_assets/optimization/mob_grown_simplify_12000_final.glb"
+    },
+    {
+      "name": "Reed Spider / 11996 tris",
+      "path": "res://review_assets/optimization/mob_reed_spider_simplify_12000_final.glb"
+    }
+  ],
+  "clip": "run",
+  "time": 0.19,
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\views\\ordinary_02.png"
+}

@@ -1,0 +1,1248 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "IronbackLeaf",
+      "vertices": 15,
+      "triangles": 5,
+      "local_bounds": [
+        [
+          -0.2800000011920929,
+          -0.3050000071525574,
+          0.09000000357627869
+        ],
+        [
+          -0.029999999329447746,
+          -0.1899999976158142,
+          0.23499999940395355
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 5,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        6
+      ],
+      "sharp_edges_over_60_degrees": 1,
+      "smooth_faces": 1,
+      "faces": 5,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackJade"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "IronbackLeaf.001",
+      "vertices": 15,
+      "triangles": 5,
+      "local_bounds": [
+        [
+          -0.31700000166893005,
+          -0.3050000071525574,
+          0.02500000037252903
+        ],
+        [
+          -0.06700000166893005,
+          -0.1899999976158142,
+          0.17000000178813934
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 5,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        6
+      ],
+      "sharp_edges_over_60_degrees": 1,
+      "smooth_faces": 1,
+      "faces": 5,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackJade"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "IronbackLeaf.002",
+      "vertices": 15,
+      "triangles": 5,
+      "local_bounds": [
+        [
+          -0.3540000021457672,
+          -0.3050000071525574,
+          -0.03999999910593033
+        ],
+        [
+          -0.10400000214576721,
+          -0.1899999976158142,
+          0.10499999672174454
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 5,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        6
+      ],
+      "sharp_edges_over_60_degrees": 1,
+      "smooth_faces": 2,
+      "faces": 5,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackJade"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "IronbackLeaf.003",
+      "vertices": 15,
+      "triangles": 5,
+      "local_bounds": [
+        [
+          -0.39100000262260437,
+          -0.3050000071525574,
+          -0.10499999672174454
+        ],
+        [
+          -0.14100000262260437,
+          -0.1899999976158142,
+          0.03999999910593033
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 5,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        6
+      ],
+      "sharp_edges_over_60_degrees": 1,
+      "smooth_faces": 1,
+      "faces": 5,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackJade"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "IronbackLeaf.004",
+      "vertices": 15,
+      "triangles": 5,
+      "local_bounds": [
+        [
+          0.029999999329447746,
+          -0.3050000071525574,
+          0.09000000357627869
+        ],
+        [
+          0.2800000011920929,
+          -0.1899999976158142,
+          0.23499999940395355
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 5,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        6
+      ],
+      "sharp_edges_over_60_degrees": 1,
+      "smooth_faces": 1,
+      "faces": 5,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackJade"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "IronbackLeaf.005",
+      "vertices": 15,
+      "triangles": 5,
+      "local_bounds": [
+        [
+          0.06700000166893005,
+          -0.3050000071525574,
+          0.02500000037252903
+        ],
+        [
+          0.31700000166893005,
+          -0.1899999976158142,
+          0.17000000178813934
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 5,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        6
+      ],
+      "sharp_edges_over_60_degrees": 1,
+      "smooth_faces": 1,
+      "faces": 5,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackJade"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "IronbackLeaf.006",
+      "vertices": 15,
+      "triangles": 5,
+      "local_bounds": [
+        [
+          0.10400000214576721,
+          -0.3050000071525574,
+          -0.03999999910593033
+        ],
+        [
+          0.3540000021457672,
+          -0.1899999976158142,
+          0.10499999672174454
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 5,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        6
+      ],
+      "sharp_edges_over_60_degrees": 1,
+      "smooth_faces": 2,
+      "faces": 5,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackJade"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "IronbackLeaf.007",
+      "vertices": 15,
+      "triangles": 5,
+      "local_bounds": [
+        [
+          0.14100000262260437,
+          -0.3050000071525574,
+          -0.10499999672174454
+        ],
+        [
+          0.39100000262260437,
+          -0.1899999976158142,
+          0.03999999910593033
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 5,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        6
+      ],
+      "sharp_edges_over_60_degrees": 1,
+      "smooth_faces": 1,
+      "faces": 5,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackJade"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "MantleHorn",
+      "vertices": 48,
+      "triangles": 92,
+      "local_bounds": [
+        [
+          -0.3408191502094269,
+          -0.24184925854206085,
+          0.20628812909126282
+        ],
+        [
+          -0.1441020965576172,
+          -0.15569162368774414,
+          0.4207499325275421
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        48
+      ],
+      "sharp_edges_over_60_degrees": 32,
+      "smooth_faces": 92,
+      "faces": 92,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackGold"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "MantleHorn.001",
+      "vertices": 48,
+      "triangles": 92,
+      "local_bounds": [
+        [
+          0.1441020965576172,
+          -0.24184925854206085,
+          0.20628812909126282
+        ],
+        [
+          0.3408191502094269,
+          -0.15569162368774414,
+          0.4207499325275421
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        48
+      ],
+      "sharp_edges_over_60_degrees": 32,
+      "smooth_faces": 92,
+      "faces": 92,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackGold"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "MantlePiping",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.2838883399963379,
+          -0.2769242227077484,
+          0.0882994756102562
+        ],
+        [
+          -0.17392773926258087,
+          -0.18638040125370026,
+          0.2377685159444809
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        24
+      ],
+      "sharp_edges_over_60_degrees": 32,
+      "smooth_faces": 44,
+      "faces": 44,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackGold"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "MantlePiping.001",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.32088834047317505,
+          -0.2769242227077484,
+          0.02329947054386139
+        ],
+        [
+          -0.21092773973941803,
+          -0.18638040125370026,
+          0.1727685183286667
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        24
+      ],
+      "sharp_edges_over_60_degrees": 32,
+      "smooth_faces": 44,
+      "faces": 44,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackGold"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "MantlePiping.002",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.3578883409500122,
+          -0.2769242227077484,
+          -0.04170053079724312
+        ],
+        [
+          -0.2479277402162552,
+          -0.18638040125370026,
+          0.10776852816343307
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        24
+      ],
+      "sharp_edges_over_60_degrees": 32,
+      "smooth_faces": 44,
+      "faces": 44,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackGold"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "MantlePiping.003",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.39488834142684937,
+          -0.2769242227077484,
+          -0.10670052468776703
+        ],
+        [
+          -0.28492775559425354,
+          -0.18638040125370026,
+          0.04276852682232857
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        24
+      ],
+      "sharp_edges_over_60_degrees": 32,
+      "smooth_faces": 44,
+      "faces": 44,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackGold"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "MantlePiping.004",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          0.17392773926258087,
+          -0.2769242227077484,
+          0.0882994756102562
+        ],
+        [
+          0.2838883399963379,
+          -0.18638040125370026,
+          0.2377685159444809
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        24
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 44,
+      "faces": 44,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackGold"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "MantlePiping.005",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          0.21092773973941803,
+          -0.2769242227077484,
+          0.02329947054386139
+        ],
+        [
+          0.32088834047317505,
+          -0.18638040125370026,
+          0.1727685183286667
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        24
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 44,
+      "faces": 44,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackGold"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "MantlePiping.006",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          0.2479277402162552,
+          -0.2769242227077484,
+          -0.04170053079724312
+        ],
+        [
+          0.3578883409500122,
+          -0.18638040125370026,
+          0.10776852816343307
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        24
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 44,
+      "faces": 44,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackGold"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    },
+    {
+      "name": "MantlePiping.007",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          0.28492775559425354,
+          -0.2769242227077484,
+          -0.10670052468776703
+        ],
+        [
+          0.39488834142684937,
+          -0.18638040125370026,
+          0.04276852682232857
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        24
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 44,
+      "faces": 44,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IronbackGold"
+      ],
+      "skinned": false,
+      "unweighted_vertices": 0,
+      "weight_sum_range": null,
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "IronbackGold",
+      "channels": {
+        "Base Color": {
+          "linked": false,
+          "value": [
+            0.4300000071525574,
+            0.28999999165534973,
+            0.10999999940395355,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.5
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.550000011920929
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "IronbackJade",
+      "channels": {
+        "Base Color": {
+          "linked": false,
+          "value": [
+            0.06499999761581421,
+            0.2199999988079071,
+            0.15000000596046448,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.41999998688697815
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.20000000298023224
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    }
+  ],
+  "triangles": 576,
+  "skeletons": [],
+  "clips": [],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\jade_ironback_mantle.glb",
+  "seconds": 0.112
+}

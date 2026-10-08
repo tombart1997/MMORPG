@@ -1,0 +1,17 @@
+{
+  "assets": [
+    {
+      "name": "Road Bandit",
+      "path": "res://assets/forge_rebuild/mobs/road_bandit.glb"
+    },
+    {
+      "name": "Reed Spider",
+      "path": "res://assets/forge_rebuild/mobs/reed_spider.glb"
+    },
+    {
+      "name": "Cairn Sentinel",
+      "path": "res://assets/forge_rebuild/mobs/cairn_sentinel.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\mobs_second.png"
+}

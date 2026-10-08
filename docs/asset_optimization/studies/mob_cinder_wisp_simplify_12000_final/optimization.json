@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_cinder_wisp",
+      "before": 12082,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11996,
+      "quality": {
+        "surface_max_fraction": 1.6865399944051244e-05,
+        "surface_p95_fraction": 0.0,
+        "bounds_drift_fraction": 0.0,
+        "nonmanifold_edges": 0,
+        "samples": 6353
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 1.6933653713676248e-05,
+          "p95_fraction": 0.0
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 2.1061866162469057e-05,
+          "p95_fraction": 0.0
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 5.530855632849839e-05,
+          "p95_fraction": 0.0
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 2.9541906336967676e-05,
+          "p95_fraction": 0.0
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 1.6896279656591787e-05,
+          "p95_fraction": 0.0
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

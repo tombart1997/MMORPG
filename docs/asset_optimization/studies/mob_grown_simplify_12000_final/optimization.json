@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_grown",
+      "before": 12494,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11995,
+      "quality": {
+        "surface_max_fraction": 0.001851998440037643,
+        "surface_p95_fraction": 0.0,
+        "bounds_drift_fraction": 0.0009730341288777484,
+        "nonmanifold_edges": 0,
+        "samples": 6793
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.0018512423817351508,
+          "p95_fraction": 0.0
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.006787205353528386,
+          "p95_fraction": 0.0
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.00848770224642122,
+          "p95_fraction": 0.0
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.00955748104771019,
+          "p95_fraction": 0.0
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.0018546722286388118,
+          "p95_fraction": 0.0
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11995,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

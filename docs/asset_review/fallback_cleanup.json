@@ -1,0 +1,166 @@
+{
+  "receipts": [
+    {
+      "operation": "remove_degenerate_triangles",
+      "source_sha256": "766ff2aaaa50ca30659fda0739206ef7807e578bc070e3d808324341655b9777",
+      "result_sha256": "78d8da3771fb3424c7cc4ee1d8a306b8b299e04b7cc948b32d5d83f3dc94054d",
+      "changes": [
+        {
+          "mesh": "QuiltedTorsoMesh.001",
+          "removed_zero_area_triangles": 100
+        }
+      ],
+      "preserved_original_binary_prefix": true,
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [
+          "26976 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "7760 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "52336 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "12706 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "13576 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "2432 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "1440 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "51 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "576 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "512 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "4444 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "2644 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "10956 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "1076 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 338024,
+        "materials": 16,
+        "textures": [
+          {
+            "name": "Warden_Leather_Surface",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "run",
+          "hit",
+          "death",
+          "skill_guard",
+          "skill_step",
+          "skill_plant",
+          "skill_riposte",
+          "idle",
+          "longsword_idle",
+          "attack_01",
+          "longsword_01",
+          "attack_02",
+          "longsword_02",
+          "attack_03",
+          "longsword_03",
+          "longsword_run"
+        ],
+        "mesh_objects": 1
+      },
+      "elapsed_seconds": 0.313,
+      "cost_credits": 0,
+      "source": "D:\\Games\\Metin2Clone\\game\\review_assets\\fallbacks\\assets\\characters\\warden_high.glb",
+      "result": "D:\\Games\\Metin2Clone\\game\\review_assets\\fallbacks\\assets\\characters\\warden_high_clean.glb"
+    },
+    {
+      "operation": "remove_degenerate_triangles",
+      "source_sha256": "e3e213b774b3dabd69a3a43fd2b8728efa5b96f1475ce058bccc6359fbdb2891",
+      "result_sha256": "bad3627fc4f53bbd4292ceb8ca7803ee61accda7f6660c102dc30e9de7f11309",
+      "changes": [
+        {
+          "mesh": "Circle",
+          "removed_zero_area_triangles": 16
+        },
+        {
+          "mesh": "Circle",
+          "removed_zero_area_triangles": 12
+        }
+      ],
+      "preserved_original_binary_prefix": true,
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [
+          "560 collapsed UV triangles in Circle; constant-material surfaces may not use UVs",
+          "1440 collapsed UV triangles in Circle; constant-material surfaces may not use UVs",
+          "856 collapsed UV triangles in Circle; constant-material surfaces may not use UVs",
+          "868 collapsed UV triangles in Circle; constant-material surfaces may not use UVs",
+          "12208 collapsed UV triangles in Circle; constant-material surfaces may not use UVs",
+          "840 collapsed UV triangles in Circle; constant-material surfaces may not use UVs",
+          "120 collapsed UV triangles in Circle; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 37396,
+        "materials": 9,
+        "textures": [
+          {
+            "name": "horse_diffuse",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Body",
+          "Fore.L.Upper",
+          "Fore.L.Lower",
+          "Fore.L.Ankle",
+          "Fore.L.Hoof",
+          "Fore.R.Upper",
+          "Fore.R.Lower",
+          "Fore.R.Ankle",
+          "Fore.R.Hoof",
+          "Hind.L.Upper",
+          "Hind.L.Lower",
+          "Hind.L.Ankle",
+          "Hind.L.Hoof",
+          "Hind.R.Upper",
+          "Hind.R.Lower",
+          "Hind.R.Ankle",
+          "Hind.R.Hoof",
+          "Neck",
+          "Head",
+          "Ear.L",
+          "Ear.R",
+          "Tail"
+        ],
+        "animations": [
+          "idle",
+          "walk",
+          "trot",
+          "canter"
+        ],
+        "mesh_objects": 1
+      },
+      "elapsed_seconds": 0.062,
+      "cost_credits": 0,
+      "source": "D:\\Games\\Metin2Clone\\game\\review_assets\\fallbacks\\assets\\mounts\\trail_horse.glb",
+      "result": "D:\\Games\\Metin2Clone\\game\\review_assets\\fallbacks\\assets\\mounts\\trail_horse_clean.glb"
+    }
+  ]
+}

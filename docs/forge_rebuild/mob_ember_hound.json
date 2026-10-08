@@ -1,0 +1,47 @@
+{
+  "key": "mob_ember_hound",
+  "forge_asset_id": "24bbdd266ef7",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\24bbdd266ef7\\generated\\d04ac7434c61\\source.glb",
+  "rig_source": "blender/creatures/wolf.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\ember_hound.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_ember_hound.blend",
+  "yaw": 81.99497474229842,
+  "bounds": [
+    [
+      -0.4323287308216095,
+      -1.349189043045044,
+      0.0
+    ],
+    [
+      0.4323287308216095,
+      1.0850000381469727,
+      1.440000057220459
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 29900,
+      "after": 14000,
+      "extent_drift": 0.0019972860428837487
+    }
+  ],
+  "bones": 13,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "silhouette_cleanup": {
+    "removed_vertices": 55,
+    "painted_ground_trim": false
+  },
+  "animation_skin_refinement": {
+    "constrained_limb_vertices": 1893,
+    "removed_bridge_faces": 0,
+    "reason": "Opened run views revealed lower-limb sheets from floor geometry and mixed limb influence."
+  }
+}

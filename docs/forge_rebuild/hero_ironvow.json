@@ -1,0 +1,49 @@
+{
+  "key": "hero_ironvow",
+  "forge_asset_id": "96e72c50d51d",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\96e72c50d51d\\generated\\6582dbf638c4\\source.glb",
+  "rig_source": "blender/characters/warden_high.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\characters\\warden_high.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\hero_ironvow.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.49000000953674316,
+      -0.20000000298023224,
+      0.006000000052154064
+    ],
+    [
+      0.49000000953674316,
+      0.2199999988079071,
+      1.899399995803833
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 59788,
+      "after": 41998,
+      "extent_drift": 0.0
+    }
+  ],
+  "bones": 18,
+  "clips": [
+    "run",
+    "hit",
+    "death",
+    "skill_guard",
+    "skill_step",
+    "skill_plant",
+    "skill_riposte",
+    "idle",
+    "longsword_idle",
+    "attack_01",
+    "longsword_01",
+    "attack_02",
+    "longsword_02",
+    "attack_03",
+    "longsword_03",
+    "longsword_run"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

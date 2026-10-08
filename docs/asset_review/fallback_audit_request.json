@@ -1,0 +1,169 @@
+{
+  "assets": [
+    {
+      "key": "mob_ironhide_boar",
+      "source": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\blacktusk.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\mob_ironhide_boar\\mesh_after.json"
+    },
+    {
+      "key": "mob_young",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\briarling.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\mob_young\\mesh_after.json"
+    },
+    {
+      "key": "mob_red_wolf",
+      "source": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\meadow_wolf.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\mob_red_wolf\\mesh_after.json"
+    },
+    {
+      "key": "mob_copper_spider",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\creatures\\spider.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\mob_copper_spider\\mesh_after.json"
+    },
+    {
+      "key": "mob_road_bandit",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\warden_high.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\mob_road_bandit\\mesh_after.json"
+    },
+    {
+      "key": "mob_slate_guardian",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\creatures\\stonekin.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\mob_slate_guardian\\mesh_after.json"
+    },
+    {
+      "key": "horse_bay",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\mounts\\trail_horse.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\horse_bay\\mesh_after.json"
+    },
+    {
+      "key": "tree_pine",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\world_kit\\tree0.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\tree_pine\\mesh_after.json"
+    },
+    {
+      "key": "shrub_reference",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\world_kit\\shrub.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\shrub_reference\\mesh_after.json"
+    },
+    {
+      "key": "npc_keeper",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\townfolk_kit.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\npc_keeper\\mesh_after.json"
+    },
+    {
+      "key": "npc_smith",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\townfolk_kit.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\npc_smith\\mesh_after.json"
+    },
+    {
+      "key": "npc_stablemaster",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\townfolk_kit.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\npc_stablemaster\\mesh_after.json"
+    },
+    {
+      "key": "grass",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\world_kit\\grass.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\grass\\mesh_after.json"
+    },
+    {
+      "key": "derived_benchmark_sedge",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\benchmark\\sedge.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_benchmark_sedge\\mesh_after.json"
+    },
+    {
+      "key": "derived_benchmark_shrub_briar",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\benchmark\\shrub_briar.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_benchmark_shrub_briar\\mesh_after.json"
+    },
+    {
+      "key": "derived_benchmark_shrub_laurel",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\benchmark\\shrub_laurel.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_benchmark_shrub_laurel\\mesh_after.json"
+    },
+    {
+      "key": "derived_benchmark_tree_bent",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\benchmark\\tree_bent.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_benchmark_tree_bent\\mesh_after.json"
+    },
+    {
+      "key": "derived_benchmark_tree_fork",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\benchmark\\tree_fork.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_benchmark_tree_fork\\mesh_after.json"
+    },
+    {
+      "key": "derived_benchmark_tree_wide",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\benchmark\\tree_wide.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_benchmark_tree_wide\\mesh_after.json"
+    },
+    {
+      "key": "derived_characters_jade_ironback_mantle",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\jade_ironback_mantle.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_characters_jade_ironback_mantle\\mesh_after.json"
+    },
+    {
+      "key": "derived_characters_townfolk_kit",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\townfolk_kit.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_characters_townfolk_kit\\mesh_after.json"
+    },
+    {
+      "key": "derived_characters_traveler",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\traveler.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_characters_traveler\\mesh_after.json"
+    },
+    {
+      "key": "derived_characters_traveler_guard",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\traveler_guard.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_characters_traveler_guard\\mesh_after.json"
+    },
+    {
+      "key": "derived_characters_turnwarden_v2",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\turnwarden_v2.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_characters_turnwarden_v2\\mesh_after.json"
+    },
+    {
+      "key": "derived_world_kit_tree1",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\world_kit\\tree1.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_world_kit_tree1\\mesh_after.json"
+    },
+    {
+      "key": "derived_world_kit_tree2",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\world_kit\\tree2.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_world_kit_tree2\\mesh_after.json"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_mara",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\townfolk_kit.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_mara\\mesh_after.json"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_apothecary",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\townfolk_kit.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_apothecary\\mesh_after.json"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_artificer",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\townfolk_kit.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_artificer\\mesh_after.json"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_armorer",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\townfolk_kit.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_armorer\\mesh_after.json"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_weapons",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\townfolk_kit.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_weapons\\mesh_after.json"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_warden",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\townfolk_kit.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_warden\\mesh_after.json"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_ash_scout",
+      "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\townfolk_kit.glb",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_ash_scout\\mesh_after.json"
+    }
+  ]
+}

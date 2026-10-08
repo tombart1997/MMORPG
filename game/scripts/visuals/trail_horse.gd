@@ -19,13 +19,20 @@ func stirrup_world(side: float) -> Vector3:
 	return bone_point("Body",Vector3(side*.42,STIRRUP_ANKLE_HEIGHT,-.08))
 
 func _ready() -> void:
-	var model := preload("res://assets/mounts/trail_horse.glb").instantiate()
+	var model := ReviewedModels.scene_for("res://assets/generated/bay_horse.glb").instantiate()
 	add_child(model)
 	skeleton = model.find_children("*","Skeleton3D",true,false)[0]
 	player = model.find_children("*","AnimationPlayer",true,false)[0]
 	player.callback_mode_process = AnimationMixer.ANIMATION_CALLBACK_MODE_PROCESS_MANUAL
 	player.play(&"idle")
 	player.seek(0,true)
+	var attachment := BoneAttachment3D.new()
+	attachment.name = "FittedSaddle"
+	attachment.bone_name = "Body"
+	skeleton.add_child(attachment)
+	var saddle := load("res://assets/generated/equipment/saddle.glb").instantiate() as Node3D
+	attachment.add_child(saddle)
+	saddle.transform = skeleton.get_bone_global_rest(skeleton.find_bone("Body")).affine_inverse()
 	for tag in ["Fore.L","Fore.R","Hind.L","Hind.R"]: contacts[tag] = true
 
 func bone_point(name_value: String, rest_point: Vector3) -> Vector3:

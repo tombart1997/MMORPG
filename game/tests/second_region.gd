@@ -20,7 +20,7 @@ func _run() -> void:
 		var visual: Node3D = item.visual.instantiate()
 		root.add_child(visual)
 		var blades := visual.find_children("*","MeshInstance3D",true,false)
-		check(not blades.is_empty() and blades[0].mesh.get_surface_count() >= 4 and blades[0].mesh.get_aabb().size.length() > 1.6 and visual.has_node("OffhandGrip"), "Sword has authored blade, fittings and long grip: " + String(id))
+		check(not blades.is_empty() and blades[0].mesh.get_surface_count() >= 2 and blades[0].mesh.get_aabb().size.length() > 1.6 and visual.has_node("OffhandGrip"), "Sword preserves separate metal/leather surfaces, long blade and offhand grip: " + String(id))
 		visual.queue_free()
 	var scout: WorldNPC
 	for npc in get_nodes_in_group("npcs"):

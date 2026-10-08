@@ -1,0 +1,66 @@
+{
+	"assets": [
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"attack_02",
+				"attack_03",
+				"death",
+				"hit",
+				"idle",
+				"longsword_01",
+				"longsword_02",
+				"longsword_03",
+				"longsword_idle",
+				"longsword_run",
+				"run",
+				"skill_guard",
+				"skill_plant",
+				"skill_riposte",
+				"skill_step"
+			],
+			"framing_bounds": [
+				[
+					-0.485548317432404,
+					0.00589537201449275,
+					-0.225233003497124
+				],
+				[
+					0.970988750457764,
+					1.89350461959839,
+					0.43526753783226
+				]
+			],
+			"key": "mob_road_bandit",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\mob_road_bandit\\after.png",
+			"path": "res://review_assets/fallbacks/assets/characters/warden_high_clean.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"canter",
+				"idle",
+				"trot",
+				"walk"
+			],
+			"framing_bounds": [
+				[
+					-0.486844599246979,
+					0.00494683161377907,
+					-1.73033499717712
+				],
+				[
+					0.973689198493958,
+					1.975053191185,
+					2.93052005767822
+				]
+			],
+			"key": "horse_bay",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\horse_bay\\after.png",
+			"path": "res://review_assets/fallbacks/assets/mounts/trail_horse_clean.glb",
+			"status": "rendered_requires_visual_review"
+		}
+	]
+}

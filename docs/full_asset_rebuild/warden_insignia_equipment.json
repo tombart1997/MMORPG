@@ -1,0 +1,7 @@
+{
+  "key": "warden_insignia",
+  "method": "clean_socket_equipment",
+  "old_geometry_reused": false,
+  "reference": "concepts_docs/art/asset_turnarounds_v2/warrior/turnaround.png",
+  "authority": "Reviewed lamellar/brass/leather palette; independent fitted equipment, not extracted legacy armor."
+}

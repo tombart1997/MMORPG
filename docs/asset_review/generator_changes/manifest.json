@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-04",
+  "installed_root": "C:\\Users\\Tom\\Documents\\2D_to_3D",
+  "files": [
+    {
+      "path": "README.md",
+      "installed_sha256": "b0a94e679300c6c0e2e70b8d8b8a603a72b03fb61fdfb0c5043bac78f08c6176",
+      "bytes": 17742,
+      "baseline_available": true,
+      "note": "Diff against retained pre-change backup.",
+      "baseline_sha256": "185788aa68da87a99b0c789fd2a9205cf48927a260b26ee9914a69bd3c582aa8",
+      "changed": true
+    },
+    {
+      "path": "docs/diagnosis_repair.md",
+      "installed_sha256": "d0c48b4f69981afc377c446d748d54b0bb6040feb0fc54ea23511043777c2de4",
+      "bytes": 6266,
+      "baseline_available": false,
+      "note": "Installed snapshot; no assumed original contents."
+    },
+    {
+      "path": "config/presets.json",
+      "installed_sha256": "6ebcc861956633093dc10c4526bd22f7eeaddc2017aecb2ed65421997f6f9126",
+      "bytes": 1593,
+      "baseline_available": true,
+      "note": "Diff against retained pre-change backup.",
+      "baseline_sha256": "2211c459e6d39253c2cd00255752923b0ac7aee9116fe4f7bcbf2872c40d1de9",
+      "changed": true
+    },
+    {
+      "path": "forge/api.py",
+      "installed_sha256": "0fe73d0496a5fad8b29ed2a00365b8b56f4942d83af9601cbf5c72e8a920becb",
+      "bytes": 23058,
+      "baseline_available": true,
+      "note": "Diff against retained pre-change backup.",
+      "baseline_sha256": "da40e27d5b25df7858e9bbd7875afb0421aa39278c8ae373f25ed09a8c372141",
+      "changed": true
+    },
+    {
+      "path": "forge/jobs.py",
+      "installed_sha256": "e38e06216c2e38af4793880ba30b71d33f5d1d089b0f8f038e98ee0b120b01ee",
+      "bytes": 26704,
+      "baseline_available": true,
+      "note": "Diff against retained pre-change backup.",
+      "baseline_sha256": "9416d9b149f2f0761fb962ffe7fb8ca600185f4d3366d00bec9040dc4f43f8e5",
+      "changed": true
+    },
+    {
+      "path": "forge/reviewflow.py",
+      "installed_sha256": "618cd3726813dc3fa4c1ca6e9c831712544f2fb49e7fdefab4107710d15776a2",
+      "bytes": 16693,
+      "baseline_available": false,
+      "note": "Installed snapshot; no assumed original contents."
+    },
+    {
+      "path": "forge/game_bridge.py",
+      "installed_sha256": "d02d7efe8c028585a4754c04ffac4c13818d38c0b59bd49af01d7fb7843c6f24",
+      "bytes": 3753,
+      "baseline_available": false,
+      "note": "Installed snapshot; no assumed original contents."
+    },
+    {
+      "path": "forge/glb_cleanup.py",
+      "installed_sha256": "9bd2ba85f2908d010189d3d7a4c63cebf498e3d68cfda05d0c41d82c0b9f1858",
+      "bytes": 2879,
+      "baseline_available": false,
+      "note": "Installed snapshot; no assumed original contents."
+    },
+    {
+      "path": "blender/pipeline.py",
+      "installed_sha256": "9fa6274c7f7ca02213732feef562cf68dda22b5a6a4b067bdd43d80fe09d8ab9",
+      "bytes": 18091,
+      "baseline_available": true,
+      "note": "Diff against retained pre-change backup.",
+      "baseline_sha256": "a4e36db9ddcb172abd06948c7a897206b2b47a233a81ce44e81670ff901da791",
+      "changed": true
+    },
+    {
+      "path": "blender/optimize.py",
+      "installed_sha256": "0f3255bc331cbfa8914d51277f6326d645d339d765a95aec6406e4468aa7e519",
+      "bytes": 20492,
+      "baseline_available": false,
+      "note": "Installed snapshot; no assumed original contents."
+    },
+    {
+      "path": "blender/remesh_worker.py",
+      "installed_sha256": "61d582860ad15b107b3e57d813af8d6e1354abdd7bfd40f0fe01bb650ea620ee",
+      "bytes": 3422,
+      "baseline_available": false,
+      "note": "Installed snapshot; no assumed original contents."
+    },
+    {
+      "path": "blender/diagnose.py",
+      "installed_sha256": "177f339e30a77d9423cc29909614bf258200b82bb6d69d9cb64e7dfa1400033c",
+      "bytes": 6808,
+      "baseline_available": false,
+      "note": "Installed snapshot; no assumed original contents."
+    },
+    {
+      "path": "blender/repair.py",
+      "installed_sha256": "5909a36b23c7fcc3a3ae85633a5b26bf0b6ae8efe7ff865adcfabea3fe84768f",
+      "bytes": 5132,
+      "baseline_available": false,
+      "note": "Installed snapshot; no assumed original contents."
+    },
+    {
+      "path": "blender/rebuild_parts.py",
+      "installed_sha256": "44256f191d27f2e974727a09b92d66502a98f3f2641148c371a0957c39da10f2",
+      "bytes": 5748,
+      "baseline_available": false,
+      "note": "Installed snapshot; no assumed original contents."
+    },
+    {
+      "path": "web/app.js",
+      "installed_sha256": "319b63a78b469b52a69f11f8719f4e19ff8e3cbc2af937fce38c3a82c07ec30e",
+      "bytes": 33544,
+      "baseline_available": true,
+      "note": "Diff against retained pre-change backup.",
+      "baseline_sha256": "b6754afceea657c19cffb04a3eca8d2ecce2ab310a3f7bae79b7b06416a59155",
+      "changed": true
+    },
+    {
+      "path": "web/index.html",
+      "installed_sha256": "db3adedfbb6db28446e5165c36f8e4a0c2096b051fb3c250f5e0c05026681da4",
+      "bytes": 14878,
+      "baseline_available": true,
+      "note": "Diff against retained pre-change backup.",
+      "baseline_sha256": "9effb9a80fa8ac9b63e7a41d68ad1fc4d2428dd662a44e892f739c4aec2c0482",
+      "changed": true
+    },
+    {
+      "path": "web/reviewflow.js",
+      "installed_sha256": "eda665682c355c5c19b245cb0094c4366dc0f6b279dcafbbd0e491ea0d427b23",
+      "bytes": 7799,
+      "baseline_available": false,
+      "note": "Installed snapshot; no assumed original contents."
+    },
+    {
+      "path": "web/style.css",
+      "installed_sha256": "1516853183d5d87e3e5f5a1901dec187395099789459dc33eddbf5e5ca428d2e",
+      "bytes": 13960,
+      "baseline_available": false,
+      "note": "Installed snapshot; no assumed original contents."
+    },
+    {
+      "path": "tests/test_api.py",
+      "installed_sha256": "94dcbe5c794980dd3dab5218870135d3d597fce31cd213a5b2eb384499e0b93f",
+      "bytes": 5006,
+      "baseline_available": true,
+      "note": "Diff against retained pre-change backup.",
+      "baseline_sha256": "64c68e82cd342eb970325c0c4b6afdbaf3eb1738c82fe30ebba939bd87f2c6f4",
+      "changed": true
+    },
+    {
+      "path": "tests/test_contracts.py",
+      "installed_sha256": "e3e50f7ffacf8b955f03ae9f9a33424abc3031c0775b9c54a42e1468ce8b5d86",
+      "bytes": 6824,
+      "baseline_available": false,
+      "note": "Installed snapshot; no assumed original contents."
+    },
+    {
+      "path": "tests/test_reviewflow.py",
+      "installed_sha256": "6bd0956b4e6f66da53e583ff2c676cd744db0d85c646478d23ce23d62c166416",
+      "bytes": 8863,
+      "baseline_available": false,
+      "note": "Installed snapshot; no assumed original contents."
+    },
+    {
+      "path": "tests/test_glb_cleanup.py",
+      "installed_sha256": "f386aadc95e7e19d89f1725d055a292e91208f0ba7c6f029f2444f11d135947a",
+      "bytes": 2067,
+      "baseline_available": false,
+      "note": "Installed snapshot; no assumed original contents."
+    }
+  ],
+  "scope": "Source-only audit/backup package. Sources, generated assets, references, libraries, dependencies and credentials are not copied.",
+  "restore": "Inspect backed_changes.patch and before/ for recorded prior files. Installed snapshots without a prior backup are not claimed to be new files. Build web/dist after copying reviewed changes. Never blanket-overwrite later local edits."
+}

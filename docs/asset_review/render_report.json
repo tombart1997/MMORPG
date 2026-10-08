@@ -1,0 +1,2596 @@
+{
+	"assets": [
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.429266601800919,
+					-0.00139187893364578,
+					-1.08684909343719
+				],
+				[
+					0.863283932209015,
+					1.43930780887604,
+					2.43548536300659
+				]
+			],
+			"key": "mob_meadow_wolf",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\mob_meadow_wolf\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/meadow_wolf.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.432638496160507,
+					-0.000225354393478483,
+					-1.14144885540009
+				],
+				[
+					0.868955850601196,
+					1.36242234706879,
+					2.41610527038574
+				]
+			],
+			"key": "mob_ironhide_boar",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\mob_ironhide_boar\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/ironhide_boar.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.56395423412323,
+					-0.0042819338850677,
+					-0.664630174636841
+				],
+				[
+					1.06881999969482,
+					0.575696170330048,
+					1.3625373840332
+				]
+			],
+			"key": "fern_reference",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\fern_reference\\before.png",
+			"path": "res://assets/world_kit/fern.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-2.28495788574219,
+					-0.0259989388287067,
+					-2.19844889640808
+				],
+				[
+					4.59848690032959,
+					8.13609409332275,
+					4.39388942718506
+				]
+			],
+			"key": "watchtower",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\watchtower\\before.png",
+			"path": "res://assets/world_kit/watchtower.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.0950062498450279,
+					-0.0179999992251396,
+					-1.25
+				],
+				[
+					0.189996361732483,
+					0.0360232405364513,
+					1.4300000667572
+				]
+			],
+			"key": "weapon_jade",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\weapon_jade\\before.png",
+			"path": "res://assets/forge_rebuild/weapons/jade.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.703093528747559,
+					-0.0401234105229378,
+					-0.598335921764374
+				],
+				[
+					1.36289513111115,
+					1.96239256858826,
+					0.837655186653137
+				]
+			],
+			"key": "mob_young",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_young\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/young.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.43092280626297,
+					-0.00124695408158004,
+					-1.14465630054474
+				],
+				[
+					0.863608837127686,
+					1.35881865024567,
+					2.42246174812317
+				]
+			],
+			"key": "mob_bristle_boar",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_bristle_boar\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/bristle_boar.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.432721167802811,
+					-0.00187447993084788,
+					-1.08386754989624
+				],
+				[
+					0.863864898681641,
+					1.44159579277039,
+					2.43384027481079
+				]
+			],
+			"key": "mob_blue_wolf",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_blue_wolf\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/blue_wolf.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.706246376037598,
+					-0.041748896241188,
+					-0.594502687454224
+				],
+				[
+					1.40559887886047,
+					1.96228122711182,
+					0.823861479759216
+				]
+			],
+			"key": "mob_grown",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_grown\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/grown.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-1.15069770812988,
+					0.0640273168683052,
+					-0.833902955055237
+				],
+				[
+					2.30276560783386,
+					0.929424047470093,
+					1.85026800632477
+				]
+			],
+			"key": "mob_reed_spider",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_reed_spider\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/reed_spider.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.432657301425934,
+					-0.00231292517855763,
+					-1.08703804016113
+				],
+				[
+					0.868728280067444,
+					1.44093012809753,
+					2.43630743026733
+				]
+			],
+			"key": "mob_red_wolf",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_red_wolf\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/red_wolf.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.430320829153061,
+					-0.00107904023025185,
+					-1.08457803726196
+				],
+				[
+					0.862444400787354,
+					1.4421980381012,
+					2.43067169189453
+				]
+			],
+			"key": "mob_grey_wolf",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_grey_wolf\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/grey_wolf.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.700551986694336,
+					-0.0416603721678257,
+					-0.604514718055725
+				],
+				[
+					1.4068877696991,
+					1.96488082408905,
+					0.836827874183655
+				]
+			],
+			"key": "mob_ironback",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_ironback\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/ironback.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.431060463190079,
+					-0.00122510618530214,
+					-1.13936948776245
+				],
+				[
+					0.86289393901825,
+					1.36192691326141,
+					2.41654467582703
+				]
+			],
+			"key": "mob_mire_boar",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_mire_boar\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/mire_boar.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-1.11769163608551,
+					0.0645307004451752,
+					-0.832777142524719
+				],
+				[
+					2.26860475540161,
+					0.931545495986938,
+					1.85260307788849
+				]
+			],
+			"key": "mob_copper_spider",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_copper_spider\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/copper_spider.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.43232873082161,
+					-0.000364219537004828,
+					-1.08443474769592
+				],
+				[
+					0.862865686416626,
+					1.4381719827652,
+					2.43362379074097
+				]
+			],
+			"key": "mob_moonfang",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_moonfang\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/moonfang.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"attack_02",
+				"attack_03",
+				"death",
+				"hit",
+				"idle",
+				"longsword_01",
+				"longsword_02",
+				"longsword_03",
+				"longsword_idle",
+				"longsword_run",
+				"run",
+				"skill_guard",
+				"skill_plant",
+				"skill_riposte",
+				"skill_step"
+			],
+			"framing_bounds": [
+				[
+					-0.485548317432404,
+					0.00589537201449275,
+					-0.225233003497124
+				],
+				[
+					0.970988750457764,
+					1.89350461959839,
+					0.43526753783226
+				]
+			],
+			"key": "mob_road_bandit",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_road_bandit\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/road_bandit.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.432335704565048,
+					-0.00243024085648358,
+					-1.08499991893768
+				],
+				[
+					0.864664435386658,
+					1.44243013858795,
+					2.43418884277344
+				]
+			],
+			"key": "mob_thicket_wolf",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_thicket_wolf\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/thicket_wolf.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.417223185300827,
+					-0.00182086718268692,
+					-1.1424423456192
+				],
+				[
+					0.849826157093048,
+					1.36134159564972,
+					2.41830444335938
+				]
+			],
+			"key": "mob_blacktusk",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_blacktusk\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/blacktusk.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-1.15031826496124,
+					0.064530685544014,
+					-0.832397103309631
+				],
+				[
+					2.30123138427734,
+					0.931232452392578,
+					1.85211563110352
+				]
+			],
+			"key": "mob_venom_spider",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_venom_spider\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/venom_spider.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.704789519309998,
+					0.0000231264948524768,
+					-0.431384146213531
+				],
+				[
+					1.40937376022339,
+					1.66628968715668,
+					0.690592288970947
+				]
+			],
+			"key": "mob_slate_guardian",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_slate_guardian\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/slate_guardian.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"attack_02",
+				"attack_03",
+				"death",
+				"hit",
+				"idle",
+				"longsword_01",
+				"longsword_02",
+				"longsword_03",
+				"longsword_idle",
+				"longsword_run",
+				"run",
+				"skill_guard",
+				"skill_plant",
+				"skill_riposte",
+				"skill_step"
+			],
+			"framing_bounds": [
+				[
+					-0.485475987195969,
+					0.00599862681701779,
+					-0.225106298923492
+				],
+				[
+					0.971024394035339,
+					1.89340150356293,
+					0.43529212474823
+				]
+			],
+			"key": "mob_hollow_raider",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_hollow_raider\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/hollow_raider.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.273999989032745,
+					0.129707664251328,
+					-0.273314774036407
+				],
+				[
+					0.547999978065491,
+					1.431107878685,
+					0.546629548072815
+				]
+			],
+			"key": "mob_cinder_wisp",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_cinder_wisp\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/cinder_wisp.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.432911783456802,
+					0.000397202646126971,
+					-1.08342492580414
+				],
+				[
+					0.866432785987854,
+					1.43978774547577,
+					2.43261384963989
+				]
+			],
+			"key": "mob_frost_wolf",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_frost_wolf\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/frost_wolf.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-1.1509131193161,
+					0.0644055008888245,
+					-0.832777142524719
+				],
+				[
+					2.30182647705078,
+					0.931900858879089,
+					1.85277712345123
+				]
+			],
+			"key": "mob_silk_matron",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_silk_matron\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/silk_matron.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"attack_02",
+				"attack_03",
+				"death",
+				"hit",
+				"idle",
+				"longsword_01",
+				"longsword_02",
+				"longsword_03",
+				"longsword_idle",
+				"longsword_run",
+				"run",
+				"skill_guard",
+				"skill_plant",
+				"skill_riposte",
+				"skill_step"
+			],
+			"framing_bounds": [
+				[
+					-0.486795485019684,
+					0.00576287880539894,
+					-0.225106358528137
+				],
+				[
+					0.972343921661377,
+					1.89363718032837,
+					0.435591846704483
+				]
+			],
+			"key": "mob_ash_bandit",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_ash_bandit\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/ash_bandit.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.273973226547241,
+					0.129707664251328,
+					-0.273314774036407
+				],
+				[
+					0.547973215579987,
+					1.431107878685,
+					0.546629548072815
+				]
+			],
+			"key": "mob_grave_wisp",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_grave_wisp\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/grave_wisp.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.43383401632309,
+					0.000000109407451986954,
+					-1.08500003814697
+				],
+				[
+					0.869596719741821,
+					1.43999981880188,
+					2.4328761100769
+				]
+			],
+			"key": "mob_ember_hound",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_ember_hound\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/ember_hound.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.704999804496765,
+					-0.000623426691163331,
+					-0.43173947930336
+				],
+				[
+					1.40999972820282,
+					1.66719019412994,
+					0.690586984157562
+				]
+			],
+			"key": "mob_cairn_sentinel",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_cairn_sentinel\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/cairn_sentinel.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-1.15091323852539,
+					0.0636614412069321,
+					-0.833201885223389
+				],
+				[
+					2.30105757713318,
+					0.932338535785675,
+					1.85457313060761
+				]
+			],
+			"key": "mob_glass_spider",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_glass_spider\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/glass_spider.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.432328701019287,
+					0.000000106339740568728,
+					-1.08618807792664
+				],
+				[
+					0.864657402038574,
+					1.43999981880188,
+					2.43486070632935
+				]
+			],
+			"key": "mob_dusk_stalker",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_dusk_stalker\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/dusk_stalker.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.432167112827301,
+					0.0,
+					-1.08488345146179
+				],
+				[
+					0.864495873451233,
+					1.44032418727875,
+					2.43292307853699
+				]
+			],
+			"key": "mob_bloodfang",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_bloodfang\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/bloodfang.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.273900330066681,
+					0.129707664251328,
+					-0.271986573934555
+				],
+				[
+					0.54758095741272,
+					1.43110775947571,
+					0.496679604053497
+				]
+			],
+			"key": "mob_ash_wisp",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_ash_wisp\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/ash_wisp.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.430848211050034,
+					-0.00169556401669979,
+					-1.14006912708282
+				],
+				[
+					0.863912343978882,
+					1.35896956920624,
+					2.41424322128296
+				]
+			],
+			"key": "mob_obsidian_boar",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_obsidian_boar\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/obsidian_boar.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-1.15091300010681,
+					0.0654626339673996,
+					-0.832777082920074
+				],
+				[
+					2.30281257629395,
+					0.930537343025208,
+					1.85171270370483
+				]
+			],
+			"key": "mob_widow_spider",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_widow_spider\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/widow_spider.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"attack_02",
+				"attack_03",
+				"death",
+				"hit",
+				"idle",
+				"longsword_01",
+				"longsword_02",
+				"longsword_03",
+				"longsword_idle",
+				"longsword_run",
+				"run",
+				"skill_guard",
+				"skill_plant",
+				"skill_riposte",
+				"skill_step"
+			],
+			"framing_bounds": [
+				[
+					-0.485548198223114,
+					0.00508635258302093,
+					-0.22510638833046
+				],
+				[
+					0.971096396446228,
+					1.89431369304657,
+					0.435591965913773
+				]
+			],
+			"key": "mob_exile_captain",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_exile_captain\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/exile_captain.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.273999989032745,
+					0.129707664251328,
+					-0.25263836979866
+				],
+				[
+					0.547999978065491,
+					1.431107878685,
+					0.52595317363739
+				]
+			],
+			"key": "mob_storm_wisp",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_storm_wisp\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/storm_wisp.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.704999983310699,
+					0.0,
+					-0.432517349720001
+				],
+				[
+					1.41058540344238,
+					1.66656649112701,
+					0.691364884376526
+				]
+			],
+			"key": "mob_rift_sentinel",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_rift_sentinel\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/rift_sentinel.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.704999983310699,
+					-0.0020976853556931,
+					-0.427953124046326
+				],
+				[
+					1.40687775611877,
+					1.67153108119965,
+					0.686800718307495
+				]
+			],
+			"key": "mob_ancient_warden",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_ancient_warden\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/ancient_warden.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.705648899078369,
+					-0.00161305849906057,
+					-0.432637870311737
+				],
+				[
+					1.41130638122559,
+					1.66733396053314,
+					0.691683888435364
+				]
+			],
+			"key": "mob_cairn_colossus",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\mob_cairn_colossus\\before.png",
+			"path": "res://assets/forge_rebuild/mobs/cairn_colossus.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"attack_02",
+				"attack_03",
+				"death",
+				"hit",
+				"idle",
+				"longsword_01",
+				"longsword_02",
+				"longsword_03",
+				"longsword_idle",
+				"longsword_run",
+				"run",
+				"skill_guard",
+				"skill_plant",
+				"skill_riposte",
+				"skill_step"
+			],
+			"framing_bounds": [
+				[
+					-0.490000009536743,
+					0.00600000005215406,
+					-0.220000013709068
+				],
+				[
+					0.980000019073486,
+					1.89339983463287,
+					0.420000016689301
+				]
+			],
+			"key": "hero_ironvow",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\hero_ironvow\\before.png",
+			"path": "res://assets/characters/warden_high.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"canter",
+				"idle",
+				"trot",
+				"walk"
+			],
+			"framing_bounds": [
+				[
+					-0.486844599246979,
+					0.00494683161377907,
+					-1.73033499717712
+				],
+				[
+					0.973689198493958,
+					1.975053191185,
+					2.93052005767822
+				]
+			],
+			"key": "horse_bay",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\horse_bay\\before.png",
+			"path": "res://assets/mounts/trail_horse.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-3.80847644805908,
+					-0.19334302842617,
+					-3.18090629577637
+				],
+				[
+					6.95146083831787,
+					7.50340843200684,
+					6.577712059021
+				]
+			],
+			"key": "tree_pine",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\tree_pine\\before.png",
+			"path": "res://assets/world_kit/tree0.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-1.27914941310883,
+					-0.241268247365952,
+					-0.847678005695343
+				],
+				[
+					2.75724506378174,
+					1.57225596904755,
+					1.72410225868225
+				]
+			],
+			"key": "rock_slate",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\rock_slate\\before.png",
+			"path": "res://assets/world_kit/rock0.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-1.12663567066193,
+					-0.0329742692410946,
+					-1.12956976890564
+				],
+				[
+					2.18859958648682,
+					1.19132137298584,
+					2.20625805854797
+				]
+			],
+			"key": "shrub_reference",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\shrub_reference\\before.png",
+			"path": "res://assets/world_kit/shrub.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.00492146238684654,
+					-0.00177926348987967,
+					-3.89748764038086
+				],
+				[
+					4.30038833618164,
+					4.19892120361328,
+					3.90322065353394
+				]
+			],
+			"key": "house_reference",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\house_reference\\before.png",
+			"path": "res://assets/forge_rebuild/world/house.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500017642975,
+					0.399999976158142
+				]
+			],
+			"key": "npc_keeper",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\npc_keeper\\before.png",
+			"path": "res://assets/forge_rebuild/npcs/keeper.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-1.80815410614014,
+					-0.167701587080956,
+					-1.41289448738098
+				],
+				[
+					3.23420333862305,
+					5.42182922363281,
+					2.79555320739746
+				]
+			],
+			"key": "dead_tree",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\dead_tree\\before.png",
+			"path": "res://assets/world_kit/dead_tree.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-1.84124553203583,
+					0.0346065759658813,
+					-0.558593809604645
+				],
+				[
+					3.54543685913086,
+					0.633613348007202,
+					1.11938261985779
+				]
+			],
+			"key": "fallen_log",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\fallen_log\\before.png",
+			"path": "res://assets/world_kit/log.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500005722046,
+					0.399999976158142
+				]
+			],
+			"key": "npc_smith",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\npc_smith\\before.png",
+			"path": "res://assets/forge_rebuild/npcs/smith.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-1.16522407531738,
+					-0.00964487157762051,
+					-0.948543310165405
+				],
+				[
+					2.34261655807495,
+					3.53164744377136,
+					1.89386415481567
+				]
+			],
+			"key": "shrine",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\shrine\\before.png",
+			"path": "res://assets/world_kit/shrine.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-2.35355162620544,
+					-0.0603773966431618,
+					-2.07119512557983
+				],
+				[
+					4.69469547271729,
+					2.12403297424316,
+					4.16891956329346
+				]
+			],
+			"key": "tent",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\tent\\before.png",
+			"path": "res://assets/world_kit/tent.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-2.48122119903564,
+					-0.0852232426404953,
+					-0.502519369125366
+				],
+				[
+					5.95526123046875,
+					4.52026033401489,
+					2.10656046867371
+				]
+			],
+			"key": "ruin_arch",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\ruin_arch\\before.png",
+			"path": "res://assets/world_kit/ruin_arch.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500005722046,
+					0.399999976158142
+				]
+			],
+			"key": "npc_stablemaster",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\npc_stablemaster\\before.png",
+			"path": "res://assets/forge_rebuild/npcs/stablemaster.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.379174828529358,
+					0.0013784539187327,
+					-0.390102446079254
+				],
+				[
+					0.764601290225983,
+					0.562659859657288,
+					0.763561606407166
+				]
+			],
+			"key": "grass",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\grass\\before.png",
+			"path": "res://assets/world_kit/grass.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-3.46157217025757,
+					-0.174782946705818,
+					-3.41357398033142
+				],
+				[
+					6.64676380157471,
+					4.88170003890991,
+					6.75429344177246
+				]
+			],
+			"key": "fracture",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\fracture\\before.png",
+			"path": "res://assets/benchmark/briarwake.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.0632090121507645,
+					-0.00596020650118589,
+					-0.0630651861429214
+				],
+				[
+					0.126183956861496,
+					0.0119454339146614,
+					0.125998109579086
+				]
+			],
+			"key": "coin",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\coin\\before.png",
+			"path": "res://assets/weapons/gold_coin.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					0.00237752613611519,
+					0.00228522066026926,
+					-0.75245463848114
+				],
+				[
+					0.843995749950409,
+					0.796176731586456,
+					0.748505771160126
+				]
+			],
+			"key": "crate",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\crate\\before.png",
+			"path": "res://assets/forge_rebuild/world/crate.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.00631800200790167,
+					-0.00662176078185439,
+					-6.00269746780396
+				],
+				[
+					2.60542368888855,
+					1.607705950737,
+					6.0040168762207
+				]
+			],
+			"key": "bridge",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\bridge\\before.png",
+			"path": "res://assets/forge_rebuild/world/bridge.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-2.16536164283752,
+					-0.0610277354717255,
+					-0.912373185157776
+				],
+				[
+					4.39630222320557,
+					0.949379086494446,
+					1.82374143600464
+				]
+			],
+			"key": "derived_benchmark_fallen_wood",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_fallen_wood\\before.png",
+			"path": "res://assets/benchmark/fallen_wood.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.754070520401001,
+					0.106736525893211,
+					-0.784663498401642
+				],
+				[
+					1.545485496521,
+					0.393848717212677,
+					1.56932699680328
+				]
+			],
+			"key": "derived_benchmark_fern",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_fern\\before.png",
+			"path": "res://assets/benchmark/fern.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.280000001192093,
+					-0.00200000125914812,
+					-0.379999995231628
+				],
+				[
+					0.560000002384186,
+					0.0659999996423721,
+					0.610000014305115
+				]
+			],
+			"key": "derived_benchmark_leaf_litter",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_leaf_litter\\before.png",
+			"path": "res://assets/benchmark/leaf_litter.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-1.64433145523071,
+					-0.228165984153748,
+					-1.18366074562073
+				],
+				[
+					3.22215223312378,
+					1.98227632045746,
+					2.18841218948364
+				]
+			],
+			"key": "derived_benchmark_rock_0",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_rock_0\\before.png",
+			"path": "res://assets/benchmark/rock_0.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-1.66142737865448,
+					-0.225513681769371,
+					-1.30023372173309
+				],
+				[
+					3.97797346115112,
+					2.20477890968323,
+					2.38222980499268
+				]
+			],
+			"key": "derived_benchmark_rock_1",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_rock_1\\before.png",
+			"path": "res://assets/benchmark/rock_1.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-1.7387638092041,
+					-0.233488857746124,
+					-1.13538491725922
+				],
+				[
+					3.33165955543518,
+					2.33692646026611,
+					1.74845170974731
+				]
+			],
+			"key": "derived_benchmark_rock_2",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_rock_2\\before.png",
+			"path": "res://assets/benchmark/rock_2.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.383557349443436,
+					0.0,
+					-0.367556810379028
+				],
+				[
+					0.727935791015625,
+					0.550493061542511,
+					0.54747086763382
+				]
+			],
+			"key": "derived_benchmark_sedge",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_sedge\\before.png",
+			"path": "res://assets/benchmark/sedge.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.797593235969543,
+					-0.0353050902485847,
+					-0.808349430561066
+				],
+				[
+					1.59514153003693,
+					0.668634831905365,
+					1.61667394638062
+				]
+			],
+			"key": "derived_benchmark_shrub_briar",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_shrub_briar\\before.png",
+			"path": "res://assets/benchmark/shrub_briar.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.812900185585022,
+					-0.026476601138711,
+					-0.811240375041962
+				],
+				[
+					1.62580513954163,
+					1.14363348484039,
+					1.62246513366699
+				]
+			],
+			"key": "derived_benchmark_shrub_laurel",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_shrub_laurel\\before.png",
+			"path": "res://assets/benchmark/shrub_laurel.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-6.24285840988159,
+					-0.223144128918648,
+					-5.01925468444824
+				],
+				[
+					10.9072875976563,
+					8.27663230895996,
+					10.5939540863037
+				]
+			],
+			"key": "derived_benchmark_tree_bent",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_tree_bent\\before.png",
+			"path": "res://assets/benchmark/tree_bent.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-4.40111637115479,
+					-0.225221678614616,
+					-5.19901657104492
+				],
+				[
+					10.6729516983032,
+					8.36265850067139,
+					10.0676918029785
+				]
+			],
+			"key": "derived_benchmark_tree_fork",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_tree_fork\\before.png",
+			"path": "res://assets/benchmark/tree_fork.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-4.68385457992554,
+					-0.206236228346825,
+					-5.10363483428955
+				],
+				[
+					10.088942527771,
+					7.86299657821655,
+					10.5717353820801
+				]
+			],
+			"key": "derived_benchmark_tree_wide",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_benchmark_tree_wide\\before.png",
+			"path": "res://assets/benchmark/tree_wide.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.703093647956848,
+					-0.0376107320189476,
+					-0.598336160182953
+				],
+				[
+					1.36289286613464,
+					1.95987951755524,
+					0.837655365467072
+				]
+			],
+			"key": "derived_characters_briarling",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_briarling\\before.png",
+			"path": "res://assets/characters/briarling.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.279618293046951,
+					-0.00325360218994319,
+					0.216999039053917
+				],
+				[
+					0.470014154911041,
+					0.424003541469574,
+					0.0317634046077728
+				]
+			],
+			"key": "derived_characters_jade_ironback_mantle",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_jade_ironback_mantle\\before.png",
+			"path": "res://assets/characters/jade_ironback_mantle.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.18661966919899,
+					-0.166999995708466,
+					-0.0209999997168779
+				],
+				[
+					0.37323933839798,
+					1.24699997901917,
+					0.0439999997615814
+				]
+			],
+			"key": "derived_characters_jade_sword",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_jade_sword\\before.png",
+			"path": "res://assets/characters/jade_sword.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500005722046,
+					0.399999976158142
+				]
+			],
+			"key": "derived_characters_townfolk_kit",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_townfolk_kit\\before.png",
+			"path": "res://assets/characters/townfolk_kit.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"attack_02",
+				"attack_03",
+				"death",
+				"hit",
+				"idle",
+				"run",
+				"skill_guard",
+				"skill_plant",
+				"skill_riposte",
+				"skill_step"
+			],
+			"framing_bounds": [
+				[
+					-0.444999992847443,
+					0.0,
+					-0.254999995231628
+				],
+				[
+					0.889999985694885,
+					1.89999997615814,
+					0.411808371543884
+				]
+			],
+			"key": "derived_characters_traveler",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_traveler\\before.png",
+			"path": "res://assets/characters/traveler.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.129680708050728,
+					-0.0996508076786995,
+					-0.177797913551331
+				],
+				[
+					0.219078049063683,
+					0.178650975227356,
+					0.0208287090063095
+				]
+			],
+			"key": "derived_characters_traveler_guard",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_traveler_guard\\before.png",
+			"path": "res://assets/characters/traveler_guard.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"attack_02",
+				"attack_03",
+				"death",
+				"hit",
+				"idle",
+				"run",
+				"skill_guard",
+				"skill_plant",
+				"skill_riposte",
+				"skill_step"
+			],
+			"framing_bounds": [
+				[
+					-0.447929233312607,
+					0.0,
+					-0.270361661911011
+				],
+				[
+					0.895858466625214,
+					1.88999998569489,
+					0.418198615312576
+				]
+			],
+			"key": "derived_characters_turnwarden_v2",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_turnwarden_v2\\before.png",
+			"path": "res://assets/characters/turnwarden_v2.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.241927057504654,
+					-0.0493783205747604,
+					-1.07999992370605
+				],
+				[
+					0.483854115009308,
+					0.0933783203363419,
+					1.36445486545563
+				]
+			],
+			"key": "derived_characters_turnwarden_v2_sword",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_turnwarden_v2_sword\\before.png",
+			"path": "res://assets/characters/turnwarden_v2_sword.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.0209999997168779,
+					-0.0349999628961086,
+					-0.179000005125999
+				],
+				[
+					0.0419999994337559,
+					0.0499999523162842,
+					0.0120000094175339
+				]
+			],
+			"key": "derived_characters_warden_insignia",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_warden_insignia\\before.png",
+			"path": "res://assets/characters/warden_insignia.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.183820456266403,
+					-0.176212146878242,
+					-0.0450000017881393
+				],
+				[
+					0.367640912532806,
+					1.18421220779419,
+					0.0900000035762787
+				]
+			],
+			"key": "derived_characters_warden_sword",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_warden_sword\\before.png",
+			"path": "res://assets/characters/warden_sword.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.186904564499855,
+					-0.0719999969005585,
+					-1.08000004291534
+				],
+				[
+					0.37380912899971,
+					0.143999993801117,
+					1.29500007629395
+				]
+			],
+			"key": "derived_characters_wayfarer_sword",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_wayfarer_sword\\before.png",
+			"path": "res://assets/characters/wayfarer_sword.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.432020634412766,
+					-0.00124685512855649,
+					-1.14315783977509
+				],
+				[
+					0.864706635475159,
+					1.35881865024567,
+					2.42096328735352
+				]
+			],
+			"key": "derived_creatures_boar",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_creatures_boar\\before.png",
+			"path": "res://assets/creatures/boar.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-1.1506974697113,
+					0.0640272721648216,
+					-0.833903014659882
+				],
+				[
+					2.30276536941528,
+					0.929424166679382,
+					1.85026812553406
+				]
+			],
+			"key": "derived_creatures_spider",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_creatures_spider\\before.png",
+			"path": "res://assets/creatures/spider.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.704999983310699,
+					0.0,
+					-0.431738764047623
+				],
+				[
+					1.4099999666214,
+					1.66656649112701,
+					0.69058632850647
+				]
+			],
+			"key": "derived_creatures_stonekin",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_creatures_stonekin\\before.png",
+			"path": "res://assets/creatures/stonekin.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.273999989032745,
+					0.129707664251328,
+					-0.273314774036407
+				],
+				[
+					0.547999978065491,
+					1.431107878685,
+					0.546629548072815
+				]
+			],
+			"key": "derived_creatures_wisp",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_creatures_wisp\\before.png",
+			"path": "res://assets/creatures/wisp.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.430226445198059,
+					-0.00139200675766915,
+					-1.08684909343719
+				],
+				[
+					0.864243745803833,
+					1.43930804729462,
+					2.43548536300659
+				]
+			],
+			"key": "derived_creatures_wolf",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_creatures_wolf\\before.png",
+			"path": "res://assets/creatures/wolf.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.12507800757885,
+					-0.0270000007003546,
+					-1.13999998569489
+				],
+				[
+					0.2501560151577,
+					0.0540000014007092,
+					1.42799997329712
+				]
+			],
+			"key": "derived_weapons_briarsteel",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_briarsteel\\before.png",
+			"path": "res://assets/weapons/briarsteel.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.0860000029206276,
+					-0.060199998319149,
+					-1.08000004291534
+				],
+				[
+					0.172000005841255,
+					0.120399996638298,
+					1.36800003051758
+				]
+			],
+			"key": "derived_weapons_cairnwarden",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_cairnwarden\\before.png",
+			"path": "res://assets/weapons/cairnwarden.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.0860000029206276,
+					-0.060199998319149,
+					-1.60000002384186
+				],
+				[
+					0.182273268699646,
+					0.120399996638298,
+					2.03299999237061
+				]
+			],
+			"key": "derived_weapons_ember",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_ember\\before.png",
+			"path": "res://assets/weapons/ember.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.0860000029206276,
+					-0.060199998319149,
+					-1.08000004291534
+				],
+				[
+					0.196392714977264,
+					0.120399996638298,
+					1.36800003051758
+				]
+			],
+			"key": "derived_weapons_frontier",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_frontier\\before.png",
+			"path": "res://assets/weapons/frontier.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.160064786672592,
+					-0.0270000007003546,
+					-1.60000002384186
+				],
+				[
+					0.320129573345184,
+					0.0540000014007092,
+					2.03299999237061
+				]
+			],
+			"key": "derived_weapons_glass",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_glass\\before.png",
+			"path": "res://assets/weapons/glass.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.160064786672592,
+					-0.0270000007003546,
+					-1.08000004291534
+				],
+				[
+					0.320129573345184,
+					0.0540000014007092,
+					1.36800003051758
+				]
+			],
+			"key": "derived_weapons_marchguard",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_marchguard\\before.png",
+			"path": "res://assets/weapons/marchguard.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.12507800757885,
+					-0.0270000007003546,
+					-1.29999995231628
+				],
+				[
+					0.2501560151577,
+					0.0540000014007092,
+					1.73299992084503
+				]
+			],
+			"key": "derived_weapons_relic",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_relic\\before.png",
+			"path": "res://assets/weapons/relic.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.12507800757885,
+					-0.0270000007003546,
+					-1.60000002384186
+				],
+				[
+					0.2501560151577,
+					0.0540000014007092,
+					2.03299999237061
+				]
+			],
+			"key": "derived_weapons_rift",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_rift\\before.png",
+			"path": "res://assets/weapons/rift.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.160064786672592,
+					-0.0270000007003546,
+					-1.23000001907349
+				],
+				[
+					0.320129573345184,
+					0.0540000014007092,
+					1.66299998760223
+				]
+			],
+			"key": "derived_weapons_wakecleaver",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_wakecleaver\\before.png",
+			"path": "res://assets/weapons/wakecleaver.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.103097774088383,
+					-0.0270000007003546,
+					-1.08000004291534
+				],
+				[
+					0.206195548176765,
+					0.0540000014007092,
+					1.36800003051758
+				]
+			],
+			"key": "derived_weapons_wayfarer",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_wayfarer\\before.png",
+			"path": "res://assets/weapons/wayfarer.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-4.20832777023315,
+					-0.40383568406105,
+					-1.5029935836792
+				],
+				[
+					8.47463035583496,
+					3.37072801589966,
+					3.39477205276489
+				]
+			],
+			"key": "derived_world_kit_cliff",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_world_kit_cliff\\before.png",
+			"path": "res://assets/world_kit/cliff.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-4.11301708221436,
+					-0.414694279432297,
+					-1.59942960739136
+				],
+				[
+					8.37887191772461,
+					3.37267351150513,
+					3.49120807647705
+				]
+			],
+			"key": "derived_world_kit_cliff1",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_world_kit_cliff1\\before.png",
+			"path": "res://assets/world_kit/cliff1.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-1.21967399120331,
+					-0.243398755788803,
+					-0.899509727954865
+				],
+				[
+					2.49675226211548,
+					1.58753609657288,
+					1.7559642791748
+				]
+			],
+			"key": "derived_world_kit_rock1",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_world_kit_rock1\\before.png",
+			"path": "res://assets/world_kit/rock1.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-1.18704032897949,
+					-0.231450825929642,
+					-0.902510702610016
+				],
+				[
+					2.36503028869629,
+					1.56397640705109,
+					1.77297949790955
+				]
+			],
+			"key": "derived_world_kit_rock2",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_world_kit_rock2\\before.png",
+			"path": "res://assets/world_kit/rock2.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-2.67571043968201,
+					-0.252571403980255,
+					-2.95879364013672
+				],
+				[
+					5.81196403503418,
+					8.75619792938232,
+					5.62917137145996
+				]
+			],
+			"key": "derived_world_kit_tree1",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_world_kit_tree1\\before.png",
+			"path": "res://assets/world_kit/tree1.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-2.83753967285156,
+					-0.252571403980255,
+					-3.90149831771851
+				],
+				[
+					7.32399749755859,
+					6.85296440124512,
+					7.48082494735718
+				]
+			],
+			"key": "derived_world_kit_tree2",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_world_kit_tree2\\before.png",
+			"path": "res://assets/world_kit/tree2.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500017642975,
+					0.399999976158142
+				]
+			],
+			"key": "derived_forge_rebuild_npcs_mara",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_forge_rebuild_npcs_mara\\before.png",
+			"path": "res://assets/forge_rebuild/npcs/mara.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500017642975,
+					0.399999976158142
+				]
+			],
+			"key": "derived_forge_rebuild_npcs_apothecary",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_forge_rebuild_npcs_apothecary\\before.png",
+			"path": "res://assets/forge_rebuild/npcs/apothecary.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500005722046,
+					0.399999976158142
+				]
+			],
+			"key": "derived_forge_rebuild_npcs_artificer",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_forge_rebuild_npcs_artificer\\before.png",
+			"path": "res://assets/forge_rebuild/npcs/artificer.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500005722046,
+					0.399999976158142
+				]
+			],
+			"key": "derived_forge_rebuild_npcs_armorer",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_forge_rebuild_npcs_armorer\\before.png",
+			"path": "res://assets/forge_rebuild/npcs/armorer.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500005722046,
+					0.399999976158142
+				]
+			],
+			"key": "derived_forge_rebuild_npcs_weapons",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_forge_rebuild_npcs_weapons\\before.png",
+			"path": "res://assets/forge_rebuild/npcs/weapons.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500005722046,
+					0.399999976158142
+				]
+			],
+			"key": "derived_forge_rebuild_npcs_warden",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_forge_rebuild_npcs_warden\\before.png",
+			"path": "res://assets/forge_rebuild/npcs/warden.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500005722046,
+					0.399999976158142
+				]
+			],
+			"key": "derived_forge_rebuild_npcs_ash_scout",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_forge_rebuild_npcs_ash_scout\\before.png",
+			"path": "res://assets/forge_rebuild/npcs/ash_scout.glb",
+			"status": "rendered_requires_visual_review"
+		}
+	]
+}

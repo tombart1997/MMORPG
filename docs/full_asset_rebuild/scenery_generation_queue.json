@@ -1,0 +1,66 @@
+{
+  "rock": {
+    "asset_id": "c53be204fb1c",
+    "job_id": "c947d6a7ac4a",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\c53be204fb1c\\generated\\c947d6a7ac4a\\source.glb"
+  },
+  "shrub": {
+    "asset_id": "e673a9059354",
+    "job_id": "bda009348fbb",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\e673a9059354\\generated\\bda009348fbb\\source.glb"
+  },
+  "grass": {
+    "asset_id": "d1db90554260",
+    "job_id": "f74ebcbc72d2",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\d1db90554260\\generated\\f74ebcbc72d2\\source.glb"
+  },
+  "dead_tree": {
+    "asset_id": "bb8e96c7cb7c",
+    "job_id": "a6c34fb7d945",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\bb8e96c7cb7c\\generated\\a6c34fb7d945\\source.glb"
+  },
+  "fallen_log": {
+    "asset_id": "663ab137bb72",
+    "job_id": "e18e50e4d9bd",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\663ab137bb72\\generated\\e18e50e4d9bd\\source.glb"
+  },
+  "shrine": {
+    "asset_id": "1620c7b6809a",
+    "job_id": "5cc798dbc81b",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\1620c7b6809a\\generated\\5cc798dbc81b\\source.glb"
+  },
+  "tent": {
+    "asset_id": "64136d2f1401",
+    "job_id": "b44e698e44c3",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\64136d2f1401\\generated\\b44e698e44c3\\source.glb"
+  },
+  "ruin_arch": {
+    "asset_id": "59ed9aa445ba",
+    "job_id": "33c8e408277e",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\59ed9aa445ba\\generated\\33c8e408277e\\source.glb"
+  }
+}

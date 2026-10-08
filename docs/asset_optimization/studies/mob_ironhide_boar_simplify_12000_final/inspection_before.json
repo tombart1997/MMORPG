@@ -1,0 +1,63 @@
+{
+  "objects": [
+    {
+      "name": "Forge_mob_ironhide_boar",
+      "vertices": 16092,
+      "triangles": 14000,
+      "materials": 1,
+      "degenerate_faces": 0,
+      "boundary_edges": 14504,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "has_uv": true,
+      "collapsed_uv_triangles": 0,
+      "skinned": true,
+      "unweighted_vertices": 0
+    }
+  ],
+  "triangles": 14000,
+  "textures": [
+    {
+      "name": "Forge_mob_ironhide_boar_RuntimeAtlas",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "available": true
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.4326384961605072,
+      -1.274970531463623,
+      -0.0012784467544406652
+    ],
+    "max": [
+      0.4326534569263458,
+      1.1415587663650513,
+      1.3622440099716187
+    ]
+  },
+  "armatures": [
+    {
+      "name": "SpiritRig",
+      "bones": 13
+    }
+  ],
+  "actions": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+  "unverified": [
+    "UV overlap beyond collapsed triangles",
+    "Internal occluded geometry",
+    "Baked lighting",
+    "Joint clipping",
+    "Reference fidelity"
+  ]
+}

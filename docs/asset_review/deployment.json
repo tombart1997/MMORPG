@@ -1,0 +1,1090 @@
+{
+  "assets": [
+    {
+      "key": "mob_ironhide_boar",
+      "asset_id": "ec2c860e6fb3",
+      "version_id": "137a8e438ed2",
+      "mapping": {
+        "asset_id": "ec2c860e6fb3",
+        "version_id": "137a8e438ed2",
+        "path": "res://assets/reviewed/ec2c860e6fb3/137a8e438ed2/runtime.glb",
+        "sha256": "6a1bdaba52c753640f02fd9d0ba019eda96da87f2a316bb13bde23821eb2dfde",
+        "previous": {
+          "path": "res://assets/reviewed/ec2c860e6fb3/working_previous.glb",
+          "sha256": "ccf6836cfd0f4295eaddbc8e593bf305dca1b3a5d340f24f412f19103212c4f8"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:04.806285+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_young",
+      "asset_id": "92c84e4281e7",
+      "version_id": "5a213b8b7424",
+      "mapping": {
+        "asset_id": "92c84e4281e7",
+        "version_id": "5a213b8b7424",
+        "path": "res://assets/reviewed/92c84e4281e7/5a213b8b7424/runtime.glb",
+        "sha256": "f5f23809a42663e6adacb35d1c82fe0a196a5cf8a332bb7b71e3f2827a77bb5c",
+        "previous": {
+          "path": "res://assets/reviewed/92c84e4281e7/working_previous.glb",
+          "sha256": "66ca03d8956f576cc57227f89ad9c39cd2bea94c9d79ebc7c30bf30d16b944e6"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:05.116235+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_bristle_boar",
+      "asset_id": "b87ab7c51a58",
+      "version_id": "9e8bb45b4e25",
+      "mapping": {
+        "asset_id": "b87ab7c51a58",
+        "version_id": "9e8bb45b4e25",
+        "path": "res://assets/reviewed/b87ab7c51a58/9e8bb45b4e25/runtime.glb",
+        "sha256": "6a1bdaba52c753640f02fd9d0ba019eda96da87f2a316bb13bde23821eb2dfde",
+        "previous": {
+          "path": "res://assets/reviewed/b87ab7c51a58/working_previous.glb",
+          "sha256": "4a332dfc4928a8cd73c5a3f71c9438fb0baf515c8ddee379d4aaa047df1d519f"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:05.403682+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_grown",
+      "asset_id": "5b91b9c3c6b6",
+      "version_id": "9acfd37bf0a6",
+      "mapping": {
+        "asset_id": "5b91b9c3c6b6",
+        "version_id": "9acfd37bf0a6",
+        "path": "res://assets/reviewed/5b91b9c3c6b6/9acfd37bf0a6/runtime.glb",
+        "sha256": "f5f23809a42663e6adacb35d1c82fe0a196a5cf8a332bb7b71e3f2827a77bb5c",
+        "previous": {
+          "path": "res://assets/reviewed/5b91b9c3c6b6/working_previous.glb",
+          "sha256": "a2acae2737d2cff98f28d431992c5ff14bbbc2d7699f7a05522873536543cb7e"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:05.660241+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_red_wolf",
+      "asset_id": "991e55c2b639",
+      "version_id": "d9d5b24b6109",
+      "mapping": {
+        "asset_id": "991e55c2b639",
+        "version_id": "d9d5b24b6109",
+        "path": "res://assets/reviewed/991e55c2b639/d9d5b24b6109/runtime.glb",
+        "sha256": "ba46e1188b4c6c6969b5c9123095de278b10736ab8f465a96aec9f03021770a9",
+        "previous": {
+          "path": "res://assets/reviewed/991e55c2b639/working_previous.glb",
+          "sha256": "989c1abb69edb3d974321952601da84edcba6efdb6c5afbb3878a97922fc201c"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:05.947353+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_grey_wolf",
+      "asset_id": "656669489c6e",
+      "version_id": "5946a1dcb6f2",
+      "mapping": {
+        "asset_id": "656669489c6e",
+        "version_id": "5946a1dcb6f2",
+        "path": "res://assets/reviewed/656669489c6e/5946a1dcb6f2/runtime.glb",
+        "sha256": "ba46e1188b4c6c6969b5c9123095de278b10736ab8f465a96aec9f03021770a9",
+        "previous": {
+          "path": "res://assets/reviewed/656669489c6e/working_previous.glb",
+          "sha256": "8d806b2e5e955ca99921faaa947e83cb6ee2a612b725c73b4b9998a5e39e3e62"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:06.264135+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_ironback",
+      "asset_id": "19c89a581200",
+      "version_id": "baad7ea265f1",
+      "mapping": {
+        "asset_id": "19c89a581200",
+        "version_id": "baad7ea265f1",
+        "path": "res://assets/reviewed/19c89a581200/baad7ea265f1/runtime.glb",
+        "sha256": "f5f23809a42663e6adacb35d1c82fe0a196a5cf8a332bb7b71e3f2827a77bb5c",
+        "previous": {
+          "path": "res://assets/reviewed/19c89a581200/working_previous.glb",
+          "sha256": "8c734da94d1f1a7d907956f30f87f97a74006dad11c24568b37d9fdb61b55162"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:06.534669+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_mire_boar",
+      "asset_id": "ac088509fc72",
+      "version_id": "4c5ce838bc14",
+      "mapping": {
+        "asset_id": "ac088509fc72",
+        "version_id": "4c5ce838bc14",
+        "path": "res://assets/reviewed/ac088509fc72/4c5ce838bc14/runtime.glb",
+        "sha256": "6a1bdaba52c753640f02fd9d0ba019eda96da87f2a316bb13bde23821eb2dfde",
+        "previous": {
+          "path": "res://assets/reviewed/ac088509fc72/working_previous.glb",
+          "sha256": "bba194d1eacf1566acf6aa68c8b93465d2b30aeda9a76d66eab8dedb48764e9e"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:06.798741+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_copper_spider",
+      "asset_id": "422fc8dc89b8",
+      "version_id": "6ee63c556757",
+      "mapping": {
+        "asset_id": "422fc8dc89b8",
+        "version_id": "6ee63c556757",
+        "path": "res://assets/reviewed/422fc8dc89b8/6ee63c556757/runtime.glb",
+        "sha256": "0dcdc4db794c8bf821040e42cb8968278b89c7a43083755205f62c4dd6100a39",
+        "previous": {
+          "path": "res://assets/reviewed/422fc8dc89b8/working_previous.glb",
+          "sha256": "cf03339ec9a6ec6644989523dfa15d24ba048aaaaaf26e8b25cbef3c93b3917d"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:07.042159+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_road_bandit",
+      "asset_id": "dffdea925c04",
+      "version_id": "abf304a8aecf",
+      "mapping": {
+        "asset_id": "dffdea925c04",
+        "version_id": "abf304a8aecf",
+        "path": "res://assets/reviewed/dffdea925c04/abf304a8aecf/runtime.glb",
+        "sha256": "78d8da3771fb3424c7cc4ee1d8a306b8b299e04b7cc948b32d5d83f3dc94054d",
+        "previous": {
+          "path": "res://assets/reviewed/dffdea925c04/working_previous.glb",
+          "sha256": "acde4c7e949989be4aa5d12e2b8cfe8892fe9a331f6e1466afa472ba2a67f0ad"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:07.715222+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_venom_spider",
+      "asset_id": "b59560fc6905",
+      "version_id": "203c302ed62d",
+      "mapping": {
+        "asset_id": "b59560fc6905",
+        "version_id": "203c302ed62d",
+        "path": "res://assets/reviewed/b59560fc6905/203c302ed62d/runtime.glb",
+        "sha256": "0dcdc4db794c8bf821040e42cb8968278b89c7a43083755205f62c4dd6100a39",
+        "previous": {
+          "path": "res://assets/reviewed/b59560fc6905/working_previous.glb",
+          "sha256": "29b9da6d54f7da8027e38e52f767900eec71774e6c03b6f572dcd631d618d55a"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:07.964544+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_slate_guardian",
+      "asset_id": "4cf3b699edb7",
+      "version_id": "9e911a63347f",
+      "mapping": {
+        "asset_id": "4cf3b699edb7",
+        "version_id": "9e911a63347f",
+        "path": "res://assets/reviewed/4cf3b699edb7/9e911a63347f/runtime.glb",
+        "sha256": "9f5bd48b70e435d9cc8ac5d6b0219e9609712b4ac6880e549879374d23e18216",
+        "previous": {
+          "path": "res://assets/reviewed/4cf3b699edb7/working_previous.glb",
+          "sha256": "3ab1c53c66ffe06575b644f630041f1343e0fd91fe601be573712e23a4f700bb"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:08.223008+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_hollow_raider",
+      "asset_id": "3677f1243f13",
+      "version_id": "d0f52fec5391",
+      "mapping": {
+        "asset_id": "3677f1243f13",
+        "version_id": "d0f52fec5391",
+        "path": "res://assets/reviewed/3677f1243f13/d0f52fec5391/runtime.glb",
+        "sha256": "78d8da3771fb3424c7cc4ee1d8a306b8b299e04b7cc948b32d5d83f3dc94054d",
+        "previous": {
+          "path": "res://assets/reviewed/3677f1243f13/working_previous.glb",
+          "sha256": "fda066a1ebdb1c48ced2ba49cb3099b3ba1eee1950af31f46f7bbb873ac9948b"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:08.949745+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_silk_matron",
+      "asset_id": "fcc324c73cba",
+      "version_id": "4c7ac7c7cfc6",
+      "mapping": {
+        "asset_id": "fcc324c73cba",
+        "version_id": "4c7ac7c7cfc6",
+        "path": "res://assets/reviewed/fcc324c73cba/4c7ac7c7cfc6/runtime.glb",
+        "sha256": "0dcdc4db794c8bf821040e42cb8968278b89c7a43083755205f62c4dd6100a39",
+        "previous": {
+          "path": "res://assets/reviewed/fcc324c73cba/working_previous.glb",
+          "sha256": "6b293594dcd2ee9ffb622d8c621fafc7571452e194668a62eb22de54afeeff2b"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:09.196232+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_ash_bandit",
+      "asset_id": "81693fe60f43",
+      "version_id": "568c4fb007a9",
+      "mapping": {
+        "asset_id": "81693fe60f43",
+        "version_id": "568c4fb007a9",
+        "path": "res://assets/reviewed/81693fe60f43/568c4fb007a9/runtime.glb",
+        "sha256": "78d8da3771fb3424c7cc4ee1d8a306b8b299e04b7cc948b32d5d83f3dc94054d",
+        "previous": {
+          "path": "res://assets/reviewed/81693fe60f43/working_previous.glb",
+          "sha256": "70d4c6d3858711fa6773f228e7248b934e43afe78833113c95656c018ee67415"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:09.876846+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_cairn_sentinel",
+      "asset_id": "1a32f68d2846",
+      "version_id": "089b1ed5d1bc",
+      "mapping": {
+        "asset_id": "1a32f68d2846",
+        "version_id": "089b1ed5d1bc",
+        "path": "res://assets/reviewed/1a32f68d2846/089b1ed5d1bc/runtime.glb",
+        "sha256": "9f5bd48b70e435d9cc8ac5d6b0219e9609712b4ac6880e549879374d23e18216",
+        "previous": {
+          "path": "res://assets/reviewed/1a32f68d2846/working_previous.glb",
+          "sha256": "141952f1de2b34fcdf85b6a2ac81135d622f9956979b284300dd5f58638b0eb0"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:10.158403+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_glass_spider",
+      "asset_id": "6c276d661375",
+      "version_id": "e3b4e09cfc8c",
+      "mapping": {
+        "asset_id": "6c276d661375",
+        "version_id": "e3b4e09cfc8c",
+        "path": "res://assets/reviewed/6c276d661375/e3b4e09cfc8c/runtime.glb",
+        "sha256": "0dcdc4db794c8bf821040e42cb8968278b89c7a43083755205f62c4dd6100a39",
+        "previous": {
+          "path": "res://assets/reviewed/6c276d661375/working_previous.glb",
+          "sha256": "3ce4c09f81c59d1eaebae5656b4033f89c72493328cd64acf982ee9e2a4f51af"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:10.424571+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_obsidian_boar",
+      "asset_id": "fdede670bb9e",
+      "version_id": "8e696fd142e1",
+      "mapping": {
+        "asset_id": "fdede670bb9e",
+        "version_id": "8e696fd142e1",
+        "path": "res://assets/reviewed/fdede670bb9e/8e696fd142e1/runtime.glb",
+        "sha256": "6a1bdaba52c753640f02fd9d0ba019eda96da87f2a316bb13bde23821eb2dfde",
+        "previous": {
+          "path": "res://assets/reviewed/fdede670bb9e/working_previous.glb",
+          "sha256": "f01813d45ca973a18293bfca4a5964261c956a5d3e9aa41edf8c8d3c4b78b38c"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:10.671035+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_widow_spider",
+      "asset_id": "612eb0f5987b",
+      "version_id": "6c0a95c133b8",
+      "mapping": {
+        "asset_id": "612eb0f5987b",
+        "version_id": "6c0a95c133b8",
+        "path": "res://assets/reviewed/612eb0f5987b/6c0a95c133b8/runtime.glb",
+        "sha256": "0dcdc4db794c8bf821040e42cb8968278b89c7a43083755205f62c4dd6100a39",
+        "previous": {
+          "path": "res://assets/reviewed/612eb0f5987b/working_previous.glb",
+          "sha256": "319118c9083fdf3546f209ac5314923cb45478e9ecb6499c1d355a0f2066411c"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:10.924487+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_exile_captain",
+      "asset_id": "6dae6f11834a",
+      "version_id": "61de7e52be5f",
+      "mapping": {
+        "asset_id": "6dae6f11834a",
+        "version_id": "61de7e52be5f",
+        "path": "res://assets/reviewed/6dae6f11834a/61de7e52be5f/runtime.glb",
+        "sha256": "78d8da3771fb3424c7cc4ee1d8a306b8b299e04b7cc948b32d5d83f3dc94054d",
+        "previous": {
+          "path": "res://assets/reviewed/6dae6f11834a/working_previous.glb",
+          "sha256": "e1e5044d4ca2751504daa939dc50b6ef51cf77d250425e019d61fa0e951573d0"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:11.605778+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_rift_sentinel",
+      "asset_id": "b57fef11a83f",
+      "version_id": "96d451a1e4a1",
+      "mapping": {
+        "asset_id": "b57fef11a83f",
+        "version_id": "96d451a1e4a1",
+        "path": "res://assets/reviewed/b57fef11a83f/96d451a1e4a1/runtime.glb",
+        "sha256": "9f5bd48b70e435d9cc8ac5d6b0219e9609712b4ac6880e549879374d23e18216",
+        "previous": {
+          "path": "res://assets/reviewed/b57fef11a83f/working_previous.glb",
+          "sha256": "4bfa1cc9c884ffe76f46a5251e8eb0484935825e686b82287b93bb3703770ce1"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:11.864179+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_ancient_warden",
+      "asset_id": "8be0ed2270a7",
+      "version_id": "b5ad427fb01e",
+      "mapping": {
+        "asset_id": "8be0ed2270a7",
+        "version_id": "b5ad427fb01e",
+        "path": "res://assets/reviewed/8be0ed2270a7/b5ad427fb01e/runtime.glb",
+        "sha256": "9f5bd48b70e435d9cc8ac5d6b0219e9609712b4ac6880e549879374d23e18216",
+        "previous": {
+          "path": "res://assets/reviewed/8be0ed2270a7/working_previous.glb",
+          "sha256": "287e34476fbbefc832adfada5f8933fae1ce44ba0fdcd9ace4b579b954942e37"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:12.092465+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "mob_cairn_colossus",
+      "asset_id": "30c2559134de",
+      "version_id": "3c0e43570083",
+      "mapping": {
+        "asset_id": "30c2559134de",
+        "version_id": "3c0e43570083",
+        "path": "res://assets/reviewed/30c2559134de/3c0e43570083/runtime.glb",
+        "sha256": "9f5bd48b70e435d9cc8ac5d6b0219e9609712b4ac6880e549879374d23e18216",
+        "previous": {
+          "path": "res://assets/reviewed/30c2559134de/working_previous.glb",
+          "sha256": "b85ca4251f64eb3db671dc3218a841fc6f42088b0fb60dea73e977f83b1684df"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:12.421376+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "hero_ironvow",
+      "asset_id": "4a5f7ce80016",
+      "version_id": "f358267ae383",
+      "mapping": {
+        "asset_id": "4a5f7ce80016",
+        "version_id": "f358267ae383",
+        "path": "res://assets/reviewed/4a5f7ce80016/f358267ae383/runtime.glb",
+        "sha256": "78d8da3771fb3424c7cc4ee1d8a306b8b299e04b7cc948b32d5d83f3dc94054d",
+        "previous": {
+          "path": "res://assets/reviewed/4a5f7ce80016/working_previous.glb",
+          "sha256": "b9983ade719445bf53c6c1ea76e8368ef9d58228b8b4e81d093b744f2f74069c"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:13.129172+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "horse_bay",
+      "asset_id": "4009c15f1caf",
+      "version_id": "f6f231f21704",
+      "mapping": {
+        "asset_id": "4009c15f1caf",
+        "version_id": "f6f231f21704",
+        "path": "res://assets/reviewed/4009c15f1caf/f6f231f21704/runtime.glb",
+        "sha256": "bad3627fc4f53bbd4292ceb8ca7803ee61accda7f6660c102dc30e9de7f11309",
+        "previous": {
+          "path": "res://assets/reviewed/4009c15f1caf/working_previous.glb",
+          "sha256": "f519491f115caa385f81a7ce2a86022c29e28158870b004c34fe4dd4e0a0d3a3"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:13.494567+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "tree_pine",
+      "asset_id": "e8fb397908b0",
+      "version_id": "1be32f4ae9cd",
+      "mapping": {
+        "asset_id": "e8fb397908b0",
+        "version_id": "1be32f4ae9cd",
+        "path": "res://assets/reviewed/e8fb397908b0/1be32f4ae9cd/runtime.glb",
+        "sha256": "f6196a4e1f5983441d194b5882c1ecd8cabef3f4971262524afdc8391702fcc8",
+        "previous": {
+          "path": "res://assets/reviewed/e8fb397908b0/working_previous.glb",
+          "sha256": "308ed48a5e32dea8b3d3f80bfccd11ff93431760c2601cc07f7139704390bd91"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:13.728846+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "shrub_reference",
+      "asset_id": "d6cdf2383cd1",
+      "version_id": "609f403c3399",
+      "mapping": {
+        "asset_id": "d6cdf2383cd1",
+        "version_id": "609f403c3399",
+        "path": "res://assets/reviewed/d6cdf2383cd1/609f403c3399/runtime.glb",
+        "sha256": "d9dddce07cdf596ecbf5c58eec2de5ca5d79d9651adce43caa0b28f8ea35226d",
+        "previous": {
+          "path": "res://assets/reviewed/d6cdf2383cd1/working_previous.glb",
+          "sha256": "8f7c517166abe4e8b56e00a0ed8649c71fde7996ef3fada7b83ea8b4799323a8"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:13.918514+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "npc_keeper",
+      "asset_id": "fa07cc8babee",
+      "version_id": "a0f70690d134",
+      "mapping": {
+        "asset_id": "fa07cc8babee",
+        "version_id": "a0f70690d134",
+        "path": "res://assets/reviewed/fa07cc8babee/a0f70690d134/runtime.glb",
+        "sha256": "15e0c1435663ee236150800bd5a7b7238f48b2cb4baa03a02d4fbe5c64a35ec9",
+        "previous": {
+          "path": "res://assets/reviewed/fa07cc8babee/working_previous.glb",
+          "sha256": "f677a883111c549e600392e64df955f3f7627da232b112ff29ee684afa788d8b"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:14.155963+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "npc_smith",
+      "asset_id": "602ec09039bc",
+      "version_id": "15ec750c067d",
+      "mapping": {
+        "asset_id": "602ec09039bc",
+        "version_id": "15ec750c067d",
+        "path": "res://assets/reviewed/602ec09039bc/15ec750c067d/runtime.glb",
+        "sha256": "15e0c1435663ee236150800bd5a7b7238f48b2cb4baa03a02d4fbe5c64a35ec9",
+        "previous": {
+          "path": "res://assets/reviewed/602ec09039bc/working_previous.glb",
+          "sha256": "b34b804f89444e31e5f539db6245b266c2da567aaf3b346c108e432260d865e3"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:14.448509+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "npc_stablemaster",
+      "asset_id": "b5d289f9a41e",
+      "version_id": "e74b9ef207f0",
+      "mapping": {
+        "asset_id": "b5d289f9a41e",
+        "version_id": "e74b9ef207f0",
+        "path": "res://assets/reviewed/b5d289f9a41e/e74b9ef207f0/runtime.glb",
+        "sha256": "15e0c1435663ee236150800bd5a7b7238f48b2cb4baa03a02d4fbe5c64a35ec9",
+        "previous": {
+          "path": "res://assets/reviewed/b5d289f9a41e/working_previous.glb",
+          "sha256": "6190baf9845455464266737faffe5328218af567e3e5087b2b6dbcac2aacd20b"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:14.761663+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "grass",
+      "asset_id": "6631eda0a6eb",
+      "version_id": "896b9a072df6",
+      "mapping": {
+        "asset_id": "6631eda0a6eb",
+        "version_id": "896b9a072df6",
+        "path": "res://assets/reviewed/6631eda0a6eb/896b9a072df6/runtime.glb",
+        "sha256": "4daf77a5ddb73c34a725befc06d75706a4da851abf7ec6fe59f522c654a27e6c",
+        "previous": {
+          "path": "res://assets/reviewed/6631eda0a6eb/working_previous.glb",
+          "sha256": "34939b1b7b52a0376583847d069e2fa7cde541824bf2cfca0c9340ff97ee0478"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:15.052369+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_benchmark_sedge",
+      "asset_id": "98e8c6752070",
+      "version_id": "a9ca02dfbbb2",
+      "mapping": {
+        "asset_id": "98e8c6752070",
+        "version_id": "a9ca02dfbbb2",
+        "path": "res://assets/reviewed/98e8c6752070/a9ca02dfbbb2/runtime.glb",
+        "sha256": "a67e9b0a8121aa0ec3e1faff214e960147dd27ee371470cca71fa0d3b1075282",
+        "previous": {
+          "path": "res://assets/reviewed/98e8c6752070/working_previous.glb",
+          "sha256": "489a82d8c8f8171f88de39373a1bae61cd3d246aa0f051ebcabdcabc863d771f"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:15.346965+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_benchmark_shrub_briar",
+      "asset_id": "2ebe07f878ab",
+      "version_id": "a410d7e450d5",
+      "mapping": {
+        "asset_id": "2ebe07f878ab",
+        "version_id": "a410d7e450d5",
+        "path": "res://assets/reviewed/2ebe07f878ab/a410d7e450d5/runtime.glb",
+        "sha256": "60ed598c8ddc52e31451b747c0dede55e11165f0bd534c34de29fb14fabfbd8f",
+        "previous": {
+          "path": "res://assets/reviewed/2ebe07f878ab/working_previous.glb",
+          "sha256": "637991faa2c4214be136e5adfce1b6a04f17223daf766977ed68e9b0934fc580"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:15.603703+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_benchmark_shrub_laurel",
+      "asset_id": "bc76a3f72814",
+      "version_id": "6e5e13ec2c02",
+      "mapping": {
+        "asset_id": "bc76a3f72814",
+        "version_id": "6e5e13ec2c02",
+        "path": "res://assets/reviewed/bc76a3f72814/6e5e13ec2c02/runtime.glb",
+        "sha256": "b9f8464a5fb29558952014065bdc1f3c0c71dd791cfb2913e927eae0f47206bc",
+        "previous": {
+          "path": "res://assets/reviewed/bc76a3f72814/working_previous.glb",
+          "sha256": "cf29ea95a9e3e353ac8d2a227265619f5bed9e553650dafd779469458b3ed50b"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:15.834044+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_benchmark_tree_bent",
+      "asset_id": "044698e7069d",
+      "version_id": "13f4ceb82f10",
+      "mapping": {
+        "asset_id": "044698e7069d",
+        "version_id": "13f4ceb82f10",
+        "path": "res://assets/reviewed/044698e7069d/13f4ceb82f10/runtime.glb",
+        "sha256": "1489fa03fbd443f1c07c088914a94a25d559d5a83e65ba90101b271d61b6bcf4",
+        "previous": {
+          "path": "res://assets/reviewed/044698e7069d/working_previous.glb",
+          "sha256": "10774cf284117933c2014d007e8141599526c5d7a6587e89d36547199d0ebdf4"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:16.105694+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_benchmark_tree_fork",
+      "asset_id": "ade129290d0b",
+      "version_id": "393172124310",
+      "mapping": {
+        "asset_id": "ade129290d0b",
+        "version_id": "393172124310",
+        "path": "res://assets/reviewed/ade129290d0b/393172124310/runtime.glb",
+        "sha256": "8600d4dccf6d1a493535b9aa9bce9bf3d56a7e2253396001f51e5f3068ff31c9",
+        "previous": {
+          "path": "res://assets/reviewed/ade129290d0b/working_previous.glb",
+          "sha256": "80054b93f898e3de425fb6e757e3de3aef9f2c9f949bb006546e1bce306a8d1b"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:16.404586+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_benchmark_tree_wide",
+      "asset_id": "156fabf5767e",
+      "version_id": "1bc9fbab4015",
+      "mapping": {
+        "asset_id": "156fabf5767e",
+        "version_id": "1bc9fbab4015",
+        "path": "res://assets/reviewed/156fabf5767e/1bc9fbab4015/runtime.glb",
+        "sha256": "38b35fb75ece43f73ebab7bbafbbb37ede104847f4f989082344c80e05625dcc",
+        "previous": {
+          "path": "res://assets/reviewed/156fabf5767e/working_previous.glb",
+          "sha256": "3c3e85c21f6a785584496e6e1eb89f8a0876c742a302802bbb26f6a8f3b3bc98"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:16.739621+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_characters_briarling",
+      "asset_id": "4395eda7f954",
+      "version_id": "3074e5f959d7",
+      "mapping": {
+        "asset_id": "4395eda7f954",
+        "version_id": "3074e5f959d7",
+        "path": "res://assets/reviewed/4395eda7f954/3074e5f959d7/runtime.glb",
+        "sha256": "f5f23809a42663e6adacb35d1c82fe0a196a5cf8a332bb7b71e3f2827a77bb5c",
+        "previous": {
+          "path": "res://assets/reviewed/4395eda7f954/working_previous.glb",
+          "sha256": "7a3b3c7ae1e12a744479755a1dd4a8ddfa9fb50ec7502b93b47d473add01515c"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:16.995214+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_characters_jade_ironback_mantle",
+      "asset_id": "09599029ab9b",
+      "version_id": "ac7fbd405a67",
+      "mapping": {
+        "asset_id": "09599029ab9b",
+        "version_id": "ac7fbd405a67",
+        "path": "res://assets/reviewed/09599029ab9b/ac7fbd405a67/runtime.glb",
+        "sha256": "3b1501576acc0646631091292a3a1f4b7173c6fd95f925560ae2fde0603488d7",
+        "previous": {
+          "path": "res://assets/reviewed/09599029ab9b/working_previous.glb",
+          "sha256": "0020233f03e0f497901120c0ca4d68d4a84a85a34b9def986455ba6bc83825f8"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:17.205543+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_characters_townfolk_kit",
+      "asset_id": "10612c17cf50",
+      "version_id": "b7a4de6187f3",
+      "mapping": {
+        "asset_id": "10612c17cf50",
+        "version_id": "b7a4de6187f3",
+        "path": "res://assets/reviewed/10612c17cf50/b7a4de6187f3/runtime.glb",
+        "sha256": "15e0c1435663ee236150800bd5a7b7238f48b2cb4baa03a02d4fbe5c64a35ec9",
+        "previous": {
+          "path": "res://assets/reviewed/10612c17cf50/working_previous.glb",
+          "sha256": "b34b804f89444e31e5f539db6245b266c2da567aaf3b346c108e432260d865e3"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:17.472081+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_characters_traveler",
+      "asset_id": "15c902f87aa9",
+      "version_id": "1a532188fa9a",
+      "mapping": {
+        "asset_id": "15c902f87aa9",
+        "version_id": "1a532188fa9a",
+        "path": "res://assets/reviewed/15c902f87aa9/1a532188fa9a/runtime.glb",
+        "sha256": "46f2c11f67b68411499631f51df88811f22196806759458bd1a413b4f0743204",
+        "previous": {
+          "path": "res://assets/reviewed/15c902f87aa9/working_previous.glb",
+          "sha256": "02f224c8dd22c07ad902cc49f410e7673a78b84ba1416f4ad9e9ea1a99295d2c"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:17.800849+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_characters_traveler_guard",
+      "asset_id": "2b17e1b3d111",
+      "version_id": "f728f4ba4cc3",
+      "mapping": {
+        "asset_id": "2b17e1b3d111",
+        "version_id": "f728f4ba4cc3",
+        "path": "res://assets/reviewed/2b17e1b3d111/f728f4ba4cc3/runtime.glb",
+        "sha256": "215f99ae4a0c6d43d5bb916f58b05dd4fe0a30ef356821d4fc1c0c1ed850ed61",
+        "previous": {
+          "path": "res://assets/reviewed/2b17e1b3d111/working_previous.glb",
+          "sha256": "013f383efb9434c00db79b9aa3ce3a79cb789dc803cf951f5de9f2b43b7f2424"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:18.069395+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_characters_turnwarden_v2",
+      "asset_id": "c976994e4ab9",
+      "version_id": "8448463f660e",
+      "mapping": {
+        "asset_id": "c976994e4ab9",
+        "version_id": "8448463f660e",
+        "path": "res://assets/reviewed/c976994e4ab9/8448463f660e/runtime.glb",
+        "sha256": "d8672cde2de6ca91fc462a503efc1f6d9f954979f8d5130d58607bce13278610",
+        "previous": {
+          "path": "res://assets/reviewed/c976994e4ab9/working_previous.glb",
+          "sha256": "638ef32b7a26560864f5423df51e43d6ef74372ad860528933fef1943bf3d1e9"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:18.399355+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_creatures_boar",
+      "asset_id": "c19419c1b15d",
+      "version_id": "7a5066fb17c2",
+      "mapping": {
+        "asset_id": "c19419c1b15d",
+        "version_id": "7a5066fb17c2",
+        "path": "res://assets/reviewed/c19419c1b15d/7a5066fb17c2/runtime.glb",
+        "sha256": "6a1bdaba52c753640f02fd9d0ba019eda96da87f2a316bb13bde23821eb2dfde",
+        "previous": {
+          "path": "res://assets/reviewed/c19419c1b15d/working_previous.glb",
+          "sha256": "aa5ddb738d78444f25ec1764a8350161def462fc5a5b9ccb7a1377cc2b34b7fb"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:18.654828+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_creatures_stonekin",
+      "asset_id": "931b7eedbce7",
+      "version_id": "e7acf6df66a2",
+      "mapping": {
+        "asset_id": "931b7eedbce7",
+        "version_id": "e7acf6df66a2",
+        "path": "res://assets/reviewed/931b7eedbce7/e7acf6df66a2/runtime.glb",
+        "sha256": "9f5bd48b70e435d9cc8ac5d6b0219e9609712b4ac6880e549879374d23e18216",
+        "previous": {
+          "path": "res://assets/reviewed/931b7eedbce7/working_previous.glb",
+          "sha256": "86d31dd738f915d369d03ce6dafe805356ee1d18446aac0a70aba3bbbb1692c6"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:18.921296+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_world_kit_tree1",
+      "asset_id": "c72acd956573",
+      "version_id": "810b676aa444",
+      "mapping": {
+        "asset_id": "c72acd956573",
+        "version_id": "810b676aa444",
+        "path": "res://assets/reviewed/c72acd956573/810b676aa444/runtime.glb",
+        "sha256": "7b6726606423d45f8508c8ad03dfe429549ebce7259592f6622377f3adf6820e",
+        "previous": {
+          "path": "res://assets/reviewed/c72acd956573/working_previous.glb",
+          "sha256": "6a6a1e1457a7a251cb9b30e40fbb487c0bcf72f8528f5f0c8b3034c557732cf8"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:19.208804+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_world_kit_tree2",
+      "asset_id": "ea09ca17f3d2",
+      "version_id": "6df37d5cbfa1",
+      "mapping": {
+        "asset_id": "ea09ca17f3d2",
+        "version_id": "6df37d5cbfa1",
+        "path": "res://assets/reviewed/ea09ca17f3d2/6df37d5cbfa1/runtime.glb",
+        "sha256": "6d5771d748571f05e3b8ed10a07d796908401870fd5472f09d51782732dd69d0",
+        "previous": {
+          "path": "res://assets/reviewed/ea09ca17f3d2/working_previous.glb",
+          "sha256": "86c81362399d8a3ad58ed9b3c2988f5a0737a50e33c41dd8cd2edf5e535ccace"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:19.424138+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_mara",
+      "asset_id": "b738a9606ea5",
+      "version_id": "9b5b19eb0861",
+      "mapping": {
+        "asset_id": "b738a9606ea5",
+        "version_id": "9b5b19eb0861",
+        "path": "res://assets/reviewed/b738a9606ea5/9b5b19eb0861/runtime.glb",
+        "sha256": "15e0c1435663ee236150800bd5a7b7238f48b2cb4baa03a02d4fbe5c64a35ec9",
+        "previous": {
+          "path": "res://assets/reviewed/b738a9606ea5/working_previous.glb",
+          "sha256": "f677a883111c549e600392e64df955f3f7627da232b112ff29ee684afa788d8b"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:19.691280+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_apothecary",
+      "asset_id": "a89163512a1c",
+      "version_id": "c7946f63fdf2",
+      "mapping": {
+        "asset_id": "a89163512a1c",
+        "version_id": "c7946f63fdf2",
+        "path": "res://assets/reviewed/a89163512a1c/c7946f63fdf2/runtime.glb",
+        "sha256": "15e0c1435663ee236150800bd5a7b7238f48b2cb4baa03a02d4fbe5c64a35ec9",
+        "previous": {
+          "path": "res://assets/reviewed/a89163512a1c/working_previous.glb",
+          "sha256": "f677a883111c549e600392e64df955f3f7627da232b112ff29ee684afa788d8b"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:19.924378+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_artificer",
+      "asset_id": "9bed4f80cc8a",
+      "version_id": "675d91251e20",
+      "mapping": {
+        "asset_id": "9bed4f80cc8a",
+        "version_id": "675d91251e20",
+        "path": "res://assets/reviewed/9bed4f80cc8a/675d91251e20/runtime.glb",
+        "sha256": "15e0c1435663ee236150800bd5a7b7238f48b2cb4baa03a02d4fbe5c64a35ec9",
+        "previous": {
+          "path": "res://assets/reviewed/9bed4f80cc8a/working_previous.glb",
+          "sha256": "6190baf9845455464266737faffe5328218af567e3e5087b2b6dbcac2aacd20b"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:20.171019+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_armorer",
+      "asset_id": "0dc66653e908",
+      "version_id": "d67644de56a9",
+      "mapping": {
+        "asset_id": "0dc66653e908",
+        "version_id": "d67644de56a9",
+        "path": "res://assets/reviewed/0dc66653e908/d67644de56a9/runtime.glb",
+        "sha256": "15e0c1435663ee236150800bd5a7b7238f48b2cb4baa03a02d4fbe5c64a35ec9",
+        "previous": {
+          "path": "res://assets/reviewed/0dc66653e908/working_previous.glb",
+          "sha256": "b34b804f89444e31e5f539db6245b266c2da567aaf3b346c108e432260d865e3"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:20.454532+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_weapons",
+      "asset_id": "55e6b889dd45",
+      "version_id": "230e2c229cf7",
+      "mapping": {
+        "asset_id": "55e6b889dd45",
+        "version_id": "230e2c229cf7",
+        "path": "res://assets/reviewed/55e6b889dd45/230e2c229cf7/runtime.glb",
+        "sha256": "15e0c1435663ee236150800bd5a7b7238f48b2cb4baa03a02d4fbe5c64a35ec9",
+        "previous": {
+          "path": "res://assets/reviewed/55e6b889dd45/working_previous.glb",
+          "sha256": "b34b804f89444e31e5f539db6245b266c2da567aaf3b346c108e432260d865e3"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:20.699983+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_warden",
+      "asset_id": "f11a2299aef3",
+      "version_id": "355a3e634a83",
+      "mapping": {
+        "asset_id": "f11a2299aef3",
+        "version_id": "355a3e634a83",
+        "path": "res://assets/reviewed/f11a2299aef3/355a3e634a83/runtime.glb",
+        "sha256": "15e0c1435663ee236150800bd5a7b7238f48b2cb4baa03a02d4fbe5c64a35ec9",
+        "previous": {
+          "path": "res://assets/reviewed/f11a2299aef3/working_previous.glb",
+          "sha256": "6190baf9845455464266737faffe5328218af567e3e5087b2b6dbcac2aacd20b"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:20.938295+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_ash_scout",
+      "asset_id": "257e88f34613",
+      "version_id": "5f7335de63f8",
+      "mapping": {
+        "asset_id": "257e88f34613",
+        "version_id": "5f7335de63f8",
+        "path": "res://assets/reviewed/257e88f34613/5f7335de63f8/runtime.glb",
+        "sha256": "15e0c1435663ee236150800bd5a7b7238f48b2cb4baa03a02d4fbe5c64a35ec9",
+        "previous": {
+          "path": "res://assets/reviewed/257e88f34613/working_previous.glb",
+          "sha256": "6190baf9845455464266737faffe5328218af567e3e5087b2b6dbcac2aacd20b"
+        },
+        "status": "KEEP",
+        "fallback": true,
+        "applied_at": "2026-10-03T22:06:21.189927+00:00"
+      },
+      "fallback": true
+    },
+    {
+      "key": "watchtower",
+      "asset_id": "f03ebd870fd5",
+      "version_id": "0f9ed5c6c8b5",
+      "mapping": {
+        "asset_id": "f03ebd870fd5",
+        "version_id": "0f9ed5c6c8b5",
+        "path": "res://assets/reviewed/f03ebd870fd5/0f9ed5c6c8b5/runtime.glb",
+        "sha256": "8b328744a3ea2b6e24171ea4a158329fe0011311bbb29a14bb62c2ae44856082",
+        "previous": {
+          "path": "res://assets/reviewed/f03ebd870fd5/working_previous.glb",
+          "sha256": "93020b211efd55047bf82fa6aae595245539424ad8f122f079cd5add74a6dd48"
+        },
+        "status": "KEEP",
+        "fallback": false,
+        "applied_at": "2026-10-03T22:06:21.535842+00:00"
+      },
+      "fallback": false
+    },
+    {
+      "key": "fern_reference",
+      "asset_id": "86254633d908",
+      "version_id": "eb2c2d8c0f71",
+      "mapping": {
+        "asset_id": "86254633d908",
+        "version_id": "eb2c2d8c0f71",
+        "path": "res://assets/reviewed/86254633d908/eb2c2d8c0f71/runtime.glb",
+        "sha256": "08141a0b0754041143fce8df3255c19de91b9cce5cc8e2976833220e36979508",
+        "previous": {
+          "path": "res://assets/reviewed/86254633d908/working_previous.glb",
+          "sha256": "2259f80ef8cfc0b1f5e4279abff50af2ee512dd8660a577557257c8e73d73cea"
+        },
+        "status": "KEEP",
+        "fallback": false,
+        "applied_at": "2026-10-03T22:06:21.894877+00:00"
+      },
+      "fallback": false
+    },
+    {
+      "key": "derived_benchmark_fern",
+      "asset_id": "6b2095bf4f45",
+      "version_id": "15be213805ac",
+      "mapping": {
+        "asset_id": "6b2095bf4f45",
+        "version_id": "15be213805ac",
+        "path": "res://assets/reviewed/6b2095bf4f45/15be213805ac/runtime.glb",
+        "sha256": "08141a0b0754041143fce8df3255c19de91b9cce5cc8e2976833220e36979508",
+        "previous": {
+          "path": "res://assets/reviewed/6b2095bf4f45/working_previous.glb",
+          "sha256": "b18564807dd60426ee4bb5ba0b2bec1617ff5ac50f0f87334d806e5a1e3232ac"
+        },
+        "status": "KEEP",
+        "fallback": false,
+        "applied_at": "2026-10-03T22:06:22.125752+00:00"
+      },
+      "fallback": false
+    }
+  ],
+  "status": "passed",
+  "elapsed_seconds": 17.62,
+  "cost_credits": 0
+}

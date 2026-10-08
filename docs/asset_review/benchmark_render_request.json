@@ -1,0 +1,29 @@
+{
+  "assets": [
+    {
+      "key": "mob_meadow_wolf",
+      "path": "res://assets/forge_rebuild/mobs/meadow_wolf.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ee4651b0a657\\references\\a760c0b6d510_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\mob_meadow_wolf\\before.png"
+    },
+    {
+      "key": "mob_ironhide_boar",
+      "path": "res://assets/forge_rebuild/mobs/ironhide_boar.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\90c5a8203d35\\references\\be791754a956_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\mob_ironhide_boar\\before.png"
+    },
+    {
+      "key": "fern_reference",
+      "path": "res://assets/world_kit/fern.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\e89698c5b2d1\\references\\c26de0c63947_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\fern_reference\\before.png"
+    },
+    {
+      "key": "watchtower",
+      "path": "res://assets/world_kit/watchtower.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\f6dde5ac99fe\\references\\acab34a66af6_prepared.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmarks\\watchtower\\before.png"
+    }
+  ],
+  "report": "D:\\Games\\Metin2Clone\\docs\\asset_review\\benchmark_render_report.json"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "flowers",
+  "method": "clean_remodel",
+  "repair": "New clean prop sections following the Briarwood ground-dressing palette; no legacy mesh reuse.",
+  "triangles": 1800,
+  "reference": "concepts_docs/art/asset_turnarounds_v2/flowers/turnaround.png",
+  "old_geometry_reused": false,
+  "review_status": "pending_exported_review"
+}

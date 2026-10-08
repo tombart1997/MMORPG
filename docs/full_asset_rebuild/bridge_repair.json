@@ -1,0 +1,9 @@
+{
+  "key": "bridge",
+  "method": "clean_remodel",
+  "repair": "Native reconstruction duplicated detached corner posts and broke the rails. Complete clean deck, exactly six railing posts, closed beams, planks, bindings and two continuous ropes per side rebuilt from the four-view bridge sheet.",
+  "triangles": 9504,
+  "reference": "concepts_docs/art/world_briarwood.png",
+  "old_geometry_reused": false,
+  "review_status": "pending_exported_review"
+}

@@ -1,0 +1,38 @@
+{
+  "key": "mob_ancient_warden",
+  "forge_asset_id": "55bd257c0ecc",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\55bd257c0ecc\\generated\\71dd1f7aa181\\source.glb",
+  "rig_source": "blender/creatures/stonekin.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\ancient_warden.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_ancient_warden.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.7049999833106995,
+      -0.25884756445884705,
+      0.0
+    ],
+    [
+      0.7049999833106995,
+      0.4317387640476227,
+      1.6665664911270142
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 40544,
+      "after": 14000,
+      "extent_drift": 0.0023161421236071763
+    }
+  ],
+  "bones": 18,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

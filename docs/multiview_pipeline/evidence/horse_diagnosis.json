@@ -1,0 +1,46 @@
+{
+  "status": "PARTIAL REBUILD",
+  "source_sha256": "039548b8e16d2041bddfc0dda6080d220f506023ce2e4497180a63b0a06c8935",
+  "criteria": [
+    "Bay horse with black mane, tail and lower legs; four separated hooves and neutral pose",
+    "Forward axis Godot -Z; consistent scale and ground contact; species rig before mount replacement"
+  ],
+  "confidence": "High for static geometry/export; moderate for fine anatomical/material fidelity; animation unverified",
+  "evidence": [
+    {
+      "kind": "mesh",
+      "path": "processed/13ab058806b8/processing.json"
+    },
+    {
+      "kind": "render",
+      "path": "reviews/multiview_followup/four_angles.png"
+    },
+    {
+      "kind": "runtime",
+      "path": "godot/a01df4b2869e/results/technical.json"
+    }
+  ],
+  "defects": [
+    {
+      "region": "head",
+      "description": "Soft eyes/muzzle and pale forelock stripe require local texture review against the plain-face concept."
+    },
+    {
+      "region": "tail",
+      "description": "Tail reads as a thick ribbon; review thin hair cards and hoof detail."
+    },
+    {
+      "region": "rig",
+      "description": "No species skeleton, gait/combat clips, saddle or mounted rider."
+    }
+  ],
+  "plan": [],
+  "remaining_review": [
+    "Species rig and full gait/deformation validation",
+    "Cleanup of eyes, forelock markings, hooves and tail",
+    "Separate saddle/rider fit and mounted motion review"
+  ],
+  "future_work": [
+    "Preserve native coat; projected coat was rejected because the generated front axis differed from the input contract."
+  ]
+}

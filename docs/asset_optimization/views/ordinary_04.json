@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Mire Boar / 11996 tris",
+      "path": "res://review_assets/optimization/mob_mire_boar_simplify_12000_final.glb"
+    },
+    {
+      "name": "Copper Spider / 11995 tris",
+      "path": "res://review_assets/optimization/mob_copper_spider_simplify_12000_final.glb"
+    },
+    {
+      "name": "Road Bandit / 11996 tris",
+      "path": "res://review_assets/optimization/mob_road_bandit_simplify_12000_final.glb"
+    }
+  ],
+  "clip": "run",
+  "time": 0.19,
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\views\\ordinary_04.png"
+}

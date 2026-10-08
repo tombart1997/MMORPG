@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Briarling",
+      "path": "res://assets/characters/briarling.glb"
+    },
+    {
+      "name": "Jade Ironback Mantle",
+      "path": "res://assets/characters/jade_ironback_mantle.glb"
+    },
+    {
+      "name": "Jade Sword",
+      "path": "res://assets/characters/jade_sword.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\legacy_idle_04.png",
+  "clip": "idle",
+  "time": 0
+}

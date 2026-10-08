@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_reed_spider",
+      "before": 12658,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11996,
+      "quality": {
+        "surface_max_fraction": 0.0010296606336299555,
+        "surface_p95_fraction": 0.0,
+        "bounds_drift_fraction": 0.0,
+        "nonmanifold_edges": 0,
+        "samples": 6547
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.00122632534583938,
+          "p95_fraction": 0.0
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.00481695354476767,
+          "p95_fraction": 0.0
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.004625617325123799,
+          "p95_fraction": 0.0
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.00436498347670978,
+          "p95_fraction": 0.0
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.0010808660634423135,
+          "p95_fraction": 0.0
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

@@ -1,0 +1,35 @@
+{
+  "animation_clips": [],
+  "animation_previews": [],
+  "average_draw_calls": 26.0,
+  "average_fps": 1788.44663473958,
+  "average_frame_ms": 0.559144444444444,
+  "average_rendered_objects": 139.0,
+  "average_rendered_primitives": 449803.0,
+  "engine_version": "4.7.2-stable (official)",
+  "instances": 25.0,
+  "measurement_scope": "Controlled 25-instance grid with 45 warm-up frames after camera placement; 180 measured frames without screenshot capture. OS scheduling and hidden window affect timing. Not a game performance prediction.",
+  "p95_frame_ms": 0.701,
+  "rendering_method": "gl_compatibility",
+  "requested_viewport": [
+    960,
+    640
+  ],
+  "sample_frames": 180,
+  "status": "measured",
+  "viewport": [
+    960.0,
+    640.0
+  ],
+  "visual_status": "pending",
+  "warmup_frames": 45,
+  "hardware": {
+    "cpu": "Intel64 Family 6 Model 63 Stepping 2, GenuineIntel",
+    "logical_cores": 12,
+    "os": "Windows-10-10.0.19045-SP0",
+    "ram_gib": 15.91,
+    "gpu": "NVIDIA GeForce GTX 1080",
+    "vram": "8192 MiB",
+    "driver": "582.66"
+  }
+}

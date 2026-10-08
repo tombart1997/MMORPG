@@ -1,0 +1,55 @@
+{
+  "technical_status": "passed",
+  "visual_status": "pending",
+  "errors": [],
+  "warnings": [],
+  "triangles": 11995,
+  "materials": 1,
+  "textures": [
+    {
+      "name": "Forge_mob_ash_bandit_RuntimeAtlas",
+      "mime": "image/png",
+      "embedded": true
+    }
+  ],
+  "skins": 1,
+  "bones": [
+    "Root",
+    "Hips",
+    "Spine",
+    "Chest",
+    "Neck",
+    "Head",
+    "UpperArm.L",
+    "Forearm.L",
+    "Hand.L",
+    "UpperArm.R",
+    "Forearm.R",
+    "Hand.R",
+    "Thigh.L",
+    "Shin.L",
+    "Foot.L",
+    "Thigh.R",
+    "Shin.R",
+    "Foot.R"
+  ],
+  "animations": [
+    "longsword_run",
+    "longsword_03",
+    "attack_03",
+    "longsword_02",
+    "attack_02",
+    "longsword_01",
+    "attack_01",
+    "longsword_idle",
+    "idle",
+    "skill_riposte",
+    "skill_plant",
+    "skill_step",
+    "skill_guard",
+    "death",
+    "hit",
+    "run"
+  ],
+  "mesh_objects": 1
+}

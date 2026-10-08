@@ -1,0 +1,7 @@
+{
+  "prompt": "Edit target: preserve this complete frontier pine tree EXACTLY, including the entire broad layered canopy of olive pine needles, every bough, brown leaning trunk, roots, proportions, colors and lighting. Remove ONLY the pale gray studio background and any ground shadow. Output a clean transparent PNG cutout of the complete tree. Do not discard the fine pine needles; make their alpha fully opaque wherever there is foliage, while preserving empty gaps between boughs. Do not crop, simplify, restyle or change the tree. The entire canopy and all roots must stay within frame. This cutout will be used for single-image 3D reconstruction.",
+  "tool": "built-in image_gen",
+  "edit_target": "tree_reference.png",
+  "output": "tree_cutout.png",
+  "transparent_background": true
+}

@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Warden Sword",
+      "path": "res://assets/characters/warden_sword.glb"
+    },
+    {
+      "name": "Wayfarer Sword",
+      "path": "res://assets/characters/wayfarer_sword.glb"
+    },
+    {
+      "name": "Boar",
+      "path": "res://assets/creatures/boar.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\legacy_idle_07.png",
+  "clip": "idle",
+  "time": 0
+}

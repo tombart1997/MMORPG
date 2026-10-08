@@ -1,0 +1,35 @@
+{
+  "key": "npc_stablemaster",
+  "forge_asset_id": "45f6c569708b",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\45f6c569708b\\generated\\1f68242926c0\\source.glb",
+  "rig_source": "blender/characters/townfolk_kit.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\npcs\\stablemaster.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\npc_stablemaster.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.46000000834465027,
+      -0.1899999976158142,
+      0.004999999888241291
+    ],
+    [
+      0.46000000834465027,
+      0.20999999344348907,
+      1.8200000524520874
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 11948,
+      "after": 11948
+    }
+  ],
+  "bones": 18,
+  "clips": [
+    "idle",
+    "keeper_idle",
+    "smith_idle"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

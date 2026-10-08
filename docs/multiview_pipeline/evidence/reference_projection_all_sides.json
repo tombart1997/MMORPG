@@ -1,0 +1,48 @@
+{
+  "method": "Approximate orthographic projection with BVH visibility and normal-weighted blending",
+  "mesh_changed": false,
+  "coordinates": "glTF Y-up world; Blender import transform accounted for",
+  "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\9bd5513739b9\\generated\\2e7a500bfc46\\source.glb",
+  "views": [
+    {
+      "angle": "front",
+      "mask": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\9bd5513739b9\\generated\\2e7a500bfc46\\foreground_00.png"
+    },
+    {
+      "angle": "left",
+      "mask": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\9bd5513739b9\\generated\\2e7a500bfc46\\foreground_01.png"
+    },
+    {
+      "angle": "back",
+      "mask": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\9bd5513739b9\\generated\\2e7a500bfc46\\foreground_02.png"
+    },
+    {
+      "angle": "three_quarter",
+      "mask": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\9bd5513739b9\\generated\\2e7a500bfc46\\foreground_03.png"
+    },
+    {
+      "angle": "right",
+      "mask": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\9bd5513739b9\\generated\\2e7a500bfc46\\foreground_right_supplementary.png"
+    }
+  ],
+  "meshes": [
+    {
+      "mesh": "geometry_0",
+      "vertices": 261558,
+      "covered_vertices": 108358,
+      "visible_samples": {
+        "front": 24581,
+        "left": 40827,
+        "back": 20328,
+        "right": 41445
+      }
+    }
+  ],
+  "elapsed_seconds": 5.73,
+  "remaining_review": [
+    "Eye and limb registration",
+    "Texture seams",
+    "Generated view consistency"
+  ],
+  "uncovered_surface": "Native generated colors retained"
+}

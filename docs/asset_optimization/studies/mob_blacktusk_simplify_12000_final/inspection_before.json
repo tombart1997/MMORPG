@@ -1,0 +1,63 @@
+{
+  "objects": [
+    {
+      "name": "Forge_mob_blacktusk",
+      "vertices": 14458,
+      "triangles": 13952,
+      "materials": 1,
+      "degenerate_faces": 0,
+      "boundary_edges": 12248,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "has_uv": true,
+      "collapsed_uv_triangles": 0,
+      "skinned": true,
+      "unweighted_vertices": 0
+    }
+  ],
+  "triangles": 13952,
+  "textures": [
+    {
+      "name": "Forge_mob_blacktusk_RuntimeAtlas",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "available": true
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.4143775403499603,
+      -1.2761309146881104,
+      -0.00013206993753556162
+    ],
+    "max": [
+      0.43260297179222107,
+      1.142499327659607,
+      1.359543800354004
+    ]
+  },
+  "armatures": [
+    {
+      "name": "SpiritRig",
+      "bones": 13
+    }
+  ],
+  "actions": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+  "unverified": [
+    "UV overlap beyond collapsed triangles",
+    "Internal occluded geometry",
+    "Baked lighting",
+    "Joint clipping",
+    "Reference fidelity"
+  ]
+}

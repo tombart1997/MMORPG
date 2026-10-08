@@ -43,7 +43,7 @@ func _run() -> void:
 	camera.look_at(Vector3(0, 0.95, 8))
 	camera.fov = 47
 	camera.current = true
-	var manifest = JSON.parse_string(FileAccess.get_file_as_string("res://assets/characters/manifest.json"))
+	var manifest = JSON.parse_string(FileAccess.get_file_as_string("res://assets/generated/rig_contracts.json"))
 	for actor in [player, enemy]:
 		var visual: ActorVisual = actor.visual
 		var asset: String = "briarling" if visual.creature else "warden_high"
@@ -58,6 +58,23 @@ func _run() -> void:
 				asset + " preserves duration of " + clip)
 	pose(player)
 	pose(enemy)
+	# Equipment can follow a valid Hand bone while the visible hand is wrongly
+	# weighted to clothing. Check the imported body, not only the sword socket.
+	for side in ["L", "R"]:
+		var hand_vertices := 0
+		var hand_bone := player.visual.skeleton.find_bone("Hand." + side)
+		for mesh: MeshInstance3D in player.visual.model.find_children("*", "MeshInstance3D", true, false):
+			if mesh.skin == null: continue
+			for surface in mesh.mesh.get_surface_count():
+				var arrays := mesh.mesh.surface_get_arrays(surface)
+				var bones: PackedInt32Array = arrays[Mesh.ARRAY_BONES]
+				var weights: PackedFloat32Array = arrays[Mesh.ARRAY_WEIGHTS]
+				for influence in bones.size():
+					var bind := bones[influence]
+					var bone := mesh.skin.get_bind_bone(bind)
+					if bone < 0: bone = player.visual.skeleton.find_bone(mesh.skin.get_bind_name(bind))
+					if bone == hand_bone and weights[influence] > .5: hand_vertices += 1
+		check(hand_vertices > 20, "Visible hand " + side + " is skinned to its animated wrist")
 	await capture("idle")
 	var equipment: Node3D = player.visual.sockets[&"WeaponSocket"].get_node("Equipment")
 	var grip: Marker3D = equipment.get_node("Grip")

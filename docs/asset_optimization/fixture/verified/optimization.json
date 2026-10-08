@@ -1,0 +1,36 @@
+{
+  "mode": "retopology",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Synthetic_transfer_fixture",
+      "before": 3968,
+      "target": 2500,
+      "status": "optimized",
+      "method": "quad_remesh",
+      "after": 2496,
+      "quality": {
+        "surface_max_fraction": 0.0015288881652483863,
+        "surface_p95_fraction": 0.0012098344113126915,
+        "bounds_drift_fraction": 0.001144430806698319,
+        "nonmanifold_edges": 0,
+        "samples": 3248
+      },
+      "textures": [
+        "Synthetic_transfer_fixture_Base Color",
+        "Synthetic_transfer_fixture_Roughness",
+        "Synthetic_transfer_fixture_Emission Color",
+        "Synthetic_transfer_fixture_Normal"
+      ],
+      "material_transfer": "rebaked_atlas",
+      "deformation": [],
+      "remesh_input": "welded_seams_and_consistent_normals",
+      "remeshed_quads": 1266,
+      "log": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\fixture\\verified\\optimization_work\\Synthetic_transfer_fixture_remesh.log",
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 2500,
+  "achieved_triangles": 2496,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

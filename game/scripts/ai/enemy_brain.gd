@@ -46,6 +46,14 @@ func _on_damaged(_amount: float, _source: Node3D) -> void:
 		stagger = 0.08
 
 func _physics_process(delta: float) -> void:
+	if not RuntimeCosts.enabled:
+		_profiled__physics_process(delta)
+		return
+	var started:=Time.get_ticks_usec()
+	_profiled__physics_process(delta)
+	RuntimeCosts.record(&"brain",started)
+
+func _profiled__physics_process(delta: float) -> void:
 	if not actor.health.is_alive(): return
 	simulation_elapsed += delta
 	if not pack.has_target() and actor.simulation_interval > 0 and simulation_elapsed < actor.simulation_interval: return
@@ -83,12 +91,10 @@ func _physics_process(delta: float) -> void:
 		var offset := pack.target.global_position - actor.global_position
 		offset.y = 0.0
 		if route_clock <= 0:
-			route_clock = 0.6 + float(actor.get_index() % 5) * 0.03
-			route.clear()
+			route_clock = 0.6 + float(int(absf(home.x)*3+absf(home.z)*5) % 17) * 0.023
 			if offset.length() > 2 and not SkillTargeting.line_clear(actor, actor.global_position, pack.target.global_position):
-				var map := actor.get_world_3d().navigation_map
-				if NavigationServer3D.map_get_iteration_id(map) > 0:
-					route = NavigationServer3D.map_get_path(map, actor.global_position, pack.target.global_position, true)
+				if is_instance_valid(crowd):crowd.request_route(self)
+			else:route.clear()
 		if not actor.combat.is_attacking():
 			if offset.length_squared() > 0.001:
 				actor.rotation.y = atan2(-offset.x, -offset.z)
@@ -122,4 +128,6 @@ func _physics_process(delta: float) -> void:
 		actor.velocity.y -= 24.0 * delta
 	else:
 		actor.velocity.y = 0
+	var move_started:=Time.get_ticks_usec() if RuntimeCosts.enabled else 0
 	actor.move_and_slide()
+	if RuntimeCosts.enabled:RuntimeCosts.record(&"move_and_slide",move_started)

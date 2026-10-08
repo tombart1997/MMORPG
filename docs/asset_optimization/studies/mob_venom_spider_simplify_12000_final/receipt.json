@@ -1,0 +1,176 @@
+{
+  "name": "mob_venom_spider_simplify_12000_final",
+  "asset_id": "04bf1648152b",
+  "source_key": "mob_venom_spider",
+  "source": "game/assets/forge_rebuild/mobs/venom_spider.glb",
+  "source_asset_id": "7386fddb5cc0",
+  "source_sha256": "be4b57d48ed2f2483c18cbdfd87b40c7ba1d812f864238c685212958aef7122a",
+  "imported_candidate": "ac917c117004",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 12000,
+    "optimization_mode": "simplify",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "anatomy_review",
+      "topology_review",
+      "uv_materials",
+      "species_rig_import",
+      "animation_review",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "72e7e083344d",
+    "asset_id": "04bf1648152b",
+    "operation": "process",
+    "state": "succeeded",
+    "stage": "blender_process",
+    "progress": 100,
+    "created_at": "2026-10-03T19:15:36.948186+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {
+      "files": {
+        "animation_contract.json": "processed/72e7e083344d/animation_contract.json",
+        "editable.blend": "processed/72e7e083344d/editable.blend",
+        "inspection_before.json": "processed/72e7e083344d/inspection_before.json",
+        "optimization.json": "processed/72e7e083344d/optimization.json",
+        "processing.json": "processed/72e7e083344d/processing.json",
+        "runtime.glb": "processed/72e7e083344d/runtime.glb",
+        "source.blend": "processed/72e7e083344d/source.blend",
+        "source.glb": "processed/72e7e083344d/source.glb",
+        "validation.json": "processed/72e7e083344d/validation.json"
+      }
+    },
+    "resumed_from": null,
+    "message": "Complete \u00b7 visual review remains separate",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 12000,
+      "optimization_mode": "simplify",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "anatomy_review",
+        "topology_review",
+        "uv_materials",
+        "species_rig_import",
+        "animation_review",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "ac917c117004",
+      "path": "imports/ac72e6b5ef74.glb",
+      "origin": "imported",
+      "sha256": "be4b57d48ed2f2483c18cbdfd87b40c7ba1d812f864238c685212958aef7122a",
+      "created_at": "2026-10-03T19:15:36.894186+00:00",
+      "original_filename": "venom_spider.glb",
+      "license": "Optimization study: retained local neural derivative from 7386fddb5cc0; SHA256 be4b57d48ed2f2483c18cbdfd87b40c7ba1d812f864238c685212958aef7122a",
+      "cost_credits": 0
+    },
+    "reference": null,
+    "started_at": "2026-10-03T19:15:36.960186+00:00",
+    "elapsed_seconds": 11.6,
+    "finished_at": "2026-10-03T19:15:48.659728+00:00",
+    "duration_seconds": 11.69
+  },
+  "visual_status": "pending",
+  "artifacts": {
+    "animation_contract.json": "processed/72e7e083344d/animation_contract.json",
+    "editable.blend": "processed/72e7e083344d/editable.blend",
+    "inspection_before.json": "processed/72e7e083344d/inspection_before.json",
+    "optimization.json": "processed/72e7e083344d/optimization.json",
+    "processing.json": "processed/72e7e083344d/processing.json",
+    "runtime.glb": "processed/72e7e083344d/runtime.glb",
+    "source.blend": "processed/72e7e083344d/source.blend",
+    "source.glb": "processed/72e7e083344d/source.glb",
+    "validation.json": "processed/72e7e083344d/validation.json"
+  },
+  "review_path": "res://review_assets/optimization/mob_venom_spider_simplify_12000_final.glb"
+}

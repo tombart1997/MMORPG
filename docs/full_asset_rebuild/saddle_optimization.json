@@ -1,0 +1,31 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "MV_saddle",
+      "before": 640180,
+      "target": 6000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 5996,
+      "quality": {
+        "surface_max_fraction": 0.004112719767847481,
+        "surface_p95_fraction": 0.0011918513425330838,
+        "bounds_drift_fraction": 0.0005177546284452911,
+        "nonmanifold_edges": 0,
+        "samples": 6032
+      },
+      "textures": [
+        "MV_saddle_Base Color",
+        "MV_saddle_Normal"
+      ],
+      "material_transfer": "rebaked_atlas",
+      "deformation": [],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 6000,
+  "achieved_triangles": 5996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

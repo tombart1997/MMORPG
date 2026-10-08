@@ -5,8 +5,49 @@ var cells: Dictionary = {}
 var clock: float = 0
 var rebuilds: int = 0
 var candidates: int = 0
+var route_queue: Array[Dictionary] = []
+var queued_routes: Dictionary = {}
+var path_queries_last_tick := 0
+const PATH_QUERIES_PER_TICK := 2
+const PATH_TIME_BUDGET_USEC := 1000
 const CELL: float = 1.5
+
+func request_route(brain: EnemyBrain) -> void:
+	var identity:=brain.get_instance_id()
+	if queued_routes.has(identity):return
+	queued_routes[identity]=true
+	route_queue.append({"identity":identity,"brain":brain})
+
+func _resolve_routes() -> void:
+	path_queries_last_tick=0
+	var started:=Time.get_ticks_usec()
+	while not route_queue.is_empty() and path_queries_last_tick<PATH_QUERIES_PER_TICK:
+		var request: Dictionary=route_queue.pop_front()
+		queued_routes.erase(request.identity)
+		if not is_instance_valid(request.brain):continue
+		var brain: EnemyBrain=request.brain
+		if not is_instance_valid(brain.actor) or not brain.actor.is_inside_tree() or not brain.actor.health.is_alive():continue
+		if not is_instance_valid(brain.pack) or not brain.pack.has_target():continue
+		var map:=brain.actor.get_world_3d().navigation_map
+		if NavigationServer3D.map_get_iteration_id(map)==0:continue
+		brain.route=NavigationServer3D.map_get_path(map,brain.actor.global_position,brain.pack.target.global_position,true)
+		path_queries_last_tick+=1
+		if Time.get_ticks_usec()-started>=PATH_TIME_BUDGET_USEC:break
+
 func _physics_process(delta: float) -> void:
+	if not RuntimeCosts.enabled:
+		_profiled__physics_process(delta)
+		return
+	var started:=Time.get_ticks_usec()
+	_profiled__physics_process(delta)
+	RuntimeCosts.record(&"crowd",started)
+
+func _profiled__physics_process(delta: float) -> void:
+	# Obstructed packs can request paths together. Spread expensive map queries
+	# over ticks; actors keep their previous route and physical collision meantime.
+	var route_started:=Time.get_ticks_usec() if RuntimeCosts.enabled else 0
+	_resolve_routes()
+	if RuntimeCosts.enabled:RuntimeCosts.record(&"navigation",route_started)
 	clock -= delta
 	if clock > 0: return
 	clock = 0.1

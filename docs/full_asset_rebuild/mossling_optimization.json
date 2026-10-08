@@ -1,0 +1,31 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "MV_mossling",
+      "before": 669250,
+      "target": 18000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 17995,
+      "quality": {
+        "surface_max_fraction": 0.00248688375766576,
+        "surface_p95_fraction": 0.0010348340947765597,
+        "bounds_drift_fraction": 0.0003747068992547448,
+        "nonmanifold_edges": 0,
+        "samples": 6049
+      },
+      "textures": [
+        "MV_mossling_Base Color",
+        "MV_mossling_Normal"
+      ],
+      "material_transfer": "rebaked_atlas",
+      "deformation": [],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 18000,
+  "achieved_triangles": 17995,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

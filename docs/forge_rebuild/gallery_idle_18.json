@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Woodland sedge",
+      "path": "res://assets/world_kit/grass.glb"
+    },
+    {
+      "name": "Briarwake Fracture",
+      "path": "res://assets/benchmark/briarwake.glb"
+    },
+    {
+      "name": "Cloud brass coin",
+      "path": "res://assets/weapons/gold_coin.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\gallery_idle_18.png",
+  "clip": "idle",
+  "time": 0
+}

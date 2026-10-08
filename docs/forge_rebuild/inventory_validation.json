@@ -1,0 +1,1264 @@
+{
+  "legacy_models_replaced": 59,
+  "neural_candidates": 59,
+  "mob_variants": 37,
+  "resident_variants": 10,
+  "all_bone_and_animation_contracts_preserved": true,
+  "all_mesh_buffers_finite_and_weights_normalized": true,
+  "models": [
+    {
+      "path": "game/assets/benchmark/briarwake.glb",
+      "triangles": 6475,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "Core_0Mesh",
+        "Rib_0Mesh",
+        "Rib_1Mesh",
+        "Rib_2Mesh",
+        "Rib_3Mesh",
+        "Rib_4Mesh",
+        "Rib_5Mesh",
+        "Rib_6Mesh"
+      ],
+      "materials": [
+        "Forge_fracture_RuntimeColor"
+      ],
+      "sha256": "d85e2e1df0016624f6253fd16830683182af5233eb1df5a209d8a99a35b5b9bd",
+      "reconstruction": "fracture",
+      "verified_vertices": 9798
+    },
+    {
+      "path": "game/assets/benchmark/fallen_wood.glb",
+      "triangles": 1397,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_fallen_log_RuntimeColor"
+      ],
+      "sha256": "d7bd920a7b9d228ee43e9075f97fc9a75854ab83b315f0dbb276ec8917cc3845",
+      "reconstruction": "fallen_log",
+      "verified_vertices": 1404
+    },
+    {
+      "path": "game/assets/benchmark/fern.glb",
+      "triangles": 1338,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0.002"
+      ],
+      "materials": [
+        "Forge_fern_reference_RuntimeColor"
+      ],
+      "sha256": "b18564807dd60426ee4bb5ba0b2bec1617ff5ac50f0f87334d806e5a1e3232ac",
+      "reconstruction": "fern_reference",
+      "verified_vertices": 1997
+    },
+    {
+      "path": "game/assets/benchmark/leaf_litter.glb",
+      "triangles": 719,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0.002"
+      ],
+      "materials": [
+        "Forge_grass_RuntimeColor"
+      ],
+      "sha256": "71bcbb8c1e5a7c9758376da4d2827e1eff6538f048253efe73f5c7bfa9301e49",
+      "reconstruction": "grass",
+      "verified_vertices": 1148
+    },
+    {
+      "path": "game/assets/benchmark/rock_0.glb",
+      "triangles": 4860,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_rock_slate_RuntimeColor"
+      ],
+      "sha256": "ff1a3aa51e933ada84ea15a3213d8e9a1dd8a82ce45b755d19a5ad9adfb3e3ef",
+      "reconstruction": "rock_slate",
+      "verified_vertices": 6720
+    },
+    {
+      "path": "game/assets/benchmark/rock_1.glb",
+      "triangles": 4860,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_rock_slate_RuntimeColor"
+      ],
+      "sha256": "017a2b34e851845814e91a06a84abc044c95fe2560c01bd94b9ae8f21cb547ec",
+      "reconstruction": "rock_slate",
+      "verified_vertices": 6720
+    },
+    {
+      "path": "game/assets/benchmark/rock_2.glb",
+      "triangles": 4860,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_rock_slate_RuntimeColor"
+      ],
+      "sha256": "03b46db217517bb1543b24e0d1e3f8518882d96dc1d6c66b8778ffa2198f530e",
+      "reconstruction": "rock_slate",
+      "verified_vertices": 6720
+    },
+    {
+      "path": "game/assets/benchmark/sedge.glb",
+      "triangles": 719,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0.002"
+      ],
+      "materials": [
+        "Forge_grass_RuntimeColor"
+      ],
+      "sha256": "489a82d8c8f8171f88de39373a1bae61cd3d246aa0f051ebcabdcabc863d771f",
+      "reconstruction": "grass",
+      "verified_vertices": 1148
+    },
+    {
+      "path": "game/assets/benchmark/shrub_briar.glb",
+      "triangles": 1525,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_shrub_reference_RuntimeColor"
+      ],
+      "sha256": "637991faa2c4214be136e5adfce1b6a04f17223daf766977ed68e9b0934fc580",
+      "reconstruction": "shrub_reference",
+      "verified_vertices": 2503
+    },
+    {
+      "path": "game/assets/benchmark/shrub_laurel.glb",
+      "triangles": 1525,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_shrub_reference_RuntimeColor"
+      ],
+      "sha256": "cf29ea95a9e3e353ac8d2a227265619f5bed9e553650dafd779469458b3ed50b",
+      "reconstruction": "shrub_reference",
+      "verified_vertices": 2503
+    },
+    {
+      "path": "game/assets/benchmark/tree_bent.glb",
+      "triangles": 4852,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_tree_pine_RuntimeColor"
+      ],
+      "sha256": "10774cf284117933c2014d007e8141599526c5d7a6587e89d36547199d0ebdf4",
+      "reconstruction": "tree_pine",
+      "verified_vertices": 10075
+    },
+    {
+      "path": "game/assets/benchmark/tree_fork.glb",
+      "triangles": 4852,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_tree_pine_RuntimeColor"
+      ],
+      "sha256": "80054b93f898e3de425fb6e757e3de3aef9f2c9f949bb006546e1bce306a8d1b",
+      "reconstruction": "tree_pine",
+      "verified_vertices": 10075
+    },
+    {
+      "path": "game/assets/benchmark/tree_wide.glb",
+      "triangles": 4852,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_tree_pine_RuntimeColor"
+      ],
+      "sha256": "3c3e85c21f6a785584496e6e1eb89f8a0876c742a302802bbb26f6a8f3b3bc98",
+      "reconstruction": "tree_pine",
+      "verified_vertices": 10075
+    },
+    {
+      "path": "game/assets/characters/briarling.glb",
+      "triangles": 13270,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Foot.L",
+        "Foot.R",
+        "Forearm.L",
+        "Forearm.R",
+        "Hand.L",
+        "Hand.R",
+        "Head",
+        "Hips",
+        "Neck",
+        "Root",
+        "Shin.L",
+        "Shin.R",
+        "Spine",
+        "Thigh.L",
+        "Thigh.R",
+        "UpperArm.L",
+        "UpperArm.R"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death"
+      ],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_mob_young_RuntimeColor"
+      ],
+      "sha256": "7a3b3c7ae1e12a744479755a1dd4a8ddfa9fb50ec7502b93b47d473add01515c",
+      "reconstruction": "mob_young",
+      "verified_vertices": 18913
+    },
+    {
+      "path": "game/assets/characters/jade_ironback_mantle.glb",
+      "triangles": 12788,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_hero_ironvow_RuntimeColor"
+      ],
+      "sha256": "0020233f03e0f497901120c0ca4d68d4a84a85a34b9def986455ba6bc83825f8",
+      "reconstruction": "hero_ironvow",
+      "verified_vertices": 9524
+    },
+    {
+      "path": "game/assets/characters/jade_sword.glb",
+      "triangles": 5000,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_weapon_jade_RuntimeColor"
+      ],
+      "sha256": "60dab513a42b1ae02727d67b65e63b7a98cb1f536c0b1bf45a7ac525d01c15eb",
+      "reconstruction": "weapon_jade",
+      "verified_vertices": 3361
+    },
+    {
+      "path": "game/assets/characters/townfolk_kit.glb",
+      "triangles": 14790,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Foot.L",
+        "Foot.R",
+        "Forearm.L",
+        "Forearm.R",
+        "Hand.L",
+        "Hand.R",
+        "Head",
+        "Hips",
+        "Neck",
+        "Root",
+        "Shin.L",
+        "Shin.R",
+        "Spine",
+        "Thigh.L",
+        "Thigh.R",
+        "UpperArm.L",
+        "UpperArm.R"
+      ],
+      "clips": [
+        "idle",
+        "keeper_idle",
+        "smith_idle"
+      ],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_npc_smith_BaseColor"
+      ],
+      "sha256": "b34b804f89444e31e5f539db6245b266c2da567aaf3b346c108e432260d865e3",
+      "reconstruction": "npc_smith",
+      "verified_vertices": 11693
+    },
+    {
+      "path": "game/assets/characters/traveler.glb",
+      "triangles": 41998,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Foot.L",
+        "Foot.R",
+        "Forearm.L",
+        "Forearm.R",
+        "Hand.L",
+        "Hand.R",
+        "Head",
+        "Hips",
+        "Neck",
+        "Root",
+        "Shin.L",
+        "Shin.R",
+        "Spine",
+        "Thigh.L",
+        "Thigh.R",
+        "UpperArm.L",
+        "UpperArm.R"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death",
+        "attack_02",
+        "attack_03",
+        "skill_guard",
+        "skill_step",
+        "skill_plant",
+        "skill_riposte"
+      ],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_legacy_traveler_RuntimeColor"
+      ],
+      "sha256": "02f224c8dd22c07ad902cc49f410e7673a78b84ba1416f4ad9e9ea1a99295d2c",
+      "reconstruction": "hero_ironvow",
+      "verified_vertices": 32291
+    },
+    {
+      "path": "game/assets/characters/traveler_guard.glb",
+      "triangles": 12788,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_hero_ironvow_RuntimeColor"
+      ],
+      "sha256": "013f383efb9434c00db79b9aa3ce3a79cb789dc803cf951f5de9f2b43b7f2424",
+      "reconstruction": "hero_ironvow",
+      "verified_vertices": 9524
+    },
+    {
+      "path": "game/assets/characters/turnwarden_v2.glb",
+      "triangles": 41998,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Foot.L",
+        "Foot.R",
+        "Forearm.L",
+        "Forearm.R",
+        "Hand.L",
+        "Hand.R",
+        "Head",
+        "Hips",
+        "Neck",
+        "Root",
+        "Shin.L",
+        "Shin.R",
+        "Spine",
+        "Thigh.L",
+        "Thigh.R",
+        "UpperArm.L",
+        "UpperArm.R"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death",
+        "attack_02",
+        "attack_03",
+        "skill_guard",
+        "skill_step",
+        "skill_plant",
+        "skill_riposte"
+      ],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_legacy_turnwarden_v2_RuntimeColor"
+      ],
+      "sha256": "638ef32b7a26560864f5423df51e43d6ef74372ad860528933fef1943bf3d1e9",
+      "reconstruction": "hero_ironvow",
+      "verified_vertices": 32392
+    },
+    {
+      "path": "game/assets/characters/turnwarden_v2_sword.glb",
+      "triangles": 5000,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_weapon_jade_RuntimeColor"
+      ],
+      "sha256": "3f9727fff7ecc0f4c7c7584af31b7e3529c288adfc79150e206818b440d00d64",
+      "reconstruction": "weapon_jade",
+      "verified_vertices": 3361
+    },
+    {
+      "path": "game/assets/characters/warden_high.glb",
+      "triangles": 41998,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Foot.L",
+        "Foot.R",
+        "Forearm.L",
+        "Forearm.R",
+        "Hand.L",
+        "Hand.R",
+        "Head",
+        "Hips",
+        "Neck",
+        "Root",
+        "Shin.L",
+        "Shin.R",
+        "Spine",
+        "Thigh.L",
+        "Thigh.R",
+        "UpperArm.L",
+        "UpperArm.R"
+      ],
+      "clips": [
+        "run",
+        "hit",
+        "death",
+        "skill_guard",
+        "skill_step",
+        "skill_plant",
+        "skill_riposte",
+        "idle",
+        "longsword_idle",
+        "attack_01",
+        "longsword_01",
+        "attack_02",
+        "longsword_02",
+        "attack_03",
+        "longsword_03",
+        "longsword_run"
+      ],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_hero_ironvow_RuntimeColor"
+      ],
+      "sha256": "b9983ade719445bf53c6c1ea76e8368ef9d58228b8b4e81d093b744f2f74069c",
+      "reconstruction": "hero_ironvow",
+      "verified_vertices": 32564
+    },
+    {
+      "path": "game/assets/characters/warden_insignia.glb",
+      "triangles": 1394,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_coin_RuntimeColor"
+      ],
+      "sha256": "4b6a86764dd90f0c0cf193b075f1c377f910299aeeb082929882dc711f4a1686",
+      "reconstruction": "coin",
+      "verified_vertices": 1315
+    },
+    {
+      "path": "game/assets/characters/warden_sword.glb",
+      "triangles": 5000,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_weapon_jade_RuntimeColor"
+      ],
+      "sha256": "d6400a4a67d2fa62035cf4d650ba92d307f7bb41ceb6f297f6c90b081d117c3f",
+      "reconstruction": "weapon_jade",
+      "verified_vertices": 3361
+    },
+    {
+      "path": "game/assets/characters/wayfarer_sword.glb",
+      "triangles": 5000,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_weapon_jade_RuntimeColor"
+      ],
+      "sha256": "5191367c53f08fc8b9ea8699305c641dd5b5d3758840c7dec4ca53b49c8b51c4",
+      "reconstruction": "weapon_jade",
+      "verified_vertices": 3361
+    },
+    {
+      "path": "game/assets/creatures/boar.glb",
+      "triangles": 13874,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "FrontLower.L",
+        "FrontLower.R",
+        "FrontUpper.L",
+        "FrontUpper.R",
+        "Head",
+        "HindLower.L",
+        "HindLower.R",
+        "HindUpper.L",
+        "HindUpper.R",
+        "Hips",
+        "Root",
+        "Tail"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death"
+      ],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_mob_bristle_boar_RuntimeColor"
+      ],
+      "sha256": "aa5ddb738d78444f25ec1764a8350161def462fc5a5b9ccb7a1377cc2b34b7fb",
+      "reconstruction": "mob_bristle_boar",
+      "verified_vertices": 16970
+    },
+    {
+      "path": "game/assets/creatures/spider.glb",
+      "triangles": 12658,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Head",
+        "Hips",
+        "Leg0Lower.L",
+        "Leg0Lower.R",
+        "Leg0Upper.L",
+        "Leg0Upper.R",
+        "Leg1Lower.L",
+        "Leg1Lower.R",
+        "Leg1Upper.L",
+        "Leg1Upper.R",
+        "Leg2Lower.L",
+        "Leg2Lower.R",
+        "Leg2Upper.L",
+        "Leg2Upper.R",
+        "Leg3Lower.L",
+        "Leg3Lower.R",
+        "Leg3Upper.L",
+        "Leg3Upper.R",
+        "Root"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death"
+      ],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_mob_reed_spider_RuntimeColor"
+      ],
+      "sha256": "48ada7c86f0dd2ab1e2e1adc00669fbdc1b54c6dd2e0a8962d1f6d1e8ff44546",
+      "reconstruction": "mob_reed_spider",
+      "verified_vertices": 16532
+    },
+    {
+      "path": "game/assets/creatures/stonekin.glb",
+      "triangles": 13722,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Foot.L",
+        "Foot.R",
+        "Forearm.L",
+        "Forearm.R",
+        "Hand.L",
+        "Hand.R",
+        "Head",
+        "Hips",
+        "Neck",
+        "Root",
+        "Shin.L",
+        "Shin.R",
+        "Spine",
+        "Thigh.L",
+        "Thigh.R",
+        "UpperArm.L",
+        "UpperArm.R"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death"
+      ],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_mob_cairn_sentinel_RuntimeColor"
+      ],
+      "sha256": "86d31dd738f915d369d03ce6dafe805356ee1d18446aac0a70aba3bbbb1692c6",
+      "reconstruction": "mob_cairn_sentinel",
+      "verified_vertices": 15241
+    },
+    {
+      "path": "game/assets/creatures/wisp.glb",
+      "triangles": 13884,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Head",
+        "Hips",
+        "Root"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death"
+      ],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_mob_grave_wisp_RuntimeColor"
+      ],
+      "sha256": "10c82111fe03498ac902970ee940c15d14f12e29cf23ac4ff74e2217c5a38b61",
+      "reconstruction": "mob_grave_wisp",
+      "verified_vertices": 13217
+    },
+    {
+      "path": "game/assets/creatures/wolf.glb",
+      "triangles": 13970,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "FrontLower.L",
+        "FrontLower.R",
+        "FrontUpper.L",
+        "FrontUpper.R",
+        "Head",
+        "HindLower.L",
+        "HindLower.R",
+        "HindUpper.L",
+        "HindUpper.R",
+        "Hips",
+        "Root",
+        "Tail"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death"
+      ],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_mob_meadow_wolf_RuntimeColor"
+      ],
+      "sha256": "0de3a7047a3e6d45a77dc54aeb49620845ea03ac4f7d4aa6fdc9209b25699dde",
+      "reconstruction": "mob_meadow_wolf",
+      "verified_vertices": 14913
+    },
+    {
+      "path": "game/assets/mounts/trail_horse.glb",
+      "triangles": 30684,
+      "skins": 1,
+      "bones": [
+        "Body",
+        "Ear.L",
+        "Ear.R",
+        "Fore.L.Ankle",
+        "Fore.L.Hoof",
+        "Fore.L.Lower",
+        "Fore.L.Upper",
+        "Fore.R.Ankle",
+        "Fore.R.Hoof",
+        "Fore.R.Lower",
+        "Fore.R.Upper",
+        "Head",
+        "Hind.L.Ankle",
+        "Hind.L.Hoof",
+        "Hind.L.Lower",
+        "Hind.L.Upper",
+        "Hind.R.Ankle",
+        "Hind.R.Hoof",
+        "Hind.R.Lower",
+        "Hind.R.Upper",
+        "Neck",
+        "Root",
+        "Tail"
+      ],
+      "clips": [
+        "idle",
+        "walk",
+        "trot",
+        "canter"
+      ],
+      "meshes": [
+        "BitRingL",
+        "BitRingR",
+        "BrowBand",
+        "CheekStrapL",
+        "CheekStrapR",
+        "FlapStitch",
+        "FlapStitch.001",
+        "geometry_0",
+        "Girth",
+        "NoseBand",
+        "PadEdge",
+        "PadEdge.001",
+        "FittedReinMesh.001",
+        "FittedReinMesh",
+        "SaddleFlap",
+        "SaddleFlap.001",
+        "SaddlePad",
+        "SaddleSeat",
+        "StirrupIron",
+        "StirrupIron.001",
+        "StirrupLeather",
+        "StirrupLeather.001"
+      ],
+      "materials": [
+        "Horse_TackBrass",
+        "Horse_SaddleLeather",
+        "Horse_Blaze",
+        "Forge_horse_bay_RuntimeColor",
+        "Horse_WovenPad"
+      ],
+      "sha256": "f519491f115caa385f81a7ce2a86022c29e28158870b004c34fe4dd4e0a0d3a3",
+      "reconstruction": "horse_bay",
+      "verified_vertices": 20516
+    },
+    {
+      "path": "game/assets/weapons/briarsteel.glb",
+      "triangles": 5000,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_weapon_jade_RuntimeColor"
+      ],
+      "sha256": "437debf709713949b8cbb85a488ee4ce5cd41bd0b121554162c71989495d4bbd",
+      "reconstruction": "weapon_jade",
+      "verified_vertices": 3361
+    },
+    {
+      "path": "game/assets/weapons/cairnwarden.glb",
+      "triangles": 5000,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_weapon_jade_RuntimeColor"
+      ],
+      "sha256": "58e4935ef4712e04490114d3836bd429104e130562581860da447294a3b3b186",
+      "reconstruction": "weapon_jade",
+      "verified_vertices": 3361
+    },
+    {
+      "path": "game/assets/weapons/ember.glb",
+      "triangles": 5000,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_weapon_jade_RuntimeColor"
+      ],
+      "sha256": "dab4aa0fef972c70ff3d96c794b8c0051c4713aebb9db84920e7e9e123185cbf",
+      "reconstruction": "weapon_jade",
+      "verified_vertices": 3361
+    },
+    {
+      "path": "game/assets/weapons/frontier.glb",
+      "triangles": 5000,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_weapon_jade_RuntimeColor"
+      ],
+      "sha256": "9c17af3d97e05e48fa502fb59560d90794aca5ab94caf21313907d407896a6aa",
+      "reconstruction": "weapon_jade",
+      "verified_vertices": 3361
+    },
+    {
+      "path": "game/assets/weapons/glass.glb",
+      "triangles": 5000,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_weapon_jade_RuntimeColor"
+      ],
+      "sha256": "4f0af977e8917b34b30f08c7e3fc57b140e89e4afb5f47daa7cd7df80baa657c",
+      "reconstruction": "weapon_jade",
+      "verified_vertices": 3361
+    },
+    {
+      "path": "game/assets/weapons/gold_coin.glb",
+      "triangles": 1394,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_coin_RuntimeColor"
+      ],
+      "sha256": "4df1d50169a171064c65defeb68728f147514d2e301dd9c898c70a91d216eb51",
+      "reconstruction": "coin",
+      "verified_vertices": 1277
+    },
+    {
+      "path": "game/assets/weapons/marchguard.glb",
+      "triangles": 5000,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_weapon_jade_RuntimeColor"
+      ],
+      "sha256": "5091d6ebbca660ca4b714a82f50be7218422085d764ff9c6a9e6f0c08264d332",
+      "reconstruction": "weapon_jade",
+      "verified_vertices": 3361
+    },
+    {
+      "path": "game/assets/weapons/relic.glb",
+      "triangles": 5000,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_weapon_jade_RuntimeColor"
+      ],
+      "sha256": "498462e8afd5d03c2aecff6017816b04edc6cf549dc2d953645f7029344118f8",
+      "reconstruction": "weapon_jade",
+      "verified_vertices": 3361
+    },
+    {
+      "path": "game/assets/weapons/rift.glb",
+      "triangles": 5000,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_weapon_jade_RuntimeColor"
+      ],
+      "sha256": "0294692a47a0d8abfb3fc3481ec3102e992cda77f9178cd46ca7e626461c95df",
+      "reconstruction": "weapon_jade",
+      "verified_vertices": 3361
+    },
+    {
+      "path": "game/assets/weapons/wakecleaver.glb",
+      "triangles": 5000,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_weapon_jade_RuntimeColor"
+      ],
+      "sha256": "4451fb67e45fb74805eca89c1954ac54f6178402eb419aca8247ed05033c11fb",
+      "reconstruction": "weapon_jade",
+      "verified_vertices": 3361
+    },
+    {
+      "path": "game/assets/weapons/wayfarer.glb",
+      "triangles": 5000,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_weapon_jade_RuntimeColor"
+      ],
+      "sha256": "7d328474f2f23b396429fe0bba501260b802bcee04ce0ee1d797b1dd7a3527a9",
+      "reconstruction": "weapon_jade",
+      "verified_vertices": 3361
+    },
+    {
+      "path": "game/assets/world_kit/cliff.glb",
+      "triangles": 4860,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_rock_slate_RuntimeColor"
+      ],
+      "sha256": "1c621185f89ea084b4833f476c9ef8966b625a3a4098e04422001e333a39b662",
+      "reconstruction": "rock_slate",
+      "verified_vertices": 6720
+    },
+    {
+      "path": "game/assets/world_kit/cliff1.glb",
+      "triangles": 4860,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_rock_slate_RuntimeColor"
+      ],
+      "sha256": "299ef7294aac635a3c2b67b3df83275984b5fa4e75f48b3ff275024a7ec7f8cf",
+      "reconstruction": "rock_slate",
+      "verified_vertices": 6720
+    },
+    {
+      "path": "game/assets/world_kit/dead_tree.glb",
+      "triangles": 2188,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_dead_tree_RuntimeColor"
+      ],
+      "sha256": "9ad9741b0f0337f995a38341d092daac0d85002db453897ab432adf3a2c30ea1",
+      "reconstruction": "dead_tree",
+      "verified_vertices": 3103
+    },
+    {
+      "path": "game/assets/world_kit/fern.glb",
+      "triangles": 1338,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0.002"
+      ],
+      "materials": [
+        "Forge_fern_reference_RuntimeColor"
+      ],
+      "sha256": "2259f80ef8cfc0b1f5e4279abff50af2ee512dd8660a577557257c8e73d73cea",
+      "reconstruction": "fern_reference",
+      "verified_vertices": 1980
+    },
+    {
+      "path": "game/assets/world_kit/grass.glb",
+      "triangles": 719,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0.002"
+      ],
+      "materials": [
+        "Forge_grass_RuntimeColor"
+      ],
+      "sha256": "34939b1b7b52a0376583847d069e2fa7cde541824bf2cfca0c9340ff97ee0478",
+      "reconstruction": "grass",
+      "verified_vertices": 1136
+    },
+    {
+      "path": "game/assets/world_kit/log.glb",
+      "triangles": 1397,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_fallen_log_RuntimeColor"
+      ],
+      "sha256": "de2aa14967216a69d367e08e4826530884e3b81915c23591bb30b00268ffe2f2",
+      "reconstruction": "fallen_log",
+      "verified_vertices": 1380
+    },
+    {
+      "path": "game/assets/world_kit/rock0.glb",
+      "triangles": 4860,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_rock_slate_RuntimeColor"
+      ],
+      "sha256": "ed135ef96bd36c0b867866186a543bd3cd211824bfa7b6daddc315e09ca7863f",
+      "reconstruction": "rock_slate",
+      "verified_vertices": 6628
+    },
+    {
+      "path": "game/assets/world_kit/rock1.glb",
+      "triangles": 4860,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_rock_slate_RuntimeColor"
+      ],
+      "sha256": "b1d4cb38c40491d442a62f1e3244388fd3a640650fe57aa10ed142bf1d46eaba",
+      "reconstruction": "rock_slate",
+      "verified_vertices": 6720
+    },
+    {
+      "path": "game/assets/world_kit/rock2.glb",
+      "triangles": 4860,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_rock_slate_RuntimeColor"
+      ],
+      "sha256": "b66a568a0195801891e85b0ba2f9471e34b208c8525b9cf0f4477db2b646574c",
+      "reconstruction": "rock_slate",
+      "verified_vertices": 6720
+    },
+    {
+      "path": "game/assets/world_kit/ruin_arch.glb",
+      "triangles": 4479,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_ruin_arch_RuntimeColor"
+      ],
+      "sha256": "1a81f9e3977c8f02eda26e3e14586742bf273d2800186489187c9f748025f22f",
+      "reconstruction": "ruin_arch",
+      "verified_vertices": 5067
+    },
+    {
+      "path": "game/assets/world_kit/shrine.glb",
+      "triangles": 4489,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_shrine_RuntimeColor"
+      ],
+      "sha256": "5d95d06c104a462edd559be3cf59bccdd058c1ece5c3b81616321f26f8384500",
+      "reconstruction": "shrine",
+      "verified_vertices": 6021
+    },
+    {
+      "path": "game/assets/world_kit/shrub.glb",
+      "triangles": 1525,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_shrub_reference_RuntimeColor"
+      ],
+      "sha256": "8f7c517166abe4e8b56e00a0ed8649c71fde7996ef3fada7b83ea8b4799323a8",
+      "reconstruction": "shrub_reference",
+      "verified_vertices": 2494
+    },
+    {
+      "path": "game/assets/world_kit/tent.glb",
+      "triangles": 2390,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_tent_RuntimeColor"
+      ],
+      "sha256": "177b6d7233fe4bc4de1d0d3cf5d26de0501a60db2d6a037d527648d02c39d34e",
+      "reconstruction": "tent",
+      "verified_vertices": 2575
+    },
+    {
+      "path": "game/assets/world_kit/tree0.glb",
+      "triangles": 4852,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_tree_pine_RuntimeColor"
+      ],
+      "sha256": "308ed48a5e32dea8b3d3f80bfccd11ff93431760c2601cc07f7139704390bd91",
+      "reconstruction": "tree_pine",
+      "verified_vertices": 10063
+    },
+    {
+      "path": "game/assets/world_kit/tree1.glb",
+      "triangles": 4852,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_tree_pine_RuntimeColor"
+      ],
+      "sha256": "6a6a1e1457a7a251cb9b30e40fbb487c0bcf72f8528f5f0c8b3034c557732cf8",
+      "reconstruction": "tree_pine",
+      "verified_vertices": 10075
+    },
+    {
+      "path": "game/assets/world_kit/tree2.glb",
+      "triangles": 4852,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_tree_pine_RuntimeColor"
+      ],
+      "sha256": "86c81362399d8a3ad58ed9b3c2988f5a0737a50e33c41dd8cd2edf5e535ccace",
+      "reconstruction": "tree_pine",
+      "verified_vertices": 10075
+    },
+    {
+      "path": "game/assets/world_kit/watchtower.glb",
+      "triangles": 5992,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "geometry_0"
+      ],
+      "materials": [
+        "Forge_watchtower_RuntimeColor"
+      ],
+      "sha256": "93020b211efd55047bf82fa6aae595245539424ad8f122f079cd5add74a6dd48",
+      "reconstruction": "watchtower",
+      "verified_vertices": 7387
+    }
+  ]
+}

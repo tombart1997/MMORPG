@@ -1,0 +1,6 @@
+{
+  "operation": "Actual Codex-assisted Blender pass",
+  "notes": "Verified 180-degree geometry/Head-joint mismatch corrected; nearest four compatible original-template weights transferred. UVs/materials, rig and all actions retained.",
+  "elapsed_seconds": 1.142345000000205,
+  "paid_credits": 0
+}

@@ -1,0 +1,32 @@
+{
+  "key": "grass",
+  "forge_asset_id": "7bb6aaf07f27",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\7bb6aaf07f27\\generated\\d0f289ebcb5a\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\world_kit\\grass.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\grass.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.3984658420085907,
+      -0.3938751518726349,
+      0.0
+    ],
+    [
+      0.3862631022930145,
+      0.4000000059604645,
+      0.5817546248435974
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 18360,
+      "after": 748,
+      "extent_drift": 0.028122163063072015
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

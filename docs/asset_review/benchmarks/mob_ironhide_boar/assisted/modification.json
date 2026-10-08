@@ -1,0 +1,10 @@
+{
+  "focus": "Correct broad torso/spine vertices influenced by moving leg bones; preserve geometry, UVs, materials, skeleton and clips.",
+  "vertices_reweighted": 15135,
+  "previous_weights_preserved_in_source": true,
+  "requires_review": "Joint positions remain the existing game skeleton; no claim of artist-authored topology.",
+  "seconds": 2.494,
+  "cost_credits": 0,
+  "source": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\ironhide_boar.glb",
+  "review": "pending"
+}

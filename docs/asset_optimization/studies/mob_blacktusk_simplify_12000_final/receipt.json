@@ -1,0 +1,176 @@
+{
+  "name": "mob_blacktusk_simplify_12000_final",
+  "asset_id": "bf46ab8e2172",
+  "source_key": "mob_blacktusk",
+  "source": "game/assets/forge_rebuild/mobs/blacktusk.glb",
+  "source_asset_id": "c3ce280241da",
+  "source_sha256": "483e915e8d1444ccc6f3c7057e5b32a7f445fd5ba8e95d21c1ff3ea23c077eb6",
+  "imported_candidate": "67bb2e0f76c3",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 12000,
+    "optimization_mode": "simplify",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "anatomy_review",
+      "topology_review",
+      "uv_materials",
+      "species_rig_import",
+      "animation_review",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "4fdf86543230",
+    "asset_id": "bf46ab8e2172",
+    "operation": "process",
+    "state": "succeeded",
+    "stage": "blender_process",
+    "progress": 100,
+    "created_at": "2026-10-03T19:15:24.061806+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {
+      "files": {
+        "animation_contract.json": "processed/4fdf86543230/animation_contract.json",
+        "editable.blend": "processed/4fdf86543230/editable.blend",
+        "inspection_before.json": "processed/4fdf86543230/inspection_before.json",
+        "optimization.json": "processed/4fdf86543230/optimization.json",
+        "processing.json": "processed/4fdf86543230/processing.json",
+        "runtime.glb": "processed/4fdf86543230/runtime.glb",
+        "source.blend": "processed/4fdf86543230/source.blend",
+        "source.glb": "processed/4fdf86543230/source.glb",
+        "validation.json": "processed/4fdf86543230/validation.json"
+      }
+    },
+    "resumed_from": null,
+    "message": "Complete \u00b7 visual review remains separate",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 12000,
+      "optimization_mode": "simplify",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "anatomy_review",
+        "topology_review",
+        "uv_materials",
+        "species_rig_import",
+        "animation_review",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "67bb2e0f76c3",
+      "path": "imports/2748cca7e609.glb",
+      "origin": "imported",
+      "sha256": "483e915e8d1444ccc6f3c7057e5b32a7f445fd5ba8e95d21c1ff3ea23c077eb6",
+      "created_at": "2026-10-03T19:15:23.986784+00:00",
+      "original_filename": "blacktusk.glb",
+      "license": "Optimization study: retained local neural derivative from c3ce280241da; SHA256 483e915e8d1444ccc6f3c7057e5b32a7f445fd5ba8e95d21c1ff3ea23c077eb6",
+      "cost_credits": 0
+    },
+    "reference": null,
+    "started_at": "2026-10-03T19:15:24.075786+00:00",
+    "elapsed_seconds": 11.2,
+    "finished_at": "2026-10-03T19:15:35.365062+00:00",
+    "duration_seconds": 11.28
+  },
+  "visual_status": "pending",
+  "artifacts": {
+    "animation_contract.json": "processed/4fdf86543230/animation_contract.json",
+    "editable.blend": "processed/4fdf86543230/editable.blend",
+    "inspection_before.json": "processed/4fdf86543230/inspection_before.json",
+    "optimization.json": "processed/4fdf86543230/optimization.json",
+    "processing.json": "processed/4fdf86543230/processing.json",
+    "runtime.glb": "processed/4fdf86543230/runtime.glb",
+    "source.blend": "processed/4fdf86543230/source.blend",
+    "source.glb": "processed/4fdf86543230/source.glb",
+    "validation.json": "processed/4fdf86543230/validation.json"
+  },
+  "review_path": "res://review_assets/optimization/mob_blacktusk_simplify_12000_final.glb"
+}

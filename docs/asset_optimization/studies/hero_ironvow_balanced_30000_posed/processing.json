@@ -1,0 +1,343 @@
+{
+  "before": {
+    "objects": [
+      {
+        "name": "Forge_hero_ironvow",
+        "vertices": 32564,
+        "triangles": 41998,
+        "materials": 1,
+        "degenerate_faces": 0,
+        "boundary_edges": 20698,
+        "nonmanifold_edges": 0,
+        "loose_vertices": 0,
+        "has_uv": true,
+        "collapsed_uv_triangles": 0,
+        "skinned": true,
+        "unweighted_vertices": 0
+      }
+    ],
+    "triangles": 41998,
+    "textures": [
+      {
+        "name": "Forge_hero_ironvow_RuntimeAtlas",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "available": true
+      }
+    ],
+    "bounds": {
+      "min": [
+        -0.4739920198917389,
+        -0.3311290144920349,
+        0.016286423429846764
+      ],
+      "max": [
+        0.48818904161453247,
+        0.5058883428573608,
+        1.8392713069915771
+      ]
+    },
+    "armatures": [
+      {
+        "name": "WardenRig",
+        "bones": 18
+      }
+    ],
+    "actions": [
+      "attack_01",
+      "attack_02",
+      "attack_03",
+      "death",
+      "hit",
+      "idle",
+      "longsword_01",
+      "longsword_02",
+      "longsword_03",
+      "longsword_idle",
+      "longsword_run",
+      "run",
+      "skill_guard",
+      "skill_plant",
+      "skill_riposte",
+      "skill_step"
+    ],
+    "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+    "unverified": [
+      "UV overlap beyond collapsed triangles",
+      "Internal occluded geometry",
+      "Baked lighting",
+      "Joint clipping",
+      "Reference fidelity"
+    ]
+  },
+  "after": {
+    "objects": [
+      {
+        "name": "Forge_hero_ironvow",
+        "vertices": 26201,
+        "triangles": 29994,
+        "materials": 1,
+        "degenerate_faces": 0,
+        "boundary_edges": 19946,
+        "nonmanifold_edges": 0,
+        "loose_vertices": 0,
+        "has_uv": true,
+        "collapsed_uv_triangles": 0,
+        "skinned": true,
+        "unweighted_vertices": 0
+      }
+    ],
+    "triangles": 29994,
+    "textures": [
+      {
+        "name": "Forge_hero_ironvow_RuntimeAtlas",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "available": true
+      }
+    ],
+    "bounds": {
+      "min": [
+        -0.4739920198917389,
+        -0.3308616876602173,
+        0.016286423429846764
+      ],
+      "max": [
+        0.4881497621536255,
+        0.5061290860176086,
+        1.8392713069915771
+      ]
+    },
+    "armatures": [
+      {
+        "name": "WardenRig",
+        "bones": 18
+      }
+    ],
+    "actions": [
+      "attack_01",
+      "attack_02",
+      "attack_03",
+      "death",
+      "hit",
+      "idle",
+      "longsword_01",
+      "longsword_02",
+      "longsword_03",
+      "longsword_idle",
+      "longsword_run",
+      "run",
+      "skill_guard",
+      "skill_plant",
+      "skill_riposte",
+      "skill_step"
+    ],
+    "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+    "unverified": [
+      "UV overlap beyond collapsed triangles",
+      "Internal occluded geometry",
+      "Baked lighting",
+      "Joint clipping",
+      "Reference fidelity"
+    ]
+  },
+  "lods": [],
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 30000,
+    "optimization_mode": "balanced",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "topology_review",
+      "uv_materials",
+      "rig_import",
+      "deformation_review",
+      "optimization_review",
+      "export",
+      "godot"
+    ]
+  },
+  "optimization": {
+    "mode": "balanced",
+    "source_preserved": true,
+    "objects": [
+      {
+        "name": "Forge_hero_ironvow",
+        "before": 41998,
+        "target": 30000,
+        "status": "optimized",
+        "method": "simplify",
+        "after": 29994,
+        "quality": {
+          "surface_max_fraction": 0.0004490308893731168,
+          "surface_p95_fraction": 0.00016645233036701674,
+          "bounds_drift_fraction": 5.970854742754952e-05,
+          "nonmanifold_edges": 0,
+          "samples": 6545
+        },
+        "textures": [],
+        "material_transfer": "preserved_source_uvs_and_materials",
+        "deformation": [
+          {
+            "clip": "longsword_run",
+            "samples": 3,
+            "max_fraction": 0.006165527199881098,
+            "p95_fraction": 0.00018655969872414467
+          },
+          {
+            "clip": "longsword_03",
+            "samples": 3,
+            "max_fraction": 0.006648369623449304,
+            "p95_fraction": 0.00021188917590181697
+          },
+          {
+            "clip": "attack_03",
+            "samples": 3,
+            "max_fraction": 0.00638770562759691,
+            "p95_fraction": 0.00020709586994088536
+          },
+          {
+            "clip": "longsword_02",
+            "samples": 3,
+            "max_fraction": 0.00648447862174733,
+            "p95_fraction": 0.00021139189531029116
+          },
+          {
+            "clip": "attack_02",
+            "samples": 3,
+            "max_fraction": 0.006304538445208945,
+            "p95_fraction": 0.00020614307758614182
+          },
+          {
+            "clip": "longsword_01",
+            "samples": 3,
+            "max_fraction": 0.006622440873873138,
+            "p95_fraction": 0.00021359012309426996
+          },
+          {
+            "clip": "attack_01",
+            "samples": 3,
+            "max_fraction": 0.006344017340861621,
+            "p95_fraction": 0.00020930293222476166
+          },
+          {
+            "clip": "longsword_idle",
+            "samples": 3,
+            "max_fraction": 0.006088398789233579,
+            "p95_fraction": 0.0001987374591062163
+          },
+          {
+            "clip": "idle",
+            "samples": 3,
+            "max_fraction": 0.0052516237164478355,
+            "p95_fraction": 0.0001895475051130835
+          },
+          {
+            "clip": "skill_riposte",
+            "samples": 3,
+            "max_fraction": 0.004281139207790938,
+            "p95_fraction": 0.00017740737248437787
+          },
+          {
+            "clip": "skill_plant",
+            "samples": 3,
+            "max_fraction": 0.004412198359638803,
+            "p95_fraction": 0.00018620276277345828
+          },
+          {
+            "clip": "skill_step",
+            "samples": 3,
+            "max_fraction": 0.0045940898107495725,
+            "p95_fraction": 0.00017885448500256715
+          },
+          {
+            "clip": "skill_guard",
+            "samples": 3,
+            "max_fraction": 0.004310250684847397,
+            "p95_fraction": 0.00017744127380311793
+          },
+          {
+            "clip": "death",
+            "samples": 3,
+            "max_fraction": 0.004353610776109869,
+            "p95_fraction": 0.00017423809573767493
+          },
+          {
+            "clip": "hit",
+            "samples": 3,
+            "max_fraction": 0.002391188030806991,
+            "p95_fraction": 0.00017833238208849156
+          },
+          {
+            "clip": "run",
+            "samples": 3,
+            "max_fraction": 0.005916205035984807,
+            "p95_fraction": 0.00017797305325785673
+          }
+        ],
+        "rejected_attempts": []
+      }
+    ],
+    "target_triangles": 30000,
+    "achieved_triangles": 29994,
+    "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+  },
+  "triangle_budget": 30000,
+  "achieved_triangles": 29994,
+  "budget_status": "within_target",
+  "processing_seconds": 35.143,
+  "blender_version": "5.2.2 LTS",
+  "visual_status": "pending",
+  "collision": "none",
+  "notes": [
+    "Source preserved; selected optimization mode and quality-guard results recorded in optimization.json",
+    "Existing skeleton and animation tracks preserved; no autorig invented"
+  ]
+}

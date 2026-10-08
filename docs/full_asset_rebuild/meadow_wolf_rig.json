@@ -1,0 +1,32 @@
+{
+  "key": "meadow_wolf",
+  "source": "D:\\Games\\Metin2Clone\\blender\\multiview_rebuild\\prepared\\meadow_wolf.blend",
+  "rig_source": "blender/multiview_rebuild/binding_templates/wolf.blend",
+  "family": "wolf",
+  "height": 1.45,
+  "yaw": -90,
+  "binding_guide": "blender/multiview_rebuild/binding_templates/wolf.weights.json",
+  "output": "D:\\Games\\Metin2Clone\\game\\assets\\generated\\meadow_wolf.glb",
+  "bounds": [
+    [
+      -0.27337566018104553,
+      -1.092185378074646,
+      0.006000000052154064
+    ],
+    [
+      0.27337566018104553,
+      1.092185378074646,
+      1.4559999704360962
+    ]
+  ],
+  "bones": 13,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "template_geometry_exported": false,
+  "review_status": "requires_deformation_review"
+}

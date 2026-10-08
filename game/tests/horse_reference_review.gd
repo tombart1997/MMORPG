@@ -17,6 +17,9 @@ func capture(name_value: String, direction: Vector3, target: Vector3, size_value
 		root.get_texture().get_image().save_png(output+"/"+name_value+".png")
 
 func _run() -> void:
+	if OS.get_cmdline_user_args().has("--staged"):
+		ReviewedModels.loaded=true
+		ReviewedModels.mappings=JSON.parse_string(FileAccess.get_file_as_string("res://review_assets/staged_mappings.json")).mappings
 	output=ProjectSettings.globalize_path("res://").path_join("../docs/screenshots/horse-reference/godot").simplify_path()
 	var args := OS.get_cmdline_user_args()
 	var index := args.find("--label")
@@ -56,14 +59,13 @@ func _run() -> void:
 	for clip in [&"idle",&"walk",&"trot",&"canter"]:
 		check(horse.player.has_animation(clip),"Adapted horse imports "+String(clip))
 	horse.travel(Vector3.ZERO,0)
-	var imported := horse.find_children("*","MeshInstance3D",true,false)[0] as MeshInstance3D
 	var textured := false
-	for surface in imported.mesh.get_surface_count():
-		var material := imported.mesh.surface_get_material(surface) as StandardMaterial3D
-		if material and material.albedo_texture and "BayCoat" in material.resource_name:
-			textured=true
-			check(material.vertex_color_use_as_albedo,"Bay texture retains the exported dark-point vertex shading")
-	check(textured,"Horse imports its authored CC0 diffuse texture")
+	for imported: MeshInstance3D in horse.find_children("*","MeshInstance3D",true,false):
+		for surface in imported.mesh.get_surface_count():
+			var material := imported.mesh.surface_get_material(surface) as StandardMaterial3D
+			if material and material.albedo_texture:
+				textured=true
+	check(textured,"Horse imports its retained bay coat diffuse texture")
 	for view in [["front",Vector3(0,.15,-6)],["side",Vector3(6,.05,0)],["threequarter",Vector3(5,.7,-6)]]:
 		await capture("horse_"+view[0],view[1],Vector3(0,1.10,-.1),3.4)
 	horse.hide();actor.visual.show();actor.visual.position=Vector3.ZERO

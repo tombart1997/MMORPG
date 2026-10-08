@@ -1,0 +1,67 @@
+{
+  "stonekin": {
+    "state": "prepared",
+    "native_job": "b311efa3ced5",
+    "budget": 18000
+  },
+  "crate": {
+    "state": "prepared",
+    "native_job": "f5eeb3c47dd6",
+    "budget": 4000
+  },
+  "dead_tree": {
+    "state": "prepared",
+    "native_job": "a6c34fb7d945",
+    "budget": 6000
+  },
+  "wisp": {
+    "state": "prepared",
+    "native_job": "ad5c818eefe0",
+    "budget": 12000
+  },
+  "bridge": {
+    "state": "prepared",
+    "native_job": "58fe04234336",
+    "budget": 8000
+  },
+  "fallen_log": {
+    "state": "prepared",
+    "native_job": "e18e50e4d9bd",
+    "budget": 6000
+  },
+  "bandit": {
+    "state": "prepared",
+    "native_job": "f8da9b81b3b1",
+    "budget": 24000
+  },
+  "keeper": {
+    "state": "prepared",
+    "native_job": "5e71f44d3250",
+    "budget": 24000
+  },
+  "shrine": {
+    "state": "prepared",
+    "native_job": "5cc798dbc81b",
+    "budget": 8000
+  },
+  "stablemaster": {
+    "state": "prepared",
+    "native_job": "b9262a6eba8d",
+    "budget": 24000
+  },
+  "tent": {
+    "state": "prepared",
+    "native_job": "b44e698e44c3",
+    "budget": 8000
+  },
+  "saddle": {
+    "state": "prepared",
+    "native_job": "477a3048d491",
+    "budget": 6000
+  },
+  "ruin_arch": {
+    "state": "prepared",
+    "native_job": "33c8e408277e",
+    "budget": 8000
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "assets": [
+    {
+      "name": "Weapons",
+      "path": "res://assets/forge_rebuild/npcs/weapons.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\residents_idle_03.png",
+  "clip": "idle",
+  "time": 0
+}

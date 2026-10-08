@@ -1,0 +1,2942 @@
+{
+  "assets": [
+    {
+      "key": "mob_ironhide_boar",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 11996,
+        "materials": 1,
+        "textures": [
+          {
+            "name": "Forge_mob_blacktusk_RuntimeAtlas",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Chest",
+          "FrontUpper.L",
+          "FrontLower.L",
+          "FrontUpper.R",
+          "FrontLower.R",
+          "Head",
+          "HindUpper.L",
+          "HindLower.L",
+          "HindUpper.R",
+          "HindLower.R",
+          "Tail"
+        ],
+        "animations": [
+          "death",
+          "hit",
+          "attack_01",
+          "run",
+          "idle"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "mob_young",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 22976,
+        "materials": 6,
+        "textures": [
+          {
+            "name": "forest_body_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_body_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_mane_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_mane_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_ivory_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_ivory_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_jade_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_jade_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "mob_bristle_boar",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 11996,
+        "materials": 1,
+        "textures": [
+          {
+            "name": "Forge_mob_blacktusk_RuntimeAtlas",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Chest",
+          "FrontUpper.L",
+          "FrontLower.L",
+          "FrontUpper.R",
+          "FrontLower.R",
+          "Head",
+          "HindUpper.L",
+          "HindLower.L",
+          "HindUpper.R",
+          "HindLower.R",
+          "Tail"
+        ],
+        "animations": [
+          "death",
+          "hit",
+          "attack_01",
+          "run",
+          "idle"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "mob_grown",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 22976,
+        "materials": 6,
+        "textures": [
+          {
+            "name": "forest_body_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_body_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_mane_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_mane_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_ivory_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_ivory_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_jade_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_jade_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "mob_red_wolf",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 11995,
+        "materials": 1,
+        "textures": [
+          {
+            "name": "Forge_mob_meadow_wolf_RuntimeAtlas",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Chest",
+          "FrontUpper.L",
+          "FrontLower.L",
+          "FrontUpper.R",
+          "FrontLower.R",
+          "Head",
+          "HindUpper.L",
+          "HindLower.L",
+          "HindUpper.R",
+          "HindLower.R",
+          "Tail"
+        ],
+        "animations": [
+          "death",
+          "hit",
+          "attack_01",
+          "run",
+          "idle"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "mob_grey_wolf",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 11995,
+        "materials": 1,
+        "textures": [
+          {
+            "name": "Forge_mob_meadow_wolf_RuntimeAtlas",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Chest",
+          "FrontUpper.L",
+          "FrontLower.L",
+          "FrontUpper.R",
+          "FrontLower.R",
+          "Head",
+          "HindUpper.L",
+          "HindLower.L",
+          "HindUpper.R",
+          "HindLower.R",
+          "Tail"
+        ],
+        "animations": [
+          "death",
+          "hit",
+          "attack_01",
+          "run",
+          "idle"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "mob_ironback",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 22976,
+        "materials": 6,
+        "textures": [
+          {
+            "name": "forest_body_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_body_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_mane_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_mane_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_ivory_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_ivory_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_jade_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_jade_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "mob_mire_boar",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 11996,
+        "materials": 1,
+        "textures": [
+          {
+            "name": "Forge_mob_blacktusk_RuntimeAtlas",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Chest",
+          "FrontUpper.L",
+          "FrontLower.L",
+          "FrontUpper.R",
+          "FrontLower.R",
+          "Head",
+          "HindUpper.L",
+          "HindLower.L",
+          "HindUpper.R",
+          "HindLower.R",
+          "Tail"
+        ],
+        "animations": [
+          "death",
+          "hit",
+          "attack_01",
+          "run",
+          "idle"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "mob_copper_spider",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 16680,
+        "materials": 5,
+        "textures": [
+          {
+            "name": "spider_jade_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_jade_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_mane_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_mane_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_ivory_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_ivory_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Chest",
+          "Head",
+          "Leg0Upper.L",
+          "Leg0Lower.L",
+          "Leg0Upper.R",
+          "Leg0Lower.R",
+          "Leg1Upper.L",
+          "Leg1Lower.L",
+          "Leg1Upper.R",
+          "Leg1Lower.R",
+          "Leg2Upper.L",
+          "Leg2Lower.L",
+          "Leg2Upper.R",
+          "Leg2Lower.R",
+          "Leg3Upper.L",
+          "Leg3Lower.L",
+          "Leg3Upper.R",
+          "Leg3Lower.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death"
+        ],
+        "mesh_objects": 2
+      }
+    },
+    {
+      "key": "mob_road_bandit",
+      "validation": {
+        "technical_status": "failed",
+        "visual_status": "pending",
+        "errors": [
+          "100 degenerate triangles in QuiltedTorsoMesh.001"
+        ],
+        "warnings": [
+          "26976 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "7760 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "52336 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "12706 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "13576 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "2432 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "1440 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "51 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "576 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "512 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "4444 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "2644 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "11056 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "1076 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 338124,
+        "materials": 16,
+        "textures": [
+          {
+            "name": "Warden_Leather_Surface",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "run",
+          "hit",
+          "death",
+          "skill_guard",
+          "skill_step",
+          "skill_plant",
+          "skill_riposte",
+          "idle",
+          "longsword_idle",
+          "attack_01",
+          "longsword_01",
+          "attack_02",
+          "longsword_02",
+          "attack_03",
+          "longsword_03",
+          "longsword_run"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "mob_venom_spider",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 16680,
+        "materials": 5,
+        "textures": [
+          {
+            "name": "spider_jade_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_jade_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_mane_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_mane_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_ivory_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_ivory_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Chest",
+          "Head",
+          "Leg0Upper.L",
+          "Leg0Lower.L",
+          "Leg0Upper.R",
+          "Leg0Lower.R",
+          "Leg1Upper.L",
+          "Leg1Lower.L",
+          "Leg1Upper.R",
+          "Leg1Lower.R",
+          "Leg2Upper.L",
+          "Leg2Lower.L",
+          "Leg2Upper.R",
+          "Leg2Lower.R",
+          "Leg3Upper.L",
+          "Leg3Lower.L",
+          "Leg3Upper.R",
+          "Leg3Lower.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death"
+        ],
+        "mesh_objects": 2
+      }
+    },
+    {
+      "key": "mob_slate_guardian",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 17040,
+        "materials": 5,
+        "textures": [
+          {
+            "name": "stonekin_jade_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_jade_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_mane_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_mane_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death"
+        ],
+        "mesh_objects": 2
+      }
+    },
+    {
+      "key": "mob_hollow_raider",
+      "validation": {
+        "technical_status": "failed",
+        "visual_status": "pending",
+        "errors": [
+          "100 degenerate triangles in QuiltedTorsoMesh.001"
+        ],
+        "warnings": [
+          "26976 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "7760 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "52336 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "12706 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "13576 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "2432 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "1440 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "51 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "576 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "512 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "4444 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "2644 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "11056 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "1076 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 338124,
+        "materials": 16,
+        "textures": [
+          {
+            "name": "Warden_Leather_Surface",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "run",
+          "hit",
+          "death",
+          "skill_guard",
+          "skill_step",
+          "skill_plant",
+          "skill_riposte",
+          "idle",
+          "longsword_idle",
+          "attack_01",
+          "longsword_01",
+          "attack_02",
+          "longsword_02",
+          "attack_03",
+          "longsword_03",
+          "longsword_run"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "mob_silk_matron",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 16680,
+        "materials": 5,
+        "textures": [
+          {
+            "name": "spider_jade_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_jade_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_mane_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_mane_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_ivory_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_ivory_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Chest",
+          "Head",
+          "Leg0Upper.L",
+          "Leg0Lower.L",
+          "Leg0Upper.R",
+          "Leg0Lower.R",
+          "Leg1Upper.L",
+          "Leg1Lower.L",
+          "Leg1Upper.R",
+          "Leg1Lower.R",
+          "Leg2Upper.L",
+          "Leg2Lower.L",
+          "Leg2Upper.R",
+          "Leg2Lower.R",
+          "Leg3Upper.L",
+          "Leg3Lower.L",
+          "Leg3Upper.R",
+          "Leg3Lower.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death"
+        ],
+        "mesh_objects": 2
+      }
+    },
+    {
+      "key": "mob_ash_bandit",
+      "validation": {
+        "technical_status": "failed",
+        "visual_status": "pending",
+        "errors": [
+          "100 degenerate triangles in QuiltedTorsoMesh.001"
+        ],
+        "warnings": [
+          "26976 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "7760 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "52336 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "12706 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "13576 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "2432 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "1440 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "51 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "576 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "512 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "4444 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "2644 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "11056 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "1076 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 338124,
+        "materials": 16,
+        "textures": [
+          {
+            "name": "Warden_Leather_Surface",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "run",
+          "hit",
+          "death",
+          "skill_guard",
+          "skill_step",
+          "skill_plant",
+          "skill_riposte",
+          "idle",
+          "longsword_idle",
+          "attack_01",
+          "longsword_01",
+          "attack_02",
+          "longsword_02",
+          "attack_03",
+          "longsword_03",
+          "longsword_run"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "mob_cairn_sentinel",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 17040,
+        "materials": 5,
+        "textures": [
+          {
+            "name": "stonekin_jade_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_jade_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_mane_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_mane_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death"
+        ],
+        "mesh_objects": 2
+      }
+    },
+    {
+      "key": "mob_glass_spider",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 16680,
+        "materials": 5,
+        "textures": [
+          {
+            "name": "spider_jade_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_jade_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_mane_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_mane_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_ivory_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_ivory_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Chest",
+          "Head",
+          "Leg0Upper.L",
+          "Leg0Lower.L",
+          "Leg0Upper.R",
+          "Leg0Lower.R",
+          "Leg1Upper.L",
+          "Leg1Lower.L",
+          "Leg1Upper.R",
+          "Leg1Lower.R",
+          "Leg2Upper.L",
+          "Leg2Lower.L",
+          "Leg2Upper.R",
+          "Leg2Lower.R",
+          "Leg3Upper.L",
+          "Leg3Lower.L",
+          "Leg3Upper.R",
+          "Leg3Lower.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death"
+        ],
+        "mesh_objects": 2
+      }
+    },
+    {
+      "key": "mob_obsidian_boar",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 11996,
+        "materials": 1,
+        "textures": [
+          {
+            "name": "Forge_mob_blacktusk_RuntimeAtlas",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Chest",
+          "FrontUpper.L",
+          "FrontLower.L",
+          "FrontUpper.R",
+          "FrontLower.R",
+          "Head",
+          "HindUpper.L",
+          "HindLower.L",
+          "HindUpper.R",
+          "HindLower.R",
+          "Tail"
+        ],
+        "animations": [
+          "death",
+          "hit",
+          "attack_01",
+          "run",
+          "idle"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "mob_widow_spider",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 16680,
+        "materials": 5,
+        "textures": [
+          {
+            "name": "spider_jade_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_jade_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_mane_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_mane_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_ivory_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "spider_ivory_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Chest",
+          "Head",
+          "Leg0Upper.L",
+          "Leg0Lower.L",
+          "Leg0Upper.R",
+          "Leg0Lower.R",
+          "Leg1Upper.L",
+          "Leg1Lower.L",
+          "Leg1Upper.R",
+          "Leg1Lower.R",
+          "Leg2Upper.L",
+          "Leg2Lower.L",
+          "Leg2Upper.R",
+          "Leg2Lower.R",
+          "Leg3Upper.L",
+          "Leg3Lower.L",
+          "Leg3Upper.R",
+          "Leg3Lower.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death"
+        ],
+        "mesh_objects": 2
+      }
+    },
+    {
+      "key": "mob_exile_captain",
+      "validation": {
+        "technical_status": "failed",
+        "visual_status": "pending",
+        "errors": [
+          "100 degenerate triangles in QuiltedTorsoMesh.001"
+        ],
+        "warnings": [
+          "26976 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "7760 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "52336 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "12706 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "13576 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "2432 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "1440 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "51 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "576 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "512 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "4444 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "2644 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "11056 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "1076 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 338124,
+        "materials": 16,
+        "textures": [
+          {
+            "name": "Warden_Leather_Surface",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "run",
+          "hit",
+          "death",
+          "skill_guard",
+          "skill_step",
+          "skill_plant",
+          "skill_riposte",
+          "idle",
+          "longsword_idle",
+          "attack_01",
+          "longsword_01",
+          "attack_02",
+          "longsword_02",
+          "attack_03",
+          "longsword_03",
+          "longsword_run"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "mob_rift_sentinel",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 17040,
+        "materials": 5,
+        "textures": [
+          {
+            "name": "stonekin_jade_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_jade_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_mane_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_mane_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death"
+        ],
+        "mesh_objects": 2
+      }
+    },
+    {
+      "key": "mob_ancient_warden",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 17040,
+        "materials": 5,
+        "textures": [
+          {
+            "name": "stonekin_jade_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_jade_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_mane_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_mane_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death"
+        ],
+        "mesh_objects": 2
+      }
+    },
+    {
+      "key": "mob_cairn_colossus",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 17040,
+        "materials": 5,
+        "textures": [
+          {
+            "name": "stonekin_jade_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_jade_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_mane_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_mane_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death"
+        ],
+        "mesh_objects": 2
+      }
+    },
+    {
+      "key": "hero_ironvow",
+      "validation": {
+        "technical_status": "failed",
+        "visual_status": "pending",
+        "errors": [
+          "100 degenerate triangles in QuiltedTorsoMesh.001"
+        ],
+        "warnings": [
+          "26976 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "7760 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "52336 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "12706 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "13576 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "2432 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "1440 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "51 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "576 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "512 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "4444 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "2644 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "11056 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs",
+          "1076 collapsed UV triangles in QuiltedTorsoMesh.001; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 338124,
+        "materials": 16,
+        "textures": [
+          {
+            "name": "Warden_Leather_Surface",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "run",
+          "hit",
+          "death",
+          "skill_guard",
+          "skill_step",
+          "skill_plant",
+          "skill_riposte",
+          "idle",
+          "longsword_idle",
+          "attack_01",
+          "longsword_01",
+          "attack_02",
+          "longsword_02",
+          "attack_03",
+          "longsword_03",
+          "longsword_run"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "horse_bay",
+      "validation": {
+        "technical_status": "failed",
+        "visual_status": "pending",
+        "errors": [
+          "16 degenerate triangles in Circle",
+          "12 degenerate triangles in Circle"
+        ],
+        "warnings": [
+          "560 collapsed UV triangles in Circle; constant-material surfaces may not use UVs",
+          "1440 collapsed UV triangles in Circle; constant-material surfaces may not use UVs",
+          "872 collapsed UV triangles in Circle; constant-material surfaces may not use UVs",
+          "880 collapsed UV triangles in Circle; constant-material surfaces may not use UVs",
+          "12208 collapsed UV triangles in Circle; constant-material surfaces may not use UVs",
+          "840 collapsed UV triangles in Circle; constant-material surfaces may not use UVs",
+          "120 collapsed UV triangles in Circle; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 37424,
+        "materials": 9,
+        "textures": [
+          {
+            "name": "horse_diffuse",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Body",
+          "Fore.L.Upper",
+          "Fore.L.Lower",
+          "Fore.L.Ankle",
+          "Fore.L.Hoof",
+          "Fore.R.Upper",
+          "Fore.R.Lower",
+          "Fore.R.Ankle",
+          "Fore.R.Hoof",
+          "Hind.L.Upper",
+          "Hind.L.Lower",
+          "Hind.L.Ankle",
+          "Hind.L.Hoof",
+          "Hind.R.Upper",
+          "Hind.R.Lower",
+          "Hind.R.Ankle",
+          "Hind.R.Hoof",
+          "Neck",
+          "Head",
+          "Ear.L",
+          "Ear.R",
+          "Tail"
+        ],
+        "animations": [
+          "idle",
+          "walk",
+          "trot",
+          "canter"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "tree_pine",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 4698,
+        "materials": 2,
+        "textures": [
+          {
+            "name": "GroveBark_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GroveLeaves_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "shrub_reference",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 576,
+        "materials": 2,
+        "textures": [
+          {
+            "name": "GroveBark_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "UnderstoryLeaves_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "npc_keeper",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 21106,
+        "materials": 1,
+        "textures": [],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "keeper_idle",
+          "smith_idle"
+        ],
+        "mesh_objects": 15
+      }
+    },
+    {
+      "key": "npc_smith",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 21106,
+        "materials": 1,
+        "textures": [],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "keeper_idle",
+          "smith_idle"
+        ],
+        "mesh_objects": 15
+      }
+    },
+    {
+      "key": "npc_stablemaster",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 21106,
+        "materials": 1,
+        "textures": [],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "keeper_idle",
+          "smith_idle"
+        ],
+        "mesh_objects": 15
+      }
+    },
+    {
+      "key": "grass",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 26,
+        "materials": 1,
+        "textures": [
+          {
+            "name": "UnderstoryLeaves_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "derived_benchmark_sedge",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 92,
+        "materials": 1,
+        "textures": [
+          {
+            "name": "leaf_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "UnderstoryLeaves_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "UnderstoryLeaves_rough",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "derived_benchmark_shrub_briar",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [
+          "48 collapsed UV triangles in ShrubStemMesh; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 912,
+        "materials": 2,
+        "textures": [
+          {
+            "name": "bark_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "UnderstoryWood_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "UnderstoryWood_rough",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "leaf_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "UnderstoryLeaves_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "UnderstoryLeaves_rough",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "derived_benchmark_shrub_laurel",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [
+          "72 collapsed UV triangles in ShrubStemMesh; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 1368,
+        "materials": 2,
+        "textures": [
+          {
+            "name": "bark_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "UnderstoryWood_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "UnderstoryWood_rough",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "leaf_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "UnderstoryLeaves_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "UnderstoryLeaves_rough",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "derived_benchmark_tree_bent",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [
+          "514 collapsed UV triangles in ButtressedTrunkMesh; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 18010,
+        "materials": 2,
+        "textures": [
+          {
+            "name": "bark_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GroveBark_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GroveBark_rough",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "leaf_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GroveLeaves_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GroveLeaves_rough",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "derived_benchmark_tree_fork",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [
+          "514 collapsed UV triangles in ButtressedTrunkMesh; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 18010,
+        "materials": 2,
+        "textures": [
+          {
+            "name": "bark_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GroveBark_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GroveBark_rough",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "leaf_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GroveLeaves_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GroveLeaves_rough",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "derived_benchmark_tree_wide",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [
+          "514 collapsed UV triangles in ButtressedTrunkMesh; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 18010,
+        "materials": 2,
+        "textures": [
+          {
+            "name": "bark_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GroveBark_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GroveBark_rough",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "leaf_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GroveLeaves_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GroveLeaves_rough",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "derived_characters_briarling",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 22976,
+        "materials": 6,
+        "textures": [
+          {
+            "name": "forest_body_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_body_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_mane_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_mane_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_ivory_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_ivory_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_jade_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "forest_jade_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "derived_characters_jade_ironback_mantle",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [
+          "No UV0; acceptable for vertex-color or constant materials"
+        ],
+        "triangles": 576,
+        "materials": 2,
+        "textures": [],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 18
+      }
+    },
+    {
+      "key": "derived_characters_townfolk_kit",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 21106,
+        "materials": 1,
+        "textures": [],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "keeper_idle",
+          "smith_idle"
+        ],
+        "mesh_objects": 15
+      }
+    },
+    {
+      "key": "derived_characters_traveler",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [
+          "No UV0; acceptable for vertex-color or constant materials"
+        ],
+        "triangles": 3824,
+        "materials": 6,
+        "textures": [],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death",
+          "attack_02",
+          "attack_03",
+          "skill_guard",
+          "skill_step",
+          "skill_plant",
+          "skill_riposte"
+        ],
+        "mesh_objects": 34
+      }
+    },
+    {
+      "key": "derived_characters_traveler_guard",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [
+          "16 collapsed UV triangles in VestStrapMesh; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 164,
+        "materials": 2,
+        "textures": [
+          {
+            "name": "leather_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GuardHarness_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GuardHarness_rough",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "metal_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GuardSeal_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GuardSeal_rough",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "derived_characters_turnwarden_v2",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [
+          "48 collapsed UV triangles in TW_UnderTunicMesh; constant-material surfaces may not use UVs",
+          "40 collapsed UV triangles in TW_UnderTunicMesh; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 4604,
+        "materials": 10,
+        "textures": [
+          {
+            "name": "metal_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "WardenBlackenedSteel_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "WardenBlackenedSteel_rough",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "WardenSteel_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "WardenSteel_rough",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "WardenBrass_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "WardenBrass_rough",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "leather_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "WardenLeather_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "WardenLeather_rough",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "cloth_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "WardenOxblood_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "WardenOxblood_rough",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death",
+          "attack_02",
+          "attack_03",
+          "skill_guard",
+          "skill_step",
+          "skill_plant",
+          "skill_riposte"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "derived_creatures_boar",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 11996,
+        "materials": 1,
+        "textures": [
+          {
+            "name": "Forge_mob_blacktusk_RuntimeAtlas",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Chest",
+          "FrontUpper.L",
+          "FrontLower.L",
+          "FrontUpper.R",
+          "FrontLower.R",
+          "Head",
+          "HindUpper.L",
+          "HindLower.L",
+          "HindUpper.R",
+          "HindLower.R",
+          "Tail"
+        ],
+        "animations": [
+          "death",
+          "hit",
+          "attack_01",
+          "run",
+          "idle"
+        ],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "derived_creatures_stonekin",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 17040,
+        "materials": 5,
+        "textures": [
+          {
+            "name": "stonekin_jade_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_jade_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_mane_normal",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "stonekin_mane_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "run",
+          "attack_01",
+          "hit",
+          "death"
+        ],
+        "mesh_objects": 2
+      }
+    },
+    {
+      "key": "derived_world_kit_tree1",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 4698,
+        "materials": 2,
+        "textures": [
+          {
+            "name": "GroveBark_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GroveLeaves_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "derived_world_kit_tree2",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 4698,
+        "materials": 2,
+        "textures": [
+          {
+            "name": "GroveBark_albedo",
+            "mime": "image/png",
+            "embedded": true
+          },
+          {
+            "name": "GroveLeaves_albedo",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_mara",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 21106,
+        "materials": 1,
+        "textures": [],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "keeper_idle",
+          "smith_idle"
+        ],
+        "mesh_objects": 15
+      }
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_apothecary",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 21106,
+        "materials": 1,
+        "textures": [],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "keeper_idle",
+          "smith_idle"
+        ],
+        "mesh_objects": 15
+      }
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_artificer",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 21106,
+        "materials": 1,
+        "textures": [],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "keeper_idle",
+          "smith_idle"
+        ],
+        "mesh_objects": 15
+      }
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_armorer",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 21106,
+        "materials": 1,
+        "textures": [],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "keeper_idle",
+          "smith_idle"
+        ],
+        "mesh_objects": 15
+      }
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_weapons",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 21106,
+        "materials": 1,
+        "textures": [],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "keeper_idle",
+          "smith_idle"
+        ],
+        "mesh_objects": 15
+      }
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_warden",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 21106,
+        "materials": 1,
+        "textures": [],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "keeper_idle",
+          "smith_idle"
+        ],
+        "mesh_objects": 15
+      }
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_ash_scout",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 21106,
+        "materials": 1,
+        "textures": [],
+        "skins": 1,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "animations": [
+          "idle",
+          "keeper_idle",
+          "smith_idle"
+        ],
+        "mesh_objects": 15
+      }
+    },
+    {
+      "key": "watchtower",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [
+          "208 collapsed UV triangles in geometry_0; constant-material surfaces may not use UVs",
+          "32 collapsed UV triangles in geometry_0; constant-material surfaces may not use UVs"
+        ],
+        "triangles": 3852,
+        "materials": 3,
+        "textures": [
+          {
+            "name": "Forge_watchtower_RuntimeAtlas",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "fern_reference",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 2719,
+        "materials": 3,
+        "textures": [
+          {
+            "name": "Forge_fern_reference_RuntimeAtlas",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 1
+      }
+    },
+    {
+      "key": "derived_benchmark_fern",
+      "validation": {
+        "technical_status": "passed",
+        "visual_status": "pending",
+        "errors": [],
+        "warnings": [],
+        "triangles": 2719,
+        "materials": 3,
+        "textures": [
+          {
+            "name": "Forge_fern_reference_RuntimeAtlas",
+            "mime": "image/png",
+            "embedded": true
+          }
+        ],
+        "skins": 0,
+        "bones": [],
+        "animations": [],
+        "mesh_objects": 1
+      }
+    }
+  ]
+}

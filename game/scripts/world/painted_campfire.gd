@@ -47,19 +47,10 @@ func _ready() -> void:
 	flames.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 	flames.visibility_range_end=42
 	add_child(flames)
-	for i in range(3):
-		var log:=MeshInstance3D.new()
-		var wood:=CylinderMesh.new()
-		wood.top_radius=.065
-		wood.bottom_radius=.085
-		wood.height=.73
-		wood.radial_segments=7
-		log.mesh=wood
-		log.material_override=RemasterMaterials.surface(6,Color("5a4331"))
-		log.position=Vector3(0,.10,0)
-		log.rotation=Vector3(PI/2,i*PI/3,0)
-		log.visibility_range_end=42
-		add_child(log)
+	var fuel := ForgeModelCatalogue.scene_for("world","fire").instantiate()
+	add_child(fuel)
+	for mesh: MeshInstance3D in fuel.find_children("*","MeshInstance3D",true,false):
+		mesh.visibility_range_end=42
 	glow=OmniLight3D.new()
 	glow.position=Vector3(0,.55,0)
 	glow.light_color=Color("ff9c42")

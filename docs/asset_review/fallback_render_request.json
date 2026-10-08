@@ -1,0 +1,609 @@
+{
+  "assets": [
+    {
+      "key": "mob_ironhide_boar",
+      "path": "res://review_assets/fallbacks/assets/forge_rebuild/mobs/blacktusk.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ec2c860e6fb3\\references\\f07e2e66a251.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\mob_ironhide_boar\\after.png",
+      "framing_bounds": [
+        [
+          -0.432638496160507,
+          -0.000225354393478483,
+          -1.14144885540009
+        ],
+        [
+          0.868955850601196,
+          1.36242234706879,
+          2.41610527038574
+        ]
+      ]
+    },
+    {
+      "key": "mob_young",
+      "path": "res://review_assets/fallbacks/assets/characters/briarling.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\92c84e4281e7\\references\\daac2eb1ef28.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\mob_young\\after.png",
+      "framing_bounds": [
+        [
+          -0.703093528747559,
+          -0.0401234105229378,
+          -0.598335921764374
+        ],
+        [
+          1.36289513111115,
+          1.96239256858826,
+          0.837655186653137
+        ]
+      ]
+    },
+    {
+      "key": "mob_red_wolf",
+      "path": "res://review_assets/fallbacks/assets/forge_rebuild/mobs/meadow_wolf.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\991e55c2b639\\references\\75a627b17ff2.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\mob_red_wolf\\after.png",
+      "framing_bounds": [
+        [
+          -0.432657301425934,
+          -0.00231292517855763,
+          -1.08703804016113
+        ],
+        [
+          0.868728280067444,
+          1.44093012809753,
+          2.43630743026733
+        ]
+      ]
+    },
+    {
+      "key": "mob_copper_spider",
+      "path": "res://review_assets/fallbacks/assets/creatures/spider.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\422fc8dc89b8\\references\\b2c168c3fdcf.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\mob_copper_spider\\after.png",
+      "framing_bounds": [
+        [
+          -1.11769163608551,
+          0.0645307004451752,
+          -0.832777142524719
+        ],
+        [
+          2.26860475540161,
+          0.931545495986938,
+          1.85260307788849
+        ]
+      ]
+    },
+    {
+      "key": "mob_road_bandit",
+      "path": "res://review_assets/fallbacks/assets/characters/warden_high.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\dffdea925c04\\references\\f83ae6afa6d6.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\mob_road_bandit\\after.png",
+      "framing_bounds": [
+        [
+          -0.485548317432404,
+          0.00589537201449275,
+          -0.225233003497124
+        ],
+        [
+          0.970988750457764,
+          1.89350461959839,
+          0.43526753783226
+        ]
+      ]
+    },
+    {
+      "key": "mob_slate_guardian",
+      "path": "res://review_assets/fallbacks/assets/creatures/stonekin.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\4cf3b699edb7\\references\\0184177eef09.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\mob_slate_guardian\\after.png",
+      "framing_bounds": [
+        [
+          -0.704789519309998,
+          2.31264948524768e-05,
+          -0.431384146213531
+        ],
+        [
+          1.40937376022339,
+          1.66628968715668,
+          0.690592288970947
+        ]
+      ]
+    },
+    {
+      "key": "horse_bay",
+      "path": "res://review_assets/fallbacks/assets/mounts/trail_horse.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\4009c15f1caf\\references\\082bb72a0951.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\horse_bay\\after.png",
+      "framing_bounds": [
+        [
+          -0.486844599246979,
+          0.00494683161377907,
+          -1.73033499717712
+        ],
+        [
+          0.973689198493958,
+          1.975053191185,
+          2.93052005767822
+        ]
+      ]
+    },
+    {
+      "key": "tree_pine",
+      "path": "res://review_assets/fallbacks/assets/world_kit/tree0.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\e8fb397908b0\\references\\6693634e40aa.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\tree_pine\\after.png",
+      "framing_bounds": [
+        [
+          -3.80847644805908,
+          -0.19334302842617,
+          -3.18090629577637
+        ],
+        [
+          6.95146083831787,
+          7.50340843200684,
+          6.577712059021
+        ]
+      ]
+    },
+    {
+      "key": "shrub_reference",
+      "path": "res://review_assets/fallbacks/assets/world_kit/shrub.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\d6cdf2383cd1\\references\\bab9a11de156.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\shrub_reference\\after.png",
+      "framing_bounds": [
+        [
+          -1.12663567066193,
+          -0.0329742692410946,
+          -1.12956976890564
+        ],
+        [
+          2.18859958648682,
+          1.19132137298584,
+          2.20625805854797
+        ]
+      ]
+    },
+    {
+      "key": "npc_keeper",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\fa07cc8babee\\references\\920e7ac696b8.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\npc_keeper\\after.png",
+      "framing_bounds": [
+        [
+          -0.46000000834465,
+          0.00499999988824129,
+          -0.209999978542328
+        ],
+        [
+          0.920000016689301,
+          1.81500017642975,
+          0.399999976158142
+        ]
+      ],
+      "npc_id": "keeper"
+    },
+    {
+      "key": "npc_smith",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\602ec09039bc\\references\\c03e3f7f87bc.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\npc_smith\\after.png",
+      "framing_bounds": [
+        [
+          -0.46000000834465,
+          0.00499999988824129,
+          -0.209999978542328
+        ],
+        [
+          0.920000016689301,
+          1.81500005722046,
+          0.399999976158142
+        ]
+      ],
+      "npc_id": "smith"
+    },
+    {
+      "key": "npc_stablemaster",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\b5d289f9a41e\\references\\71cde573ae4a.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\npc_stablemaster\\after.png",
+      "framing_bounds": [
+        [
+          -0.46000000834465,
+          0.00499999988824129,
+          -0.209999978542328
+        ],
+        [
+          0.920000016689301,
+          1.81500005722046,
+          0.399999976158142
+        ]
+      ],
+      "npc_id": "stablemaster"
+    },
+    {
+      "key": "grass",
+      "path": "res://review_assets/fallbacks/assets/world_kit/grass.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\6631eda0a6eb\\references\\eda4d36f46db.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\grass\\after.png",
+      "framing_bounds": [
+        [
+          -0.379174828529358,
+          0.0013784539187327,
+          -0.390102446079254
+        ],
+        [
+          0.764601290225983,
+          0.562659859657288,
+          0.763561606407166
+        ]
+      ]
+    },
+    {
+      "key": "derived_benchmark_sedge",
+      "path": "res://review_assets/fallbacks/assets/benchmark/sedge.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\98e8c6752070\\references\\0a9cafbb86c6.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_benchmark_sedge\\after.png",
+      "framing_bounds": [
+        [
+          -0.383557349443436,
+          0.0,
+          -0.367556810379028
+        ],
+        [
+          0.727935791015625,
+          0.550493061542511,
+          0.54747086763382
+        ]
+      ]
+    },
+    {
+      "key": "derived_benchmark_shrub_briar",
+      "path": "res://review_assets/fallbacks/assets/benchmark/shrub_briar.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\2ebe07f878ab\\references\\709b81670e77.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_benchmark_shrub_briar\\after.png",
+      "framing_bounds": [
+        [
+          -0.797593235969543,
+          -0.0353050902485847,
+          -0.808349430561066
+        ],
+        [
+          1.59514153003693,
+          0.668634831905365,
+          1.61667394638062
+        ]
+      ]
+    },
+    {
+      "key": "derived_benchmark_shrub_laurel",
+      "path": "res://review_assets/fallbacks/assets/benchmark/shrub_laurel.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\bc76a3f72814\\references\\257ad1083a40.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_benchmark_shrub_laurel\\after.png",
+      "framing_bounds": [
+        [
+          -0.812900185585022,
+          -0.026476601138711,
+          -0.811240375041962
+        ],
+        [
+          1.62580513954163,
+          1.14363348484039,
+          1.62246513366699
+        ]
+      ]
+    },
+    {
+      "key": "derived_benchmark_tree_bent",
+      "path": "res://review_assets/fallbacks/assets/benchmark/tree_bent.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\044698e7069d\\references\\6cd94209b2ac.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_benchmark_tree_bent\\after.png",
+      "framing_bounds": [
+        [
+          -6.24285840988159,
+          -0.223144128918648,
+          -5.01925468444824
+        ],
+        [
+          10.9072875976563,
+          8.27663230895996,
+          10.5939540863037
+        ]
+      ]
+    },
+    {
+      "key": "derived_benchmark_tree_fork",
+      "path": "res://review_assets/fallbacks/assets/benchmark/tree_fork.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ade129290d0b\\references\\48e1f321ab72.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_benchmark_tree_fork\\after.png",
+      "framing_bounds": [
+        [
+          -4.40111637115479,
+          -0.225221678614616,
+          -5.19901657104492
+        ],
+        [
+          10.6729516983032,
+          8.36265850067139,
+          10.0676918029785
+        ]
+      ]
+    },
+    {
+      "key": "derived_benchmark_tree_wide",
+      "path": "res://review_assets/fallbacks/assets/benchmark/tree_wide.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\156fabf5767e\\references\\af5ff91fb493.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_benchmark_tree_wide\\after.png",
+      "framing_bounds": [
+        [
+          -4.68385457992554,
+          -0.206236228346825,
+          -5.10363483428955
+        ],
+        [
+          10.088942527771,
+          7.86299657821655,
+          10.5717353820801
+        ]
+      ]
+    },
+    {
+      "key": "derived_characters_jade_ironback_mantle",
+      "path": "res://review_assets/fallbacks/assets/characters/jade_ironback_mantle.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\09599029ab9b\\references\\0449f9f5275a.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_characters_jade_ironback_mantle\\after.png",
+      "framing_bounds": [
+        [
+          -0.279618293046951,
+          -0.00325360218994319,
+          0.216999039053917
+        ],
+        [
+          0.470014154911041,
+          0.424003541469574,
+          0.0317634046077728
+        ]
+      ]
+    },
+    {
+      "key": "derived_characters_townfolk_kit",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\10612c17cf50\\references\\7a13e71377b5.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_characters_townfolk_kit\\after.png",
+      "framing_bounds": [
+        [
+          -0.46000000834465,
+          0.00499999988824129,
+          -0.209999978542328
+        ],
+        [
+          0.920000016689301,
+          1.81500005722046,
+          0.399999976158142
+        ]
+      ]
+    },
+    {
+      "key": "derived_characters_traveler",
+      "path": "res://review_assets/fallbacks/assets/characters/traveler.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\15c902f87aa9\\references\\f0062ed6fd0d.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_characters_traveler\\after.png",
+      "framing_bounds": [
+        [
+          -0.444999992847443,
+          0.0,
+          -0.254999995231628
+        ],
+        [
+          0.889999985694885,
+          1.89999997615814,
+          0.411808371543884
+        ]
+      ]
+    },
+    {
+      "key": "derived_characters_traveler_guard",
+      "path": "res://review_assets/fallbacks/assets/characters/traveler_guard.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\2b17e1b3d111\\references\\f79721863cfc.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_characters_traveler_guard\\after.png",
+      "framing_bounds": [
+        [
+          -0.129680708050728,
+          -0.0996508076786995,
+          -0.177797913551331
+        ],
+        [
+          0.219078049063683,
+          0.178650975227356,
+          0.0208287090063095
+        ]
+      ]
+    },
+    {
+      "key": "derived_characters_turnwarden_v2",
+      "path": "res://review_assets/fallbacks/assets/characters/turnwarden_v2.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\c976994e4ab9\\references\\04703782005f.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_characters_turnwarden_v2\\after.png",
+      "framing_bounds": [
+        [
+          -0.447929233312607,
+          0.0,
+          -0.270361661911011
+        ],
+        [
+          0.895858466625214,
+          1.88999998569489,
+          0.418198615312576
+        ]
+      ]
+    },
+    {
+      "key": "derived_world_kit_tree1",
+      "path": "res://review_assets/fallbacks/assets/world_kit/tree1.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\c72acd956573\\references\\b14f8addf15d.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_world_kit_tree1\\after.png",
+      "framing_bounds": [
+        [
+          -2.67571043968201,
+          -0.252571403980255,
+          -2.95879364013672
+        ],
+        [
+          5.81196403503418,
+          8.75619792938232,
+          5.62917137145996
+        ]
+      ]
+    },
+    {
+      "key": "derived_world_kit_tree2",
+      "path": "res://review_assets/fallbacks/assets/world_kit/tree2.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ea09ca17f3d2\\references\\f7d6b36f00a0.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_world_kit_tree2\\after.png",
+      "framing_bounds": [
+        [
+          -2.83753967285156,
+          -0.252571403980255,
+          -3.90149831771851
+        ],
+        [
+          7.32399749755859,
+          6.85296440124512,
+          7.48082494735718
+        ]
+      ]
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_mara",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\b738a9606ea5\\references\\c3fc510e518a.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_mara\\after.png",
+      "framing_bounds": [
+        [
+          -0.46000000834465,
+          0.00499999988824129,
+          -0.209999978542328
+        ],
+        [
+          0.920000016689301,
+          1.81500017642975,
+          0.399999976158142
+        ]
+      ],
+      "npc_id": "mara"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_apothecary",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\a89163512a1c\\references\\04437bb0d5da.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_apothecary\\after.png",
+      "framing_bounds": [
+        [
+          -0.46000000834465,
+          0.00499999988824129,
+          -0.209999978542328
+        ],
+        [
+          0.920000016689301,
+          1.81500017642975,
+          0.399999976158142
+        ]
+      ],
+      "npc_id": "apothecary"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_artificer",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\9bed4f80cc8a\\references\\61c33f15bacd.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_artificer\\after.png",
+      "framing_bounds": [
+        [
+          -0.46000000834465,
+          0.00499999988824129,
+          -0.209999978542328
+        ],
+        [
+          0.920000016689301,
+          1.81500005722046,
+          0.399999976158142
+        ]
+      ],
+      "npc_id": "artificer"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_armorer",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\0dc66653e908\\references\\e18d78fed7ed.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_armorer\\after.png",
+      "framing_bounds": [
+        [
+          -0.46000000834465,
+          0.00499999988824129,
+          -0.209999978542328
+        ],
+        [
+          0.920000016689301,
+          1.81500005722046,
+          0.399999976158142
+        ]
+      ],
+      "npc_id": "armorer"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_weapons",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\55e6b889dd45\\references\\dbb67969ad4a.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_weapons\\after.png",
+      "framing_bounds": [
+        [
+          -0.46000000834465,
+          0.00499999988824129,
+          -0.209999978542328
+        ],
+        [
+          0.920000016689301,
+          1.81500005722046,
+          0.399999976158142
+        ]
+      ],
+      "npc_id": "weapons"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_warden",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\f11a2299aef3\\references\\3a97933cb65c.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_warden\\after.png",
+      "framing_bounds": [
+        [
+          -0.46000000834465,
+          0.00499999988824129,
+          -0.209999978542328
+        ],
+        [
+          0.920000016689301,
+          1.81500005722046,
+          0.399999976158142
+        ]
+      ],
+      "npc_id": "warden"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_ash_scout",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\257e88f34613\\references\\064a3310434c.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_ash_scout\\after.png",
+      "framing_bounds": [
+        [
+          -0.46000000834465,
+          0.00499999988824129,
+          -0.209999978542328
+        ],
+        [
+          0.920000016689301,
+          1.81500005722046,
+          0.399999976158142
+        ]
+      ],
+      "npc_id": "ash_scout"
+    }
+  ],
+  "report": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallback_render_report.json"
+}

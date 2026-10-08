@@ -148,7 +148,9 @@ func _build_briarwood() -> void:
 		camp.enemy_data = load("res://data/enemies/%s.tres" % FirstMapContent.IDS[i])
 		camp.camp_name = camp.enemy_data.display_name
 		camp.position = FirstMapContent.POINTS[i]
-		camp.count = 6 if camp.enemy_data.tier == 1 else 8 if camp.enemy_data.tier == 2 else 1
+		# Three ordinary members keep cold-start overlapping clearings within
+		# the measured simulation budget; elites and opening camps retain size.
+		camp.count = 3 if camp.enemy_data.tier <= 2 else 1
 		camp.leash_distance = 20
 		camp.respawn_delay = 45 if camp.enemy_data.tier <= 2 else 120 + camp.enemy_data.tier * 30
 		add_child(camp)
@@ -332,3 +334,6 @@ func _notification(what: int) -> void:
 	if what == NOTIFICATION_WM_CLOSE_REQUEST:
 		save_progress(false)
 		get_tree().quit()
+
+func _process(_delta: float) -> void:
+	ForgeModelCatalogue.collect_ready()

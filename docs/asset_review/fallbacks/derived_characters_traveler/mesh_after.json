@@ -1,0 +1,2802 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "Belt",
+      "vertices": 32,
+      "triangles": 60,
+      "local_bounds": [
+        [
+          -0.20499999821186066,
+          -0.12999999523162842,
+          1.0049999952316284
+        ],
+        [
+          0.20499999821186066,
+          0.12999999523162842,
+          1.0750000476837158
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        32
+      ],
+      "sharp_edges_over_60_degrees": 32,
+      "smooth_faces": 60,
+      "faces": 60,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "DarkLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "BeltClasp",
+      "vertices": 42,
+      "triangles": 80,
+      "local_bounds": [
+        [
+          -0.054999999701976776,
+          0.11400000005960464,
+          1.0
+        ],
+        [
+          0.054999999701976776,
+          0.15000000596046448,
+          1.0800000429153442
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        42
+      ],
+      "sharp_edges_over_60_degrees": 8,
+      "smooth_faces": 80,
+      "faces": 80,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "AgedBronze"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Body_Boot_L",
+      "vertices": 86,
+      "triangles": 168,
+      "local_bounds": [
+        [
+          -0.22199998795986176,
+          -0.08499995619058609,
+          3.7897329718816763e-08
+        ],
+        [
+          -0.05799998715519905,
+          0.25499993562698364,
+          0.1900000274181366
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        86
+      ],
+      "sharp_edges_over_60_degrees": 0,
+      "smooth_faces": 168,
+      "faces": 168,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "DarkLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Body_Boot_R",
+      "vertices": 86,
+      "triangles": 168,
+      "local_bounds": [
+        [
+          0.05799998715519905,
+          -0.08499995619058609,
+          3.7897329718816763e-08
+        ],
+        [
+          0.22199998795986176,
+          0.25499993562698364,
+          0.1900000274181366
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        86
+      ],
+      "sharp_edges_over_60_degrees": 0,
+      "smooth_faces": 168,
+      "faces": 168,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "DarkLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Body_Hand_L",
+      "vertices": 86,
+      "triangles": 168,
+      "local_bounds": [
+        [
+          -0.445000022649765,
+          0.001999917207285762,
+          0.785000205039978
+        ],
+        [
+          -0.3550001084804535,
+          0.09799987822771072,
+          0.9350001215934753
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        86
+      ],
+      "sharp_edges_over_60_degrees": 0,
+      "smooth_faces": 168,
+      "faces": 168,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "DarkLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Body_Hand_R",
+      "vertices": 86,
+      "triangles": 168,
+      "local_bounds": [
+        [
+          0.3550001084804535,
+          0.001999917207285762,
+          0.785000205039978
+        ],
+        [
+          0.445000022649765,
+          0.09799987822771072,
+          0.9350001215934753
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        86
+      ],
+      "sharp_edges_over_60_degrees": 0,
+      "smooth_faces": 168,
+      "faces": 168,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "DarkLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Body_Head",
+      "vertices": 146,
+      "triangles": 288,
+      "local_bounds": [
+        [
+          -0.125,
+          -0.10999999940395355,
+          1.5200001001358032
+        ],
+        [
+          0.125,
+          0.11999999731779099,
+          1.850000023841858
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        146
+      ],
+      "sharp_edges_over_60_degrees": 0,
+      "smooth_faces": 288,
+      "faces": 288,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "WarmSkin"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Body_Neck",
+      "vertices": 20,
+      "triangles": 36,
+      "local_bounds": [
+        [
+          -0.08500000089406967,
+          -0.08083980530500412,
+          1.5200001001358032
+        ],
+        [
+          0.08500000089406967,
+          0.08083980530500412,
+          1.6500000953674316
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        20
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 36,
+      "faces": 36,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "WarmSkin"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Body_Thigh_L",
+      "vertices": 90,
+      "triangles": 176,
+      "local_bounds": [
+        [
+          -0.2484920471906662,
+          -0.10195044428110123,
+          0.13803498446941376
+        ],
+        [
+          -0.024507928639650345,
+          0.11095046252012253,
+          0.9537919163703918
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        90
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 176,
+      "faces": 176,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "DarkLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0000000298023224
+      ],
+      "regions": []
+    },
+    {
+      "name": "Body_Thigh_R",
+      "vertices": 90,
+      "triangles": 176,
+      "local_bounds": [
+        [
+          0.024507928639650345,
+          -0.10195044428110123,
+          0.13803498446941376
+        ],
+        [
+          0.2484920471906662,
+          0.11095046252012253,
+          0.9537919163703918
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        90
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 176,
+      "faces": 176,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "DarkLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0000000298023224
+      ],
+      "regions": []
+    },
+    {
+      "name": "Body_Tunic",
+      "vertices": 96,
+      "triangles": 188,
+      "local_bounds": [
+        [
+          -0.25999999046325684,
+          -0.14499999582767487,
+          0.8899999856948853
+        ],
+        [
+          0.25999999046325684,
+          0.14499999582767487,
+          1.4800000190734863
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        96
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 188,
+      "faces": 188,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IndigoLinen"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0000000298023224
+      ],
+      "regions": []
+    },
+    {
+      "name": "Body_UpperArm_L",
+      "vertices": 90,
+      "triangles": 176,
+      "local_bounds": [
+        [
+          -0.43882450461387634,
+          -0.07798665761947632,
+          0.9133609533309937
+        ],
+        [
+          -0.1725607067346573,
+          0.07798659801483154,
+          1.459972858428955
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        90
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 176,
+      "faces": 176,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IndigoLinen"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0000000298023224
+      ],
+      "regions": []
+    },
+    {
+      "name": "Body_UpperArm_R",
+      "vertices": 90,
+      "triangles": 176,
+      "local_bounds": [
+        [
+          0.1725607067346573,
+          -0.07798665761947632,
+          0.9133609533309937
+        ],
+        [
+          0.43882450461387634,
+          0.07798659801483154,
+          1.459972858428955
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        90
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 176,
+      "faces": 176,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IndigoLinen"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0000000298023224
+      ],
+      "regions": []
+    },
+    {
+      "name": "BootCuff_L",
+      "vertices": 20,
+      "triangles": 36,
+      "local_bounds": [
+        [
+          -0.22099998593330383,
+          -0.06767864525318146,
+          0.22331449389457703
+        ],
+        [
+          -0.058999981731176376,
+          0.08627864718437195,
+          0.3847607374191284
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        20
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 36,
+      "faces": 36,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "DarkLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "BootCuff_R",
+      "vertices": 20,
+      "triangles": 36,
+      "local_bounds": [
+        [
+          0.058999981731176376,
+          -0.06767864525318146,
+          0.22331449389457703
+        ],
+        [
+          0.22099998593330383,
+          0.08627864718437195,
+          0.3847607374191284
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        20
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 36,
+      "faces": 36,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "DarkLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Bracer_L",
+      "vertices": 20,
+      "triangles": 36,
+      "local_bounds": [
+        [
+          -0.44334691762924194,
+          -0.05929933488368988,
+          0.9359036087989807
+        ],
+        [
+          -0.3069252669811249,
+          0.06979924440383911,
+          1.0874699354171753
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        20
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 36,
+      "faces": 36,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "DarkLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Bracer_R",
+      "vertices": 20,
+      "triangles": 36,
+      "local_bounds": [
+        [
+          0.3069252669811249,
+          -0.05929933488368988,
+          0.9359036087989807
+        ],
+        [
+          0.44334691762924194,
+          0.06979924440383911,
+          1.0874699354171753
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        20
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 36,
+      "faces": 36,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "DarkLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Brow_L",
+      "vertices": 86,
+      "triangles": 168,
+      "local_bounds": [
+        [
+          -0.07699999958276749,
+          0.08700000494718552,
+          1.7430000305175781
+        ],
+        [
+          -0.01300000213086605,
+          0.12300000339746475,
+          1.7609999179840088
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        86
+      ],
+      "sharp_edges_over_60_degrees": 4,
+      "smooth_faces": 168,
+      "faces": 168,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "DarkLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Brow_R",
+      "vertices": 86,
+      "triangles": 168,
+      "local_bounds": [
+        [
+          0.01300000213086605,
+          0.08700000494718552,
+          1.7430000305175781
+        ],
+        [
+          0.07699999958276749,
+          0.12300000339746475,
+          1.7609999179840088
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        86
+      ],
+      "sharp_edges_over_60_degrees": 4,
+      "smooth_faces": 168,
+      "faces": 168,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "DarkLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "CoatPanel_L",
+      "vertices": 30,
+      "triangles": 56,
+      "local_bounds": [
+        [
+          -0.2449999898672104,
+          -0.15680833160877228,
+          0.7066538333892822
+        ],
+        [
+          0.005000011529773474,
+          0.14256073534488678,
+          0.9900000095367432
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        30
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 56,
+      "faces": 56,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IndigoLinen"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        0.9999999701976776,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "CoatPanel_R",
+      "vertices": 30,
+      "triangles": 56,
+      "local_bounds": [
+        [
+          -0.005000011529773474,
+          -0.15680833160877228,
+          0.7066538333892822
+        ],
+        [
+          0.2449999898672104,
+          0.14256073534488678,
+          0.9900000095367432
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        30
+      ],
+      "sharp_edges_over_60_degrees": 20,
+      "smooth_faces": 56,
+      "faces": 56,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "IndigoLinen"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        0.9999999701976776,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Collar",
+      "vertices": 24,
+      "triangles": 44,
+      "local_bounds": [
+        [
+          -0.13500000536441803,
+          -0.10499999672174454,
+          1.4700000286102295
+        ],
+        [
+          0.13500000536441803,
+          0.10499999672174454,
+          1.5200001001358032
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        24
+      ],
+      "sharp_edges_over_60_degrees": 16,
+      "smooth_faces": 44,
+      "faces": 44,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "DarkLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Ear_L",
+      "vertices": 86,
+      "triangles": 168,
+      "local_bounds": [
+        [
+          -0.14800000190734863,
+          -0.03099999949336052,
+          1.6250001192092896
+        ],
+        [
+          -0.09800000488758087,
+          0.028999999165534973,
+          1.7350000143051147
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        86
+      ],
+      "sharp_edges_over_60_degrees": 0,
+      "smooth_faces": 168,
+      "faces": 168,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "WarmSkin"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Ear_R",
+      "vertices": 86,
+      "triangles": 168,
+      "local_bounds": [
+        [
+          0.09800000488758087,
+          -0.03099999949336052,
+          1.6250001192092896
+        ],
+        [
+          0.14800000190734863,
+          0.028999999165534973,
+          1.7350000143051147
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        86
+      ],
+      "sharp_edges_over_60_degrees": 0,
+      "smooth_faces": 168,
+      "faces": 168,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "WarmSkin"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Eye_L",
+      "vertices": 42,
+      "triangles": 80,
+      "local_bounds": [
+        [
+          -0.06800000369548798,
+          0.0950000062584877,
+          1.7130000591278076
+        ],
+        [
+          -0.02200000174343586,
+          0.12099999934434891,
+          1.7369999885559082
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        42
+      ],
+      "sharp_edges_over_60_degrees": 4,
+      "smooth_faces": 80,
+      "faces": 80,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Eyes"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Eye_R",
+      "vertices": 42,
+      "triangles": 80,
+      "local_bounds": [
+        [
+          0.02200000174343586,
+          0.0950000062584877,
+          1.7130000591278076
+        ],
+        [
+          0.06800000369548798,
+          0.12099999934434891,
+          1.7369999885559082
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        42
+      ],
+      "sharp_edges_over_60_degrees": 4,
+      "smooth_faces": 80,
+      "faces": 80,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Eyes"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Hair_Crown",
+      "vertices": 86,
+      "triangles": 168,
+      "local_bounds": [
+        [
+          -0.13899999856948853,
+          -0.14299999177455902,
+          1.6700000762939453
+        ],
+        [
+          0.13899999856948853,
+          0.09300000220537186,
+          1.9000000953674316
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        86
+      ],
+      "sharp_edges_over_60_degrees": 0,
+      "smooth_faces": 168,
+      "faces": 168,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "ChestnutHair"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Hair_Lock_0",
+      "vertices": 18,
+      "triangles": 32,
+      "local_bounds": [
+        [
+          -0.1369251310825348,
+          0.05849376320838928,
+          1.6995162963867188
+        ],
+        [
+          -0.056549929082393646,
+          0.1450989544391632,
+          1.8286042213439941
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        18
+      ],
+      "sharp_edges_over_60_degrees": 19,
+      "smooth_faces": 32,
+      "faces": 32,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "ChestnutHair"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Hair_Lock_1",
+      "vertices": 18,
+      "triangles": 32,
+      "local_bounds": [
+        [
+          -0.0859251320362091,
+          0.05849376320838928,
+          1.7094005346298218
+        ],
+        [
+          -0.0056617408990859985,
+          0.14495594799518585,
+          1.8286042213439941
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        18
+      ],
+      "sharp_edges_over_60_degrees": 15,
+      "smooth_faces": 32,
+      "faces": 32,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "ChestnutHair"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Hair_Lock_2",
+      "vertices": 18,
+      "triangles": 32,
+      "local_bounds": [
+        [
+          -0.034925129264593124,
+          0.05849376320838928,
+          1.6995162963867188
+        ],
+        [
+          0.04545006901025772,
+          0.1450989544391632,
+          1.8286042213439941
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        18
+      ],
+      "sharp_edges_over_60_degrees": 19,
+      "smooth_faces": 32,
+      "faces": 32,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "ChestnutHair"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Hair_Lock_3",
+      "vertices": 18,
+      "triangles": 32,
+      "local_bounds": [
+        [
+          0.01607486978173256,
+          0.05849376320838928,
+          1.7094005346298218
+        ],
+        [
+          0.09633825719356537,
+          0.14495594799518585,
+          1.8286042213439941
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        18
+      ],
+      "sharp_edges_over_60_degrees": 15,
+      "smooth_faces": 32,
+      "faces": 32,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "ChestnutHair"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Hair_Lock_4",
+      "vertices": 18,
+      "triangles": 32,
+      "local_bounds": [
+        [
+          0.06707486510276794,
+          0.05849376320838928,
+          1.6995162963867188
+        ],
+        [
+          0.1474500596523285,
+          0.1450989544391632,
+          1.8286042213439941
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        18
+      ],
+      "sharp_edges_over_60_degrees": 19,
+      "smooth_faces": 32,
+      "faces": 32,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "ChestnutHair"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "LowerLip",
+      "vertices": 86,
+      "triangles": 168,
+      "local_bounds": [
+        [
+          -0.032999999821186066,
+          0.09300000220537186,
+          1.6010000705718994
+        ],
+        [
+          0.032999999821186066,
+          0.11700000613927841,
+          1.61899995803833
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        86
+      ],
+      "sharp_edges_over_60_degrees": 8,
+      "smooth_faces": 168,
+      "faces": 168,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "DarkLeather"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "Nose",
+      "vertices": 86,
+      "triangles": 168,
+      "local_bounds": [
+        [
+          -0.027000000700354576,
+          0.08900000154972076,
+          1.6290000677108765
+        ],
+        [
+          0.027000000700354576,
+          0.15700000524520874,
+          1.7110000848770142
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        86
+      ],
+      "sharp_edges_over_60_degrees": 0,
+      "smooth_faces": 168,
+      "faces": 168,
+      "custom_normals": true,
+      "uv_layers": [],
+      "uv_triangle_area_sum": 0.0,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "WarmSkin"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "AgedBronze",
+      "channels": {
+        "Base Color": {
+          "linked": false,
+          "value": [
+            0.3400000035762787,
+            0.2199999988079071,
+            0.08500000089406967,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.5
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.550000011920929
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "ChestnutHair",
+      "channels": {
+        "Base Color": {
+          "linked": false,
+          "value": [
+            0.054999999701976776,
+            0.02800000086426735,
+            0.014999999664723873,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.800000011920929
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "DarkLeather",
+      "channels": {
+        "Base Color": {
+          "linked": false,
+          "value": [
+            0.08500000089406967,
+            0.052000001072883606,
+            0.029999999329447746,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.800000011920929
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Eyes",
+      "channels": {
+        "Base Color": {
+          "linked": false,
+          "value": [
+            0.05999999865889549,
+            0.0949999988079071,
+            0.0949999988079071,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.800000011920929
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "IndigoLinen",
+      "channels": {
+        "Base Color": {
+          "linked": false,
+          "value": [
+            0.06499999761581421,
+            0.1599999964237213,
+            0.20999999344348907,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.800000011920929
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "WarmSkin",
+      "channels": {
+        "Base Color": {
+          "linked": false,
+          "value": [
+            0.5600000023841858,
+            0.3400000035762787,
+            0.2199999988079071,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.800000011920929
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    }
+  ],
+  "triangles": 3824,
+  "skeletons": [
+    {
+      "name": "Rig",
+      "bones": [
+        {
+          "name": "Root",
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            3.2174831687825645e-08,
+            0.9399999976158142
+          ]
+        },
+        {
+          "name": "Hips",
+          "head": [
+            0.0,
+            3.2174828135111966e-08,
+            0.9399998784065247
+          ],
+          "tail": [
+            0.0,
+            3.68083412638498e-08,
+            1.0753697156906128
+          ]
+        },
+        {
+          "name": "Spine",
+          "head": [
+            0.0,
+            3.902053435922426e-08,
+            1.1399998664855957
+          ],
+          "tail": [
+            0.0,
+            4.689309918148865e-08,
+            1.369999885559082
+          ]
+        },
+        {
+          "name": "Chest",
+          "head": [
+            0.0,
+            4.689309918148865e-08,
+            1.369999885559082
+          ],
+          "tail": [
+            0.0,
+            5.202738151410813e-08,
+            1.5199998617172241
+          ]
+        },
+        {
+          "name": "Neck",
+          "head": [
+            0.0,
+            5.202737796139445e-08,
+            1.5199998617172241
+          ],
+          "tail": [
+            0.0,
+            5.647708789524586e-08,
+            1.6499998569488525
+          ]
+        },
+        {
+          "name": "Head",
+          "head": [
+            0.0,
+            5.647708789524586e-08,
+            1.6499998569488525
+          ],
+          "tail": [
+            0.0,
+            6.092679427638359e-08,
+            1.779999852180481
+          ]
+        },
+        {
+          "name": "UpperArm.L",
+          "head": [
+            -0.2399999350309372,
+            7.50238413615989e-08,
+            1.4299999475479126
+          ],
+          "tail": [
+            -0.3600001037120819,
+            3.537711990020398e-08,
+            1.1599998474121094
+          ]
+        },
+        {
+          "name": "Forearm.L",
+          "head": [
+            -0.35999995470046997,
+            5.1791246846732975e-09,
+            1.1599998474121094
+          ],
+          "tail": [
+            -0.3999999761581421,
+            0.014999950304627419,
+            0.9200001955032349
+          ]
+        },
+        {
+          "name": "Hand.L",
+          "head": [
+            -0.40000006556510925,
+            0.014999904669821262,
+            0.9200003147125244
+          ],
+          "tail": [
+            -0.4000001549720764,
+            0.09553007781505585,
+            0.6899139881134033
+          ]
+        },
+        {
+          "name": "UpperArm.R",
+          "head": [
+            0.2399999350309372,
+            7.50238413615989e-08,
+            1.4299999475479126
+          ],
+          "tail": [
+            0.3600001037120819,
+            3.537711990020398e-08,
+            1.1599998474121094
+          ]
+        },
+        {
+          "name": "Forearm.R",
+          "head": [
+            0.35999995470046997,
+            5.1791246846732975e-09,
+            1.1599998474121094
+          ],
+          "tail": [
+            0.3999999761581421,
+            0.014999950304627419,
+            0.9200001955032349
+          ]
+        },
+        {
+          "name": "Hand.R",
+          "head": [
+            0.40000006556510925,
+            0.014999904669821262,
+            0.9200003147125244
+          ],
+          "tail": [
+            0.4000001549720764,
+            0.09553007781505585,
+            0.6899139881134033
+          ]
+        },
+        {
+          "name": "Thigh.L",
+          "head": [
+            -0.13499999046325684,
+            3.763938849488113e-08,
+            0.9499998688697815
+          ],
+          "tail": [
+            -0.13999998569488525,
+            0.015000024810433388,
+            0.529999852180481
+          ]
+        },
+        {
+          "name": "Shin.L",
+          "head": [
+            -0.14000000059604645,
+            0.015000022947788239,
+            0.5299999713897705
+          ],
+          "tail": [
+            -0.14000000059604645,
+            3.166496753692627e-08,
+            0.13999992609024048
+          ]
+        },
+        {
+          "name": "Foot.L",
+          "head": [
+            -0.13999998569488525,
+            3.4458938813486384e-08,
+            0.14000001549720764
+          ],
+          "tail": [
+            -0.14000004529953003,
+            0.3738285005092621,
+            0.027851440012454987
+          ]
+        },
+        {
+          "name": "Thigh.R",
+          "head": [
+            0.13499999046325684,
+            3.763938849488113e-08,
+            0.9499998688697815
+          ],
+          "tail": [
+            0.13999998569488525,
+            0.015000024810433388,
+            0.529999852180481
+          ]
+        },
+        {
+          "name": "Shin.R",
+          "head": [
+            0.14000000059604645,
+            0.015000022947788239,
+            0.5299999713897705
+          ],
+          "tail": [
+            0.14000000059604645,
+            3.166496753692627e-08,
+            0.13999992609024048
+          ]
+        },
+        {
+          "name": "Foot.R",
+          "head": [
+            0.13999998569488525,
+            3.4458938813486384e-08,
+            0.14000001549720764
+          ],
+          "tail": [
+            0.14000004529953003,
+            0.3738285005092621,
+            0.027851440012454987
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    "attack_01",
+    "attack_02",
+    "attack_03",
+    "death",
+    "hit",
+    "idle",
+    "run",
+    "skill_guard",
+    "skill_plant",
+    "skill_riposte",
+    "skill_step"
+  ],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\traveler.glb",
+  "seconds": 0.324
+}

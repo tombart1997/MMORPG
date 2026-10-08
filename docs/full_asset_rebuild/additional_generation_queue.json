@@ -1,0 +1,58 @@
+{
+  "pine": {
+    "asset_id": "e6a4f11d5fab",
+    "job_id": "4cca75259da9",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\e6a4f11d5fab\\generated\\4cca75259da9\\source.glb"
+  },
+  "house": {
+    "asset_id": "950c34e45163",
+    "job_id": "834f0186fb4b",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\950c34e45163\\generated\\834f0186fb4b\\source.glb"
+  },
+  "jade": {
+    "asset_id": "be16981c9505",
+    "job_id": "2e11fbc3b1a8",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\be16981c9505\\generated\\2e11fbc3b1a8\\source.glb"
+  },
+  "mossling": {
+    "asset_id": "136fe89be080",
+    "job_id": "88af0165aa6b",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\136fe89be080\\generated\\88af0165aa6b\\source.glb"
+  },
+  "stonekin": {
+    "asset_id": "1c12adf6824a",
+    "job_id": "b311efa3ced5",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\1c12adf6824a\\generated\\b311efa3ced5\\source.glb"
+  },
+  "wisp": {
+    "asset_id": "7c2a1cac1bee",
+    "job_id": "ad5c818eefe0",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\7c2a1cac1bee\\generated\\ad5c818eefe0\\source.glb"
+  },
+  "bandit": {
+    "asset_id": "63b3ab43adbb",
+    "job_id": "f8da9b81b3b1",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\63b3ab43adbb\\generated\\f8da9b81b3b1\\source.glb"
+  }
+}

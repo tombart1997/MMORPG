@@ -1,0 +1,49 @@
+{
+  "key": "mob_road_bandit",
+  "forge_asset_id": "3da27c1996c8",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\3da27c1996c8\\generated\\b5ba7b86e5ce\\source.glb",
+  "rig_source": "blender/characters/warden_high.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\road_bandit.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_road_bandit.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.485548198223114,
+      -0.210485577583313,
+      0.006000000052154064
+    ],
+    [
+      0.485548198223114,
+      0.2251063883304596,
+      1.899399995803833
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 25620,
+      "after": 13998,
+      "extent_drift": 0.00024819374084472656
+    }
+  ],
+  "bones": 18,
+  "clips": [
+    "run",
+    "hit",
+    "death",
+    "skill_guard",
+    "skill_step",
+    "skill_plant",
+    "skill_riposte",
+    "idle",
+    "longsword_idle",
+    "attack_01",
+    "longsword_01",
+    "attack_02",
+    "longsword_02",
+    "attack_03",
+    "longsword_03",
+    "longsword_run"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

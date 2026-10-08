@@ -1,0 +1,32 @@
+{
+  "key": "shrub_reference",
+  "forge_asset_id": "825ead3127e3",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\825ead3127e3\\generated\\324ddd579e3c\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\world_kit\\shrub.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\shrub_reference.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -1.1679482460021973,
+      -1.1013002395629883,
+      -0.02013685740530491
+    ],
+    [
+      1.0804228782653809,
+      1.1490155458450317,
+      1.1720823049545288
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 38510,
+      "after": 1600,
+      "extent_drift": 0.04977224192460833
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

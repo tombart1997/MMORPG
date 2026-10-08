@@ -1,0 +1,1606 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "WardenHighSkin",
+      "vertices": 173558,
+      "triangles": 338124,
+      "local_bounds": [
+        [
+          -0.48554831743240356,
+          -0.21048548817634583,
+          0.005999892950057983
+        ],
+        [
+          0.48554831743240356,
+          0.2251063883304596,
+          1.8994001150131226
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 100,
+      "welded_boundary_edges": 586,
+      "welded_nonmanifold_edges": 172,
+      "connected_components_vertices": [
+        71349,
+        4654,
+        2688,
+        2176,
+        1968,
+        1968,
+        1968,
+        1968,
+        1730,
+        1730,
+        1445,
+        1445,
+        1298,
+        1298,
+        1218,
+        1218,
+        1122,
+        1122,
+        1056,
+        1056,
+        1056,
+        1056,
+        922,
+        869,
+        800,
+        800,
+        800,
+        800,
+        796,
+        796,
+        796,
+        796,
+        796,
+        796,
+        774,
+        774,
+        774,
+        774,
+        774,
+        774,
+        774,
+        666,
+        650,
+        650,
+        650,
+        650,
+        610,
+        610,
+        576,
+        576,
+        576,
+        576,
+        576,
+        518,
+        518,
+        518,
+        518,
+        518,
+        518,
+        518,
+        518,
+        518,
+        432,
+        425,
+        425,
+        401,
+        362,
+        362,
+        362,
+        362,
+        362,
+        362,
+        326,
+        326,
+        317,
+        317,
+        284,
+        284,
+        266,
+        264,
+        264,
+        264,
+        264,
+        248,
+        248,
+        248,
+        248,
+        248,
+        248,
+        248,
+        248,
+        208,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        192,
+        192,
+        192,
+        168,
+        168,
+        168,
+        168,
+        152,
+        152,
+        144,
+        144,
+        128,
+        120,
+        114,
+        114,
+        114,
+        114,
+        114,
+        114,
+        114,
+        114,
+        114,
+        114,
+        114,
+        114,
+        114,
+        114,
+        114,
+        114,
+        96,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        76,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        62,
+        62,
+        60,
+        60,
+        56,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "sharp_edges_over_60_degrees": 8846,
+      "smooth_faces": 338118,
+      "faces": 338124,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 41.15909324867347,
+      "collapsed_uv_triangles": 137603,
+      "materials": [
+        "Warden_Undercloth",
+        "Warden_Steel",
+        "Warden_Brass",
+        "Warden_DarkSteel",
+        "Warden_Leather",
+        "Warden_Skin",
+        "Warden_EyeWhite",
+        "Warden_Iris",
+        "Warden_Pupil",
+        "Warden_JadeIvory",
+        "Warden_Cloth",
+        "Warden_JadeCinnabar",
+        "Warden_JadeStone",
+        "Warden_Hair",
+        "Warden_HairHighlight",
+        "Warden_FaceCrease"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        0.999999925494194,
+        1.0000000596046448
+      ],
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Warden_Brass",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.3199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.699999988079071
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Warden_Cloth",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.9200000166893005
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.07999999821186066
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Warden_DarkSteel",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.4300000071525574
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.44999998807907104
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Warden_EyeWhite",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.2199999988079071
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Warden_FaceCrease",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8500000238418579
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Warden_Hair",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Warden_HairHighlight",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Warden_Iris",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.25
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Warden_JadeCinnabar",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.6399999856948853
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Warden_JadeIvory",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.7200000286102295
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Warden_JadeStone",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.25999999046325684
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.18000000715255737
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Warden_Leather",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.7799999713897705
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "Warden_Leather_Surface",
+          "resolution": [
+            512,
+            512
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        }
+      ]
+    },
+    {
+      "name": "Warden_Pupil",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.23000000417232513
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Warden_Skin",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.6800000071525574
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Warden_Steel",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.4300000071525574
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.47999998927116394
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Warden_Undercloth",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.9200000166893005
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    }
+  ],
+  "triangles": 338124,
+  "skeletons": [
+    {
+      "name": "WardenRig",
+      "bones": [
+        {
+          "name": "Root",
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            3.2174831687825645e-08,
+            0.9399999976158142
+          ]
+        },
+        {
+          "name": "Hips",
+          "head": [
+            0.0,
+            3.2174828135111966e-08,
+            0.9399998784065247
+          ],
+          "tail": [
+            0.0,
+            3.7130977403876386e-08,
+            1.084795594215393
+          ]
+        },
+        {
+          "name": "Spine",
+          "head": [
+            0.0,
+            3.902053435922426e-08,
+            1.1399998664855957
+          ],
+          "tail": [
+            0.0,
+            4.689309918148865e-08,
+            1.369999885559082
+          ]
+        },
+        {
+          "name": "Chest",
+          "head": [
+            0.0,
+            4.689309918148865e-08,
+            1.369999885559082
+          ],
+          "tail": [
+            0.0,
+            5.1931781541725286e-08,
+            1.5172069072723389
+          ]
+        },
+        {
+          "name": "Neck",
+          "head": [
+            0.0,
+            5.1931781541725286e-08,
+            1.5172069072723389
+          ],
+          "tail": [
+            0.0,
+            5.427722271633684e-08,
+            1.5857298374176025
+          ]
+        },
+        {
+          "name": "Head",
+          "head": [
+            0.0,
+            5.427722271633684e-08,
+            1.5857298374176025
+          ],
+          "tail": [
+            0.0,
+            5.662266389094839e-08,
+            1.6542527675628662
+          ]
+        },
+        {
+          "name": "UpperArm.L",
+          "head": [
+            -0.3144000470638275,
+            6.012268016775124e-08,
+            1.429999828338623
+          ],
+          "tail": [
+            -0.40129756927490234,
+            5.2498705827019876e-08,
+            1.1599998474121094
+          ]
+        },
+        {
+          "name": "Forearm.L",
+          "head": [
+            -0.40129753947257996,
+            2.5287716809430094e-08,
+            1.1599998474121094
+          ],
+          "tail": [
+            -0.4280001223087311,
+            0.01499998476356268,
+            0.9200000762939453
+          ]
+        },
+        {
+          "name": "Hand.L",
+          "head": [
+            -0.42800015211105347,
+            0.01499996054917574,
+            0.9200001358985901
+          ],
+          "tail": [
+            -0.42800024151802063,
+            0.09492690116167068,
+            0.6916372179985046
+          ]
+        },
+        {
+          "name": "UpperArm.R",
+          "head": [
+            0.3144000470638275,
+            6.012268016775124e-08,
+            1.429999828338623
+          ],
+          "tail": [
+            0.40129756927490234,
+            5.2498705827019876e-08,
+            1.1599998474121094
+          ]
+        },
+        {
+          "name": "Forearm.R",
+          "head": [
+            0.40129753947257996,
+            2.5287716809430094e-08,
+            1.1599998474121094
+          ],
+          "tail": [
+            0.4280001223087311,
+            0.01499998476356268,
+            0.9200000762939453
+          ]
+        },
+        {
+          "name": "Hand.R",
+          "head": [
+            0.42800015211105347,
+            0.01499996054917574,
+            0.9200001358985901
+          ],
+          "tail": [
+            0.42800024151802063,
+            0.09492690116167068,
+            0.6916372179985046
+          ]
+        },
+        {
+          "name": "Thigh.L",
+          "head": [
+            -0.14445000886917114,
+            2.7860501461418608e-08,
+            0.9499998688697815
+          ],
+          "tail": [
+            -0.14980000257492065,
+            0.014999969862401485,
+            0.529999852180481
+          ]
+        },
+        {
+          "name": "Shin.L",
+          "head": [
+            -0.14980001747608185,
+            0.014999966137111187,
+            0.5299999117851257
+          ],
+          "tail": [
+            -0.14980001747608185,
+            -2.9802322387695312e-08,
+            0.1399998664855957
+          ]
+        },
+        {
+          "name": "Foot.L",
+          "head": [
+            -0.14980000257492065,
+            -2.607702853651972e-08,
+            0.14000001549720764
+          ],
+          "tail": [
+            -0.14980007708072662,
+            0.3738284111022949,
+            0.027851440012454987
+          ]
+        },
+        {
+          "name": "Thigh.R",
+          "head": [
+            0.14445000886917114,
+            2.7860501461418608e-08,
+            0.9499998688697815
+          ],
+          "tail": [
+            0.14980000257492065,
+            0.014999969862401485,
+            0.529999852180481
+          ]
+        },
+        {
+          "name": "Shin.R",
+          "head": [
+            0.14980001747608185,
+            0.014999966137111187,
+            0.5299999117851257
+          ],
+          "tail": [
+            0.14980001747608185,
+            -2.9802322387695312e-08,
+            0.1399998664855957
+          ]
+        },
+        {
+          "name": "Foot.R",
+          "head": [
+            0.14980000257492065,
+            -2.607702853651972e-08,
+            0.14000001549720764
+          ],
+          "tail": [
+            0.14980007708072662,
+            0.3738284111022949,
+            0.027851440012454987
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    "attack_01",
+    "attack_02",
+    "attack_03",
+    "death",
+    "hit",
+    "idle",
+    "longsword_01",
+    "longsword_02",
+    "longsword_03",
+    "longsword_idle",
+    "longsword_run",
+    "run",
+    "skill_guard",
+    "skill_plant",
+    "skill_riposte",
+    "skill_step"
+  ],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\characters\\warden_high.glb",
+  "seconds": 6.066
+}

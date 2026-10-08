@@ -1,0 +1,47 @@
+{
+  "key": "mob_grown",
+  "forge_asset_id": "be69deb13961",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\be69deb13961\\generated\\95365a06a514\\source.glb",
+  "rig_source": "blender/characters/briarling.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\grown.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_grown.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.7038836479187012,
+      -0.23539447784423828,
+      -0.03856144845485687
+    ],
+    [
+      0.7038836479187012,
+      0.6009097099304199,
+      1.920493245124817
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 297484,
+      "after": 13998,
+      "extent_drift": 0.007358343774472557
+    }
+  ],
+  "bones": 18,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "silhouette_cleanup": {
+    "removed_vertices": 144,
+    "painted_ground_trim": true
+  },
+  "animation_skin_refinement": {
+    "constrained_limb_vertices": 1702,
+    "removed_bridge_faces": 403,
+    "reason": "Opened run views revealed lower-limb sheets from floor geometry and mixed limb influence."
+  }
+}

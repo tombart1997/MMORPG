@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_ironhide_boar",
+      "before": 14000,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11995,
+      "quality": {
+        "surface_max_fraction": 0.0023478950983491895,
+        "surface_p95_fraction": 0.00024194628360511746,
+        "bounds_drift_fraction": 0.0012607637567439815,
+        "nonmanifold_edges": 0,
+        "samples": 6978
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.0025450110321684964,
+          "p95_fraction": 0.00024969146118488674
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.00576193662854973,
+          "p95_fraction": 0.0002457178712791779
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.005888107490076274,
+          "p95_fraction": 0.00026550921700694907
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.00980526423733907,
+          "p95_fraction": 0.0002647752690746358
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.0023569972036811696,
+          "p95_fraction": 0.00024613452694402407
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11995,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

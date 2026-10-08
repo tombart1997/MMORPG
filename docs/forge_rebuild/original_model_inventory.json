@@ -1,0 +1,1304 @@
+{
+  "captured_on": "2026-10-03",
+  "models": [
+    {
+      "path": "game/assets/benchmark/briarwake.glb",
+      "triangles": 5490,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "Core_0Mesh",
+        "Core_1Mesh",
+        "Core_2Mesh",
+        "RibMainMesh",
+        "RibMainMesh.001",
+        "RibMainMesh.002",
+        "RibMainMesh.003",
+        "RibMainMesh.004",
+        "RibMainMesh.005",
+        "RibMainMesh.006"
+      ],
+      "materials": [
+        "WakeAmber",
+        "FractureBark",
+        "FractureSplinter"
+      ]
+    },
+    {
+      "path": "game/assets/benchmark/fallen_wood.glb",
+      "triangles": 606,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "FallenSplitTrunkMesh"
+      ],
+      "materials": [
+        "Deadwood"
+      ]
+    },
+    {
+      "path": "game/assets/benchmark/fern.glb",
+      "triangles": 648,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "FernPinnaMesh"
+      ],
+      "materials": [
+        "UnderstoryLeaves"
+      ]
+    },
+    {
+      "path": "game/assets/benchmark/leaf_litter.glb",
+      "triangles": 48,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "CurledOakLeafMesh"
+      ],
+      "materials": [
+        "FallenLeaf"
+      ]
+    },
+    {
+      "path": "game/assets/benchmark/rock_0.glb",
+      "triangles": 570,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "SplitSlateMesh"
+      ],
+      "materials": [
+        "BlueSlate",
+        "SlateLichen"
+      ]
+    },
+    {
+      "path": "game/assets/benchmark/rock_1.glb",
+      "triangles": 846,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "SplitSlateMesh"
+      ],
+      "materials": [
+        "BlueSlate",
+        "SlateLichen"
+      ]
+    },
+    {
+      "path": "game/assets/benchmark/rock_2.glb",
+      "triangles": 540,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "SplitSlateMesh"
+      ],
+      "materials": [
+        "BlueSlate",
+        "SlateLichen"
+      ]
+    },
+    {
+      "path": "game/assets/benchmark/sedge.glb",
+      "triangles": 92,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "SedgeBladeMesh"
+      ],
+      "materials": [
+        "UnderstoryLeaves"
+      ]
+    },
+    {
+      "path": "game/assets/benchmark/shrub_briar.glb",
+      "triangles": 912,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ShrubStemMesh"
+      ],
+      "materials": [
+        "UnderstoryWood",
+        "UnderstoryLeaves"
+      ]
+    },
+    {
+      "path": "game/assets/benchmark/shrub_laurel.glb",
+      "triangles": 1368,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ShrubStemMesh"
+      ],
+      "materials": [
+        "UnderstoryWood",
+        "UnderstoryLeaves"
+      ]
+    },
+    {
+      "path": "game/assets/benchmark/tree_bent.glb",
+      "triangles": 18010,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ButtressedTrunkMesh"
+      ],
+      "materials": [
+        "GroveBark",
+        "GroveLeaves"
+      ]
+    },
+    {
+      "path": "game/assets/benchmark/tree_fork.glb",
+      "triangles": 18010,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ButtressedTrunkMesh"
+      ],
+      "materials": [
+        "GroveBark",
+        "GroveLeaves"
+      ]
+    },
+    {
+      "path": "game/assets/benchmark/tree_wide.glb",
+      "triangles": 18010,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ButtressedTrunkMesh"
+      ],
+      "materials": [
+        "GroveBark",
+        "GroveLeaves"
+      ]
+    },
+    {
+      "path": "game/assets/characters/briarling.glb",
+      "triangles": 22976,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Foot.L",
+        "Foot.R",
+        "Forearm.L",
+        "Forearm.R",
+        "Hand.L",
+        "Hand.R",
+        "Head",
+        "Hips",
+        "Neck",
+        "Root",
+        "Shin.L",
+        "Shin.R",
+        "Spine",
+        "Thigh.L",
+        "Thigh.R",
+        "UpperArm.L",
+        "UpperArm.R"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death"
+      ],
+      "meshes": [
+        "RootTorsoMesh.001"
+      ],
+      "materials": [
+        "Jade_Bark",
+        "Jade_BarkShadow",
+        "Jade_AntlerWood",
+        "Jade_SpiritEyes",
+        "Jade_ForestJade",
+        "Jade_Gold"
+      ]
+    },
+    {
+      "path": "game/assets/characters/jade_ironback_mantle.glb",
+      "triangles": 576,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "IronbackLeafMesh",
+        "IronbackLeafMesh.001",
+        "IronbackLeafMesh.002",
+        "IronbackLeafMesh.003",
+        "IronbackLeafMesh.004",
+        "IronbackLeafMesh.005",
+        "IronbackLeafMesh.006",
+        "IronbackLeafMesh.007",
+        "MantleHornMesh",
+        "MantleHornMesh.001",
+        "MantlePipingMesh",
+        "MantlePipingMesh.001",
+        "MantlePipingMesh.002",
+        "MantlePipingMesh.003",
+        "MantlePipingMesh.004",
+        "MantlePipingMesh.005",
+        "MantlePipingMesh.006",
+        "MantlePipingMesh.007"
+      ],
+      "materials": [
+        "IronbackJade",
+        "IronbackGold"
+      ]
+    },
+    {
+      "path": "game/assets/characters/jade_sword.glb",
+      "triangles": 7212,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "JianBladeMesh"
+      ],
+      "materials": [
+        "JadeBlade",
+        "JadeSwordFuller",
+        "JadeSwordWrap",
+        "JadeSwordGold",
+        "JadeSwordStone"
+      ]
+    },
+    {
+      "path": "game/assets/characters/townfolk_kit.glb",
+      "triangles": 21106,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Foot.L",
+        "Foot.R",
+        "Forearm.L",
+        "Forearm.R",
+        "Hand.L",
+        "Hand.R",
+        "Head",
+        "Hips",
+        "Neck",
+        "Root",
+        "Shin.L",
+        "Shin.R",
+        "Spine",
+        "Thigh.L",
+        "Thigh.R",
+        "UpperArm.L",
+        "UpperArm.R"
+      ],
+      "clips": [
+        "idle",
+        "keeper_idle",
+        "smith_idle"
+      ],
+      "meshes": [
+        "NeckMesh.001",
+        "NeckMesh",
+        "WornApronMesh",
+        "PleatedKeeperRobeMesh",
+        "SplitTunicMesh",
+        "SatchelMesh.001",
+        "SatchelMesh.002",
+        "KeeperShawlMesh",
+        "SatchelMesh",
+        "ShapedBeardMesh",
+        "HairCapMesh.001",
+        "HairCapMesh",
+        "HairCapMesh.002",
+        "ShapedFaceMesh.001",
+        "ShapedFaceMesh"
+      ],
+      "materials": [
+        "TownfolkPainted"
+      ]
+    },
+    {
+      "path": "game/assets/characters/traveler.glb",
+      "triangles": 3824,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Foot.L",
+        "Foot.R",
+        "Forearm.L",
+        "Forearm.R",
+        "Hand.L",
+        "Hand.R",
+        "Head",
+        "Hips",
+        "Neck",
+        "Root",
+        "Shin.L",
+        "Shin.R",
+        "Spine",
+        "Thigh.L",
+        "Thigh.R",
+        "UpperArm.L",
+        "UpperArm.R"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death",
+        "attack_02",
+        "attack_03",
+        "skill_guard",
+        "skill_step",
+        "skill_plant",
+        "skill_riposte"
+      ],
+      "meshes": [
+        "BeltMesh",
+        "BeltClaspMesh",
+        "Body_Boot_LMesh",
+        "Body_Boot_RMesh",
+        "Body_Hand_LMesh",
+        "Body_Hand_RMesh",
+        "Body_HeadMesh",
+        "Body_NeckMesh",
+        "Body_Thigh_LMesh",
+        "Body_Thigh_RMesh",
+        "Body_TunicMesh",
+        "Body_UpperArm_LMesh",
+        "Body_UpperArm_RMesh",
+        "BootCuff_LMesh",
+        "BootCuff_RMesh",
+        "Bracer_LMesh",
+        "Bracer_RMesh",
+        "Brow_LMesh",
+        "Brow_RMesh",
+        "CoatPanel_LMesh",
+        "CoatPanel_RMesh",
+        "CollarMesh",
+        "Ear_LMesh",
+        "Ear_RMesh",
+        "Eye_LMesh",
+        "Eye_RMesh",
+        "Hair_CrownMesh",
+        "Hair_Lock_0Mesh",
+        "Hair_Lock_1Mesh",
+        "Hair_Lock_2Mesh",
+        "Hair_Lock_3Mesh",
+        "Hair_Lock_4Mesh",
+        "LowerLipMesh",
+        "NoseMesh"
+      ],
+      "materials": [
+        "DarkLeather",
+        "AgedBronze",
+        "WarmSkin",
+        "IndigoLinen",
+        "Eyes",
+        "ChestnutHair"
+      ]
+    },
+    {
+      "path": "game/assets/characters/traveler_guard.glb",
+      "triangles": 164,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "VestStrapMesh"
+      ],
+      "materials": [
+        "GuardHarness",
+        "GuardSeal"
+      ]
+    },
+    {
+      "path": "game/assets/characters/turnwarden_v2.glb",
+      "triangles": 4604,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Foot.L",
+        "Foot.R",
+        "Forearm.L",
+        "Forearm.R",
+        "Hand.L",
+        "Hand.R",
+        "Head",
+        "Hips",
+        "Neck",
+        "Root",
+        "Shin.L",
+        "Shin.R",
+        "Spine",
+        "Thigh.L",
+        "Thigh.R",
+        "UpperArm.L",
+        "UpperArm.R"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death",
+        "attack_02",
+        "attack_03",
+        "skill_guard",
+        "skill_step",
+        "skill_plant",
+        "skill_riposte"
+      ],
+      "meshes": [
+        "TW_UnderTunicMesh"
+      ],
+      "materials": [
+        "TW_ClothDark",
+        "TW_Skin",
+        "TW_SkinShadow",
+        "TW_Eye",
+        "TW_Hair",
+        "WardenBlackenedSteel",
+        "WardenSteel",
+        "WardenBrass",
+        "WardenLeather",
+        "WardenOxblood"
+      ]
+    },
+    {
+      "path": "game/assets/characters/turnwarden_v2_sword.glb",
+      "triangles": 550,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "TW_BladeMesh"
+      ],
+      "materials": [
+        "TW_SwordSteel_Forged",
+        "TW_SwordEdge_Forged",
+        "TW_SwordGrip_Forged",
+        "TW_SwordDark_Forged",
+        "TW_SwordBrass_Forged"
+      ]
+    },
+    {
+      "path": "game/assets/characters/warden_high.glb",
+      "triangles": 338124,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Foot.L",
+        "Foot.R",
+        "Forearm.L",
+        "Forearm.R",
+        "Hand.L",
+        "Hand.R",
+        "Head",
+        "Hips",
+        "Neck",
+        "Root",
+        "Shin.L",
+        "Shin.R",
+        "Spine",
+        "Thigh.L",
+        "Thigh.R",
+        "UpperArm.L",
+        "UpperArm.R"
+      ],
+      "clips": [
+        "run",
+        "hit",
+        "death",
+        "skill_guard",
+        "skill_step",
+        "skill_plant",
+        "skill_riposte",
+        "idle",
+        "longsword_idle",
+        "attack_01",
+        "longsword_01",
+        "attack_02",
+        "longsword_02",
+        "attack_03",
+        "longsword_03",
+        "longsword_run"
+      ],
+      "meshes": [
+        "QuiltedTorsoMesh.001"
+      ],
+      "materials": [
+        "Warden_Undercloth",
+        "Warden_Steel",
+        "Warden_Brass",
+        "Warden_DarkSteel",
+        "Warden_Leather",
+        "Warden_Skin",
+        "Warden_EyeWhite",
+        "Warden_Iris",
+        "Warden_Pupil",
+        "Warden_JadeIvory",
+        "Warden_Cloth",
+        "Warden_JadeCinnabar",
+        "Warden_JadeStone",
+        "Warden_Hair",
+        "Warden_HairHighlight",
+        "Warden_FaceCrease"
+      ]
+    },
+    {
+      "path": "game/assets/characters/warden_insignia.glb",
+      "triangles": 1840,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "SunSealMesh.002"
+      ],
+      "materials": [
+        "Warden_Brass"
+      ]
+    },
+    {
+      "path": "game/assets/characters/warden_sword.glb",
+      "triangles": 8796,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "Sword_Blade_Mesh.001"
+      ],
+      "materials": [
+        "Sword_Steel",
+        "Sword_HonedEdge",
+        "Sword_Fuller",
+        "Sword_Leather",
+        "Sword_BlackenedSteel",
+        "Sword_Brass",
+        "Sword_Garnet",
+        "Sword_LeatherWrap"
+      ]
+    },
+    {
+      "path": "game/assets/characters/wayfarer_sword.glb",
+      "triangles": 356,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "BladeMesh",
+        "CrossguardMesh",
+        "GripMesh",
+        "GripWrap_0Mesh",
+        "GripWrap_1Mesh",
+        "GripWrap_2Mesh",
+        "GripWrap_3Mesh",
+        "GripWrap_4Mesh",
+        "GripWrap_5Mesh",
+        "PommelMesh"
+      ],
+      "materials": [
+        "SwordSteel",
+        "SwordEdge",
+        "SwordBronze",
+        "WrappedGrip"
+      ]
+    },
+    {
+      "path": "game/assets/creatures/boar.glb",
+      "triangles": 24256,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "FrontLower.L",
+        "FrontLower.R",
+        "FrontUpper.L",
+        "FrontUpper.R",
+        "Head",
+        "HindLower.L",
+        "HindLower.R",
+        "HindUpper.L",
+        "HindUpper.R",
+        "Hips",
+        "Root",
+        "Tail"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death"
+      ],
+      "meshes": [
+        "Crown_AntlerMesh",
+        "BodyMesh"
+      ],
+      "materials": [
+        "Jade_Ivory",
+        "Jade_Gold",
+        "Jade_Body",
+        "Jade_Mane",
+        "Jade_Crevices",
+        "Jade_SpiritEyes",
+        "Jade_CarvedJade"
+      ]
+    },
+    {
+      "path": "game/assets/creatures/spider.glb",
+      "triangles": 16680,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Head",
+        "Hips",
+        "Leg0Lower.L",
+        "Leg0Lower.R",
+        "Leg0Upper.L",
+        "Leg0Upper.R",
+        "Leg1Lower.L",
+        "Leg1Lower.R",
+        "Leg1Upper.L",
+        "Leg1Upper.R",
+        "Leg2Lower.L",
+        "Leg2Lower.R",
+        "Leg2Upper.L",
+        "Leg2Upper.R",
+        "Leg3Lower.L",
+        "Leg3Lower.R",
+        "Leg3Upper.L",
+        "Leg3Upper.R",
+        "Root"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death"
+      ],
+      "meshes": [
+        "Crown_AntennaMesh",
+        "AbdomenMesh"
+      ],
+      "materials": [
+        "Jade_Gold",
+        "Jade_CarvedJade",
+        "Jade_Mane",
+        "Jade_Ivory",
+        "Jade_SpiritEyes"
+      ]
+    },
+    {
+      "path": "game/assets/creatures/stonekin.glb",
+      "triangles": 17040,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Foot.L",
+        "Foot.R",
+        "Forearm.L",
+        "Forearm.R",
+        "Hand.L",
+        "Hand.R",
+        "Head",
+        "Hips",
+        "Neck",
+        "Root",
+        "Shin.L",
+        "Shin.R",
+        "Spine",
+        "Thigh.L",
+        "Thigh.R",
+        "UpperArm.L",
+        "UpperArm.R"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death"
+      ],
+      "meshes": [
+        "Crown_WingMesh",
+        "TorsoMesh"
+      ],
+      "materials": [
+        "Jade_Gold",
+        "Jade_CarvedJade",
+        "Jade_Mane",
+        "Jade_SpiritEyes",
+        "Jade_Crevices"
+      ]
+    },
+    {
+      "path": "game/assets/creatures/wisp.glb",
+      "triangles": 9324,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "Head",
+        "Hips",
+        "Root"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death"
+      ],
+      "meshes": [
+        "Crown_LotusWingMesh",
+        "LanternSoulMesh"
+      ],
+      "materials": [
+        "Jade_Gold",
+        "Jade_SpiritEyes",
+        "Jade_CarvedJade",
+        "Jade_CinnabarSilk"
+      ]
+    },
+    {
+      "path": "game/assets/creatures/wolf.glb",
+      "triangles": 24872,
+      "skins": 1,
+      "bones": [
+        "Chest",
+        "FrontLower.L",
+        "FrontLower.R",
+        "FrontUpper.L",
+        "FrontUpper.R",
+        "Head",
+        "HindLower.L",
+        "HindLower.R",
+        "HindUpper.L",
+        "HindUpper.R",
+        "Hips",
+        "Root",
+        "Tail"
+      ],
+      "clips": [
+        "idle",
+        "run",
+        "attack_01",
+        "hit",
+        "death"
+      ],
+      "meshes": [
+        "Crown_AntlerMesh",
+        "BodyMesh"
+      ],
+      "materials": [
+        "Jade_Ivory",
+        "Jade_Gold",
+        "Jade_Body",
+        "Jade_Mane",
+        "Jade_Crevices",
+        "Jade_SpiritEyes",
+        "Jade_CarvedJade"
+      ]
+    },
+    {
+      "path": "game/assets/mounts/trail_horse.glb",
+      "triangles": 37424,
+      "skins": 1,
+      "bones": [
+        "Body",
+        "Ear.L",
+        "Ear.R",
+        "Fore.L.Ankle",
+        "Fore.L.Hoof",
+        "Fore.L.Lower",
+        "Fore.L.Upper",
+        "Fore.R.Ankle",
+        "Fore.R.Hoof",
+        "Fore.R.Lower",
+        "Fore.R.Upper",
+        "Head",
+        "Hind.L.Ankle",
+        "Hind.L.Hoof",
+        "Hind.L.Lower",
+        "Hind.L.Upper",
+        "Hind.R.Ankle",
+        "Hind.R.Hoof",
+        "Hind.R.Lower",
+        "Hind.R.Upper",
+        "Neck",
+        "Root",
+        "Tail"
+      ],
+      "clips": [
+        "idle",
+        "walk",
+        "trot",
+        "canter"
+      ],
+      "meshes": [
+        "Circle"
+      ],
+      "materials": [
+        "Horse_BayCoat",
+        "Horse_HoofHorn",
+        "Horse_Eye",
+        "Horse_DarkPoints",
+        "Horse_SaddleLeather",
+        "Horse_TackBrass",
+        "Horse_ManeTail",
+        "Horse_WovenPad",
+        "Horse_Blaze"
+      ]
+    },
+    {
+      "path": "game/assets/weapons/briarsteel.glb",
+      "triangles": 5440,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ContinuousForgedBlade.002"
+      ],
+      "materials": [
+        "Forged_briarsteel_Steel",
+        "Forged_briarsteel_HonedEdge",
+        "Forged_briarsteel_RecessedFuller",
+        "Forged_briarsteel_Grip",
+        "Forged_briarsteel_Iron",
+        "Forged_briarsteel_Fittings"
+      ]
+    },
+    {
+      "path": "game/assets/weapons/cairnwarden.glb",
+      "triangles": 5332,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ContinuousForgedBlade.003"
+      ],
+      "materials": [
+        "Forged_cairnwarden_Steel",
+        "Forged_cairnwarden_HonedEdge",
+        "Forged_cairnwarden_RecessedFuller",
+        "Forged_cairnwarden_Grip",
+        "Forged_cairnwarden_Iron",
+        "Forged_cairnwarden_Fittings",
+        "Forged_cairnwarden_Inlay"
+      ]
+    },
+    {
+      "path": "game/assets/weapons/ember.glb",
+      "triangles": 6020,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ContinuousForgedBlade.007"
+      ],
+      "materials": [
+        "Forged_ember_Steel",
+        "Forged_ember_HonedEdge",
+        "Forged_ember_RecessedFuller",
+        "Forged_ember_Grip",
+        "Forged_ember_Iron",
+        "Forged_ember_Fittings"
+      ]
+    },
+    {
+      "path": "game/assets/weapons/frontier.glb",
+      "triangles": 4740,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ContinuousForgedBlade.005"
+      ],
+      "materials": [
+        "Forged_frontier_Steel",
+        "Forged_frontier_HonedEdge",
+        "Forged_frontier_RecessedFuller",
+        "Forged_frontier_Grip",
+        "Forged_frontier_Iron",
+        "Forged_frontier_Fittings"
+      ]
+    },
+    {
+      "path": "game/assets/weapons/glass.glb",
+      "triangles": 7512,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ContinuousForgedBlade.008"
+      ],
+      "materials": [
+        "Forged_glass_Steel",
+        "Forged_glass_HonedEdge",
+        "Forged_glass_RecessedFuller",
+        "Forged_glass_Grip",
+        "Forged_glass_Iron",
+        "Forged_glass_Fittings",
+        "Forged_glass_Inlay"
+      ]
+    },
+    {
+      "path": "game/assets/weapons/gold_coin.glb",
+      "triangles": 4560,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "GoldCashCoin"
+      ],
+      "materials": [
+        "MintedGold",
+        "GoldRecess"
+      ]
+    },
+    {
+      "path": "game/assets/weapons/marchguard.glb",
+      "triangles": 5472,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ContinuousForgedBlade.001"
+      ],
+      "materials": [
+        "Forged_marchguard_Steel",
+        "Forged_marchguard_HonedEdge",
+        "Forged_marchguard_RecessedFuller",
+        "Forged_marchguard_Grip",
+        "Forged_marchguard_Iron",
+        "Forged_marchguard_Fittings"
+      ]
+    },
+    {
+      "path": "game/assets/weapons/relic.glb",
+      "triangles": 7440,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ContinuousForgedBlade.006"
+      ],
+      "materials": [
+        "Forged_relic_Steel",
+        "Forged_relic_HonedEdge",
+        "Forged_relic_RecessedFuller",
+        "Forged_relic_Grip",
+        "Forged_relic_Iron",
+        "Forged_relic_Fittings",
+        "Forged_relic_Inlay"
+      ]
+    },
+    {
+      "path": "game/assets/weapons/rift.glb",
+      "triangles": 7340,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ContinuousForgedBlade.009"
+      ],
+      "materials": [
+        "Forged_rift_Steel",
+        "Forged_rift_HonedEdge",
+        "Forged_rift_RecessedFuller",
+        "Forged_rift_Grip",
+        "Forged_rift_Iron",
+        "Forged_rift_Fittings",
+        "Forged_rift_Inlay"
+      ]
+    },
+    {
+      "path": "game/assets/weapons/wakecleaver.glb",
+      "triangles": 7312,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ContinuousForgedBlade.004"
+      ],
+      "materials": [
+        "Forged_wakecleaver_Steel",
+        "Forged_wakecleaver_HonedEdge",
+        "Forged_wakecleaver_RecessedFuller",
+        "Forged_wakecleaver_Grip",
+        "Forged_wakecleaver_Iron",
+        "Forged_wakecleaver_Fittings",
+        "Forged_wakecleaver_Inlay"
+      ]
+    },
+    {
+      "path": "game/assets/weapons/wayfarer.glb",
+      "triangles": 5440,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ContinuousForgedBlade"
+      ],
+      "materials": [
+        "Forged_wayfarer_Steel",
+        "Forged_wayfarer_HonedEdge",
+        "Forged_wayfarer_RecessedFuller",
+        "Forged_wayfarer_Grip",
+        "Forged_wayfarer_Iron",
+        "Forged_wayfarer_Fittings"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/cliff.glb",
+      "triangles": 1272,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "StratifiedFace"
+      ],
+      "materials": [
+        "MarchSlate",
+        "MarchLichen"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/cliff1.glb",
+      "triangles": 1272,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "StratifiedFace.004"
+      ],
+      "materials": [
+        "MarchSlate",
+        "MarchLichen"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/dead_tree.glb",
+      "triangles": 266,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "DeadTrunk"
+      ],
+      "materials": [
+        "MarchBark"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/fern.glb",
+      "triangles": 574,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "FernStem"
+      ],
+      "materials": [
+        "MarchUnderstory"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/grass.glb",
+      "triangles": 26,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "BentGrassBlades"
+      ],
+      "materials": [
+        "MarchUnderstory"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/log.glb",
+      "triangles": 172,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "SplinteredFallenTrunk"
+      ],
+      "materials": [
+        "MarchTimber",
+        "MarchBark"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/rock0.glb",
+      "triangles": 318,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "SlateShoulder"
+      ],
+      "materials": [
+        "MarchSlate",
+        "MarchLichen"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/rock1.glb",
+      "triangles": 318,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "SlateShoulder.001"
+      ],
+      "materials": [
+        "MarchSlate",
+        "MarchLichen"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/rock2.glb",
+      "triangles": 318,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "SlateShoulder.002"
+      ],
+      "materials": [
+        "MarchSlate",
+        "MarchLichen"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/ruin_arch.glb",
+      "triangles": 810,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "Cube.001"
+      ],
+      "materials": [
+        "MarchSlate",
+        "MarchLichen"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/shrine.glb",
+      "triangles": 280,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "Cube.017"
+      ],
+      "materials": [
+        "MarchSlate",
+        "MarchLichen",
+        "MarchTimber",
+        "MarchTiles"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/shrub.glb",
+      "triangles": 576,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "ShrubStem"
+      ],
+      "materials": [
+        "MarchBark",
+        "MarchUnderstory"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/tent.glb",
+      "triangles": 308,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "SaggedCanvas"
+      ],
+      "materials": [
+        "MarchCanvas",
+        "MarchTimber"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/tree0.glb",
+      "triangles": 4698,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "RootedTrunk"
+      ],
+      "materials": [
+        "MarchBark",
+        "MarchLeaves"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/tree1.glb",
+      "triangles": 4698,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "RootedTrunk.001"
+      ],
+      "materials": [
+        "MarchBark",
+        "MarchLeaves"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/tree2.glb",
+      "triangles": 4698,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "RootedTrunk.002"
+      ],
+      "materials": [
+        "MarchBark",
+        "MarchLeaves"
+      ]
+    },
+    {
+      "path": "game/assets/world_kit/watchtower.glb",
+      "triangles": 504,
+      "skins": 0,
+      "bones": [],
+      "clips": [],
+      "meshes": [
+        "WatchPillar"
+      ],
+      "materials": [
+        "MarchTimber",
+        "MarchTiles"
+      ]
+    }
+  ]
+}

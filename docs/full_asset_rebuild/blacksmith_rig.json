@@ -1,0 +1,30 @@
+{
+  "key": "blacksmith",
+  "source": "D:\\Games\\Metin2Clone\\blender\\multiview_rebuild\\prepared\\blacksmith.blend",
+  "family": "humanoid",
+  "height": 1.9,
+  "yaw": 0,
+  "rig_source": "blender/multiview_rebuild/binding_templates/townfolk_kit.blend",
+  "binding_guide": "blender/multiview_rebuild/binding_templates/townfolk_kit.weights.json",
+  "output": "D:\\Games\\Metin2Clone\\game\\assets\\generated\\blacksmith.glb",
+  "bounds": [
+    [
+      -0.48479601740837097,
+      -0.25129014253616333,
+      0.006000000052154064
+    ],
+    [
+      0.48479601740837097,
+      0.25129014253616333,
+      1.906000018119812
+    ]
+  ],
+  "bones": 18,
+  "clips": [
+    "idle",
+    "keeper_idle",
+    "smith_idle"
+  ],
+  "template_geometry_exported": false,
+  "review_status": "requires_deformation_review"
+}

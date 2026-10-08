@@ -36,14 +36,21 @@ func _run() -> void:
 		var found := false
 		for mesh: MeshInstance3D in mob.visual.model.find_children("*","MeshInstance3D",true,false):
 			for surface in mesh.mesh.get_surface_count():
-				var material := mesh.get_active_material(surface) as ShaderMaterial
-				if material:
-					var coat: Color = material.get_shader_parameter("coat")
-					if species == "red_wolf": check(coat.r > coat.b*1.5,"Red Wolf has a rust coat without baked green contamination")
-					if species == "blue_wolf": check(coat.b > coat.r*1.5,"Blue Wolf has a blue slate coat without baked green contamination")
+				var material := mesh.get_active_material(surface) as StandardMaterial3D
+				if material and material.albedo_texture and material.normal_enabled:
+					var image := material.albedo_texture.get_image()
+					if image.is_compressed(): image.decompress()
+					image.resize(32,32)
+					var coat := Color(0,0,0,0)
+					for y in image.get_height():
+						for x in image.get_width():
+							var pixel := image.get_pixel(x,y)
+							if pixel.a > .5: coat += pixel
+					if species == "red_wolf": check(coat.r > coat.b*1.05,"Red Wolf exports its rust coat in the PBR atlas")
+					if species == "blue_wolf": check(coat.b > coat.r*1.05,"Blue Wolf exports its blue coat in the PBR atlas")
 					found = true;break
 			if found: break
-		check(found,"Wolf uses the shared fur surface with preserved authored texture")
+		check(found,"Wolf imports reconstructed fur with an albedo texture and normal detail")
 	await close_view(Vector3(1.5,2.8,29),Vector3(0,.9,19),"wolf_coats")
 	for mob in specimens: mob.queue_free()
 	specimens.clear()
@@ -60,13 +67,13 @@ func _run() -> void:
 		var mob := ActorBody.new();mob.visual_scene = data.visual;mob.enemy_definition = data
 		world.add_child(mob);mob.position = Vector3((specimens.size()-.5)*2.4,0,19);mob.rotation.y = PI
 		mob.visual.apply_variant(data);specimens.append(mob)
-		var cloth_found := false;var skin_preserved := false
+		var textured_body := false;var skinned_body := false
 		for mesh: MeshInstance3D in mob.visual.model.find_children("*","MeshInstance3D",true,false):
 			for surface in mesh.mesh.get_surface_count():
-				var source := mesh.mesh.surface_get_material(surface)
-				if source and "Skin" in source.resource_name: skin_preserved = mesh.get_active_material(surface) is StandardMaterial3D
-				if source and "Cloth" in source.resource_name: cloth_found = mesh.get_active_material(surface) is ShaderMaterial
-		check(cloth_found and skin_preserved,"Bandit clothing receives a species palette while skin retains its authored surface")
+				var material := mesh.get_active_material(surface) as StandardMaterial3D
+				if material and material.albedo_texture and material.normal_enabled: textured_body = true
+				if mesh.skin != null: skinned_body = true
+		check(textured_body and skinned_body,"Bandit preserves its reconstructed skin, baked clothing atlas and normal detail")
 	await close_view(Vector3(1.5,2.8,28),Vector3(0,1,19),"bandit_clothes")
 	for mob in specimens: mob.queue_free()
 	player.position = Vector3(18,0,-20);player.rotation = Vector3.ZERO

@@ -1,0 +1,1362 @@
+{
+	"assets": [
+		{
+			"animations": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Chest",
+				"FrontUpper.L",
+				"FrontLower.L",
+				"FrontUpper.R",
+				"FrontLower.R",
+				"Head",
+				"HindUpper.L",
+				"HindLower.L",
+				"HindUpper.R",
+				"HindLower.R",
+				"Tail"
+			],
+			"bounds": {
+				"position": [
+					-0.417223185300827,
+					-0.00182086718268692,
+					-1.1424423456192
+				],
+				"size": [
+					0.849826157093048,
+					1.36134159564972,
+					2.41830444335938
+				]
+			},
+			"errors": [],
+			"key": "mob_ironhide_boar",
+			"materials": 1,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/forge_rebuild/mobs/blacktusk.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 1,
+			"triangles": 11996
+		},
+		{
+			"animations": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.703883647918701,
+					-0.0385614484548569,
+					-0.60090970993042
+				],
+				"size": [
+					1.4077672958374,
+					1.95905470848084,
+					0.836304187774658
+				]
+			},
+			"errors": [],
+			"key": "mob_young",
+			"materials": 6,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/characters/briarling.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 6,
+			"triangles": 22976
+		},
+		{
+			"animations": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Chest",
+				"FrontUpper.L",
+				"FrontLower.L",
+				"FrontUpper.R",
+				"FrontLower.R",
+				"Head",
+				"HindUpper.L",
+				"HindLower.L",
+				"HindUpper.R",
+				"HindLower.R",
+				"Tail"
+			],
+			"bounds": {
+				"position": [
+					-0.429266601800919,
+					-0.00139187893364578,
+					-1.08684909343719
+				],
+				"size": [
+					0.863283932209015,
+					1.43930780887604,
+					2.43548536300659
+				]
+			},
+			"errors": [],
+			"key": "mob_red_wolf",
+			"materials": 1,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/forge_rebuild/mobs/meadow_wolf.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 1,
+			"triangles": 11995
+		},
+		{
+			"animations": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Chest",
+				"Head",
+				"Leg0Upper.L",
+				"Leg0Lower.L",
+				"Leg0Upper.R",
+				"Leg0Lower.R",
+				"Leg1Upper.L",
+				"Leg1Lower.L",
+				"Leg1Upper.R",
+				"Leg1Lower.R",
+				"Leg2Upper.L",
+				"Leg2Lower.L",
+				"Leg2Upper.R",
+				"Leg2Lower.R",
+				"Leg3Upper.L",
+				"Leg3Lower.L",
+				"Leg3Upper.R",
+				"Leg3Lower.R"
+			],
+			"bounds": {
+				"position": [
+					-1.1509131193161,
+					0.0645306333899498,
+					-0.832777142524719
+				],
+				"size": [
+					2.3018262386322,
+					0.98583722114563,
+					1.85277712345123
+				]
+			},
+			"errors": [],
+			"key": "mob_copper_spider",
+			"materials": 6,
+			"meshes": 2,
+			"path": "res://review_assets/fallbacks/assets/creatures/spider.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 6,
+			"triangles": 16680
+		},
+		{
+			"animations": [
+				"attack_01",
+				"attack_02",
+				"attack_03",
+				"death",
+				"hit",
+				"idle",
+				"longsword_01",
+				"longsword_02",
+				"longsword_03",
+				"longsword_idle",
+				"longsword_run",
+				"run",
+				"skill_guard",
+				"skill_plant",
+				"skill_riposte",
+				"skill_step"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.485548198223114,
+					0.00600000005215406,
+					-0.22510638833046
+				],
+				"size": [
+					0.971096396446228,
+					1.89339995384216,
+					0.435591965913773
+				]
+			},
+			"errors": [],
+			"key": "mob_road_bandit",
+			"materials": 16,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/characters/warden_high.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 16,
+			"triangles": 338124
+		},
+		{
+			"animations": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.704999983310699,
+					0.0,
+					-0.431738764047623
+				],
+				"size": [
+					1.4099999666214,
+					1.93068540096283,
+					0.69058632850647
+				]
+			},
+			"errors": [],
+			"key": "mob_slate_guardian",
+			"materials": 6,
+			"meshes": 2,
+			"path": "res://review_assets/fallbacks/assets/creatures/stonekin.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 6,
+			"triangles": 17040
+		},
+		{
+			"animations": [
+				"canter",
+				"idle",
+				"trot",
+				"walk"
+			],
+			"bones": [
+				"Root",
+				"Body",
+				"Fore.L.Upper",
+				"Fore.L.Lower",
+				"Fore.L.Ankle",
+				"Fore.L.Hoof",
+				"Fore.R.Upper",
+				"Fore.R.Lower",
+				"Fore.R.Ankle",
+				"Fore.R.Hoof",
+				"Hind.L.Upper",
+				"Hind.L.Lower",
+				"Hind.L.Ankle",
+				"Hind.L.Hoof",
+				"Hind.R.Upper",
+				"Hind.R.Lower",
+				"Hind.R.Ankle",
+				"Hind.R.Hoof",
+				"Neck",
+				"Head",
+				"Ear.L",
+				"Ear.R",
+				"Tail"
+			],
+			"bounds": {
+				"position": [
+					-0.486844599246979,
+					-0.00157103314995766,
+					-1.7673134803772
+				],
+				"size": [
+					0.973689198493958,
+					1.9937310218811,
+					3.0533013343811
+				]
+			},
+			"errors": [],
+			"key": "horse_bay",
+			"materials": 9,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/mounts/trail_horse.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 9,
+			"triangles": 37424
+		},
+		{
+			"animations": [],
+			"bones": [],
+			"bounds": {
+				"position": [
+					-3.82444334030151,
+					-0.252571403980255,
+					-3.18170142173767
+				],
+				"size": [
+					6.96948909759521,
+					7.52425765991211,
+					6.58964347839355
+				]
+			},
+			"errors": [],
+			"key": "tree_pine",
+			"materials": 2,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/world_kit/tree0.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 2,
+			"triangles": 4698
+		},
+		{
+			"animations": [],
+			"bones": [],
+			"bounds": {
+				"position": [
+					-1.1679482460022,
+					-0.0201368574053049,
+					-1.14901554584503
+				],
+				"size": [
+					2.24837112426758,
+					1.19221913814545,
+					2.25031566619873
+				]
+			},
+			"errors": [],
+			"key": "shrub_reference",
+			"materials": 2,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/world_kit/shrub.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 2,
+			"triangles": 576
+		},
+		{
+			"animations": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.558318972587585,
+					0.00400000018998981,
+					-0.24719999730587
+				],
+				"size": [
+					1.11663794517517,
+					1.99200010299683,
+					0.478399991989136
+				]
+			},
+			"errors": [],
+			"key": "npc_keeper",
+			"materials": 15,
+			"meshes": 15,
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 15,
+			"triangles": 21106
+		},
+		{
+			"animations": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.558318972587585,
+					0.00400000018998981,
+					-0.24719999730587
+				],
+				"size": [
+					1.11663794517517,
+					1.99200010299683,
+					0.478399991989136
+				]
+			},
+			"errors": [],
+			"key": "npc_smith",
+			"materials": 15,
+			"meshes": 15,
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 15,
+			"triangles": 21106
+		},
+		{
+			"animations": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.558318972587585,
+					0.00400000018998981,
+					-0.24719999730587
+				],
+				"size": [
+					1.11663794517517,
+					1.99200010299683,
+					0.478399991989136
+				]
+			},
+			"errors": [],
+			"key": "npc_stablemaster",
+			"materials": 15,
+			"meshes": 15,
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 15,
+			"triangles": 21106
+		},
+		{
+			"animations": [],
+			"bones": [],
+			"bounds": {
+				"position": [
+					-0.398465842008591,
+					0.0,
+					-0.400000005960464
+				],
+				"size": [
+					0.784728944301605,
+					0.581754624843597,
+					0.793875157833099
+				]
+			},
+			"errors": [],
+			"key": "grass",
+			"materials": 1,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/world_kit/grass.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 1,
+			"triangles": 26
+		},
+		{
+			"animations": [],
+			"bones": [],
+			"bounds": {
+				"position": [
+					-0.383557349443436,
+					0.0,
+					-0.367556810379028
+				],
+				"size": [
+					0.727935791015625,
+					0.550493061542511,
+					0.54747086763382
+				]
+			},
+			"errors": [],
+			"key": "derived_benchmark_sedge",
+			"materials": 1,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/benchmark/sedge.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 1,
+			"triangles": 92
+		},
+		{
+			"animations": [],
+			"bones": [],
+			"bounds": {
+				"position": [
+					-0.797593235969543,
+					-0.0353050902485847,
+					-0.808349430561066
+				],
+				"size": [
+					1.59514153003693,
+					0.668634831905365,
+					1.61667394638062
+				]
+			},
+			"errors": [],
+			"key": "derived_benchmark_shrub_briar",
+			"materials": 2,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/benchmark/shrub_briar.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 2,
+			"triangles": 912
+		},
+		{
+			"animations": [],
+			"bones": [],
+			"bounds": {
+				"position": [
+					-0.812900185585022,
+					-0.026476601138711,
+					-0.811240375041962
+				],
+				"size": [
+					1.62580513954163,
+					1.14363348484039,
+					1.62246513366699
+				]
+			},
+			"errors": [],
+			"key": "derived_benchmark_shrub_laurel",
+			"materials": 2,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/benchmark/shrub_laurel.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 2,
+			"triangles": 1368
+		},
+		{
+			"animations": [],
+			"bones": [],
+			"bounds": {
+				"position": [
+					-6.24285840988159,
+					-0.223144128918648,
+					-5.01925468444824
+				],
+				"size": [
+					10.9072875976563,
+					8.27663230895996,
+					10.5939540863037
+				]
+			},
+			"errors": [],
+			"key": "derived_benchmark_tree_bent",
+			"materials": 2,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/benchmark/tree_bent.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 2,
+			"triangles": 18010
+		},
+		{
+			"animations": [],
+			"bones": [],
+			"bounds": {
+				"position": [
+					-4.40111637115479,
+					-0.225221678614616,
+					-5.19901657104492
+				],
+				"size": [
+					10.6729516983032,
+					8.36265850067139,
+					10.0676918029785
+				]
+			},
+			"errors": [],
+			"key": "derived_benchmark_tree_fork",
+			"materials": 2,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/benchmark/tree_fork.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 2,
+			"triangles": 18010
+		},
+		{
+			"animations": [],
+			"bones": [],
+			"bounds": {
+				"position": [
+					-4.68385457992554,
+					-0.206236228346825,
+					-5.10363483428955
+				],
+				"size": [
+					10.088942527771,
+					7.86299657821655,
+					10.5717353820801
+				]
+			},
+			"errors": [],
+			"key": "derived_benchmark_tree_wide",
+			"materials": 2,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/benchmark/tree_wide.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 2,
+			"triangles": 18010
+		},
+		{
+			"animations": [],
+			"bones": [],
+			"bounds": {
+				"position": [
+					-0.394888341426849,
+					-0.106700524687767,
+					0.155691623687744
+				],
+				"size": [
+					0.789776682853699,
+					0.527450442314148,
+					0.149308383464813
+				]
+			},
+			"errors": [],
+			"key": "derived_characters_jade_ironback_mantle",
+			"materials": 18,
+			"meshes": 18,
+			"path": "res://review_assets/fallbacks/assets/characters/jade_ironback_mantle.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 18,
+			"triangles": 576
+		},
+		{
+			"animations": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.558318972587585,
+					0.00400000018998981,
+					-0.24719999730587
+				],
+				"size": [
+					1.11663794517517,
+					1.99200010299683,
+					0.478399991989136
+				]
+			},
+			"errors": [],
+			"key": "derived_characters_townfolk_kit",
+			"materials": 15,
+			"meshes": 15,
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 15,
+			"triangles": 21106
+		},
+		{
+			"animations": [
+				"attack_01",
+				"attack_02",
+				"attack_03",
+				"death",
+				"hit",
+				"idle",
+				"run",
+				"skill_guard",
+				"skill_plant",
+				"skill_riposte",
+				"skill_step"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.444999992847443,
+					0.0,
+					-0.254999995231628
+				],
+				"size": [
+					0.889999985694885,
+					1.89999997615814,
+					0.411808371543884
+				]
+			},
+			"errors": [],
+			"key": "derived_characters_traveler",
+			"materials": 34,
+			"meshes": 34,
+			"path": "res://review_assets/fallbacks/assets/characters/traveler.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 34,
+			"triangles": 3824
+		},
+		{
+			"animations": [],
+			"bones": [],
+			"bounds": {
+				"position": [
+					-0.183409154415131,
+					-0.143237456679344,
+					-0.217999994754791
+				],
+				"size": [
+					0.36812236905098,
+					0.22223761677742,
+					0.0979083254933357
+				]
+			},
+			"errors": [],
+			"key": "derived_characters_traveler_guard",
+			"materials": 2,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/characters/traveler_guard.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 2,
+			"triangles": 164
+		},
+		{
+			"animations": [
+				"attack_01",
+				"attack_02",
+				"attack_03",
+				"death",
+				"hit",
+				"idle",
+				"run",
+				"skill_guard",
+				"skill_plant",
+				"skill_riposte",
+				"skill_step"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.505677103996277,
+					-0.0093783438205719,
+					-0.272127717733383
+				],
+				"size": [
+					1.05513477325439,
+					1.89937829971313,
+					0.462012827396393
+				]
+			},
+			"errors": [],
+			"key": "derived_characters_turnwarden_v2",
+			"materials": 10,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/characters/turnwarden_v2.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 10,
+			"triangles": 4604
+		},
+		{
+			"animations": [],
+			"bones": [],
+			"bounds": {
+				"position": [
+					-2.67571043968201,
+					-0.252571403980255,
+					-2.95879364013672
+				],
+				"size": [
+					5.81196403503418,
+					8.75619792938232,
+					5.62917137145996
+				]
+			},
+			"errors": [],
+			"key": "derived_world_kit_tree1",
+			"materials": 2,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/world_kit/tree1.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 2,
+			"triangles": 4698
+		},
+		{
+			"animations": [],
+			"bones": [],
+			"bounds": {
+				"position": [
+					-2.83753967285156,
+					-0.252571403980255,
+					-3.90149831771851
+				],
+				"size": [
+					7.32399749755859,
+					6.85296440124512,
+					7.48082494735718
+				]
+			},
+			"errors": [],
+			"key": "derived_world_kit_tree2",
+			"materials": 2,
+			"meshes": 1,
+			"path": "res://review_assets/fallbacks/assets/world_kit/tree2.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 2,
+			"triangles": 4698
+		},
+		{
+			"animations": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.558318972587585,
+					0.00400000018998981,
+					-0.24719999730587
+				],
+				"size": [
+					1.11663794517517,
+					1.99200010299683,
+					0.478399991989136
+				]
+			},
+			"errors": [],
+			"key": "derived_forge_rebuild_npcs_mara",
+			"materials": 15,
+			"meshes": 15,
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 15,
+			"triangles": 21106
+		},
+		{
+			"animations": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.558318972587585,
+					0.00400000018998981,
+					-0.24719999730587
+				],
+				"size": [
+					1.11663794517517,
+					1.99200010299683,
+					0.478399991989136
+				]
+			},
+			"errors": [],
+			"key": "derived_forge_rebuild_npcs_apothecary",
+			"materials": 15,
+			"meshes": 15,
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 15,
+			"triangles": 21106
+		},
+		{
+			"animations": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.558318972587585,
+					0.00400000018998981,
+					-0.24719999730587
+				],
+				"size": [
+					1.11663794517517,
+					1.99200010299683,
+					0.478399991989136
+				]
+			},
+			"errors": [],
+			"key": "derived_forge_rebuild_npcs_artificer",
+			"materials": 15,
+			"meshes": 15,
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 15,
+			"triangles": 21106
+		},
+		{
+			"animations": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.558318972587585,
+					0.00400000018998981,
+					-0.24719999730587
+				],
+				"size": [
+					1.11663794517517,
+					1.99200010299683,
+					0.478399991989136
+				]
+			},
+			"errors": [],
+			"key": "derived_forge_rebuild_npcs_armorer",
+			"materials": 15,
+			"meshes": 15,
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 15,
+			"triangles": 21106
+		},
+		{
+			"animations": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.558318972587585,
+					0.00400000018998981,
+					-0.24719999730587
+				],
+				"size": [
+					1.11663794517517,
+					1.99200010299683,
+					0.478399991989136
+				]
+			},
+			"errors": [],
+			"key": "derived_forge_rebuild_npcs_weapons",
+			"materials": 15,
+			"meshes": 15,
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 15,
+			"triangles": 21106
+		},
+		{
+			"animations": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.558318972587585,
+					0.00400000018998981,
+					-0.24719999730587
+				],
+				"size": [
+					1.11663794517517,
+					1.99200010299683,
+					0.478399991989136
+				]
+			},
+			"errors": [],
+			"key": "derived_forge_rebuild_npcs_warden",
+			"materials": 15,
+			"meshes": 15,
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 15,
+			"triangles": 21106
+		},
+		{
+			"animations": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"bones": [
+				"Root",
+				"Hips",
+				"Spine",
+				"Chest",
+				"Neck",
+				"Head",
+				"UpperArm.L",
+				"Forearm.L",
+				"Hand.L",
+				"UpperArm.R",
+				"Forearm.R",
+				"Hand.R",
+				"Thigh.L",
+				"Shin.L",
+				"Foot.L",
+				"Thigh.R",
+				"Shin.R",
+				"Foot.R"
+			],
+			"bounds": {
+				"position": [
+					-0.558318972587585,
+					0.00400000018998981,
+					-0.24719999730587
+				],
+				"size": [
+					1.11663794517517,
+					1.99200010299683,
+					0.478399991989136
+				]
+			},
+			"errors": [],
+			"key": "derived_forge_rebuild_npcs_ash_scout",
+			"materials": 15,
+			"meshes": 15,
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sockets": [],
+			"status": "passed",
+			"surfaces": 15,
+			"triangles": 21106
+		}
+	],
+	"failures": 0,
+	"scope": "Isolated scale, pivot, materials, sockets, skin and clip import; visual and whole-game integration are separate.",
+	"status": "passed"
+}

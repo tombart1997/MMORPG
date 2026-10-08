@@ -1,0 +1,32 @@
+{
+  "key": "fallen_log",
+  "forge_asset_id": "ad67cb7fa0d1",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ad67cb7fa0d1\\generated\\419928a4e8a6\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\world_kit\\log.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\fallen_log.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -1.8350200653076172,
+      -0.5611940622329712,
+      0.03546127676963806
+    ],
+    [
+      1.7130725383758545,
+      0.5660499334335327,
+      0.6747670769691467
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 23052,
+      "after": 1398,
+      "extent_drift": 0.01331669851332521
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

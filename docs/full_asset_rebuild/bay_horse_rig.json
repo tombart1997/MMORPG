@@ -1,0 +1,31 @@
+{
+  "key": "bay_horse",
+  "source": "D:\\Games\\Metin2Clone\\blender\\multiview_rebuild\\prepared\\bay_horse.blend",
+  "rig_source": "blender/multiview_rebuild/binding_templates/trail_horse.blend",
+  "family": "horse",
+  "height": 1.98,
+  "yaw": 0,
+  "binding_guide": "blender/multiview_rebuild/binding_templates/trail_horse.weights.json",
+  "output": "D:\\Games\\Metin2Clone\\game\\assets\\generated\\bay_horse.glb",
+  "bounds": [
+    [
+      -0.3410000205039978,
+      -1.175329566001892,
+      0.008125841617584229
+    ],
+    [
+      0.3410000205039978,
+      1.2173845767974854,
+      1.9859999418258667
+    ]
+  ],
+  "bones": 23,
+  "clips": [
+    "idle",
+    "walk",
+    "trot",
+    "canter"
+  ],
+  "template_geometry_exported": false,
+  "review_status": "requires_deformation_review"
+}

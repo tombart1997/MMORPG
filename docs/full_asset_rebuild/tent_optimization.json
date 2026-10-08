@@ -1,0 +1,31 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "MV_tent",
+      "before": 681424,
+      "target": 8000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 7996,
+      "quality": {
+        "surface_max_fraction": 0.0029388370890864914,
+        "surface_p95_fraction": 0.0010396828585893952,
+        "bounds_drift_fraction": 0.0009920426952374276,
+        "nonmanifold_edges": 0,
+        "samples": 6957
+      },
+      "textures": [
+        "MV_tent_Base Color",
+        "MV_tent_Normal"
+      ],
+      "material_transfer": "rebaked_atlas",
+      "deformation": [],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 8000,
+  "achieved_triangles": 7996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

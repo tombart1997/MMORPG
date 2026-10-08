@@ -87,7 +87,9 @@ func _ready() -> void:
 	player.inventory.changed.connect(refresh)
 	player.equipment.changed.connect(refresh)
 	player.stats.changed.connect(refresh)
-	player.health.changed.connect(func(_current, _maximum): refresh())
+	# Damage updates one label; repainting every bag slot per hit caused combat
+	# frame spikes even while this window was hidden.
+	player.health.changed.connect(_refresh_health)
 	WindowChrome.install(self, "Character · Inventory", func(): set_open(false))
 	refresh()
 	hide()
@@ -137,6 +139,9 @@ func activate_selection() -> void:
 	zone.announce(feedback)
 	refresh()
 	details.text += "\n" + feedback
+
+func _refresh_health(current: float, maximum: float) -> void:
+	if stat_values.has("HP"): stat_values["HP"].text="%d/%d"%[current,maximum]
 
 func refresh() -> void:
 	if title_label == null: return

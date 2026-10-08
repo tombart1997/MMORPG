@@ -1,0 +1,324 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "Forge_mob_ironhide_boar",
+      "vertices": 15135,
+      "triangles": 11995,
+      "local_bounds": [
+        [
+          -0.4326384961605072,
+          -1.2746565341949463,
+          -0.00022519202320836484
+        ],
+        [
+          0.4363173246383667,
+          1.1414486169815063,
+          1.3621971607208252
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 2327,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        6629
+      ],
+      "sharp_edges_over_60_degrees": 2234,
+      "smooth_faces": 11995,
+      "faces": 11995,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.033667272314302665,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_mob_ironhide_boar_RuntimeColor"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        0.999999962747097,
+        1.0000000409781933
+      ],
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Forge_mob_ironhide_boar_RuntimeColor",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "Forge_mob_ironhide_boar_RuntimeAtlas",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        }
+      ]
+    }
+  ],
+  "triangles": 11995,
+  "skeletons": [
+    {
+      "name": "SpiritRig",
+      "bones": [
+        {
+          "name": "Root",
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            3.0463400690905473e-08,
+            0.8899999260902405
+          ]
+        },
+        {
+          "name": "Hips",
+          "head": [
+            7.105427357601002e-15,
+            -0.3899998962879181,
+            0.7999998927116394
+          ],
+          "tail": [
+            3.979037219614852e-15,
+            -0.16999979317188263,
+            0.7999999523162842
+          ]
+        },
+        {
+          "name": "Chest",
+          "head": [
+            6.964710938743947e-16,
+            -1.1920928955078125e-07,
+            0.800000011920929
+          ],
+          "tail": [
+            -2.1262055870552733e-15,
+            0.4299997389316559,
+            0.8900001049041748
+          ]
+        },
+        {
+          "name": "FrontUpper.L",
+          "head": [
+            -0.27000007033348083,
+            0.3699997365474701,
+            0.7999999523162842
+          ],
+          "tail": [
+            -0.27000007033348083,
+            0.39999985694885254,
+            0.3500001132488251
+          ]
+        },
+        {
+          "name": "FrontLower.L",
+          "head": [
+            -0.2700001001358032,
+            0.3999999165534973,
+            0.3500002324581146
+          ],
+          "tail": [
+            -0.2700001001358032,
+            0.37064939737319946,
+            -0.10004246234893799
+          ]
+        },
+        {
+          "name": "FrontUpper.R",
+          "head": [
+            0.27000007033348083,
+            0.36999964714050293,
+            0.8000000715255737
+          ],
+          "tail": [
+            0.27000007033348083,
+            0.39999985694885254,
+            0.35000017285346985
+          ]
+        },
+        {
+          "name": "FrontLower.R",
+          "head": [
+            0.270000159740448,
+            0.3999998867511749,
+            0.3500003218650818
+          ],
+          "tail": [
+            0.270000159740448,
+            0.37064942717552185,
+            -0.10004240274429321
+          ]
+        },
+        {
+          "name": "Head",
+          "head": [
+            4.433641496472129e-15,
+            0.4299996793270111,
+            0.89000004529953
+          ],
+          "tail": [
+            8.56268147478214e-16,
+            0.8682007789611816,
+            0.9213002920150757
+          ]
+        },
+        {
+          "name": "HindUpper.L",
+          "head": [
+            -0.26999998092651367,
+            -0.41999995708465576,
+            0.7999998927116394
+          ],
+          "tail": [
+            -0.26999998092651367,
+            -0.5199998021125793,
+            0.3500000238418579
+          ]
+        },
+        {
+          "name": "HindLower.L",
+          "head": [
+            -0.26999998092651367,
+            -0.5199996829032898,
+            0.35000014305114746
+          ],
+          "tail": [
+            -0.26999998092651367,
+            -0.31384432315826416,
+            -0.06231018900871277
+          ]
+        },
+        {
+          "name": "HindUpper.R",
+          "head": [
+            0.2699999213218689,
+            -0.419999897480011,
+            0.7999998927116394
+          ],
+          "tail": [
+            0.2699999213218689,
+            -0.5199997425079346,
+            0.3500000238418579
+          ]
+        },
+        {
+          "name": "HindLower.R",
+          "head": [
+            0.2699999213218689,
+            -0.5199996829032898,
+            0.35000017285346985
+          ],
+          "tail": [
+            0.2699999213218689,
+            -0.31384432315826416,
+            -0.06231012940406799
+          ]
+        },
+        {
+          "name": "Tail",
+          "head": [
+            9.102202498667555e-14,
+            -0.60999995470047,
+            0.8000001311302185
+          ],
+          "tail": [
+            2.016099689538392e-14,
+            -0.8243661522865295,
+            0.8494692444801331
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review"
+}

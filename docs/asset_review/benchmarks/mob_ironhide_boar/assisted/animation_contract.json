@@ -1,0 +1,48 @@
+{
+  "source": {
+    "death": {
+      "start": 0,
+      "end": 1.2
+    },
+    "hit": {
+      "start": 0,
+      "end": 0.3
+    },
+    "attack_01": {
+      "start": 0,
+      "end": 1
+    },
+    "run": {
+      "start": 0,
+      "end": 0.6
+    },
+    "idle": {
+      "start": 0,
+      "end": 2
+    }
+  },
+  "runtime": {
+    "idle": {
+      "start": 0,
+      "end": 2
+    },
+    "run": {
+      "start": 0,
+      "end": 0.6
+    },
+    "attack_01": {
+      "start": 0,
+      "end": 1
+    },
+    "hit": {
+      "start": 0,
+      "end": 0.3
+    },
+    "death": {
+      "start": 0,
+      "end": 1.2
+    }
+  },
+  "duration_tolerance_seconds": 0.016666666666666666,
+  "passed": true
+}

@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Thicket Wolf / 11995 tris",
+      "path": "res://review_assets/optimization/mob_thicket_wolf_simplify_12000_final.glb"
+    },
+    {
+      "name": "Blacktusk Boar / 11996 tris",
+      "path": "res://review_assets/optimization/mob_blacktusk_simplify_12000_final.glb"
+    },
+    {
+      "name": "Venom Spider / 11995 tris",
+      "path": "res://review_assets/optimization/mob_venom_spider_simplify_12000_final.glb"
+    }
+  ],
+  "clip": "run",
+  "time": 0.19,
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\views\\ordinary_05.png"
+}

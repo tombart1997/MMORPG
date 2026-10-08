@@ -1,0 +1,58 @@
+{
+  "key": "mob_ash_bandit",
+  "forge_asset_id": "41620ef2f583",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\41620ef2f583\\generated\\2384872e540b\\source.glb",
+  "rig_source": "blender/characters/warden_high.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\ash_bandit.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_ash_bandit.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.485548198223114,
+      -0.210485577583313,
+      0.006000000052154064
+    ],
+    [
+      0.485548198223114,
+      0.2251063883304596,
+      1.899399995803833
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 23352,
+      "after": 14000,
+      "extent_drift": 0.0
+    }
+  ],
+  "bones": 18,
+  "clips": [
+    "run",
+    "hit",
+    "death",
+    "skill_guard",
+    "skill_step",
+    "skill_plant",
+    "skill_riposte",
+    "idle",
+    "longsword_idle",
+    "attack_01",
+    "longsword_01",
+    "attack_02",
+    "longsword_02",
+    "attack_03",
+    "longsword_03",
+    "longsword_run"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "silhouette_cleanup": {
+    "removed_vertices": 138,
+    "painted_ground_trim": true
+  },
+  "animation_skin_refinement": {
+    "constrained_limb_vertices": 1043,
+    "removed_bridge_faces": 335,
+    "reason": "Opened run views revealed lower-limb sheets from floor geometry and mixed limb influence."
+  }
+}

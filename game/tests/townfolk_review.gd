@@ -27,10 +27,12 @@ func _run() -> void:
 		var visual:=npc.model as TownfolkVisual
 		check(visual!=null and visual.skeleton.get_bone_count()==18,"Resident uses shared humanoid rig: "+npc.name)
 		check(visual.animation.has_animation(visual.appearance.idle),"Resident has appropriate imported idle: "+npc.name)
-		var meshes:=visual.find_children("*","MeshInstance3D",true,false)
-		check(meshes.size()==visual.visible_modules.size(),"Unselected body/clothing modules are removed: "+npc.name)
-		for part: MeshInstance3D in meshes:
-			check(part.skin!=null and part.mesh.get_surface_count()==1,"Single material skinned module: "+part.name)
+		var bodies: Array[MeshInstance3D]=[]
+		for part: MeshInstance3D in visual.find_children("*","MeshInstance3D",true,false):
+			if part.skin!=null: bodies.append(part)
+		check(bodies.size()==1 and bodies.size()==visual.visible_modules.size(),"One reconstructed skinned body per resident: "+npc.name)
+		for part in bodies:
+			check(part.mesh.get_surface_count()==1,"Shared body atlas limits resident draw calls: "+part.name)
 		check(npc.label.pixel_size*npc.label.font_size<.11 and npc.profession.font_size<npc.label.font_size,"Name and profession hierarchy: "+npc.name)
 	camera=Camera3D.new()
 	world.add_child(camera)

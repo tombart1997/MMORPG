@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Dusk Stalker / 11996 tris",
+      "path": "res://review_assets/optimization/mob_dusk_stalker_simplify_12000_final.glb"
+    },
+    {
+      "name": "Ash Wisp / 11996 tris",
+      "path": "res://review_assets/optimization/mob_ash_wisp_simplify_12000_final.glb"
+    },
+    {
+      "name": "Obsidian Boar / 11996 tris",
+      "path": "res://review_assets/optimization/mob_obsidian_boar_simplify_12000_final.glb"
+    }
+  ],
+  "clip": "run",
+  "time": 0.19,
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\views\\ordinary_09.png"
+}

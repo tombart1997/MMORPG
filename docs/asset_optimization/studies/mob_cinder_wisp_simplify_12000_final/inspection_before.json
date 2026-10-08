@@ -1,0 +1,63 @@
+{
+  "objects": [
+    {
+      "name": "Forge_mob_cinder_wisp",
+      "vertices": 9541,
+      "triangles": 12082,
+      "materials": 1,
+      "degenerate_faces": 0,
+      "boundary_edges": 6322,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "has_uv": true,
+      "collapsed_uv_triangles": 78,
+      "skinned": true,
+      "unweighted_vertices": 0
+    }
+  ],
+  "triangles": 12082,
+  "textures": [
+    {
+      "name": "Image_0",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "available": true
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.27399998903274536,
+      -0.2730160355567932,
+      0.1323244720697403
+    ],
+    "max": [
+      0.27399998903274536,
+      0.2735109329223633,
+      1.5636780261993408
+    ]
+  },
+  "armatures": [
+    {
+      "name": "SpiritRig",
+      "bones": 4
+    }
+  ],
+  "actions": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+  "unverified": [
+    "UV overlap beyond collapsed triangles",
+    "Internal occluded geometry",
+    "Baked lighting",
+    "Joint clipping",
+    "Reference fidelity"
+  ]
+}

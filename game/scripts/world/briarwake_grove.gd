@@ -2,7 +2,7 @@ class_name BriarwakeGrove
 extends Node3D
 ## Fixed art composition around the existing encounter; no gameplay ownership.
 const CENTER := Vector3(-8, 0, -49)
-const ASSETS := "res://assets/benchmark/"
+const ASSETS := "res://assets/generated/world/"
 var scenes: Dictionary = {}
 var random := RandomNumberGenerator.new()
 var environment: Environment
@@ -88,7 +88,7 @@ func _ready() -> void:
 	batch("leaf_litter",litter)
 
 func source(asset: String) -> PackedScene:
-	if not scenes.has(asset): scenes[asset]=load(ASSETS+asset+".glb")
+	if not scenes.has(asset): scenes[asset]=ReviewedModels.scene_for(ASSETS+asset+".glb")
 	return scenes[asset]
 
 func place(asset: String, offset: Vector2, size: float, yaw: float, trunk_collision: bool=false) -> Node3D:
@@ -100,6 +100,13 @@ func place(asset: String, offset: Vector2, size: float, yaw: float, trunk_collis
 	node.scale=Vector3.ONE*size
 	for mesh: MeshInstance3D in node.find_children("*","MeshInstance3D",true,false):
 		mesh.visibility_range_end=65
+		if asset.begins_with("tree"):
+			# These authored trees bypass WorldAssetKit's MultiMesh material path.
+			# Apply the same clearance to their retained leaf cards and trunks.
+			for surface in mesh.mesh.get_surface_count():
+				var material:=mesh.get_active_material(surface) as StandardMaterial3D
+				if material:mesh.set_surface_override_material(surface,RemasterMaterials.camera_clearance(material,8.0,11.0))
+			mesh.set_meta("camera_clearance",true)
 	if trunk_collision and ZoneTerrain.path_distance(node.position)>3.2:
 		var body := StaticBody3D.new()
 		var collision := CollisionShape3D.new()

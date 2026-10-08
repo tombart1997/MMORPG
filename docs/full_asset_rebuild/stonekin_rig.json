@@ -1,0 +1,32 @@
+{
+  "key": "stonekin",
+  "source": "D:\\Games\\Metin2Clone\\blender\\multiview_rebuild\\prepared\\stonekin.blend",
+  "rig_source": "blender/multiview_rebuild/binding_templates/stonekin.blend",
+  "family": "stonekin",
+  "height": 1.9,
+  "yaw": 0,
+  "binding_guide": "blender/multiview_rebuild/binding_templates/stonekin.weights.json",
+  "output": "D:\\Games\\Metin2Clone\\game\\assets\\generated\\stonekin.glb",
+  "bounds": [
+    [
+      -0.9405672550201416,
+      -0.3756946921348572,
+      0.006000000052154064
+    ],
+    [
+      0.9405672550201416,
+      0.3756946921348572,
+      1.906000018119812
+    ]
+  ],
+  "bones": 18,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "template_geometry_exported": false,
+  "review_status": "requires_deformation_review"
+}

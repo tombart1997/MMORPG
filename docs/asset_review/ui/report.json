@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": [
+    "Asset deep link",
+    "Status filter",
+    "Accepted version and rollback controls",
+    "Opened before/after comparison images loaded",
+    "Rejected attempt history and time/cost",
+    "KEEP excludes unnecessary repair",
+    "Search filter",
+    "Temporary fallback limitations and remaining art work visible",
+    "Archived candidates cannot be selected",
+    "Editable budget saved through UI",
+    "Unsupported repair operation refused by API"
+  ],
+  "page_errors": [],
+  "scope": "Actual Chrome and live API; no game deployment or rollback triggered by the UI smoke test."
+}

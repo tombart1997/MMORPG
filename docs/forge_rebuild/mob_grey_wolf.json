@@ -1,0 +1,47 @@
+{
+  "key": "mob_grey_wolf",
+  "forge_asset_id": "bf2917c1f4d1",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\bf2917c1f4d1\\generated\\81f83b00ff84\\source.glb",
+  "rig_source": "blender/creatures/wolf.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\grey_wolf.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_grey_wolf.blend",
+  "yaw": 96.62765684066864,
+  "bounds": [
+    [
+      -0.4323287308216095,
+      -1.349189043045044,
+      0.0
+    ],
+    [
+      0.4323287308216095,
+      1.0850000381469727,
+      1.440000057220459
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 127698,
+      "after": 13998,
+      "extent_drift": 0.003844045930163305
+    }
+  ],
+  "bones": 13,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "silhouette_cleanup": {
+    "removed_vertices": 85,
+    "painted_ground_trim": false
+  },
+  "animation_skin_refinement": {
+    "constrained_limb_vertices": 1444,
+    "removed_bridge_faces": 0,
+    "reason": "Opened run views revealed lower-limb sheets from floor geometry and mixed limb influence."
+  }
+}

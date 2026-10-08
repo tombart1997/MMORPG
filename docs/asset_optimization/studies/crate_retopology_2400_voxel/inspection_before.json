@@ -1,0 +1,52 @@
+{
+  "objects": [
+    {
+      "name": "Forge_crate",
+      "vertices": 875,
+      "triangles": 1194,
+      "materials": 1,
+      "degenerate_faces": 0,
+      "boundary_edges": 488,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "has_uv": true,
+      "collapsed_uv_triangles": 0,
+      "skinned": false,
+      "unweighted_vertices": 0
+    }
+  ],
+  "triangles": 1194,
+  "textures": [
+    {
+      "name": "Forge_crate_RuntimeAtlas",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "available": true
+    }
+  ],
+  "bounds": {
+    "min": [
+      0.0023775261361151934,
+      0.0039488947950303555,
+      0.0022852206602692604
+    ],
+    "max": [
+      0.8463732600212097,
+      0.7524546384811401,
+      0.7984619736671448
+    ]
+  },
+  "armatures": [],
+  "actions": [],
+  "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+  "unverified": [
+    "UV overlap beyond collapsed triangles",
+    "Internal occluded geometry",
+    "Baked lighting",
+    "Joint clipping",
+    "Reference fidelity"
+  ]
+}

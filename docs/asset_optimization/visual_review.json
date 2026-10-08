@@ -1,0 +1,32 @@
+{
+  "opened_images": [
+    "material_transfer_fixture.png",
+    "ordinary_01.png",
+    "ordinary_02.png",
+    "ordinary_03.png",
+    "ordinary_04.png",
+    "ordinary_05.png",
+    "ordinary_06.png",
+    "ordinary_07.png",
+    "ordinary_08.png",
+    "ordinary_09.png",
+    "ordinary_10.png",
+    "rider_budgets_attack_01.png",
+    "rider_budgets_idle.png",
+    "wolf_budgets_attack_01.png",
+    "wolf_budgets_idle.png",
+    "wolf_budgets_run.png"
+  ],
+  "selection": {
+    "ordinary_mobs": 12000,
+    "hero": 41998,
+    "rare_mobs": "retained source ~14k",
+    "static_props": "retained source; rock reduction failed shape guard"
+  },
+  "notes": [
+    "8k wolf loses paw/fur detail compared with 12k.",
+    "30k rider loses sleeve/coat folds; GPU has enough headroom to retain 42k.",
+    "Bandit coats, some boar legs, grey/red wolf paws and some spider limbs still show the original generated deformation problems. Reduction does not repair anatomy.",
+    "Synthetic checker fixture proves remeshing/material transfer only; never added to runtime catalogue."
+  ]
+}

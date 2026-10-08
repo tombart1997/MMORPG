@@ -29,7 +29,7 @@ func _ready() -> void:
 	dressing = RemasterScenery.new()
 	add_child(dressing)
 	var material := ShaderMaterial.new()
-	material.shader = load("res://assets/world_kit/cinder_ground.gdshader")
+	material.shader = load("res://assets/shaders/cinder_ground.gdshader")
 	material.set_shader_parameter("rock",RemasterMaterials.texture(4))
 	material.set_shader_parameter("earth",RemasterMaterials.texture(5))
 	LandscapeMesh.build(self,BOUNDS,height_at,weights,material)

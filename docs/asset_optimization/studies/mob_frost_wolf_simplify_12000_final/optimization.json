@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_frost_wolf",
+      "before": 14000,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11995,
+      "quality": {
+        "surface_max_fraction": 0.00158886125592289,
+        "surface_p95_fraction": 0.00024245521861000337,
+        "bounds_drift_fraction": 0.0004032536701368537,
+        "nonmanifold_edges": 0,
+        "samples": 6595
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.001606337950075933,
+          "p95_fraction": 0.0002451271543024102
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.007270044291321611,
+          "p95_fraction": 0.00025813068363623586
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.006579685007484224,
+          "p95_fraction": 0.0002544875375022178
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.005491183649120313,
+          "p95_fraction": 0.0002482064153288705
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.0034783276138663113,
+          "p95_fraction": 0.00024609122219666264
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11995,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

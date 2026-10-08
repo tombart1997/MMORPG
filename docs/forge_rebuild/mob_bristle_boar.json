@@ -1,0 +1,47 @@
+{
+  "key": "mob_bristle_boar",
+  "forge_asset_id": "24aca4777c13",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\24aca4777c13\\generated\\238a9ba0592c\\source.glb",
+  "rig_source": "blender/creatures/boar.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\bristle_boar.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_bristle_boar.blend",
+  "yaw": 58.28347291415902,
+  "bounds": [
+    [
+      -0.4323287308216095,
+      -1.2757891416549683,
+      0.0
+    ],
+    [
+      0.4323287308216095,
+      1.1419222354888916,
+      1.3600000143051147
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 129246,
+      "after": 13998,
+      "extent_drift": 0.0027479120879799063
+    }
+  ],
+  "bones": 13,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "silhouette_cleanup": {
+    "removed_vertices": 152,
+    "painted_ground_trim": false
+  },
+  "animation_skin_refinement": {
+    "constrained_limb_vertices": 1810,
+    "removed_bridge_faces": 0,
+    "reason": "Opened run views revealed lower-limb sheets from floor geometry and mixed limb influence."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "microsoft/TRELLIS-image-large",
+  "model_revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+  "code_commit": "442aa1e1afb9014e80681d3bf604e8d728a86ee7",
+  "backend": "trellis",
+  "multi_image": true,
+  "conditioning_method": "native_stochastic",
+  "image_count": 4,
+  "inputs": [
+    {
+      "path": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\4c42176e618f\\references\\bc1b126611b8_prepared.png",
+      "sha256": "7a946cac93f6a301f7ed2485b6759ecabda160de281def4c33a061ffe05adcb8"
+    },
+    {
+      "path": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\4c42176e618f\\references\\9b87d720c769_prepared.png",
+      "sha256": "45d3a846da8d2aff6e3fbf1196e1e7a7d18bd21f64950c0c0cd5173beefa2c05"
+    },
+    {
+      "path": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\4c42176e618f\\references\\faae23a73bb9_prepared.png",
+      "sha256": "8245d6e5a3a55994e905de2a9342315bae4792be06c51d42625ea7bb0718a43c"
+    },
+    {
+      "path": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\4c42176e618f\\references\\2005c5514ec9_prepared.png",
+      "sha256": "705d6f6a9505b0dd7be3428aab61f04db501bb8ea66be55a8c007e37ca798552"
+    }
+  ],
+  "view_angles": [
+    "front",
+    "left",
+    "back",
+    "three_quarter"
+  ],
+  "seed": 42,
+  "steps": 25,
+  "cfg_strength": 5.0,
+  "triangles": 322916,
+  "color_source": "Reviewed orthographic references; native colors in uncovered regions",
+  "materials": "base color only; PBR surfaces need authoring",
+  "elapsed_seconds": 221.3,
+  "peak_cuda_mb": 6218.3,
+  "cost_credits": 0,
+  "license": "MIT code and weights",
+  "cpu_offload": "one stage at a time",
+  "upstream_port": "exact chunked SDPA, native spconv, unchanged native multi-image sampler",
+  "review_status": "pending",
+  "unseen_surfaces": "Generated reference views are inferred; inspect geometry and silhouette.",
+  "projection_report": "reference_projection.json",
+  "projection_seconds": 3.96
+}

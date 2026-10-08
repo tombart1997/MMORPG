@@ -1,0 +1,11 @@
+{
+  "focus": "Rebuild four straight supports, stone feet, braces and a readable ladder; retain source roof, balcony and their textures.",
+  "source_faces": 5992,
+  "retained_faces": 3468,
+  "deleted_region": "lower structure and corner posts only",
+  "manual_passes": 1,
+  "seconds": 0.428,
+  "cost_credits": 0,
+  "source": "D:\\Games\\Metin2Clone\\game\\assets\\world_kit\\watchtower.glb",
+  "review": "pending"
+}

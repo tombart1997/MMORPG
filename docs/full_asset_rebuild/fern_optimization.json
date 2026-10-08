@@ -1,0 +1,30 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "MV_fern",
+      "before": 498590,
+      "target": 8000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 7995,
+      "quality": {
+        "surface_max_fraction": 0.00408032610731822,
+        "surface_p95_fraction": 0.0006225779243321185,
+        "bounds_drift_fraction": 0.0019011532117564878,
+        "nonmanifold_edges": 0,
+        "samples": 6972
+      },
+      "textures": [
+        "MV_fern_Base Color"
+      ],
+      "material_transfer": "rebaked_atlas",
+      "deformation": [],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 8000,
+  "achieved_triangles": 7995,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

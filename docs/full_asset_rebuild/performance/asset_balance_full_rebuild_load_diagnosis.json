@@ -1,0 +1,184 @@
+{
+	"authored_camps": 153,
+	"hardware": "NVIDIA GeForce GTX 1080",
+	"mounted_travel": {
+		"actors": 25.32375,
+		"combat_pose": "(-0.491513, 0.475882, -79.51145)",
+		"distance_travelled_m": 86.51416015625,
+		"draw_calls": 663.13625,
+		"end_position": "(-0.491513, 0.475882, -79.51145)",
+		"gpu_ms": 4.21719749748707,
+		"instrumented_cpu_ms_per_frame": {
+			"actor_create": 0.03182875,
+			"asset_load": 0.44965875,
+			"brain": 0.13767625,
+			"camp": 0.65978625,
+			"crowd": 0.01928125,
+			"melee": 0.0319475,
+			"move_and_slide": 0.03563,
+			"navigation": 0.0027775,
+			"presentation": 1.00962,
+			"variant_create": 0.46677375
+		},
+		"long_cpu_spans": [
+			{
+				"metric": "asset_load",
+				"ms": 37.549,
+				"physics_frame": 1
+			},
+			{
+				"metric": "asset_load",
+				"ms": 177.253,
+				"physics_frame": 1
+			},
+			{
+				"metric": "asset_load",
+				"ms": 205.488,
+				"physics_frame": 1
+			},
+			{
+				"metric": "asset_load",
+				"ms": 184.612,
+				"physics_frame": 1
+			},
+			{
+				"metric": "asset_load",
+				"ms": 108.438,
+				"physics_frame": 1
+			},
+			{
+				"metric": "asset_load",
+				"ms": 102.684,
+				"physics_frame": 1
+			},
+			{
+				"metric": "asset_load",
+				"ms": 195.846,
+				"physics_frame": 1
+			},
+			{
+				"metric": "asset_load",
+				"ms": 189.723,
+				"physics_frame": 1
+			},
+			{
+				"metric": "asset_load",
+				"ms": 211.465,
+				"physics_frame": 1
+			},
+			{
+				"metric": "camp",
+				"ms": 10.516,
+				"physics_frame": 2
+			},
+			{
+				"metric": "camp",
+				"ms": 8.974,
+				"physics_frame": 4
+			},
+			{
+				"metric": "camp",
+				"ms": 17.086,
+				"physics_frame": 24
+			},
+			{
+				"metric": "asset_load",
+				"ms": 62.331,
+				"physics_frame": 185
+			},
+			{
+				"metric": "variant_create",
+				"ms": 63.089,
+				"physics_frame": 185
+			},
+			{
+				"metric": "camp",
+				"ms": 68.455,
+				"physics_frame": 185
+			},
+			{
+				"metric": "asset_load",
+				"ms": 75.06,
+				"physics_frame": 395
+			},
+			{
+				"metric": "variant_create",
+				"ms": 76.05,
+				"physics_frame": 395
+			},
+			{
+				"metric": "camp",
+				"ms": 85.649,
+				"physics_frame": 395
+			},
+			{
+				"metric": "asset_load",
+				"ms": 93.514,
+				"physics_frame": 498
+			},
+			{
+				"metric": "variant_create",
+				"ms": 94.626,
+				"physics_frame": 498
+			},
+			{
+				"metric": "camp",
+				"ms": 99.025,
+				"physics_frame": 498
+			},
+			{
+				"metric": "asset_load",
+				"ms": 80.949,
+				"physics_frame": 553
+			},
+			{
+				"metric": "variant_create",
+				"ms": 81.723,
+				"physics_frame": 553
+			},
+			{
+				"metric": "camp",
+				"ms": 85.155,
+				"physics_frame": 553
+			},
+			{
+				"metric": "asset_load",
+				"ms": 47.873,
+				"physics_frame": 593
+			},
+			{
+				"metric": "variant_create",
+				"ms": 48.908,
+				"physics_frame": 593
+			},
+			{
+				"metric": "camp",
+				"ms": 53.245,
+				"physics_frame": 593
+			},
+			{
+				"metric": "camp",
+				"ms": 7.99,
+				"physics_frame": 596
+			}
+		],
+		"median_ms": 8.671,
+		"mounted_sample_percent": 100.0,
+		"navigation_failure": "",
+		"over_60fps_budget_percent": 5.5,
+		"p95_ms": 16.951,
+		"p99_ms": 33.41,
+		"physics_ms": 39.9548112500003,
+		"primitives": 4064152.065,
+		"process_ms": 17.6050837500002,
+		"render_cpu_ms": 4.67206750363111,
+		"samples": 800,
+		"worst_ms": 112.698
+	},
+	"renderer": "Compatibility, uncapped",
+	"resolution": "(1920, 1080)",
+	"saving_enabled": false,
+	"startup_ms": 11590,
+	"target_fps": 60,
+	"travel_mount_succeeded": true
+}

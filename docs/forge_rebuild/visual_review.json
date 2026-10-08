@@ -1,0 +1,494 @@
+{
+  "reviewer": "Codex agent",
+  "renderer": "Godot 4.7.2 Compatibility / NVIDIA GeForce GTX 1080",
+  "unique_runtime_models": 110,
+  "reviewed_gallery_sheets": [
+    {
+      "image": "gallery_idle_00.png",
+      "models": [
+        "Concept jade sword",
+        "Meadow Wolf",
+        "Young Mossling"
+      ],
+      "clip": "idle",
+      "sha256": "fa89a606f83822faef0c3a8a2ab7e4350f08c1f21c5087170c880a204d52dd18",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_01.png",
+      "models": [
+        "Bristle Boar",
+        "Blue Wolf",
+        "Mossling"
+      ],
+      "clip": "idle",
+      "sha256": "24534635b63d85aee6ce47528ffd1945497bd8d03570abd95515ee8dcfee74d4",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_02.png",
+      "models": [
+        "Reed Spider",
+        "Red Wolf",
+        "Grey Wolf"
+      ],
+      "clip": "idle",
+      "sha256": "c0aca2835b4b3df80cede22a67b23161081d9295c6449c14fae440a7d1f3bc52",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_03.png",
+      "models": [
+        "Cairn Ironback",
+        "Mire Boar",
+        "Copper Spider"
+      ],
+      "clip": "idle",
+      "sha256": "ccc6f532e7a2a5592325eb485fa62f4c568c9a10386fb47ab37205deffd5d845",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_04.png",
+      "models": [
+        "Moonfang",
+        "Road Bandit",
+        "Thicket Wolf"
+      ],
+      "clip": "idle",
+      "sha256": "24537e0ad3d653ae11c3608f8bd8908b2b0a362ad6b7250bc5d475d88e7ecadb",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_05.png",
+      "models": [
+        "Blacktusk Boar",
+        "Venom Spider",
+        "Slate Guardian"
+      ],
+      "clip": "idle",
+      "sha256": "ae308336e95f9d7f90fc51dec5b2cf4d0c97a7713d76edce69da2698fddcaa42",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_06.png",
+      "models": [
+        "Hollow Raider",
+        "Cinder Wisp",
+        "Frost Wolf"
+      ],
+      "clip": "idle",
+      "sha256": "aa7e62e53f6787c4d2ed6875beb800000fc69e7be1f40f84447729439baf03c3",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_07.png",
+      "models": [
+        "Ironhide Boar",
+        "Silk Matron",
+        "Ash Bandit"
+      ],
+      "clip": "idle",
+      "sha256": "8c90bdfeca2f3042c7838ed5e481ecf495df87d2ba4ca22c16aacbe57a1187a8",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_08.png",
+      "models": [
+        "Grave Wisp",
+        "Ember Hound",
+        "Cairn Sentinel"
+      ],
+      "clip": "idle",
+      "sha256": "be3cb82440891aed85177a17f9ce3fb04cb17aede1eadd77dad86ed8097a90b3",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_09.png",
+      "models": [
+        "Glass Spider",
+        "Dusk Stalker",
+        "Bloodfang"
+      ],
+      "clip": "idle",
+      "sha256": "dec4b0d6ae8e24e7dd7f050d35b38e53b352d9caf9f4e748694a9db87fd1767a",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_10.png",
+      "models": [
+        "Ash Wisp",
+        "Obsidian Boar",
+        "Widow Spider"
+      ],
+      "clip": "idle",
+      "sha256": "38642db1953672268f67e4339ab0d235d107d2a0b293d14d200a6a4bd0608f93",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_11.png",
+      "models": [
+        "Exile Captain",
+        "Storm Wisp",
+        "Rift Sentinel"
+      ],
+      "clip": "idle",
+      "sha256": "c4971f92a6e957181a16a6b3f342e09f13e8fa64027fca7f237f95320b9487ef",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_12.png",
+      "models": [
+        "Ancient Warden",
+        "Cairn Colossus",
+        "Ironvow rider"
+      ],
+      "clip": "idle",
+      "sha256": "0ccde08330f10d5940a86f1fccb5e3d5621ee900c718e5212941ff23af89157e",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_13.png",
+      "models": [
+        "Bay trail horse",
+        "Frontier pine",
+        "Mossy slate boulder"
+      ],
+      "clip": "idle",
+      "sha256": "46fd775034bfc9371c93cb7b7730e6ce6796b0995952eca5604df200c566ccb8",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_14.png",
+      "models": [
+        "Bramble shrub",
+        "Woodland fern",
+        "Frontier house"
+      ],
+      "clip": "idle",
+      "sha256": "3d9994e14769102d393913e09bedf44baeda15a0f07a1bc806f31f11f6692cad",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_15.png",
+      "models": [
+        "Sella keeper",
+        "Dead pine",
+        "Fallen pine log"
+      ],
+      "clip": "idle",
+      "sha256": "4e9452f5a2cd507f5da3e985e1b771fb561c45c40bc7eac680078edcc9613e72",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_16.png",
+      "models": [
+        "Timber watchtower",
+        "Oren blacksmith",
+        "Roadside shrine"
+      ],
+      "clip": "idle",
+      "sha256": "fdd3c4d8d3d47329d34c075ba9d9b69c22bbd421e7d22c67988ed07ab236d362",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_17.png",
+      "models": [
+        "Camp tent",
+        "Ruined stone arch",
+        "Bram stablemaster"
+      ],
+      "clip": "idle",
+      "sha256": "86ad06bf5dacdba5e1f36636e5f50f5ca0b4f65d2cc38621e87409db1f8f9bc2",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_18.png",
+      "models": [
+        "Woodland sedge",
+        "Briarwake Fracture",
+        "Cloud brass coin"
+      ],
+      "clip": "idle",
+      "sha256": "e8a7209496c5ddd266c71a4c6622b263e9a6f3949324e49ea37eff46192d1fa9",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_idle_19.png",
+      "models": [
+        "Timber shipping crate",
+        "Rope footbridge"
+      ],
+      "clip": "idle",
+      "sha256": "c4df99838e08afba9ccf8b751256850e9d7c81bb7d935285021184604934eb6e",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "legacy_idle_00.png",
+      "models": [
+        "Fallen Wood",
+        "Fern",
+        "Leaf Litter"
+      ],
+      "clip": "idle",
+      "sha256": "326bf1b2dad44c937aebe0c140943088a89039bd4efa0f9144273584de67afd7",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "legacy_idle_01.png",
+      "models": [
+        "Rock 0",
+        "Rock 1",
+        "Rock 2"
+      ],
+      "clip": "idle",
+      "sha256": "57c831f2556d788c8ee72bcce6313e14f04fcfba427e161ca25703a6228ae921",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "legacy_idle_02.png",
+      "models": [
+        "Sedge",
+        "Shrub Briar",
+        "Shrub Laurel"
+      ],
+      "clip": "idle",
+      "sha256": "40668e51f96c85dddf27fd69491697ebbb549f72cb4219e1b71f069fa2e2c8e8",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "legacy_idle_03.png",
+      "models": [
+        "Tree Bent",
+        "Tree Fork",
+        "Tree Wide"
+      ],
+      "clip": "idle",
+      "sha256": "8f40f92a5affc880b6fefda68bdbad8b83d06df8f456f4cb1d370828062cb309",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "legacy_idle_04.png",
+      "models": [
+        "Briarling",
+        "Jade Ironback Mantle",
+        "Jade Sword"
+      ],
+      "clip": "idle",
+      "sha256": "27bb85caa1bc5f16b45ecbf38a489b1ae50940a57be8389d3388f9e03264c5c9",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "legacy_idle_05.png",
+      "models": [
+        "Townfolk Kit",
+        "Traveler",
+        "Traveler Guard"
+      ],
+      "clip": "idle",
+      "sha256": "1434696557d0df81aeccdfde12a725060d0d2774a563f567cd91146969860b81",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "legacy_idle_06.png",
+      "models": [
+        "Turnwarden V2",
+        "Turnwarden V2 Sword",
+        "Warden Insignia"
+      ],
+      "clip": "idle",
+      "sha256": "237a75d7e44dbb67bcd4f53091317f2f514eec8ab10e3164d44d9bfcaf2d92d0",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "legacy_idle_07.png",
+      "models": [
+        "Warden Sword",
+        "Wayfarer Sword",
+        "Boar"
+      ],
+      "clip": "idle",
+      "sha256": "63f61e305df43adcd52f71192751f0e9ab456de227a00eb6493f6f501d98edef",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "legacy_idle_08.png",
+      "models": [
+        "Spider",
+        "Stonekin",
+        "Wisp"
+      ],
+      "clip": "idle",
+      "sha256": "4581606c5a7ef00794556913aa221a8bd4b61b0e76b45ba6fbc1e8300ea8c51c",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "legacy_idle_09.png",
+      "models": [
+        "Wolf",
+        "Briarsteel",
+        "Cairnwarden"
+      ],
+      "clip": "idle",
+      "sha256": "13247974becdd87a115721a478468112f3e21d85ec04d7716b506ccd4f65f410",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "legacy_idle_10.png",
+      "models": [
+        "Ember",
+        "Frontier",
+        "Glass"
+      ],
+      "clip": "idle",
+      "sha256": "3c316ba05026534dad04b025d45ea4ef60b298a1d67296934dcea4f01904793a",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "legacy_idle_11.png",
+      "models": [
+        "Marchguard",
+        "Relic",
+        "Rift"
+      ],
+      "clip": "idle",
+      "sha256": "d88a8f9bac494e420421b173e04f7ceb0a16ded6d51cd009ad2f59121d0c777b",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "legacy_idle_12.png",
+      "models": [
+        "Wakecleaver",
+        "Wayfarer",
+        "Cliff"
+      ],
+      "clip": "idle",
+      "sha256": "5a88ffc06265eaa822cd71af9f18dbbd2f44c4d8f9b30e9adf9e826dcf48336e",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "legacy_idle_13.png",
+      "models": [
+        "Cliff1",
+        "Rock1",
+        "Rock2"
+      ],
+      "clip": "idle",
+      "sha256": "bb0e1d2f846ce478ce0104cf4eb05b6e5f5926ee74c9339eab9f3793b13af6ec",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "legacy_idle_14.png",
+      "models": [
+        "Tree1",
+        "Tree2"
+      ],
+      "clip": "idle",
+      "sha256": "c70d85810fb2b24afbae27877213cfb7521d1f0fffde91855a701519bff52622",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "residents_idle_00.png",
+      "models": [
+        "Apothecary",
+        "Armorer",
+        "Artificer"
+      ],
+      "clip": "idle",
+      "sha256": "16f3001eb9a36f95ce3d27913b8e5f34641e3860ad1e1a62885239fbe87ee636",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "residents_idle_01.png",
+      "models": [
+        "Ash_Scout",
+        "Keeper",
+        "Mara"
+      ],
+      "clip": "idle",
+      "sha256": "ed77536ab118cfe7a9eee11032336001f83e7b773691239248b939a954304815",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "residents_idle_02.png",
+      "models": [
+        "Smith",
+        "Stablemaster",
+        "Warden"
+      ],
+      "clip": "idle",
+      "sha256": "209669e256a809d59abbe6d4395fd08176a8d51f76d7e9f8d4877cc3a17b9ddd",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "residents_idle_03.png",
+      "models": [
+        "Weapons"
+      ],
+      "clip": "idle",
+      "sha256": "a822ad60ac6e8635dd0395c29163ae23001b354365c407d29bda14b9fca9862a",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_run_00.png",
+      "models": [
+        "Meadow Wolf",
+        "Young Mossling",
+        "Bristle Boar"
+      ],
+      "clip": "run",
+      "sha256": "2f63197fe4a60a2e674c7edcf0336452a928935d9bd9134ec14fa9b7aebce0f2",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_run_01.png",
+      "models": [
+        "Mossling",
+        "Cairn Ironback",
+        "Road Bandit"
+      ],
+      "clip": "run",
+      "sha256": "59d88e5c8cbff3cfc9c2fa964ad1a19fc03df31f991851927fe1e0b67613eb66",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    },
+    {
+      "image": "gallery_run_02.png",
+      "models": [
+        "Cairn Sentinel",
+        "Cairn Colossus",
+        "Ironvow rider"
+      ],
+      "clip": "run",
+      "sha256": "1bf3b0f3882b93d6097fd51646200f9c9261b6ab6305df8216096ff849741b4b",
+      "inspection": "Opened with view_image; prototype geometry and authored textures inspected."
+    }
+  ],
+  "world_images_opened": [
+    "world_review/cairn_sentinel_impact.png",
+    "world_review/ground_weapons.png",
+    "world_review/hero_face.png",
+    "world_review/meadow_wolf_gameplay.png",
+    "world_review/mounted_cut0_frame15.png",
+    "world_review/mounted_profile.png",
+    "world_review/road_bandit_gameplay.png",
+    "world_review/townfolk_crossing.png",
+    "world_review/townfolk_roof.png",
+    "world_review/townfolk_sella.png",
+    "world_review/townfolk_wilderness.png"
+  ],
+  "generator_human_acceptance_modified": false,
+  "conclusion": "All original GLB paths replaced and imports/contracts pass. Prototype art retains reconstruction defects; no final production-art approval.",
+  "remaining_art_issues": [
+    "Faces and hands lose fine anatomy at close distances.",
+    "Foliage forms clumped inferred surfaces rather than separate leaf cards.",
+    "Some mossling, stonekin and bandit poses show pinched or compressed limb surfaces.",
+    "Armor overlays are thin; related equipment shares sword/torso bases.",
+    "Ten resident scenes use three reconstructed bases; the fallback is no longer a modular outfit kit.",
+    "Hidden surfaces are inferred from a single image and may not match the concept."
+  ],
+  "offline_gallery_browser_check": {
+    "sheets": 42,
+    "horse_search_passed": true,
+    "animation_filter_passed": true,
+    "script_errors": []
+  }
+}

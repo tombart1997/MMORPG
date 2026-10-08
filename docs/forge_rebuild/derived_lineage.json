@@ -1,0 +1,292 @@
+[
+  {
+    "target": "game/assets/benchmark/fallen_wood.glb",
+    "reconstruction": "fallen_log",
+    "source": "game/assets/world_kit/log.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/benchmark/fern.glb",
+    "reconstruction": "fern_reference",
+    "source": "game/assets/world_kit/fern.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/benchmark/leaf_litter.glb",
+    "reconstruction": "grass",
+    "source": "game/assets/world_kit/grass.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/benchmark/rock_0.glb",
+    "reconstruction": "rock_slate",
+    "source": "game/assets/world_kit/rock0.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/benchmark/rock_1.glb",
+    "reconstruction": "rock_slate",
+    "source": "game/assets/world_kit/rock0.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/benchmark/rock_2.glb",
+    "reconstruction": "rock_slate",
+    "source": "game/assets/world_kit/rock0.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/benchmark/sedge.glb",
+    "reconstruction": "grass",
+    "source": "game/assets/world_kit/grass.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/benchmark/shrub_briar.glb",
+    "reconstruction": "shrub_reference",
+    "source": "game/assets/world_kit/shrub.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/benchmark/shrub_laurel.glb",
+    "reconstruction": "shrub_reference",
+    "source": "game/assets/world_kit/shrub.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/benchmark/tree_bent.glb",
+    "reconstruction": "tree_pine",
+    "source": "game/assets/world_kit/tree0.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/benchmark/tree_fork.glb",
+    "reconstruction": "tree_pine",
+    "source": "game/assets/world_kit/tree0.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/benchmark/tree_wide.glb",
+    "reconstruction": "tree_pine",
+    "source": "game/assets/world_kit/tree0.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/characters/briarling.glb",
+    "reconstruction": "mob_young",
+    "method": "Refined Young Mossling geometry uses this same original rig and actions, with constrained feet and ground bridge removal."
+  },
+  {
+    "target": "game/assets/characters/jade_ironback_mantle.glb",
+    "reconstruction": "hero_ironvow",
+    "source": "game/assets/characters/warden_high.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/characters/jade_sword.glb",
+    "reconstruction": "weapon_jade",
+    "source": "game/assets/forge_rebuild/weapons/jade.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/characters/townfolk_kit.glb",
+    "reconstruction": "npc_smith",
+    "method": "Reconstructed full-body fallback with the original 18-bone rig and three idle clips; named residents use their own catalogue scenes."
+  },
+  {
+    "target": "game/assets/characters/traveler.glb",
+    "reconstruction": "hero_ironvow",
+    "method": "New neural geometry fitted and bound to this legacy model\u2019s original rig/actions."
+  },
+  {
+    "target": "game/assets/characters/traveler_guard.glb",
+    "reconstruction": "hero_ironvow",
+    "source": "game/assets/characters/warden_high.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/characters/turnwarden_v2.glb",
+    "reconstruction": "hero_ironvow",
+    "method": "New neural geometry fitted and bound to this legacy model\u2019s original rig/actions."
+  },
+  {
+    "target": "game/assets/characters/turnwarden_v2_sword.glb",
+    "reconstruction": "weapon_jade",
+    "source": "game/assets/forge_rebuild/weapons/jade.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/characters/warden_insignia.glb",
+    "reconstruction": "coin",
+    "source": "game/assets/weapons/gold_coin.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/characters/warden_sword.glb",
+    "reconstruction": "weapon_jade",
+    "source": "game/assets/forge_rebuild/weapons/jade.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/characters/wayfarer_sword.glb",
+    "reconstruction": "weapon_jade",
+    "source": "game/assets/forge_rebuild/weapons/jade.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/creatures/boar.glb",
+    "reconstruction": "mob_bristle_boar",
+    "method": "Family fallback uses the rebuilt representative with identical rig contract."
+  },
+  {
+    "target": "game/assets/creatures/spider.glb",
+    "reconstruction": "mob_reed_spider",
+    "method": "Family fallback uses the rebuilt representative with identical rig contract."
+  },
+  {
+    "target": "game/assets/creatures/stonekin.glb",
+    "reconstruction": "mob_cairn_sentinel",
+    "method": "Family fallback uses the rebuilt representative with identical rig contract."
+  },
+  {
+    "target": "game/assets/creatures/wisp.glb",
+    "reconstruction": "mob_grave_wisp",
+    "method": "Family fallback uses the rebuilt representative with identical rig contract."
+  },
+  {
+    "target": "game/assets/creatures/wolf.glb",
+    "reconstruction": "mob_meadow_wolf",
+    "method": "Family fallback uses the rebuilt representative with identical rig contract."
+  },
+  {
+    "target": "game/assets/weapons/briarsteel.glb",
+    "reconstruction": "weapon_jade",
+    "source": "game/assets/forge_rebuild/weapons/jade.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/weapons/cairnwarden.glb",
+    "reconstruction": "weapon_jade",
+    "source": "game/assets/forge_rebuild/weapons/jade.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/weapons/ember.glb",
+    "reconstruction": "weapon_jade",
+    "source": "game/assets/forge_rebuild/weapons/jade.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/weapons/frontier.glb",
+    "reconstruction": "weapon_jade",
+    "source": "game/assets/forge_rebuild/weapons/jade.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/weapons/glass.glb",
+    "reconstruction": "weapon_jade",
+    "source": "game/assets/forge_rebuild/weapons/jade.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/weapons/marchguard.glb",
+    "reconstruction": "weapon_jade",
+    "source": "game/assets/forge_rebuild/weapons/jade.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/weapons/relic.glb",
+    "reconstruction": "weapon_jade",
+    "source": "game/assets/forge_rebuild/weapons/jade.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/weapons/rift.glb",
+    "reconstruction": "weapon_jade",
+    "source": "game/assets/forge_rebuild/weapons/jade.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/weapons/wakecleaver.glb",
+    "reconstruction": "weapon_jade",
+    "source": "game/assets/forge_rebuild/weapons/jade.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/weapons/wayfarer.glb",
+    "reconstruction": "weapon_jade",
+    "source": "game/assets/forge_rebuild/weapons/jade.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/world_kit/cliff.glb",
+    "reconstruction": "rock_slate",
+    "source": "game/assets/world_kit/rock0.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/world_kit/cliff1.glb",
+    "reconstruction": "rock_slate",
+    "source": "game/assets/world_kit/rock0.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/world_kit/rock1.glb",
+    "reconstruction": "rock_slate",
+    "source": "game/assets/world_kit/rock0.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/world_kit/rock2.glb",
+    "reconstruction": "rock_slate",
+    "source": "game/assets/world_kit/rock0.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/world_kit/tree1.glb",
+    "reconstruction": "tree_pine",
+    "source": "game/assets/world_kit/tree0.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/world_kit/tree2.glb",
+    "reconstruction": "tree_pine",
+    "source": "game/assets/world_kit/tree0.glb",
+    "method": "Fitted newly reconstructed geometry to original metric bounds; optional material tint/region extraction."
+  },
+  {
+    "target": "game/assets/forge_rebuild/npcs/mara.glb",
+    "reconstruction": "npc_keeper",
+    "method": "Resident variant of newly reconstructed base character; original gameplay appearance supplies stature."
+  },
+  {
+    "target": "game/assets/forge_rebuild/npcs/apothecary.glb",
+    "reconstruction": "npc_keeper",
+    "method": "Resident variant of newly reconstructed base character; original gameplay appearance supplies stature."
+  },
+  {
+    "target": "game/assets/forge_rebuild/npcs/artificer.glb",
+    "reconstruction": "npc_stablemaster",
+    "method": "Resident variant of newly reconstructed base character; original gameplay appearance supplies stature."
+  },
+  {
+    "target": "game/assets/forge_rebuild/npcs/armorer.glb",
+    "reconstruction": "npc_smith",
+    "method": "Resident variant of newly reconstructed base character; original gameplay appearance supplies stature."
+  },
+  {
+    "target": "game/assets/forge_rebuild/npcs/weapons.glb",
+    "reconstruction": "npc_smith",
+    "method": "Resident variant of newly reconstructed base character; original gameplay appearance supplies stature."
+  },
+  {
+    "target": "game/assets/forge_rebuild/npcs/warden.glb",
+    "reconstruction": "npc_stablemaster",
+    "method": "Resident variant of newly reconstructed base character; original gameplay appearance supplies stature."
+  },
+  {
+    "target": "game/assets/forge_rebuild/npcs/ash_scout.glb",
+    "reconstruction": "npc_stablemaster",
+    "method": "Resident variant of newly reconstructed base character; original gameplay appearance supplies stature."
+  }
+]

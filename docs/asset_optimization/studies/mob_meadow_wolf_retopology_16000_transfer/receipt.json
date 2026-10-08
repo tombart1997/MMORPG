@@ -1,0 +1,148 @@
+{
+  "name": "mob_meadow_wolf_retopology_16000_transfer",
+  "asset_id": "e98eb4a8f477",
+  "source_key": "mob_meadow_wolf",
+  "source": "game/assets/forge_rebuild/mobs/meadow_wolf.glb",
+  "source_asset_id": "ee4651b0a657",
+  "source_sha256": "0de3a7047a3e6d45a77dc54aeb49620845ea03ac4f7d4aa6fdc9209b25699dde",
+  "imported_candidate": "ce8cfeb01588",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 16000,
+    "optimization_mode": "retopology",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "anatomy_review",
+      "topology_review",
+      "uv_materials",
+      "species_rig_import",
+      "animation_review",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "e8280c9725c6",
+    "asset_id": "e98eb4a8f477",
+    "operation": "process",
+    "state": "queued",
+    "stage": "queued",
+    "progress": 0,
+    "created_at": "2026-10-03T18:49:53.142458+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {},
+    "resumed_from": null,
+    "message": "Waiting for worker",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 16000,
+      "optimization_mode": "retopology",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "anatomy_review",
+        "topology_review",
+        "uv_materials",
+        "species_rig_import",
+        "animation_review",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "ce8cfeb01588",
+      "path": "imports/b21da2888b5d.glb",
+      "origin": "imported",
+      "sha256": "0de3a7047a3e6d45a77dc54aeb49620845ea03ac4f7d4aa6fdc9209b25699dde",
+      "created_at": "2026-10-03T18:49:53.054457+00:00",
+      "original_filename": "meadow_wolf.glb",
+      "license": "Optimization study: retained local neural derivative from ee4651b0a657; SHA256 0de3a7047a3e6d45a77dc54aeb49620845ea03ac4f7d4aa6fdc9209b25699dde",
+      "cost_credits": 0
+    },
+    "reference": null
+  },
+  "visual_status": "pending"
+}

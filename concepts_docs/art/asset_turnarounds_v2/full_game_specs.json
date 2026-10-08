@@ -1,0 +1,267 @@
+[
+  {
+    "key": "pine",
+    "plan_key": "tree_pine",
+    "preset": "environment",
+    "split": 512,
+    "used": [
+      "front",
+      "back"
+    ],
+    "notes": "Opened source and saved sheet. Mature rooted bark trunk and olive boughs remain coherent. Only front and back are distinctly useful; lateral and three-quarter drawings repeat the front silhouette and are excluded. Individual rear branches are inferred.",
+    "excluded": {
+      "left": "Repeated front-like camera.",
+      "three_quarter": "Repeated front-like camera."
+    }
+  },
+  {
+    "key": "house",
+    "plan_key": "house_reference",
+    "preset": "environment",
+    "used": [
+      "front",
+      "left",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened source and saved four views. Double front door two front windows, gable on side, rear single window, timber plaster walls and stepped stone base agree. Rear window is an inferred production choice. Roof curvature and straight structural axes require mesh review."
+  },
+  {
+    "key": "jade",
+    "plan_key": "weapon_jade",
+    "preset": "equipment",
+    "used": [
+      "front",
+      "left",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened source and saved four views. Straight double-edged blade, jade fuller, squared brass guard and wrapped grip agree. Side records physical thickness. Blade is up in sheet; fitting must honor game grip origin. Engraving is interpreted; straightness needs clean remodeling if neural mesh bends."
+  },
+  {
+    "key": "mossling",
+    "plan_key": "mob_young",
+    "preset": "creature",
+    "used": [
+      "front",
+      "left",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened source and saved full sheet. Bark owl face, amber eyes, twig claws, split root feet, shelf fungus and moss agree across cameras. Neutral limbs separated. Hidden ivy and branch detail is inferred. Side camera is approximate oblique; rig fitting must preserve crouched anatomy."
+  },
+  {
+    "key": "stonekin",
+    "plan_key": "mob_slate_guardian",
+    "preset": "creature",
+    "used": [
+      "front",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened source and saved full sheet. Completed cropped left arm as a symmetrical inferred continuation. Jointed slate blocks, mask, feet, rope belt and red rag agree. The supposed side is oblique and excluded as redundant. Inspect joint separation in reconstruction.",
+    "excluded": {
+      "left": "Oblique rather than distinct lateral view."
+    }
+  },
+  {
+    "key": "wisp",
+    "plan_key": "mob_cinder_wisp",
+    "preset": "creature",
+    "used": [
+      "front",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened source and saved full sheet. Cracked mask sockets, ropes, bead arms and cloth consistent, no flame reconstruction. Side is oblique and excluded as redundant. Fire remains a separate effect. Rear mask surface and rope attachments are inferred.",
+    "excluded": {
+      "left": "Oblique view repeats three-quarter."
+    }
+  },
+  {
+    "key": "bandit",
+    "plan_key": "mob_road_bandit",
+    "preset": "humanoid",
+    "used": [
+      "front",
+      "left",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened source and saved four views. Realistic adult, rust scarf/cape, leather chest belt/bracers, trousers and boots coherent. Empty hands remove held weapon from body reconstruction; game supplies attachment. Neutral stance, separated feet. Rear costume remains an inferred continuation."
+  },
+  {
+    "key": "rock",
+    "plan_key": "rock_slate",
+    "preset": "environment",
+    "used": [
+      "front",
+      "left",
+      "back"
+    ],
+    "notes": "Opened original and saved complete production sheet. Angular fractured gray slate wedge, low base and layered lichen bands agree; three-quarter duplicates front and is supplementary. Thin foliage may require clean leaf remodeling after runtime inspection."
+  },
+  {
+    "key": "shrub",
+    "plan_key": "shrub_reference",
+    "preset": "environment",
+    "used": [
+      "front",
+      "back"
+    ],
+    "notes": "Opened original and saved complete production sheet. Olive laurel foliage, woody crown, same basic footprint; other elevations repeat similar frontal silhouettes and are supplementary. Thin foliage may require clean leaf remodeling after runtime inspection."
+  },
+  {
+    "key": "grass",
+    "plan_key": "grass",
+    "preset": "environment",
+    "used": [
+      "front",
+      "top"
+    ],
+    "notes": "Opened original and saved complete production sheet. Olive ribbon blades, dry tips, compact crown, top reveals radial structure; other elevations are redundant. Thin foliage may require clean leaf remodeling after runtime inspection.",
+    "third_angle": "top"
+  },
+  {
+    "key": "dead_tree",
+    "plan_key": "dead_tree",
+    "preset": "environment",
+    "used": [
+      "front",
+      "left",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened original and saved complete production sheet. Hollow ridged stump, exposed roots and snapped branches rotate coherently; backside knots are inferred. Thin foliage may require clean leaf remodeling after runtime inspection."
+  },
+  {
+    "key": "fallen_log",
+    "plan_key": "fallen_log",
+    "preset": "environment",
+    "used": [
+      "front",
+      "left",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened source and saved complete sheet. Broken bark trunk, end-grain depth and snapped branches agree; rear knots are inferred. Mesh straightness and camera-axis fitting remain pending."
+  },
+  {
+    "key": "shrine",
+    "plan_key": "shrine",
+    "preset": "environment",
+    "used": [
+      "front",
+      "left",
+      "three_quarter"
+    ],
+    "notes": "Opened source and saved complete sheet. Two posts curved roof central stacked stones and front-right cloth agree. Rear keeps cloth on wrong screen side and is excluded. Stone count is approximate; rebuild stack structurally if needed. Mesh straightness and camera-axis fitting remain pending."
+  },
+  {
+    "key": "tent",
+    "plan_key": "tent",
+    "preset": "environment",
+    "used": [
+      "front",
+      "left",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened source and saved complete sheet. Front entrance, forked poles, tan canvas and closed rear agree. Some tie pegs are inferred. Mesh straightness and camera-axis fitting remain pending."
+  },
+  {
+    "key": "ruin_arch",
+    "plan_key": "ruin_arch",
+    "preset": "environment",
+    "used": [
+      "front",
+      "left",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened source and saved complete sheet. True arch opening, thick stone piers, broken top and relief panels agree. Rear masonry and minor damage are inferred. Mesh straightness and camera-axis fitting remain pending."
+  },
+  {
+    "key": "fracture",
+    "plan_key": "fracture",
+    "preset": "environment",
+    "used": [
+      "front",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened source and saved full sheet. Bark root ring, split inward ribs and separate central amber crystal consistent. Side repeats front and is excluded. Exact rib count remains ambiguous under occlusion and must be explicitly repaired to seven in geometry."
+  },
+  {
+    "key": "coin",
+    "plan_key": "coin",
+    "preset": "environment",
+    "used": [
+      "front",
+      "left",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened source and saved full sheet. Round brass disc, square through hole, scroll relief and thin edge coherent. Reverse relief is inferred."
+  },
+  {
+    "key": "crate",
+    "plan_key": "crate",
+    "preset": "environment",
+    "used": [
+      "front",
+      "left",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened source and saved full sheet. Square timber planks corner iron straps, front diagonal, side plain and mirrored rear brace agree."
+  },
+  {
+    "key": "bridge",
+    "plan_key": "bridge",
+    "preset": "environment",
+    "used": [
+      "front",
+      "left",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened source and saved full sheet. Straight walkway six posts with rope rails and end landings agree. Front/back omit mid-posts by occlusion. Native geometry must preserve usable straight deck."
+  },
+  {
+    "key": "keeper",
+    "plan_key": "npc_keeper",
+    "preset": "humanoid",
+    "used": [
+      "front",
+      "left",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened original and saved complete four-view sheet. Adult woman, hair bun, teal outer robe cream inner robe brass sash details and boots coherent. Empty hands and separated relaxed A-pose. Rear garment details are inferred."
+  },
+  {
+    "key": "stablemaster",
+    "plan_key": "npc_stablemaster",
+    "preset": "humanoid",
+    "used": [
+      "front",
+      "left",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened original and saved complete four-view sheet. Adult male headband goatee, linen rolled sleeves tan vest leather apron pouch dark trousers boots coherent. Empty hands relaxed A-pose; rear costume is inferred."
+  },
+  {
+    "key": "saddle",
+    "plan_key": "saddle",
+    "preset": "equipment",
+    "used": [
+      "front",
+      "left",
+      "back",
+      "three_quarter"
+    ],
+    "notes": "Opened original and saved complete four-view sheet. Separate leather curved seat pommel cantle, patterned dark blanket cream fringe, paired straps/open stirrups agree. Source mounted illustration remains design authority; rear carving is inferred. Thin straps and fitting need topology repair as necessary."
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_obsidian_boar",
+      "before": 13986,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11996,
+      "quality": {
+        "surface_max_fraction": 0.0022375685809600163,
+        "surface_p95_fraction": 0.00024581132976281365,
+        "bounds_drift_fraction": 0.0003840826249917015,
+        "nonmanifold_edges": 0,
+        "samples": 6336
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.004239203437721114,
+          "p95_fraction": 0.0002573397245483415
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.011661575026157507,
+          "p95_fraction": 0.0002775339990272375
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.007748041087024561,
+          "p95_fraction": 0.0002628857174816452
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.016461883292590122,
+          "p95_fraction": 0.00024723464340171964
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.0022935242383994043,
+          "p95_fraction": 0.00024601703133412725
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

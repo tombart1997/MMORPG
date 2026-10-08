@@ -1,7 +1,7 @@
 class_name CreatureMaterials
 extends RefCounted
 ## Shared species surfaces retain the authored grain and normals, with neutralized coat color.
-const SURFACE = preload("res://assets/creatures/creature_surface.gdshader")
+const SURFACE = preload("res://assets/shaders/creature_surface.gdshader")
 const COATS := {
 	&"red_wolf": "974f37", &"blue_wolf": "4b6c91", &"grey_wolf": "777e84",
 	&"meadow_wolf": "967651", &"thicket_wolf": "635844", &"frost_wolf": "e8edf1",
@@ -25,6 +25,17 @@ static func apply(model: Node3D, data: EnemyData, individual: int = 0) -> void:
 			var source := (mesh.get_active_material(surface) if data.family == &"bandit" else mesh.mesh.surface_get_material(surface)) as StandardMaterial3D
 			if source == null: continue
 			var name_value := source.resource_name
+			# Stable generated species fallbacks retain their atlas and eye detail.
+			# Tinting the diffuse color avoids replacing the authored atlas with a
+			# procedural coat intended for the older separate body materials.
+			if name_value.begins_with("Forge_") and data.family in [&"wolf",&"boar"]:
+				var atlas_key := "atlas:%s:%s:%d" % [data.id,name_value,individual%3]
+				if not cache.has(atlas_key):
+					var tinted := source.duplicate() as StandardMaterial3D
+					tinted.albedo_color = source.albedo_color * base.lightened(.48+float(individual%3)*.025)
+					cache[atlas_key] = tinted
+				mesh.set_surface_override_material(surface,cache[atlas_key])
+				continue
 			var clothing := data.family == &"bandit" and ("Cloth" in name_value or "Leather" in name_value)
 			if not (clothing or "Body" in name_value or "Mane" in name_value or "CarvedJade" in name_value or "Bark" in name_value or "ForestJade" in name_value): continue
 			var key := "%s:%s:%d" % [data.id,name_value,individual%3]

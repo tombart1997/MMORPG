@@ -1,0 +1,30 @@
+{
+  "technical_status": "passed",
+  "visual_status": "pending",
+  "errors": [],
+  "warnings": [],
+  "triangles": 11996,
+  "materials": 1,
+  "textures": [
+    {
+      "name": "Forge_mob_storm_wisp_RuntimeAtlas",
+      "mime": "image/png",
+      "embedded": true
+    }
+  ],
+  "skins": 1,
+  "bones": [
+    "Root",
+    "Hips",
+    "Chest",
+    "Head"
+  ],
+  "animations": [
+    "death",
+    "hit",
+    "attack_01",
+    "run",
+    "idle"
+  ],
+  "mesh_objects": 1
+}

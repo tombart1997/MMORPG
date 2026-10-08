@@ -1,0 +1,63 @@
+{
+  "objects": [
+    {
+      "name": "Forge_mob_ironback",
+      "vertices": 17959,
+      "triangles": 12828,
+      "materials": 1,
+      "degenerate_faces": 0,
+      "boundary_edges": 17416,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "has_uv": true,
+      "collapsed_uv_triangles": 0,
+      "skinned": true,
+      "unweighted_vertices": 0
+    }
+  ],
+  "triangles": 12828,
+  "textures": [
+    {
+      "name": "Forge_mob_ironback_RuntimeAtlas",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "available": true
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.7010205984115601,
+      -0.23221801221370697,
+      -0.039714474231004715
+    ],
+    "max": [
+      0.7063359618186951,
+      0.6050191521644592,
+      1.9236301183700562
+    ]
+  },
+  "armatures": [
+    {
+      "name": "SpiritRig",
+      "bones": 18
+    }
+  ],
+  "actions": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+  "unverified": [
+    "UV overlap beyond collapsed triangles",
+    "Internal occluded geometry",
+    "Baked lighting",
+    "Joint clipping",
+    "Reference fidelity"
+  ]
+}

@@ -1,0 +1,244 @@
+{
+	"assets": [
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500017642975,
+					0.399999976158142
+				]
+			],
+			"key": "npc_keeper",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\npc_keeper\\after.png",
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500005722046,
+					0.399999976158142
+				]
+			],
+			"key": "npc_smith",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\npc_smith\\after.png",
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500005722046,
+					0.399999976158142
+				]
+			],
+			"key": "npc_stablemaster",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\npc_stablemaster\\after.png",
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500017642975,
+					0.399999976158142
+				]
+			],
+			"key": "derived_forge_rebuild_npcs_mara",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_mara\\after.png",
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500017642975,
+					0.399999976158142
+				]
+			],
+			"key": "derived_forge_rebuild_npcs_apothecary",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_apothecary\\after.png",
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500005722046,
+					0.399999976158142
+				]
+			],
+			"key": "derived_forge_rebuild_npcs_artificer",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_artificer\\after.png",
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500005722046,
+					0.399999976158142
+				]
+			],
+			"key": "derived_forge_rebuild_npcs_armorer",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_armorer\\after.png",
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500005722046,
+					0.399999976158142
+				]
+			],
+			"key": "derived_forge_rebuild_npcs_weapons",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_weapons\\after.png",
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500005722046,
+					0.399999976158142
+				]
+			],
+			"key": "derived_forge_rebuild_npcs_warden",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_warden\\after.png",
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"idle",
+				"keeper_idle",
+				"smith_idle"
+			],
+			"framing_bounds": [
+				[
+					-0.46000000834465,
+					0.00499999988824129,
+					-0.209999978542328
+				],
+				[
+					0.920000016689301,
+					1.81500005722046,
+					0.399999976158142
+				]
+			],
+			"key": "derived_forge_rebuild_npcs_ash_scout",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\derived_forge_rebuild_npcs_ash_scout\\after.png",
+			"path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+			"status": "rendered_requires_visual_review"
+		}
+	]
+}

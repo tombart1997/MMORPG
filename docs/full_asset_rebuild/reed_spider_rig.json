@@ -1,0 +1,31 @@
+{
+  "key": "reed_spider",
+  "source": "D:\\Games\\Metin2Clone\\blender\\multiview_rebuild\\prepared\\reed_spider.blend",
+  "rig_source": "blender/creatures/spider.blend",
+  "family": "spider",
+  "height": 1.05,
+  "yaw": 0,
+  "output": "D:\\Games\\Metin2Clone\\game\\assets\\generated\\reed_spider.glb",
+  "bounds": [
+    [
+      -0.9024457931518555,
+      -0.8298055529594421,
+      0.006000000052154064
+    ],
+    [
+      0.9024457931518555,
+      0.8298055529594421,
+      1.055999994277954
+    ]
+  ],
+  "bones": 20,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "template_geometry_exported": false,
+  "review_status": "requires_deformation_review"
+}

@@ -1,0 +1,771 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "EliteCrown",
+      "vertices": 420,
+      "triangles": 520,
+      "local_bounds": [
+        [
+          -0.2709447741508484,
+          0.3451789915561676,
+          0.6840344667434692
+        ],
+        [
+          0.2709447741508484,
+          0.4678165912628174,
+          1.0503677129745483
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        132,
+        132
+      ],
+      "sharp_edges_over_60_degrees": 48,
+      "smooth_faces": 520,
+      "faces": 520,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.34475602618130274,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Jade_Gold"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    },
+    {
+      "name": "SpiritSkin",
+      "vertices": 11114,
+      "triangles": 16160,
+      "local_bounds": [
+        [
+          -1.1509132385253906,
+          -1.0199998617172241,
+          0.06453046947717667
+        ],
+        [
+          1.1509132385253906,
+          0.8327770829200745,
+          0.9959999918937683
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        922,
+        610,
+        610,
+        266,
+        222,
+        222,
+        222,
+        222,
+        222,
+        222,
+        176,
+        176,
+        176,
+        176,
+        176,
+        176,
+        176,
+        176,
+        176,
+        176,
+        154,
+        154,
+        154,
+        154,
+        154,
+        154,
+        154,
+        154,
+        146,
+        146,
+        146,
+        146,
+        146,
+        146,
+        146,
+        146,
+        128,
+        128
+      ],
+      "sharp_edges_over_60_degrees": 675,
+      "smooth_faces": 16160,
+      "faces": 16160,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 36.21430069863631,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Jade_CarvedJade",
+        "Jade_Mane",
+        "Jade_Gold",
+        "Jade_Ivory",
+        "Jade_SpiritEyes"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        1.0,
+        1.0
+      ],
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Jade_CarvedJade",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.36000001430511475
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.1599999964237213
+        },
+        "Normal": {
+          "linked": true,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "spider_jade_albedo",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        },
+        {
+          "name": "spider_jade_normal",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "Jade_Gold",
+      "channels": {
+        "Base Color": {
+          "linked": false,
+          "value": [
+            0.46000000834465027,
+            0.2800000011920929,
+            0.08799999952316284,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.4000000059604645
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.6499999761581421
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": []
+    },
+    {
+      "name": "Jade_Ivory",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.5799999833106995
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": true,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "spider_ivory_albedo",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        },
+        {
+          "name": "spider_ivory_normal",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "Jade_Mane",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": true,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "spider_mane_albedo",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        },
+        {
+          "name": "spider_mane_normal",
+          "resolution": [
+            256,
+            256
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "Jade_SpiritEyes",
+      "channels": {
+        "Base Color": {
+          "linked": false,
+          "value": [
+            0.5199999809265137,
+            0.8299999833106995,
+            0.5199999809265137,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.25
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.11999999731779099
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            0.33799996972084045,
+            0.5394999980926514,
+            0.33799996972084045,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 1.0
+        }
+      },
+      "textures": []
+    }
+  ],
+  "triangles": 16680,
+  "skeletons": [
+    {
+      "name": "SpiritRig",
+      "bones": [
+        {
+          "name": "Root",
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            2.3775907465051205e-08,
+            0.6946222186088562
+          ]
+        },
+        {
+          "name": "Hips",
+          "head": [
+            0.0,
+            -0.34999993443489075,
+            0.5999999642372131
+          ],
+          "tail": [
+            0.0,
+            0.002278357744216919,
+            0.6000000238418579
+          ]
+        },
+        {
+          "name": "Chest",
+          "head": [
+            0.0,
+            -5.2861150123817424e-08,
+            0.5600000023841858
+          ],
+          "tail": [
+            0.0,
+            0.27748867869377136,
+            0.5600000619888306
+          ]
+        },
+        {
+          "name": "Head",
+          "head": [
+            0.0,
+            0.3499998450279236,
+            0.5600000619888306
+          ],
+          "tail": [
+            0.0,
+            0.6274886131286621,
+            0.5600001215934753
+          ]
+        },
+        {
+          "name": "Leg0Upper.L",
+          "head": [
+            -0.24000006914138794,
+            0.3899999260902405,
+            0.5100000500679016
+          ],
+          "tail": [
+            -0.880000114440918,
+            0.35999995470046997,
+            0.6700000762939453
+          ]
+        },
+        {
+          "name": "Leg0Lower.L",
+          "head": [
+            -0.880000114440918,
+            0.35999995470046997,
+            0.6700001358985901
+          ],
+          "tail": [
+            -1.1433149576187134,
+            0.4965336322784424,
+            0.07997983694076538
+          ]
+        },
+        {
+          "name": "Leg0Upper.R",
+          "head": [
+            0.24000006914138794,
+            0.3899999260902405,
+            0.5100000500679016
+          ],
+          "tail": [
+            0.880000114440918,
+            0.35999995470046997,
+            0.6700000762939453
+          ]
+        },
+        {
+          "name": "Leg0Lower.R",
+          "head": [
+            0.880000114440918,
+            0.35999995470046997,
+            0.6700001358985901
+          ],
+          "tail": [
+            1.1433149576187134,
+            0.4965336322784424,
+            0.07997983694076538
+          ]
+        },
+        {
+          "name": "Leg1Upper.L",
+          "head": [
+            -0.23999997973442078,
+            0.12999993562698364,
+            0.5099999904632568
+          ],
+          "tail": [
+            -0.7599999904632568,
+            0.09999994188547134,
+            0.6700000166893005
+          ]
+        },
+        {
+          "name": "Leg1Lower.L",
+          "head": [
+            -0.7599999904632568,
+            0.09999984502792358,
+            0.6699998378753662
+          ],
+          "tail": [
+            -0.9905585646629333,
+            0.21130402386188507,
+            0.1890069842338562
+          ]
+        },
+        {
+          "name": "Leg1Upper.R",
+          "head": [
+            0.23999997973442078,
+            0.12999993562698364,
+            0.5099999904632568
+          ],
+          "tail": [
+            0.7599999904632568,
+            0.09999994188547134,
+            0.6700000166893005
+          ]
+        },
+        {
+          "name": "Leg1Lower.R",
+          "head": [
+            0.7599999904632568,
+            0.09999984502792358,
+            0.6699998378753662
+          ],
+          "tail": [
+            0.9905585646629333,
+            0.21130402386188507,
+            0.1890069842338562
+          ]
+        },
+        {
+          "name": "Leg2Upper.L",
+          "head": [
+            -0.24000002443790436,
+            -0.1300000101327896,
+            0.5099999904632568
+          ],
+          "tail": [
+            -0.7600001096725464,
+            -0.1600000113248825,
+            0.6700000166893005
+          ]
+        },
+        {
+          "name": "Leg2Lower.L",
+          "head": [
+            -0.7600001692771912,
+            -0.1600000113248825,
+            0.6699999570846558
+          ],
+          "tail": [
+            -0.9905588626861572,
+            -0.04869583994150162,
+            0.1890069842338562
+          ]
+        },
+        {
+          "name": "Leg2Upper.R",
+          "head": [
+            0.24000002443790436,
+            -0.1300000101327896,
+            0.5099999904632568
+          ],
+          "tail": [
+            0.7600001096725464,
+            -0.1600000113248825,
+            0.6700000166893005
+          ]
+        },
+        {
+          "name": "Leg2Lower.R",
+          "head": [
+            0.7600001692771912,
+            -0.1600000113248825,
+            0.6699999570846558
+          ],
+          "tail": [
+            0.9905588626861572,
+            -0.04869583994150162,
+            0.1890069842338562
+          ]
+        },
+        {
+          "name": "Leg3Upper.L",
+          "head": [
+            -0.23999999463558197,
+            -0.3899999260902405,
+            0.5099998712539673
+          ],
+          "tail": [
+            -0.8800000548362732,
+            -0.41999998688697815,
+            0.6699998378753662
+          ]
+        },
+        {
+          "name": "Leg3Lower.L",
+          "head": [
+            -0.8799999952316284,
+            -0.41999998688697815,
+            0.669999897480011
+          ],
+          "tail": [
+            -1.143315076828003,
+            -0.28346627950668335,
+            0.07997971773147583
+          ]
+        },
+        {
+          "name": "Leg3Upper.R",
+          "head": [
+            0.23999999463558197,
+            -0.3899999260902405,
+            0.5099998712539673
+          ],
+          "tail": [
+            0.8800000548362732,
+            -0.41999998688697815,
+            0.6699998378753662
+          ]
+        },
+        {
+          "name": "Leg3Lower.R",
+          "head": [
+            0.8799999952316284,
+            -0.41999998688697815,
+            0.669999897480011
+          ],
+          "tail": [
+            1.143315076828003,
+            -0.28346627950668335,
+            0.07997971773147583
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\.local\\forge_rebuild\\baseline\\game\\assets\\creatures\\spider.glb",
+  "seconds": 0.472
+}

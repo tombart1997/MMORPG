@@ -1,0 +1,31 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "MV_coin",
+      "before": 569172,
+      "target": 4000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 3996,
+      "quality": {
+        "surface_max_fraction": 0.003172961993842704,
+        "surface_p95_fraction": 0.0012370773422960028,
+        "bounds_drift_fraction": 0.0004902846735236481,
+        "nonmanifold_edges": 0,
+        "samples": 5036
+      },
+      "textures": [
+        "MV_coin_Base Color",
+        "MV_coin_Normal"
+      ],
+      "material_transfer": "rebaked_atlas",
+      "deformation": [],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 4000,
+  "achieved_triangles": 3996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

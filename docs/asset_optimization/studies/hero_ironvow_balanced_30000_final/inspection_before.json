@@ -1,0 +1,74 @@
+{
+  "objects": [
+    {
+      "name": "Forge_hero_ironvow",
+      "vertices": 32564,
+      "triangles": 41998,
+      "materials": 1,
+      "degenerate_faces": 0,
+      "boundary_edges": 20698,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "has_uv": true,
+      "collapsed_uv_triangles": 0,
+      "skinned": true,
+      "unweighted_vertices": 0
+    }
+  ],
+  "triangles": 41998,
+  "textures": [
+    {
+      "name": "Forge_hero_ironvow_RuntimeAtlas",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "available": true
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.478208065032959,
+      -0.26021257042884827,
+      0.01476183533668518
+    ],
+    "max": [
+      0.4840944707393646,
+      0.3757350742816925,
+      1.875014305114746
+    ]
+  },
+  "armatures": [
+    {
+      "name": "WardenRig",
+      "bones": 18
+    }
+  ],
+  "actions": [
+    "attack_01",
+    "attack_02",
+    "attack_03",
+    "death",
+    "hit",
+    "idle",
+    "longsword_01",
+    "longsword_02",
+    "longsword_03",
+    "longsword_idle",
+    "longsword_run",
+    "run",
+    "skill_guard",
+    "skill_plant",
+    "skill_riposte",
+    "skill_step"
+  ],
+  "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+  "unverified": [
+    "UV overlap beyond collapsed triangles",
+    "Internal occluded geometry",
+    "Baked lighting",
+    "Joint clipping",
+    "Reference fidelity"
+  ]
+}

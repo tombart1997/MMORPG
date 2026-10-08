@@ -1,0 +1,176 @@
+{
+  "name": "mob_meadow_wolf_simplify_8000_final",
+  "asset_id": "a811b36f8c55",
+  "source_key": "mob_meadow_wolf",
+  "source": "game/assets/forge_rebuild/mobs/meadow_wolf.glb",
+  "source_asset_id": "ee4651b0a657",
+  "source_sha256": "0de3a7047a3e6d45a77dc54aeb49620845ea03ac4f7d4aa6fdc9209b25699dde",
+  "imported_candidate": "0a3a9e7a2511",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 8000,
+    "optimization_mode": "simplify",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "anatomy_review",
+      "topology_review",
+      "uv_materials",
+      "species_rig_import",
+      "animation_review",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "8ce7595a3276",
+    "asset_id": "a811b36f8c55",
+    "operation": "process",
+    "state": "succeeded",
+    "stage": "blender_process",
+    "progress": 100,
+    "created_at": "2026-10-03T19:04:57.048472+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {
+      "files": {
+        "animation_contract.json": "processed/8ce7595a3276/animation_contract.json",
+        "editable.blend": "processed/8ce7595a3276/editable.blend",
+        "inspection_before.json": "processed/8ce7595a3276/inspection_before.json",
+        "optimization.json": "processed/8ce7595a3276/optimization.json",
+        "processing.json": "processed/8ce7595a3276/processing.json",
+        "runtime.glb": "processed/8ce7595a3276/runtime.glb",
+        "source.blend": "processed/8ce7595a3276/source.blend",
+        "source.glb": "processed/8ce7595a3276/source.glb",
+        "validation.json": "processed/8ce7595a3276/validation.json"
+      }
+    },
+    "resumed_from": null,
+    "message": "Complete \u00b7 visual review remains separate",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 8000,
+      "optimization_mode": "simplify",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "anatomy_review",
+        "topology_review",
+        "uv_materials",
+        "species_rig_import",
+        "animation_review",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "0a3a9e7a2511",
+      "path": "imports/0abcc1e657db.glb",
+      "origin": "imported",
+      "sha256": "0de3a7047a3e6d45a77dc54aeb49620845ea03ac4f7d4aa6fdc9209b25699dde",
+      "created_at": "2026-10-03T19:04:56.978879+00:00",
+      "original_filename": "meadow_wolf.glb",
+      "license": "Optimization study: retained local neural derivative from ee4651b0a657; SHA256 0de3a7047a3e6d45a77dc54aeb49620845ea03ac4f7d4aa6fdc9209b25699dde",
+      "cost_credits": 0
+    },
+    "reference": null,
+    "started_at": "2026-10-03T19:04:57.065028+00:00",
+    "elapsed_seconds": 11.4,
+    "finished_at": "2026-10-03T19:05:08.587657+00:00",
+    "duration_seconds": 11.53
+  },
+  "visual_status": "pending",
+  "artifacts": {
+    "animation_contract.json": "processed/8ce7595a3276/animation_contract.json",
+    "editable.blend": "processed/8ce7595a3276/editable.blend",
+    "inspection_before.json": "processed/8ce7595a3276/inspection_before.json",
+    "optimization.json": "processed/8ce7595a3276/optimization.json",
+    "processing.json": "processed/8ce7595a3276/processing.json",
+    "runtime.glb": "processed/8ce7595a3276/runtime.glb",
+    "source.blend": "processed/8ce7595a3276/source.blend",
+    "source.glb": "processed/8ce7595a3276/source.glb",
+    "validation.json": "processed/8ce7595a3276/validation.json"
+  },
+  "review_path": "res://review_assets/optimization/mob_meadow_wolf_simplify_8000_final.glb"
+}

@@ -1,0 +1,152 @@
+{
+	"assets": [
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"attack_02",
+				"attack_03",
+				"death",
+				"hit",
+				"idle",
+				"longsword_01",
+				"longsword_02",
+				"longsword_03",
+				"longsword_idle",
+				"longsword_run",
+				"run",
+				"skill_guard",
+				"skill_plant",
+				"skill_riposte",
+				"skill_step"
+			],
+			"framing_bounds": [
+				[
+					-0.50199019908905,
+					0.00600000005215406,
+					-0.338036715984344
+				],
+				[
+					0.998528897762299,
+					1.89999997615814,
+					0.676073431968689
+				]
+			],
+			"key": "road_bandit",
+			"output": "D:\\Games\\Metin2Clone\\docs\\full_asset_rebuild\\evidence\\road_bandit_runtime.png",
+			"path": "res://assets/road_bandit.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"attack_02",
+				"attack_03",
+				"death",
+				"hit",
+				"idle",
+				"longsword_01",
+				"longsword_02",
+				"longsword_03",
+				"longsword_idle",
+				"longsword_run",
+				"run",
+				"skill_guard",
+				"skill_plant",
+				"skill_riposte",
+				"skill_step"
+			],
+			"framing_bounds": [
+				[
+					-0.50199019908905,
+					0.00600000005215406,
+					-0.338036715984344
+				],
+				[
+					0.998528897762299,
+					1.89999997615814,
+					0.676073431968689
+				]
+			],
+			"key": "hollow_raider",
+			"output": "D:\\Games\\Metin2Clone\\docs\\full_asset_rebuild\\evidence\\hollow_raider_runtime.png",
+			"path": "res://assets/hollow_raider.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"attack_02",
+				"attack_03",
+				"death",
+				"hit",
+				"idle",
+				"longsword_01",
+				"longsword_02",
+				"longsword_03",
+				"longsword_idle",
+				"longsword_run",
+				"run",
+				"skill_guard",
+				"skill_plant",
+				"skill_riposte",
+				"skill_step"
+			],
+			"framing_bounds": [
+				[
+					-0.50199019908905,
+					0.00600000005215406,
+					-0.338036715984344
+				],
+				[
+					0.998528897762299,
+					1.89999997615814,
+					0.676073431968689
+				]
+			],
+			"key": "ash_bandit",
+			"output": "D:\\Games\\Metin2Clone\\docs\\full_asset_rebuild\\evidence\\ash_bandit_runtime.png",
+			"path": "res://assets/ash_bandit.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"attack_02",
+				"attack_03",
+				"death",
+				"hit",
+				"idle",
+				"longsword_01",
+				"longsword_02",
+				"longsword_03",
+				"longsword_idle",
+				"longsword_run",
+				"run",
+				"skill_guard",
+				"skill_plant",
+				"skill_riposte",
+				"skill_step"
+			],
+			"framing_bounds": [
+				[
+					-0.50199019908905,
+					0.00600000005215406,
+					-0.338036715984344
+				],
+				[
+					0.998528897762299,
+					1.89999997615814,
+					0.676073431968689
+				]
+			],
+			"key": "exile_captain",
+			"output": "D:\\Games\\Metin2Clone\\docs\\full_asset_rebuild\\evidence\\exile_captain_runtime.png",
+			"path": "res://assets/exile_captain.glb",
+			"status": "rendered_requires_visual_review"
+		}
+	]
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "suite": "combat_smoke",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 31,
+    "seconds": 3.89,
+    "failures": []
+  },
+  {
+    "suite": "melee_commitment",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 11,
+    "seconds": 3.16,
+    "failures": []
+  },
+  {
+    "suite": "zone_loop",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 31,
+    "seconds": 18.89,
+    "failures": []
+  },
+  {
+    "suite": "rpg_progression",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 68,
+    "seconds": 14.22,
+    "failures": []
+  },
+  {
+    "suite": "mmorpg_loop",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 51,
+    "seconds": 17.41,
+    "failures": []
+  },
+  {
+    "suite": "skill_combat",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 54,
+    "seconds": 16.5,
+    "failures": []
+  },
+  {
+    "suite": "farming_loop",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 39,
+    "seconds": 29.16,
+    "failures": []
+  },
+  {
+    "suite": "first_map_expansion",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 793,
+    "seconds": 30.41,
+    "failures": []
+  },
+  {
+    "suite": "second_region",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 27,
+    "seconds": 16.11,
+    "failures": []
+  },
+  {
+    "suite": "jade_visual_review",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 64,
+    "seconds": 17.62,
+    "failures": []
+  },
+  {
+    "suite": "presentation_upgrade",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 35,
+    "seconds": 14.38,
+    "failures": []
+  },
+  {
+    "suite": "art_benchmark",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 4,
+    "seconds": 15.42,
+    "failures": []
+  },
+  {
+    "suite": "combat_creation_review",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 28,
+    "seconds": 12.36,
+    "failures": []
+  },
+  {
+    "suite": "remaster_traversal",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 20,
+    "seconds": 25.67,
+    "failures": []
+  },
+  {
+    "suite": "settlement_loop",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 52,
+    "seconds": 15.8,
+    "failures": []
+  },
+  {
+    "suite": "world_landscape",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 201,
+    "seconds": 12.22,
+    "failures": []
+  },
+  {
+    "suite": "townfolk_review",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 51,
+    "seconds": 13.19,
+    "failures": []
+  },
+  {
+    "suite": "route_mount",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 78,
+    "seconds": 31.78,
+    "failures": []
+  },
+  {
+    "suite": "character_pipeline",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 75,
+    "seconds": 14.94,
+    "failures": []
+  },
+  {
+    "suite": "character_motion",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 38,
+    "seconds": 14.5,
+    "failures": []
+  },
+  {
+    "suite": "hero_combat_review",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 27,
+    "seconds": 16.55,
+    "failures": []
+  },
+  {
+    "suite": "remaster_streaming",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 30,
+    "seconds": 14.3,
+    "failures": []
+  },
+  {
+    "suite": "field_feedback_review",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 93,
+    "seconds": 18.34,
+    "failures": []
+  },
+  {
+    "suite": "forge_runtime_review",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 814,
+    "seconds": 28.62,
+    "failures": []
+  },
+  {
+    "suite": "reviewed_replacement_integration",
+    "passed": true,
+    "exit_code": 0,
+    "checks": 52,
+    "seconds": 14.55,
+    "failures": []
+  }
+]

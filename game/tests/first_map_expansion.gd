@@ -60,6 +60,9 @@ func _run() -> void:
 	player.mounts.owned.assign([&"trail_horse"])
 	player.mounts.selected = &"trail_horse"
 	player.mounts.combat_lock = 0
+	for i in 30:
+		if player.is_on_floor():break
+		await frames(1)
 	check(player.mounts.toggle(), "Owned mount summons")
 	# Isolate one durable foe while retaining its actual brain and physics push.
 	var camp: EnemyCamp = world.camps[3]

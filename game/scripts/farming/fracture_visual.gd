@@ -9,7 +9,7 @@ var activation_seen: bool = false
 var rib_rest: Array[Transform3D] = []
 
 func _ready() -> void:
-	model = load("res://assets/benchmark/briarwake.glb").instantiate()
+	model = ReviewedModels.scene_for("res://assets/generated/world/fracture.glb").instantiate()
 	add_child(model)
 	for part: MeshInstance3D in model.find_children("*", "MeshInstance3D", true, false):
 		if part.name.begins_with("Rib_"):

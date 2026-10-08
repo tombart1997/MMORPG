@@ -1,0 +1,46 @@
+{
+  "technical_status": "passed",
+  "visual_status": "pending",
+  "errors": [],
+  "warnings": [],
+  "triangles": 11995,
+  "materials": 1,
+  "textures": [
+    {
+      "name": "Forge_mob_venom_spider_RuntimeAtlas",
+      "mime": "image/png",
+      "embedded": true
+    }
+  ],
+  "skins": 1,
+  "bones": [
+    "Root",
+    "Hips",
+    "Chest",
+    "Head",
+    "Leg0Upper.L",
+    "Leg0Lower.L",
+    "Leg0Upper.R",
+    "Leg0Lower.R",
+    "Leg1Upper.L",
+    "Leg1Lower.L",
+    "Leg1Upper.R",
+    "Leg1Lower.R",
+    "Leg2Upper.L",
+    "Leg2Lower.L",
+    "Leg2Upper.R",
+    "Leg2Lower.R",
+    "Leg3Upper.L",
+    "Leg3Lower.L",
+    "Leg3Upper.R",
+    "Leg3Lower.R"
+  ],
+  "animations": [
+    "death",
+    "hit",
+    "attack_01",
+    "run",
+    "idle"
+  ],
+  "mesh_objects": 1
+}

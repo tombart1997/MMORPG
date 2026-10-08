@@ -13,9 +13,17 @@ func key(action: String) -> void:
 	Input.parse_input_event(event)
 	await frames(2)
 
+func grounded() -> void:
+	# Wait for a real floor contact after teleporting above the sanctuary.
+	for i in 30:
+		if player.is_on_floor():return
+		await frames(1)
+	check(player.is_on_floor(),"Respawn reaches a grounded mount state")
+
 func route(riding: bool) -> float:
 	world.respawn_player()
 	await frames(5)
+	await grounded()
 	if riding: await key("mount")
 	check(player.mounts.mounted == riding,"Route begins with requested traversal mode")
 	var begin := Engine.get_physics_frames()
@@ -58,6 +66,7 @@ func _run() -> void:
 	player.ui_session.close()
 	world.respawn_player()
 	await frames(5)
+	await grounded()
 	await key("mount")
 	check(player.mounts.mounted,"H action mounts from normal gameplay input")
 	await frames(2)

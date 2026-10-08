@@ -1,0 +1,25 @@
+{
+	"authored_camps": 153,
+	"dense_combat": {
+		"actors": 34.0,
+		"combat_pose": "(-81.0, 0.15, -14.0)",
+		"draw_calls": 887.580996884735,
+		"gpu_ms": 3.81570872042409,
+		"median_ms": 10.089,
+		"over_60fps_budget_percent": 20.7165109034268,
+		"p95_ms": 25.672,
+		"p99_ms": 34.665,
+		"physics_ms": 8.56862461059192,
+		"primitives": 2022925.25077882,
+		"process_ms": 19.3184143302179,
+		"render_cpu_ms": 5.3884143272293,
+		"samples": 642,
+		"worst_ms": 48.114
+	},
+	"hardware": "NVIDIA GeForce GTX 1080",
+	"renderer": "Compatibility, uncapped",
+	"resolution": "(1920, 1080)",
+	"saving_enabled": false,
+	"startup_ms": 9333,
+	"target_fps": 60
+}

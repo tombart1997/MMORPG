@@ -1,0 +1,176 @@
+{
+  "name": "mob_grey_wolf_simplify_12000_final",
+  "asset_id": "056d2e4463e2",
+  "source_key": "mob_grey_wolf",
+  "source": "game/assets/forge_rebuild/mobs/grey_wolf.glb",
+  "source_asset_id": "bf2917c1f4d1",
+  "source_sha256": "a020815eb241c2e2c60ab4a30d4e294555ba8710373203f3dbc5100aea38d1fe",
+  "imported_candidate": "a0e6c9fbdb1c",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 12000,
+    "optimization_mode": "simplify",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "anatomy_review",
+      "topology_review",
+      "uv_materials",
+      "species_rig_import",
+      "animation_review",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "fa655ec83ee6",
+    "asset_id": "056d2e4463e2",
+    "operation": "process",
+    "state": "succeeded",
+    "stage": "blender_process",
+    "progress": 100,
+    "created_at": "2026-10-03T19:13:51.998839+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {
+      "files": {
+        "animation_contract.json": "processed/fa655ec83ee6/animation_contract.json",
+        "editable.blend": "processed/fa655ec83ee6/editable.blend",
+        "inspection_before.json": "processed/fa655ec83ee6/inspection_before.json",
+        "optimization.json": "processed/fa655ec83ee6/optimization.json",
+        "processing.json": "processed/fa655ec83ee6/processing.json",
+        "runtime.glb": "processed/fa655ec83ee6/runtime.glb",
+        "source.blend": "processed/fa655ec83ee6/source.blend",
+        "source.glb": "processed/fa655ec83ee6/source.glb",
+        "validation.json": "processed/fa655ec83ee6/validation.json"
+      }
+    },
+    "resumed_from": null,
+    "message": "Complete \u00b7 visual review remains separate",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 12000,
+      "optimization_mode": "simplify",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "anatomy_review",
+        "topology_review",
+        "uv_materials",
+        "species_rig_import",
+        "animation_review",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "a0e6c9fbdb1c",
+      "path": "imports/476da8abc21a.glb",
+      "origin": "imported",
+      "sha256": "a020815eb241c2e2c60ab4a30d4e294555ba8710373203f3dbc5100aea38d1fe",
+      "created_at": "2026-10-03T19:13:51.916836+00:00",
+      "original_filename": "grey_wolf.glb",
+      "license": "Optimization study: retained local neural derivative from bf2917c1f4d1; SHA256 a020815eb241c2e2c60ab4a30d4e294555ba8710373203f3dbc5100aea38d1fe",
+      "cost_credits": 0
+    },
+    "reference": null,
+    "started_at": "2026-10-03T19:13:52.008836+00:00",
+    "elapsed_seconds": 11.5,
+    "finished_at": "2026-10-03T19:14:03.673869+00:00",
+    "duration_seconds": 11.66
+  },
+  "visual_status": "pending",
+  "artifacts": {
+    "animation_contract.json": "processed/fa655ec83ee6/animation_contract.json",
+    "editable.blend": "processed/fa655ec83ee6/editable.blend",
+    "inspection_before.json": "processed/fa655ec83ee6/inspection_before.json",
+    "optimization.json": "processed/fa655ec83ee6/optimization.json",
+    "processing.json": "processed/fa655ec83ee6/processing.json",
+    "runtime.glb": "processed/fa655ec83ee6/runtime.glb",
+    "source.blend": "processed/fa655ec83ee6/source.blend",
+    "source.glb": "processed/fa655ec83ee6/source.glb",
+    "validation.json": "processed/fa655ec83ee6/validation.json"
+  },
+  "review_path": "res://review_assets/optimization/mob_grey_wolf_simplify_12000_final.glb"
+}

@@ -1,0 +1,32 @@
+{
+  "key": "dead_tree",
+  "forge_asset_id": "440604ba5f25",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\440604ba5f25\\generated\\3832c9296684\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\world_kit\\dead_tree.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\dead_tree.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -1.8072222471237183,
+      -1.391186237335205,
+      -0.15403205156326294
+    ],
+    [
+      1.442861557006836,
+      1.4141641855239868,
+      5.305980205535889
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 22736,
+      "after": 2198,
+      "extent_drift": 0.05452546529331799
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

@@ -1,0 +1,176 @@
+{
+  "name": "mob_reed_spider_simplify_12000_final",
+  "asset_id": "e0e58ad039ad",
+  "source_key": "mob_reed_spider",
+  "source": "game/assets/forge_rebuild/mobs/reed_spider.glb",
+  "source_asset_id": "a5d900e10fc7",
+  "source_sha256": "48ada7c86f0dd2ab1e2e1adc00669fbdc1b54c6dd2e0a8962d1f6d1e8ff44546",
+  "imported_candidate": "e3aac12ca8ea",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 12000,
+    "optimization_mode": "simplify",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "anatomy_review",
+      "topology_review",
+      "uv_materials",
+      "species_rig_import",
+      "animation_review",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "9b0c5c938246",
+    "asset_id": "e0e58ad039ad",
+    "operation": "process",
+    "state": "succeeded",
+    "stage": "blender_process",
+    "progress": 100,
+    "created_at": "2026-10-03T19:13:26.220729+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {
+      "files": {
+        "animation_contract.json": "processed/9b0c5c938246/animation_contract.json",
+        "editable.blend": "processed/9b0c5c938246/editable.blend",
+        "inspection_before.json": "processed/9b0c5c938246/inspection_before.json",
+        "optimization.json": "processed/9b0c5c938246/optimization.json",
+        "processing.json": "processed/9b0c5c938246/processing.json",
+        "runtime.glb": "processed/9b0c5c938246/runtime.glb",
+        "source.blend": "processed/9b0c5c938246/source.blend",
+        "source.glb": "processed/9b0c5c938246/source.glb",
+        "validation.json": "processed/9b0c5c938246/validation.json"
+      }
+    },
+    "resumed_from": null,
+    "message": "Complete \u00b7 visual review remains separate",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 12000,
+      "optimization_mode": "simplify",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "anatomy_review",
+        "topology_review",
+        "uv_materials",
+        "species_rig_import",
+        "animation_review",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "e3aac12ca8ea",
+      "path": "imports/74d15efe890c.glb",
+      "origin": "imported",
+      "sha256": "48ada7c86f0dd2ab1e2e1adc00669fbdc1b54c6dd2e0a8962d1f6d1e8ff44546",
+      "created_at": "2026-10-03T19:13:26.163730+00:00",
+      "original_filename": "reed_spider.glb",
+      "license": "Optimization study: retained local neural derivative from a5d900e10fc7; SHA256 48ada7c86f0dd2ab1e2e1adc00669fbdc1b54c6dd2e0a8962d1f6d1e8ff44546",
+      "cost_credits": 0
+    },
+    "reference": null,
+    "started_at": "2026-10-03T19:13:26.229729+00:00",
+    "elapsed_seconds": 12.0,
+    "finished_at": "2026-10-03T19:13:38.323699+00:00",
+    "duration_seconds": 12.09
+  },
+  "visual_status": "pending",
+  "artifacts": {
+    "animation_contract.json": "processed/9b0c5c938246/animation_contract.json",
+    "editable.blend": "processed/9b0c5c938246/editable.blend",
+    "inspection_before.json": "processed/9b0c5c938246/inspection_before.json",
+    "optimization.json": "processed/9b0c5c938246/optimization.json",
+    "processing.json": "processed/9b0c5c938246/processing.json",
+    "runtime.glb": "processed/9b0c5c938246/runtime.glb",
+    "source.blend": "processed/9b0c5c938246/source.blend",
+    "source.glb": "processed/9b0c5c938246/source.glb",
+    "validation.json": "processed/9b0c5c938246/validation.json"
+  },
+  "review_path": "res://review_assets/optimization/mob_reed_spider_simplify_12000_final.glb"
+}

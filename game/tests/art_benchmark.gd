@@ -7,6 +7,8 @@ func _run() -> void:
 	current_scene = world
 	await frames(15)
 	var player: ActorBody = world.player
+	player.health.maximum = 10000
+	player.health.current = player.health.maximum
 	var rig: ThirdPersonCamera
 	for child in player.get_children():
 		if child is PlayerController:
@@ -46,7 +48,7 @@ func _run() -> void:
 		root.get_texture().get_image().save_png("res://.local/art_benchmark.png")
 	print("ART_CAPTURE real gameplay camera; defenders=", encounter.living_defenders())
 	print("ART_CAMERA player=",player.global_position," camera=",rig.camera.global_position," yaw=",rig.yaw," pitch=",rig.pitch," arm=",rig.arm.get_hit_length())
-	check(encounter.living_defenders()==3,"Benchmark uses the existing first defender wave")
+	check(encounter.next_wave==1 and encounter.living_defenders()==encounter.data.waves[0].count,"Benchmark uses the configured first defender wave")
 	var skins:=0
 	var surfaces:=0
 	for part:MeshInstance3D in encounter.defenders[0].pack.members[0].visual.model.find_children("*","MeshInstance3D",true,false):
@@ -57,7 +59,14 @@ func _run() -> void:
 	encounter.body.health.apply_damage(560,player)
 	await frames(12)
 	await capture_art("damaged")
-	encounter.body.health.apply_damage(2000,player)
+	# Complete the real telegraphed waves; burst damage cannot skip their gates.
+	for round_index in 6:
+		for camp in encounter.defenders:
+			for defender in camp.pack.members:
+				if defender.health.is_alive(): defender.health.apply_damage(100000,player)
+		encounter.body.health.apply_damage(encounter.body.health.maximum,player)
+		await frames(150)
+		if not encounter.body.health.is_alive(): break
 	await frames(50)
 	await capture_art("collapsed")
 	check(encounter.body.visual.collapsed,"Fracture visual follows authoritative death")

@@ -1,0 +1,41 @@
+{
+  "assets": [
+    {
+      "key": "mob_road_bandit",
+      "path": "res://review_assets/fallbacks/assets/characters/warden_high_clean.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\dffdea925c04\\references\\f83ae6afa6d6.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\mob_road_bandit\\after.png",
+      "framing_bounds": [
+        [
+          -0.485548317432404,
+          0.00589537201449275,
+          -0.225233003497124
+        ],
+        [
+          0.970988750457764,
+          1.89350461959839,
+          0.43526753783226
+        ]
+      ]
+    },
+    {
+      "key": "horse_bay",
+      "path": "res://review_assets/fallbacks/assets/mounts/trail_horse_clean.glb",
+      "reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\4009c15f1caf\\references\\082bb72a0951.png",
+      "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallbacks\\horse_bay\\after.png",
+      "framing_bounds": [
+        [
+          -0.486844599246979,
+          0.00494683161377907,
+          -1.73033499717712
+        ],
+        [
+          0.973689198493958,
+          1.975053191185,
+          2.93052005767822
+        ]
+      ]
+    }
+  ],
+  "report": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallback_clean_render_report.json"
+}

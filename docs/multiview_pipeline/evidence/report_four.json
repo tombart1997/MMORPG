@@ -1,0 +1,90 @@
+{
+	"assets": [
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.206980958580971,
+					-0.342198371887207,
+					-0.500358998775482
+				],
+				[
+					0.413853049278259,
+					0.684392392635345,
+					0.994982481002808
+				]
+			],
+			"key": "boar_four_native",
+			"output": "D:\\Games\\Metin2Clone\\.local\\multiview_benchmarks\\validation\\results\\boar_four_native.png",
+			"path": "res://assets/boar_four_native.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.206980958580971,
+					-0.342198371887207,
+					-0.500358998775482
+				],
+				[
+					0.413853049278259,
+					0.684392392635345,
+					0.994982481002808
+				]
+			],
+			"key": "boar_four_projected",
+			"output": "D:\\Games\\Metin2Clone\\.local\\multiview_benchmarks\\validation\\results\\boar_four_projected.png",
+			"path": "res://assets/boar_four_projected.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.206980958580971,
+					-0.342198371887207,
+					-0.500358998775482
+				],
+				[
+					0.413853049278259,
+					0.684392392635345,
+					0.994982481002808
+				]
+			],
+			"key": "boar_four_runtime",
+			"output": "D:\\Games\\Metin2Clone\\.local\\multiview_benchmarks\\validation\\results\\boar_four_runtime.png",
+			"path": "res://assets/boar_four_runtime.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [
+				"attack_01",
+				"death",
+				"hit",
+				"idle",
+				"run"
+			],
+			"framing_bounds": [
+				[
+					-0.417223185300827,
+					-0.00182086718268692,
+					-1.1424423456192
+				],
+				[
+					0.849826157093048,
+					1.36134159564972,
+					2.41830444335938
+				]
+			],
+			"key": "boar_current_game",
+			"output": "D:\\Games\\Metin2Clone\\.local\\multiview_benchmarks\\validation\\results\\boar_current_game.png",
+			"path": "res://assets/boar_current_game.glb",
+			"status": "rendered_requires_visual_review"
+		}
+	]
+}

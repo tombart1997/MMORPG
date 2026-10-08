@@ -1,0 +1,47 @@
+{
+  "key": "mob_obsidian_boar",
+  "forge_asset_id": "f28923cac8f0",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\f28923cac8f0\\generated\\7e3ea6875c54\\source.glb",
+  "rig_source": "blender/creatures/boar.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\obsidian_boar.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_obsidian_boar.blend",
+  "yaw": 68.23872094776756,
+  "bounds": [
+    [
+      -0.4323287308216095,
+      -1.2757891416549683,
+      0.0
+    ],
+    [
+      0.4323287308216095,
+      1.1419222354888916,
+      1.3600000143051147
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 42212,
+      "after": 14000,
+      "extent_drift": 0.003317744892124583
+    }
+  ],
+  "bones": 13,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "silhouette_cleanup": {
+    "removed_vertices": 21,
+    "painted_ground_trim": false
+  },
+  "animation_skin_refinement": {
+    "constrained_limb_vertices": 2419,
+    "removed_bridge_faces": 0,
+    "reason": "Opened run views revealed lower-limb sheets from floor geometry and mixed limb influence."
+  }
+}

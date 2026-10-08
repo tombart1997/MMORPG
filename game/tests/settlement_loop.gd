@@ -151,7 +151,12 @@ func _run() -> void:
 	await frames(2)
 	# Combat against middle band confirms purchased upgrade and appropriate drops.
 	var middle: EnemyCamp = world.camps[1]
+	player.global_position = middle.global_position + Vector3(0,0,3)
+	middle.update_residency()
+	await frames(2)
+	check(not middle.dormant and not middle.pack.members.is_empty(), "Approaching the middle camp activates its encounter")
 	var target: ActorBody = middle.pack.members[0]
+	var middle_visual_scale := target.visual.scale.x
 	player.position = target.global_position + Vector3(0, 0, 2.1)
 	player.rotation.y = 0
 	player.health.current = player.health.maximum
@@ -181,13 +186,19 @@ func _run() -> void:
 	bag.add_item(ItemCatalog.get_item(&"relic_blade_1"))
 	check(player.equipment.equip(find_item(&"relic_blade_1")), "Rare upgrade equips through same architecture")
 	var hard: EnemyCamp = world.camps[2]
+	# Enter the deep camp's wake radius before inspecting its resident actors.
+	player.position = hard.position + Vector3(0,0,2)
+	await frames(30)
 	check(hard.pack.members[0].health.maximum == 110 and hard.enemy_data.attack.damage == 11 and hard.enemy_data.xp == 40, "Deep band increases HP, damage and rewards modestly")
-	check(hard.pack.members[0].visual.scale.x > target.visual.scale.x and hard.pack.members[0].visual.sockets[&"ArmorSocket"].get_node_or_null("Equipment") != null, "Ironback visual communicates greater danger")
+	check(hard.pack.members[0].visual.scale.x > middle_visual_scale and hard.pack.members[0].visual.sockets[&"ArmorSocket"].get_node_or_null("Equipment") != null, "Ironback visual communicates greater danger")
 	check(hard.drop_table.entries.any(func(entry): return entry.item.item_type == "weapon" and entry.chance <= .004), "Ironback has rare weapon loot")
 	check(camp.drop_table.entries.filter(func(entry): return entry.item.item_type == "weapon").all(func(entry): return entry.chance <= .004), "Weak enemies do not flood bags with progression weapons")
 	# Retreat from a committed enemy into sanctuary must cancel pursuit and damage.
 	player.position = hard.position + Vector3(0, 0, 2)
 	hard.pack.target = player
+	# Keep this actor resident during the sanctuary teleport. Streaming has its
+	# own tests; unloading it would invalidate the combat assertions below.
+	hard.streaming_enabled = false
 	var hunter: ActorBody = hard.pack.members[0]
 	# Observe the deep group's actual telegraphed damage before retreating.
 	var damage_seen: Array[float] = []

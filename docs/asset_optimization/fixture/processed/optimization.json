@@ -1,0 +1,26 @@
+{
+  "mode": "retopology",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Synthetic_transfer_fixture",
+      "before": 3968,
+      "target": 2500,
+      "status": "quality_guard_kept_source",
+      "after": 3968,
+      "rejected_attempts": [
+        {
+          "method": "quad_remesh",
+          "reason": "bpy_prop_collection: attribute \"clear\" not found"
+        },
+        {
+          "method": "simplify",
+          "reason": "bpy_prop_collection: attribute \"clear\" not found"
+        }
+      ]
+    }
+  ],
+  "target_triangles": 2500,
+  "achieved_triangles": 3968,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

@@ -1,0 +1,560 @@
+{
+  "schema": 1,
+  "models": [
+    {
+      "path": "res://assets/generated/bay_horse.glb",
+      "sha256": "90562edc70b881b9cc46d91cfa2504fbe69ae25a11932160c0a30db8bd2f8a17",
+      "bytes": 1857248
+    },
+    {
+      "path": "res://assets/generated/equipment/gold_coin.glb",
+      "sha256": "5ffc9e8ca80c0fdda0def324096268cbaaa43773b72c12a924ee6bad273a8cb8",
+      "bytes": 2469752
+    },
+    {
+      "path": "res://assets/generated/equipment/jade_ironback_mantle.glb",
+      "sha256": "e32fa51db261a4b8e7047eb5cd4cd6503bef172e8cd5551c304cc8f0f2c7f575",
+      "bytes": 29664
+    },
+    {
+      "path": "res://assets/generated/equipment/saddle.glb",
+      "sha256": "164ca855355983b656da6fa71f781b0d4272b3476a189b2df8a8459a379b38e3",
+      "bytes": 2673308
+    },
+    {
+      "path": "res://assets/generated/equipment/traveler_guard.glb",
+      "sha256": "5fa485530f8452529bd7b8582f47658bf50f41c9f0e7d8245e6a7f1cd68b7aa6",
+      "bytes": 44940
+    },
+    {
+      "path": "res://assets/generated/equipment/warden_insignia.glb",
+      "sha256": "02ebd7eeccf34a3e83be2ce83646b88d97a92c0283a28c545a17490875ccd548",
+      "bytes": 13432
+    },
+    {
+      "path": "res://assets/generated/mobs/ancient_warden.glb",
+      "sha256": "ed24810bd781db7d0528dfe9ed8903efec18592b86ee1a5ebb70db9a94818df3",
+      "bytes": 3393828
+    },
+    {
+      "path": "res://assets/generated/mobs/ash_bandit.glb",
+      "sha256": "d3e6bfe3e19939bc83c42ef3f645eba2bd9357fa41bfeb24e7d3551d856dc523",
+      "bytes": 6040240
+    },
+    {
+      "path": "res://assets/generated/mobs/ash_wisp.glb",
+      "sha256": "5178539dab495dee0300c3666dbdc4185b91a602b5073bd265ae10f76f5d76d0",
+      "bytes": 2928184
+    },
+    {
+      "path": "res://assets/generated/mobs/blacktusk.glb",
+      "sha256": "87b1f06f2aa33172d81dddc14ff92f64e4001478ca074cf72c6bbba57da56c33",
+      "bytes": 3006400
+    },
+    {
+      "path": "res://assets/generated/mobs/bloodfang.glb",
+      "sha256": "e7d6b15d0a7754da421356b2fd78c3a1aed985b377cecbc5d0bc7e878af1ea6f",
+      "bytes": 2973040
+    },
+    {
+      "path": "res://assets/generated/mobs/blue_wolf.glb",
+      "sha256": "0e6bf6fa63d30ce45bf4d0afca65cff5f542e3464eb79cc99b659cc0f6d66267",
+      "bytes": 2997464
+    },
+    {
+      "path": "res://assets/generated/mobs/bristle_boar.glb",
+      "sha256": "56a56e5d903b248534c8583b58a8c454869f343b4ff854bd3edc00a028b38f0d",
+      "bytes": 3069224
+    },
+    {
+      "path": "res://assets/generated/mobs/cairn_colossus.glb",
+      "sha256": "105581b4c253c2bebd3cd59e01f9de6274f37ce79f1f4ed1013df77cd45be48b",
+      "bytes": 3372952
+    },
+    {
+      "path": "res://assets/generated/mobs/cairn_sentinel.glb",
+      "sha256": "04cebb57bba97dc3e597d9ffaa535ad0a851467b1cd9e531a44039dcfd83c5b4",
+      "bytes": 3385900
+    },
+    {
+      "path": "res://assets/generated/mobs/cinder_wisp.glb",
+      "sha256": "795cf0663b3eef38859c1303ed718227c3e1c7bb299d46cb85ae39a2f13fc42b",
+      "bytes": 2932420
+    },
+    {
+      "path": "res://assets/generated/mobs/copper_spider.glb",
+      "sha256": "03c19e2fa2cb53ac900e3719184fdfe89a93eb2cab53f9197217d128edb81896",
+      "bytes": 2436596
+    },
+    {
+      "path": "res://assets/generated/mobs/dusk_stalker.glb",
+      "sha256": "7044db846f5d4c2ce8fc399b93d8b5cfbd1383703e1096aadb7704e9bb2a97a2",
+      "bytes": 2937668
+    },
+    {
+      "path": "res://assets/generated/mobs/ember_hound.glb",
+      "sha256": "8b0318746cd360dcdd58da8181ba21ec3847149c055e004f0121ca5a8a61fb8b",
+      "bytes": 2987436
+    },
+    {
+      "path": "res://assets/generated/mobs/exile_captain.glb",
+      "sha256": "e40372368a3e1fb1eb658da85d8564cb1c7ede9e4ccff8d308586c5f2567bb1c",
+      "bytes": 6050848
+    },
+    {
+      "path": "res://assets/generated/mobs/frost_wolf.glb",
+      "sha256": "66eff5673ac0f437bbaae354aa17dfc4ec7f03ecc10a3efd54683f6e0de98859",
+      "bytes": 3029196
+    },
+    {
+      "path": "res://assets/generated/mobs/glass_spider.glb",
+      "sha256": "ef3f8355c93e046771392859a64169fc120894164f93388c0830ca1c0592d951",
+      "bytes": 2469604
+    },
+    {
+      "path": "res://assets/generated/mobs/grave_wisp.glb",
+      "sha256": "358d8ec531039c9cb84da35998e6dafdb273b63bc3bfbb3ebdf813b70c8c3495",
+      "bytes": 2947732
+    },
+    {
+      "path": "res://assets/generated/mobs/grey_wolf.glb",
+      "sha256": "3794401dd796eb2372417e776b504c7a55f53ae77608f96b1f9b85bcae79f52f",
+      "bytes": 2978784
+    },
+    {
+      "path": "res://assets/generated/mobs/grown.glb",
+      "sha256": "942ad30be7e3a428d215a540599d10fc41280cb8286b63ca6086a48912add479",
+      "bytes": 3451196
+    },
+    {
+      "path": "res://assets/generated/mobs/hollow_raider.glb",
+      "sha256": "67d3037fd6852df7fd066acfb16dc00d4ac9ca3f359a0badb246599596b64226",
+      "bytes": 6048908
+    },
+    {
+      "path": "res://assets/generated/mobs/ironback.glb",
+      "sha256": "76722e01ae0a4c006ad471202aa688cff39fe3d72f8f4f7df4ba7e69e57a2006",
+      "bytes": 3453844
+    },
+    {
+      "path": "res://assets/generated/mobs/ironhide_boar.glb",
+      "sha256": "67d4d912d37967062f2e3b21bfcb750198c44d2c209b2aa4411c6a2a70e5912d",
+      "bytes": 3074392
+    },
+    {
+      "path": "res://assets/generated/mobs/meadow_wolf.glb",
+      "sha256": "d594f777c38f23fa248cbb1ba76fa3f9277f92e55370200a454f1b976ef20453",
+      "bytes": 3172264
+    },
+    {
+      "path": "res://assets/generated/mobs/mire_boar.glb",
+      "sha256": "e10e22651d1f83e301b4720b0875d6175eff0d5d13eea39caa204d1e2cab118d",
+      "bytes": 3048772
+    },
+    {
+      "path": "res://assets/generated/mobs/moonfang.glb",
+      "sha256": "8d122826d4c0b379c4ae9215d122d0fff001eb6aad34960508e4f704226dcd16",
+      "bytes": 3030096
+    },
+    {
+      "path": "res://assets/generated/mobs/obsidian_boar.glb",
+      "sha256": "c4be1d4d219a84f72fc9d12376e865f28e7b7687d5866ead4a9ee5caf07dd755",
+      "bytes": 3019996
+    },
+    {
+      "path": "res://assets/generated/mobs/red_wolf.glb",
+      "sha256": "bc28e125f78cde354fb417dbcdb1de9deb807766ad4215a5a3514ec56cedc8fc",
+      "bytes": 2992120
+    },
+    {
+      "path": "res://assets/generated/mobs/reed_spider.glb",
+      "sha256": "cb2156f40036a72b4549afeea82d4286f526ddb5e718b56b6dafea7f1f81acf7",
+      "bytes": 2430172
+    },
+    {
+      "path": "res://assets/generated/mobs/rift_sentinel.glb",
+      "sha256": "9300e4320c98a32322f06e879c10f0ba1d793b24df2bc7d4c3035e5e3a90df49",
+      "bytes": 3376124
+    },
+    {
+      "path": "res://assets/generated/mobs/road_bandit.glb",
+      "sha256": "dd664cdd14ca3adef26aa32da47d9a1cab41b299c6b8670a82e1a84ac5775867",
+      "bytes": 6047772
+    },
+    {
+      "path": "res://assets/generated/mobs/silk_matron.glb",
+      "sha256": "d3864484fa8df35eb93d2882c4a0088cd3a4e4bf9092e4f5578e91584199c971",
+      "bytes": 2435880
+    },
+    {
+      "path": "res://assets/generated/mobs/slate_guardian.glb",
+      "sha256": "fd5e9da21caf563716cc77b02bfca3e25ff4dd8c263227312a786b704556aca3",
+      "bytes": 3376756
+    },
+    {
+      "path": "res://assets/generated/mobs/storm_wisp.glb",
+      "sha256": "ee33a27282422365976064b052193e433d20caca1d42a8b2253bc3585c5a1181",
+      "bytes": 2953796
+    },
+    {
+      "path": "res://assets/generated/mobs/thicket_wolf.glb",
+      "sha256": "bc74aabfe021d507349a96ed8a0447d3e990694ef190862f12a3b109898c9a5f",
+      "bytes": 2939940
+    },
+    {
+      "path": "res://assets/generated/mobs/venom_spider.glb",
+      "sha256": "beebad57d2244a8f17eb950b14bf5c83d0cfccadda4f28a0e852e684179aaf5b",
+      "bytes": 2424604
+    },
+    {
+      "path": "res://assets/generated/mobs/widow_spider.glb",
+      "sha256": "9fd7be4dccc357cfc3fa207e8380b92987497afb0ae52e19f0b1ba17cfdb087b",
+      "bytes": 2375020
+    },
+    {
+      "path": "res://assets/generated/mobs/young.glb",
+      "sha256": "51d7e6d002889c02c6f8918e1c6f8f12bc031fe71b0179e5e915519515d2defb",
+      "bytes": 3483408
+    },
+    {
+      "path": "res://assets/generated/npcs/apothecary.glb",
+      "sha256": "1443bf7729ba308fd80626fd332442ad8d0f0a376d691aff7e7f7e9585877270",
+      "bytes": 6224288
+    },
+    {
+      "path": "res://assets/generated/npcs/armorer.glb",
+      "sha256": "def4e982a8c03aac9012b73636d614694eab087ef718741d37c5bb9f0483e765",
+      "bytes": 4018484
+    },
+    {
+      "path": "res://assets/generated/npcs/artificer.glb",
+      "sha256": "1257fefb29fac42e4a3f88633a9d3fa3d399eae845aac843bf0491d3ba870180",
+      "bytes": 5984812
+    },
+    {
+      "path": "res://assets/generated/npcs/ash_scout.glb",
+      "sha256": "5411236566f8e88d3619632aa4789f9f3edc5009db475ba1597f4596a5eb1a9c",
+      "bytes": 5975084
+    },
+    {
+      "path": "res://assets/generated/npcs/keeper.glb",
+      "sha256": "622d81f6b111ea41deb3ef8eb8b6ca18e3184fa25d067b76c9d58943ddaa3407",
+      "bytes": 6208516
+    },
+    {
+      "path": "res://assets/generated/npcs/mara.glb",
+      "sha256": "7892102e6804811db56ae3cbaa9dad5e33d40e3c0914950a26d39d561dcffbb2",
+      "bytes": 6222964
+    },
+    {
+      "path": "res://assets/generated/npcs/smith.glb",
+      "sha256": "6ec52bbab6c8902bfa8e49abd52bcc895e2d53344334a0e4a96146e6d7faf4b6",
+      "bytes": 4018480
+    },
+    {
+      "path": "res://assets/generated/npcs/stablemaster.glb",
+      "sha256": "18b3c915bb3918089c9571443009ad949caacae99e42471539731129a1ec39c7",
+      "bytes": 5975088
+    },
+    {
+      "path": "res://assets/generated/npcs/warden.glb",
+      "sha256": "f61d39ce6aa77bd40feafb2d611d9272f4bb5441c6763b03cee7ebf0994812fb",
+      "bytes": 5983784
+    },
+    {
+      "path": "res://assets/generated/npcs/weapons.glb",
+      "sha256": "8328fa36d0cab4b025fb9dd258f3b24dd7fb1dfd0d1a3e3f2068e28ac6a4e689",
+      "bytes": 4018484
+    },
+    {
+      "path": "res://assets/generated/warrior.glb",
+      "sha256": "bb9b53ed32ce2432fa08b6b44177dec2bcdb0354fe282ac39e31622b3338b4ad",
+      "bytes": 6023500
+    },
+    {
+      "path": "res://assets/generated/weapons/briarsteel.glb",
+      "sha256": "7cd1676cc0b9421bfde76db3d5ae1d5d246ed837fce223ac890399cd93e329aa",
+      "bytes": 150364
+    },
+    {
+      "path": "res://assets/generated/weapons/cairnwarden.glb",
+      "sha256": "31d350f36017d2a3d1cbe405cc268f05ffc19c1af5575dbc9b8a5d7182a2aae0",
+      "bytes": 142424
+    },
+    {
+      "path": "res://assets/generated/weapons/ember.glb",
+      "sha256": "14df0287398396cd1635b005f853d927930152fcce5b32cf84735a8a0fee46b8",
+      "bytes": 161516
+    },
+    {
+      "path": "res://assets/generated/weapons/frontier.glb",
+      "sha256": "15952b218e5d1e696b5dfaa2bd073408d6e8c0a1d6173988345444d6251da70c",
+      "bytes": 152948
+    },
+    {
+      "path": "res://assets/generated/weapons/glass.glb",
+      "sha256": "113167619fa8d49dbee704f366aa98a44144c2666b5f6fc7a40f29e598be8474",
+      "bytes": 153296
+    },
+    {
+      "path": "res://assets/generated/weapons/jade.glb",
+      "sha256": "5e4020173661754022dda083694faa38f31965f1773b39e39db772b8abc57d8a",
+      "bytes": 133072
+    },
+    {
+      "path": "res://assets/generated/weapons/marchguard.glb",
+      "sha256": "2a02724663c90dc70043cff009b63d7fac014cefb71c01e17d04378a3fd4cef4",
+      "bytes": 132704
+    },
+    {
+      "path": "res://assets/generated/weapons/relic.glb",
+      "sha256": "c8a2b2759339ce3b4402b9710e61357567bf468b8d5b4a0b6ccdeae31d73b983",
+      "bytes": 167776
+    },
+    {
+      "path": "res://assets/generated/weapons/rift.glb",
+      "sha256": "0bb21b61f111bea2300d45e07762e998d323b6bc7fc9be8c53bb9eeb13677ef0",
+      "bytes": 167772
+    },
+    {
+      "path": "res://assets/generated/weapons/wakecleaver.glb",
+      "sha256": "2947ac51f5ea7c1b929f9f9c3a465623fc21145680af1f979278e7bb3a1ad426",
+      "bytes": 147288
+    },
+    {
+      "path": "res://assets/generated/weapons/wayfarer.glb",
+      "sha256": "e394dce09cb94256a4abfbaeca95b93297e67710a323c89a1822609c3fddaa90",
+      "bytes": 140972
+    },
+    {
+      "path": "res://assets/generated/world/anvil.glb",
+      "sha256": "17a44f72e5418e515da5ec2fee465cd3c53cc03c02aa6a49c0df375c358da064",
+      "bytes": 43552
+    },
+    {
+      "path": "res://assets/generated/world/banner.glb",
+      "sha256": "613e7df696c021b5a0d90eaf344fb83ff70aca6173abc0f9ffe04dcbb1ab6a41",
+      "bytes": 6900
+    },
+    {
+      "path": "res://assets/generated/world/bones.glb",
+      "sha256": "44fba4c9d5825a5c98aaf006d76e8a2856a6a2f6709a7cc273739dde2a4d0f20",
+      "bytes": 23080
+    },
+    {
+      "path": "res://assets/generated/world/bridge.glb",
+      "sha256": "d1a83f1a85adeddbf320323958ee7edc00590445084075b049f6198843314e7e",
+      "bytes": 603052
+    },
+    {
+      "path": "res://assets/generated/world/cliff.glb",
+      "sha256": "ace5a4a2ce0ef61ced48af4c8d472583456c930a0b5976ed9da38d061cd6005d",
+      "bytes": 1590164
+    },
+    {
+      "path": "res://assets/generated/world/cliff1.glb",
+      "sha256": "e92ef29a42c2238b80adec8a7197e57dac312a10adec7d2350e43a0b1a0a0a20",
+      "bytes": 1590168
+    },
+    {
+      "path": "res://assets/generated/world/crate.glb",
+      "sha256": "b6ea4373eaeaf71dacee6f1ee36beaeaabcd1bd3a1821a98c0c0d5c4c5ad2962",
+      "bytes": 2195468
+    },
+    {
+      "path": "res://assets/generated/world/dead_tree.glb",
+      "sha256": "c4ba2e223c7db7f257f4fb91022e8df0f9211ef105149f1b8d27dd34ad6020fd",
+      "bytes": 77400
+    },
+    {
+      "path": "res://assets/generated/world/eggs.glb",
+      "sha256": "75ea5e540bb350d496813bebb3fb2f0cfa4fb20184ec0b7329c940cea0d53200",
+      "bytes": 65248
+    },
+    {
+      "path": "res://assets/generated/world/fallen_wood.glb",
+      "sha256": "5540fa5881cac5e937d47d99889c36b7702195f9affed6c593e1ae62669d02bb",
+      "bytes": 2794492
+    },
+    {
+      "path": "res://assets/generated/world/fence.glb",
+      "sha256": "4e2da5b6fadd5f1410ae5147f58fa16d3a04243ea81dd2ab924a6bda62fb15be",
+      "bytes": 41896
+    },
+    {
+      "path": "res://assets/generated/world/fern.glb",
+      "sha256": "ad9b407ae116471f74b2169da0625aebf7ca1ff7713c3f35abd7bd54aef0c22e",
+      "bytes": 65064
+    },
+    {
+      "path": "res://assets/generated/world/fire.glb",
+      "sha256": "f629b9a4e9a8937668ececd0ac71711fbc2442a1915d1f9202078d6198b16889",
+      "bytes": 16416
+    },
+    {
+      "path": "res://assets/generated/world/flowers.glb",
+      "sha256": "b2bce7f14f8776bde785c12eb8098bd72ae236157cc616df179c6d89f35c3e8d",
+      "bytes": 82720
+    },
+    {
+      "path": "res://assets/generated/world/fracture.glb",
+      "sha256": "9921976e49255ede379e7b2afb85020b4b3f094131cff8132ae8bdfed36fad16",
+      "bytes": 536288
+    },
+    {
+      "path": "res://assets/generated/world/gate.glb",
+      "sha256": "d870dec10db31dc270536721c77878aa70ef6a6f4583a36a4c01a10f22d851dc",
+      "bytes": 53796
+    },
+    {
+      "path": "res://assets/generated/world/grass.glb",
+      "sha256": "61725e2d50725809991c0a3fab8d41b612aa5f76caeff4e7b986692ccf5334e3",
+      "bytes": 85828
+    },
+    {
+      "path": "res://assets/generated/world/house.glb",
+      "sha256": "73ec5b43c5fa4c15822a94dc62be4254379de58b8dfbbe7143bd5bc5801a420c",
+      "bytes": 1694148
+    },
+    {
+      "path": "res://assets/generated/world/leaf_litter.glb",
+      "sha256": "1b7a5c4ae52bfd884170c194954c0a6163b115388071087cc9f7d0731d5c7427",
+      "bytes": 39468
+    },
+    {
+      "path": "res://assets/generated/world/log.glb",
+      "sha256": "196f46e745e8c4a33d3d44af1c93a3b95015d07117068ce3da560d0c92634edf",
+      "bytes": 2794484
+    },
+    {
+      "path": "res://assets/generated/world/market_stall.glb",
+      "sha256": "af94f0fc37272c6471c0cb517d52058dc80f35f5759b4dcf782d6370a865fca2",
+      "bytes": 425480
+    },
+    {
+      "path": "res://assets/generated/world/mushroom.glb",
+      "sha256": "e1dfd35ada021d3deea7b84e65f114e993c998558a123b5cd70e22a960393cc3",
+      "bytes": 38108
+    },
+    {
+      "path": "res://assets/generated/world/pouch.glb",
+      "sha256": "bc341b1e5903c802a65b2ac815e6a0f474c7ae9f94bb881282e6f578e945fe9b",
+      "bytes": 16148
+    },
+    {
+      "path": "res://assets/generated/world/rock0.glb",
+      "sha256": "a529ec088789acf75ff9cb3141aed4421cf538d6d711569fb5643777e83006cc",
+      "bytes": 1590168
+    },
+    {
+      "path": "res://assets/generated/world/rock1.glb",
+      "sha256": "b8b0f14d829f478edd376c4370b2cc508ef951e239076e80c8099b8f16dcc3e9",
+      "bytes": 1590168
+    },
+    {
+      "path": "res://assets/generated/world/rock2.glb",
+      "sha256": "54dc48d463a834b9cddf2c4b03380fdffecb0254cfb42af9cdc28683451c92ac",
+      "bytes": 1590152
+    },
+    {
+      "path": "res://assets/generated/world/rock_0.glb",
+      "sha256": "0f6d447164ebf3041b26c91e76f93cff4bfcd19ed120ed6c98ba162ada9594f5",
+      "bytes": 1590156
+    },
+    {
+      "path": "res://assets/generated/world/rock_1.glb",
+      "sha256": "24a585bbbb3b6c229805c2c19ab989b245237b8fe93e14d1aef0c33c29ef846b",
+      "bytes": 1590168
+    },
+    {
+      "path": "res://assets/generated/world/rock_2.glb",
+      "sha256": "ec6be80181e5918b4f99978e9fdef769f9e4ebcaad7d60260429d2655917a30d",
+      "bytes": 1590168
+    },
+    {
+      "path": "res://assets/generated/world/ruin.glb",
+      "sha256": "d0d9f70c31f41283dbfd280d1d954dd2baaef8be1daae2aec17d7b6a22307de2",
+      "bytes": 2747832
+    },
+    {
+      "path": "res://assets/generated/world/ruin_arch.glb",
+      "sha256": "379d8584d145d8f91cf4e10c67170416ae1b931b1c42f29e586849991b99279b",
+      "bytes": 2747820
+    },
+    {
+      "path": "res://assets/generated/world/sedge.glb",
+      "sha256": "82204ccbad22b9911355e41f11e8cdf3712ea66d4c23f236b30763186691b2b4",
+      "bytes": 85828
+    },
+    {
+      "path": "res://assets/generated/world/shrine.glb",
+      "sha256": "643fc87e10bd9aef2fdab2aa312601fab2de036f7bc6596f399bafcb997f023a",
+      "bytes": 2849800
+    },
+    {
+      "path": "res://assets/generated/world/shrub.glb",
+      "sha256": "276fc3d609241af336b303bd6f80360cceb2389ceadca426d0da6455f1f5d315",
+      "bytes": 2764268
+    },
+    {
+      "path": "res://assets/generated/world/shrub_briar.glb",
+      "sha256": "7046c32c5cabd088be1f32cb2086ad3b684265d7a2eca6e34b592626476b56c6",
+      "bytes": 2764288
+    },
+    {
+      "path": "res://assets/generated/world/shrub_laurel.glb",
+      "sha256": "01ed9d1cfffe35b733cabd481252e727c94a9dd43570ca39e1ba85c9b035a32d",
+      "bytes": 2764292
+    },
+    {
+      "path": "res://assets/generated/world/tent.glb",
+      "sha256": "9c3ff2c1aade193785ba8ad392abe9e4644492438f4de6ee75a41b5bfd4f05a6",
+      "bytes": 2751080
+    },
+    {
+      "path": "res://assets/generated/world/tree0.glb",
+      "sha256": "f7e7f00b5ac204def40558f813eeb2a3d75911f02e66f8e3a622f21f2a46a96f",
+      "bytes": 2483088
+    },
+    {
+      "path": "res://assets/generated/world/tree1.glb",
+      "sha256": "42684a25214f631de8935bb9bc4034d1f471f76cde76dec223dfa9a06af48577",
+      "bytes": 2483084
+    },
+    {
+      "path": "res://assets/generated/world/tree2.glb",
+      "sha256": "0bc31e69e370a2125969b9a3e09cc60b6a2463b88c7dfc4b385b94bb938e95f6",
+      "bytes": 2483068
+    },
+    {
+      "path": "res://assets/generated/world/tree_bent.glb",
+      "sha256": "17dc1e436cefd197b7b2210c82116e2ff6af97f28e55bb1a32e18e56d1253a26",
+      "bytes": 2483088
+    },
+    {
+      "path": "res://assets/generated/world/tree_fork.glb",
+      "sha256": "17a56a0fcaef8171b02b7453e4bd9f884bdb65afcecbf9627f1a93c0257185ea",
+      "bytes": 2483088
+    },
+    {
+      "path": "res://assets/generated/world/tree_wide.glb",
+      "sha256": "ebf5b959555a71313440bfe94ebacf7bd17af6dab9943ac0736d5a2f2d03459d",
+      "bytes": 2483088
+    },
+    {
+      "path": "res://assets/generated/world/watchtower.glb",
+      "sha256": "e6b2375b1e4728029f362d5d9b5f0908ec0bd4b55df6b04b88f64792755e7670",
+      "bytes": 1551688
+    },
+    {
+      "path": "res://assets/generated/world/web.glb",
+      "sha256": "62e5f38bfec1b4d5a1178f7f59b80a44b976796d0829333b293cdc17627fd118",
+      "bytes": 24228
+    },
+    {
+      "path": "res://assets/generated/world/well.glb",
+      "sha256": "01ea4a8ed607bba91966e95008a0c8425fbe60c02dac2c800e57618f40877975",
+      "bytes": 693608
+    }
+  ]
+}

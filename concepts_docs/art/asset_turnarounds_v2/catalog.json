@@ -1,0 +1,1840 @@
+{
+  "schema": 1,
+  "created": "2026-10-07",
+  "assets": [
+    {
+      "key": "ironhide_boar",
+      "name": "Ironhide Boar",
+      "plan_key": "mob_ironhide_boar",
+      "forge_asset_id": "9bd5513739b9",
+      "source_asset_id": "90c5a8203d35",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\90c5a8203d35\\references\\be791754a956_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\ironhide_boar\\turnaround.png",
+      "sheet_sha256": "cdd732196d3b8fb61614bc29920bb4fc34fe02d25a1cc0e8095b03b1d7cef17c",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "87c221127897",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\ironhide_boar\\front.png",
+          "sha256": "673aa9ea2a7c5688031212d33ffd11749e2d79c0286c3f3fd6a9004be02d6c3b",
+          "resolution": [
+            340,
+            495
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "0b7f23a751ce",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\ironhide_boar\\left.png",
+          "sha256": "5f81f29143c34aef7ffb84e1e122f15b4c45de0e7fb55d38dc6485d91eba8588",
+          "resolution": [
+            691,
+            500
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "f3422e7e8b9f",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\ironhide_boar\\back.png",
+          "sha256": "852a20bfd7909ac2d5c3dd2d5fe29ddd5c7471c06a1464ccc20b7db72057dcd5",
+          "resolution": [
+            300,
+            497
+          ],
+          "used": true
+        },
+        {
+          "angle": "right",
+          "reference_id": "1d5290c4a312",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\ironhide_boar\\right.png",
+          "sha256": "c22555037296d6973bffdf0865f001642d967131ea6fc1daf2a9c2ca67efd652",
+          "resolution": [
+            645,
+            453
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "d75b5033eeae",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\ironhide_boar\\three_quarter.png",
+          "sha256": "eeb68f5b1a326315d746b960293201d2f647ebbad6c2727d20ec3b7f1b9037de",
+          "resolution": [
+            505,
+            457
+          ],
+          "used": true
+        },
+        {
+          "angle": "top",
+          "reference_id": "02ddea958a19",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\ironhide_boar\\top.png",
+          "sha256": "d48a8e63bc1f8e0fc25710f5163a3eee619c472048c241e8b8d2868de24daea3",
+          "resolution": [
+            220,
+            475
+          ],
+          "used": false
+        }
+      ],
+      "reference_set_id": "c8d625d46876",
+      "review_notes": "Opened original, sheet and extracted views. Stocky boar identity, paired tusks, four legs, dorsal reed plates, brown gray hide and neutral stance agree. Fine plates on hidden sides are inferred. Top and opposite side remain supplementary. Opened opposite-side crop; the same four legs, tusks, dorsal reeds and stocky proportions agree. Include right flank for color coverage; overhead remains supplementary.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "bay_horse",
+      "name": "Bay trail horse",
+      "plan_key": "horse_bay",
+      "forge_asset_id": "4c42176e618f",
+      "source_asset_id": "7e7d7e05f6f9",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\7e7d7e05f6f9\\references\\48d3e42e4ec0_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\bay_horse\\turnaround.png",
+      "sheet_sha256": "eae5c9bf9d937fb1d22f75a478f2086073a1df301f07929b9e7ee21c178cf4fc",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "9e15914ee102",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\bay_horse\\front.png",
+          "sha256": "7a946cac93f6a301f7ed2485b6759ecabda160de281def4c33a061ffe05adcb8",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "f14ed43e6947",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\bay_horse\\left.png",
+          "sha256": "45d3a846da8d2aff6e3fbf1196e1e7a7d18bd21f64950c0c0cd5173beefa2c05",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "07e7d089d9a8",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\bay_horse\\back.png",
+          "sha256": "8245d6e5a3a55994e905de2a9342315bae4792be06c51d42625ea7bb0718a43c",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "a2020229f6f7",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\bay_horse\\three_quarter.png",
+          "sha256": "705d6f6a9505b0dd7be3428aab61f04db501bb8ea66be55a8c007e37ca798552",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "31a1ad66a56e",
+      "review_notes": "Opened original and corrected sheet. Removed invented white facial blaze; plain bay face, black mane/tail/lower legs, neutral stance and realistic hoof proportions agree. Tack and rider are separate. Hidden markings and individual muscle details are inferred.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "warrior",
+      "name": "Ironvow rider",
+      "plan_key": "hero_ironvow",
+      "forge_asset_id": "81a65d2d77f1",
+      "source_asset_id": "96e72c50d51d",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\96e72c50d51d\\references\\575094075a7a_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\warrior\\turnaround.png",
+      "sheet_sha256": "3003d9dda9a3817f5ecf2b1cc304a88525cc84db95ac246882f01e381fba7202",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "b38eb01739cb",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\warrior\\front.png",
+          "sha256": "9646f7897ad6ea305f095dace12a8970a92a6b3da4a1c5230361eea9945511b5",
+          "resolution": [
+            724,
+            534
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "7fa3bfc6c0cd",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\warrior\\left.png",
+          "sha256": "1b26eddf52d4895403d9e3c978740fcd50f24cb2e2d339919d772ae9a2940a35",
+          "resolution": [
+            724,
+            534
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "fcc09971eac0",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\warrior\\back.png",
+          "sha256": "d22b4d09cc6cea45844e8c624ec9895aeb1b31a987f24fcc074ea4689437518a",
+          "resolution": [
+            724,
+            552
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "95f48d1e4b5a",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\warrior\\three_quarter.png",
+          "sha256": "4f9cc62cbdf19d160e9a65fd98b9bc45e8e06f146e4cd2d26f18b232ef3f8925",
+          "resolution": [
+            724,
+            552
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "ed4489ca6a18",
+      "review_notes": "Opened original and sheet. Adult proportions, black topknot, green lamellar armor, brass trim, red sash and black cloth agree. Neutral A-pose with empty hands and separated feet. Side arms appear vertical by projection; rear costume is an inferred continuation. Hand topology needs mesh review.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "meadow_wolf",
+      "name": "Meadow Wolf",
+      "plan_key": "mob_meadow_wolf",
+      "forge_asset_id": "30bc65e5aff1",
+      "source_asset_id": "ee4651b0a657",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ee4651b0a657\\references\\a760c0b6d510_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\meadow_wolf\\turnaround.png",
+      "sheet_sha256": "8c5d478aa8a39e3eb45eda32d0106325295e37b0b465766f52c9331246469494",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "2a8a6cc44215",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\meadow_wolf\\front.png",
+          "sha256": "f9fe8094a46b8181c5db84250188fc27c9cb41e06b37c161ac61480efefd31f2",
+          "resolution": [
+            768,
+            510
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "a3c1c0b4b129",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\meadow_wolf\\left.png",
+          "sha256": "e997ff741171e151e18a83d75fa2c6ea2a15cc9e09a086a1a89728eee1b87acf",
+          "resolution": [
+            768,
+            510
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "5f7d0b5fb5a1",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\meadow_wolf\\back.png",
+          "sha256": "a482ae977c2671845b67937da7d58d71caddb2bd2c68d2f943655036853181f5",
+          "resolution": [
+            768,
+            514
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "617ba5084a89",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\meadow_wolf\\three_quarter.png",
+          "sha256": "5231fb176c51a2bdb5a92c1c277a12ca8fc6cfe1039693359f4510cb18b2db18",
+          "resolution": [
+            768,
+            514
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "943fb9058d52",
+      "review_notes": "Opened original and all sheet angles. Gray taupe fur, cream chest and inner legs, golden eyes, lupine muzzle, pointed ears, bushy tail and neutral four-paw pose agree. Fine fur patterns are interpretations, not verified hidden surfaces.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "watchtower",
+      "name": "Timber watchtower",
+      "plan_key": "watchtower",
+      "forge_asset_id": "8af3d45eaca9",
+      "source_asset_id": "f6dde5ac99fe",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\f6dde5ac99fe\\references\\acab34a66af6_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\watchtower\\turnaround.png",
+      "sheet_sha256": "0d9db231c99adbf229b01c00977bbae83833dc85fb3116f7fb4ef0f70ec9d336",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "70ce77f6782d",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\watchtower\\front.png",
+          "sha256": "b48066505b1e3d3b84037d1e505c2af95439f0fecdd621d7aed3a97b41bb0bae",
+          "resolution": [
+            768,
+            506
+          ],
+          "used": true
+        },
+        {
+          "angle": "right",
+          "reference_id": "b35729750fb4",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\watchtower\\right.png",
+          "sha256": "8f2b62ad566d19251950b372e10c187cd4de95c2fa1b6f06958bdc57f1abe1df",
+          "resolution": [
+            768,
+            506
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "5ec3fafff762",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\watchtower\\back.png",
+          "sha256": "db7c953e5fbbe2587db5f423923b4ad010cc3c99126b6df15b9c70fbd938325a",
+          "resolution": [
+            768,
+            518
+          ],
+          "used": false
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "4598b10ec533",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\watchtower\\three_quarter.png",
+          "sha256": "e503e38998854404af0cfc5b447fae720411d2de76677ae0bdf669f4c52dae9a",
+          "resolution": [
+            768,
+            518
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "867ad071976f",
+      "review_notes": "Opened original and sheet. Front, right side and three-quarter agree on four posts, stone feet, raised railing deck, right-side ladder, front-left banner and curved tile roof. Excluded rear panel because its ladder is absent. Orthographic posts align by occlusion; straight structural parts still require mesh inspection.",
+      "excluded_views": {
+        "back": "Initial sheet omitted the ladder in the rear view. Do not condition on this panel until corrected."
+      },
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "fern",
+      "name": "Woodland fern",
+      "plan_key": "fern_reference",
+      "forge_asset_id": "234a200b7ba4",
+      "source_asset_id": "e89698c5b2d1",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\e89698c5b2d1\\references\\c26de0c63947_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\fern\\turnaround.png",
+      "sheet_sha256": "1269927b8ff34cbb8d3fc806af814c5d4a2087a16760be9a2c556650663e8f62",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "e92adff0f426",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\fern\\front.png",
+          "sha256": "4e93185b2d7f17ab326423a6526d9365f38ab091e4cba8b544d2c5b3df6638c3",
+          "resolution": [
+            768,
+            489
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "bd3d6ebdba8f",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\fern\\left.png",
+          "sha256": "dfabe6df87f5625d595aa6b27810bac1c2091f198c9f6942d721955cb150e8cf",
+          "resolution": [
+            768,
+            489
+          ],
+          "used": false
+        },
+        {
+          "angle": "top",
+          "reference_id": "17d885874505",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\fern\\top.png",
+          "sha256": "7bff2989415b4d306638abc289ad6377d559157bf6d79993767f1edd4ff5c35f",
+          "resolution": [
+            768,
+            535
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "2290c3eb9a65",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\fern\\three_quarter.png",
+          "sha256": "2d8c831eba3368e9e14d76983c55f3ed99205fa84d11304221f45113e6cb4a4c",
+          "resolution": [
+            768,
+            535
+          ],
+          "used": false
+        }
+      ],
+      "reference_set_id": "6c4cc696c4db",
+      "review_notes": "Opened original and sheet. Front and overhead show the same compact crown, seven principal green fronds, paired leaflets and weathered brown stems. Use only those distinct angles; other panels are redundant interpretations. Thin leaves may be better built as clean cards instead of neural solid geometry.",
+      "excluded_views": {
+        "left": "Too similar to the front camera to add reliable angle evidence.",
+        "three_quarter": "Nearly repeats the front view; supplementary appearance study only."
+      },
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "reed_spider",
+      "name": "Reed Spider",
+      "plan_key": "mob_reed_spider",
+      "forge_asset_id": "676305c94d3e",
+      "source_asset_id": "a5d900e10fc7",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\a5d900e10fc7\\references\\9f2ee94e8df5_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\reed_spider\\turnaround.png",
+      "sheet_sha256": "b95563dae06c03f1483e339d2830bc0c04fc2a079156419d0a39d628a57bf983",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "5473dd4182b2",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\reed_spider\\front.png",
+          "sha256": "a5e0be66bae5de1c8d21040098ca288784b7af12bbe6a48ae2b1bcced80c36d6",
+          "resolution": [
+            768,
+            475
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "f71647cd124e",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\reed_spider\\left.png",
+          "sha256": "45258bdb420abc2946ba55e38716b4127a3f468373adbdaaefdfd6f16fe3c6c4",
+          "resolution": [
+            768,
+            475
+          ],
+          "used": true
+        },
+        {
+          "angle": "top",
+          "reference_id": "8937293a02b4",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\reed_spider\\top.png",
+          "sha256": "b31e59eab3dd10c6ffec2f5b85e3e0096a4956fde32e602278114a17ffad82d3",
+          "resolution": [
+            768,
+            549
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "a8297e4145a9",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\reed_spider\\three_quarter.png",
+          "sha256": "83f2f8c8078ff50cfb55ea56f732a68e831baab8adf6389b53bd4bb250f398bd",
+          "resolution": [
+            768,
+            549
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "5c8fae685a1f",
+      "review_notes": "Opened original and sheet. Removed cropped human and neighboring creature. Overhead shows exactly eight walking legs, four each side; front palps and fangs are distinct. Straw abdomen and brown chitin agree. Rotated overhead input so nose points image up. Some far legs are occluded in side view; inspect leg attachment and foot grounding in mesh.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "blacksmith",
+      "name": "Oren blacksmith",
+      "plan_key": "npc_smith",
+      "forge_asset_id": "dd398b62cd83",
+      "source_asset_id": "62040047b53f",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\62040047b53f\\references\\a9db24bc8137_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\blacksmith\\turnaround.png",
+      "sheet_sha256": "665c294afa346c7ec1acbdf9713182f2057e126a737465443699dc1853cdaf8a",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "bc671fd5f526",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\blacksmith\\front.png",
+          "sha256": "5a14a13ecc4c1451b6611451c1c1f2c55e021978a4cf7e93502f30d81659d045",
+          "resolution": [
+            768,
+            503
+          ],
+          "used": true
+        },
+        {
+          "angle": "right",
+          "reference_id": "827021261f00",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\blacksmith\\right.png",
+          "sha256": "3156f3db9a4ce2b0c8a7b08b1e3b9aa011e5e22990ec16b895b1670161a3a186",
+          "resolution": [
+            768,
+            503
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "5b051cc1ab04",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\blacksmith\\back.png",
+          "sha256": "f5c671bbaab7e9980ce46729101c55423b8a234dbf44c3c50dcf8649699bb57b",
+          "resolution": [
+            768,
+            521
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "84c141ea1dfc",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\blacksmith\\three_quarter.png",
+          "sha256": "66ea2cadbbb445e5d1c19ee86f2fc817811adf07c39b7af5e6aebf57bb23b242",
+          "resolution": [
+            768,
+            521
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "f8f4afbd66be",
+      "review_notes": "Opened original and sheet. Same adult smith, graying beard/topknot, linen shirt, leather apron, dark trousers and boots; separated neutral limbs and empty hands. Tools need independent models and attachments. Rear apron straps are inferred.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "pine",
+      "name": "Frontier pine",
+      "plan_key": "tree_pine",
+      "forge_asset_id": "e6a4f11d5fab",
+      "source_asset_id": "c91ab84343a8",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\c91ab84343a8\\references\\a3b700bd367c_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\pine\\turnaround.png",
+      "sheet_sha256": "ad925a6840520cb313f0ae152f81db479eaa53477b9775acf5afe36332523e5b",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "f6eca20e02d4",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\pine\\front.png",
+          "sha256": "bbc8cd48dbd4fa1aebfd291d153e3a82c02d1f874447906d442360dad5027658",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "548b7edd4ba3",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\pine\\left.png",
+          "sha256": "3267fc404a6e59fb64da8d18212bfd3f3c5fede2c8083ca597b97e23779ea11b",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": false
+        },
+        {
+          "angle": "back",
+          "reference_id": "5877c5481e98",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\pine\\back.png",
+          "sha256": "d06bfae5cda8cee3a5b74ced72e95a4d39df0b8196f05b317e04609cca88f6a5",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "a4c6800fddde",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\pine\\three_quarter.png",
+          "sha256": "5a724c891605760a7008ee842204a7c3ada83303dd4b363c7df798332b7448a0",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": false
+        }
+      ],
+      "reference_set_id": "47be5d301dea",
+      "review_notes": "Opened source and saved sheet. Mature rooted bark trunk and olive boughs remain coherent. Only front and back are distinctly useful; lateral and three-quarter drawings repeat the front silhouette and are excluded. Individual rear branches are inferred.",
+      "excluded_views": {
+        "left": "Repeated front-like camera.",
+        "three_quarter": "Repeated front-like camera."
+      },
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "house",
+      "name": "Frontier house",
+      "plan_key": "house_reference",
+      "forge_asset_id": "950c34e45163",
+      "source_asset_id": "28ab4ff6501b",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\28ab4ff6501b\\references\\d903c0206fe3_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\house\\turnaround.png",
+      "sheet_sha256": "39d080161af84ff161957cc3ef9206c05c0e5fc2404ce203cb1ac0cd7b45b2ae",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "d8c7722cf1f0",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\house\\front.png",
+          "sha256": "579f1ae83e7e7016e995c0c571bba7ff3de85b872806f426ad1bb779e3313f35",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "71493cee88ab",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\house\\left.png",
+          "sha256": "d60532ddde6701bc2187b97cb91aca9f8c44b47f5adee9c1f7f8e6edf43594d3",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "9959312955a4",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\house\\back.png",
+          "sha256": "6a95ec7194206df6f91aec03ee795c30b8092d38c11c3993b8e3b66d10b3ab62",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "729451f9c487",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\house\\three_quarter.png",
+          "sha256": "e20eb7fa81e9e28e5ddcc4c092b6128b371d24292387174907b54ca8476a1a5b",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "ffbb46e98391",
+      "review_notes": "Opened source and saved four views. Double front door two front windows, gable on side, rear single window, timber plaster walls and stepped stone base agree. Rear window is an inferred production choice. Roof curvature and straight structural axes require mesh review.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "jade",
+      "name": "Concept jade sword",
+      "plan_key": "weapon_jade",
+      "forge_asset_id": "be16981c9505",
+      "source_asset_id": "25e9dffe8c61",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\references\\339250244209_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\jade\\turnaround.png",
+      "sheet_sha256": "8c7b49bfe178c531a86a274922edad1295ff3e918180e09a6ade8520b5c9077c",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "945f5e064ebc",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\jade\\front.png",
+          "sha256": "6c30352344a44b9e096b7ae31769e5112e0218d8e0eb5abeacf6526bb32fb5cc",
+          "resolution": [
+            572,
+            687
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "eec0280f05c9",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\jade\\left.png",
+          "sha256": "fb17501848240d7c8a69c3da6c07f579fc1ba27b381b0ac58abb84c3fd1f0c4d",
+          "resolution": [
+            573,
+            687
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "5b3c47806077",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\jade\\back.png",
+          "sha256": "88e966911292ddc85322afcb97bc4ab91e564fd9f4e317c79f20a3995b4bb798",
+          "resolution": [
+            572,
+            687
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "f1faa52e3823",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\jade\\three_quarter.png",
+          "sha256": "95e92b1255ee7426ec89e218f66380ef7fcbf3492525762e04afd7c16ee13c98",
+          "resolution": [
+            573,
+            687
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "c754d7db4a6d",
+      "review_notes": "Opened source and saved four views. Straight double-edged blade, jade fuller, squared brass guard and wrapped grip agree. Side records physical thickness. Blade is up in sheet; fitting must honor game grip origin. Engraving is interpreted; straightness needs clean remodeling if neural mesh bends.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "mossling",
+      "name": "Young Mossling",
+      "plan_key": "mob_young",
+      "forge_asset_id": "136fe89be080",
+      "source_asset_id": "9d4ebcf4d508",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\9d4ebcf4d508\\references\\9364bfc21a74_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\mossling\\turnaround.png",
+      "sheet_sha256": "a21b44f1103d7874909116593a77f96ddbd8e1554ec071a68a818747807724f2",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "e5b3bbcd031b",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\mossling\\front.png",
+          "sha256": "31e73a12b82134f0ac8233c4d85c10d3b2966d1bb9530eae5dc6813ea2ae73f8",
+          "resolution": [
+            645,
+            609
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "26c5eaa59be7",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\mossling\\left.png",
+          "sha256": "77015e0f41f01481c2840ab5b0de599b32b5905a9643d6cccde5aaddc3d7d689",
+          "resolution": [
+            646,
+            609
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "c100f465746d",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\mossling\\back.png",
+          "sha256": "ded9d0bbe61a35803c4c09f2bdfa4eb3821fd1b2e590f1e41b01b46ef3c6dcff",
+          "resolution": [
+            645,
+            609
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "ad4352895a7c",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\mossling\\three_quarter.png",
+          "sha256": "ac2215f722edbcf10f39b514c088acd07bf8db50eb94092e5570dde43981896a",
+          "resolution": [
+            646,
+            609
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "eb0cf9b4e5bb",
+      "review_notes": "Opened source and saved full sheet. Bark owl face, amber eyes, twig claws, split root feet, shelf fungus and moss agree across cameras. Neutral limbs separated. Hidden ivy and branch detail is inferred. Side camera is approximate oblique; rig fitting must preserve crouched anatomy.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "stonekin",
+      "name": "Slate Guardian",
+      "plan_key": "mob_slate_guardian",
+      "forge_asset_id": "1c12adf6824a",
+      "source_asset_id": "39bc98234d3c",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\39bc98234d3c\\references\\8a0ae3cea366_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\stonekin\\turnaround.png",
+      "sheet_sha256": "48afdd8f95224e506555099964988281963c7323a84f47bff1ba00aa6e2af2b5",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "dd55c8020bb8",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\stonekin\\front.png",
+          "sha256": "1843062a9c5bbc250d51b0378589fd1770c88b1950aee3cc73f6898029061c71",
+          "resolution": [
+            627,
+            627
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "46524dfd8287",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\stonekin\\left.png",
+          "sha256": "feaaba853cc032cd7c822413f81afb4274d64bc1ee8f890652e73e3a98fb274e",
+          "resolution": [
+            627,
+            627
+          ],
+          "used": false
+        },
+        {
+          "angle": "back",
+          "reference_id": "a88d4fde9cd7",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\stonekin\\back.png",
+          "sha256": "6f9eecec7f9d711c9f0e580003ef8400f8b2ce35a3a3fb56b2d86ab62493fdab",
+          "resolution": [
+            627,
+            627
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "9bb21b801e02",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\stonekin\\three_quarter.png",
+          "sha256": "90f23b80f0d81b54fcf044b4cca52db2a3dceaf285063d46c2e9e28904c60c8c",
+          "resolution": [
+            627,
+            627
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "d1b9f29f8891",
+      "review_notes": "Opened source and saved full sheet. Completed cropped left arm as a symmetrical inferred continuation. Jointed slate blocks, mask, feet, rope belt and red rag agree. The supposed side is oblique and excluded as redundant. Inspect joint separation in reconstruction.",
+      "excluded_views": {
+        "left": "Oblique rather than distinct lateral view."
+      },
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "wisp",
+      "name": "Cinder Wisp",
+      "plan_key": "mob_cinder_wisp",
+      "forge_asset_id": "7c2a1cac1bee",
+      "source_asset_id": "6c83aaf94df9",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\6c83aaf94df9\\references\\15ccd1bebb31_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\wisp\\turnaround.png",
+      "sheet_sha256": "d555cac45effd197a606179049f403b004146410faacafff95299955a8526636",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "72c622b7c44a",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\wisp\\front.png",
+          "sha256": "6b11e9c927f5c191e1ec25d138f8384c1a3b24696649b578a9108f8998bfbac3",
+          "resolution": [
+            547,
+            718
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "bfb6aec64347",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\wisp\\left.png",
+          "sha256": "62e08e9418ac421c3c9bb5a6699da5a43328b021cc95b5a94493106b72a3821b",
+          "resolution": [
+            548,
+            718
+          ],
+          "used": false
+        },
+        {
+          "angle": "back",
+          "reference_id": "762f1af1860c",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\wisp\\back.png",
+          "sha256": "5bbd84a7f5bcafea05e7e0d361a1e33032787b3d4f7916ff6a875ac32acb0862",
+          "resolution": [
+            547,
+            718
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "44b51cb64dcb",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\wisp\\three_quarter.png",
+          "sha256": "9c426d986157a652e19f2d159593f556fcf3b2ed88e7c85323fcfb4026d140c2",
+          "resolution": [
+            548,
+            718
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "0e590d08ec8b",
+      "review_notes": "Opened source and saved full sheet. Cracked mask sockets, ropes, bead arms and cloth consistent, no flame reconstruction. Side is oblique and excluded as redundant. Fire remains a separate effect. Rear mask surface and rope attachments are inferred.",
+      "excluded_views": {
+        "left": "Oblique view repeats three-quarter."
+      },
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "bandit",
+      "name": "Road Bandit",
+      "plan_key": "mob_road_bandit",
+      "forge_asset_id": "63b3ab43adbb",
+      "source_asset_id": "3da27c1996c8",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\3da27c1996c8\\references\\9ba67e29e3b0_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\bandit\\turnaround.png",
+      "sheet_sha256": "0ae4f863d708c3a2c43c9784151e0dcad33b5ff6bccb947dbdc2ea0226c9064e",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "c6efaf3c6cbf",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\bandit\\front.png",
+          "sha256": "e9ab909c07a9736ffe363f13b93b78717370184ce7a7ada863f1324d16357e83",
+          "resolution": [
+            570,
+            690
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "bdf4f804839e",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\bandit\\left.png",
+          "sha256": "e276b45df202e22e4f37b4aa76cf51340fca18011f5577354427e16e797e81a1",
+          "resolution": [
+            570,
+            690
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "6a8404730c61",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\bandit\\back.png",
+          "sha256": "f96b8541c97b99d1adb56be22d155746c12ffaae54a3b3e72ceab3ffff0e3903",
+          "resolution": [
+            570,
+            690
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "40f3c553b0ea",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\bandit\\three_quarter.png",
+          "sha256": "4b3c52d6db96e54e1bb33ae93cc3cfa5a002a5396ce2ea20138d8c9cfebe5c82",
+          "resolution": [
+            570,
+            690
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "8ef7e31f81ee",
+      "review_notes": "Opened source and saved four views. Realistic adult, rust scarf/cape, leather chest belt/bracers, trousers and boots coherent. Empty hands remove held weapon from body reconstruction; game supplies attachment. Neutral stance, separated feet. Rear costume remains an inferred continuation.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "rock",
+      "name": "Mossy slate boulder",
+      "plan_key": "rock_slate",
+      "forge_asset_id": "c53be204fb1c",
+      "source_asset_id": "390757041a11",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\390757041a11\\references\\6d15374bbeb4_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\rock\\turnaround.png",
+      "sheet_sha256": "4aba126e3664ba6807781635cba7a1cf437ab441372ac2a93832731b24ac477d",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "f419c01aa5bc",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\rock\\front.png",
+          "sha256": "3228090c3bee3d4f2151da61437ad1fe99f5dafbd946c4f6b74a6f70269af843",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "7154717e39ab",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\rock\\left.png",
+          "sha256": "07ab489a5f46ad5858ccab1e59dd1d3131c7036ab5945fe33e59e80bf3efc0a2",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "ab728faff494",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\rock\\back.png",
+          "sha256": "5fb24db417ceafdfbaa968866c9334611c591721aa1897d9632bb8026d19b058",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "7373b72d64ad",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\rock\\three_quarter.png",
+          "sha256": "81cec53aab7984d86aa0734ddec031d4ba7c54288669ea7b4c1be0bbf7ab03ff",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": false
+        }
+      ],
+      "reference_set_id": "6258038ffa5f",
+      "review_notes": "Opened original and saved complete production sheet. Angular fractured gray slate wedge, low base and layered lichen bands agree; three-quarter duplicates front and is supplementary. Thin foliage may require clean leaf remodeling after runtime inspection.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "shrub",
+      "name": "Bramble shrub",
+      "plan_key": "shrub_reference",
+      "forge_asset_id": "e673a9059354",
+      "source_asset_id": "825ead3127e3",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\825ead3127e3\\references\\ed18994b3c13_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\shrub\\turnaround.png",
+      "sheet_sha256": "4510ad05d4e334a6b88613472830fb030e14a3e904bda1e61ab003d413ad3366",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "83421f6c1cff",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\shrub\\front.png",
+          "sha256": "0e5888df6c9a3e0ba48ef81af679be7024c1346ce2fd87693b0f264de54ab45f",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "86a2c8486807",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\shrub\\left.png",
+          "sha256": "492d5bf51383e8d85e36b750e34dc249cecc0938a8abb26d433a2648c766bfcb",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": false
+        },
+        {
+          "angle": "back",
+          "reference_id": "5634a5d96e7c",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\shrub\\back.png",
+          "sha256": "cb05a926e66143569465898aebce4ad9203d19cf3ceccafb383f046e016f085e",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "527ee212174b",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\shrub\\three_quarter.png",
+          "sha256": "dd1d1ee10edf12913865333024f87d6142244b165d02b5d75a81d4c65d4f91d7",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": false
+        }
+      ],
+      "reference_set_id": "c12068777edd",
+      "review_notes": "Opened original and saved complete production sheet. Olive laurel foliage, woody crown, same basic footprint; other elevations repeat similar frontal silhouettes and are supplementary. Thin foliage may require clean leaf remodeling after runtime inspection.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "grass",
+      "name": "Woodland sedge",
+      "plan_key": "grass",
+      "forge_asset_id": "d1db90554260",
+      "source_asset_id": "7bb6aaf07f27",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\7bb6aaf07f27\\references\\f1bc21797768_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\grass\\turnaround.png",
+      "sheet_sha256": "f2b904473d55ecbe331da181dc0e242bbbe294deb812b62951c16ed5eeff4882",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "5c657a4e63c1",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\grass\\front.png",
+          "sha256": "19b8b5f5bdc2bc9e59106244af7001ae0483f1a759c8783533096c1312270bc3",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "f04adb89f317",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\grass\\left.png",
+          "sha256": "83bd7268f4273b5c92adfc7f9adbe36838816a7a59937701963be4bb7b6a4503",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": false
+        },
+        {
+          "angle": "top",
+          "reference_id": "8d746d48da67",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\grass\\top.png",
+          "sha256": "b82da47d94a6222e74d10f4dc343defa3c491bb99ed076e3e0b7cc12a9566f55",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "e827e4a2531c",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\grass\\three_quarter.png",
+          "sha256": "6a79be6f0ff251a913165a580ce8120b8d693f425368cda1c619ce0f3c47f9b2",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": false
+        }
+      ],
+      "reference_set_id": "4804eee992a8",
+      "review_notes": "Opened original and saved complete production sheet. Olive ribbon blades, dry tips, compact crown, top reveals radial structure; other elevations are redundant. Thin foliage may require clean leaf remodeling after runtime inspection.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "dead_tree",
+      "name": "Dead pine",
+      "plan_key": "dead_tree",
+      "forge_asset_id": "bb8e96c7cb7c",
+      "source_asset_id": "440604ba5f25",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\440604ba5f25\\references\\be9860bcfb5b_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\dead_tree\\turnaround.png",
+      "sheet_sha256": "88b5367bf81a46f89fe055eca04eea0af4e3130578dbfa4187697f313cfdbab9",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "b99a49066922",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\dead_tree\\front.png",
+          "sha256": "45e891d77b9e71e975b4ebd27edd02c08e93fa79d26282a08bf97991a4f424ca",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "0fd6c9ca1f24",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\dead_tree\\left.png",
+          "sha256": "242d39fb99ed8302a1c93257de0f71ddca4f881fb3a2e64cbd8c341bbe310355",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "daa37553cbe3",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\dead_tree\\back.png",
+          "sha256": "f9589daf03d3b062e5eac308d244f08a9cb05c4c2c842544ba3f568b03298f56",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "5f111a906d8d",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\dead_tree\\three_quarter.png",
+          "sha256": "38256c588cf37079c45d4f2db79d6527dbb282b8506912abc33bfea0af48ce87",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "bcf67bec28c4",
+      "review_notes": "Opened original and saved complete production sheet. Hollow ridged stump, exposed roots and snapped branches rotate coherently; backside knots are inferred. Thin foliage may require clean leaf remodeling after runtime inspection.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "fallen_log",
+      "name": "Fallen pine log",
+      "plan_key": "fallen_log",
+      "forge_asset_id": "663ab137bb72",
+      "source_asset_id": "ad67cb7fa0d1",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ad67cb7fa0d1\\references\\9e8192f77903_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\fallen_log\\turnaround.png",
+      "sheet_sha256": "8142c026ea0cd3f61ff4b3534d0995fc1d284efe392b992faf84257f982adab2",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "29f609b380a4",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\fallen_log\\front.png",
+          "sha256": "ecdaae9bdc352c9a2cc85abb0d5fe5fafbc5d934fe4228756526bc2ada7e7c11",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "0512bfe8538e",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\fallen_log\\left.png",
+          "sha256": "f25661e504422bc7897761d21e6ce1019900efe64c0fb0b8270996e7a2441953",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "453df23ed9b3",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\fallen_log\\back.png",
+          "sha256": "35a3b4545e213d7f0a5b41072089be09f279d3742b263bfa5653f4721835a3b1",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "cb9a2a1e1999",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\fallen_log\\three_quarter.png",
+          "sha256": "59f096292ef9a22a45f101c5c67960aa2b72783b0618369d287270a3b34c5899",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "efaa1f83bac4",
+      "review_notes": "Opened source and saved complete sheet. Broken bark trunk, end-grain depth and snapped branches agree; rear knots are inferred. Mesh straightness and camera-axis fitting remain pending.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "shrine",
+      "name": "Roadside shrine",
+      "plan_key": "shrine",
+      "forge_asset_id": "1620c7b6809a",
+      "source_asset_id": "ad68a7ed83ab",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ad68a7ed83ab\\references\\87d23fed2a59_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\shrine\\turnaround.png",
+      "sheet_sha256": "b0a5c2426eae46cbfa7129a30cede6998fbc54bf869b880e4538cc9b748de762",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "21e9e81d255c",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\shrine\\front.png",
+          "sha256": "46b3ea85696680967c320153375ff2ad80873a65901a3157fde712e90095e4f1",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "d2668b79d35b",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\shrine\\left.png",
+          "sha256": "d106fa76c6e2221e35763f41ffa844c362f342c00ff8ae9a24045e4097859a99",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "54fcb49b9541",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\shrine\\back.png",
+          "sha256": "bfd96c9b78b34231d7eb1d4d46324faafe1f5d80e394630c77e246c47b502304",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": false
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "b70452246241",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\shrine\\three_quarter.png",
+          "sha256": "9eb0f17bb11a30da3a1caba3a790ab75e8fd319a51eeade7accb64b649902cad",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "403f342d436f",
+      "review_notes": "Opened source and saved complete sheet. Two posts curved roof central stacked stones and front-right cloth agree. Rear keeps cloth on wrong screen side and is excluded. Stone count is approximate; rebuild stack structurally if needed. Mesh straightness and camera-axis fitting remain pending.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "tent",
+      "name": "Camp tent",
+      "plan_key": "tent",
+      "forge_asset_id": "64136d2f1401",
+      "source_asset_id": "6a21f2cb5775",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\6a21f2cb5775\\references\\ba5a370a88fc_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\tent\\turnaround.png",
+      "sheet_sha256": "08e312a39db7357aebe3a3c526a0661eab4550185a206ece41bd7c06a9815516",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "08bb2b5c3774",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\tent\\front.png",
+          "sha256": "a39442fc8f6d2d1c809f83f13111b671ddcd3bac246a669fe7613a30a1cb8c87",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "4b2ae56eed27",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\tent\\left.png",
+          "sha256": "5a5145031b6b81e67f5b28aaf95d314ea93f8c4c1c12de6f3be8bfde6d338782",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "7a9c9667fb99",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\tent\\back.png",
+          "sha256": "3ab93120edcfce03a1ea2b4850f5bee9fa2a15bfba1de0cb49837f60c204b01c",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "c7fe8ca7f2b6",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\tent\\three_quarter.png",
+          "sha256": "73d78aea8b6154bb50aab3fc6413dce0e1cfc8d5bea9b74f6fba0be45e4c7907",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "12acee374933",
+      "review_notes": "Opened source and saved complete sheet. Front entrance, forked poles, tan canvas and closed rear agree. Some tie pegs are inferred. Mesh straightness and camera-axis fitting remain pending.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "ruin_arch",
+      "name": "Ruined stone arch",
+      "plan_key": "ruin_arch",
+      "forge_asset_id": "59ed9aa445ba",
+      "source_asset_id": "5497e23fb588",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\5497e23fb588\\references\\789101ec8c11_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\ruin_arch\\turnaround.png",
+      "sheet_sha256": "406f5892b0d3f217d6658f12df7ea9f29e85b53b4c67dc189ef825ad92a3e00f",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "6a71bc602686",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\ruin_arch\\front.png",
+          "sha256": "fe283bde5a16cadfec98113721dbcde3d09bac783dafac5e9cd61d3e31f8f99a",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "846027a0823b",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\ruin_arch\\left.png",
+          "sha256": "804cc05413bfa436156be1c0d8547d3ec3218badb8e5f72c96deed4b3a7bcb76",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "a1deb4b33438",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\ruin_arch\\back.png",
+          "sha256": "a69d70a5a88a91230c62c376b9c3546195232b4062542cfac39780d362ccfc0d",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "6ae6461b8014",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\ruin_arch\\three_quarter.png",
+          "sha256": "e45e39a98f15740a42e0fdbec3a04aaceb90c4778dda48d1cf3d842497398c2f",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "50eba1a00298",
+      "review_notes": "Opened source and saved complete sheet. True arch opening, thick stone piers, broken top and relief panels agree. Rear masonry and minor damage are inferred. Mesh straightness and camera-axis fitting remain pending.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "fracture",
+      "name": "Briarwake Fracture",
+      "plan_key": "fracture",
+      "forge_asset_id": "319dfb8961fa",
+      "source_asset_id": "5bda526a30eb",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\5bda526a30eb\\references\\b7535997345d_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\fracture\\turnaround.png",
+      "sheet_sha256": "8c26da1c7459b614b6bdaf423b1f6142d884acfc4029fdd254b643e2ce369f03",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "cda57a2f4c23",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\fracture\\front.png",
+          "sha256": "8f8c98a1483fbac64a5f60bb5405c2b795cb73d49111591fb69dab93d4e4d7e2",
+          "resolution": [
+            697,
+            563
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "8a7bc5ff3529",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\fracture\\left.png",
+          "sha256": "59b03928deea0631c1246c300f283b2d51b09f22ffaf2c9e23c63ecad1922fff",
+          "resolution": [
+            698,
+            563
+          ],
+          "used": false
+        },
+        {
+          "angle": "back",
+          "reference_id": "0526a2c571cb",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\fracture\\back.png",
+          "sha256": "d0872a8624ecb7d2a4f9765a7ad6e3daa7eb39f48751c9a5200c6c472942bc67",
+          "resolution": [
+            697,
+            564
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "a0b41c048a72",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\fracture\\three_quarter.png",
+          "sha256": "b1c4dec3eff24eb4abf6fabb9b8581ce17d5ce2a322a4801a350f2fc4359de36",
+          "resolution": [
+            698,
+            564
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "4f148246170c",
+      "review_notes": "Opened source and saved full sheet. Bark root ring, split inward ribs and separate central amber crystal consistent. Side repeats front and is excluded. Exact rib count remains ambiguous under occlusion and must be explicitly repaired to seven in geometry.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "coin",
+      "name": "Cloud brass coin",
+      "plan_key": "coin",
+      "forge_asset_id": "88e6a53df93c",
+      "source_asset_id": "558755f812de",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\558755f812de\\references\\2070d81249a1_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\coin\\turnaround.png",
+      "sheet_sha256": "9af40d5b8e645aa5bcfe9d59528a97b31a5610d016dbd5fe7e17c0d7979c3e8f",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "f8e0a4efcf9a",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\coin\\front.png",
+          "sha256": "65171ea63c997d45cb0650452a5500550f89a833b002582ee5216f05e8b9d19c",
+          "resolution": [
+            656,
+            599
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "6c73fc775642",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\coin\\left.png",
+          "sha256": "43d567553e9c08cfd6ee41a1a547dd053f3e0bbb1fe1f57c370e34b951c3ca59",
+          "resolution": [
+            656,
+            599
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "cab458b71523",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\coin\\back.png",
+          "sha256": "2aa98ad9bb2ef13be6e8bc5afe16bdb753dc58f4d8de24add5c189a4da6c10fe",
+          "resolution": [
+            656,
+            600
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "7b2de58e7c60",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\coin\\three_quarter.png",
+          "sha256": "34fbcb96ebf70d3aa325daf459d97dd692235721e844b7dd19b92076b236e5bf",
+          "resolution": [
+            656,
+            600
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "3a76b095d7f9",
+      "review_notes": "Opened source and saved full sheet. Round brass disc, square through hole, scroll relief and thin edge coherent. Reverse relief is inferred.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "crate",
+      "name": "Timber shipping crate",
+      "plan_key": "crate",
+      "forge_asset_id": "2948bfff85d8",
+      "source_asset_id": "577f3e14376a",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\577f3e14376a\\references\\d242a97fef92_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\crate\\turnaround.png",
+      "sheet_sha256": "622fa26d46233e8e9d969d748dadcf665a4dedb7bc86bf5d846fd9d7cff2d5b7",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "ce7bf03ece8e",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\crate\\front.png",
+          "sha256": "9f27fad6d74ae774b4e13be518c963aea369e98280c98fb40d4a15e295d05048",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "6385f13fa9de",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\crate\\left.png",
+          "sha256": "71b15dfc0859a1534ae01a188ef4f4e75bdf033f772dbd59c926c9eab21afb18",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "4e20411343ec",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\crate\\back.png",
+          "sha256": "9db90f9bdeb5b485c684d565f7be2a4452f90937e99562cf5215531527c7715b",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "3913c3df352f",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\crate\\three_quarter.png",
+          "sha256": "2ac8cf590f5fb75c39086641efcf44da68fdc9996d021a99749b3b538e137a6f",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "fd4897a06809",
+      "review_notes": "Opened source and saved full sheet. Square timber planks corner iron straps, front diagonal, side plain and mirrored rear brace agree.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "bridge",
+      "name": "Rope footbridge",
+      "plan_key": "bridge",
+      "forge_asset_id": "274f10da77af",
+      "source_asset_id": "5e5c4e84ecae",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\5e5c4e84ecae\\references\\56b63f44c6dc_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\bridge\\turnaround.png",
+      "sheet_sha256": "104ab82186e201f20b9828cadc23f3ce33695bbd905db97fa4d0af35bdb5f167",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "410d6d8ff946",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\bridge\\front.png",
+          "sha256": "d30f1c73aedaad39d62b427128f98a8951e76394852fd946985aae22f6c0f40e",
+          "resolution": [
+            836,
+            470
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "be8e007e1dab",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\bridge\\left.png",
+          "sha256": "76d1b5b832451c27500aa9ec036cd531e4dab6301046dbb29ce5b565f2afc9cf",
+          "resolution": [
+            836,
+            470
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "0c862f5f83e2",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\bridge\\back.png",
+          "sha256": "25a458947cd315f740ba1bbf093d300a9e33823b95b0cd4ba09e845080f018c1",
+          "resolution": [
+            836,
+            471
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "3baa5d92d875",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\bridge\\three_quarter.png",
+          "sha256": "12a2879109b7e06f1bcb52ae9a044eacef0cae79da749e17342966611b100a49",
+          "resolution": [
+            836,
+            471
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "0da71da26fa5",
+      "review_notes": "Opened source and saved full sheet. Straight walkway six posts with rope rails and end landings agree. Front/back omit mid-posts by occlusion. Native geometry must preserve usable straight deck.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "keeper",
+      "name": "Sella keeper",
+      "plan_key": "npc_keeper",
+      "forge_asset_id": "cc7f442b8501",
+      "source_asset_id": "fb68f0aeebe6",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\fb68f0aeebe6\\references\\930539baac92_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\keeper\\turnaround.png",
+      "sheet_sha256": "b01f44e39512cd52523992bf16a30a0e5e20c1de55b7c7aafe0524f65a86c64a",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "db429f7a9318",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\keeper\\front.png",
+          "sha256": "92c8967d247968e510bcb88a7a13dea4b3bcf33e2f286962245de8417c163a40",
+          "resolution": [
+            512,
+            768
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "ef32e2106241",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\keeper\\left.png",
+          "sha256": "a9d6fb8c0273a5004ae686ea51bd8289cad8b8d1c2c372e5a83a00538f396a6e",
+          "resolution": [
+            512,
+            768
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "229683f99d68",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\keeper\\back.png",
+          "sha256": "20e187d8d383b491ef1e7dbcae4feaa08e0e6ee632efd6c822d6c418e62b91b1",
+          "resolution": [
+            512,
+            768
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "4417d0fbf41c",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\keeper\\three_quarter.png",
+          "sha256": "ba1890dd1fdded04889850ce4967a2ad2bf30089959ea0b3fa46d0f40d907399",
+          "resolution": [
+            512,
+            768
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "4401f084f166",
+      "review_notes": "Opened original and saved complete four-view sheet. Adult woman, hair bun, teal outer robe cream inner robe brass sash details and boots coherent. Empty hands and separated relaxed A-pose. Rear garment details are inferred.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "stablemaster",
+      "name": "Bram stablemaster",
+      "plan_key": "npc_stablemaster",
+      "forge_asset_id": "d6f1cbc42704",
+      "source_asset_id": "45f6c569708b",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\45f6c569708b\\references\\8a2154655f35_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\stablemaster\\turnaround.png",
+      "sheet_sha256": "f8a1f9207fe4772993828cee5a37b2dcfa470564729112b92d78a36672224ae6",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "19800d601858",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\stablemaster\\front.png",
+          "sha256": "538c1c9aecce9ef9be22b0214cbf1f933d0a5332c3393cd1fa76cf81733223f5",
+          "resolution": [
+            512,
+            768
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "8fbbfd972b85",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\stablemaster\\left.png",
+          "sha256": "7c6558b590b6ed972329049e0125e76bed14c698f579cd79cc0197cb0fd97998",
+          "resolution": [
+            512,
+            768
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "c8715e080ac0",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\stablemaster\\back.png",
+          "sha256": "c8adccf5b5c12892036cc7c86bdfe96a354606b7ec224b27ca92231d260f6619",
+          "resolution": [
+            512,
+            768
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "93d47a9cd7c7",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\stablemaster\\three_quarter.png",
+          "sha256": "c43bef48953909674a1129eae97de4315fd8c785cfd597bfcdc29f66bb39a49a",
+          "resolution": [
+            512,
+            768
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "5ab25915a048",
+      "review_notes": "Opened original and saved complete four-view sheet. Adult male headband goatee, linen rolled sleeves tan vest leather apron pouch dark trousers boots coherent. Empty hands relaxed A-pose; rear costume is inferred.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    },
+    {
+      "key": "saddle",
+      "name": "Separate bay horse leather saddle and blanket",
+      "plan_key": "saddle",
+      "forge_asset_id": "94842673905b",
+      "source_asset_id": "7e7d7e05f6f9",
+      "source_reference": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\7e7d7e05f6f9\\references\\48d3e42e4ec0_prepared.png",
+      "sheet": "concepts_docs\\art\\asset_turnarounds_v2\\saddle\\turnaround.png",
+      "sheet_sha256": "f8a7e78f71941dd872f1edd04e51abca228ccf4fbfbfa4793c9ba8d55d0bd4a9",
+      "views": [
+        {
+          "angle": "front",
+          "reference_id": "7ed7897db5d1",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\saddle\\front.png",
+          "sha256": "5ea227b6634be30afb7fb9346314cf9db15c4b4217215a0dd533d6dfd7b8d543",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "left",
+          "reference_id": "59035ed3f131",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\saddle\\left.png",
+          "sha256": "3cb3ae060e5d85be60caa47624207018c7ae8a600673e3ccb066b0d1eea392d2",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "back",
+          "reference_id": "50663b8a36f1",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\saddle\\back.png",
+          "sha256": "f1cd10d80f5f8a8792d8df77ad43ebf3abcd76127aa673df2a666ec22299f17a",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        },
+        {
+          "angle": "three_quarter",
+          "reference_id": "49c2361828fc",
+          "path": "concepts_docs\\art\\asset_turnarounds_v2\\saddle\\three_quarter.png",
+          "sha256": "254e290478fb5c24f7abd2dc90beb4b69b2e0134992df376765ceb214789d1b3",
+          "resolution": [
+            768,
+            512
+          ],
+          "used": true
+        }
+      ],
+      "reference_set_id": "dcb55f61ccde",
+      "review_notes": "Opened original and saved complete four-view sheet. Separate leather curved seat pommel cantle, patterned dark blanket cream fringe, paired straps/open stirrups agree. Source mounted illustration remains design authority; rear carving is inferred. Thin straps and fitting need topology repair as necessary.",
+      "excluded_views": {},
+      "game_replacement": "None; generated candidates require separate geometry, rig and runtime acceptance."
+    }
+  ]
+}

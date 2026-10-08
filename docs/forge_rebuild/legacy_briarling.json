@@ -1,0 +1,38 @@
+{
+  "key": "legacy_briarling",
+  "forge_asset_id": "9d4ebcf4d508",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\9d4ebcf4d508\\generated\\9c92da3cee45\\source.glb",
+  "rig_source": "blender/characters/briarling.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\characters\\briarling.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\legacy_briarling.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.7038836479187012,
+      -0.23539447784423828,
+      -0.03856144845485687
+    ],
+    [
+      0.7038836479187012,
+      0.6009097099304199,
+      1.920493245124817
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 144041,
+      "after": 13998,
+      "extent_drift": 0.005646243227062417
+    }
+  ],
+  "bones": 18,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

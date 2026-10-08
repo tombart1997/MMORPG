@@ -1,0 +1,60 @@
+{
+  "tests": [
+    {
+      "test": "remaster_profile",
+      "exit_code": 0,
+      "errors": []
+    },
+    {
+      "test": "forge_runtime_review",
+      "exit_code": 0,
+      "errors": []
+    },
+    {
+      "test": "character_motion",
+      "exit_code": 0,
+      "errors": []
+    },
+    {
+      "test": "settlement_loop",
+      "exit_code": 0,
+      "errors": []
+    },
+    {
+      "test": "farming_loop",
+      "exit_code": 0,
+      "errors": []
+    },
+    {
+      "test": "optimization_contracts",
+      "exit_code": 0,
+      "errors": []
+    },
+    {
+      "test": "remaster_streaming",
+      "exit_code": 0,
+      "errors": []
+    },
+    {
+      "test": "first_map_expansion",
+      "exit_code": 0,
+      "errors": []
+    },
+    {
+      "test": "combat_smoke",
+      "exit_code": 0,
+      "errors": []
+    },
+    {
+      "test": "route_mount",
+      "exit_code": 0,
+      "errors": []
+    },
+    {
+      "test": "zone_loop",
+      "exit_code": 0,
+      "errors": []
+    }
+  ],
+  "all_passed": true
+}

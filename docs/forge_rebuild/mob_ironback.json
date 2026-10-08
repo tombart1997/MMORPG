@@ -1,0 +1,47 @@
+{
+  "key": "mob_ironback",
+  "forge_asset_id": "a8de84fb41a6",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\a8de84fb41a6\\generated\\29d668d60e12\\source.glb",
+  "rig_source": "blender/characters/briarling.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\ironback.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_ironback.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.7038836479187012,
+      -0.23539447784423828,
+      -0.03856144845485687
+    ],
+    [
+      0.7038836479187012,
+      0.6009097099304199,
+      1.920493245124817
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 64170,
+      "after": 14000,
+      "extent_drift": 0.005142318343510046
+    }
+  ],
+  "bones": 18,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "silhouette_cleanup": {
+    "removed_vertices": 150,
+    "painted_ground_trim": true
+  },
+  "animation_skin_refinement": {
+    "constrained_limb_vertices": 2162,
+    "removed_bridge_faces": 263,
+    "reason": "Opened run views revealed lower-limb sheets from floor geometry and mixed limb influence."
+  }
+}

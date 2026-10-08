@@ -1,0 +1,32 @@
+{
+	"authored_camps": 153,
+	"dense_combat": {
+		"actors": 34.0,
+		"combat_pose": "(-81.0, 0.15, -14.0)",
+		"draw_calls": 987.96734059098,
+		"gpu_ms": 4.2196780752802,
+		"median_ms": 10.349,
+		"over_60fps_budget_percent": 21.1508553654743,
+		"p95_ms": 24.835,
+		"p99_ms": 31.744,
+		"physics_ms": 12.6928911353033,
+		"primitives": 3832546.06531882,
+		"process_ms": 19.2118367029549,
+		"render_cpu_ms": 5.51237947165873,
+		"samples": 643,
+		"worst_ms": 49.73
+	},
+	"hardware": "NVIDIA GeForce GTX 1080",
+	"prototype": {
+		"game_mapping_changed": false,
+		"instances": 25,
+		"scope": "Additional GPU mesh load; existing combat AI and authored camps remain active",
+		"static": true,
+		"triangles_each": 17983
+	},
+	"renderer": "Compatibility, uncapped",
+	"resolution": "(1920, 1080)",
+	"saving_enabled": false,
+	"startup_ms": 9207,
+	"target_fps": 60
+}

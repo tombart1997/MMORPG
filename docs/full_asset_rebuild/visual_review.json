@@ -1,0 +1,1785 @@
+{
+  "schema": 1,
+  "review_date": "2026-10-08",
+  "reviewer": "Codex visual inspection of opened Godot renders",
+  "automatic_acceptance": false,
+  "scope": "Final deployed exports; acceptance for current gameplay camera and hardware, not concept-exact or artist-authored joint topology. Findings preserve known limitations.",
+  "models": [
+    {
+      "path": "game/assets/generated/bay_horse.glb",
+      "sha256": "90562edc70b881b9cc46d91cfa2504fbe69ae25a11932160c0a30db8bd2f8a17",
+      "render_sha256": "21e4698ba8e8a1a29e0c5728968c5f53c00f023c8cb42446e7a615e8c737e83a",
+      "animation_render_sha256": "9290b1d3d0ff0f65bf94f73b97aa771cb99d21e3beb87f6626e9a9ae0a3ad60c",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Bay horse front/side/back/three-quarter and all four gait clips opened. Black tail and lower legs remodeled; isolated rider and fitted saddle/mounted angles opened. Actual stirrup error below 7 mm and rein error below 1 mm. Lower legs are simpler than the native coat.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/equipment/gold_coin.glb",
+      "sha256": "5ffc9e8ca80c0fdda0def324096268cbaaa43773b72c12a924ee6bad273a8cb8",
+      "render_sha256": "3dfab5f5185bf3e69c07855062e5ee07e2d943bce1c6843b727640bd3488224d",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/equipment/jade_ironback_mantle.glb",
+      "sha256": "e32fa51db261a4b8e7047eb5cd4cd6503bef172e8cd5551c304cc8f0f2c7f575",
+      "render_sha256": "05da2db8054e26d835f24a2ac3894ddef9c199d4a5caf5364395bf11df601cb3",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Separate item angles opened, followed by actual equipped front/side/back captures on the new hero. Fitted mounting offsets preserve separate equipment; shoulders use the existing chest attachment rather than a new deforming armor rig.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/equipment/saddle.glb",
+      "sha256": "164ca855355983b656da6fa71f781b0d4272b3476a189b2df8a8459a379b38e3",
+      "render_sha256": "1d068cba6e0aca98248cd4982e4abeb5ece2139659c61f687e682db02f8c5119",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/equipment/traveler_guard.glb",
+      "sha256": "5fa485530f8452529bd7b8582f47658bf50f41c9f0e7d8245e6a7f1cd68b7aa6",
+      "render_sha256": "d12157ddf8249edfcd7e8230d4c952eaeeeae4e5c25aa4a6ee7ea234077460c9",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Separate item angles opened, followed by actual equipped front/side/back captures on the new hero. Fitted mounting offsets preserve separate equipment; shoulders use the existing chest attachment rather than a new deforming armor rig.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/equipment/warden_insignia.glb",
+      "sha256": "02ebd7eeccf34a3e83be2ce83646b88d97a92c0283a28c545a17490875ccd548",
+      "render_sha256": "033231d97f4d7b46029490016654ad6e3f10179f9f285836e3951a7d656f29de",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Separate item angles opened, followed by actual equipped front/side/back captures on the new hero. Fitted mounting offsets preserve separate equipment; shoulders use the existing chest attachment rather than a new deforming armor rig.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/ancient_warden.glb",
+      "sha256": "ed24810bd781db7d0528dfe9ed8903efec18592b86ee1a5ebb70db9a94818df3",
+      "render_sha256": "6a62d710313678a507e9697c65b92620c5b37025b3362d0401b3ceff92e60bf6",
+      "animation_render_sha256": "647122f2c089fe58e53fec1f57016b763c1bc6daf01fdbe79c5673e368cd4988",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Fitted shoulder/hand/head chains inspected across five clips; rounded extra back plates removed. Some short central seams still stretch locally.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/ash_bandit.glb",
+      "sha256": "d3e6bfe3e19939bc83c42ef3f645eba2bd9357fa41bfeb24e7d3551d856dc523",
+      "render_sha256": "0d232d15c6c5a48ad2653495757892456bc353a01d711fa843a9bb98d92689b1",
+      "animation_render_sha256": "335fa0c3c54c30ee0033fe3aa4af59fc8ee023c9821bb416482bc0986bdadd9a",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Generated cuff loops removed; clean sleeves/bracers and repositioned native hands fitted to actual rig segments. Four derived coats and all clips inspected. Cloak edge texture and simplified arm surfaces remain coarse.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/ash_wisp.glb",
+      "sha256": "5178539dab495dee0300c3666dbdc4185b91a602b5073bd265ae10f76f5d76d0",
+      "render_sha256": "ed80c98511f2de7d7b3c40473c790fb966a25f49b4cdf3cf21acc238baaec3fa",
+      "animation_render_sha256": "411f9c242cae98c0626d1034238b4b7ede5b0c90263e14f504884fa689441e74",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Floating cloth/body, eyes, ribbons and all five clips inspected. Hidden surfaces are inferred from the shared design sheet.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/blacktusk.glb",
+      "sha256": "87b1f06f2aa33172d81dddc14ff92f64e4001478ca074cf72c6bbba57da56c33",
+      "render_sha256": "317a25e149012702faaa435a07a17b4cd28035d96c05eac67d6eb769554944c2",
+      "animation_render_sha256": "428ba5aefae79e79385ec7da425e23867c3fd812ede023e1eefa15f87e3ef64f",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "New upper coat/head retained; fused lower legs replaced, cloven feet and gait inspected. Rebuilt legs have simpler surface detail.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/bloodfang.glb",
+      "sha256": "e7d6b15d0a7754da421356b2fd78c3a1aed985b377cecbc5d0bc7e878af1ea6f",
+      "render_sha256": "7159933c7ff59391dc565e204c4fab02a657c772420d151d10e21ab76b87eef3",
+      "animation_render_sha256": "e82645af22f6becf85ff02a7487be3f3c36fab1cf4c57e3aa0d6f240ba99b349",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/blue_wolf.glb",
+      "sha256": "0e6bf6fa63d30ce45bf4d0afca65cff5f542e3464eb79cc99b659cc0f6d66267",
+      "render_sha256": "c3fd6d7311e060d1c78a28bb5732ba536f7e0425baf2a0b715093b8c29a3eceb",
+      "animation_render_sha256": "f855d87810f6d699a6c94b7ba2667b0f63312a14563cb765743cc38d0ce5841d",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/bristle_boar.glb",
+      "sha256": "56a56e5d903b248534c8583b58a8c454869f343b4ff854bd3edc00a028b38f0d",
+      "render_sha256": "3c95e8cccfe1b400fcc0bcae2e3913a284269cb8b32ae7247036fb60a29e8ffe",
+      "animation_render_sha256": "5f8480a28412ae6fceac99223bf0dfac44f5e2361643f7545edfcfee677b1287",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "New upper coat/head retained; fused lower legs replaced, cloven feet and gait inspected. Rebuilt legs have simpler surface detail.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/cairn_colossus.glb",
+      "sha256": "105581b4c253c2bebd3cd59e01f9de6274f37ce79f1f4ed1013df77cd45be48b",
+      "render_sha256": "7123b578b4d1ed88a2b510777582ee8b93ca932613628a4bc4c462b5dd5aca20",
+      "animation_render_sha256": "e5098e6ee1d601a21fb99bfc9ee1ebe78b94ba6b3ba8f3142208a5e7dfcd3530",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Fitted shoulder/hand/head chains inspected across five clips; rounded extra back plates removed. Some short central seams still stretch locally.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/cairn_sentinel.glb",
+      "sha256": "04cebb57bba97dc3e597d9ffaa535ad0a851467b1cd9e531a44039dcfd83c5b4",
+      "render_sha256": "25f81cf68aeca7831fb99c73e033f67a6bfe076c2a7a95e2570f144783048935",
+      "animation_render_sha256": "78cd57d43ebee4e85c464111d45b7ff196adeff3b6c70f60532243bf0a5c291e",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Fitted shoulder/hand/head chains inspected across five clips; rounded extra back plates removed. Some short central seams still stretch locally.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/cinder_wisp.glb",
+      "sha256": "795cf0663b3eef38859c1303ed718227c3e1c7bb299d46cb85ae39a2f13fc42b",
+      "render_sha256": "538594c429e4298e34664d1527d221e1a88640b5c574b4c9dd1ad4c2b71d3b8a",
+      "animation_render_sha256": "ca45026718d500ce7e6d24926ac6cb57e1675e838e8843daeb7b48a0b1d32149",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Floating cloth/body, eyes, ribbons and all five clips inspected. Hidden surfaces are inferred from the shared design sheet.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/copper_spider.glb",
+      "sha256": "03c19e2fa2cb53ac900e3719184fdfe89a93eb2cab53f9197217d128edb81896",
+      "render_sha256": "89640d5a06c7050cebaa00712efe283181b28e232662e9b81636e3dbcef5e908",
+      "animation_render_sha256": "a71f10f01c85cc34587a4362ae22005045b01b6785111e89c7f37f56f68fc379",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Eight leg silhouette and five clips inspected. Thin extremities retain transferred skinning; extreme intersections are possible.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/dusk_stalker.glb",
+      "sha256": "7044db846f5d4c2ce8fc399b93d8b5cfbd1383703e1096aadb7704e9bb2a97a2",
+      "render_sha256": "9d4750d66fd6a446f7a7a99ab3e50dd9f25946c31ee3b04c173607630016921a",
+      "animation_render_sha256": "ccc41f9f1758e100ce5572f69ff056db7d089a048cb9d940b294207279c79209",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/ember_hound.glb",
+      "sha256": "8b0318746cd360dcdd58da8181ba21ec3847149c055e004f0121ca5a8a61fb8b",
+      "render_sha256": "d7784b81cff3f4177679118e025137f78c3f1b4a8f6b21e7c217719de386d15c",
+      "animation_render_sha256": "fa7fdfab6301e26b18a13ac91e895d464f344fcf6f188749e0352b9f6dbedb69",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/exile_captain.glb",
+      "sha256": "e40372368a3e1fb1eb658da85d8564cb1c7ede9e4ccff8d308586c5f2567bb1c",
+      "render_sha256": "fb0f0c741558c7ba132405188a7b211f25671771948d61803649c37c7f3a5115",
+      "animation_render_sha256": "f1c5f5123d8117acc206e68bb1054eac0f9b2404a7546f5e25c8b2d55387359b",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Generated cuff loops removed; clean sleeves/bracers and repositioned native hands fitted to actual rig segments. Four derived coats and all clips inspected. Cloak edge texture and simplified arm surfaces remain coarse.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/frost_wolf.glb",
+      "sha256": "66eff5673ac0f437bbaae354aa17dfc4ec7f03ecc10a3efd54683f6e0de98859",
+      "render_sha256": "4d411e22ce6de078f770a7892b8297120e8b736004dcbc3f9c2d3ece4e8eb53e",
+      "animation_render_sha256": "6eff5517705bf363ead1c58d2ceeacf91418ca51dd974cf3c89d371d3a398423",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/glass_spider.glb",
+      "sha256": "ef3f8355c93e046771392859a64169fc120894164f93388c0830ca1c0592d951",
+      "render_sha256": "f280cef9182f709e066e7d543587f848896be23383fe441a7892bce624eab4e2",
+      "animation_render_sha256": "e42ea2865fc749f10a54a6ecb4eb856c103717851bb27ed2cb4c8e0b3b66e69f",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Eight leg silhouette and five clips inspected. Thin extremities retain transferred skinning; extreme intersections are possible.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/grave_wisp.glb",
+      "sha256": "358d8ec531039c9cb84da35998e6dafdb273b63bc3bfbb3ebdf813b70c8c3495",
+      "render_sha256": "acc7e581c3be50d216cd3f45c6778beb72479aa250ffe707a03403bbd7e5a831",
+      "animation_render_sha256": "ed6a1288eecf2b6c397b332c4277ebdc2b6b0eb30604403e69ee42b9c83e3979",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Floating cloth/body, eyes, ribbons and all five clips inspected. Hidden surfaces are inferred from the shared design sheet.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/grey_wolf.glb",
+      "sha256": "3794401dd796eb2372417e776b504c7a55f53ae77608f96b1f9b85bcae79f52f",
+      "render_sha256": "aa8473301b3079f1320a6d695c53e2ac42f232fe0095aeaa1ca15a09df7f986c",
+      "animation_render_sha256": "7b1a05ced96a3dec19a5bea4c26204891636e7b981c93923a5eb1366df505376",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/grown.glb",
+      "sha256": "942ad30be7e3a428d215a540599d10fc41280cb8286b63ca6086a48912add479",
+      "render_sha256": "c5a740674e909ead9190865e0ac56c373a5d4abc02bcf040412d2f11349c524d",
+      "animation_render_sha256": "d413928becee4b5e9c63c96838b37910516b8641b2bb751923a68e1d8ffa611c",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Organic bark/foliage and rooted hands inspected. Local root/skirt stretching remains at extreme stride; added spherical plates were removed.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/hollow_raider.glb",
+      "sha256": "67d3037fd6852df7fd066acfb16dc00d4ac9ca3f359a0badb246599596b64226",
+      "render_sha256": "28d6ab9ff7a6a61fdc4fdb43b41d42eb496f4409d436cd3a041624a76b94ef0d",
+      "animation_render_sha256": "36835d6974e5eb5deff76019ece52c957b658bda2c35bb72da49defc6a3a78d0",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Generated cuff loops removed; clean sleeves/bracers and repositioned native hands fitted to actual rig segments. Four derived coats and all clips inspected. Cloak edge texture and simplified arm surfaces remain coarse.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/ironback.glb",
+      "sha256": "76722e01ae0a4c006ad471202aa688cff39fe3d72f8f4f7df4ba7e69e57a2006",
+      "render_sha256": "289230ddfc3a6c3d52c7fae5a694b48aa0a98b91ae7bbd972b16ed734589c632",
+      "animation_render_sha256": "6a6aac36c476e51dade22bf0e3f037884cb2eb8a8d8c76b48d2579363301fc94",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Organic bark/foliage and rooted hands inspected. Local root/skirt stretching remains at extreme stride; added spherical plates were removed.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/ironhide_boar.glb",
+      "sha256": "67d4d912d37967062f2e3b21bfcb750198c44d2c209b2aa4411c6a2a70e5912d",
+      "render_sha256": "bdb0c6fcb43386fd4203ee40fc8535b6b9eddcaa7a78d8f35d3ccfbc90a4973c",
+      "animation_render_sha256": "5e92ec9f29ea9e8237be19ba2e75a0f5d2e1721fd144eb7f4716730bc45ff7d3",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "New upper coat/head retained; fused lower legs replaced, cloven feet and gait inspected. Rebuilt legs have simpler surface detail.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/meadow_wolf.glb",
+      "sha256": "d594f777c38f23fa248cbb1ba76fa3f9277f92e55370200a454f1b976ef20453",
+      "render_sha256": "63387687f2ef86b193bf053b17903b34bb369c7d96ff94b40cff3dd50980fecb",
+      "animation_render_sha256": "bc0dfa627d6086f413c0dad95db2f10e43caf84ba0427063270f902b09e4cfe3",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/mire_boar.glb",
+      "sha256": "e10e22651d1f83e301b4720b0875d6175eff0d5d13eea39caa204d1e2cab118d",
+      "render_sha256": "9663bac42eedf9865e0a5d923d243d58bf34908a5fdc9c80ed374a4f82bb4e3a",
+      "animation_render_sha256": "ddd36635eb8c8128d992c2e3da5268903b987d81306d607a543a7c8501751496",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "New upper coat/head retained; fused lower legs replaced, cloven feet and gait inspected. Rebuilt legs have simpler surface detail.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/moonfang.glb",
+      "sha256": "8d122826d4c0b379c4ae9215d122d0fff001eb6aad34960508e4f704226dcd16",
+      "render_sha256": "8b49fe4c1b4436eea66cb40f3ff6b5070e3775f20335ffcd918771e2d382a5c3",
+      "animation_render_sha256": "b351c695c591fdc57b334216a85fa9a356df3f4754af185190daa7d1b14c46fd",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/obsidian_boar.glb",
+      "sha256": "c4be1d4d219a84f72fc9d12376e865f28e7b7687d5866ead4a9ee5caf07dd755",
+      "render_sha256": "a1d74f1aee003e90e330b959a80a6564a8f4c317165725d170f1ccb0632606d5",
+      "animation_render_sha256": "d997b8e5a55685defc72fcca8d639f743782a4a1f89e4fd37f4dae0b39c5bd21",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "New upper coat/head retained; fused lower legs replaced, cloven feet and gait inspected. Rebuilt legs have simpler surface detail.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/red_wolf.glb",
+      "sha256": "bc28e125f78cde354fb417dbcdb1de9deb807766ad4215a5a3514ec56cedc8fc",
+      "render_sha256": "642f35b18524a6e22f891af3403bcbc8212f09d1bf2bdea9ee9cda1d799d1777",
+      "animation_render_sha256": "db814f797b53671aff41f1a74046cba6b997b374e041bec12576aa2d32355d8a",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/reed_spider.glb",
+      "sha256": "cb2156f40036a72b4549afeea82d4286f526ddb5e718b56b6dafea7f1f81acf7",
+      "render_sha256": "115c634488013de6f136840f5ba15a925fa39153acc559ceb6b16ca6214c1aa3",
+      "animation_render_sha256": "b52cb6ff3df85ef18e4553a6b418ac77209e56c3ae129fde01aceaa4b646cfc6",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Eight leg silhouette and five clips inspected. Thin extremities retain transferred skinning; extreme intersections are possible.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/rift_sentinel.glb",
+      "sha256": "9300e4320c98a32322f06e879c10f0ba1d793b24df2bc7d4c3035e5e3a90df49",
+      "render_sha256": "de6bd3f7c58256437be14a6b6b843665aef34159248db90fae04de12e0e6a121",
+      "animation_render_sha256": "a339a8a4384fc42c0f1e9a01985e81534f9eb838f65fa7affd8f050c6d171aae",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Fitted shoulder/hand/head chains inspected across five clips; rounded extra back plates removed. Some short central seams still stretch locally.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/road_bandit.glb",
+      "sha256": "dd664cdd14ca3adef26aa32da47d9a1cab41b299c6b8670a82e1a84ac5775867",
+      "render_sha256": "903f7182489459ff898a0fbb878ba07256beebf39d0b3a287e8c619e37f52f31",
+      "animation_render_sha256": "1c6b96b73456e99b13175a1e688a9a1de293620984764db235885fe54b84bdb2",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Generated cuff loops removed; clean sleeves/bracers and repositioned native hands fitted to actual rig segments. Four derived coats and all clips inspected. Cloak edge texture and simplified arm surfaces remain coarse.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/silk_matron.glb",
+      "sha256": "d3864484fa8df35eb93d2882c4a0088cd3a4e4bf9092e4f5578e91584199c971",
+      "render_sha256": "242310367a773466fd92de2d44e18f112de4db484ad2ea1363e48df5ded2c777",
+      "animation_render_sha256": "e097d19e3760f671ed3d978fe8726dc2c9f3280da2da7917c97ce31b46b59e05",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Eight leg silhouette and five clips inspected. Thin extremities retain transferred skinning; extreme intersections are possible.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/slate_guardian.glb",
+      "sha256": "fd5e9da21caf563716cc77b02bfca3e25ff4dd8c263227312a786b704556aca3",
+      "render_sha256": "4dff69cbc899a1f464089da41e0d104065a7b08cff798f423bfaf780292a8a3a",
+      "animation_render_sha256": "fba07a438dad8b29082f0aba1a39b8a4e7d3420f644d72cf7f2d3a188cad87a5",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Fitted shoulder/hand/head chains inspected across five clips; rounded extra back plates removed. Some short central seams still stretch locally.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/storm_wisp.glb",
+      "sha256": "ee33a27282422365976064b052193e433d20caca1d42a8b2253bc3585c5a1181",
+      "render_sha256": "10d24f1a54d55f3fc2673b91d592fb7aa5fe5b4110640bb0ce80a70452ca0078",
+      "animation_render_sha256": "cf9c73142dd0b20ae7093abdff7ef0046a2f3800402e199160ffe2b6594d4cad",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Floating cloth/body, eyes, ribbons and all five clips inspected. Hidden surfaces are inferred from the shared design sheet.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/thicket_wolf.glb",
+      "sha256": "bc74aabfe021d507349a96ed8a0447d3e990694ef190862f12a3b109898c9a5f",
+      "render_sha256": "d5777912ae4c5666326afab46edbaf92cab36ab4d2ae196683fb49cf3d0dd2a1",
+      "animation_render_sha256": "e72181b34d6712c01c2ccc6738df3a80f5d68d018cad49127902e824b1ebb684",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/venom_spider.glb",
+      "sha256": "beebad57d2244a8f17eb950b14bf5c83d0cfccadda4f28a0e852e684179aaf5b",
+      "render_sha256": "d411ba3eb058e53e0eb406a1de8dbfccd7a02a512d7ad25b2529e12a812d21a3",
+      "animation_render_sha256": "512b0d9595bd857a88802eaeb09b8b3b04ff9f7ceefb5d21399c757a28de204c",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Eight leg silhouette and five clips inspected. Thin extremities retain transferred skinning; extreme intersections are possible.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/widow_spider.glb",
+      "sha256": "9fd7be4dccc357cfc3fa207e8380b92987497afb0ae52e19f0b1ba17cfdb087b",
+      "render_sha256": "4d11df8cf45ca2bb2097773d29356d02436c624c5a92a53029bb717ed362f5e9",
+      "animation_render_sha256": "060e5c9beeeb3055b8970e53129da996be8069770378d056a823f16914c4fe66",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Eight leg silhouette and five clips inspected. Thin extremities retain transferred skinning; extreme intersections are possible.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/mobs/young.glb",
+      "sha256": "51d7e6d002889c02c6f8918e1c6f8f12bc031fe71b0179e5e915519515d2defb",
+      "render_sha256": "2abd9860f73eb72a39906fea78062b8525b85e86deb818ac968a6aeac7ba6716",
+      "animation_render_sha256": "2c35da1725b053adc18e395e8ed4710b0eddf361091ab2c69f1fe05e96d15f60",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Organic bark/foliage and rooted hands inspected. Local root/skirt stretching remains at extreme stride; added spherical plates were removed.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/npcs/apothecary.glb",
+      "sha256": "1443bf7729ba308fd80626fd332442ad8d0f0a376d691aff7e7f7e9585877270",
+      "render_sha256": "e8a0e34245ba6b9e0148dc09fd470c678a33c4b2b6f393c74f33700a6ede299a",
+      "animation_render_sha256": "4e3c3c734bc1b0d5ad8150a6b465bc2f50ef5073ca55b828d9c6fc8d629978bf",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles and all three service idle clips opened. Three new shared body plans fitted with 18-bone skins. Rear cloth/foot floor fragments removed; a few tiny underfoot slivers and coarse facial/hand detail remain.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/npcs/armorer.glb",
+      "sha256": "def4e982a8c03aac9012b73636d614694eab087ef718741d37c5bb9f0483e765",
+      "render_sha256": "cf4b570d560615fc47de7834e109ef228b715482d9db0f58a2b2bc108720aadf",
+      "animation_render_sha256": "ff4e4d351d126cec74bc48eb8f736ee876d41d5a495125ff202ee70920807286",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles and all three service idle clips opened. Three new shared body plans fitted with 18-bone skins. Rear cloth/foot floor fragments removed; a few tiny underfoot slivers and coarse facial/hand detail remain.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/npcs/artificer.glb",
+      "sha256": "1257fefb29fac42e4a3f88633a9d3fa3d399eae845aac843bf0491d3ba870180",
+      "render_sha256": "5003da0d908fee48a39988b3c1e99d2c68dd0cfad47112a52a5daa2b1e8698ac",
+      "animation_render_sha256": "be8c6e212eae5113f7f8bc6fdf5a2e7eedd8c7902b912b86f84242e83339a474",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles and all three service idle clips opened. Three new shared body plans fitted with 18-bone skins. Rear cloth/foot floor fragments removed; a few tiny underfoot slivers and coarse facial/hand detail remain.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/npcs/ash_scout.glb",
+      "sha256": "5411236566f8e88d3619632aa4789f9f3edc5009db475ba1597f4596a5eb1a9c",
+      "render_sha256": "54770b53acfa4fc8298eb8920523733b38fe8ac23adc65db617cb88e280cc3b0",
+      "animation_render_sha256": "a1aa8fd8efe96bd239f6c6739d100acb1918fe2889de4bb0d2015c6bb3e26c26",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles and all three service idle clips opened. Three new shared body plans fitted with 18-bone skins. Rear cloth/foot floor fragments removed; a few tiny underfoot slivers and coarse facial/hand detail remain.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/npcs/keeper.glb",
+      "sha256": "622d81f6b111ea41deb3ef8eb8b6ca18e3184fa25d067b76c9d58943ddaa3407",
+      "render_sha256": "7dd51ab7ba583c0c83805057b58830cf6b57342dc28eaea31f46da06d5a7a232",
+      "animation_render_sha256": "47e5c0e39d40e376075a2c69b3e70b86287c596727eda3114ece3cef6855b62e",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles and all three service idle clips opened. Three new shared body plans fitted with 18-bone skins. Rear cloth/foot floor fragments removed; a few tiny underfoot slivers and coarse facial/hand detail remain.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/npcs/mara.glb",
+      "sha256": "7892102e6804811db56ae3cbaa9dad5e33d40e3c0914950a26d39d561dcffbb2",
+      "render_sha256": "b8d6699f12294fbbd2a1eb1cf72fb2bd4ab98ffad4df98e19878f75f916ca467",
+      "animation_render_sha256": "44212d638e24549127300b8e89078d8671498388627626dda4d32d0d012db250",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles and all three service idle clips opened. Three new shared body plans fitted with 18-bone skins. Rear cloth/foot floor fragments removed; a few tiny underfoot slivers and coarse facial/hand detail remain.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/npcs/smith.glb",
+      "sha256": "6ec52bbab6c8902bfa8e49abd52bcc895e2d53344334a0e4a96146e6d7faf4b6",
+      "render_sha256": "cf4b570d560615fc47de7834e109ef228b715482d9db0f58a2b2bc108720aadf",
+      "animation_render_sha256": "ff4e4d351d126cec74bc48eb8f736ee876d41d5a495125ff202ee70920807286",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles and all three service idle clips opened. Three new shared body plans fitted with 18-bone skins. Rear cloth/foot floor fragments removed; a few tiny underfoot slivers and coarse facial/hand detail remain.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/npcs/stablemaster.glb",
+      "sha256": "18b3c915bb3918089c9571443009ad949caacae99e42471539731129a1ec39c7",
+      "render_sha256": "54770b53acfa4fc8298eb8920523733b38fe8ac23adc65db617cb88e280cc3b0",
+      "animation_render_sha256": "a1aa8fd8efe96bd239f6c6739d100acb1918fe2889de4bb0d2015c6bb3e26c26",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles and all three service idle clips opened. Three new shared body plans fitted with 18-bone skins. Rear cloth/foot floor fragments removed; a few tiny underfoot slivers and coarse facial/hand detail remain.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/npcs/warden.glb",
+      "sha256": "f61d39ce6aa77bd40feafb2d611d9272f4bb5441c6763b03cee7ebf0994812fb",
+      "render_sha256": "763e7d8d6aa6d700fee6d7214d2d79884ecf8da949b16e99fdad70a82d6140a7",
+      "animation_render_sha256": "1c09e871d0da71d5c72d4c986953a844b109d21c21a19446a70438422c95aad8",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles and all three service idle clips opened. Three new shared body plans fitted with 18-bone skins. Rear cloth/foot floor fragments removed; a few tiny underfoot slivers and coarse facial/hand detail remain.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/npcs/weapons.glb",
+      "sha256": "8328fa36d0cab4b025fb9dd258f3b24dd7fb1dfd0d1a3e3f2068e28ac6a4e689",
+      "render_sha256": "cf4b570d560615fc47de7834e109ef228b715482d9db0f58a2b2bc108720aadf",
+      "animation_render_sha256": "ff4e4d351d126cec74bc48eb8f736ee876d41d5a495125ff202ee70920807286",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Four angles and all three service idle clips opened. Three new shared body plans fitted with 18-bone skins. Rear cloth/foot floor fragments removed; a few tiny underfoot slivers and coarse facial/hand detail remain.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/warrior.glb",
+      "sha256": "bb9b53ed32ce2432fa08b6b44177dec2bcdb0354fe282ac39e31622b3338b4ad",
+      "render_sha256": "8513bd5b314b45208962574f7b1e339ef84892b04a9808a45c7787af19b93456",
+      "animation_render_sha256": "3bc0aae39ff85a9a4b5a21558f3693605b785ca005d73760d855bd5569c6a254",
+      "status": "accepted_with_known_limits",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "Every exported clip sampled at 0%, 25%, 50% and 75%; actual gameplay motion tested separately.",
+      "finding": "Front, side, back, three-quarter, clay/wire/details and all 16 clips opened. Wrist ownership and upper sleeve weights repaired after motion review; separate swords, three armor items and actual mounted pose inspected. Face/finger detail and extreme cloth folds remain coarse.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/weapons/briarsteel.glb",
+      "sha256": "7cd1676cc0b9421bfde76db3d5ae1d5d246ed837fce223ac890399cd93e329aa",
+      "render_sha256": "3a22dc7afc251f2cfa6ef2fa58f0f2ab649552f730c273b11b51a8cc936895a1",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/weapons/cairnwarden.glb",
+      "sha256": "31d350f36017d2a3d1cbe405cc268f05ffc19c1af5575dbc9b8a5d7182a2aae0",
+      "render_sha256": "9d62c5e8f78f8cb0d3d8decb50dc9ff7959fc09e6fc0120540b7e2dd4f6077d9",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/weapons/ember.glb",
+      "sha256": "14df0287398396cd1635b005f853d927930152fcce5b32cf84735a8a0fee46b8",
+      "render_sha256": "b4cd8e61714716bdfa7c0c363afcf06bd5d4499bda3c6131126e0202577fef0a",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/weapons/frontier.glb",
+      "sha256": "15952b218e5d1e696b5dfaa2bd073408d6e8c0a1d6173988345444d6251da70c",
+      "render_sha256": "063e2eb1f3cc658ebcca34809d1d70adeb15d9c0d363bbf44601218f6dc3ef35",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/weapons/glass.glb",
+      "sha256": "113167619fa8d49dbee704f366aa98a44144c2666b5f6fc7a40f29e598be8474",
+      "render_sha256": "7adbeaa0fd2834c0d9cfef9a023e62a70438b28f6dca609b2dde96cc2275cba8",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/weapons/jade.glb",
+      "sha256": "5e4020173661754022dda083694faa38f31965f1773b39e39db772b8abc57d8a",
+      "render_sha256": "d2deac486b6346957e82d1cc0ccb68f1086ef46938155e5fedc6eb4843004bf2",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/weapons/marchguard.glb",
+      "sha256": "2a02724663c90dc70043cff009b63d7fac014cefb71c01e17d04378a3fd4cef4",
+      "render_sha256": "48a4acbe5903e109f8d0b51d6c31ff8134833f9f6e03207ab01b9d0e3b5b768c",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/weapons/relic.glb",
+      "sha256": "c8a2b2759339ce3b4402b9710e61357567bf468b8d5b4a0b6ccdeae31d73b983",
+      "render_sha256": "8536e092185bacab28823bc06772cee8abc1b933ba0d374b6d5a38c10c030368",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/weapons/rift.glb",
+      "sha256": "0bb21b61f111bea2300d45e07762e998d323b6bc7fc9be8c53bb9eeb13677ef0",
+      "render_sha256": "26485fa70ffd84733cf4f7e07586d736ac9621dc03b40ff38b6d5e1c6576fae1",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/weapons/wakecleaver.glb",
+      "sha256": "2947ac51f5ea7c1b929f9f9c3a465623fc21145680af1f979278e7bb3a1ad426",
+      "render_sha256": "0211b495ee793cf3230e8e98e64b4e36aede82bc443d424b3104b300702d5928",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/weapons/wayfarer.glb",
+      "sha256": "e394dce09cb94256a4abfbaeca95b93297e67710a323c89a1822609c3fddaa90",
+      "render_sha256": "308242d3908d3db858c497d62171f69afddb66089c6460e330a25c446d8c4b37",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/anvil.glb",
+      "sha256": "17a44f72e5418e515da5ec2fee465cd3c53cc03c02aa6a49c0df375c358da064",
+      "render_sha256": "c9a3c82291ff148a2478d774ec354a207046a0eccd371a520ad9fe01135faae9",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/banner.glb",
+      "sha256": "613e7df696c021b5a0d90eaf344fb83ff70aca6173abc0f9ffe04dcbb1ab6a41",
+      "render_sha256": "f45a9735cc96249f967f2b9f3d3b71af53bc56b32ec08562c09e691f5ccc4bb5",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/bones.glb",
+      "sha256": "44fba4c9d5825a5c98aaf006d76e8a2856a6a2f6709a7cc273739dde2a4d0f20",
+      "render_sha256": "bd18720974adc0d8193b12b1edd2651093e698f4219351f8fc35fe60e36111b8",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/bridge.glb",
+      "sha256": "d1a83f1a85adeddbf320323958ee7edc00590445084075b049f6198843314e7e",
+      "render_sha256": "0ec6121aa22b2b8551636fbf988011411498fdbfbcc543664f980fb27c0e0354",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/cliff.glb",
+      "sha256": "ace5a4a2ce0ef61ced48af4c8d472583456c930a0b5976ed9da38d061cd6005d",
+      "render_sha256": "d41b30fff5bfb410b92c9906c8d7fd3ee18e9e4e0adcb4b78f4c122b1f1a3f6d",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/cliff1.glb",
+      "sha256": "e92ef29a42c2238b80adec8a7197e57dac312a10adec7d2350e43a0b1a0a0a20",
+      "render_sha256": "7ff52ef22fc91d93ec4f6d6229d4e27ff4c25dbaa350208c226524db4139485f",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/crate.glb",
+      "sha256": "b6ea4373eaeaf71dacee6f1ee36beaeaabcd1bd3a1821a98c0c0d5c4c5ad2962",
+      "render_sha256": "e03ffee4f66199ed7bd8ad4f106584208d6ef49bed3eb9ecdd7a3e25b5a93241",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/dead_tree.glb",
+      "sha256": "c4ba2e223c7db7f257f4fb91022e8df0f9211ef105149f1b8d27dd34ad6020fd",
+      "render_sha256": "9dac51688533214f6d06bfb5156e864a680682b85a5366a5a3e85de6386d78ba",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/eggs.glb",
+      "sha256": "75ea5e540bb350d496813bebb3fb2f0cfa4fb20184ec0b7329c940cea0d53200",
+      "render_sha256": "16677662fdedfa460e51abb379030e2367dec6628790a9210d9223cb559bb404",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/fallen_wood.glb",
+      "sha256": "5540fa5881cac5e937d47d99889c36b7702195f9affed6c593e1ae62669d02bb",
+      "render_sha256": "bfd73ecdb6a3200f615804525f3e183a399e90ab3f48ea8010915396b99d0f0f",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/fence.glb",
+      "sha256": "4e2da5b6fadd5f1410ae5147f58fa16d3a04243ea81dd2ab924a6bda62fb15be",
+      "render_sha256": "bd607b7729def7e4fbe3cd2c3f38221c690ab54961370a8187b6ba952a84c910",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/fern.glb",
+      "sha256": "ad9b407ae116471f74b2169da0625aebf7ca1ff7713c3f35abd7bd54aef0c22e",
+      "render_sha256": "dfa9b948efa978ae7fd9aa952c6cfd5f54ce372a052d2e098e8b62ff76ab2c82",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/fire.glb",
+      "sha256": "f629b9a4e9a8937668ececd0ac71711fbc2442a1915d1f9202078d6198b16889",
+      "render_sha256": "6e5b4a2be3a375d99c0083c45ed52a5f061233e55bff19ed5052273fd211f678",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/flowers.glb",
+      "sha256": "b2bce7f14f8776bde785c12eb8098bd72ae236157cc616df179c6d89f35c3e8d",
+      "render_sha256": "43ccb4934bd88b25a3d1fc91a6ba981ec27e39941ad908ffba30339ebd9b8ddf",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/fracture.glb",
+      "sha256": "9921976e49255ede379e7b2afb85020b4b3f094131cff8132ae8bdfed36fad16",
+      "render_sha256": "4c05da0c66815a67f26f08aa35e798ed11f62724ae101953b2d3e8900cce910d",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Opened all four textured/clay/wire views, gameplay-distance view and actual wave/collapse tests. Seven open cage ribs and floating amber core replace the fused upper reconstruction. Cleaner cage is a simplified interpretation of the organic concept.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/gate.glb",
+      "sha256": "d870dec10db31dc270536721c77878aa70ef6a6f4583a36a4c01a10f22d851dc",
+      "render_sha256": "c448ef677df0a4c4645ea2feb573ebe578c9d963353eefb251e5a34d6b205111",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/grass.glb",
+      "sha256": "61725e2d50725809991c0a3fab8d41b612aa5f76caeff4e7b986692ccf5334e3",
+      "render_sha256": "3fc1880f63dd619fada940658e620a0d1f7751fc9ba9ee51e06cd485a461d9bc",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/house.glb",
+      "sha256": "73ec5b43c5fa4c15822a94dc62be4254379de58b8dfbbe7143bd5bc5801a420c",
+      "render_sha256": "e15bec3809c80f062372b2efa7ed08713eda317ccf15fa72318a17b62b6c5d2f",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/leaf_litter.glb",
+      "sha256": "1b7a5c4ae52bfd884170c194954c0a6163b115388071087cc9f7d0731d5c7427",
+      "render_sha256": "bf53c523fef5ee34c4f2470fe2e83e9801122fe8fe23ec81e7bf85c904ccf884",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/log.glb",
+      "sha256": "196f46e745e8c4a33d3d44af1c93a3b95015d07117068ce3da560d0c92634edf",
+      "render_sha256": "031844e807d536d0a77896024d0590943b06bd368333fd52fa25e3f851758201",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/market_stall.glb",
+      "sha256": "af94f0fc37272c6471c0cb517d52058dc80f35f5759b4dcf782d6370a865fca2",
+      "render_sha256": "985d3b705893c82c8a347f2eefd361781b185101e2560699bc1da76512b16a79",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/mushroom.glb",
+      "sha256": "e1dfd35ada021d3deea7b84e65f114e993c998558a123b5cd70e22a960393cc3",
+      "render_sha256": "520346347eb158b6c3ac1691608764667d05037f2cbb72e25018e9567626054a",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/pouch.glb",
+      "sha256": "bc341b1e5903c802a65b2ac815e6a0f474c7ae9f94bb881282e6f578e945fe9b",
+      "render_sha256": "c3d25a6b7c5120ae48f337b74c35cec092fc0be9585aacc7962ef4df6c40c92b",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/rock0.glb",
+      "sha256": "a529ec088789acf75ff9cb3141aed4421cf538d6d711569fb5643777e83006cc",
+      "render_sha256": "7a986094d75a941f3826e2804d05ea5d495851a981cdb472ab5b5c646505c37b",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/rock1.glb",
+      "sha256": "b8b0f14d829f478edd376c4370b2cc508ef951e239076e80c8099b8f16dcc3e9",
+      "render_sha256": "660cac1fb23b746af51f1bf4e3dfd26aac1faefa77b884b37fc6d3d248d4d014",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/rock2.glb",
+      "sha256": "54dc48d463a834b9cddf2c4b03380fdffecb0254cfb42af9cdc28683451c92ac",
+      "render_sha256": "d355b0b7a71b9a29e30d86b783c7406e70f691208c5e5817f6fbed3249a8c67e",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/rock_0.glb",
+      "sha256": "0f6d447164ebf3041b26c91e76f93cff4bfcd19ed120ed6c98ba162ada9594f5",
+      "render_sha256": "224553213a13aad43226688dafe6bae7a660a7665bdd8c34bd2ae14eef0d61a6",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/rock_1.glb",
+      "sha256": "24a585bbbb3b6c229805c2c19ab989b245237b8fe93e14d1aef0c33c29ef846b",
+      "render_sha256": "12df782bfd4cc394a3051883d85ac896803780e906747bc7bef269e162522ec5",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/rock_2.glb",
+      "sha256": "ec6be80181e5918b4f99978e9fdef769f9e4ebcaad7d60260429d2655917a30d",
+      "render_sha256": "e4aaf62cbaa583a663d5f1e0e889321037b76cbb44545563f6bbb6488e2808c3",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/ruin.glb",
+      "sha256": "d0d9f70c31f41283dbfd280d1d954dd2baaef8be1daae2aec17d7b6a22307de2",
+      "render_sha256": "a3f23a02bb3926bf16de1cf0c24633577753805a6bea1ebd5cc43eb1278f3b63",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/ruin_arch.glb",
+      "sha256": "379d8584d145d8f91cf4e10c67170416ae1b931b1c42f29e586849991b99279b",
+      "render_sha256": "068f77e0e554baf9833af7c849340b0067b2253a5b0f4759d79ade5aac99f6c7",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/sedge.glb",
+      "sha256": "82204ccbad22b9911355e41f11e8cdf3712ea66d4c23f236b30763186691b2b4",
+      "render_sha256": "0406cc8d78c151a9417365010b108cc7e37ec6121ca55e5be6d96e36bdb5a084",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/shrine.glb",
+      "sha256": "643fc87e10bd9aef2fdab2aa312601fab2de036f7bc6596f399bafcb997f023a",
+      "render_sha256": "cdadd282c5a9c6d0f434e1595bb9c78ba9f49c09536f1aa620d6114cee968c70",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/shrub.glb",
+      "sha256": "276fc3d609241af336b303bd6f80360cceb2389ceadca426d0da6455f1f5d315",
+      "render_sha256": "66d92923cd112d0c2c96022c78d9138599ae22c1e19c670080306cc2480635e5",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/shrub_briar.glb",
+      "sha256": "7046c32c5cabd088be1f32cb2086ad3b684265d7a2eca6e34b592626476b56c6",
+      "render_sha256": "d336fff4bb470adbe7bc78178cd3a993e5e00af66e85b98d73a09932b02c7d90",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/shrub_laurel.glb",
+      "sha256": "01ed9d1cfffe35b733cabd481252e727c94a9dd43570ca39e1ba85c9b035a32d",
+      "render_sha256": "b45be926f56cc73ce2747ab4cf40eb2b67393176c17c32fa9951c5e21e3207e6",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/tent.glb",
+      "sha256": "9c3ff2c1aade193785ba8ad392abe9e4644492438f4de6ee75a41b5bfd4f05a6",
+      "render_sha256": "4f3e0f111088680c87962324b247e61fedba0cd5c116cc8a5d6462808b6e053f",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/tree0.glb",
+      "sha256": "f7e7f00b5ac204def40558f813eeb2a3d75911f02e66f8e3a622f21f2a46a96f",
+      "render_sha256": "7a5fe49a41a28cf160e5a0b3989edb457ed43a8fc65cee44b2ce272eb397c558",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/tree1.glb",
+      "sha256": "42684a25214f631de8935bb9bc4034d1f471f76cde76dec223dfa9a06af48577",
+      "render_sha256": "4bc698f6f2ff3beed6c3cd53f2c21b240b2bb40370c6f67d3c13c0a0e634ae55",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/tree2.glb",
+      "sha256": "0bc31e69e370a2125969b9a3e09cc60b6a2463b88c7dfc4b385b94bb938e95f6",
+      "render_sha256": "3a7178a636a254392a725c2572078c0c17df9d3223dd34a18dd80ecc33708044",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/tree_bent.glb",
+      "sha256": "17dc1e436cefd197b7b2210c82116e2ff6af97f28e55bb1a32e18e56d1253a26",
+      "render_sha256": "c4acb8cb2fdabd08cf510a3f958b04826c2e2095066c8c5362f6ec944de3892c",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/tree_fork.glb",
+      "sha256": "17a56a0fcaef8171b02b7453e4bd9f884bdb65afcecbf9627f1a93c0257185ea",
+      "render_sha256": "fab1a2fd63b4cdf22f00411cb478f66a27b43fc3a568b4ce5458de462548e765",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/tree_wide.glb",
+      "sha256": "ebf5b959555a71313440bfe94ebacf7bd17af6dab9943ac0736d5a2f2d03459d",
+      "render_sha256": "e5242d05b7317b4acce549e033eb2d2c06e8ecd85550a439d169ed2f4e9e5372",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/watchtower.glb",
+      "sha256": "e6b2375b1e4728029f362d5d9b5f0908ec0bd4b55df6b04b88f64792755e7670",
+      "render_sha256": "97363552f5f5c5ea8aeda15489a551489cbbf9981fda086c451e0e0b190e3efc",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/web.glb",
+      "sha256": "62e5f38bfec1b4d5a1178f7f59b80a44b976796d0829333b293cdc17627fd118",
+      "render_sha256": "c15302ec9555be6768068a4967b2e8d407c6f69ce14ba0fce41083e2aebf3242",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    },
+    {
+      "path": "game/assets/generated/world/well.glb",
+      "sha256": "01ea4a8ed607bba91966e95008a0c8425fbe60c02dac2c800e57618f40877975",
+      "render_sha256": "a98bdbe06111ec1f223a072eda6e5de3c51c57d24cd6cf972544d8e4d2d446f9",
+      "animation_render_sha256": null,
+      "status": "accepted_after_opened_review",
+      "opened_angles": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "animation_review": "static",
+      "finding": "Four angles inspected for silhouette, metric scale, material response and defining structures; clean construction or shared reconstruction lineage is disclosed in the catalogue.",
+      "old_geometry_reused": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "key": "bandit",
+  "source": "D:\\Games\\Metin2Clone\\blender\\multiview_rebuild\\prepared\\bandit.blend",
+  "family": "bandit",
+  "height": 1.9,
+  "yaw": 0,
+  "arm_repose_degrees": 18,
+  "rig_source": "blender/multiview_rebuild/binding_templates/warden_high.blend",
+  "binding_guide": "blender/multiview_rebuild/binding_templates/warden_high.weights.json",
+  "output": "D:\\Games\\Metin2Clone\\game\\assets\\generated\\bandit.glb",
+  "bounds": [
+    [
+      -0.5019901990890503,
+      -0.3380367159843445,
+      0.006000000052154064
+    ],
+    [
+      0.4965386986732483,
+      0.3380367159843445,
+      1.906000018119812
+    ]
+  ],
+  "bones": 18,
+  "clips": [
+    "run",
+    "hit",
+    "death",
+    "skill_guard",
+    "skill_step",
+    "skill_plant",
+    "skill_riposte",
+    "idle",
+    "longsword_idle",
+    "attack_01",
+    "longsword_01",
+    "attack_02",
+    "longsword_02",
+    "attack_03",
+    "longsword_03",
+    "longsword_run"
+  ],
+  "template_geometry_exported": false,
+  "review_status": "requires_deformation_review"
+}

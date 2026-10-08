@@ -1,0 +1,29 @@
+{
+  "model": "microsoft/TRELLIS-image-large",
+  "model_revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+  "code_commit": "442aa1e1afb9014e80681d3bf604e8d728a86ee7",
+  "backend": "trellis",
+  "multi_image": false,
+  "conditioning_method": "single_image",
+  "image_count": 1,
+  "inputs": [
+    {
+      "path": "D:\\Games\\Metin2Clone\\concepts_docs\\art\\asset_turnarounds_v2\\ironhide_boar\\three_quarter.png",
+      "sha256": "a24a756fcdaf342f35bb2732931796aead92c236b8c239421c0e1d8ca191244f"
+    }
+  ],
+  "seed": 42,
+  "steps": 12,
+  "cfg_strength": 5.0,
+  "triangles": 533740,
+  "color_source": "native vertex colors",
+  "materials": "base color only; PBR surfaces need authoring",
+  "elapsed_seconds": 162.45,
+  "peak_cuda_mb": 6643.1,
+  "cost_credits": 0,
+  "license": "MIT code and weights",
+  "cpu_offload": "one stage at a time",
+  "upstream_port": "exact chunked SDPA, native spconv, unchanged native multi-image sampler",
+  "review_status": "pending",
+  "unseen_surfaces": "Generated reference views are inferred; inspect geometry and silhouette."
+}

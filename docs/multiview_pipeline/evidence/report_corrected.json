@@ -1,0 +1,44 @@
+{
+	"assets": [
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.206980958580971,
+					-0.342198371887207,
+					-0.500358998775482
+				],
+				[
+					0.413853049278259,
+					0.684392392635345,
+					0.994982481002808
+				]
+			],
+			"key": "boar_projection_yup",
+			"output": "D:\\Games\\Metin2Clone\\.local\\multiview_benchmarks\\validation\\results\\boar_projection_yup.png",
+			"path": "res://assets/boar_projection_yup.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.207418203353882,
+					-0.342005282640457,
+					-0.500455975532532
+				],
+				[
+					0.414370805025101,
+					0.684488892555237,
+					0.995025753974915
+				]
+			],
+			"key": "boar_corrected_runtime",
+			"output": "D:\\Games\\Metin2Clone\\.local\\multiview_benchmarks\\validation\\results\\boar_corrected_runtime.png",
+			"path": "res://assets/boar_corrected_runtime.glb",
+			"status": "rendered_requires_visual_review"
+		}
+	]
+}

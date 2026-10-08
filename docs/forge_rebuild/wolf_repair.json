@@ -1,0 +1,9 @@
+{
+  "assets": [
+    {
+      "name": "Meadow Wolf",
+      "path": "res://assets/forge_rebuild/mobs/meadow_wolf.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\wolf_repair.png"
+}

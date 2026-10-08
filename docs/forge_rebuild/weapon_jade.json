@@ -1,0 +1,32 @@
+{
+  "key": "weapon_jade",
+  "forge_asset_id": "25e9dffe8c61",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\generated\\700249e473f7\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\weapons\\jade.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\weapon_jade.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.0949999988079071,
+      -0.18000000715255737,
+      -0.017999999225139618
+    ],
+    [
+      0.0949999988079071,
+      1.25,
+      0.017999999225139618
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 12612,
+      "after": 5000,
+      "extent_drift": 2.526221944490749e-05
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

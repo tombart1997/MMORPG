@@ -1,0 +1,31 @@
+{
+  "key": "wisp",
+  "source": "D:\\Games\\Metin2Clone\\blender\\multiview_rebuild\\prepared\\wisp.blend",
+  "rig_source": "blender/creatures/wisp.blend",
+  "family": "wisp",
+  "height": 1.55,
+  "yaw": 0,
+  "output": "D:\\Games\\Metin2Clone\\game\\assets\\generated\\wisp.glb",
+  "bounds": [
+    [
+      -0.4413151741027832,
+      -0.20072031021118164,
+      0.006000000052154064
+    ],
+    [
+      0.4413151741027832,
+      0.20072031021118164,
+      1.555999994277954
+    ]
+  ],
+  "bones": 4,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "template_geometry_exported": false,
+  "review_status": "requires_deformation_review"
+}

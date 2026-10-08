@@ -1,0 +1,233 @@
+{
+  "assets": [
+    {
+      "key": "mob_ironhide_boar",
+      "path": "res://review_assets/fallbacks/assets/forge_rebuild/mobs/blacktusk.glb"
+    },
+    {
+      "key": "mob_young",
+      "path": "res://review_assets/fallbacks/assets/characters/briarling.glb"
+    },
+    {
+      "key": "mob_bristle_boar",
+      "path": "res://review_assets/fallbacks/assets/forge_rebuild/mobs/blacktusk.glb"
+    },
+    {
+      "key": "mob_grown",
+      "path": "res://review_assets/fallbacks/assets/characters/briarling.glb"
+    },
+    {
+      "key": "mob_red_wolf",
+      "path": "res://review_assets/fallbacks/assets/forge_rebuild/mobs/meadow_wolf.glb"
+    },
+    {
+      "key": "mob_grey_wolf",
+      "path": "res://review_assets/fallbacks/assets/forge_rebuild/mobs/meadow_wolf.glb"
+    },
+    {
+      "key": "mob_ironback",
+      "path": "res://review_assets/fallbacks/assets/characters/briarling.glb"
+    },
+    {
+      "key": "mob_mire_boar",
+      "path": "res://review_assets/fallbacks/assets/forge_rebuild/mobs/blacktusk.glb"
+    },
+    {
+      "key": "mob_copper_spider",
+      "path": "res://review_assets/fallbacks/assets/creatures/spider.glb"
+    },
+    {
+      "key": "mob_road_bandit",
+      "path": "res://review_assets/fallbacks/assets/characters/warden_high_clean.glb"
+    },
+    {
+      "key": "mob_venom_spider",
+      "path": "res://review_assets/fallbacks/assets/creatures/spider.glb"
+    },
+    {
+      "key": "mob_slate_guardian",
+      "path": "res://review_assets/fallbacks/assets/creatures/stonekin.glb"
+    },
+    {
+      "key": "mob_hollow_raider",
+      "path": "res://review_assets/fallbacks/assets/characters/warden_high_clean.glb"
+    },
+    {
+      "key": "mob_silk_matron",
+      "path": "res://review_assets/fallbacks/assets/creatures/spider.glb"
+    },
+    {
+      "key": "mob_ash_bandit",
+      "path": "res://review_assets/fallbacks/assets/characters/warden_high_clean.glb"
+    },
+    {
+      "key": "mob_cairn_sentinel",
+      "path": "res://review_assets/fallbacks/assets/creatures/stonekin.glb"
+    },
+    {
+      "key": "mob_glass_spider",
+      "path": "res://review_assets/fallbacks/assets/creatures/spider.glb"
+    },
+    {
+      "key": "mob_obsidian_boar",
+      "path": "res://review_assets/fallbacks/assets/forge_rebuild/mobs/blacktusk.glb"
+    },
+    {
+      "key": "mob_widow_spider",
+      "path": "res://review_assets/fallbacks/assets/creatures/spider.glb"
+    },
+    {
+      "key": "mob_exile_captain",
+      "path": "res://review_assets/fallbacks/assets/characters/warden_high_clean.glb"
+    },
+    {
+      "key": "mob_rift_sentinel",
+      "path": "res://review_assets/fallbacks/assets/creatures/stonekin.glb"
+    },
+    {
+      "key": "mob_ancient_warden",
+      "path": "res://review_assets/fallbacks/assets/creatures/stonekin.glb"
+    },
+    {
+      "key": "mob_cairn_colossus",
+      "path": "res://review_assets/fallbacks/assets/creatures/stonekin.glb"
+    },
+    {
+      "key": "hero_ironvow",
+      "path": "res://review_assets/fallbacks/assets/characters/warden_high_clean.glb"
+    },
+    {
+      "key": "horse_bay",
+      "path": "res://review_assets/fallbacks/assets/mounts/trail_horse_clean.glb"
+    },
+    {
+      "key": "tree_pine",
+      "path": "res://review_assets/fallbacks/assets/world_kit/tree0.glb"
+    },
+    {
+      "key": "shrub_reference",
+      "path": "res://review_assets/fallbacks/assets/world_kit/shrub.glb"
+    },
+    {
+      "key": "npc_keeper",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb"
+    },
+    {
+      "key": "npc_smith",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb"
+    },
+    {
+      "key": "npc_stablemaster",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb"
+    },
+    {
+      "key": "grass",
+      "path": "res://review_assets/fallbacks/assets/world_kit/grass.glb"
+    },
+    {
+      "key": "derived_benchmark_sedge",
+      "path": "res://review_assets/fallbacks/assets/benchmark/sedge.glb"
+    },
+    {
+      "key": "derived_benchmark_shrub_briar",
+      "path": "res://review_assets/fallbacks/assets/benchmark/shrub_briar.glb"
+    },
+    {
+      "key": "derived_benchmark_shrub_laurel",
+      "path": "res://review_assets/fallbacks/assets/benchmark/shrub_laurel.glb"
+    },
+    {
+      "key": "derived_benchmark_tree_bent",
+      "path": "res://review_assets/fallbacks/assets/benchmark/tree_bent.glb"
+    },
+    {
+      "key": "derived_benchmark_tree_fork",
+      "path": "res://review_assets/fallbacks/assets/benchmark/tree_fork.glb"
+    },
+    {
+      "key": "derived_benchmark_tree_wide",
+      "path": "res://review_assets/fallbacks/assets/benchmark/tree_wide.glb"
+    },
+    {
+      "key": "derived_characters_briarling",
+      "path": "res://review_assets/fallbacks/assets/characters/briarling.glb"
+    },
+    {
+      "key": "derived_characters_jade_ironback_mantle",
+      "path": "res://review_assets/fallbacks/assets/characters/jade_ironback_mantle.glb"
+    },
+    {
+      "key": "derived_characters_townfolk_kit",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb"
+    },
+    {
+      "key": "derived_characters_traveler",
+      "path": "res://review_assets/fallbacks/assets/characters/traveler.glb"
+    },
+    {
+      "key": "derived_characters_traveler_guard",
+      "path": "res://review_assets/fallbacks/assets/characters/traveler_guard.glb"
+    },
+    {
+      "key": "derived_characters_turnwarden_v2",
+      "path": "res://review_assets/fallbacks/assets/characters/turnwarden_v2.glb"
+    },
+    {
+      "key": "derived_creatures_boar",
+      "path": "res://review_assets/fallbacks/assets/forge_rebuild/mobs/blacktusk.glb"
+    },
+    {
+      "key": "derived_creatures_stonekin",
+      "path": "res://review_assets/fallbacks/assets/creatures/stonekin.glb"
+    },
+    {
+      "key": "derived_world_kit_tree1",
+      "path": "res://review_assets/fallbacks/assets/world_kit/tree1.glb"
+    },
+    {
+      "key": "derived_world_kit_tree2",
+      "path": "res://review_assets/fallbacks/assets/world_kit/tree2.glb"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_mara",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_apothecary",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_artificer",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_armorer",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_weapons",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_warden",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb"
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_ash_scout",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb"
+    },
+    {
+      "key": "watchtower",
+      "path": "res://review_assets/accepted/watchtower.glb"
+    },
+    {
+      "key": "fern_reference",
+      "path": "res://review_assets/accepted/fern_reference.glb"
+    },
+    {
+      "key": "derived_benchmark_fern",
+      "path": "res://review_assets/accepted/derived_benchmark_fern.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\staged_contracts.json"
+}

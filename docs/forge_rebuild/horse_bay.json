@@ -1,0 +1,59 @@
+{
+  "key": "horse_bay",
+  "forge_asset_id": "7e7d7e05f6f9",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\7e7d7e05f6f9\\generated\\fa93e68c879f\\source.glb",
+  "rig_source": "blender/mounts/trail_horse.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\mounts\\trail_horse.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\horse_bay.blend",
+  "yaw": 93.87101398696602,
+  "bounds": [
+    [
+      -0.4000000059604645,
+      -1.2000000476837158,
+      0.004999999888241291
+    ],
+    [
+      0.4000000059604645,
+      1.7300000190734863,
+      1.9800000190734863
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 76420,
+      "after": 27996,
+      "extent_drift": 0.0006687370420609992
+    }
+  ],
+  "bones": 23,
+  "clips": [
+    "idle",
+    "walk",
+    "trot",
+    "canter"
+  ],
+  "reused_original_meshes": [
+    "CheekStrapL",
+    "BitRingL",
+    "CheekStrapR",
+    "BitRingR",
+    "BrowBand",
+    "NoseBand",
+    "Rein",
+    "Rein.001",
+    "SaddlePad",
+    "SaddleFlap",
+    "PadEdge",
+    "StirrupLeather",
+    "StirrupIron",
+    "FlapStitch",
+    "SaddleFlap.001",
+    "PadEdge.001",
+    "StirrupLeather.001",
+    "StirrupIron.001",
+    "FlapStitch.001",
+    "SaddleSeat",
+    "Girth"
+  ],
+  "status": "exported_for_visual_review"
+}

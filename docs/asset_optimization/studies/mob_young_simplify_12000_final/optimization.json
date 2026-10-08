@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_young",
+      "before": 13270,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11996,
+      "quality": {
+        "surface_max_fraction": 0.0023240004181655206,
+        "surface_p95_fraction": 0.0,
+        "bounds_drift_fraction": 0.0009927744187012448,
+        "nonmanifold_edges": 0,
+        "samples": 6165
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.006206035696298305,
+          "p95_fraction": 2.3797338210743342e-08
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.006356439369161565,
+          "p95_fraction": 2.8511369027098015e-09
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.013298174070794814,
+          "p95_fraction": 5.898974211974505e-09
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.006636513074264002,
+          "p95_fraction": 2.839338862655463e-09
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.002457211349555253,
+          "p95_fraction": 0.0
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

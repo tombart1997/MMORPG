@@ -1,0 +1,32 @@
+{
+  "key": "crate",
+  "forge_asset_id": "577f3e14376a",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\577f3e14376a\\generated\\330f5f3093f4\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\world\\crate.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\crate.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.8500000238418579,
+      0.75,
+      0.800000011920929
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 47360,
+      "after": 1198,
+      "extent_drift": 0.005144767690306125
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

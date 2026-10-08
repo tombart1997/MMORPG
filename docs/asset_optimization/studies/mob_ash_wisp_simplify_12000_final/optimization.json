@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_ash_wisp",
+      "before": 13838,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11996,
+      "quality": {
+        "surface_max_fraction": 0.00158006245110738,
+        "surface_p95_fraction": 0.0002386329904843332,
+        "bounds_drift_fraction": 0.0003717669495354476,
+        "nonmanifold_edges": 0,
+        "samples": 7062
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.006457054613185894,
+          "p95_fraction": 0.0002504484457880546
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.006303113880064855,
+          "p95_fraction": 0.0002527216325173556
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.008745356306256074,
+          "p95_fraction": 0.00025577763564362845
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.006256586596722238,
+          "p95_fraction": 0.0002490891809876929
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.002876951387338499,
+          "p95_fraction": 0.00024997202041086294
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

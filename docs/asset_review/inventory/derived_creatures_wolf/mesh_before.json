@@ -1,0 +1,326 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "Forge_mob_meadow_wolf",
+      "vertices": 14913,
+      "triangles": 13970,
+      "local_bounds": [
+        [
+          -0.4302264451980591,
+          -1.348636269569397,
+          -0.0013918789336457849
+        ],
+        [
+          0.4340173304080963,
+          1.0868490934371948,
+          1.4379159212112427
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 0,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        6973
+      ],
+      "sharp_edges_over_60_degrees": 1839,
+      "smooth_faces": 13970,
+      "faces": 13970,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.04929144782225506,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_mob_meadow_wolf_RuntimeColor"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        0.9999998748826329,
+        1.000000103842467
+      ],
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Forge_mob_meadow_wolf_RuntimeColor",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.75
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": false,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.0
+        }
+      },
+      "textures": [
+        {
+          "name": "Forge_mob_meadow_wolf_RuntimeAtlas",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        }
+      ]
+    }
+  ],
+  "triangles": 13970,
+  "skeletons": [
+    {
+      "name": "SpiritRig",
+      "bones": [
+        {
+          "name": "Root",
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            3.2634005719955894e-08,
+            0.9534149169921875
+          ]
+        },
+        {
+          "name": "Hips",
+          "head": [
+            0.0,
+            -0.3899998664855957,
+            0.869999885559082
+          ],
+          "tail": [
+            0.0,
+            -0.1729169636964798,
+            0.8699999451637268
+          ]
+        },
+        {
+          "name": "Chest",
+          "head": [
+            0.0,
+            5.051514762044462e-15,
+            0.8699999451637268
+          ],
+          "tail": [
+            0.0,
+            0.4188550114631653,
+            0.9576672911643982
+          ]
+        },
+        {
+          "name": "FrontUpper.L",
+          "head": [
+            -0.21500003337860107,
+            0.3699999153614044,
+            0.8700000643730164
+          ],
+          "tail": [
+            -0.21500003337860107,
+            0.3999999165534973,
+            0.3500000834465027
+          ]
+        },
+        {
+          "name": "FrontLower.L",
+          "head": [
+            -0.21500001847743988,
+            0.3999998867511749,
+            0.35000020265579224
+          ],
+          "tail": [
+            -0.21500001847743988,
+            0.3661024868488312,
+            -0.1697603464126587
+          ]
+        },
+        {
+          "name": "FrontUpper.R",
+          "head": [
+            0.21500003337860107,
+            0.3699999153614044,
+            0.8700000643730164
+          ],
+          "tail": [
+            0.21500003337860107,
+            0.3999999165534973,
+            0.3500000834465027
+          ]
+        },
+        {
+          "name": "FrontLower.R",
+          "head": [
+            0.21500001847743988,
+            0.3999998867511749,
+            0.35000020265579224
+          ],
+          "tail": [
+            0.21500001847743988,
+            0.3661024868488312,
+            -0.1697603464126587
+          ]
+        },
+        {
+          "name": "Head",
+          "head": [
+            0.0,
+            0.42999985814094543,
+            0.9599999785423279
+          ],
+          "tail": [
+            0.0,
+            0.8568434715270996,
+            0.9904888868331909
+          ]
+        },
+        {
+          "name": "HindUpper.L",
+          "head": [
+            -0.2149999588727951,
+            -0.4199998676776886,
+            0.869999885559082
+          ],
+          "tail": [
+            -0.2149999588727951,
+            -0.5199997425079346,
+            0.3499998450279236
+          ]
+        },
+        {
+          "name": "HindLower.L",
+          "head": [
+            -0.2149999588727951,
+            -0.519999623298645,
+            0.3500000536441803
+          ],
+          "tail": [
+            -0.2149999588727951,
+            -0.2831873893737793,
+            -0.12362423539161682
+          ]
+        },
+        {
+          "name": "HindUpper.R",
+          "head": [
+            0.2149999588727951,
+            -0.4199998676776886,
+            0.869999885559082
+          ],
+          "tail": [
+            0.2149999588727951,
+            -0.5199997425079346,
+            0.3499998450279236
+          ]
+        },
+        {
+          "name": "HindLower.R",
+          "head": [
+            0.2149999588727951,
+            -0.519999623298645,
+            0.3500000536441803
+          ],
+          "tail": [
+            0.2149999588727951,
+            -0.2831873893737793,
+            -0.12362423539161682
+          ]
+        },
+        {
+          "name": "Tail",
+          "head": [
+            0.0,
+            -0.6099998354911804,
+            0.8700000047683716
+          ],
+          "tail": [
+            0.0,
+            -0.8215235471725464,
+            0.9188131093978882
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\game\\assets\\creatures\\wolf.glb",
+  "seconds": 0.456
+}

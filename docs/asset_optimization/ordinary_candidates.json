@@ -1,0 +1,292 @@
+[
+  {
+    "key": "mob_meadow_wolf",
+    "name": "Meadow Wolf",
+    "study": "mob_meadow_wolf_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_meadow_wolf_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13970,
+    "triangles": 11995,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_young",
+    "name": "Young Mossling",
+    "study": "mob_young_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_young_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13270,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_bristle_boar",
+    "name": "Bristle Boar",
+    "study": "mob_bristle_boar_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_bristle_boar_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13874,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_blue_wolf",
+    "name": "Blue Wolf",
+    "study": "mob_blue_wolf_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_blue_wolf_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 14000,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_grown",
+    "name": "Mossling",
+    "study": "mob_grown_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_grown_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 12494,
+    "triangles": 11995,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_reed_spider",
+    "name": "Reed Spider",
+    "study": "mob_reed_spider_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_reed_spider_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 12658,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_red_wolf",
+    "name": "Red Wolf",
+    "study": "mob_red_wolf_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_red_wolf_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13902,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_grey_wolf",
+    "name": "Grey Wolf",
+    "study": "mob_grey_wolf_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_grey_wolf_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13912,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_ironback",
+    "name": "Cairn Ironback",
+    "study": "mob_ironback_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_ironback_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 12828,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_mire_boar",
+    "name": "Mire Boar",
+    "study": "mob_mire_boar_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_mire_boar_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13966,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_copper_spider",
+    "name": "Copper Spider",
+    "study": "mob_copper_spider_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_copper_spider_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13958,
+    "triangles": 11995,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_road_bandit",
+    "name": "Road Bandit",
+    "study": "mob_road_bandit_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_road_bandit_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13682,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_thicket_wolf",
+    "name": "Thicket Wolf",
+    "study": "mob_thicket_wolf_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_thicket_wolf_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 14000,
+    "triangles": 11995,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_blacktusk",
+    "name": "Blacktusk Boar",
+    "study": "mob_blacktusk_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_blacktusk_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13952,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_venom_spider",
+    "name": "Venom Spider",
+    "study": "mob_venom_spider_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_venom_spider_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13938,
+    "triangles": 11995,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_hollow_raider",
+    "name": "Hollow Raider",
+    "study": "mob_hollow_raider_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_hollow_raider_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13307,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_cinder_wisp",
+    "name": "Cinder Wisp",
+    "study": "mob_cinder_wisp_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_cinder_wisp_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 12082,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_frost_wolf",
+    "name": "Frost Wolf",
+    "study": "mob_frost_wolf_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_frost_wolf_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 14000,
+    "triangles": 11995,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_ironhide_boar",
+    "name": "Ironhide Boar",
+    "study": "mob_ironhide_boar_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_ironhide_boar_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 14000,
+    "triangles": 11995,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_ash_bandit",
+    "name": "Ash Bandit",
+    "study": "mob_ash_bandit_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_ash_bandit_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13417,
+    "triangles": 11995,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_grave_wisp",
+    "name": "Grave Wisp",
+    "study": "mob_grave_wisp_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_grave_wisp_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13884,
+    "triangles": 11995,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_ember_hound",
+    "name": "Ember Hound",
+    "study": "mob_ember_hound_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_ember_hound_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13946,
+    "triangles": 11995,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_cairn_sentinel",
+    "name": "Cairn Sentinel",
+    "study": "mob_cairn_sentinel_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_cairn_sentinel_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13722,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_glass_spider",
+    "name": "Glass Spider",
+    "study": "mob_glass_spider_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_glass_spider_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13966,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_dusk_stalker",
+    "name": "Dusk Stalker",
+    "study": "mob_dusk_stalker_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_dusk_stalker_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 14000,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_ash_wisp",
+    "name": "Ash Wisp",
+    "study": "mob_ash_wisp_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_ash_wisp_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13838,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_obsidian_boar",
+    "name": "Obsidian Boar",
+    "study": "mob_obsidian_boar_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_obsidian_boar_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13986,
+    "triangles": 11996,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_widow_spider",
+    "name": "Widow Spider",
+    "study": "mob_widow_spider_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_widow_spider_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13916,
+    "triangles": 11995,
+    "guarded_source": 0
+  },
+  {
+    "key": "mob_storm_wisp",
+    "name": "Storm Wisp",
+    "study": "mob_storm_wisp_simplify_12000_final",
+    "path": "res://review_assets/optimization/mob_storm_wisp_simplify_12000_final.glb",
+    "optimized": true,
+    "source_triangles": 13670,
+    "triangles": 11996,
+    "guarded_source": 0
+  }
+]

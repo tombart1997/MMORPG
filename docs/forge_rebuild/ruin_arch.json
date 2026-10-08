@@ -1,0 +1,32 @@
+{
+  "key": "ruin_arch",
+  "forge_asset_id": "5497e23fb588",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\5497e23fb588\\generated\\22d4b2e396b9\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\world_kit\\ruin_arch.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\ruin_arch.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -2.5,
+      -1.6081931591033936,
+      -0.10960307717323303
+    ],
+    [
+      3.4755373001098633,
+      0.5,
+      4.431426048278809
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 32960,
+      "after": 4498,
+      "extent_drift": 0.03105252525920689
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

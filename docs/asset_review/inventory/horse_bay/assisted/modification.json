@@ -1,0 +1,6 @@
+{
+  "operation": "Actual Codex-assisted Blender pass",
+  "notes": "Removed anatomically fused lower limbs with proven opposite-side faces; lofted four clean low-poly leg/hoof regions over existing joint centers. Preserved generated torso/head, original UV atlas, tail, separate tack, rest bones and all four gait clips.",
+  "elapsed_seconds": 1.154469799999788,
+  "paid_credits": 0
+}

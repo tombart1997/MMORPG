@@ -1,0 +1,30 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "MV_blacksmith",
+      "before": 311312,
+      "target": 24000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 23996,
+      "quality": {
+        "surface_max_fraction": 0.0010115460330751365,
+        "surface_p95_fraction": 0.00039385034125009714,
+        "bounds_drift_fraction": 0.00048258847507268344,
+        "nonmanifold_edges": 0,
+        "samples": 7064
+      },
+      "textures": [
+        "MV_blacksmith_Base Color"
+      ],
+      "material_transfer": "rebaked_atlas",
+      "deformation": [],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 24000,
+  "achieved_triangles": 23996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

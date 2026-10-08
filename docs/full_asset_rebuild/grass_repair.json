@@ -1,0 +1,9 @@
+{
+  "key": "grass",
+  "method": "clean_remodel",
+  "repair": "Thin foliage rebuilt: seven tufts, 84 arched folded blades; native fused leaves rejected at 4,000 triangles.",
+  "triangles": 2016,
+  "reference": "concepts_docs/art/asset_turnarounds_v2/grass/turnaround.png",
+  "old_geometry_reused": false,
+  "review_status": "pending_exported_review"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "market_stall",
+  "method": "clean_remodel",
+  "repair": "New crafted town prop from Briarwood architecture palette: beveled joinery, planks, supports and separate functional surfaces.",
+  "triangles": 4672,
+  "reference": "concepts_docs/art/world_briarwood.png",
+  "old_geometry_reused": false,
+  "review_status": "pending_exported_review"
+}

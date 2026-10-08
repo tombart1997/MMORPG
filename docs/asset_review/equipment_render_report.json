@@ -1,0 +1,324 @@
+{
+	"assets": [
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.0950062498450279,
+					-0.180000066757202,
+					-0.0180000066757202
+				],
+				[
+					0.189996361732483,
+					1.4300000667572,
+					0.0360233038663864
+				]
+			],
+			"key": "weapon_jade",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\weapon_jade\\before.png",
+			"path": "res://assets/forge_rebuild/weapons/jade.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.00598523020744324,
+					-0.0632090121507645,
+					-0.0630651861429214
+				],
+				[
+					0.0119454395025969,
+					0.126183956861496,
+					0.125998109579086
+				]
+			],
+			"key": "coin",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\coin\\before.png",
+			"path": "res://assets/weapons/gold_coin.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.18661966919899,
+					-0.166999995708466,
+					-0.0209999997168779
+				],
+				[
+					0.37323933839798,
+					1.24699997901917,
+					0.0439999997615814
+				]
+			],
+			"key": "derived_characters_jade_sword",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_jade_sword\\before.png",
+			"path": "res://assets/characters/jade_sword.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.241927057504654,
+					-0.284454941749573,
+					-0.0493783317506313
+				],
+				[
+					0.483854115009308,
+					1.36445486545563,
+					0.0933783799409866
+				]
+			],
+			"key": "derived_characters_turnwarden_v2_sword",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_turnwarden_v2_sword\\before.png",
+			"path": "res://assets/characters/turnwarden_v2_sword.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.183820456266403,
+					-0.176212146878242,
+					-0.0450000017881393
+				],
+				[
+					0.367640912532806,
+					1.18421220779419,
+					0.0900000035762787
+				]
+			],
+			"key": "derived_characters_warden_sword",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_warden_sword\\before.png",
+			"path": "res://assets/characters/warden_sword.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.186904564499855,
+					-0.215000033378601,
+					-0.0720000043511391
+				],
+				[
+					0.37380912899971,
+					1.29500007629395,
+					0.144000053405762
+				]
+			],
+			"key": "derived_characters_wayfarer_sword",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_characters_wayfarer_sword\\before.png",
+			"path": "res://assets/characters/wayfarer_sword.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.12507800757885,
+					-0.287999987602234,
+					-0.0270000137388706
+				],
+				[
+					0.2501560151577,
+					1.42799997329712,
+					0.0540000647306442
+				]
+			],
+			"key": "derived_weapons_briarsteel",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_briarsteel\\before.png",
+			"path": "res://assets/weapons/briarsteel.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.0860000029206276,
+					-0.287999987602234,
+					-0.0602000094950199
+				],
+				[
+					0.172000005841255,
+					1.36800003051758,
+					0.120400056242943
+				]
+			],
+			"key": "derived_weapons_cairnwarden",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_cairnwarden\\before.png",
+			"path": "res://assets/weapons/cairnwarden.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.0860000029206276,
+					-0.432999968528748,
+					-0.0602000169456005
+				],
+				[
+					0.182273268699646,
+					2.03299999237061,
+					0.120400086045265
+				]
+			],
+			"key": "derived_weapons_ember",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_ember\\before.png",
+			"path": "res://assets/weapons/ember.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.0860000029206276,
+					-0.287999987602234,
+					-0.0602000094950199
+				],
+				[
+					0.196392714977264,
+					1.36800003051758,
+					0.120400056242943
+				]
+			],
+			"key": "derived_weapons_frontier",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_frontier\\before.png",
+			"path": "res://assets/weapons/frontier.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.160064786672592,
+					-0.432999968528748,
+					-0.0270000193268061
+				],
+				[
+					0.320129573345184,
+					2.03299999237061,
+					0.0540000908076763
+				]
+			],
+			"key": "derived_weapons_glass",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_glass\\before.png",
+			"path": "res://assets/weapons/glass.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.160064786672592,
+					-0.287999987602234,
+					-0.0270000137388706
+				],
+				[
+					0.320129573345184,
+					1.36800003051758,
+					0.0540000610053539
+				]
+			],
+			"key": "derived_weapons_marchguard",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_marchguard\\before.png",
+			"path": "res://assets/weapons/marchguard.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.12507800757885,
+					-0.432999968528748,
+					-0.0270000193268061
+				],
+				[
+					0.2501560151577,
+					1.73299992084503,
+					0.0540000796318054
+				]
+			],
+			"key": "derived_weapons_relic",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_relic\\before.png",
+			"path": "res://assets/weapons/relic.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.12507800757885,
+					-0.432999968528748,
+					-0.0270000193268061
+				],
+				[
+					0.2501560151577,
+					2.03299999237061,
+					0.0540000908076763
+				]
+			],
+			"key": "derived_weapons_rift",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_rift\\before.png",
+			"path": "res://assets/weapons/rift.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.160064786672592,
+					-0.432999968528748,
+					-0.0270000193268061
+				],
+				[
+					0.320129573345184,
+					1.66299998760223,
+					0.0540000721812248
+				]
+			],
+			"key": "derived_weapons_wakecleaver",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_wakecleaver\\before.png",
+			"path": "res://assets/weapons/wakecleaver.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.103097774088383,
+					-0.287999987602234,
+					-0.0270000137388706
+				],
+				[
+					0.206195548176765,
+					1.36800003051758,
+					0.0540000610053539
+				]
+			],
+			"key": "derived_weapons_wayfarer",
+			"output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\inventory\\derived_weapons_wayfarer\\before.png",
+			"path": "res://assets/weapons/wayfarer.glb",
+			"status": "rendered_requires_visual_review"
+		}
+	]
+}

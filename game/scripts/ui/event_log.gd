@@ -5,6 +5,14 @@ var player: ActorBody
 var history: Array[Dictionary] = []
 var feed: RichTextLabel
 var channel: String = "All"
+var refresh_pending := false
+var refresh_clock := 0.0
+
+func _process(delta: float) -> void:
+	refresh_clock=maxf(0,refresh_clock-delta)
+	if refresh_pending and is_visible_in_tree() and refresh_clock<=0:
+		refresh()
+		refresh_clock=.1
 
 func _ready() -> void:
 	theme = PaintedTheme.get_theme()
@@ -42,9 +50,12 @@ func append(kind: String, message: String) -> void:
 	if not history.is_empty() and history.back().text == message: return
 	history.append({"kind":kind,"text":message})
 	if history.size() > 80: history.pop_front()
-	refresh()
+	# Preserve the full history immediately; lay out the feed at most 10 Hz.
+	# Hidden logs catch up when shown. Changing channel refreshes immediately.
+	refresh_pending=true
 
 func refresh() -> void:
+	refresh_pending=false
 	feed.clear()
 	for entry in history:
 		if channel != "All" and entry.kind != channel: continue

@@ -1,0 +1,176 @@
+{
+  "name": "mob_hollow_raider_simplify_12000_final",
+  "asset_id": "6ff01115b3f2",
+  "source_key": "mob_hollow_raider",
+  "source": "game/assets/forge_rebuild/mobs/hollow_raider.glb",
+  "source_asset_id": "da118157fabd",
+  "source_sha256": "0d782f0f9ac95cbd6533bcbadabeb544e35fc542df952d357c750558aa046269",
+  "imported_candidate": "322ce3bed131",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 12000,
+    "optimization_mode": "simplify",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "topology_review",
+      "uv_materials",
+      "rig_import",
+      "deformation_review",
+      "optimization_review",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "968cbd183a34",
+    "asset_id": "6ff01115b3f2",
+    "operation": "process",
+    "state": "succeeded",
+    "stage": "blender_process",
+    "progress": 100,
+    "created_at": "2026-10-03T19:15:49.854795+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {
+      "files": {
+        "animation_contract.json": "processed/968cbd183a34/animation_contract.json",
+        "editable.blend": "processed/968cbd183a34/editable.blend",
+        "inspection_before.json": "processed/968cbd183a34/inspection_before.json",
+        "optimization.json": "processed/968cbd183a34/optimization.json",
+        "processing.json": "processed/968cbd183a34/processing.json",
+        "runtime.glb": "processed/968cbd183a34/runtime.glb",
+        "source.blend": "processed/968cbd183a34/source.blend",
+        "source.glb": "processed/968cbd183a34/source.glb",
+        "validation.json": "processed/968cbd183a34/validation.json"
+      }
+    },
+    "resumed_from": null,
+    "message": "Complete \u00b7 visual review remains separate",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 12000,
+      "optimization_mode": "simplify",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "topology_review",
+        "uv_materials",
+        "rig_import",
+        "deformation_review",
+        "optimization_review",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "322ce3bed131",
+      "path": "imports/c02ba8b55da1.glb",
+      "origin": "imported",
+      "sha256": "0d782f0f9ac95cbd6533bcbadabeb544e35fc542df952d357c750558aa046269",
+      "created_at": "2026-10-03T19:15:49.785812+00:00",
+      "original_filename": "hollow_raider.glb",
+      "license": "Optimization study: retained local neural derivative from da118157fabd; SHA256 0d782f0f9ac95cbd6533bcbadabeb544e35fc542df952d357c750558aa046269",
+      "cost_credits": 0
+    },
+    "reference": null,
+    "started_at": "2026-10-03T19:15:49.863798+00:00",
+    "elapsed_seconds": 24.1,
+    "finished_at": "2026-10-03T19:16:14.156691+00:00",
+    "duration_seconds": 24.3
+  },
+  "visual_status": "pending",
+  "artifacts": {
+    "animation_contract.json": "processed/968cbd183a34/animation_contract.json",
+    "editable.blend": "processed/968cbd183a34/editable.blend",
+    "inspection_before.json": "processed/968cbd183a34/inspection_before.json",
+    "optimization.json": "processed/968cbd183a34/optimization.json",
+    "processing.json": "processed/968cbd183a34/processing.json",
+    "runtime.glb": "processed/968cbd183a34/runtime.glb",
+    "source.blend": "processed/968cbd183a34/source.blend",
+    "source.glb": "processed/968cbd183a34/source.glb",
+    "validation.json": "processed/968cbd183a34/validation.json"
+  },
+  "review_path": "res://review_assets/optimization/mob_hollow_raider_simplify_12000_final.glb"
+}

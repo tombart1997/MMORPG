@@ -1,0 +1,10 @@
+{
+  "pine": {
+    "asset_id": "e6a4f11d5fab",
+    "job_id": "c6040c14e6b3",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\e6a4f11d5fab\\generated\\c6040c14e6b3\\source.glb"
+  }
+}

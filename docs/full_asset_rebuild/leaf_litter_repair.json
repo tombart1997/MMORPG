@@ -1,0 +1,9 @@
+{
+  "key": "leaf_litter",
+  "method": "clean_remodel",
+  "repair": "Separate curled fallen leaves scattered across the ground, following the Briarwood forest-floor concept; grass-shaped candidate rejected.",
+  "triangles": 336,
+  "reference": "concepts_docs/art/world_briarwood.png",
+  "old_geometry_reused": false,
+  "review_status": "pending_exported_review"
+}

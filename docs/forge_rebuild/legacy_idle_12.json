@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Wakecleaver",
+      "path": "res://assets/weapons/wakecleaver.glb"
+    },
+    {
+      "name": "Wayfarer",
+      "path": "res://assets/weapons/wayfarer.glb"
+    },
+    {
+      "name": "Cliff",
+      "path": "res://assets/world_kit/cliff.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\legacy_idle_12.png",
+  "clip": "idle",
+  "time": 0
+}

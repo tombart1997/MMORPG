@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Cairn Ironback",
+      "path": "res://assets/forge_rebuild/mobs/ironback.glb"
+    },
+    {
+      "name": "Mire Boar",
+      "path": "res://assets/forge_rebuild/mobs/mire_boar.glb"
+    },
+    {
+      "name": "Copper Spider",
+      "path": "res://assets/forge_rebuild/mobs/copper_spider.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\gallery_idle_03.png",
+  "clip": "idle",
+  "time": 0
+}

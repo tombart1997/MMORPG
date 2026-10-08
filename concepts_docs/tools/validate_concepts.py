@@ -30,7 +30,7 @@ class Links(HTMLParser):
             if key in attributes:self.links.append(attributes[key])
 
 def validate():
-    require(len(list((BASE/'sheets').glob('*.md')))==16,'16 topic sheets')
+    require(len(list((BASE/'sheets').glob('*.md')))==17,'17 topic sheets')
     require(len(list((BASE/'art').glob('*.png')))==12,'12 concept plates')
     up=rows('smithing_upgrades.csv');require(len(up)==45,'5 × 9 smithing steps')
     for tier in range(1,6):
@@ -104,13 +104,13 @@ def validate():
     for link in re.findall(r"background-image:url\('([^']+)'\)",(BASE/'bestiary.html').read_text(encoding='utf-8')):
         require((BASE/link).exists(),'Portrait image exists')
     wb=load_workbook(BASE/'Ironfield_Concepts.xlsx')
-    require(len(wb.sheetnames)==28,'28 workbook tabs')
+    require(len(wb.sheetnames)==29,'29 workbook tabs')
     require(len(wb['Mob Stats Table']['A'])==38,'Workbook contains all mobs')
     require(len(wb['Mob Drop Table']['A'])==152,'Workbook contains all drop rows')
     require(sum(len(ws._images) for ws in wb.worksheets)>=12,'Workbook embeds concept art')
     require(wb['Drop Calculator']['F2'].data_type=='f','Editable probability formula')
     require(wb['Smithing Table']['R2'].data_type=='f','Editable route risk formula')
-    report={'checked_on':'2026-10-03','checks_passed':checks,'topic_sheets':16,'concept_plates':12,'unique_mobs':37,'mob_item_drops':151,'smithing_rows':45,'class_skill_designs':48,'workbook_tabs':28,'result':'PASS','scope':'Documentation consistency and numerical rules; no gameplay changes or runtime tests claimed.'}
+    report={'checked_on':'2026-10-04','checks_passed':checks,'topic_sheets':17,'concept_plates':12,'unique_mobs':37,'mob_item_drops':151,'smithing_rows':45,'class_skill_designs':48,'workbook_tabs':29,'result':'PASS','scope':'Documentation consistency and numerical rules; no gameplay changes or runtime tests claimed.'}
     (BASE/'tables/validation_report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
     print(f'PASS: {checks:,} design invariants and local links; images and workbook reopen successfully.')
 

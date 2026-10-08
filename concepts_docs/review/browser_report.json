@@ -1,7 +1,7 @@
 {
   "result": "PASS",
   "checks": [
-    "16 topic links",
+    "17 topic links",
     "37 mob cards",
     "images load offline",
     "equal-level base rates",

@@ -1,0 +1,22 @@
+{
+  "hero_ironvow": {
+    "prompt": "Reference: the leftmost Ironvow man in the supplied concept plate. Produce a single isolated full body 3D reconstruction reference of that same adult male warrior, jade green brass edged lamellar cuirass and shoulder armor, red waist sash, charcoal riding trousers, leather boots, natural handsome face and black topknot. Symmetrical relaxed A-pose with arms angled 40 degrees down from horizontal, fingers extended, feet shoulder width. Empty hands, no sword, no cloak, no pedestal, no environment. Front-facing body with tiny three-quarter depth, orthographic studio model photograph on plain light gray. Anatomically correct adult proportions, all limbs fully visible, separate legs, crisp solid surfaces with subdued surface ornament matching concept. One character only, no text.",
+    "source": "C:\\Users\\Tom\\.codex\\generated_images\\01a1010a-fd94-7ba1-bdae-636d79df270d\\exec-c48e16f1-6136-40f6-973c-9fb0d70be342.png",
+    "tool": "built-in image_gen"
+  },
+  "horse_bay": {
+    "prompt": "Reference: the bay horse at left of the supplied concept plate. Create an isolated reconstruction reference showing only the same realistic bay horse, WITHOUT rider and WITHOUT tack or saddle or reins or stirrups. Natural realistic equine anatomy: long muscular neck, medium fine head, correct deep ribcage, level back, powerful croup, long articulated legs with correct hocks and short pasterns, black pointed lower legs and hooves, dark mane and dark tapered tail. Standing square with all four legs clearly separated and grounded. Three-quarter left side studio portrait on flat pale gray, entire horse including ears, hooves, tail visible. No human, no scenery, no ground clutter, no text. Solid game asset reference suitable for single-image 3D reconstruction.",
+    "source": "C:\\Users\\Tom\\.codex\\generated_images\\01a1010a-fd94-7ba1-bdae-636d79df270d\\exec-e21cd1d8-e407-430c-889d-2a37c630826b.png",
+    "tool": "built-in image_gen"
+  },
+  "tree_reference": {
+    "prompt": "Use the supplied game world concept as style reference. Create one isolated complete mature eastern frontier pine tree, irregular leaning brown trunk with two strong asymmetric boughs and a wide layered dark olive canopy, realistic bark, densely connected needles masses, exposed flared roots. Only the tree against plain pale gray studio background, full tree in frame from roots to tip, three-quarter view, neutral light, no ground chunk, no other objects or text. Solid 3D game asset reconstruction reference.",
+    "source": "C:\\Users\\Tom\\.codex\\generated_images\\01a1010a-fd94-7ba1-bdae-636d79df270d\\exec-465de60c-a9a6-4470-9f38-0e79413ca6ce.png",
+    "tool": "built-in image_gen"
+  },
+  "rock_reference": {
+    "prompt": "Use the supplied game world concept as style reference. Create one isolated solid irregular angular slate boulder with subtle aged moss around upper cracks, cool gray weathered stone, broad base and asymmetrical broken face. Single object, three-quarter view, plain pale gray studio background, neutral light, no vegetation beyond a little moss, no ground chunk, no other objects or text. Game environment 3D reconstruction reference.",
+    "source": "C:\\Users\\Tom\\.codex\\generated_images\\01a1010a-fd94-7ba1-bdae-636d79df270d\\exec-4e1c92f9-36ae-4e23-9e88-af5d7724e7fd.png",
+    "tool": "built-in image_gen"
+  }
+}

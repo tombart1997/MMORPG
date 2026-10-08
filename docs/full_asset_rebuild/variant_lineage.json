@@ -1,0 +1,942 @@
+[
+  {
+    "key": "meadow_wolf",
+    "group": "mobs",
+    "base": "meadow_wolf",
+    "path": "game/assets/generated/mobs/meadow_wolf.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17989
+  },
+  {
+    "key": "young",
+    "group": "mobs",
+    "base": "mossling",
+    "path": "game/assets/generated/mobs/young.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17596
+  },
+  {
+    "key": "bristle_boar",
+    "group": "mobs",
+    "base": "ironhide_boar",
+    "path": "game/assets/generated/mobs/bristle_boar.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 11600
+  },
+  {
+    "key": "blue_wolf",
+    "group": "mobs",
+    "base": "meadow_wolf",
+    "path": "game/assets/generated/mobs/blue_wolf.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17989
+  },
+  {
+    "key": "grown",
+    "group": "mobs",
+    "base": "mossling",
+    "path": "game/assets/generated/mobs/grown.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17596
+  },
+  {
+    "key": "reed_spider",
+    "group": "mobs",
+    "base": "reed_spider",
+    "path": "game/assets/generated/mobs/reed_spider.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17941
+  },
+  {
+    "key": "red_wolf",
+    "group": "mobs",
+    "base": "meadow_wolf",
+    "path": "game/assets/generated/mobs/red_wolf.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17989
+  },
+  {
+    "key": "grey_wolf",
+    "group": "mobs",
+    "base": "meadow_wolf",
+    "path": "game/assets/generated/mobs/grey_wolf.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17989
+  },
+  {
+    "key": "ironback",
+    "group": "mobs",
+    "base": "mossling",
+    "path": "game/assets/generated/mobs/ironback.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17596
+  },
+  {
+    "key": "mire_boar",
+    "group": "mobs",
+    "base": "ironhide_boar",
+    "path": "game/assets/generated/mobs/mire_boar.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 11600
+  },
+  {
+    "key": "copper_spider",
+    "group": "mobs",
+    "base": "reed_spider",
+    "path": "game/assets/generated/mobs/copper_spider.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17941
+  },
+  {
+    "key": "moonfang",
+    "group": "mobs",
+    "base": "meadow_wolf",
+    "path": "game/assets/generated/mobs/moonfang.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17989
+  },
+  {
+    "key": "thicket_wolf",
+    "group": "mobs",
+    "base": "meadow_wolf",
+    "path": "game/assets/generated/mobs/thicket_wolf.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 18017
+  },
+  {
+    "key": "blacktusk",
+    "group": "mobs",
+    "base": "ironhide_boar",
+    "path": "game/assets/generated/mobs/blacktusk.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 11712
+  },
+  {
+    "key": "venom_spider",
+    "group": "mobs",
+    "base": "reed_spider",
+    "path": "game/assets/generated/mobs/venom_spider.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17941
+  },
+  {
+    "key": "slate_guardian",
+    "group": "mobs",
+    "base": "stonekin",
+    "path": "game/assets/generated/mobs/slate_guardian.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17988
+  },
+  {
+    "key": "frost_wolf",
+    "group": "mobs",
+    "base": "meadow_wolf",
+    "path": "game/assets/generated/mobs/frost_wolf.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17989
+  },
+  {
+    "key": "ironhide_boar",
+    "group": "mobs",
+    "base": "ironhide_boar",
+    "path": "game/assets/generated/mobs/ironhide_boar.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 11744
+  },
+  {
+    "key": "silk_matron",
+    "group": "mobs",
+    "base": "reed_spider",
+    "path": "game/assets/generated/mobs/silk_matron.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17941
+  },
+  {
+    "key": "ember_hound",
+    "group": "mobs",
+    "base": "meadow_wolf",
+    "path": "game/assets/generated/mobs/ember_hound.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17989
+  },
+  {
+    "key": "cairn_sentinel",
+    "group": "mobs",
+    "base": "stonekin",
+    "path": "game/assets/generated/mobs/cairn_sentinel.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17988
+  },
+  {
+    "key": "glass_spider",
+    "group": "mobs",
+    "base": "reed_spider",
+    "path": "game/assets/generated/mobs/glass_spider.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17941
+  },
+  {
+    "key": "dusk_stalker",
+    "group": "mobs",
+    "base": "meadow_wolf",
+    "path": "game/assets/generated/mobs/dusk_stalker.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17989
+  },
+  {
+    "key": "bloodfang",
+    "group": "mobs",
+    "base": "meadow_wolf",
+    "path": "game/assets/generated/mobs/bloodfang.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 18045
+  },
+  {
+    "key": "obsidian_boar",
+    "group": "mobs",
+    "base": "ironhide_boar",
+    "path": "game/assets/generated/mobs/obsidian_boar.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 11712
+  },
+  {
+    "key": "widow_spider",
+    "group": "mobs",
+    "base": "reed_spider",
+    "path": "game/assets/generated/mobs/widow_spider.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17941
+  },
+  {
+    "key": "rift_sentinel",
+    "group": "mobs",
+    "base": "stonekin",
+    "path": "game/assets/generated/mobs/rift_sentinel.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17988
+  },
+  {
+    "key": "ancient_warden",
+    "group": "mobs",
+    "base": "stonekin",
+    "path": "game/assets/generated/mobs/ancient_warden.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17988
+  },
+  {
+    "key": "cairn_colossus",
+    "group": "mobs",
+    "base": "stonekin",
+    "path": "game/assets/generated/mobs/cairn_colossus.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 17988
+  },
+  {
+    "key": "smith",
+    "group": "npcs",
+    "base": "blacksmith",
+    "path": "game/assets/generated/npcs/smith.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 23824
+  },
+  {
+    "key": "armorer",
+    "group": "npcs",
+    "base": "blacksmith",
+    "path": "game/assets/generated/npcs/armorer.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 23824
+  },
+  {
+    "key": "weapons",
+    "group": "npcs",
+    "base": "blacksmith",
+    "path": "game/assets/generated/npcs/weapons.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 23824
+  },
+  {
+    "key": "tree0",
+    "group": "world",
+    "base": "pine",
+    "path": "game/assets/generated/world/tree0.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 11271
+  },
+  {
+    "key": "tree1",
+    "group": "world",
+    "base": "pine",
+    "path": "game/assets/generated/world/tree1.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 11271
+  },
+  {
+    "key": "tree2",
+    "group": "world",
+    "base": "pine",
+    "path": "game/assets/generated/world/tree2.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 11271
+  },
+  {
+    "key": "tree_bent",
+    "group": "world",
+    "base": "pine",
+    "path": "game/assets/generated/world/tree_bent.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 11271
+  },
+  {
+    "key": "tree_fork",
+    "group": "world",
+    "base": "pine",
+    "path": "game/assets/generated/world/tree_fork.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 11271
+  },
+  {
+    "key": "tree_wide",
+    "group": "world",
+    "base": "pine",
+    "path": "game/assets/generated/world/tree_wide.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 11271
+  },
+  {
+    "key": "rock0",
+    "group": "world",
+    "base": "rock",
+    "path": "game/assets/generated/world/rock0.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7993
+  },
+  {
+    "key": "rock1",
+    "group": "world",
+    "base": "rock",
+    "path": "game/assets/generated/world/rock1.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7993
+  },
+  {
+    "key": "rock2",
+    "group": "world",
+    "base": "rock",
+    "path": "game/assets/generated/world/rock2.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7993
+  },
+  {
+    "key": "rock_0",
+    "group": "world",
+    "base": "rock",
+    "path": "game/assets/generated/world/rock_0.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7993
+  },
+  {
+    "key": "rock_1",
+    "group": "world",
+    "base": "rock",
+    "path": "game/assets/generated/world/rock_1.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7993
+  },
+  {
+    "key": "rock_2",
+    "group": "world",
+    "base": "rock",
+    "path": "game/assets/generated/world/rock_2.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7993
+  },
+  {
+    "key": "cliff",
+    "group": "world",
+    "base": "rock",
+    "path": "game/assets/generated/world/cliff.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7993
+  },
+  {
+    "key": "cliff1",
+    "group": "world",
+    "base": "rock",
+    "path": "game/assets/generated/world/cliff1.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7993
+  },
+  {
+    "key": "shrub",
+    "group": "world",
+    "base": "shrub",
+    "path": "game/assets/generated/world/shrub.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7752
+  },
+  {
+    "key": "shrub_briar",
+    "group": "world",
+    "base": "shrub",
+    "path": "game/assets/generated/world/shrub_briar.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7752
+  },
+  {
+    "key": "shrub_laurel",
+    "group": "world",
+    "base": "shrub",
+    "path": "game/assets/generated/world/shrub_laurel.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7752
+  },
+  {
+    "key": "fern",
+    "group": "world",
+    "base": "fern",
+    "path": "game/assets/generated/world/fern.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 1712
+  },
+  {
+    "key": "grass",
+    "group": "world",
+    "base": "grass",
+    "path": "game/assets/generated/world/grass.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 2016
+  },
+  {
+    "key": "sedge",
+    "group": "world",
+    "base": "grass",
+    "path": "game/assets/generated/world/sedge.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 2016
+  },
+  {
+    "key": "leaf_litter",
+    "group": "world",
+    "base": "leaf_litter",
+    "path": "game/assets/generated/world/leaf_litter.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 336
+  },
+  {
+    "key": "house",
+    "group": "world",
+    "base": "house",
+    "path": "game/assets/generated/world/house.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7995
+  },
+  {
+    "key": "watchtower",
+    "group": "world",
+    "base": "watchtower",
+    "path": "game/assets/generated/world/watchtower.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7989
+  },
+  {
+    "key": "flowers",
+    "group": "world",
+    "base": "flowers",
+    "path": "game/assets/generated/world/flowers.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 1800
+  },
+  {
+    "key": "mushroom",
+    "group": "world",
+    "base": "mushroom",
+    "path": "game/assets/generated/world/mushroom.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 900
+  },
+  {
+    "key": "eggs",
+    "group": "world",
+    "base": "eggs",
+    "path": "game/assets/generated/world/eggs.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 2064
+  },
+  {
+    "key": "bones",
+    "group": "world",
+    "base": "bones",
+    "path": "game/assets/generated/world/bones.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 692
+  },
+  {
+    "key": "web",
+    "group": "world",
+    "base": "web",
+    "path": "game/assets/generated/world/web.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 776
+  },
+  {
+    "key": "banner",
+    "group": "world",
+    "base": "banner",
+    "path": "game/assets/generated/world/banner.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 204
+  },
+  {
+    "key": "fire",
+    "group": "world",
+    "base": "fire",
+    "path": "game/assets/generated/world/fire.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 456
+  },
+  {
+    "key": "pouch",
+    "group": "world",
+    "base": "pouch",
+    "path": "game/assets/generated/world/pouch.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 460
+  },
+  {
+    "key": "gold_coin",
+    "group": "equipment",
+    "base": "coin",
+    "path": "game/assets/generated/equipment/gold_coin.glb",
+    "method": "Reconstructed minted relief retained; white filled aperture cut out, flat loot orientation and 126 mm metric diameter.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 3988
+  },
+  {
+    "key": "fracture",
+    "group": "world",
+    "base": "fracture",
+    "path": "game/assets/generated/world/fracture.glb",
+    "method": "Native roots retained; seven fused upper ribs remodeled as clean open bark cage from the four references, with floating emissive crystal. Rib/Core gameplay node contract retained.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 8958
+  },
+  {
+    "key": "dead_tree",
+    "group": "world",
+    "base": "dead_tree",
+    "path": "game/assets/generated/world/dead_tree.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 2884
+  },
+  {
+    "key": "crate",
+    "group": "world",
+    "base": "crate",
+    "path": "game/assets/generated/world/crate.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 3893
+  },
+  {
+    "key": "market_stall",
+    "group": "world",
+    "base": "market_stall",
+    "path": "game/assets/generated/world/market_stall.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 4672
+  },
+  {
+    "key": "well",
+    "group": "world",
+    "base": "well",
+    "path": "game/assets/generated/world/well.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7408
+  },
+  {
+    "key": "fence",
+    "group": "world",
+    "base": "fence",
+    "path": "game/assets/generated/world/fence.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 432
+  },
+  {
+    "key": "gate",
+    "group": "world",
+    "base": "gate",
+    "path": "game/assets/generated/world/gate.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 596
+  },
+  {
+    "key": "anvil",
+    "group": "world",
+    "base": "anvil",
+    "path": "game/assets/generated/world/anvil.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 488
+  },
+  {
+    "key": "cinder_wisp",
+    "group": "mobs",
+    "base": "wisp",
+    "path": "game/assets/generated/mobs/cinder_wisp.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 12150
+  },
+  {
+    "key": "grave_wisp",
+    "group": "mobs",
+    "base": "wisp",
+    "path": "game/assets/generated/mobs/grave_wisp.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 12150
+  },
+  {
+    "key": "ash_wisp",
+    "group": "mobs",
+    "base": "wisp",
+    "path": "game/assets/generated/mobs/ash_wisp.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 12150
+  },
+  {
+    "key": "storm_wisp",
+    "group": "mobs",
+    "base": "wisp",
+    "path": "game/assets/generated/mobs/storm_wisp.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 12150
+  },
+  {
+    "key": "log",
+    "group": "world",
+    "base": "fallen_log",
+    "path": "game/assets/generated/world/log.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 5962
+  },
+  {
+    "key": "fallen_wood",
+    "group": "world",
+    "base": "fallen_log",
+    "path": "game/assets/generated/world/fallen_wood.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 5962
+  },
+  {
+    "key": "bridge",
+    "group": "world",
+    "base": "bridge",
+    "path": "game/assets/generated/world/bridge.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 9504
+  },
+  {
+    "key": "road_bandit",
+    "group": "mobs",
+    "base": "bandit",
+    "path": "game/assets/generated/mobs/road_bandit.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 22447
+  },
+  {
+    "key": "hollow_raider",
+    "group": "mobs",
+    "base": "bandit",
+    "path": "game/assets/generated/mobs/hollow_raider.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 22447
+  },
+  {
+    "key": "ash_bandit",
+    "group": "mobs",
+    "base": "bandit",
+    "path": "game/assets/generated/mobs/ash_bandit.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 22447
+  },
+  {
+    "key": "exile_captain",
+    "group": "mobs",
+    "base": "bandit",
+    "path": "game/assets/generated/mobs/exile_captain.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 22447
+  },
+  {
+    "key": "keeper",
+    "group": "npcs",
+    "base": "keeper",
+    "path": "game/assets/generated/npcs/keeper.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 23834
+  },
+  {
+    "key": "mara",
+    "group": "npcs",
+    "base": "keeper",
+    "path": "game/assets/generated/npcs/mara.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 23834
+  },
+  {
+    "key": "apothecary",
+    "group": "npcs",
+    "base": "keeper",
+    "path": "game/assets/generated/npcs/apothecary.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 23834
+  },
+  {
+    "key": "shrine",
+    "group": "world",
+    "base": "shrine",
+    "path": "game/assets/generated/world/shrine.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7743
+  },
+  {
+    "key": "stablemaster",
+    "group": "npcs",
+    "base": "stablemaster",
+    "path": "game/assets/generated/npcs/stablemaster.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 23208
+  },
+  {
+    "key": "artificer",
+    "group": "npcs",
+    "base": "stablemaster",
+    "path": "game/assets/generated/npcs/artificer.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 23208
+  },
+  {
+    "key": "warden",
+    "group": "npcs",
+    "base": "stablemaster",
+    "path": "game/assets/generated/npcs/warden.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 23208
+  },
+  {
+    "key": "ash_scout",
+    "group": "npcs",
+    "base": "stablemaster",
+    "path": "game/assets/generated/npcs/ash_scout.glb",
+    "method": "New shared body reconstruction; fitted color/body-width/detail variant with retained skeleton/actions.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 23208
+  },
+  {
+    "key": "tent",
+    "group": "world",
+    "base": "tent",
+    "path": "game/assets/generated/world/tent.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7878
+  },
+  {
+    "key": "ruin_arch",
+    "group": "world",
+    "base": "ruin_arch",
+    "path": "game/assets/generated/world/ruin_arch.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7987
+  },
+  {
+    "key": "ruin",
+    "group": "world",
+    "base": "ruin_arch",
+    "path": "game/assets/generated/world/ruin.glb",
+    "method": "Metric uniform-height fit of new reconstruction/clean repair, modest authored shape/yaw variant.",
+    "independent_neural_generation": false,
+    "old_geometry_reused": false,
+    "triangles": 7987
+  }
+]

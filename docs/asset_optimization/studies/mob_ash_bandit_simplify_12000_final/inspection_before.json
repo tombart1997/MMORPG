@@ -1,0 +1,74 @@
+{
+  "objects": [
+    {
+      "name": "Forge_mob_ash_bandit",
+      "vertices": 13954,
+      "triangles": 13417,
+      "materials": 1,
+      "degenerate_faces": 0,
+      "boundary_edges": 12011,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "has_uv": true,
+      "collapsed_uv_triangles": 0,
+      "skinned": true,
+      "unweighted_vertices": 0
+    }
+  ],
+  "triangles": 13417,
+  "textures": [
+    {
+      "name": "Forge_mob_ash_bandit_RuntimeAtlas",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "available": true
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.47332489490509033,
+      -0.27297255396842957,
+      0.011383495293557644
+    ],
+    "max": [
+      0.4541880488395691,
+      0.6838186979293823,
+      1.8913758993148804
+    ]
+  },
+  "armatures": [
+    {
+      "name": "WardenRig",
+      "bones": 18
+    }
+  ],
+  "actions": [
+    "attack_01",
+    "attack_02",
+    "attack_03",
+    "death",
+    "hit",
+    "idle",
+    "longsword_01",
+    "longsword_02",
+    "longsword_03",
+    "longsword_idle",
+    "longsword_run",
+    "run",
+    "skill_guard",
+    "skill_plant",
+    "skill_riposte",
+    "skill_step"
+  ],
+  "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+  "unverified": [
+    "UV overlap beyond collapsed triangles",
+    "Internal occluded geometry",
+    "Baked lighting",
+    "Joint clipping",
+    "Reference fidelity"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Red Wolf / 11996 tris",
+      "path": "res://review_assets/optimization/mob_red_wolf_simplify_12000_final.glb"
+    },
+    {
+      "name": "Grey Wolf / 11996 tris",
+      "path": "res://review_assets/optimization/mob_grey_wolf_simplify_12000_final.glb"
+    },
+    {
+      "name": "Cairn Ironback / 11996 tris",
+      "path": "res://review_assets/optimization/mob_ironback_simplify_12000_final.glb"
+    }
+  ],
+  "clip": "run",
+  "time": 0.19,
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\views\\ordinary_03.png"
+}

@@ -33,8 +33,11 @@ func _run() -> void:
 	var swing_count := 0
 	while camp.pack.living_count() > 0 and player.health.is_alive() and swing_count < 7:
 		player.combat.request_attack()
-		await frames(5)
+		# Sample the actual beginning of windup. Five render frames can already
+		# span the whole phase while a fresh set of GLBs is being loaded.
+		player.visual.present(player.velocity,player.combat,player.health,player.title,0)
 		check(player.visual.state == &"windup", "Visual follows gameplay windup")
+		await frames(5)
 		while player.combat.is_attacking():
 			await frames(1)
 		swing_count += 1
@@ -89,6 +92,14 @@ func _run() -> void:
 		"Group respawns after timer and player departure")
 	check(player.progression.xp == xp_before, "Respawning itself awards nothing")
 	var second: EnemyCamp = world.camps[1]
+	# A distant streamed camp has no resident bodies until the player approaches.
+	player.position = second.global_position + Vector3(0,0,4)
+	await frames(15)
+	check(not second.dormant and second.pack.living_count()==second.count,
+		"Approaching the second camp materializes its authored group")
+	if second.pack.members.is_empty():
+		quit(1)
+		return
 	player.position = second.pack.members[0].global_position + Vector3(0, 0, 2.1)
 	player.rotation.y = 0
 	player.combat.cancel()

@@ -1,0 +1,30 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "MV_house",
+      "before": 883820,
+      "target": 8000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 7996,
+      "quality": {
+        "surface_max_fraction": 0.0031064006404899814,
+        "surface_p95_fraction": 0.0010932076152938347,
+        "bounds_drift_fraction": 0.001334552640334926,
+        "nonmanifold_edges": 0,
+        "samples": 7025
+      },
+      "textures": [
+        "MV_house_Base Color"
+      ],
+      "material_transfer": "rebaked_atlas",
+      "deformation": [],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 8000,
+  "achieved_triangles": 7996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

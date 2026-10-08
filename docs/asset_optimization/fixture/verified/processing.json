@@ -1,0 +1,200 @@
+{
+  "before": {
+    "objects": [
+      {
+        "name": "Synthetic_transfer_fixture",
+        "vertices": 1986,
+        "triangles": 3968,
+        "materials": 1,
+        "degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "loose_vertices": 0,
+        "has_uv": true,
+        "collapsed_uv_triangles": 0,
+        "skinned": false,
+        "unweighted_vertices": 0
+      }
+    ],
+    "triangles": 3968,
+    "textures": [
+      {
+        "name": "Synthetic checker",
+        "resolution": [
+          128,
+          128
+        ],
+        "packed": true,
+        "available": true
+      }
+    ],
+    "bounds": {
+      "min": [
+        -0.9999997019767761,
+        -0.7499998211860657,
+        -1.2999999523162842
+      ],
+      "max": [
+        0.9999998807907104,
+        0.75,
+        1.2999999523162842
+      ]
+    },
+    "armatures": [],
+    "actions": [],
+    "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+    "unverified": [
+      "UV overlap beyond collapsed triangles",
+      "Internal occluded geometry",
+      "Baked lighting",
+      "Joint clipping",
+      "Reference fidelity"
+    ]
+  },
+  "after": {
+    "objects": [
+      {
+        "name": "Synthetic_transfer_fixture",
+        "vertices": 1250,
+        "triangles": 2496,
+        "materials": 1,
+        "degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "loose_vertices": 0,
+        "has_uv": true,
+        "collapsed_uv_triangles": 0,
+        "skinned": false,
+        "unweighted_vertices": 0
+      }
+    ],
+    "triangles": 2496,
+    "textures": [
+      {
+        "name": "Synthetic checker",
+        "resolution": [
+          128,
+          128
+        ],
+        "packed": true,
+        "available": true
+      },
+      {
+        "name": "Synthetic_transfer_fixture_Base Color",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "available": true
+      },
+      {
+        "name": "Synthetic_transfer_fixture_Emission Color",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "available": true
+      },
+      {
+        "name": "Synthetic_transfer_fixture_Normal",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "available": true
+      },
+      {
+        "name": "Synthetic_transfer_fixture_Roughness",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "available": true
+      }
+    ],
+    "bounds": {
+      "min": [
+        -0.9973717331886292,
+        -0.7477977871894836,
+        -1.2976430654525757
+      ],
+      "max": [
+        0.998003363609314,
+        0.7470266819000244,
+        1.2974351644515991
+      ]
+    },
+    "armatures": [],
+    "actions": [],
+    "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+    "unverified": [
+      "UV overlap beyond collapsed triangles",
+      "Internal occluded geometry",
+      "Baked lighting",
+      "Joint clipping",
+      "Reference fidelity"
+    ]
+  },
+  "lods": [],
+  "settings": {
+    "optimization_mode": "retopology",
+    "triangle_budget": 2500,
+    "max_surface_error": 0.02,
+    "texture_resolution": 1024,
+    "bake_normal_map": true,
+    "render_preview": false,
+    "collision": "none",
+    "generate_lods": false
+  },
+  "optimization": {
+    "mode": "retopology",
+    "source_preserved": true,
+    "objects": [
+      {
+        "name": "Synthetic_transfer_fixture",
+        "before": 3968,
+        "target": 2500,
+        "status": "optimized",
+        "method": "quad_remesh",
+        "after": 2496,
+        "quality": {
+          "surface_max_fraction": 0.0015288881652483863,
+          "surface_p95_fraction": 0.0012098344113126915,
+          "bounds_drift_fraction": 0.001144430806698319,
+          "nonmanifold_edges": 0,
+          "samples": 3248
+        },
+        "textures": [
+          "Synthetic_transfer_fixture_Base Color",
+          "Synthetic_transfer_fixture_Roughness",
+          "Synthetic_transfer_fixture_Emission Color",
+          "Synthetic_transfer_fixture_Normal"
+        ],
+        "material_transfer": "rebaked_atlas",
+        "deformation": [],
+        "remesh_input": "welded_seams_and_consistent_normals",
+        "remeshed_quads": 1266,
+        "log": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\fixture\\verified\\optimization_work\\Synthetic_transfer_fixture_remesh.log",
+        "rejected_attempts": []
+      }
+    ],
+    "target_triangles": 2500,
+    "achieved_triangles": 2496,
+    "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+  },
+  "triangle_budget": 2500,
+  "achieved_triangles": 2496,
+  "budget_status": "within_target",
+  "processing_seconds": 7.473,
+  "blender_version": "5.2.2 LTS",
+  "visual_status": "pending",
+  "collision": "none",
+  "notes": [
+    "Source preserved; selected optimization mode and quality-guard results recorded in optimization.json",
+    "Existing skeleton and animation tracks preserved; no autorig invented"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "tests": [
+    {
+      "test": "townfolk_review",
+      "exit_code": 0,
+      "errors": []
+    },
+    {
+      "test": "presentation_upgrade",
+      "exit_code": 0,
+      "errors": []
+    },
+    {
+      "test": "jade_visual_review",
+      "exit_code": 0,
+      "errors": []
+    }
+  ],
+  "all_passed": true
+}

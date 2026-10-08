@@ -1,0 +1,63 @@
+{
+  "objects": [
+    {
+      "name": "Forge_mob_cairn_sentinel",
+      "vertices": 15241,
+      "triangles": 13722,
+      "materials": 1,
+      "degenerate_faces": 0,
+      "boundary_edges": 13734,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "has_uv": true,
+      "collapsed_uv_triangles": 0,
+      "skinned": true,
+      "unweighted_vertices": 0
+    }
+  ],
+  "triangles": 13722,
+  "textures": [
+    {
+      "name": "Forge_mob_cairn_sentinel_RuntimeAtlas",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "available": true
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.705000102519989,
+      -0.2591380178928375,
+      -5.278104708850151e-07
+    ],
+    "max": [
+      0.705000102519989,
+      0.431738942861557,
+      1.6668963432312012
+    ]
+  },
+  "armatures": [
+    {
+      "name": "SpiritRig",
+      "bones": 18
+    }
+  ],
+  "actions": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+  "unverified": [
+    "UV overlap beyond collapsed triangles",
+    "Internal occluded geometry",
+    "Baked lighting",
+    "Joint clipping",
+    "Reference fidelity"
+  ]
+}

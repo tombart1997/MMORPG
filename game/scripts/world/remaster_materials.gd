@@ -5,13 +5,13 @@ static var textures: Dictionary = {}
 static var materials: Dictionary = {}
 static var camera_fade_materials: Dictionary = {}
 
-static func camera_clearance(source: StandardMaterial3D) -> StandardMaterial3D:
-	var key:=source.get_instance_id()
+static func camera_clearance(source: StandardMaterial3D, near_distance: float = 5.0, far_distance: float = 7.5) -> StandardMaterial3D:
+	var key:="%d:%.2f:%.2f" % [source.get_instance_id(),near_distance,far_distance]
 	if camera_fade_materials.has(key): return camera_fade_materials[key]
 	var material:=source.duplicate() as StandardMaterial3D
 	material.distance_fade_mode=BaseMaterial3D.DISTANCE_FADE_PIXEL_DITHER
-	material.distance_fade_min_distance=5.0
-	material.distance_fade_max_distance=7.5
+	material.distance_fade_min_distance=near_distance
+	material.distance_fade_max_distance=far_distance
 	camera_fade_materials[key]=material
 	return material
 

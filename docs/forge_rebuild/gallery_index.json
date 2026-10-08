@@ -1,0 +1,516 @@
+{
+  "unique_runtime_models": 110,
+  "sheet_count": 42,
+  "sheets": [
+    {
+      "image": "gallery_idle_00.png",
+      "names": [
+        "Concept jade sword",
+        "Meadow Wolf",
+        "Young Mossling"
+      ],
+      "tags": [
+        "Creatures",
+        "Equipment"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_01.png",
+      "names": [
+        "Bristle Boar",
+        "Blue Wolf",
+        "Mossling"
+      ],
+      "tags": [
+        "Creatures"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_02.png",
+      "names": [
+        "Reed Spider",
+        "Red Wolf",
+        "Grey Wolf"
+      ],
+      "tags": [
+        "Creatures"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_03.png",
+      "names": [
+        "Cairn Ironback",
+        "Mire Boar",
+        "Copper Spider"
+      ],
+      "tags": [
+        "Creatures"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_04.png",
+      "names": [
+        "Moonfang",
+        "Road Bandit",
+        "Thicket Wolf"
+      ],
+      "tags": [
+        "Creatures"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_05.png",
+      "names": [
+        "Blacktusk Boar",
+        "Venom Spider",
+        "Slate Guardian"
+      ],
+      "tags": [
+        "Creatures"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_06.png",
+      "names": [
+        "Hollow Raider",
+        "Cinder Wisp",
+        "Frost Wolf"
+      ],
+      "tags": [
+        "Creatures"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_07.png",
+      "names": [
+        "Ironhide Boar",
+        "Silk Matron",
+        "Ash Bandit"
+      ],
+      "tags": [
+        "Creatures"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_08.png",
+      "names": [
+        "Grave Wisp",
+        "Ember Hound",
+        "Cairn Sentinel"
+      ],
+      "tags": [
+        "Creatures"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_09.png",
+      "names": [
+        "Glass Spider",
+        "Dusk Stalker",
+        "Bloodfang"
+      ],
+      "tags": [
+        "Creatures"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_10.png",
+      "names": [
+        "Ash Wisp",
+        "Obsidian Boar",
+        "Widow Spider"
+      ],
+      "tags": [
+        "Creatures"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_11.png",
+      "names": [
+        "Exile Captain",
+        "Storm Wisp",
+        "Rift Sentinel"
+      ],
+      "tags": [
+        "Creatures"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_12.png",
+      "names": [
+        "Ancient Warden",
+        "Cairn Colossus",
+        "Ironvow rider"
+      ],
+      "tags": [
+        "Creatures",
+        "Rider"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_13.png",
+      "names": [
+        "Bay trail horse",
+        "Frontier pine",
+        "Mossy slate boulder"
+      ],
+      "tags": [
+        "Rider",
+        "World"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_14.png",
+      "names": [
+        "Bramble shrub",
+        "Woodland fern",
+        "Frontier house"
+      ],
+      "tags": [
+        "World"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_15.png",
+      "names": [
+        "Sella keeper",
+        "Dead pine",
+        "Fallen pine log"
+      ],
+      "tags": [
+        "Residents",
+        "World"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_16.png",
+      "names": [
+        "Timber watchtower",
+        "Oren blacksmith",
+        "Roadside shrine"
+      ],
+      "tags": [
+        "Residents",
+        "World"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_17.png",
+      "names": [
+        "Camp tent",
+        "Ruined stone arch",
+        "Bram stablemaster"
+      ],
+      "tags": [
+        "Residents",
+        "World"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_18.png",
+      "names": [
+        "Woodland sedge",
+        "Briarwake Fracture",
+        "Cloud brass coin"
+      ],
+      "tags": [
+        "World"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_idle_19.png",
+      "names": [
+        "Timber shipping crate",
+        "Rope footbridge"
+      ],
+      "tags": [
+        "World"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "legacy_idle_00.png",
+      "names": [
+        "Fallen Wood",
+        "Fern",
+        "Leaf Litter"
+      ],
+      "tags": [
+        "Legacy"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "legacy_idle_01.png",
+      "names": [
+        "Rock 0",
+        "Rock 1",
+        "Rock 2"
+      ],
+      "tags": [
+        "Legacy"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "legacy_idle_02.png",
+      "names": [
+        "Sedge",
+        "Shrub Briar",
+        "Shrub Laurel"
+      ],
+      "tags": [
+        "Legacy"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "legacy_idle_03.png",
+      "names": [
+        "Tree Bent",
+        "Tree Fork",
+        "Tree Wide"
+      ],
+      "tags": [
+        "Legacy"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "legacy_idle_04.png",
+      "names": [
+        "Briarling",
+        "Jade Ironback Mantle",
+        "Jade Sword"
+      ],
+      "tags": [
+        "Legacy"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "legacy_idle_05.png",
+      "names": [
+        "Townfolk Kit",
+        "Traveler",
+        "Traveler Guard"
+      ],
+      "tags": [
+        "Legacy"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "legacy_idle_06.png",
+      "names": [
+        "Turnwarden V2",
+        "Turnwarden V2 Sword",
+        "Warden Insignia"
+      ],
+      "tags": [
+        "Legacy"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "legacy_idle_07.png",
+      "names": [
+        "Warden Sword",
+        "Wayfarer Sword",
+        "Boar"
+      ],
+      "tags": [
+        "Legacy"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "legacy_idle_08.png",
+      "names": [
+        "Spider",
+        "Stonekin",
+        "Wisp"
+      ],
+      "tags": [
+        "Legacy"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "legacy_idle_09.png",
+      "names": [
+        "Wolf",
+        "Briarsteel",
+        "Cairnwarden"
+      ],
+      "tags": [
+        "Legacy"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "legacy_idle_10.png",
+      "names": [
+        "Ember",
+        "Frontier",
+        "Glass"
+      ],
+      "tags": [
+        "Legacy"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "legacy_idle_11.png",
+      "names": [
+        "Marchguard",
+        "Relic",
+        "Rift"
+      ],
+      "tags": [
+        "Legacy"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "legacy_idle_12.png",
+      "names": [
+        "Wakecleaver",
+        "Wayfarer",
+        "Cliff"
+      ],
+      "tags": [
+        "Legacy"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "legacy_idle_13.png",
+      "names": [
+        "Cliff1",
+        "Rock1",
+        "Rock2"
+      ],
+      "tags": [
+        "Legacy"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "legacy_idle_14.png",
+      "names": [
+        "Tree1",
+        "Tree2"
+      ],
+      "tags": [
+        "Legacy"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "residents_idle_00.png",
+      "names": [
+        "Apothecary",
+        "Armorer",
+        "Artificer"
+      ],
+      "tags": [
+        "Residents"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "residents_idle_01.png",
+      "names": [
+        "Ash_Scout",
+        "Keeper",
+        "Mara"
+      ],
+      "tags": [
+        "Residents"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "residents_idle_02.png",
+      "names": [
+        "Smith",
+        "Stablemaster",
+        "Warden"
+      ],
+      "tags": [
+        "Residents"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "residents_idle_03.png",
+      "names": [
+        "Weapons"
+      ],
+      "tags": [
+        "Residents"
+      ],
+      "clip": "idle"
+    },
+    {
+      "image": "gallery_run_00.png",
+      "names": [
+        "Meadow Wolf",
+        "Young Mossling",
+        "Bristle Boar"
+      ],
+      "tags": [
+        "Creatures",
+        "Animation"
+      ],
+      "clip": "run"
+    },
+    {
+      "image": "gallery_run_01.png",
+      "names": [
+        "Mossling",
+        "Cairn Ironback",
+        "Road Bandit"
+      ],
+      "tags": [
+        "Creatures",
+        "Animation"
+      ],
+      "clip": "run"
+    },
+    {
+      "image": "gallery_run_02.png",
+      "names": [
+        "Cairn Sentinel",
+        "Cairn Colossus",
+        "Ironvow rider"
+      ],
+      "tags": [
+        "Creatures",
+        "Rider",
+        "Animation"
+      ],
+      "clip": "run"
+    }
+  ]
+}

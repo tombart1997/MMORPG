@@ -1,0 +1,178 @@
+{
+  "name": "rock_slate_balanced_3200_weld",
+  "asset_id": "f8a6d6b45539",
+  "source_key": "rock_slate",
+  "source": "game/assets/world_kit/rock0.glb",
+  "source_asset_id": "390757041a11",
+  "source_sha256": "ed135ef96bd36c0b867866186a543bd3cd211824bfa7b6daddc315e09ca7863f",
+  "imported_candidate": "0ef404a5f16c",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 3200,
+    "optimization_mode": "balanced",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [
+      0.6,
+      0.3
+    ],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "modularity_review",
+      "uv_materials",
+      "optimization_review",
+      "collision",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "a90622f79bbe",
+    "asset_id": "f8a6d6b45539",
+    "operation": "process",
+    "state": "succeeded",
+    "stage": "blender_process",
+    "progress": 100,
+    "created_at": "2026-10-03T18:43:12.867646+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {
+      "files": {
+        "editable.blend": "processed/a90622f79bbe/editable.blend",
+        "inspection_before.json": "processed/a90622f79bbe/inspection_before.json",
+        "optimization.json": "processed/a90622f79bbe/optimization.json",
+        "processing.json": "processed/a90622f79bbe/processing.json",
+        "runtime.glb": "processed/a90622f79bbe/runtime.glb",
+        "source.blend": "processed/a90622f79bbe/source.blend",
+        "source.glb": "processed/a90622f79bbe/source.glb",
+        "validation.json": "processed/a90622f79bbe/validation.json"
+      }
+    },
+    "resumed_from": null,
+    "message": "Complete \u00b7 visual review remains separate",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 3200,
+      "optimization_mode": "balanced",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [
+        0.6,
+        0.3
+      ],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "modularity_review",
+        "uv_materials",
+        "optimization_review",
+        "collision",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "0ef404a5f16c",
+      "path": "imports/0b29f44c3a05.glb",
+      "origin": "imported",
+      "sha256": "ed135ef96bd36c0b867866186a543bd3cd211824bfa7b6daddc315e09ca7863f",
+      "created_at": "2026-10-03T18:43:12.820750+00:00",
+      "original_filename": "rock0.glb",
+      "license": "Optimization study: retained local neural derivative from 390757041a11; SHA256 ed135ef96bd36c0b867866186a543bd3cd211824bfa7b6daddc315e09ca7863f",
+      "cost_credits": 0
+    },
+    "reference": null,
+    "started_at": "2026-10-03T18:43:12.883270+00:00",
+    "elapsed_seconds": 5.5,
+    "finished_at": "2026-10-03T18:43:18.454595+00:00",
+    "duration_seconds": 5.56
+  },
+  "visual_status": "pending",
+  "artifacts": {
+    "editable.blend": "processed/a90622f79bbe/editable.blend",
+    "inspection_before.json": "processed/a90622f79bbe/inspection_before.json",
+    "optimization.json": "processed/a90622f79bbe/optimization.json",
+    "processing.json": "processed/a90622f79bbe/processing.json",
+    "runtime.glb": "processed/a90622f79bbe/runtime.glb",
+    "source.blend": "processed/a90622f79bbe/source.blend",
+    "source.glb": "processed/a90622f79bbe/source.glb",
+    "validation.json": "processed/a90622f79bbe/validation.json"
+  },
+  "review_path": "res://review_assets/optimization/rock_slate_balanced_3200_weld.glb"
+}

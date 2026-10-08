@@ -1,4 +1,4 @@
 [gd_scene load_steps=2 format=3]
-[ext_resource type="PackedScene" path="res://assets/characters/jade_ironback_mantle.glb" id="1"]
+[ext_resource type="PackedScene" path="res://assets/generated/equipment/jade_ironback_mantle.glb" id="1"]
 [node name="IronbackRidge" type="Node3D"]
 [node name="CarvedMantle" parent="." instance=ExtResource("1")]

@@ -32,3 +32,7 @@ renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 anti_aliasing/quality/msaa_3d=2
 environment/defaults/default_clear_color=Color(0.07, 0.09, 0.13, 1)
+
+[physics]
+
+3d/physics_engine="Jolt Physics"

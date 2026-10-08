@@ -11,6 +11,17 @@ func _run() -> void:
 	check(get_nodes_in_group("enemies").size()<200,"Starting settlement does not instantiate the whole map")
 	var far: EnemyCamp = world.camps.back()
 	check(far.dormant and far.pack.members.is_empty(),"Distant camp has no combat actors")
+	var previous_position := player.position
+	player.position = far.position+Vector3(0,.1,55)
+	far.update_residency()
+	player.position = previous_position
+	var prefetch_key := "mobs/"+String(far.enemy_data.id)
+	var deadline := Time.get_ticks_msec()+5000
+	while not ForgeModelCatalogue.scenes.has(prefetch_key) and Time.get_ticks_msec()<deadline:
+		await frames(1)
+		ForgeModelCatalogue.collect_ready()
+	check(ForgeModelCatalogue.scenes.get(prefetch_key) is PackedScene,"Dormant approach prefetches the actual model in the background")
+	check(far.dormant and far.pack.members.is_empty(),"Prefetch does not spawn enemies or advance encounter state")
 	var camp: EnemyCamp = world.camps[0]
 	player.position = camp.position+Vector3(0,.1,4)
 	await frames(15)

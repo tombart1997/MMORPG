@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Turnwarden V2",
+      "path": "res://assets/characters/turnwarden_v2.glb"
+    },
+    {
+      "name": "Turnwarden V2 Sword",
+      "path": "res://assets/characters/turnwarden_v2_sword.glb"
+    },
+    {
+      "name": "Warden Insignia",
+      "path": "res://assets/characters/warden_insignia.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\legacy_idle_06.png",
+  "clip": "idle",
+  "time": 0
+}

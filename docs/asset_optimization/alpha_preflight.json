@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "reason": "Textured/mixed transparency requires a combined RGBA atlas; source retained",
+  "target_uvs_unchanged": true,
+  "target_materials_unchanged": true,
+  "source_alpha_link_unchanged": true,
+  "scope": "Real Blender bpy transparency guard; no remeshing or paid generation performed.",
+  "process_exit_code": 0
+}

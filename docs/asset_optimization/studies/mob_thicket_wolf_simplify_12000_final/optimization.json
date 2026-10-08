@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_thicket_wolf",
+      "before": 14000,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11995,
+      "quality": {
+        "surface_max_fraction": 0.002525879781496918,
+        "surface_p95_fraction": 0.0003214309676948172,
+        "bounds_drift_fraction": 6.077477718324639e-05,
+        "nonmanifold_edges": 0,
+        "samples": 6565
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.007692628291174413,
+          "p95_fraction": 0.0003231431475341279
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.008085008078849243,
+          "p95_fraction": 0.0003362400208499595
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.00748064029035285,
+          "p95_fraction": 0.00033978284029897245
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.006944825343598769,
+          "p95_fraction": 0.0003256393487927012
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.002669532089005289,
+          "p95_fraction": 0.0003267691018320038
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11995,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

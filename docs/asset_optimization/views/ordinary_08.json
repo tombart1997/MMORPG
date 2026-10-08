@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Ember Hound / 11995 tris",
+      "path": "res://review_assets/optimization/mob_ember_hound_simplify_12000_final.glb"
+    },
+    {
+      "name": "Cairn Sentinel / 11996 tris",
+      "path": "res://review_assets/optimization/mob_cairn_sentinel_simplify_12000_final.glb"
+    },
+    {
+      "name": "Glass Spider / 11996 tris",
+      "path": "res://review_assets/optimization/mob_glass_spider_simplify_12000_final.glb"
+    }
+  ],
+  "clip": "run",
+  "time": 0.19,
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\views\\ordinary_08.png"
+}

@@ -1,0 +1,15 @@
+{
+  "assets": [
+    {
+      "name": "Widow Spider / 11995 tris",
+      "path": "res://review_assets/optimization/mob_widow_spider_simplify_12000_final.glb"
+    },
+    {
+      "name": "Storm Wisp / 11996 tris",
+      "path": "res://review_assets/optimization/mob_storm_wisp_simplify_12000_final.glb"
+    }
+  ],
+  "clip": "run",
+  "time": 0.19,
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\views\\ordinary_10.png"
+}

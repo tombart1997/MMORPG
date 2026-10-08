@@ -1,0 +1,176 @@
+{
+  "name": "mob_storm_wisp_simplify_12000_final",
+  "asset_id": "65360b17d1ef",
+  "source_key": "mob_storm_wisp",
+  "source": "game/assets/forge_rebuild/mobs/storm_wisp.glb",
+  "source_asset_id": "37007ec74472",
+  "source_sha256": "aa398cdce60694633d7d331dd90ad2cd5ecb1653b6b9222e4fd92a061f6c997c",
+  "imported_candidate": "14f279acadbb",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 12000,
+    "optimization_mode": "simplify",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "anatomy_review",
+      "topology_review",
+      "uv_materials",
+      "species_rig_import",
+      "animation_review",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "4e2c94c1228e",
+    "asset_id": "65360b17d1ef",
+    "operation": "process",
+    "state": "succeeded",
+    "stage": "blender_process",
+    "progress": 100,
+    "created_at": "2026-10-03T19:19:16.382614+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {
+      "files": {
+        "animation_contract.json": "processed/4e2c94c1228e/animation_contract.json",
+        "editable.blend": "processed/4e2c94c1228e/editable.blend",
+        "inspection_before.json": "processed/4e2c94c1228e/inspection_before.json",
+        "optimization.json": "processed/4e2c94c1228e/optimization.json",
+        "processing.json": "processed/4e2c94c1228e/processing.json",
+        "runtime.glb": "processed/4e2c94c1228e/runtime.glb",
+        "source.blend": "processed/4e2c94c1228e/source.blend",
+        "source.glb": "processed/4e2c94c1228e/source.glb",
+        "validation.json": "processed/4e2c94c1228e/validation.json"
+      }
+    },
+    "resumed_from": null,
+    "message": "Complete \u00b7 visual review remains separate",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 12000,
+      "optimization_mode": "simplify",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "anatomy_review",
+        "topology_review",
+        "uv_materials",
+        "species_rig_import",
+        "animation_review",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "14f279acadbb",
+      "path": "imports/04c0cca2fcef.glb",
+      "origin": "imported",
+      "sha256": "aa398cdce60694633d7d331dd90ad2cd5ecb1653b6b9222e4fd92a061f6c997c",
+      "created_at": "2026-10-03T19:19:16.262743+00:00",
+      "original_filename": "storm_wisp.glb",
+      "license": "Optimization study: retained local neural derivative from 37007ec74472; SHA256 aa398cdce60694633d7d331dd90ad2cd5ecb1653b6b9222e4fd92a061f6c997c",
+      "cost_credits": 0
+    },
+    "reference": null,
+    "started_at": "2026-10-03T19:19:16.395892+00:00",
+    "elapsed_seconds": 10.9,
+    "finished_at": "2026-10-03T19:19:27.481307+00:00",
+    "duration_seconds": 11.09
+  },
+  "visual_status": "pending",
+  "artifacts": {
+    "animation_contract.json": "processed/4e2c94c1228e/animation_contract.json",
+    "editable.blend": "processed/4e2c94c1228e/editable.blend",
+    "inspection_before.json": "processed/4e2c94c1228e/inspection_before.json",
+    "optimization.json": "processed/4e2c94c1228e/optimization.json",
+    "processing.json": "processed/4e2c94c1228e/processing.json",
+    "runtime.glb": "processed/4e2c94c1228e/runtime.glb",
+    "source.blend": "processed/4e2c94c1228e/source.blend",
+    "source.glb": "processed/4e2c94c1228e/source.glb",
+    "validation.json": "processed/4e2c94c1228e/validation.json"
+  },
+  "review_path": "res://review_assets/optimization/mob_storm_wisp_simplify_12000_final.glb"
+}

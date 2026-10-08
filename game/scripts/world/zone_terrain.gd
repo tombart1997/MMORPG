@@ -122,6 +122,9 @@ func _ready() -> void:
 	add_child(fire)
 	add_child(BriarwakeGrove.new())
 	# Landmarks visible from travel lanes, with distinct vertical silhouettes.
+	# Flush timber crossing on the existing trail. The original terrain and
+	# navigation surface stay authoritative; the deck adds no collision lip.
+	scenery.place("bridge",Vector3(18,height_at(18,-12)-.22,-12),Vector3.ONE,0)
 	for feature in [["watchtower",-10,0,1.0,0.0],["shrine",25,-12,1.0,.4],["shrine",26,-36,1.2,.2],["ruin_arch",35,-73,1.5,-.4],["shrine",-82,-125,1.3,.8],["ruin_arch",82,-211,1.8,.25]]:
 		var point := Vector3(feature[1],0,feature[2])
 		point.y = height_at(point.x,point.z)

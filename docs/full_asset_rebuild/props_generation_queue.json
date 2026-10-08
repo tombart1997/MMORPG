@@ -1,0 +1,58 @@
+{
+  "fracture": {
+    "asset_id": "319dfb8961fa",
+    "job_id": "066fd078f982",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\319dfb8961fa\\generated\\066fd078f982\\source.glb"
+  },
+  "coin": {
+    "asset_id": "88e6a53df93c",
+    "job_id": "9997526a7091",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\88e6a53df93c\\generated\\9997526a7091\\source.glb"
+  },
+  "crate": {
+    "asset_id": "2948bfff85d8",
+    "job_id": "f5eeb3c47dd6",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\2948bfff85d8\\generated\\f5eeb3c47dd6\\source.glb"
+  },
+  "bridge": {
+    "asset_id": "274f10da77af",
+    "job_id": "58fe04234336",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\274f10da77af\\generated\\58fe04234336\\source.glb"
+  },
+  "keeper": {
+    "asset_id": "cc7f442b8501",
+    "job_id": "5e71f44d3250",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\cc7f442b8501\\generated\\5e71f44d3250\\source.glb"
+  },
+  "stablemaster": {
+    "asset_id": "d6f1cbc42704",
+    "job_id": "b9262a6eba8d",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\d6f1cbc42704\\generated\\b9262a6eba8d\\source.glb"
+  },
+  "saddle": {
+    "asset_id": "94842673905b",
+    "job_id": "477a3048d491",
+    "state": "succeeded",
+    "stage": "combined_view_generation",
+    "message": "Complete \u00b7 visual review remains separate",
+    "source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\94842673905b\\generated\\477a3048d491\\source.glb"
+  }
+}

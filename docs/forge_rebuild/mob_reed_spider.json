@@ -1,0 +1,42 @@
+{
+  "key": "mob_reed_spider",
+  "forge_asset_id": "a5d900e10fc7",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\a5d900e10fc7\\generated\\468cb43fec94\\source.glb",
+  "rig_source": "blender/creatures/spider.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\reed_spider.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\mob_reed_spider.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -1.150913119316101,
+      -1.0199999809265137,
+      0.0645306333899498
+    ],
+    [
+      1.150913119316101,
+      0.8327771425247192,
+      0.9959999918937683
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 93770,
+      "after": 13998,
+      "extent_drift": 0.0036758296895864156
+    }
+  ],
+  "bones": 20,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review",
+  "silhouette_cleanup": {
+    "removed_vertices": 531,
+    "painted_ground_trim": false
+  }
+}

@@ -1,0 +1,64 @@
+{
+	"assets": [
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.494781941175461,
+					-0.403779417276382,
+					-0.13161912560463
+				],
+				[
+					0.995186805725098,
+					0.809401333332062,
+					0.262817025184631
+				]
+			],
+			"key": "horse_native",
+			"output": "D:\\Games\\Metin2Clone\\.local\\multiview_benchmarks\\validation\\results\\horse_native.png",
+			"path": "res://assets/horse_native.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.494781941175461,
+					-0.403779417276382,
+					-0.13161912560463
+				],
+				[
+					0.995186805725098,
+					0.809401333332062,
+					0.262817025184631
+				]
+			],
+			"key": "horse_projected",
+			"output": "D:\\Games\\Metin2Clone\\.local\\multiview_benchmarks\\validation\\results\\horse_projected.png",
+			"path": "res://assets/horse_projected.glb",
+			"status": "rendered_requires_visual_review"
+		},
+		{
+			"camera_contract": "4 orthographic angles; unchanged physical scale; identical paired framing; gameplay at 11m; 320px tiles",
+			"clips": [],
+			"framing_bounds": [
+				[
+					-0.131577670574188,
+					-0.403693467378616,
+					-0.500332474708557
+				],
+				[
+					0.262997359037399,
+					0.809352934360504,
+					0.995246231555939
+				]
+			],
+			"key": "horse_runtime",
+			"output": "D:\\Games\\Metin2Clone\\.local\\multiview_benchmarks\\validation\\results\\horse_runtime.png",
+			"path": "res://assets/horse_runtime.glb",
+			"status": "rendered_requires_visual_review"
+		}
+	]
+}

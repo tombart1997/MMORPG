@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Meadow Wolf / 11995 tris",
+      "path": "res://review_assets/optimization/mob_meadow_wolf_simplify_12000_final.glb"
+    },
+    {
+      "name": "Young Mossling / 11996 tris",
+      "path": "res://review_assets/optimization/mob_young_simplify_12000_final.glb"
+    },
+    {
+      "name": "Bristle Boar / 11996 tris",
+      "path": "res://review_assets/optimization/mob_bristle_boar_simplify_12000_final.glb"
+    }
+  ],
+  "clip": "run",
+  "time": 0.19,
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\views\\ordinary_01.png"
+}

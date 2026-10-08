@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_cairn_sentinel",
+      "before": 13722,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11996,
+      "quality": {
+        "surface_max_fraction": 0.0012527043387403744,
+        "surface_p95_fraction": 0.00011414183424757032,
+        "bounds_drift_fraction": 0.00027182403680439324,
+        "nonmanifold_edges": 0,
+        "samples": 6602
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.0030946790954062314,
+          "p95_fraction": 0.00011827161270163047
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.005166918587109164,
+          "p95_fraction": 0.00012400251627603953
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.007475450118278649,
+          "p95_fraction": 0.00012437917481438796
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.004401087599897164,
+          "p95_fraction": 0.0001230416147121309
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.001441161756163532,
+          "p95_fraction": 0.00012348400506362108
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11996,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

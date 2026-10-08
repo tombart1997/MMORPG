@@ -63,8 +63,21 @@ func _ready() -> void:
 	health.died.connect(_on_died)
 
 func _process(delta: float) -> void:
+	if not RuntimeCosts.enabled:
+		_profiled__process(delta)
+		return
+	var started:=Time.get_ticks_usec()
+	_profiled__process(delta)
+	RuntimeCosts.record(&"presentation",started)
+
+func _profiled__process(delta: float) -> void:
 	visual_elapsed += delta
 	if simulation_interval > 0 and visual_elapsed < simulation_interval and not combat.is_attacking(): return
+	if faction == &"enemies":
+		var camera := get_viewport().get_camera_3d()
+		# Peripheral skeletons need fewer samples; combat timing, movement and
+		# collisions continue at their normal physics rate. Close attacks stay smooth.
+		if camera and camera.global_position.distance_squared_to(global_position)>400 and visual_elapsed<1.0/30.0:return
 	# Nearby action retains full-rate telegraphs. Distant idle skeletons tick at 5 Hz.
 	if not has_meta("full_detail") and faction == &"enemies" and health.is_alive() and not combat.is_attacking():
 		var camera := get_viewport().get_camera_3d()

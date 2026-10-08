@@ -1,0 +1,176 @@
+{
+  "name": "mob_glass_spider_simplify_12000_final",
+  "asset_id": "c5198feed97f",
+  "source_key": "mob_glass_spider",
+  "source": "game/assets/forge_rebuild/mobs/glass_spider.glb",
+  "source_asset_id": "bb0293d6c5dd",
+  "source_sha256": "01074e6eb1b2adfb6a84ada5d1bbb9e3ce093442e642b26a67a1e3dec6c08b3d",
+  "imported_candidate": "407d0f103f34",
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 12000,
+    "optimization_mode": "simplify",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "anatomy_review",
+      "topology_review",
+      "uv_materials",
+      "species_rig_import",
+      "animation_review",
+      "export",
+      "godot"
+    ]
+  },
+  "job": {
+    "id": "42ae8dbbda3c",
+    "asset_id": "c5198feed97f",
+    "operation": "process",
+    "state": "succeeded",
+    "stage": "blender_process",
+    "progress": 100,
+    "created_at": "2026-10-03T19:18:03.584425+00:00",
+    "reason": "Measure surface-preserving quality/performance balance in the real game.",
+    "options": {},
+    "checkpoint": {
+      "files": {
+        "animation_contract.json": "processed/42ae8dbbda3c/animation_contract.json",
+        "editable.blend": "processed/42ae8dbbda3c/editable.blend",
+        "inspection_before.json": "processed/42ae8dbbda3c/inspection_before.json",
+        "optimization.json": "processed/42ae8dbbda3c/optimization.json",
+        "processing.json": "processed/42ae8dbbda3c/processing.json",
+        "runtime.glb": "processed/42ae8dbbda3c/runtime.glb",
+        "source.blend": "processed/42ae8dbbda3c/source.blend",
+        "source.glb": "processed/42ae8dbbda3c/source.glb",
+        "validation.json": "processed/42ae8dbbda3c/validation.json"
+      }
+    },
+    "resumed_from": null,
+    "message": "Complete \u00b7 visual review remains separate",
+    "estimated_cost_credits": 0,
+    "settings": {
+      "generation_seed": 42,
+      "diffusion_steps": 50,
+      "guidance_scale": 7.0,
+      "shape_octree_depth": 9,
+      "triangle_budget": 12000,
+      "optimization_mode": "simplify",
+      "max_surface_error": 0.02,
+      "bake_normal_map": false,
+      "texture_resolution": 1024,
+      "collision": "none",
+      "generate_lods": false,
+      "lod_ratios": [],
+      "repair_degenerate": false,
+      "recalculate_normals": false,
+      "render_preview": false,
+      "mc_resolution": 256,
+      "front_axis": "-Z",
+      "source_rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "export_formats": [
+        "glb"
+      ],
+      "separate_effects": false,
+      "bypass_rigging": false,
+      "attachment": null,
+      "material_variant": null,
+      "equipment_asset": null,
+      "weapon_attachment": {
+        "bone": "Hand.R",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stages": [
+        "reference",
+        "generation_or_import",
+        "anatomy_review",
+        "topology_review",
+        "uv_materials",
+        "species_rig_import",
+        "animation_review",
+        "export",
+        "godot"
+      ]
+    },
+    "candidate": {
+      "id": "407d0f103f34",
+      "path": "imports/9468b1a4f9ef.glb",
+      "origin": "imported",
+      "sha256": "01074e6eb1b2adfb6a84ada5d1bbb9e3ce093442e642b26a67a1e3dec6c08b3d",
+      "created_at": "2026-10-03T19:18:03.505852+00:00",
+      "original_filename": "glass_spider.glb",
+      "license": "Optimization study: retained local neural derivative from bb0293d6c5dd; SHA256 01074e6eb1b2adfb6a84ada5d1bbb9e3ce093442e642b26a67a1e3dec6c08b3d",
+      "cost_credits": 0
+    },
+    "reference": null,
+    "started_at": "2026-10-03T19:18:03.604764+00:00",
+    "elapsed_seconds": 12.1,
+    "finished_at": "2026-10-03T19:18:15.884925+00:00",
+    "duration_seconds": 12.28
+  },
+  "visual_status": "pending",
+  "artifacts": {
+    "animation_contract.json": "processed/42ae8dbbda3c/animation_contract.json",
+    "editable.blend": "processed/42ae8dbbda3c/editable.blend",
+    "inspection_before.json": "processed/42ae8dbbda3c/inspection_before.json",
+    "optimization.json": "processed/42ae8dbbda3c/optimization.json",
+    "processing.json": "processed/42ae8dbbda3c/processing.json",
+    "runtime.glb": "processed/42ae8dbbda3c/runtime.glb",
+    "source.blend": "processed/42ae8dbbda3c/source.blend",
+    "source.glb": "processed/42ae8dbbda3c/source.glb",
+    "validation.json": "processed/42ae8dbbda3c/validation.json"
+  },
+  "review_path": "res://review_assets/optimization/mob_glass_spider_simplify_12000_final.glb"
+}

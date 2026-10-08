@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Ancient Warden",
+      "path": "res://assets/forge_rebuild/mobs/ancient_warden.glb"
+    },
+    {
+      "name": "Cairn Colossus",
+      "path": "res://assets/forge_rebuild/mobs/cairn_colossus.glb"
+    },
+    {
+      "name": "Ironvow rider",
+      "path": "res://assets/characters/warden_high.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\gallery_idle_12.png",
+  "clip": "idle",
+  "time": 0
+}

@@ -1,0 +1,32 @@
+{
+  "key": "tree_pine",
+  "forge_asset_id": "c91ab84343a8",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\c91ab84343a8\\generated\\87ade218fec0\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\world_kit\\tree0.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\tree_pine.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -3.8244433403015137,
+      -3.407942295074463,
+      -0.2525714039802551
+    ],
+    [
+      3.145045518875122,
+      3.181701421737671,
+      7.27168607711792
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 98904,
+      "after": 5000,
+      "extent_drift": 0.04055342316294024
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

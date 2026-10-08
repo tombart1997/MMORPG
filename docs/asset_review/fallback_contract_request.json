@@ -1,0 +1,700 @@
+{
+  "assets": [
+    {
+      "key": "mob_ironhide_boar",
+      "path": "res://review_assets/fallbacks/assets/forge_rebuild/mobs/blacktusk.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Chest",
+        "FrontUpper.L",
+        "FrontLower.L",
+        "FrontUpper.R",
+        "FrontLower.R",
+        "Head",
+        "HindUpper.L",
+        "HindLower.L",
+        "HindUpper.R",
+        "HindLower.R",
+        "Tail"
+      ],
+      "expected_clips": [
+        "attack_01",
+        "death",
+        "hit",
+        "idle",
+        "run"
+      ]
+    },
+    {
+      "key": "mob_young",
+      "path": "res://review_assets/fallbacks/assets/characters/briarling.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "attack_01",
+        "death",
+        "hit",
+        "idle",
+        "run"
+      ]
+    },
+    {
+      "key": "mob_red_wolf",
+      "path": "res://review_assets/fallbacks/assets/forge_rebuild/mobs/meadow_wolf.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Chest",
+        "FrontUpper.L",
+        "FrontLower.L",
+        "FrontUpper.R",
+        "FrontLower.R",
+        "Head",
+        "HindUpper.L",
+        "HindLower.L",
+        "HindUpper.R",
+        "HindLower.R",
+        "Tail"
+      ],
+      "expected_clips": [
+        "attack_01",
+        "death",
+        "hit",
+        "idle",
+        "run"
+      ]
+    },
+    {
+      "key": "mob_copper_spider",
+      "path": "res://review_assets/fallbacks/assets/creatures/spider.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Chest",
+        "Head",
+        "Leg0Upper.L",
+        "Leg0Lower.L",
+        "Leg0Upper.R",
+        "Leg0Lower.R",
+        "Leg1Upper.L",
+        "Leg1Lower.L",
+        "Leg1Upper.R",
+        "Leg1Lower.R",
+        "Leg2Upper.L",
+        "Leg2Lower.L",
+        "Leg2Upper.R",
+        "Leg2Lower.R",
+        "Leg3Upper.L",
+        "Leg3Lower.L",
+        "Leg3Upper.R",
+        "Leg3Lower.R"
+      ],
+      "expected_clips": [
+        "attack_01",
+        "death",
+        "hit",
+        "idle",
+        "run"
+      ]
+    },
+    {
+      "key": "mob_road_bandit",
+      "path": "res://review_assets/fallbacks/assets/characters/warden_high.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "attack_01",
+        "attack_02",
+        "attack_03",
+        "death",
+        "hit",
+        "idle",
+        "longsword_01",
+        "longsword_02",
+        "longsword_03",
+        "longsword_idle",
+        "longsword_run",
+        "run",
+        "skill_guard",
+        "skill_plant",
+        "skill_riposte",
+        "skill_step"
+      ]
+    },
+    {
+      "key": "mob_slate_guardian",
+      "path": "res://review_assets/fallbacks/assets/creatures/stonekin.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "attack_01",
+        "death",
+        "hit",
+        "idle",
+        "run"
+      ]
+    },
+    {
+      "key": "horse_bay",
+      "path": "res://review_assets/fallbacks/assets/mounts/trail_horse.glb",
+      "expected_bones": [
+        "Root",
+        "Body",
+        "Fore.L.Upper",
+        "Fore.L.Lower",
+        "Fore.L.Ankle",
+        "Fore.L.Hoof",
+        "Fore.R.Upper",
+        "Fore.R.Lower",
+        "Fore.R.Ankle",
+        "Fore.R.Hoof",
+        "Hind.L.Upper",
+        "Hind.L.Lower",
+        "Hind.L.Ankle",
+        "Hind.L.Hoof",
+        "Hind.R.Upper",
+        "Hind.R.Lower",
+        "Hind.R.Ankle",
+        "Hind.R.Hoof",
+        "Neck",
+        "Head",
+        "Ear.L",
+        "Ear.R",
+        "Tail"
+      ],
+      "expected_clips": [
+        "canter",
+        "idle",
+        "trot",
+        "walk"
+      ]
+    },
+    {
+      "key": "tree_pine",
+      "path": "res://review_assets/fallbacks/assets/world_kit/tree0.glb",
+      "expected_bones": [],
+      "expected_clips": []
+    },
+    {
+      "key": "shrub_reference",
+      "path": "res://review_assets/fallbacks/assets/world_kit/shrub.glb",
+      "expected_bones": [],
+      "expected_clips": []
+    },
+    {
+      "key": "npc_keeper",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "idle",
+        "keeper_idle",
+        "smith_idle"
+      ]
+    },
+    {
+      "key": "npc_smith",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "idle",
+        "keeper_idle",
+        "smith_idle"
+      ]
+    },
+    {
+      "key": "npc_stablemaster",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "idle",
+        "keeper_idle",
+        "smith_idle"
+      ]
+    },
+    {
+      "key": "grass",
+      "path": "res://review_assets/fallbacks/assets/world_kit/grass.glb",
+      "expected_bones": [],
+      "expected_clips": []
+    },
+    {
+      "key": "derived_benchmark_sedge",
+      "path": "res://review_assets/fallbacks/assets/benchmark/sedge.glb",
+      "expected_bones": [],
+      "expected_clips": []
+    },
+    {
+      "key": "derived_benchmark_shrub_briar",
+      "path": "res://review_assets/fallbacks/assets/benchmark/shrub_briar.glb",
+      "expected_bones": [],
+      "expected_clips": []
+    },
+    {
+      "key": "derived_benchmark_shrub_laurel",
+      "path": "res://review_assets/fallbacks/assets/benchmark/shrub_laurel.glb",
+      "expected_bones": [],
+      "expected_clips": []
+    },
+    {
+      "key": "derived_benchmark_tree_bent",
+      "path": "res://review_assets/fallbacks/assets/benchmark/tree_bent.glb",
+      "expected_bones": [],
+      "expected_clips": []
+    },
+    {
+      "key": "derived_benchmark_tree_fork",
+      "path": "res://review_assets/fallbacks/assets/benchmark/tree_fork.glb",
+      "expected_bones": [],
+      "expected_clips": []
+    },
+    {
+      "key": "derived_benchmark_tree_wide",
+      "path": "res://review_assets/fallbacks/assets/benchmark/tree_wide.glb",
+      "expected_bones": [],
+      "expected_clips": []
+    },
+    {
+      "key": "derived_characters_jade_ironback_mantle",
+      "path": "res://review_assets/fallbacks/assets/characters/jade_ironback_mantle.glb",
+      "expected_bones": [],
+      "expected_clips": []
+    },
+    {
+      "key": "derived_characters_townfolk_kit",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "idle",
+        "keeper_idle",
+        "smith_idle"
+      ]
+    },
+    {
+      "key": "derived_characters_traveler",
+      "path": "res://review_assets/fallbacks/assets/characters/traveler.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "attack_01",
+        "attack_02",
+        "attack_03",
+        "death",
+        "hit",
+        "idle",
+        "run",
+        "skill_guard",
+        "skill_plant",
+        "skill_riposte",
+        "skill_step"
+      ]
+    },
+    {
+      "key": "derived_characters_traveler_guard",
+      "path": "res://review_assets/fallbacks/assets/characters/traveler_guard.glb",
+      "expected_bones": [],
+      "expected_clips": []
+    },
+    {
+      "key": "derived_characters_turnwarden_v2",
+      "path": "res://review_assets/fallbacks/assets/characters/turnwarden_v2.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "attack_01",
+        "attack_02",
+        "attack_03",
+        "death",
+        "hit",
+        "idle",
+        "run",
+        "skill_guard",
+        "skill_plant",
+        "skill_riposte",
+        "skill_step"
+      ]
+    },
+    {
+      "key": "derived_world_kit_tree1",
+      "path": "res://review_assets/fallbacks/assets/world_kit/tree1.glb",
+      "expected_bones": [],
+      "expected_clips": []
+    },
+    {
+      "key": "derived_world_kit_tree2",
+      "path": "res://review_assets/fallbacks/assets/world_kit/tree2.glb",
+      "expected_bones": [],
+      "expected_clips": []
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_mara",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "idle",
+        "keeper_idle",
+        "smith_idle"
+      ]
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_apothecary",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "idle",
+        "keeper_idle",
+        "smith_idle"
+      ]
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_artificer",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "idle",
+        "keeper_idle",
+        "smith_idle"
+      ]
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_armorer",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "idle",
+        "keeper_idle",
+        "smith_idle"
+      ]
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_weapons",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "idle",
+        "keeper_idle",
+        "smith_idle"
+      ]
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_warden",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "idle",
+        "keeper_idle",
+        "smith_idle"
+      ]
+    },
+    {
+      "key": "derived_forge_rebuild_npcs_ash_scout",
+      "path": "res://review_assets/fallbacks/assets/characters/townfolk_kit.glb",
+      "expected_bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "expected_clips": [
+        "idle",
+        "keeper_idle",
+        "smith_idle"
+      ]
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_review\\fallback_contracts.json"
+}

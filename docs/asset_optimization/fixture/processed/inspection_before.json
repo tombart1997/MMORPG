@@ -1,0 +1,52 @@
+{
+  "objects": [
+    {
+      "name": "Synthetic_transfer_fixture",
+      "vertices": 1986,
+      "triangles": 3968,
+      "materials": 1,
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "has_uv": true,
+      "collapsed_uv_triangles": 0,
+      "skinned": false,
+      "unweighted_vertices": 0
+    }
+  ],
+  "triangles": 3968,
+  "textures": [
+    {
+      "name": "Synthetic checker",
+      "resolution": [
+        128,
+        128
+      ],
+      "packed": true,
+      "available": true
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.9999997019767761,
+      -0.7499998211860657,
+      -1.2999999523162842
+    ],
+    "max": [
+      0.9999998807907104,
+      0.75,
+      1.2999999523162842
+    ]
+  },
+  "armatures": [],
+  "actions": [],
+  "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+  "unverified": [
+    "UV overlap beyond collapsed triangles",
+    "Internal occluded geometry",
+    "Baked lighting",
+    "Joint clipping",
+    "Reference fidelity"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "source": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\fixture\\fixture.blend",
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\fixture\\verified",
+  "operation": "process",
+  "settings": {
+    "optimization_mode": "retopology",
+    "triangle_budget": 2500,
+    "max_surface_error": 0.02,
+    "texture_resolution": 1024,
+    "bake_normal_map": true,
+    "render_preview": false,
+    "collision": "none",
+    "generate_lods": false
+  }
+}

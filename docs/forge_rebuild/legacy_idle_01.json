@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "name": "Rock 0",
+      "path": "res://assets/benchmark/rock_0.glb"
+    },
+    {
+      "name": "Rock 1",
+      "path": "res://assets/benchmark/rock_1.glb"
+    },
+    {
+      "name": "Rock 2",
+      "path": "res://assets/benchmark/rock_2.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\forge_rebuild\\legacy_idle_01.png",
+  "clip": "idle",
+  "time": 0
+}

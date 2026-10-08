@@ -1,0 +1,32 @@
+{
+  "key": "bridge",
+  "forge_asset_id": "5e5c4e84ecae",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\5e5c4e84ecae\\generated\\453680ea18d5\\source.glb",
+  "rig_source": null,
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\world\\bridge.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\bridge.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.5999999046325684,
+      6.0,
+      1.600000023841858
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 14016,
+      "after": 4500,
+      "extent_drift": 0.00924696177513597
+    }
+  ],
+  "bones": 0,
+  "clips": [],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}

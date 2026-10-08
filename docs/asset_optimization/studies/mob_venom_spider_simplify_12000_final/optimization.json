@@ -1,0 +1,59 @@
+{
+  "mode": "simplify",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_mob_venom_spider",
+      "before": 13938,
+      "target": 12000,
+      "status": "optimized",
+      "method": "simplify",
+      "after": 11995,
+      "quality": {
+        "surface_max_fraction": 0.0012296194159009705,
+        "surface_p95_fraction": 0.00014747386072263614,
+        "bounds_drift_fraction": 9.77631104635128e-05,
+        "nonmanifold_edges": 0,
+        "samples": 6743
+      },
+      "textures": [],
+      "material_transfer": "preserved_source_uvs_and_materials",
+      "deformation": [
+        {
+          "clip": "death",
+          "samples": 3,
+          "max_fraction": 0.004031609750604583,
+          "p95_fraction": 0.00015712566828421763
+        },
+        {
+          "clip": "hit",
+          "samples": 3,
+          "max_fraction": 0.008783185942876423,
+          "p95_fraction": 0.00015056758204925487
+        },
+        {
+          "clip": "attack_01",
+          "samples": 3,
+          "max_fraction": 0.009240216770032093,
+          "p95_fraction": 0.00016509960386301622
+        },
+        {
+          "clip": "run",
+          "samples": 3,
+          "max_fraction": 0.006320847282108638,
+          "p95_fraction": 0.00015517061414215664
+        },
+        {
+          "clip": "idle",
+          "samples": 3,
+          "max_fraction": 0.002076719743162224,
+          "p95_fraction": 0.00014747386072263614
+        }
+      ],
+      "rejected_attempts": []
+    }
+  ],
+  "target_triangles": 12000,
+  "achieved_triangles": 11995,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

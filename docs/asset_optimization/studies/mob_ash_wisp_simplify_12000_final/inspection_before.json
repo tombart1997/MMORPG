@@ -1,0 +1,63 @@
+{
+  "objects": [
+    {
+      "name": "Forge_mob_ash_wisp",
+      "vertices": 14595,
+      "triangles": 13838,
+      "materials": 1,
+      "degenerate_faces": 0,
+      "boundary_edges": 12558,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "has_uv": true,
+      "collapsed_uv_triangles": 0,
+      "skinned": true,
+      "unweighted_vertices": 0
+    }
+  ],
+  "triangles": 13838,
+  "textures": [
+    {
+      "name": "Forge_mob_ash_wisp_RuntimeAtlas",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "available": true
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.2739003300666809,
+      -0.22432565689086914,
+      0.1323244720697403
+    ],
+    "max": [
+      0.27308189868927,
+      0.27191808819770813,
+      1.5634665489196777
+    ]
+  },
+  "armatures": [
+    {
+      "name": "SpiritRig",
+      "bones": 4
+    }
+  ],
+  "actions": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+  "unverified": [
+    "UV overlap beyond collapsed triangles",
+    "Internal occluded geometry",
+    "Baked lighting",
+    "Joint clipping",
+    "Reference fidelity"
+  ]
+}

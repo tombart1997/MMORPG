@@ -1,0 +1,221 @@
+{
+  "schema": 1,
+  "objects": [
+    {
+      "name": "Forge_mob_storm_wisp",
+      "vertices": 14038,
+      "triangles": 11996,
+      "local_bounds": [
+        [
+          -0.27399998903274536,
+          -0.27331477403640747,
+          0.12970773875713348
+        ],
+        [
+          0.27399998903274536,
+          0.25263845920562744,
+          1.560815691947937
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "degenerate_triangles": 0,
+      "welded_boundary_edges": 2314,
+      "welded_nonmanifold_edges": 0,
+      "connected_components_vertices": [
+        6579,
+        41,
+        31
+      ],
+      "sharp_edges_over_60_degrees": 2359,
+      "smooth_faces": 11996,
+      "faces": 11996,
+      "custom_normals": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "uv_triangle_area_sum": 0.03810622030392111,
+      "collapsed_uv_triangles": 0,
+      "materials": [
+        "Forge_mob_storm_wisp_RuntimeColor"
+      ],
+      "skinned": true,
+      "unweighted_vertices": 0,
+      "weight_sum_range": [
+        0.9999999701976776,
+        1.0000000298023224
+      ],
+      "regions": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Forge_mob_storm_wisp_RuntimeColor",
+      "channels": {
+        "Base Color": {
+          "linked": true,
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        },
+        "Roughness": {
+          "linked": false,
+          "value": 0.8199999928474426
+        },
+        "Metallic": {
+          "linked": false,
+          "value": 0.0
+        },
+        "Normal": {
+          "linked": false,
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Alpha": {
+          "linked": false,
+          "value": 1.0
+        },
+        "Emission Color": {
+          "linked": true,
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Emission Strength": {
+          "linked": false,
+          "value": 0.4000000059604645
+        }
+      },
+      "textures": [
+        {
+          "name": "Forge_mob_storm_wisp_RuntimeAtlas",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        },
+        {
+          "name": "Forge_mob_storm_wisp_RuntimeAtlas",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "available": true,
+          "packed": true,
+          "colorspace": "sRGB"
+        }
+      ]
+    }
+  ],
+  "triangles": 11996,
+  "skeletons": [
+    {
+      "name": "SpiritRig",
+      "bones": [
+        {
+          "name": "Root",
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            2.9094261222439854e-08,
+            0.8500000238418579
+          ]
+        },
+        {
+          "name": "Hips",
+          "head": [
+            -7.411538288475128e-22,
+            2.9094257669726176e-08,
+            0.8499999642372131
+          ],
+          "tail": [
+            -7.411538288475128e-22,
+            3.4228534673275135e-08,
+            0.9999998807907104
+          ]
+        },
+        {
+          "name": "Chest",
+          "head": [
+            -4.23516574601346e-22,
+            3.4228534673275135e-08,
+            0.9999998807907104
+          ],
+          "tail": [
+            -3.5998918938534e-22,
+            4.4497081574945696e-08,
+            1.299999475479126
+          ]
+        },
+        {
+          "name": "Head",
+          "head": [
+            -2.541101214656504e-22,
+            4.4497081574945696e-08,
+            1.299999475479126
+          ],
+          "tail": [
+            -2.2234644147942186e-22,
+            5.476562847661626e-08,
+            1.5999990701675415
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    "attack_01",
+    "death",
+    "hit",
+    "idle",
+    "run"
+  ],
+  "interpretation_limits": [
+    "Boundaries and connected components need semantic inspection; openings may be intentional.",
+    "UV area sums do not prove overlaps or face pixel quality. Source textures and region allocation require review.",
+    "Normal vectors and weights alone do not establish anatomy, clipping or reference fidelity."
+  ],
+  "visual_status": "requires_review",
+  "source": "D:\\Games\\Metin2Clone\\game\\assets\\forge_rebuild\\mobs\\storm_wisp.glb",
+  "seconds": 0.388
+}

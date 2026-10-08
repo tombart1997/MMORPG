@@ -1,0 +1,255 @@
+{
+  "before": {
+    "objects": [
+      {
+        "name": "Forge_mob_cinder_wisp",
+        "vertices": 9541,
+        "triangles": 12082,
+        "materials": 1,
+        "degenerate_faces": 0,
+        "boundary_edges": 6322,
+        "nonmanifold_edges": 0,
+        "loose_vertices": 0,
+        "has_uv": true,
+        "collapsed_uv_triangles": 78,
+        "skinned": true,
+        "unweighted_vertices": 0
+      }
+    ],
+    "triangles": 12082,
+    "textures": [
+      {
+        "name": "Image_0",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "available": true
+      }
+    ],
+    "bounds": {
+      "min": [
+        -0.27399998903274536,
+        -0.2730160355567932,
+        0.1323244720697403
+      ],
+      "max": [
+        0.27399998903274536,
+        0.2735109329223633,
+        1.5636780261993408
+      ]
+    },
+    "armatures": [
+      {
+        "name": "SpiritRig",
+        "bones": 4
+      }
+    ],
+    "actions": [
+      "attack_01",
+      "death",
+      "hit",
+      "idle",
+      "run"
+    ],
+    "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+    "unverified": [
+      "UV overlap beyond collapsed triangles",
+      "Internal occluded geometry",
+      "Baked lighting",
+      "Joint clipping",
+      "Reference fidelity"
+    ]
+  },
+  "after": {
+    "objects": [
+      {
+        "name": "Forge_mob_cinder_wisp",
+        "vertices": 9479,
+        "triangles": 11996,
+        "materials": 1,
+        "degenerate_faces": 0,
+        "boundary_edges": 6282,
+        "nonmanifold_edges": 0,
+        "loose_vertices": 0,
+        "has_uv": true,
+        "collapsed_uv_triangles": 71,
+        "skinned": true,
+        "unweighted_vertices": 0
+      }
+    ],
+    "triangles": 11996,
+    "textures": [
+      {
+        "name": "Image_0",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "available": true
+      }
+    ],
+    "bounds": {
+      "min": [
+        -0.27399998903274536,
+        -0.2730160355567932,
+        0.1323244720697403
+      ],
+      "max": [
+        0.27399998903274536,
+        0.2735109329223633,
+        1.5636780261993408
+      ]
+    },
+    "armatures": [
+      {
+        "name": "SpiritRig",
+        "bones": 4
+      }
+    ],
+    "actions": [
+      "attack_01",
+      "death",
+      "hit",
+      "idle",
+      "run"
+    ],
+    "boundary_note": "Open boundaries may be intentional; no watertight requirement is applied",
+    "unverified": [
+      "UV overlap beyond collapsed triangles",
+      "Internal occluded geometry",
+      "Baked lighting",
+      "Joint clipping",
+      "Reference fidelity"
+    ]
+  },
+  "lods": [],
+  "settings": {
+    "generation_seed": 42,
+    "diffusion_steps": 50,
+    "guidance_scale": 7.0,
+    "shape_octree_depth": 9,
+    "triangle_budget": 12000,
+    "optimization_mode": "simplify",
+    "max_surface_error": 0.02,
+    "bake_normal_map": false,
+    "texture_resolution": 1024,
+    "collision": "none",
+    "generate_lods": false,
+    "lod_ratios": [],
+    "repair_degenerate": false,
+    "recalculate_normals": false,
+    "render_preview": false,
+    "mc_resolution": 256,
+    "front_axis": "-Z",
+    "source_rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "export_formats": [
+      "glb"
+    ],
+    "separate_effects": false,
+    "bypass_rigging": false,
+    "attachment": null,
+    "material_variant": null,
+    "equipment_asset": null,
+    "weapon_attachment": {
+      "bone": "Hand.R",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    "stages": [
+      "reference",
+      "generation_or_import",
+      "anatomy_review",
+      "topology_review",
+      "uv_materials",
+      "species_rig_import",
+      "animation_review",
+      "export",
+      "godot"
+    ]
+  },
+  "optimization": {
+    "mode": "simplify",
+    "source_preserved": true,
+    "objects": [
+      {
+        "name": "Forge_mob_cinder_wisp",
+        "before": 12082,
+        "target": 12000,
+        "status": "optimized",
+        "method": "simplify",
+        "after": 11996,
+        "quality": {
+          "surface_max_fraction": 1.6865399944051244e-05,
+          "surface_p95_fraction": 0.0,
+          "bounds_drift_fraction": 0.0,
+          "nonmanifold_edges": 0,
+          "samples": 6353
+        },
+        "textures": [],
+        "material_transfer": "preserved_source_uvs_and_materials",
+        "deformation": [
+          {
+            "clip": "death",
+            "samples": 3,
+            "max_fraction": 1.6933653713676248e-05,
+            "p95_fraction": 0.0
+          },
+          {
+            "clip": "hit",
+            "samples": 3,
+            "max_fraction": 2.1061866162469057e-05,
+            "p95_fraction": 0.0
+          },
+          {
+            "clip": "attack_01",
+            "samples": 3,
+            "max_fraction": 5.530855632849839e-05,
+            "p95_fraction": 0.0
+          },
+          {
+            "clip": "run",
+            "samples": 3,
+            "max_fraction": 2.9541906336967676e-05,
+            "p95_fraction": 0.0
+          },
+          {
+            "clip": "idle",
+            "samples": 3,
+            "max_fraction": 1.6896279656591787e-05,
+            "p95_fraction": 0.0
+          }
+        ],
+        "rejected_attempts": []
+      }
+    ],
+    "target_triangles": 12000,
+    "achieved_triangles": 11996,
+    "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+  },
+  "triangle_budget": 12000,
+  "achieved_triangles": 11996,
+  "budget_status": "within_target",
+  "processing_seconds": 6.118,
+  "blender_version": "5.2.2 LTS",
+  "visual_status": "pending",
+  "collision": "none",
+  "notes": [
+    "Source preserved; selected optimization mode and quality-guard results recorded in optimization.json",
+    "Existing skeleton and animation tracks preserved; no autorig invented"
+  ]
+}

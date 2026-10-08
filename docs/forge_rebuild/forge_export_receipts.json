@@ -1,0 +1,2485 @@
+{
+  "generator": "C:\\Users\\Tom\\Documents\\2D_to_3D",
+  "backend": "Local TripoSR",
+  "assets": [
+    {
+      "key": "weapon_jade",
+      "asset_id": "25e9dffe8c61",
+      "neural_candidate": "a6ef00476485",
+      "generation_job": "700249e473f7",
+      "finalized_candidate": "88a16f2d9a0f",
+      "editable_candidate": "1bb8a6215b7d",
+      "runtime": "game/assets/forge_rebuild/weapons/jade.glb",
+      "reference": "concepts_docs/art/gear_upgrades.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\25e9dffe8c61\\generated\\700249e473f7\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 256,
+        "texture_resolution": 2048,
+        "triangles": 12612,
+        "elapsed_seconds": 30.34,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 2628283904,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_meadow_wolf",
+      "asset_id": "ee4651b0a657",
+      "neural_candidate": "e25d0e8044a8",
+      "generation_job": "5b79127ea63e",
+      "finalized_candidate": "8006a1a23d83",
+      "editable_candidate": "1e91d6ae682c",
+      "runtime": "game/assets/forge_rebuild/mobs/meadow_wolf.glb",
+      "reference": "concepts_docs/art/bestiary_wolves_boars.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ee4651b0a657\\generated\\5b79127ea63e\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 256,
+        "texture_resolution": 2048,
+        "triangles": 114918,
+        "elapsed_seconds": 60.42,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 2628283904,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_young",
+      "asset_id": "9d4ebcf4d508",
+      "neural_candidate": "fd978633e226",
+      "generation_job": "9c92da3cee45",
+      "finalized_candidate": "a38ef785e810",
+      "editable_candidate": "d09d3eecd19c",
+      "runtime": "game/assets/forge_rebuild/mobs/young.glb",
+      "reference": "concepts_docs/art/bestiary_roots_stone.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\9d4ebcf4d508\\generated\\9c92da3cee45\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 256,
+        "texture_resolution": 2048,
+        "triangles": 150440,
+        "elapsed_seconds": 68.44,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 2628283904,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_bristle_boar",
+      "asset_id": "24aca4777c13",
+      "neural_candidate": "df3d2d7e3d54",
+      "generation_job": "238a9ba0592c",
+      "finalized_candidate": "f845aad48bdb",
+      "editable_candidate": "2281cd8489f7",
+      "runtime": "game/assets/forge_rebuild/mobs/bristle_boar.glb",
+      "reference": "concepts_docs/art/bestiary_wolves_boars.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\24aca4777c13\\generated\\238a9ba0592c\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 256,
+        "texture_resolution": 2048,
+        "triangles": 129246,
+        "elapsed_seconds": 74.86,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 2628283904,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_blue_wolf",
+      "asset_id": "f371a971a67b",
+      "neural_candidate": "d710e692ef05",
+      "generation_job": "5b33dca1b225",
+      "finalized_candidate": "d24b169d6874",
+      "editable_candidate": "01ab2840f0f8",
+      "runtime": "game/assets/forge_rebuild/mobs/blue_wolf.glb",
+      "reference": "concepts_docs/art/bestiary_wolf_variants.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\f371a971a67b\\generated\\5b33dca1b225\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 256,
+        "texture_resolution": 2048,
+        "triangles": 79794,
+        "elapsed_seconds": 49.14,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 2628283904,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_grown",
+      "asset_id": "be69deb13961",
+      "neural_candidate": "10b13bf0547c",
+      "generation_job": "95365a06a514",
+      "finalized_candidate": "60ae5d0acc08",
+      "editable_candidate": "208c2b9894a3",
+      "runtime": "game/assets/forge_rebuild/mobs/grown.glb",
+      "reference": "concepts_docs/art/bestiary_roots_stone.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\be69deb13961\\generated\\95365a06a514\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 256,
+        "texture_resolution": 2048,
+        "triangles": 297490,
+        "elapsed_seconds": 242.06,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 2628283904,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_reed_spider",
+      "asset_id": "a5d900e10fc7",
+      "neural_candidate": "2d5a681956a4",
+      "generation_job": "468cb43fec94",
+      "finalized_candidate": "41d971b00671",
+      "editable_candidate": "03446fbe23ca",
+      "runtime": "game/assets/forge_rebuild/mobs/reed_spider.glb",
+      "reference": "concepts_docs/art/bestiary_spiders_bandits.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\a5d900e10fc7\\generated\\468cb43fec94\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 256,
+        "texture_resolution": 2048,
+        "triangles": 93770,
+        "elapsed_seconds": 51.89,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 2628283904,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_red_wolf",
+      "asset_id": "bc89267d92d8",
+      "neural_candidate": "2799802215b5",
+      "generation_job": "53d134227feb",
+      "finalized_candidate": "cb0c5a43f757",
+      "editable_candidate": "2846391b1eae",
+      "runtime": "game/assets/forge_rebuild/mobs/red_wolf.glb",
+      "reference": "concepts_docs/art/bestiary_wolf_variants.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\bc89267d92d8\\generated\\53d134227feb\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 256,
+        "texture_resolution": 2048,
+        "triangles": 127414,
+        "elapsed_seconds": 59.66,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 2628283904,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_grey_wolf",
+      "asset_id": "bf2917c1f4d1",
+      "neural_candidate": "9d385b37cd9c",
+      "generation_job": "81f83b00ff84",
+      "finalized_candidate": "7a4bb7eada2b",
+      "editable_candidate": "f3f43fbc8626",
+      "runtime": "game/assets/forge_rebuild/mobs/grey_wolf.glb",
+      "reference": "concepts_docs/art/bestiary_wolf_variants.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\bf2917c1f4d1\\generated\\81f83b00ff84\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 256,
+        "texture_resolution": 2048,
+        "triangles": 127702,
+        "elapsed_seconds": 60.23,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 2628283904,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_ironback",
+      "asset_id": "a8de84fb41a6",
+      "neural_candidate": "54af0d15c922",
+      "generation_job": "29d668d60e12",
+      "finalized_candidate": "74e7699404fd",
+      "editable_candidate": "4888764cb533",
+      "runtime": "game/assets/forge_rebuild/mobs/ironback.glb",
+      "reference": "concepts_docs/art/bestiary_roots_stone.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\a8de84fb41a6\\generated\\29d668d60e12\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 64170,
+        "elapsed_seconds": 26.38,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_mire_boar",
+      "asset_id": "fce3e82bc244",
+      "neural_candidate": "e3b907534a8b",
+      "generation_job": "a0b09ab983dd",
+      "finalized_candidate": "c7f781c48130",
+      "editable_candidate": "e8234ca2620e",
+      "runtime": "game/assets/forge_rebuild/mobs/mire_boar.glb",
+      "reference": "concepts_docs/art/bestiary_remaining_variants.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\fce3e82bc244\\generated\\a0b09ab983dd\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 44060,
+        "elapsed_seconds": 22.62,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_copper_spider",
+      "asset_id": "a7960107c3f3",
+      "neural_candidate": "fe8d607d1a11",
+      "generation_job": "bee81843a748",
+      "finalized_candidate": "1767130aa3c5",
+      "editable_candidate": "a6fb01ebf988",
+      "runtime": "game/assets/forge_rebuild/mobs/copper_spider.glb",
+      "reference": "concepts_docs/art/bestiary_remaining_variants.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\a7960107c3f3\\generated\\bee81843a748\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 22140,
+        "elapsed_seconds": 16.92,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_moonfang",
+      "asset_id": "1e4fbad04427",
+      "neural_candidate": "281c27f4e198",
+      "generation_job": "3a180867949c",
+      "finalized_candidate": "e40abe8e7765",
+      "editable_candidate": "d835d55d5d2a",
+      "runtime": "game/assets/forge_rebuild/mobs/moonfang.glb",
+      "reference": "concepts_docs/art/bestiary_wolves_boars.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\1e4fbad04427\\generated\\3a180867949c\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 30840,
+        "elapsed_seconds": 18.76,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_road_bandit",
+      "asset_id": "3da27c1996c8",
+      "neural_candidate": "f225d8f0e4bb",
+      "generation_job": "18b5c21c53ff",
+      "finalized_candidate": "dcebc456ca59",
+      "editable_candidate": "dc8ccb554642",
+      "runtime": "game/assets/forge_rebuild/mobs/road_bandit.glb",
+      "reference": "concepts_docs/art/bestiary_spiders_bandits.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\3da27c1996c8\\generated\\18b5c21c53ff\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 23770,
+        "elapsed_seconds": 16.95,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_thicket_wolf",
+      "asset_id": "5b37d6f774cd",
+      "neural_candidate": "e3422e2b0744",
+      "generation_job": "8f52fc1a36cb",
+      "finalized_candidate": "152c88fa8df4",
+      "editable_candidate": "c6af2358dbe7",
+      "runtime": "game/assets/forge_rebuild/mobs/thicket_wolf.glb",
+      "reference": "concepts_docs/art/bestiary_wolf_variants.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\5b37d6f774cd\\generated\\8f52fc1a36cb\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 31662,
+        "elapsed_seconds": 18.2,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_blacktusk",
+      "asset_id": "c3ce280241da",
+      "neural_candidate": "87bc852936c6",
+      "generation_job": "377c8b081638",
+      "finalized_candidate": "af08192cd403",
+      "editable_candidate": "612eec9f42cf",
+      "runtime": "game/assets/forge_rebuild/mobs/blacktusk.glb",
+      "reference": "concepts_docs/art/bestiary_wolves_boars.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\c3ce280241da\\generated\\377c8b081638\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 33720,
+        "elapsed_seconds": 21.26,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_venom_spider",
+      "asset_id": "7386fddb5cc0",
+      "neural_candidate": "3cec3bdcaa25",
+      "generation_job": "a269e6e1c20b",
+      "finalized_candidate": "9c36601deeec",
+      "editable_candidate": "2d119e05753e",
+      "runtime": "game/assets/forge_rebuild/mobs/venom_spider.glb",
+      "reference": "concepts_docs/art/bestiary_remaining_variants.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\7386fddb5cc0\\generated\\a269e6e1c20b\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 27696,
+        "elapsed_seconds": 16.95,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_slate_guardian",
+      "asset_id": "39bc98234d3c",
+      "neural_candidate": "d071a279c5ab",
+      "generation_job": "5050d7055d68",
+      "finalized_candidate": "a4da9435c35e",
+      "editable_candidate": "1376525f521b",
+      "runtime": "game/assets/forge_rebuild/mobs/slate_guardian.glb",
+      "reference": "concepts_docs/art/bestiary_remaining_variants.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\39bc98234d3c\\generated\\5050d7055d68\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 41340,
+        "elapsed_seconds": 19.7,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_hollow_raider",
+      "asset_id": "da118157fabd",
+      "neural_candidate": "a9cc4f13b809",
+      "generation_job": "1e7c9fed737d",
+      "finalized_candidate": "f8e1f5cfe763",
+      "editable_candidate": "edcdcfc47143",
+      "runtime": "game/assets/forge_rebuild/mobs/hollow_raider.glb",
+      "reference": "concepts_docs/art/bestiary_spiders_bandits.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\da118157fabd\\generated\\1e7c9fed737d\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 26810,
+        "elapsed_seconds": 16.86,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_cinder_wisp",
+      "asset_id": "6c83aaf94df9",
+      "neural_candidate": "0477d2270b11",
+      "generation_job": "0258ca598374",
+      "finalized_candidate": "81c27a81ea80",
+      "editable_candidate": "9f1523efdfa3",
+      "runtime": "game/assets/forge_rebuild/mobs/cinder_wisp.glb",
+      "reference": "concepts_docs/art/bestiary_remaining_variants.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\6c83aaf94df9\\generated\\0258ca598374\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 12092,
+        "elapsed_seconds": 16.59,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_frost_wolf",
+      "asset_id": "a65fb033b2b5",
+      "neural_candidate": "279d5ffee6c1",
+      "generation_job": "01eed12d5830",
+      "finalized_candidate": "6c30b1554239",
+      "editable_candidate": "83187c73b34e",
+      "runtime": "game/assets/forge_rebuild/mobs/frost_wolf.glb",
+      "reference": "concepts_docs/art/bestiary_wolf_variants.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\a65fb033b2b5\\generated\\01eed12d5830\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 29532,
+        "elapsed_seconds": 20.11,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_ironhide_boar",
+      "asset_id": "90c5a8203d35",
+      "neural_candidate": "dc10574213d5",
+      "generation_job": "ad1c57635771",
+      "finalized_candidate": "59cfc95dfe84",
+      "editable_candidate": "b1fab80cdddc",
+      "runtime": "game/assets/forge_rebuild/mobs/ironhide_boar.glb",
+      "reference": "concepts_docs/art/bestiary_remaining_variants.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\90c5a8203d35\\generated\\ad1c57635771\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 38454,
+        "elapsed_seconds": 19.97,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_silk_matron",
+      "asset_id": "1864e5f9a8de",
+      "neural_candidate": "4c33e3a451ac",
+      "generation_job": "1167d1a63be8",
+      "finalized_candidate": "c0a39b60c8a2",
+      "editable_candidate": "88d46a831e4d",
+      "runtime": "game/assets/forge_rebuild/mobs/silk_matron.glb",
+      "reference": "concepts_docs/art/bestiary_spiders_bandits.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\1864e5f9a8de\\generated\\1167d1a63be8\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 25920,
+        "elapsed_seconds": 16.7,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_ash_bandit",
+      "asset_id": "41620ef2f583",
+      "neural_candidate": "1157b359a54d",
+      "generation_job": "2384872e540b",
+      "finalized_candidate": "8b851b9076c7",
+      "editable_candidate": "6ede35afa4b6",
+      "runtime": "game/assets/forge_rebuild/mobs/ash_bandit.glb",
+      "reference": "concepts_docs/art/bestiary_remaining_variants.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\41620ef2f583\\generated\\2384872e540b\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 23352,
+        "elapsed_seconds": 16.59,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_grave_wisp",
+      "asset_id": "915717fb409c",
+      "neural_candidate": "8febddea2ef2",
+      "generation_job": "d2a47d7cf133",
+      "finalized_candidate": "f6ca682d9550",
+      "editable_candidate": "e9edda0053ac",
+      "runtime": "game/assets/forge_rebuild/mobs/grave_wisp.glb",
+      "reference": "concepts_docs/art/bestiary_wisps_elites.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\915717fb409c\\generated\\d2a47d7cf133\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 27110,
+        "elapsed_seconds": 18.02,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_ember_hound",
+      "asset_id": "24bbdd266ef7",
+      "neural_candidate": "f26ecaeae2d4",
+      "generation_job": "d04ac7434c61",
+      "finalized_candidate": "12872883a6d1",
+      "editable_candidate": "51b4707f016f",
+      "runtime": "game/assets/forge_rebuild/mobs/ember_hound.glb",
+      "reference": "concepts_docs/art/bestiary_wolves_boars.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\24bbdd266ef7\\generated\\d04ac7434c61\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 29900,
+        "elapsed_seconds": 18.34,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_cairn_sentinel",
+      "asset_id": "fab34a29d253",
+      "neural_candidate": "cf1857c6f1a4",
+      "generation_job": "e3ee0599010f",
+      "finalized_candidate": "1edd2774d53c",
+      "editable_candidate": "ea1d13dc43e3",
+      "runtime": "game/assets/forge_rebuild/mobs/cairn_sentinel.glb",
+      "reference": "concepts_docs/art/bestiary_roots_stone.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\fab34a29d253\\generated\\e3ee0599010f\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 18642,
+        "elapsed_seconds": 14.51,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_glass_spider",
+      "asset_id": "bb0293d6c5dd",
+      "neural_candidate": "eb819f62eaaf",
+      "generation_job": "f4409d96e1c6",
+      "finalized_candidate": "66977e1ee6b4",
+      "editable_candidate": "c5ca99f9f278",
+      "runtime": "game/assets/forge_rebuild/mobs/glass_spider.glb",
+      "reference": "concepts_docs/art/bestiary_spiders_bandits.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\bb0293d6c5dd\\generated\\f4409d96e1c6\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 22814,
+        "elapsed_seconds": 16.86,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_dusk_stalker",
+      "asset_id": "58f27b841ca0",
+      "neural_candidate": "b128a50e9c01",
+      "generation_job": "b82f24a0964b",
+      "finalized_candidate": "d4b9dd8e67d8",
+      "editable_candidate": "b0d43cc12fa0",
+      "runtime": "game/assets/forge_rebuild/mobs/dusk_stalker.glb",
+      "reference": "concepts_docs/art/bestiary_wisps_elites.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\58f27b841ca0\\generated\\b82f24a0964b\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 21392,
+        "elapsed_seconds": 18.12,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_bloodfang",
+      "asset_id": "91797c8ee80e",
+      "neural_candidate": "2204c0dfc58f",
+      "generation_job": "9d30e36141dc",
+      "finalized_candidate": "684a748eef22",
+      "editable_candidate": "2650d8b400b2",
+      "runtime": "game/assets/forge_rebuild/mobs/bloodfang.glb",
+      "reference": "concepts_docs/art/bestiary_wolf_variants.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\91797c8ee80e\\generated\\9d30e36141dc\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 32264,
+        "elapsed_seconds": 18.06,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_ash_wisp",
+      "asset_id": "3b78b097b403",
+      "neural_candidate": "8cbce541045a",
+      "generation_job": "c635e0f3cb17",
+      "finalized_candidate": "b1ca84c87aa7",
+      "editable_candidate": "2913f2a212df",
+      "runtime": "game/assets/forge_rebuild/mobs/ash_wisp.glb",
+      "reference": "concepts_docs/art/bestiary_wisps_elites.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\3b78b097b403\\generated\\c635e0f3cb17\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 35010,
+        "elapsed_seconds": 18.88,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_obsidian_boar",
+      "asset_id": "f28923cac8f0",
+      "neural_candidate": "b66718565354",
+      "generation_job": "7e3ea6875c54",
+      "finalized_candidate": "161fed210fe5",
+      "editable_candidate": "cc17ee3e7094",
+      "runtime": "game/assets/forge_rebuild/mobs/obsidian_boar.glb",
+      "reference": "concepts_docs/art/bestiary_wolves_boars.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\f28923cac8f0\\generated\\7e3ea6875c54\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 42212,
+        "elapsed_seconds": 22.56,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_widow_spider",
+      "asset_id": "b0f063b73f3f",
+      "neural_candidate": "b0a1178b7a70",
+      "generation_job": "52bef84f72de",
+      "finalized_candidate": "18563c1fbbd7",
+      "editable_candidate": "b4661510f7d2",
+      "runtime": "game/assets/forge_rebuild/mobs/widow_spider.glb",
+      "reference": "concepts_docs/art/bestiary_wisps_elites.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\b0f063b73f3f\\generated\\52bef84f72de\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 25296,
+        "elapsed_seconds": 17.39,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_exile_captain",
+      "asset_id": "85e3c4624fe9",
+      "neural_candidate": "4f2a512cc14f",
+      "generation_job": "41ac7f11e644",
+      "finalized_candidate": "bfb545e9df2c",
+      "editable_candidate": "0de406394d08",
+      "runtime": "game/assets/forge_rebuild/mobs/exile_captain.glb",
+      "reference": "concepts_docs/art/bestiary_spiders_bandits.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\85e3c4624fe9\\generated\\41ac7f11e644\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 30268,
+        "elapsed_seconds": 17.16,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_storm_wisp",
+      "asset_id": "37007ec74472",
+      "neural_candidate": "49de1393cfed",
+      "generation_job": "1a903fdd3d8c",
+      "finalized_candidate": "9abfb8a9b788",
+      "editable_candidate": "3fd473dd5c70",
+      "runtime": "game/assets/forge_rebuild/mobs/storm_wisp.glb",
+      "reference": "concepts_docs/art/bestiary_wisps_elites.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\37007ec74472\\generated\\1a903fdd3d8c\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 22448,
+        "elapsed_seconds": 18.61,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_rift_sentinel",
+      "asset_id": "f41881d328e4",
+      "neural_candidate": "617e94b04012",
+      "generation_job": "3b805419d89b",
+      "finalized_candidate": "c3efce45f362",
+      "editable_candidate": "7487966136f9",
+      "runtime": "game/assets/forge_rebuild/mobs/rift_sentinel.glb",
+      "reference": "concepts_docs/art/bestiary_roots_stone.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\f41881d328e4\\generated\\3b805419d89b\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 27092,
+        "elapsed_seconds": 15.83,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_ancient_warden",
+      "asset_id": "55bd257c0ecc",
+      "neural_candidate": "d850158bf8ce",
+      "generation_job": "871b60b5ce96",
+      "finalized_candidate": "5893723f543d",
+      "editable_candidate": "d131fbe60ac8",
+      "runtime": "game/assets/forge_rebuild/mobs/ancient_warden.glb",
+      "reference": "concepts_docs/art/bestiary_wisps_elites.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\55bd257c0ecc\\generated\\871b60b5ce96\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 41836,
+        "elapsed_seconds": 20.19,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "mob_cairn_colossus",
+      "asset_id": "570846ea40ec",
+      "neural_candidate": "4f82d55c27c6",
+      "generation_job": "ce5df1e8f2a7",
+      "finalized_candidate": "a9b272d59df0",
+      "editable_candidate": "7a38b6cf4adc",
+      "runtime": "game/assets/forge_rebuild/mobs/cairn_colossus.glb",
+      "reference": "concepts_docs/art/bestiary_roots_stone.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\570846ea40ec\\generated\\ce5df1e8f2a7\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 39364,
+        "elapsed_seconds": 23.14,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "hero_ironvow",
+      "asset_id": "96e72c50d51d",
+      "neural_candidate": "faee4e56c7f9",
+      "generation_job": "6582dbf638c4",
+      "finalized_candidate": "5a60235b6531",
+      "editable_candidate": "c774d8770056",
+      "runtime": "game/assets/characters/warden_high.glb",
+      "reference": "concepts_docs/art/forge_references/hero_ironvow.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\96e72c50d51d\\generated\\6582dbf638c4\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 256,
+        "texture_resolution": 2048,
+        "triangles": 59790,
+        "elapsed_seconds": 43.41,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 2628283904,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "horse_bay",
+      "asset_id": "7e7d7e05f6f9",
+      "neural_candidate": "ac1652efef43",
+      "generation_job": "fa93e68c879f",
+      "finalized_candidate": "94472ff31c78",
+      "editable_candidate": "8e619d9d8f8d",
+      "runtime": "game/assets/mounts/trail_horse.glb",
+      "reference": "concepts_docs/art/forge_references/horse_bay.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\7e7d7e05f6f9\\generated\\fa93e68c879f\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 256,
+        "texture_resolution": 2048,
+        "triangles": 76424,
+        "elapsed_seconds": 54.16,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 2628283904,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "tree_pine",
+      "asset_id": "c91ab84343a8",
+      "neural_candidate": "60bd8efb92f4",
+      "generation_job": "71fab1f8574e",
+      "finalized_candidate": "c546a27e924a",
+      "editable_candidate": "10ffa874db4d",
+      "runtime": "game/assets/world_kit/tree0.glb",
+      "reference": "concepts_docs/art/forge_references/tree_cutout.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\c91ab84343a8\\generated\\71fab1f8574e\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 256,
+        "texture_resolution": 2048,
+        "triangles": 188530,
+        "elapsed_seconds": 74.67,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 2628283904,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "rock_slate",
+      "asset_id": "390757041a11",
+      "neural_candidate": "738c6b13f772",
+      "generation_job": "5d1b26a4e841",
+      "finalized_candidate": "2ce7a69736a9",
+      "editable_candidate": "a957baff647b",
+      "runtime": "game/assets/world_kit/rock0.glb",
+      "reference": "concepts_docs/art/forge_references/rock_reference.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\390757041a11\\generated\\5d1b26a4e841\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 256,
+        "texture_resolution": 2048,
+        "triangles": 188462,
+        "elapsed_seconds": 177.45,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 2628283904,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "shrub_reference",
+      "asset_id": "825ead3127e3",
+      "neural_candidate": "b0743b3f27ca",
+      "generation_job": "324ddd579e3c",
+      "finalized_candidate": "b23fe9ae6736",
+      "editable_candidate": "ff6aa47e7311",
+      "runtime": "game/assets/world_kit/shrub.glb",
+      "reference": "concepts_docs/art/forge_references/shrub_reference.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\825ead3127e3\\generated\\324ddd579e3c\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 38510,
+        "elapsed_seconds": 25.05,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "fern_reference",
+      "asset_id": "e89698c5b2d1",
+      "neural_candidate": "41ae73ed8ac1",
+      "generation_job": "d47d86d52e46",
+      "finalized_candidate": "c9dc8643a509",
+      "editable_candidate": "d3087c7ed261",
+      "runtime": "game/assets/world_kit/fern.glb",
+      "reference": "concepts_docs/art/forge_references/fern_reference.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\e89698c5b2d1\\generated\\d47d86d52e46\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 17070,
+        "elapsed_seconds": 16.76,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "house_reference",
+      "asset_id": "28ab4ff6501b",
+      "neural_candidate": "c2b5ccc6d7d5",
+      "generation_job": "19b800b96203",
+      "finalized_candidate": "a4e0f860c285",
+      "editable_candidate": "3f161d07cf1c",
+      "runtime": "game/assets/forge_rebuild/world/house.glb",
+      "reference": "concepts_docs/art/forge_references/house_reference.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\28ab4ff6501b\\generated\\19b800b96203\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 46502,
+        "elapsed_seconds": 35.56,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "npc_keeper",
+      "asset_id": "fb68f0aeebe6",
+      "neural_candidate": "57d0c38968d0",
+      "generation_job": "c40242822b4d",
+      "finalized_candidate": "07d80c526355",
+      "editable_candidate": "5288e13bd3f6",
+      "runtime": "game/assets/forge_rebuild/npcs/keeper.glb",
+      "reference": "concepts_docs/art/forge_references/npc_keeper.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\fb68f0aeebe6\\generated\\c40242822b4d\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 12552,
+        "elapsed_seconds": 16.44,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "dead_tree",
+      "asset_id": "440604ba5f25",
+      "neural_candidate": "feb69594879f",
+      "generation_job": "3832c9296684",
+      "finalized_candidate": "b1a66f0f1e71",
+      "editable_candidate": "cc872b64858f",
+      "runtime": "game/assets/world_kit/dead_tree.glb",
+      "reference": "concepts_docs/art/forge_references/dead_tree.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\440604ba5f25\\generated\\3832c9296684\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 22736,
+        "elapsed_seconds": 16.25,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "fallen_log",
+      "asset_id": "ad67cb7fa0d1",
+      "neural_candidate": "4a24bc20337c",
+      "generation_job": "419928a4e8a6",
+      "finalized_candidate": "3aab98857512",
+      "editable_candidate": "4b3c13d7b4ab",
+      "runtime": "game/assets/world_kit/log.glb",
+      "reference": "concepts_docs/art/forge_references/fallen_log.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ad67cb7fa0d1\\generated\\419928a4e8a6\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 23052,
+        "elapsed_seconds": 24.02,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "watchtower",
+      "asset_id": "f6dde5ac99fe",
+      "neural_candidate": "fda3001398d1",
+      "generation_job": "055be5ee45f0",
+      "finalized_candidate": "debaa53898c9",
+      "editable_candidate": "5782fa56b664",
+      "runtime": "game/assets/world_kit/watchtower.glb",
+      "reference": "concepts_docs/art/forge_references/watchtower.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\f6dde5ac99fe\\generated\\055be5ee45f0\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 34242,
+        "elapsed_seconds": 20.64,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "npc_smith",
+      "asset_id": "62040047b53f",
+      "neural_candidate": "b1b216fa4245",
+      "generation_job": "1f3ba975cfb2",
+      "finalized_candidate": "691bbbefb91f",
+      "editable_candidate": "1da3e933719e",
+      "runtime": "game/assets/forge_rebuild/npcs/smith.glb",
+      "reference": "concepts_docs/art/forge_references/npc_smith.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\62040047b53f\\generated\\1f3ba975cfb2\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 14790,
+        "elapsed_seconds": 15.72,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "shrine",
+      "asset_id": "ad68a7ed83ab",
+      "neural_candidate": "a4b595453b19",
+      "generation_job": "34723204d1a3",
+      "finalized_candidate": "773890a293cb",
+      "editable_candidate": "9f17b5619575",
+      "runtime": "game/assets/world_kit/shrine.glb",
+      "reference": "concepts_docs/art/forge_references/shrine.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\ad68a7ed83ab\\generated\\34723204d1a3\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 47250,
+        "elapsed_seconds": 24.81,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "tent",
+      "asset_id": "6a21f2cb5775",
+      "neural_candidate": "a7ca07025a51",
+      "generation_job": "fd32813e215e",
+      "finalized_candidate": "e66523ad5484",
+      "editable_candidate": "5a27103e5d22",
+      "runtime": "game/assets/world_kit/tent.glb",
+      "reference": "concepts_docs/art/forge_references/tent.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\6a21f2cb5775\\generated\\fd32813e215e\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 36672,
+        "elapsed_seconds": 30.0,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "ruin_arch",
+      "asset_id": "5497e23fb588",
+      "neural_candidate": "f1782d52c5fc",
+      "generation_job": "22d4b2e396b9",
+      "finalized_candidate": "36c1492b4766",
+      "editable_candidate": "1357471c26ff",
+      "runtime": "game/assets/world_kit/ruin_arch.glb",
+      "reference": "concepts_docs/art/forge_references/ruin_arch.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\5497e23fb588\\generated\\22d4b2e396b9\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 32960,
+        "elapsed_seconds": 21.66,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "npc_stablemaster",
+      "asset_id": "45f6c569708b",
+      "neural_candidate": "da0fc15b837c",
+      "generation_job": "1f68242926c0",
+      "finalized_candidate": "5a1309ebf1f7",
+      "editable_candidate": "545ce004415f",
+      "runtime": "game/assets/forge_rebuild/npcs/stablemaster.glb",
+      "reference": "concepts_docs/art/forge_references/npc_stablemaster.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\45f6c569708b\\generated\\1f68242926c0\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 11948,
+        "elapsed_seconds": 14.83,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "grass",
+      "asset_id": "7bb6aaf07f27",
+      "neural_candidate": "5cafb3c2ab87",
+      "generation_job": "d0f289ebcb5a",
+      "finalized_candidate": "2232d5d17329",
+      "editable_candidate": "f9a153714034",
+      "runtime": "game/assets/world_kit/grass.glb",
+      "reference": "concepts_docs/art/forge_references/grass.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\7bb6aaf07f27\\generated\\d0f289ebcb5a\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 18360,
+        "elapsed_seconds": 17.62,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "fracture",
+      "asset_id": "5bda526a30eb",
+      "neural_candidate": "a96716ed187d",
+      "generation_job": "dfa542125ad6",
+      "finalized_candidate": "1018fffd9a2d",
+      "editable_candidate": "c72103c32ee0",
+      "runtime": "game/assets/benchmark/briarwake.glb",
+      "reference": "concepts_docs/art/forge_references/fracture.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\5bda526a30eb\\generated\\dfa542125ad6\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 38940,
+        "elapsed_seconds": 18.62,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "coin",
+      "asset_id": "558755f812de",
+      "neural_candidate": "3c280a562374",
+      "generation_job": "c64a6c9a6b52",
+      "finalized_candidate": "bcd7fb836958",
+      "editable_candidate": "b097682815e7",
+      "runtime": "game/assets/weapons/gold_coin.glb",
+      "reference": "concepts_docs/art/forge_references/coin.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\558755f812de\\generated\\c64a6c9a6b52\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 24404,
+        "elapsed_seconds": 26.64,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "crate",
+      "asset_id": "577f3e14376a",
+      "neural_candidate": "b6879d020737",
+      "generation_job": "330f5f3093f4",
+      "finalized_candidate": "a18696528892",
+      "editable_candidate": "f8ee3bdbc060",
+      "runtime": "game/assets/forge_rebuild/world/crate.glb",
+      "reference": "concepts_docs/art/forge_references/crate.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\577f3e14376a\\generated\\330f5f3093f4\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 47360,
+        "elapsed_seconds": 36.83,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    },
+    {
+      "key": "bridge",
+      "asset_id": "5e5c4e84ecae",
+      "neural_candidate": "0ade45f33c41",
+      "generation_job": "453680ea18d5",
+      "finalized_candidate": "0e2ebf0ab581",
+      "editable_candidate": "956a48648c9f",
+      "runtime": "game/assets/forge_rebuild/world/bridge.glb",
+      "reference": "concepts_docs/art/forge_references/bridge.png",
+      "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\5e5c4e84ecae\\generated\\453680ea18d5\\source.glb",
+      "generation_metadata": {
+        "model": "stabilityai/TripoSR",
+        "weights_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+        "repo_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+        "license": "MIT",
+        "device": "cuda:0",
+        "torch": "2.5.1+cu124",
+        "resolution": 128,
+        "texture_resolution": 1024,
+        "triangles": 14016,
+        "elapsed_seconds": 19.41,
+        "material_defaults": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 1,
+          "predicted_pbr": false
+        },
+        "peak_vram_bytes": 1957210624,
+        "coordinate_convention": "+Y up, -Z front (upstream Gradio orientation)",
+        "limitations": [
+          "Single-view inferred hidden surfaces",
+          "512 px neural conditioning",
+          "Base color only; baked lighting may remain",
+          "No rig or part semantics"
+        ]
+      }
+    }
+  ],
+  "visual_acceptance": "Agent inspected Godot renders. Forge human review remains pending."
+}

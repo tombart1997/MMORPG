@@ -140,6 +140,7 @@ func _ready() -> void:
 	var plaque := _panel(root, Vector2(-206,188),Vector2(202,48))
 	plaque.set_anchors_preset(Control.PRESET_TOP_RIGHT,true)
 	location_label = _label(plaque, Vector2(8, 6), 11)
+	location_label.add_theme_font_size_override("font_size",12)
 	location_label.size=Vector2(186,36)
 	location_label.clip_text = true
 	location_label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
@@ -215,7 +216,6 @@ func _process(_delta: float) -> void:
 		target_hp.max_value=target.health.maximum
 		target_hp.value=target.health.current
 	location_label.text=player.map_state.region.display_name.to_upper() + "\n" + player.map_state.subarea()
-	location_label.add_theme_font_size_override("font_size",12)
 	location_label.visible=not debug_visible
 	controls.get_parent().visible=debug_visible
 	currency.visible=not debug_visible
@@ -225,19 +225,20 @@ func _process(_delta: float) -> void:
 	xp.value = progress.xp
 	encounters.visible = debug_visible
 	encounters.get_parent().visible = debug_visible
-	encounters.text = "BRIARWOOD MARCH\n"
-	for camp in zone.camps:
-		if camp.global_position.distance_to(player.global_position) > 40: continue
-		var status := "%d alive" % camp.pack.living_count()
-		if camp.remaining >= 0:
-			status = "clear / %ds" % ceili(camp.remaining) if camp.remaining > 0 else "leave to respawn"
-		encounters.text += "%s: %s\n" % [camp.camp_name, status]
-	encounters.text += "Gold %d   Shards %d   Tonics %d" % [inventory.gold,
-		inventory.count(&"moss_shard"), inventory.count(&"field_tonic")]
-	if player.farming:
-		var fracture := player.farming.encounter
-		encounters.text += "\nBriarwake: wave %d / defenders %d / return %.0fs" % [fracture.next_wave, fracture.living_defenders(), fracture.remaining]
-	controls.text = "LMB travel / interact / target | RMB orbit\nWASD move | Space auto on/off | 1-6 skills\nI bag | J quests | M map | E interact\nQ/F consumables | H mount\nF5/F9 save/load | F3 debug | F6 Turnwarden\nGold %d | Tonics %d" % [inventory.gold, inventory.count(&"field_tonic")]
+	if debug_visible:
+		encounters.text = "BRIARWOOD MARCH\n"
+		for camp in zone.camps:
+			if camp.global_position.distance_to(player.global_position) > 40: continue
+			var status := "%d alive" % camp.pack.living_count()
+			if camp.remaining >= 0:
+				status = "clear / %ds" % ceili(camp.remaining) if camp.remaining > 0 else "leave to respawn"
+			encounters.text += "%s: %s\n" % [camp.camp_name, status]
+		encounters.text += "Gold %d   Shards %d   Tonics %d" % [inventory.gold,
+			inventory.count(&"moss_shard"), inventory.count(&"field_tonic")]
+		if player.farming:
+			var fracture := player.farming.encounter
+			encounters.text += "\nBriarwake: wave %d / defenders %d / return %.0fs" % [fracture.next_wave, fracture.living_defenders(), fracture.remaining]
+		controls.text = "LMB travel / interact / target | RMB orbit\nWASD move | Space auto on/off | 1-6 skills\nI bag | J quests | M map | E interact\nQ/F consumables | H mount\nF5/F9 save/load | F3 debug | F6 Turnwarden\nGold %d | Tonics %d" % [inventory.gold, inventory.count(&"field_tonic")]
 	local_log.visible = not debug_visible
 	notice_flame.visible = zone.notice_time > 0 or not player.health.is_alive()
 	if debug_visible: controls.text += "   |   %s / Hits %d / Kills %d" % [player.combat.phase_name(), player.combat.swing_hits, progress.kills]

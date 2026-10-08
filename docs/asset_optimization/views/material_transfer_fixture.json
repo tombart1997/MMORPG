@@ -1,0 +1,13 @@
+{
+  "assets": [
+    {
+      "name": "Synthetic verification only / source 3968",
+      "path": "res://review_assets/optimization/fixture_source.glb"
+    },
+    {
+      "name": "Synthetic verification only / remesh 2496",
+      "path": "res://review_assets/optimization/fixture_quads.glb"
+    }
+  ],
+  "output": "D:\\Games\\Metin2Clone\\docs\\asset_optimization\\views\\material_transfer_fixture.png"
+}

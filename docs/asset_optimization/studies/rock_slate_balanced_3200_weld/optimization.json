@@ -1,0 +1,26 @@
+{
+  "mode": "balanced",
+  "source_preserved": true,
+  "objects": [
+    {
+      "name": "Forge_rock_slate",
+      "before": 4860,
+      "target": 3200,
+      "status": "quality_guard_kept_source",
+      "after": 4860,
+      "rejected_attempts": [
+        {
+          "method": "quad_remesh",
+          "reason": "QuadriFlow did not replace this surface"
+        },
+        {
+          "method": "simplify",
+          "reason": "Surface quality guard rejected the reduction: {'surface_max_fraction': 0.054542691207650984, 'surface_p95_fraction': 0.002918545731452288, 'bounds_drift_fraction': 0.003991341768746552, 'nonmanifold_edges': 0, 'samples': 8761}"
+        }
+      ]
+    }
+  ],
+  "target_triangles": 3200,
+  "achieved_triangles": 4860,
+  "note": "Automatic quad remeshing is available; authored joint loops, anatomy repair and animation acceptance still require review."
+}

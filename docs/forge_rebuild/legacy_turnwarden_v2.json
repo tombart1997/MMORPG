@@ -1,0 +1,44 @@
+{
+  "key": "legacy_turnwarden_v2",
+  "forge_asset_id": "96e72c50d51d",
+  "generated_source": "C:\\Users\\Tom\\Documents\\2D_to_3D\\data\\assets\\96e72c50d51d\\generated\\6582dbf638c4\\source.glb",
+  "rig_source": "blender/characters/turnwarden_v2.blend",
+  "export": "D:\\Games\\Metin2Clone\\game\\assets\\characters\\turnwarden_v2.glb",
+  "editable": "D:\\Games\\Metin2Clone\\blender\\forge_rebuild\\editable\\legacy_turnwarden_v2.blend",
+  "yaw": 0,
+  "bounds": [
+    [
+      -0.4479292333126068,
+      -0.14783695340156555,
+      0.0
+    ],
+    [
+      0.4479292333126068,
+      0.27036166191101074,
+      1.8899999856948853
+    ]
+  ],
+  "optimization": [
+    {
+      "before": 59788,
+      "after": 41998,
+      "extent_drift": 0.0
+    }
+  ],
+  "bones": 18,
+  "clips": [
+    "idle",
+    "run",
+    "attack_01",
+    "hit",
+    "death",
+    "attack_02",
+    "attack_03",
+    "skill_guard",
+    "skill_step",
+    "skill_plant",
+    "skill_riposte"
+  ],
+  "reused_original_meshes": [],
+  "status": "exported_for_visual_review"
+}
