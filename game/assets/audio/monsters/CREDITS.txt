@@ -1,0 +1,18 @@
+Ironfield creature voices
+
+CC0 recordings by Joseph SARDIN / BigSoundBank:
+1544 - Dogs barking and crying #1 (crying dog excerpts, wolf hurt/death)
+https://bigsoundbank.com/dogs-barking-and-crying-1-s1544.html
+0682 - Barking of a Spitz (pitched down for wolf attack growls)
+https://bigsoundbank.com/barking-of-a-spitz-s0682.html
+1659 - Grumpy Pig, with the Mouth #2 (performed pig imitation, boar grunts)
+https://bigsoundbank.com/grumpy-pig-2-s1659.html
+0305 - Creaking closet door (wood resonance for mossling voices)
+https://bigsoundbank.com/creaking-closet-door-s0305.html
+1299 - Broken twigs #1 (mossling bark and splinters)
+https://bigsoundbank.com/broken-twigs-1-s1299.html
+License: CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/
+
+Mossling throat screams and boar pain squeals are original procedural vocals
+layered with the CC0 recordings. All excerpts are edited, filtered, faded and
+leveled by tools/build_monster_audio.py; no runtime network or synthesis.
